@@ -1,5 +1,4 @@
 import type { GameState } from "./types";
-import { MAX_GUESSES } from "./game";
 
 const PREFIX = "cargrid-state-";
 
@@ -35,4 +34,16 @@ function freshGameState(date: string, gridId: string): GameState {
     cells: Array.from({ length: 9 }, () => ({ solved: false, carId: null })),
     guessesUsed: 0,
   };
+}
+
+/** Saved state for a date, or null if that puzzle has never been opened. */
+export function peekGameState(date: string, gridId: string): GameState | null {
+  try {
+    const raw = localStorage.getItem(key(date));
+    if (!raw) return null;
+    const state = JSON.parse(raw) as GameState;
+    return state.date === date && state.gridId === gridId ? state : null;
+  } catch {
+    return null;
+  }
 }

@@ -1,0 +1,1325 @@
+{
+  "ford-mustang-g1": {
+    "file": "/cars/ford-mustang-g1.webp",
+    "article": "Ford Mustang (first generation)",
+    "matched": "generation-article",
+    "license": "CC BY-SA 3.0",
+    "artist": "Kroelleboelle",
+    "source": "https://commons.wikimedia.org/wiki/File:1965_Ford_Mustang_2D_Hardtop_Front.jpg",
+    "verified": true
+  },
+  "porsche-911-g1": {
+    "file": "/cars/porsche-911-g1.webp",
+    "article": "Porsche 911 (classic)",
+    "matched": "generation-article",
+    "license": "CC BY-SA 3.0",
+    "artist": "Charles01",
+    "source": "https://commons.wikimedia.org/wiki/File:Porsche_911E_ca_1969.jpg",
+    "verified": true
+  },
+  "toyota-corolla-g1": {
+    "file": "/cars/toyota-corolla-g1.webp",
+    "article": "Toyota Corolla (E10)",
+    "matched": "generation-article",
+    "license": "CC BY-SA 3.0",
+    "artist": "D.Bellwood",
+    "source": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_First-generation_001.jpg",
+    "verified": true
+  },
+  "dodge-viper-g1": {
+    "file": "/cars/dodge-viper-g1.webp",
+    "article": "Dodge Viper (SR I)",
+    "matched": "generation-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Alexander-93",
+    "source": "https://commons.wikimedia.org/wiki/File:Dodge_Viper_RT-10_1X7A6634.jpg",
+    "verified": true
+  },
+  "subaru-crosstrek-g1": {
+    "file": "/cars/subaru-crosstrek-g1.webp",
+    "article": "Commons category: Subaru XV (GP)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 3.0",
+    "artist": "Ralf Roletschek (talk) - Fahrradtechnik auf fahrradmonteur.de",
+    "source": "https://commons.wikimedia.org/wiki/File:11-09-04-iaa-by-RalfR-119.jpg",
+    "verified": true
+  },
+  "subaru-crosstrek-g2": {
+    "file": "/cars/subaru-crosstrek-g2.webp",
+    "article": "Commons category: Subaru XV (GT)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 4.0",
+    "artist": "AIMHO'S REBELLION 8490s",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_Subaru_XV_1.6i_light_blue_front_view_in_Brunei.jpg",
+    "verified": true
+  },
+  "subaru-crosstrek-g3": {
+    "file": "/cars/subaru-crosstrek-g3.webp",
+    "article": "Subaru Crosstrek",
+    "matched": "main-article",
+    "license": "CC BY-SA 3.0 de",
+    "artist": "© M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Subaru_Crosstrek_2.0ie_Active_(III)_%E2%80%93_f_31052025.jpg",
+    "verified": true
+  },
+  "bmw-m3-g1": {
+    "file": "/cars/bmw-m3-g1.webp",
+    "article": "Commons category: BMW M3 (E30)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1988_BMW_M3_in_Greenpoint,_front_right.jpg",
+    "verified": true
+  },
+  "toyota-supra-g1": {
+    "file": "/cars/toyota-supra-g1.webp",
+    "article": "Commons search: Toyota Celica Supra A40",
+    "matched": "commons-search",
+    "license": "CC BY 2.0",
+    "artist": "andreboeni",
+    "source": "https://commons.wikimedia.org/wiki/File:Toyota_Celica_Supra_(1981)_-_52368692420.jpg",
+    "verified": true
+  },
+  "toyota-camry-g1": {
+    "file": "/cars/toyota-camry-g1.webp",
+    "article": "Commons category: Toyota Camry (V10)",
+    "matched": "commons-category",
+    "license": "Public domain",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:1st_Toyota_Camry_hatch_--_05-18-2011_front.jpg",
+    "verified": true
+  },
+  "toyota-sienna-g1": {
+    "file": "/cars/toyota-sienna-g1.webp",
+    "article": "Commons category: Toyota Sienna (XL10)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 4.0",
+    "artist": "SsmIntrigue",
+    "source": "https://commons.wikimedia.org/wiki/File:2000_Toyota_Sienna_CE,_Front_Left,_05-28-2020.jpg",
+    "verified": true
+  },
+  "toyota-4runner-g1": {
+    "file": "/cars/toyota-4runner-g1.webp",
+    "article": "Commons category: Toyota 4Runner (N60)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1985_Toyota_4Runner,_canopy_off_(front_left).jpg",
+    "verified": true
+  },
+  "toyota-crown-g1": {
+    "file": "/cars/toyota-crown-g1.webp",
+    "article": "Commons category: Toyopet Crown",
+    "matched": "commons-category",
+    "license": "CC BY-SA 4.0",
+    "artist": "Tokumeigakarinoaoshima",
+    "source": "https://commons.wikimedia.org/wiki/File:The_frontview_of_Toyopet_Crown_1900_Deluxe_(RS31).jpg",
+    "verified": true
+  },
+  "toyota-yaris-g1": {
+    "file": "/cars/toyota-yaris-g1.webp",
+    "article": "Commons file: 1999 Toyota Yaris GLS 1.0 (Front).jpg",
+    "matched": "pinned",
+    "license": "CC BY-SA 4.0",
+    "artist": "DieselFordMondeo",
+    "source": "https://commons.wikimedia.org/wiki/File:1999_Toyota_Yaris_GLS_1.0_(Front).jpg",
+    "verified": true
+  },
+  "toyota-venza-g1": {
+    "file": "/cars/toyota-venza-g1.webp",
+    "article": "Commons category: Toyota Venza (AV10)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:2015_Toyota_Venza_XLE_in_Attitude_Black,_front_left_(cropped).jpg",
+    "verified": true
+  },
+  "toyota-highlander-g1": {
+    "file": "/cars/toyota-highlander-g1.webp",
+    "article": "Commons category: Toyota Highlander (XU20)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 4.0",
+    "artist": "SsmIntrigue",
+    "source": "https://commons.wikimedia.org/wiki/File:2001_Toyota_Highlander_Limited,_Front_Left,_05-29-2020_1.jpg",
+    "verified": true
+  },
+  "toyota-sequoia-g1": {
+    "file": "/cars/toyota-sequoia-g1.webp",
+    "article": "Commons search: 2001 Toyota Sequoia",
+    "matched": "commons-search",
+    "license": "CC BY 2.0",
+    "artist": "Rutger van der Maar",
+    "source": "https://commons.wikimedia.org/wiki/File:2001_Toyota_Sequoia_4.7_V8_SR5_(front).jpg",
+    "verified": true
+  },
+  "toyota-gr86-g1": {
+    "file": "/cars/toyota-gr86-g1.webp",
+    "article": "Toyota 86",
+    "matched": "main-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Elise240SX",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Toyota_GR86_Premium_in_Halo,_Front_Right,_04-10-2022.jpg",
+    "verified": true
+  },
+  "honda-ridgeline-g1": {
+    "file": "/cars/honda-ridgeline-g1.webp",
+    "article": "Commons search: 2006 Honda Ridgeline",
+    "matched": "commons-search",
+    "license": "Public domain",
+    "artist": "U.S. National Highway Traffic Safety Administration",
+    "source": "https://commons.wikimedia.org/wiki/File:2006_Honda_Ridgeline_RTS_--_NHTSA_1.jpg",
+    "verified": true
+  },
+  "honda-civic-g1": {
+    "file": "/cars/honda-civic-g1.webp",
+    "article": "Honda Civic (first generation)",
+    "matched": "generation-article",
+    "license": "CC BY 2.0",
+    "artist": "Kzaral[1]",
+    "source": "https://commons.wikimedia.org/wiki/File:Honda_Civic_CVCC.jpg",
+    "verified": true
+  },
+  "honda-fit-g1": {
+    "file": "/cars/honda-fit-g1.webp",
+    "article": "Honda Fit (first generation)",
+    "matched": "generation-article",
+    "license": "Public domain",
+    "artist": "TTTNIS",
+    "source": "https://commons.wikimedia.org/wiki/File:2001-2004_Honda_Fit.jpg",
+    "verified": true
+  },
+  "honda-odyssey-g1": {
+    "file": "/cars/honda-odyssey-g1.webp",
+    "article": "Commons search: 1995 Honda Odyssey",
+    "matched": "commons-search",
+    "license": "CC BY 2.0",
+    "artist": "Andrew Bone from Weymouth, England",
+    "source": "https://commons.wikimedia.org/wiki/File:Honda_Odyssey_(1995)_(51226893130).jpg",
+    "verified": true
+  },
+  "honda-pilot-g1": {
+    "file": "/cars/honda-pilot-g1.webp",
+    "article": "Commons search: 2003 Honda Pilot",
+    "matched": "commons-search",
+    "license": "Public domain",
+    "artist": "User:Bull-Doser",
+    "source": "https://commons.wikimedia.org/wiki/File:Honda_Pilot_2003-05.jpg",
+    "verified": true
+  },
+  "honda-accord-g1": {
+    "file": "/cars/honda-accord-g1.webp",
+    "article": "Commons file: Honda Accord 1.6 (first generation), Pandaan.jpg",
+    "matched": "pinned",
+    "license": "CC BY-SA 4.0",
+    "artist": "Sabung.hamster aka Everyone Sinks Starco aka BxHxTxCx",
+    "source": "https://commons.wikimedia.org/wiki/File:Honda_Accord_1.6_(first_generation),_Pandaan.jpg",
+    "verified": true
+  },
+  "honda-cr-v-g1": {
+    "file": "/cars/honda-cr-v-g1.webp",
+    "article": "Commons search: Honda CR-V 1998",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "artist": "Elise240SX",
+    "source": "https://commons.wikimedia.org/wiki/File:1998_Honda_CR-V_LX_in_Sebring_Silver_Metallic,_front_right,_2024-11-20.jpg",
+    "verified": true
+  },
+  "honda-passport-g1": {
+    "file": "/cars/honda-passport-g1.webp",
+    "article": "Commons category: Honda Passport (first generation)",
+    "matched": "commons-category",
+    "license": "Public domain",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:1st-Honda-Passport.jpg",
+    "verified": true
+  },
+  "ford-explorer-g1": {
+    "file": "/cars/ford-explorer-g1.webp",
+    "article": "Commons search: 1991 Ford Explorer",
+    "matched": "commons-search",
+    "license": "CC0",
+    "artist": "Cutlass",
+    "source": "https://commons.wikimedia.org/wiki/File:1991_Ford_Explorer_XLT_in_Tan,_front_left,_08-06-2022.jpg",
+    "verified": true
+  },
+  "ford-edge-g1": {
+    "file": "/cars/ford-edge-g1.webp",
+    "article": "Commons search: 2007 Ford Edge",
+    "matched": "commons-search",
+    "license": "CC BY-SA 4.0",
+    "artist": "Alexander-93",
+    "source": "https://commons.wikimedia.org/wiki/File:2007_Ford_Edge_1X7A7232.jpg",
+    "verified": true
+  },
+  "ford-f-150-g1": {
+    "file": "/cars/ford-f-150-g1.webp",
+    "article": "Ford F-Series (sixth generation)",
+    "matched": "generation-article",
+    "license": "CC BY 2.0",
+    "artist": "Sicnag",
+    "source": "https://commons.wikimedia.org/wiki/File:1974_Ford_F100_Pickup_(15957127573).jpg",
+    "verified": true
+  },
+  "ford-f-250-g1": {
+    "file": "/cars/ford-f-250-g1.webp",
+    "article": "Ford F-Series (second generation)",
+    "matched": "generation-article",
+    "license": "CC BY 2.0",
+    "artist": "crudmucosa",
+    "source": "https://commons.wikimedia.org/wiki/File:1956_Ford_F-100_in_Bright_Red.jpg",
+    "verified": true
+  },
+  "ford-f-350-g1": {
+    "file": "/cars/ford-f-350-g1.webp",
+    "article": "Commons file: 1955 Ford F-100 Standard Cab Pickup (44976781304).jpg",
+    "matched": "pinned",
+    "license": "CC BY 2.0",
+    "artist": "Sicnag",
+    "source": "https://commons.wikimedia.org/wiki/File:1955_Ford_F-100_Standard_Cab_Pickup_(44976781304).jpg",
+    "verified": true
+  },
+  "ford-focus-g1": {
+    "file": "/cars/ford-focus-g1.webp",
+    "article": "Ford Focus (first generation)",
+    "matched": "generation-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1999_Ford_Focus_Zetec_1.8_Front.jpg",
+    "verified": true
+  },
+  "ford-bronco-g1": {
+    "file": "/cars/ford-bronco-g1.webp",
+    "article": "Commons search: 1966 Ford Bronco",
+    "matched": "commons-search",
+    "license": "CC BY-SA 4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1966_Ford_Bronco_Sports_Utility,_front_right,_09-07-2024.jpg",
+    "verified": true
+  },
+  "ford-escape-g1": {
+    "file": "/cars/ford-escape-g1.webp",
+    "article": "Commons search: 2001 Ford Escape",
+    "matched": "commons-search",
+    "license": "Public domain",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:2001-2004_Ford_Escape_--_04-26-2012.JPG",
+    "verified": true
+  },
+  "ford-expedition-g1": {
+    "file": "/cars/ford-expedition-g1.webp",
+    "article": "Commons search: Ford Expedition 1998",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "artist": "order_242 from Chile",
+    "source": "https://commons.wikimedia.org/wiki/File:Ford_Expedition_XLT_1998_(11253541245).jpg",
+    "verified": true
+  },
+  "ford-ranger-g1": {
+    "file": "/cars/ford-ranger-g1.webp",
+    "article": "Commons category: Ford Ranger (first generation)",
+    "matched": "commons-category",
+    "license": "Public domain",
+    "artist": "Bull-Doser",
+    "source": "https://commons.wikimedia.org/wiki/File:%2780s_Ford_Ranger_With_More_Paint.jpg",
+    "verified": true
+  },
+  "ford-transit-g1": {
+    "file": "/cars/ford-transit-g1.webp",
+    "article": "Commons search: Ford Transit Mk1",
+    "matched": "commons-search",
+    "license": "CC BY 2.0",
+    "artist": "Riley from Christchurch, New Zealand",
+    "source": "https://commons.wikimedia.org/wiki/File:Ford_Transit_(Mk1)_(24670303502).jpg",
+    "verified": true
+  },
+  "ford-fusion-g1": {
+    "file": "/cars/ford-fusion-g1.webp",
+    "article": "Commons file: 2010 Ford Fusion in Smokestone Metallic, front left, 10-12-2025.jpg",
+    "matched": "pinned",
+    "license": "CC0",
+    "artist": "Cutlass",
+    "source": "https://commons.wikimedia.org/wiki/File:2010_Ford_Fusion_in_Smokestone_Metallic,_front_left,_10-12-2025.jpg",
+    "verified": true
+  },
+  "ford-excursion-g1": {
+    "file": "/cars/ford-excursion-g1.webp",
+    "article": "Ford Excursion",
+    "matched": "main-article",
+    "license": "Public domain",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:2000-04_Ford_Excursion.jpg",
+    "verified": true
+  },
+  "ford-taurus-g1": {
+    "file": "/cars/ford-taurus-g1.webp",
+    "article": "Ford Taurus (first generation)",
+    "matched": "generation-article",
+    "license": "Public domain",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:1st_Ford_Taurus_GL_sedan.jpg",
+    "verified": true
+  },
+  "ford-flex-g1": {
+    "file": "/cars/ford-flex-g1.webp",
+    "article": "Ford Flex",
+    "matched": "main-article",
+    "license": "Public domain",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:2010_Ford_Flex_Limited_1_--_11-25-2009.jpg",
+    "verified": true
+  },
+  "ford-gt-g1": {
+    "file": "/cars/ford-gt-g1.webp",
+    "article": "Commons file: 2006 Ford GT Petersen Automotive Museum.jpg",
+    "matched": "pinned",
+    "license": "CC BY-SA 4.0",
+    "artist": "TaurusEmerald",
+    "source": "https://commons.wikimedia.org/wiki/File:2006_Ford_GT_Petersen_Automotive_Museum.jpg",
+    "verified": true
+  },
+  "chevrolet-camaro-g1": {
+    "file": "/cars/chevrolet-camaro-g1.webp",
+    "article": "Chevrolet Camaro (first generation)",
+    "matched": "generation-article",
+    "license": "CC BY 2.0",
+    "artist": "Sicnag",
+    "source": "https://commons.wikimedia.org/wiki/File:Chevrolet_Camaro_RS_327_1968_(cropped).jpg",
+    "verified": true
+  },
+  "chevrolet-silverado-g1": {
+    "file": "/cars/chevrolet-silverado-g1.webp",
+    "article": "Commons file: 1999-2002 Chevrolet Silverado 1500 extended.jpg",
+    "matched": "pinned",
+    "license": "Public domain",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:1999-2002_Chevrolet_Silverado_1500_extended.jpg",
+    "verified": true
+  },
+  "chevrolet-equinox-g1": {
+    "file": "/cars/chevrolet-equinox-g1.webp",
+    "article": "Commons category: Chevrolet Equinox (first generation)",
+    "matched": "commons-category",
+    "license": "CC0",
+    "artist": "Cutlass",
+    "source": "https://commons.wikimedia.org/wiki/File:2009_Chevrolet_Equinox_in_Navy_Blue_Metallic,_front_left,_09-20-2025.jpg",
+    "verified": true
+  },
+  "chevrolet-traverse-g1": {
+    "file": "/cars/chevrolet-traverse-g1.webp",
+    "article": "Commons search: Chevrolet Traverse 2010",
+    "matched": "search",
+    "license": "Public domain",
+    "artist": "Bull-Doser",
+    "source": "https://commons.wikimedia.org/wiki/File:%2710_Chevrolet_Traverse_(Vancouver_2010).jpg",
+    "verified": true
+  },
+  "chevrolet-suburban-g1": {
+    "file": "/cars/chevrolet-suburban-g1.webp",
+    "article": "Commons search: 1937 Chevrolet Carryall Suburban",
+    "matched": "commons-search",
+    "license": "CC BY 2.0",
+    "artist": "Alden Jewell",
+    "source": "https://commons.wikimedia.org/wiki/File:1937_Chevrolet_Carryall_Suburban_(front).jpg",
+    "verified": true
+  },
+  "chevrolet-tahoe-g1": {
+    "file": "/cars/chevrolet-tahoe-g1.webp",
+    "article": "Commons search: 1995 Chevrolet Tahoe",
+    "matched": "commons-search",
+    "license": "Public domain",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:1st-Chevrolet-Tahoe-4door.jpg",
+    "verified": true
+  },
+  "chevrolet-colorado-g1": {
+    "file": "/cars/chevrolet-colorado-g1.webp",
+    "article": "Commons category: Chevrolet Colorado (first generation)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:2004_Chevrolet_Colorado_LS_Regular_Cab_Z85_2WD,_front_right,_07-17-2023.jpg",
+    "verified": true
+  },
+  "chevrolet-blazer-g1": {
+    "file": "/cars/chevrolet-blazer-g1.webp",
+    "article": "Commons file: 1970 Chevrolet Blazer (35016494241).jpg",
+    "matched": "pinned",
+    "license": "CC BY 2.0",
+    "artist": "Greg Gjerdingen from Willmar, USA",
+    "source": "https://commons.wikimedia.org/wiki/File:1970_Chevrolet_Blazer_(35016494241).jpg",
+    "verified": true
+  },
+  "chevrolet-impala-g1": {
+    "file": "/cars/chevrolet-impala-g1.webp",
+    "article": "Commons search: 1958 Chevrolet Impala",
+    "matched": "commons-search",
+    "license": "CC BY-SA 4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1958_Chevrolet_Bel_Air_Impala_Sport_Coupe,_front_left,_06-15-2024.jpg",
+    "verified": true
+  },
+  "chevrolet-malibu-g1": {
+    "file": "/cars/chevrolet-malibu-g1.webp",
+    "article": "Commons search: 1965 Chevrolet Chevelle Malibu",
+    "matched": "commons-search",
+    "license": "CC BY 2.0",
+    "artist": "Valder137",
+    "source": "https://commons.wikimedia.org/wiki/File:Chevrolet_Malibu_1965_SS_Convertible_LSideFront_Lake_Mirror_Cassic_16Oct2010_(14897143993).jpg",
+    "verified": true
+  },
+  "chevrolet-bolt-ev-g1": {
+    "file": "/cars/chevrolet-bolt-ev-g1.webp",
+    "article": "Chevrolet Bolt",
+    "matched": "generation-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Chevrolet_Bolt_EV_2LT,_NYC_official_fleet_1.2.23.jpg",
+    "verified": true
+  },
+  "chevrolet-corvette-g1": {
+    "file": "/cars/chevrolet-corvette-g1.webp",
+    "article": "Chevrolet Corvette (C1)",
+    "matched": "generation-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Morio",
+    "source": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg",
+    "verified": true
+  },
+  "chevrolet-trax-g1": {
+    "file": "/cars/chevrolet-trax-g1.webp",
+    "article": "Commons search: 2015 Chevrolet Trax",
+    "matched": "commons-search",
+    "license": "Public domain",
+    "artist": "Bull-Doser",
+    "source": "https://commons.wikimedia.org/wiki/File:Chevrolet_Trax_--_Front.jpg",
+    "verified": true
+  },
+  "chevrolet-trailblazer-g1": {
+    "file": "/cars/chevrolet-trailblazer-g1.webp",
+    "article": "Commons category: Chevrolet TrailBlazer (GMT360)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:2004_Chevrolet_TrailBlazer_LS_4.2L_front_5.19.19.jpg",
+    "verified": true
+  },
+  "chevrolet-express-g1": {
+    "file": "/cars/chevrolet-express-g1.webp",
+    "article": "Chevrolet Express",
+    "matched": "main-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Elise240SX",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_Chevrolet_Express_2500_WT_Cargo_in_Summit_White,_Front_Left,_05-22-2022.jpg",
+    "verified": true
+  },
+  "chevrolet-hhr-g1": {
+    "file": "/cars/chevrolet-hhr-g1.webp",
+    "article": "Chevrolet HHR",
+    "matched": "main-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:2010_Chevrolet_HHR_LS,_front_left,_09-09-2023.jpg",
+    "verified": true
+  },
+  "chevrolet-cobalt-g1": {
+    "file": "/cars/chevrolet-cobalt-g1.webp",
+    "article": "Chevrolet Cobalt",
+    "matched": "main-article",
+    "license": "Public domain",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:Chevrolet_Cobalt_sedan_--_03-16-2012.JPG",
+    "verified": true
+  },
+  "chevrolet-cruze-g1": {
+    "file": "/cars/chevrolet-cruze-g1.webp",
+    "article": "Commons search: 2011 Chevrolet Cruze",
+    "matched": "commons-search",
+    "license": "CC BY-SA 4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:2011_Chevrolet_Cruze_LS,_front_left,_09-28-2024.jpg",
+    "verified": true
+  },
+  "dodge-charger-g1": {
+    "file": "/cars/dodge-charger-g1.webp",
+    "article": "Commons category: 1966 Dodge Charger",
+    "matched": "commons-category",
+    "license": "CC BY-SA 4.0",
+    "artist": "Acabashi",
+    "source": "https://commons.wikimedia.org/wiki/File:1966_Dodge_Charger_6276_cc_Heath_Festival_2023.jpg",
+    "verified": true
+  },
+  "dodge-durango-g1": {
+    "file": "/cars/dodge-durango-g1.webp",
+    "article": "Commons category: Dodge Durango (first generation)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 4.0",
+    "artist": "Elise240SX",
+    "source": "https://commons.wikimedia.org/wiki/File:1999_Dodge_Durango_SLT_Plus_4x4_in_Deep_Amethyst_Pearl_Coat,_Front_Left,_2023-12-20.jpg",
+    "verified": true
+  },
+  "dodge-journey-g1": {
+    "file": "/cars/dodge-journey-g1.webp",
+    "article": "Dodge Journey",
+    "matched": "main-article",
+    "license": "Public domain",
+    "artist": "U.S. National Highway Traffic Safety Administration",
+    "source": "https://commons.wikimedia.org/wiki/File:2012_Dodge_Journey_--_NHTSA_3.jpg",
+    "verified": true
+  },
+  "dodge-grand-caravan-g1": {
+    "file": "/cars/dodge-grand-caravan-g1.webp",
+    "article": "Commons search: 1987 Dodge Grand Caravan",
+    "matched": "commons-search",
+    "license": "Public domain",
+    "artist": "Bull-Doser",
+    "source": "https://commons.wikimedia.org/wiki/File:%2787-%2788_Dodge_Grand_Caravan_V6.jpg",
+    "verified": true
+  },
+  "dodge-intrepid-g1": {
+    "file": "/cars/dodge-intrepid-g1.webp",
+    "article": "Commons search: 1993 Dodge Intrepid",
+    "matched": "commons-search",
+    "license": "CC BY-SA 4.0",
+    "artist": "KGC626",
+    "source": "https://commons.wikimedia.org/wiki/File:Dodge_Intrepid_Front.jpg",
+    "verified": true
+  },
+  "dodge-avenger-g1": {
+    "file": "/cars/dodge-avenger-g1.webp",
+    "article": "Commons search: 1995 Dodge Avenger",
+    "matched": "commons-search",
+    "license": "Public domain",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:Dodge-Avenger-coupe.jpg",
+    "verified": true
+  },
+  "dodge-stratus-g1": {
+    "file": "/cars/dodge-stratus-g1.webp",
+    "article": "Commons search: 1996 Dodge Stratus",
+    "matched": "commons-search",
+    "license": "CC BY 3.0",
+    "artist": "GreatestWisdom",
+    "source": "https://commons.wikimedia.org/wiki/File:1996_Dodge_Stratus_ES.JPG",
+    "verified": true
+  },
+  "dodge-neon-g1": {
+    "file": "/cars/dodge-neon-g1.webp",
+    "article": "Chrysler Neon",
+    "matched": "article",
+    "license": "Public domain",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:2000-2002_Dodge_Neon_--_06-20-2011.jpg",
+    "verified": true
+  },
+  "dodge-caliber-g1": {
+    "file": "/cars/dodge-caliber-g1.webp",
+    "article": "Dodge Caliber",
+    "matched": "main-article",
+    "license": "Public domain",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:Dodge_Caliber_--_09-07-2009.jpg",
+    "verified": true
+  },
+  "subaru-wrx-g1": {
+    "file": "/cars/subaru-wrx-g1.webp",
+    "article": "Commons category: Subaru WRX (VA)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 2.0",
+    "artist": "Zytonits",
+    "source": "https://commons.wikimedia.org/wiki/File:2015_Subaru_WRX_front_(20391231014).jpg",
+    "verified": true
+  },
+  "subaru-brz-g1": {
+    "file": "/cars/subaru-brz-g1.webp",
+    "article": "Commons category: Subaru BRZ (ZC6)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 4.0",
+    "artist": "Elise240SX",
+    "source": "https://commons.wikimedia.org/wiki/File:2015_Subaru_BRZ_Sport-Tech_in_World_Rally_Blue_Pearl,_front_right,_2021-04-28.jpg",
+    "verified": true
+  },
+  "subaru-outback-g1": {
+    "file": "/cars/subaru-outback-g1.webp",
+    "article": "Commons search: 1996 Subaru Legacy Outback",
+    "matched": "commons-search",
+    "license": "CC BY-SA 2.0",
+    "artist": "order_242 from Chile",
+    "source": "https://commons.wikimedia.org/wiki/File:Subaru_Legacy_2.5i_Outback_1996_(15384166151).jpg",
+    "verified": true
+  },
+  "subaru-forester-g1": {
+    "file": "/cars/subaru-forester-g1.webp",
+    "article": "Commons search: Subaru Forester 1999",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "artist": "Artaxerxes",
+    "source": "https://commons.wikimedia.org/wiki/File:1999_Subaru_Forester_Our_Community_Place_Harrisonburg_VA_March_2010.jpg",
+    "verified": true
+  },
+  "subaru-impreza-g1": {
+    "file": "/cars/subaru-impreza-g1.webp",
+    "article": "Commons file: 1996-1997 Subaru Impreza (GC) 1.6 GX Sedan (07-08-2017) 01.jpg",
+    "matched": "pinned",
+    "license": "CC BY-SA 4.0",
+    "artist": "M.rJirapat",
+    "source": "https://commons.wikimedia.org/wiki/File:1996-1997_Subaru_Impreza_(GC)_1.6_GX_Sedan_(07-08-2017)_01.jpg",
+    "verified": true
+  },
+  "subaru-legacy-g1": {
+    "file": "/cars/subaru-legacy-g1.webp",
+    "article": "Subaru Legacy (first generation)",
+    "matched": "generation-article",
+    "license": "Public domain",
+    "artist": "Dddike",
+    "source": "https://commons.wikimedia.org/wiki/File:USDM_side-1-.jpg",
+    "verified": true
+  },
+  "subaru-ascent-g1": {
+    "file": "/cars/subaru-ascent-g1.webp",
+    "article": "Subaru Ascent",
+    "matched": "main-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:Subaru_Ascent_IMG_3632.jpg",
+    "verified": true
+  },
+  "subaru-baja-g1": {
+    "file": "/cars/subaru-baja-g1.webp",
+    "article": "Subaru Baja",
+    "matched": "main-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:2006_Subaru_Baja_Sport,_front_right,_01-02-2023.jpg",
+    "verified": true
+  },
+  "porsche-cayenne-g1": {
+    "file": "/cars/porsche-cayenne-g1.webp",
+    "article": "Commons file: 2003-2006 Porsche Cayenne (9PA) S wagon 01.jpg",
+    "matched": "pinned",
+    "license": "Public domain",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:2003-2006_Porsche_Cayenne_(9PA)_S_wagon_01.jpg",
+    "verified": true
+  },
+  "porsche-macan-g1": {
+    "file": "/cars/porsche-macan-g1.webp",
+    "article": "Commons category: Porsche Macan (95B)",
+    "matched": "category",
+    "license": "CC BY-SA 4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Porsche_Macan_2.0_Front.jpg",
+    "verified": true
+  },
+  "porsche-panamera-g1": {
+    "file": "/cars/porsche-panamera-g1.webp",
+    "article": "Commons file: Porsche Panamera 4S (970) – Frontansicht, 7. August 2012, Tübingen.jpg",
+    "matched": "pinned",
+    "license": "CC BY-SA 3.0 de",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Porsche_Panamera_4S_(970)_%E2%80%93_Frontansicht,_7._August_2012,_T%C3%BCbingen.jpg",
+    "verified": true
+  },
+  "porsche-taycan-g1": {
+    "file": "/cars/porsche-taycan-g1.webp",
+    "article": "Porsche Taycan",
+    "matched": "main-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2020_Porsche_Taycan_4S_79kWh_Front.jpg",
+    "verified": true
+  },
+  "porsche-boxster-g1": {
+    "file": "/cars/porsche-boxster-g1.webp",
+    "article": "Porsche Boxster (986)",
+    "matched": "generation-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Trincerone",
+    "source": "https://commons.wikimedia.org/wiki/File:Porsche_986_2.7l_in_Mauritania.jpg",
+    "verified": true
+  },
+  "nissan-frontier-g1": {
+    "file": "/cars/nissan-frontier-g1.webp",
+    "article": "Commons search: 1998 Nissan Frontier",
+    "matched": "commons-search",
+    "license": "CC0",
+    "artist": "Cutlass",
+    "source": "https://commons.wikimedia.org/wiki/File:1998_Nissan_Frontier_XE_King_Cab_in_Platinum_Gold_Metallic,_front_right,_08-10-2022.jpg",
+    "verified": true
+  },
+  "nissan-armada-g1": {
+    "file": "/cars/nissan-armada-g1.webp",
+    "article": "Commons search: Nissan Armada 2006",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "artist": "DestinationFearFan",
+    "source": "https://commons.wikimedia.org/wiki/File:2006_Nissan_Armada_LE.jpg",
+    "verified": true
+  },
+  "nissan-pathfinder-g1": {
+    "file": "/cars/nissan-pathfinder-g1.webp",
+    "article": "Commons search: Nissan Pathfinder WD21",
+    "matched": "commons-search",
+    "license": "Public domain",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:Nissan-Pathfinder-2door.jpg",
+    "verified": true
+  },
+  "nissan-rogue-g1": {
+    "file": "/cars/nissan-rogue-g1.webp",
+    "article": "Commons category: Nissan Rogue (S35)",
+    "matched": "category",
+    "license": "CC0",
+    "artist": "Cutlass",
+    "source": "https://commons.wikimedia.org/wiki/File:2008_Nissan_Rogue_S_in_Wicked_Black,_front_left,_09-03-2023.jpg",
+    "verified": true
+  },
+  "nissan-murano-g1": {
+    "file": "/cars/nissan-murano-g1.webp",
+    "article": "Commons search: Nissan Murano Z50",
+    "matched": "commons-search",
+    "license": "CC BY-SA 2.5",
+    "artist": "Matěj Baťha",
+    "source": "https://commons.wikimedia.org/wiki/File:Nissan_Murano_-_front.jpg",
+    "verified": true
+  },
+  "nissan-altima-g1": {
+    "file": "/cars/nissan-altima-g1.webp",
+    "article": "Commons category: Nissan Altima (U13)",
+    "matched": "category",
+    "license": "CC BY 2.0",
+    "artist": "Spanish Coches",
+    "source": "https://commons.wikimedia.org/wiki/File:1993-1994_Nissan_Altima_GXE_(6391401335).jpg",
+    "verified": true
+  },
+  "nissan-maxima-g1": {
+    "file": "/cars/nissan-maxima-g1.webp",
+    "article": "Commons file: Datsun 810 Maxima Wagon Diesel.jpg",
+    "matched": "pinned",
+    "license": "CC BY-SA 4.0",
+    "artist": "TKOIII",
+    "source": "https://commons.wikimedia.org/wiki/File:Datsun_810_Maxima_Wagon_Diesel.jpg",
+    "verified": true
+  },
+  "nissan-sentra-g1": {
+    "file": "/cars/nissan-sentra-g1.webp",
+    "article": "Commons search: 1984 Nissan Sentra",
+    "matched": "commons-search",
+    "license": "CC BY-SA 2.0",
+    "artist": "dave_7 from Lethbridge, Canada",
+    "source": "https://commons.wikimedia.org/wiki/File:1984_Nissan_Sentra_(578491443).jpg",
+    "verified": true
+  },
+  "nissan-versa-g1": {
+    "file": "/cars/nissan-versa-g1.webp",
+    "article": "Nissan Tiida",
+    "matched": "generation-article",
+    "license": "CC BY-SA 3.0",
+    "artist": "Tennen-Gas",
+    "source": "https://commons.wikimedia.org/wiki/File:Nissan_Tiida_C11_003.JPG",
+    "verified": true
+  },
+  "nissan-juke-g1": {
+    "file": "/cars/nissan-juke-g1.webp",
+    "article": "Commons search: Nissan Juke 2012",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "artist": "Michael Sheehan",
+    "source": "https://commons.wikimedia.org/wiki/File:Side_View_-_2012_Nissan_Juke_(7414526012).jpg",
+    "verified": true
+  },
+  "nissan-kicks-g1": {
+    "file": "/cars/nissan-kicks-g1.webp",
+    "article": "Commons category: Nissan Kicks (P15)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Nissan_Kicks_SV_front_3.30.19.jpg",
+    "verified": true
+  },
+  "nissan-leaf-g1": {
+    "file": "/cars/nissan-leaf-g1.webp",
+    "article": "Commons category: Nissan Leaf (ZE0)",
+    "matched": "category",
+    "license": "CC0",
+    "artist": "Cutlass",
+    "source": "https://commons.wikimedia.org/wiki/File:2012_Nissan_Leaf_SL_in_Cayenne_Red,_front_right,_07-08-2026.jpg",
+    "verified": true
+  },
+  "bmw-m5-g1": {
+    "file": "/cars/bmw-m5-g1.webp",
+    "article": "Commons category: BMW M5 (E28)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:1985_BMW_M5.jpg",
+    "verified": true
+  },
+  "bmw-x1-g1": {
+    "file": "/cars/bmw-x1-g1.webp",
+    "article": "BMW X1 (E84)",
+    "matched": "generation-article",
+    "license": "CC BY 2.0",
+    "artist": "Jason Lawrence",
+    "source": "https://commons.wikimedia.org/wiki/File:BMW_X1_(US,_first_gen)_(cropped).jpg",
+    "verified": true
+  },
+  "bmw-x2-g1": {
+    "file": "/cars/bmw-x2-g1.webp",
+    "article": "Commons category: BMW F39",
+    "matched": "commons-category",
+    "license": "CC BY-SA 4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_BMW_X2_xDrive_20d_M_Sport_X_Automatic_2.0_Front_(1).jpg",
+    "verified": true
+  },
+  "bmw-x3-g1": {
+    "file": "/cars/bmw-x3-g1.webp",
+    "article": "Commons category: BMW E83",
+    "matched": "commons-category",
+    "license": "CC BY-SA 3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:2005_BMW_X3_2.0d,_front_left_(Portugal).jpg",
+    "verified": true
+  },
+  "bmw-x5-g1": {
+    "file": "/cars/bmw-x5-g1.webp",
+    "article": "BMW X5 (E53)",
+    "matched": "generation-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2002_BMW_X5_Sport_Automatic_4.4_Front.jpg",
+    "verified": true
+  },
+  "bmw-z4-g1": {
+    "file": "/cars/bmw-z4-g1.webp",
+    "article": "Commons file: '03-'05 BMW Z4 Roadster (Orange Julep).jpg",
+    "matched": "pinned",
+    "license": "Public domain",
+    "artist": "Bull-Doser",
+    "source": "https://commons.wikimedia.org/wiki/File:%2703-%2705_BMW_Z4_Roadster_(Orange_Julep).jpg",
+    "verified": true
+  },
+  "audi-r8-g1": {
+    "file": "/cars/audi-r8-g1.webp",
+    "article": "Audi R8 (Type 42)",
+    "matched": "generation-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2010_Audi_R8_Spyder_Quattro_V10_5.2.jpg",
+    "verified": true
+  },
+  "audi-a3-g1": {
+    "file": "/cars/audi-a3-g1.webp",
+    "article": "Commons search: Audi A3 8L",
+    "matched": "commons-search",
+    "license": "CC BY-SA 3.0",
+    "artist": "Rudolf Stricker",
+    "source": "https://commons.wikimedia.org/wiki/File:Audi_A3_front_20080326.jpg",
+    "verified": true
+  },
+  "audi-a4-g1": {
+    "file": "/cars/audi-a4-g1.webp",
+    "article": "Commons search: 1996 Audi A4 B5",
+    "matched": "commons-search",
+    "license": "CC BY-SA 4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1996_Audi_A4_SE_1.8_Front_(1).jpg",
+    "verified": true
+  },
+  "audi-a5-g1": {
+    "file": "/cars/audi-a5-g1.webp",
+    "article": "Commons category: Audi A5 Coupé 8T",
+    "matched": "commons-category",
+    "license": "CC BY-SA 4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2010_Audi_A5_SE_TDi_2.0_Front.jpg",
+    "verified": true
+  },
+  "audi-a6-g1": {
+    "file": "/cars/audi-a6-g1.webp",
+    "article": "Commons file: 1996 Audi A6 2.5 TDI (C4).jpg",
+    "matched": "pinned",
+    "license": "CC BY 2.0",
+    "artist": "Rutger van der Maar",
+    "source": "https://commons.wikimedia.org/wiki/File:1996_Audi_A6_2.5_TDI_(C4).jpg",
+    "verified": true
+  },
+  "audi-a7-g1": {
+    "file": "/cars/audi-a7-g1.webp",
+    "article": "Commons search: Audi A7 C7",
+    "matched": "commons-search",
+    "license": "CC BY-SA 3.0 de",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Audi_A7_Sportback_3.0_TDI_quattro_%E2%80%93_Frontansicht,_8._Mai,_Velbert.jpg",
+    "verified": true
+  },
+  "audi-a8-g1": {
+    "file": "/cars/audi-a8-g1.webp",
+    "article": "Commons category: Audi A8 D2",
+    "matched": "category",
+    "license": "CC BY 4.0",
+    "artist": "User3204",
+    "source": "https://commons.wikimedia.org/wiki/File:1995_Audi_A8_(front).jpg",
+    "verified": true
+  },
+  "audi-q3-g1": {
+    "file": "/cars/audi-q3-g1.webp",
+    "article": "Commons search: 2012 Audi Q3",
+    "matched": "commons-search",
+    "license": "CC0",
+    "artist": "Tokumeigakarinoaoshima",
+    "source": "https://commons.wikimedia.org/wiki/File:Audi_Q3_front.JPG",
+    "verified": true
+  },
+  "audi-q5-g1": {
+    "file": "/cars/audi-q5-g1.webp",
+    "article": "Commons search: Audi Q5 2010",
+    "matched": "search",
+    "license": "Public domain",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:2010_Audi_Q5--DC.jpg",
+    "verified": true
+  },
+  "audi-q7-g1": {
+    "file": "/cars/audi-q7-g1.webp",
+    "article": "Commons search: 2007 Audi Q7",
+    "matched": "commons-search",
+    "license": "CC BY-SA 3.0",
+    "artist": "Rudolf Stricker",
+    "source": "https://commons.wikimedia.org/wiki/File:Audi_Q7_front_20071017.jpg",
+    "verified": true
+  },
+  "audi-q8-g1": {
+    "file": "/cars/audi-q8-g1.webp",
+    "article": "Audi Q8",
+    "matched": "main-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Audi_Q8_S_Line_50_TDi_Quattro_3.0_Front.jpg",
+    "verified": true
+  },
+  "mercedes-benz-c-class-g1": {
+    "file": "/cars/mercedes-benz-c-class-g1.webp",
+    "article": "Mercedes-Benz C-Class (W202)",
+    "matched": "generation-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W202_C_280_DSC_8896.jpg",
+    "verified": true
+  },
+  "mercedes-benz-e-class-g1": {
+    "file": "/cars/mercedes-benz-e-class-g1.webp",
+    "article": "Mercedes-Benz W124",
+    "matched": "generation-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1988_Mercedes-Benz_300d_Diesel_Automatic_3.0_Front.jpg",
+    "verified": true
+  },
+  "mercedes-benz-s-class-g1": {
+    "file": "/cars/mercedes-benz-s-class-g1.webp",
+    "article": "Mercedes-Benz W116",
+    "matched": "generation-article",
+    "license": "CC BY-SA 3.0",
+    "artist": "Rudolf Stricker",
+    "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W116_front_20080424.jpg",
+    "verified": true
+  },
+  "mercedes-benz-g-class-g1": {
+    "file": "/cars/mercedes-benz-g-class-g1.webp",
+    "article": "Commons file: 1989 Mercedes-Benz 280 GE (W460) (4535432871).jpg",
+    "matched": "pinned",
+    "license": "CC BY 2.0",
+    "artist": "Spanish Coches",
+    "source": "https://commons.wikimedia.org/wiki/File:1989_Mercedes-Benz_280_GE_(W460)_(4535432871).jpg",
+    "verified": true
+  },
+  "lamborghini-huracan-g1": {
+    "file": "/cars/lamborghini-huracan-g1.webp",
+    "article": "Lamborghini Huracán",
+    "matched": "main-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "MrWalkr",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Lamborghini_Huracan_LP610.jpg",
+    "verified": true
+  },
+  "ferrari-488-g1": {
+    "file": "/cars/ferrari-488-g1.webp",
+    "article": "Ferrari 488",
+    "matched": "main-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Ferrari_488_Spider_(38806).jpg",
+    "verified": true
+  },
+  "mclaren-720s-g1": {
+    "file": "/cars/mclaren-720s-g1.webp",
+    "article": "McLaren 720S",
+    "matched": "main-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_McLaren_720S_V8_S-A_4.0.jpg",
+    "verified": true
+  },
+  "aston-martin-vantage-g1": {
+    "file": "/cars/aston-martin-vantage-g1.webp",
+    "article": "Aston Martin Vantage (2005)",
+    "matched": "generation-article",
+    "license": "CC BY-SA 3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Aston_Martin_V12_Vantage_S,_Jet_Black,_front_left.jpg",
+    "verified": true
+  },
+  "mazda-rx-7-g1": {
+    "file": "/cars/mazda-rx-7-g1.webp",
+    "article": "Commons search: 1980 Mazda RX-7",
+    "matched": "commons-search",
+    "license": "CC BY 2.0",
+    "artist": "Riley from Christchurch, New Zealand",
+    "source": "https://commons.wikimedia.org/wiki/File:1980_Mazda_RX-7_SE_Limited_(17888386539)_(cropped).jpg",
+    "verified": true
+  },
+  "acura-nsx-g1": {
+    "file": "/cars/acura-nsx-g1.webp",
+    "article": "Honda NSX (first generation)",
+    "matched": "generation-article",
+    "license": "CC BY-SA 3.0",
+    "artist": "ed g2s • talk",
+    "source": "https://commons.wikimedia.org/wiki/File:Honda_NSX_red.jpg",
+    "verified": true
+  },
+  "tesla-model-s-g1": {
+    "file": "/cars/tesla-model-s-g1.webp",
+    "article": "Tesla Model S",
+    "matched": "main-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Peteratkins",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_S_(Facelift_ab_04-2016)_(cropped).jpg",
+    "verified": true
+  },
+  "koenigsegg-agera-g1": {
+    "file": "/cars/koenigsegg-agera-g1.webp",
+    "article": "Koenigsegg Agera",
+    "matched": "main-article",
+    "license": "CC BY 2.0",
+    "artist": "Edvvc from London, UK",
+    "source": "https://commons.wikimedia.org/wiki/File:2015_Koenigsegg_Agera_N_(19886243212).jpg",
+    "verified": true
+  },
+  "pagani-huayra-g1": {
+    "file": "/cars/pagani-huayra-g1.webp",
+    "article": "Pagani Huayra",
+    "matched": "main-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Matti Blume",
+    "source": "https://commons.wikimedia.org/wiki/File:Pagani,_GIMS_2019,_Le_Grand-Saconnex_(GIMS0023).jpg",
+    "verified": true
+  },
+  "bugatti-chiron-g1": {
+    "file": "/cars/bugatti-chiron-g1.webp",
+    "article": "Bugatti Chiron",
+    "matched": "main-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:Bugatti_Chiron_1.jpg",
+    "verified": true
+  },
+  "rolls-royce-phantom-g1": {
+    "file": "/cars/rolls-royce-phantom-g1.webp",
+    "article": "Rolls-Royce Phantom VII",
+    "matched": "generation-article",
+    "license": "CC BY-SA 2.0",
+    "artist": "Alexandre Prévot from Nancy, France",
+    "source": "https://commons.wikimedia.org/wiki/File:Rolls_Royce_Phantom_-_Flickr_-_Alexandre_Pr%C3%A9vot_(5)_(cropped).jpg",
+    "verified": true
+  },
+  "lincoln-continental-g1": {
+    "file": "/cars/lincoln-continental-g1.webp",
+    "article": "Commons search: 1941 Lincoln Continental",
+    "matched": "commons-search",
+    "license": "CC BY 2.0",
+    "artist": "{{{1}}}",
+    "source": "https://commons.wikimedia.org/wiki/File:1941_Lincoln_Continental_Convertible.jpg",
+    "verified": true
+  },
+  "toyota-prius-g1": {
+    "file": "/cars/toyota-prius-g1.webp",
+    "article": "Toyota Prius (XW10)",
+    "matched": "generation-article",
+    "license": "CC BY-SA 4.0",
+    "artist": "Damian B Oh",
+    "source": "https://commons.wikimedia.org/wiki/File:1998_Toyota_Prius_NHW10_Silver_Strara_Metallic_(front).jpg",
+    "verified": true
+  },
+  "toyota-c-hr-g1": {
+    "file": "/cars/toyota-c-hr-g1.webp",
+    "article": "Commons search: 2017 Toyota C-HR",
+    "matched": "commons-search",
+    "license": "CC BY-SA 4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Toyota_C-HR_front_4.27.18.jpg",
+    "verified": true
+  },
+  "toyota-rav4-g1": {
+    "file": "/cars/toyota-rav4-g1.webp",
+    "article": "Commons file: 1997 Toyota Rav4, Front Left, 05-01-2021.jpg",
+    "matched": "pinned",
+    "license": "CC BY-SA 4.0",
+    "artist": "SsmIntrigue",
+    "source": "https://commons.wikimedia.org/wiki/File:1997_Toyota_Rav4,_Front_Left,_05-01-2021.jpg",
+    "verified": true
+  },
+  "toyota-avalon-g1": {
+    "file": "/cars/toyota-avalon-g1.webp",
+    "article": "Commons category: Toyota Avalon (XX10)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1995_Toyota_Avalon_XLS_front_right.jpg",
+    "verified": true
+  },
+  "toyota-land-cruiser-g1": {
+    "file": "/cars/toyota-land-cruiser-g1.webp",
+    "article": "Commons file: Toyota jeep-bj 1951 pictures 1 b.jpg",
+    "matched": "pinned",
+    "license": "Public domain",
+    "artist": "Toyota Motor Corporation",
+    "source": "https://commons.wikimedia.org/wiki/File:Toyota_jeep-bj_1951_pictures_1_b.jpg",
+    "verified": true
+  },
+  "bmw-m6-g1": {
+    "file": "/cars/bmw-m6-g1.webp",
+    "article": "BMW 6 Series (E24)",
+    "matched": "article",
+    "license": "CC BY-SA 2.5",
+    "artist": "galant",
+    "source": "https://commons.wikimedia.org/wiki/File:BMW_633_CSi_Front-Side.JPG",
+    "verified": true
+  },
+  "bmw-m2-g1": {
+    "file": "/cars/bmw-m2-g1.webp",
+    "article": "Commons category: BMW M2 (F87)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 4.0",
+    "artist": "Steinfeld-feld",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_BMW_M2_(F22)_front_(white)_1.jpg",
+    "verified": true
+  },
+  "bmw-m4-g1": {
+    "file": "/cars/bmw-m4-g1.webp",
+    "article": "Commons category: BMW M4 (F82)",
+    "matched": "commons-category",
+    "license": "CC BY-SA 2.0",
+    "artist": "Hugh Llewelyn",
+    "source": "https://commons.wikimedia.org/wiki/File:2015_BMW_M4_(UK)_front_view.jpg",
+    "verified": true
+  },
+  "bmw-x4-g1": {
+    "file": "/cars/bmw-x4-g1.webp",
+    "article": "Commons category: BMW F26",
+    "matched": "commons-category",
+    "license": "CC BY 2.0",
+    "artist": "Kārlis Dambrāns",
+    "source": "https://commons.wikimedia.org/wiki/File:BMW_X4_(F26),_front_(cropped).jpg",
+    "verified": true
+  },
+  "bmw-x6-g1": {
+    "file": "/cars/bmw-x6-g1.webp",
+    "article": "Commons category: BMW E71",
+    "matched": "commons-category",
+    "license": "CC BY-SA 3.0",
+    "artist": "BrokenSphere",
+    "source": "https://commons.wikimedia.org/wiki/File:2008_red_BMW_X6_xDrive50i_front.JPG",
+    "verified": true
+  },
+  "bmw-x7-g1": {
+    "file": "/cars/bmw-x7-g1.webp",
+    "article": "Commons category: BMW G07",
+    "matched": "commons-category",
+    "license": "CC BY-SA 4.0",
+    "artist": "LuvsMG481",
+    "source": "https://commons.wikimedia.org/wiki/File:2019_BMW_X7_xDrive30d_Luxury_Line_front.jpg",
+    "verified": true
+  },
+  "bmw-z3-g1": {
+    "file": "/cars/bmw-z3-g1.webp",
+    "article": "Commons search: BMW Z3 roadster",
+    "matched": "commons-search",
+    "license": "CC BY-SA 4.0",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:BMW_Z3_M_(E36-8)_IMG_6422.jpg",
+    "verified": true
+  },
+  "bmw-i3-g1": {
+    "file": "/cars/bmw-i3-g1.webp",
+    "article": "Commons search: BMW i3 2015",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "artist": "DestinationFearFan",
+    "source": "https://commons.wikimedia.org/wiki/File:2015_BMW_i3_front.jpg",
+    "verified": true
+  },
+  "jaguar-f-type-g1": {
+    "file": "/cars/jaguar-f-type-g1.webp",
+    "article": "Commons search: Jaguar F-Type 2014",
+    "matched": "commons-search",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ank Kumar",
+    "source": "https://commons.wikimedia.org/wiki/File:Jaguar_F-Type,_GIMS_2014_02.jpg",
+    "verified": true
+  },
+  "ford-maverick-g1": {
+    "file": "/cars/ford-maverick-g1.webp",
+    "article": "Ford Maverick (1970–1977)",
+    "matched": "article",
+    "license": "CC BY-SA 2.0",
+    "artist": "dave_7 from Lethbridge, Canada",
+    "source": "https://commons.wikimedia.org/wiki/File:1972_Ford_Maverick_Sprint_(616806978).jpg",
+    "verified": true
+  },
+  "dodge-dart-g4": {
+    "file": "/cars/dodge-dart-g4.webp",
+    "article": "Dodge Dart",
+    "matched": "article",
+    "license": "CC BY 2.0",
+    "artist": "Greg Gjerdingen from Willmar, USA",
+    "source": "https://commons.wikimedia.org/wiki/File:1966_Dodge_Dart_GT_(35578852214)_(cropped).jpg",
+    "verified": true
+  },
+  "bmw-i8-g1": {
+    "file": "/cars/bmw-i8-g1.webp",
+    "article": "Commons search: BMW i8 2014",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "artist": "mattbuck (category)",
+    "source": "https://commons.wikimedia.org/wiki/File:MotorExpo_2014_MMB_15_BMW_i8.jpg",
+    "verified": true
+  },
+  "mercedes-benz-amg-gt-g1": {
+    "file": "/cars/mercedes-benz-amg-gt-g1.webp",
+    "article": "Commons file: 2015-2017 Mercedes-AMG GT (C 190) S coupe (2017-07-15) 01.jpg",
+    "matched": "pinned",
+    "license": "CC BY-SA 4.0",
+    "artist": "EurovisionNim",
+    "source": "https://commons.wikimedia.org/wiki/File:2015-2017_Mercedes-AMG_GT_(C_190)_S_coupe_(2017-07-15)_01.jpg",
+    "verified": true
+  },
+  "maserati-granturismo-g1": {
+    "file": "/cars/maserati-granturismo-g1.webp",
+    "article": "Commons search: Maserati Granturismo 2007",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2007_Maserati_GranTurismo_V8_Automatic_4.2_Front.jpg",
+    "verified": true
+  },
+  "infiniti-q60-g1": {
+    "file": "/cars/infiniti-q60-g1.webp",
+    "article": "Commons search: Infiniti Q60 2017",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Infiniti_Q60_(V37)_front_4.24.18.jpg",
+    "verified": true
+  }
+}

@@ -18,7 +18,8 @@
 import { readFileSync, writeFileSync } from "fs";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
-import { deriveDecades, derivePowerRanges } from "./derive-fields.mjs";
+import { derivePowerRanges } from "./derive-fields.mjs";
+import { canonicalMakeName } from "./make-names.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const carsPath = join(__dirname, "../data/cars.json");
@@ -153,10 +154,7 @@ if (!matchedModel) {
   process.exit(1);
 }
 
-const canonicalMake = matchedMake.Make_Name
-  .split(" ")
-  .map((w) => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
-  .join(" ");
+const canonicalMake = canonicalMakeName(matchedMake.Make_Name);
 const canonicalModel = matchedModel.Model_Name;
 const slug = `${canonicalMake}-${canonicalModel}`.toLowerCase().replace(/\s+/g, "-");
 

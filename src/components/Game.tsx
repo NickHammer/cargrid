@@ -1,27 +1,46 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useMemo, useCallback } from "react";
+import Link from "next/link";
 import Grid from "./Grid";
 import GuessInput from "./GuessInput";
-import type { Car } from "@/lib/types";
-import type { GameState, GridLayout } from "@/lib/types";
-import { isValidAnswer, isGameOver, isCarAlreadyUsed, solvedCount, MAX_GUESSES, getTodayGrid } from "@/lib/game";
+import type { Car, GameState } from "@/lib/types";
+import {
+  isValidAnswer,
+  isGameOver,
+  isCarAlreadyUsed,
+  solvedCount,
+  accuracyPercent,
+  MAX_GUESSES,
+} from "@/lib/game";
+import { getGridForDate } from "@/lib/grids";
 import { loadGameState, saveGameState } from "@/lib/storage";
+import { localDateString, formatDisplayDate } from "@/lib/date";
 
-const TODAY = new Date().toISOString().split("T")[0];
+interface Props {
+  /** Omitted for today's puzzle; set by the archive routes. */
+  date?: string;
+  /** Archive plays get a way back to today. */
+  isArchive?: boolean;
+}
 
-export default function Game() {
-  const [grid, setGrid] = useState<GridLayout | null>(null);
-  const [state, setState] = useState<GameState | null>(null);
+export default function Game({ date: dateProp, isArchive = false }: Props) {
+  // This component is loaded with ssr:false, so localStorage and the local
+  // clock are both available on first render — no mount effect needed.
+  const [date] = useState(() => dateProp ?? localDateString());
+  const isFuture = date > localDateString();
+  const grid = useMemo(() => (isFuture ? null : getGridForDate(date)), [date, isFuture]);
+
+  const [state, setState] = useState<GameState | null>(() =>
+    grid ? loadGameState(date, grid.id) : null
+  );
   const [selectedCell, setSelectedCell] = useState<{ row: number; col: number } | null>(null);
   const [lastResult, setLastResult] = useState<"correct" | "incorrect" | null>(null);
 
-  useEffect(() => {
-    const g = getTodayGrid(TODAY);
-    const s = loadGameState(TODAY, g.id);
-    setGrid(g);
-    setState(s);
-  }, []);
+  const usedCarIds = useMemo(
+    () => new Set((state?.cells ?? []).map((c) => c.carId).filter((id): id is string => !!id)),
+    [state]
+  );
 
   const handleCellClick = useCallback((row: number, col: number) => {
     setSelectedCell({ row, col });
@@ -31,30 +50,25 @@ export default function Game() {
   const handleGuess = useCallback(
     (car: Car) => {
       if (!grid || !state || !selectedCell) return;
+      // The autocomplete already hides used cars; this guards the state update
+      // itself so a car can never occupy two cells.
+      if (isCarAlreadyUsed(state, car.id)) return;
 
       const { row, col } = selectedCell;
-      const rowParam = grid.rows[row];
-      const colParam = grid.columns[col];
-      const correct = isValidAnswer(car, rowParam, colParam);
-
-      const newCells = state.cells.map((cell, i) => {
-        if (i !== row * 3 + col) return cell;
-        return correct ? { solved: true, carId: car.id } : cell;
-      });
+      const correct = isValidAnswer(car, grid.rows[row], grid.columns[col]);
 
       const newState: GameState = {
         ...state,
-        cells: newCells,
+        cells: state.cells.map((cell, i) =>
+          i === row * 3 + col && correct ? { solved: true, carId: car.id } : cell
+        ),
         guessesUsed: state.guessesUsed + 1,
       };
 
       setState(newState);
       saveGameState(newState);
       setLastResult(correct ? "correct" : "incorrect");
-
-      if (correct) {
-        setSelectedCell(null);
-      }
+      if (correct) setSelectedCell(null);
     },
     [grid, state, selectedCell]
   );
@@ -66,8 +80,18 @@ export default function Game() {
 
   if (!grid || !state) {
     return (
-      <div className="flex h-screen items-center justify-center bg-gray-950">
-        <div className="text-gray-400">Loading…</div>
+      <div className="flex min-h-screen flex-col items-center justify-center gap-3 bg-gray-950 px-4 text-center">
+        <p className="text-lg font-semibold text-white">
+          {isFuture ? "That grid has not opened yet" : `No grid scheduled for ${date}`}
+        </p>
+        <p className="max-w-sm text-sm text-gray-400">
+          {isFuture
+            ? "Come back when the day arrives."
+            : "The puzzle schedule does not cover this date."}
+        </p>
+        <Link href="/" className="text-sm font-medium text-amber-400 hover:text-amber-300">
+          Play today&apos;s grid
+        </Link>
       </div>
     );
   }
@@ -75,8 +99,6 @@ export default function Game() {
   const gameOver = isGameOver(state);
   const solved = solvedCount(state);
   const guessesLeft = MAX_GUESSES - state.guessesUsed;
-  const usedCarIds = new Set(state.cells.map((c) => c.carId).filter(Boolean) as string[]);
-
   const activeRow = selectedCell ? grid.rows[selectedCell.row] : null;
   const activeCol = selectedCell ? grid.columns[selectedCell.col] : null;
 
@@ -87,7 +109,12 @@ export default function Game() {
         <h1 className="text-3xl font-bold tracking-tight text-white">
           Car<span className="text-amber-400">Grid</span>
         </h1>
-        <p className="mt-1 text-sm text-gray-400">{TODAY}</p>
+        <p className="mt-1 text-sm text-gray-400">{formatDisplayDate(date)}</p>
+        {isArchive && (
+          <p className="mt-1 text-xs font-medium uppercase tracking-widest text-gray-600">
+            Archive
+          </p>
+        )}
       </div>
 
       {/* Stats bar */}
@@ -127,11 +154,17 @@ export default function Game() {
           </p>
           <p className="mt-1 text-sm text-gray-400">
             {state.guessesUsed} guess{state.guessesUsed !== 1 ? "es" : ""} used
-            {state.guessesUsed > 0 && (
-              <> · {Math.round((solved / state.guessesUsed) * 100)}% accuracy</>
+            {state.guessesUsed > 0 && <> · {accuracyPercent(state)}% accuracy</>}
+          </p>
+          <p className="mt-3 text-xs text-gray-500">
+            {isArchive ? (
+              <Link href="/" className="text-amber-400 hover:text-amber-300">
+                Play today&apos;s grid
+              </Link>
+            ) : (
+              "New grid tomorrow"
             )}
           </p>
-          <p className="mt-3 text-xs text-gray-500">New grid tomorrow</p>
         </div>
       )}
 
@@ -157,6 +190,7 @@ export default function Game() {
               <button
                 onClick={handleCloseModal}
                 className="ml-4 rounded-lg p-1 text-gray-500 hover:text-white"
+                aria-label="Close"
               >
                 ✕
               </button>
@@ -179,6 +213,18 @@ export default function Game() {
           </div>
         </div>
       )}
+
+      {/* Footer nav */}
+      <nav className="mt-8 flex gap-4 text-xs text-gray-500">
+        {!isArchive && (
+          <Link href="/archive" className="hover:text-amber-400">
+            Archive
+          </Link>
+        )}
+        <Link href="/credits" className="hover:text-amber-400">
+          Image credits
+        </Link>
+      </nav>
     </div>
   );
 }

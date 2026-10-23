@@ -42,7 +42,7 @@
     ],
     "price_at_launch_usd": 2368,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-mustang-g1.webp"
   },
   {
     "id": "porsche-911-g1",
@@ -82,7 +82,7 @@
     "pop_culture": null,
     "price_at_launch_usd": 6500,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/porsche-911-g1.webp"
   },
   {
     "id": "toyota-corolla-g1",
@@ -122,7 +122,7 @@
     "pop_culture": null,
     "price_at_launch_usd": 1700,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/toyota-corolla-g1.webp"
   },
   {
     "id": "dodge-viper-g1",
@@ -160,7 +160,7 @@
     "pop_culture": null,
     "price_at_launch_usd": 50000,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/dodge-viper-g1.webp"
   },
   {
     "id": "subaru-crosstrek-g1",
@@ -199,7 +199,7 @@
     "pop_culture": null,
     "price_at_launch_usd": 21995,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/subaru-crosstrek-g1.webp"
   },
   {
     "id": "subaru-crosstrek-g2",
@@ -239,7 +239,7 @@
     "pop_culture": null,
     "price_at_launch_usd": 22710,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/subaru-crosstrek-g2.webp"
   },
   {
     "id": "subaru-crosstrek-g3",
@@ -278,7 +278,7 @@
     "pop_culture": null,
     "price_at_launch_usd": 26995,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/subaru-crosstrek-g3.webp"
   },
   {
     "id": "bmw-m3-g1",
@@ -318,7 +318,7 @@
     "pop_culture": null,
     "price_at_launch_usd": 35000,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bmw-m3-g1.webp"
   },
   {
     "id": "toyota-supra-g1",
@@ -358,7 +358,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/toyota-supra-g1.webp"
   },
   {
     "id": "toyota-camry-g1",
@@ -398,7 +398,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/toyota-camry-g1.webp"
   },
   {
     "id": "toyota-sienna-g1",
@@ -437,7 +437,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/toyota-sienna-g1.webp"
   },
   {
     "id": "toyota-4runner-g1",
@@ -477,7 +477,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/toyota-4runner-g1.webp"
   },
   {
     "id": "toyota-crown-g1",
@@ -516,7 +516,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/toyota-crown-g1.webp"
   },
   {
     "id": "toyota-yaris-g1",
@@ -557,7 +557,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/toyota-yaris-g1.webp"
   },
   {
     "id": "toyota-venza-g1",
@@ -599,7 +599,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/toyota-venza-g1.webp"
   },
   {
     "id": "toyota-highlander-g1",
@@ -640,7 +640,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/toyota-highlander-g1.webp"
   },
   {
     "id": "toyota-sequoia-g1",
@@ -679,7 +679,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/toyota-sequoia-g1.webp"
   },
   {
     "id": "toyota-gr86-g1",
@@ -718,7 +718,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/toyota-gr86-g1.webp"
   },
   {
     "id": "honda-ridgeline-g1",
@@ -757,7 +757,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/honda-ridgeline-g1.webp"
   },
   {
     "id": "honda-civic-g1",
@@ -796,7 +796,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/honda-civic-g1.webp"
   },
   {
     "id": "honda-fit-g1",
@@ -836,7 +836,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/honda-fit-g1.webp"
   },
   {
     "id": "honda-odyssey-g1",
@@ -874,7 +874,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/honda-odyssey-g1.webp"
   },
   {
     "id": "honda-pilot-g1",
@@ -912,7 +912,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/honda-pilot-g1.webp"
   },
   {
     "id": "honda-accord-g1",
@@ -952,7 +952,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/honda-accord-g1.webp"
   },
   {
     "id": "honda-cr-v-g1",
@@ -992,7 +992,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/honda-cr-v-g1.webp"
   },
   {
     "id": "honda-passport-g1",
@@ -1000,7 +1000,8 @@
     "model": "Passport",
     "generation": 1,
     "brands": [
-      "Honda"
+      "Honda",
+      "Isuzu"
     ],
     "country_of_origin": "Japanese",
     "production_start": 1993,
@@ -1033,7 +1034,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/honda-passport-g1.webp"
   },
   {
     "id": "ford-explorer-g1",
@@ -1073,7 +1074,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-explorer-g1.webp"
   },
   {
     "id": "ford-edge-g1",
@@ -1113,7 +1114,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-edge-g1.webp"
   },
   {
     "id": "ford-f-150-g1",
@@ -1154,7 +1155,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-f-150-g1.webp"
   },
   {
     "id": "ford-f-250-g1",
@@ -1194,7 +1195,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-f-250-g1.webp"
   },
   {
     "id": "ford-f-350-g1",
@@ -1234,7 +1235,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-f-350-g1.webp"
   },
   {
     "id": "ford-focus-g1",
@@ -1274,7 +1275,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-focus-g1.webp"
   },
   {
     "id": "ford-bronco-g1",
@@ -1315,7 +1316,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-bronco-g1.webp"
   },
   {
     "id": "ford-escape-g1",
@@ -1356,7 +1357,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-escape-g1.webp"
   },
   {
     "id": "ford-expedition-g1",
@@ -1396,7 +1397,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-expedition-g1.webp"
   },
   {
     "id": "ford-ranger-g1",
@@ -1440,7 +1441,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-ranger-g1.webp"
   },
   {
     "id": "ford-maverick-g1",
@@ -1451,38 +1452,37 @@
       "Ford"
     ],
     "country_of_origin": "American",
-    "production_start": 2022,
-    "production_end": null,
+    "production_start": 1970,
+    "production_end": 1977,
     "decades": [
-      "2020s"
+      "1970s"
     ],
     "engine_layouts": [
-      "Inline-4"
+      "Inline-6",
+      "V8"
     ],
-    "body_style": "Pickup Truck",
+    "body_style": "Sedan",
     "drivetrain": [
-      "FWD",
-      "AWD"
+      "RWD"
     ],
-    "car_class": "Pickup Truck",
-    "power_output_hp_min": 191,
-    "power_output_hp_max": 250,
+    "car_class": "Sedan",
+    "power_output_hp_min": 105,
+    "power_output_hp_max": 210,
     "power_output_ranges": [
       "101-200",
       "201-300"
     ],
     "transmission": [
-      "CVT",
+      "Manual",
       "Automatic"
     ],
     "fuel_type": [
-      "Hybrid",
       "Gasoline"
     ],
     "pop_culture": null,
-    "price_at_launch_usd": null,
+    "price_at_launch_usd": 1995,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-maverick-g1.webp"
   },
   {
     "id": "ford-transit-g1",
@@ -1522,7 +1522,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-transit-g1.webp"
   },
   {
     "id": "ford-fusion-g1",
@@ -1565,7 +1565,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-fusion-g1.webp"
   },
   {
     "id": "ford-excursion-g1",
@@ -1607,7 +1607,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-excursion-g1.webp"
   },
   {
     "id": "ford-taurus-g1",
@@ -1649,7 +1649,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-taurus-g1.webp"
   },
   {
     "id": "ford-flex-g1",
@@ -1689,7 +1689,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-flex-g1.webp"
   },
   {
     "id": "ford-gt-g1",
@@ -1727,7 +1727,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ford-gt-g1.webp"
   },
   {
     "id": "chevrolet-camaro-g1",
@@ -1769,7 +1769,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-camaro-g1.webp"
   },
   {
     "id": "chevrolet-silverado-g1",
@@ -1812,7 +1812,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-silverado-g1.webp"
   },
   {
     "id": "chevrolet-equinox-g1",
@@ -1851,7 +1851,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-equinox-g1.webp"
   },
   {
     "id": "chevrolet-traverse-g1",
@@ -1891,7 +1891,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-traverse-g1.webp"
   },
   {
     "id": "chevrolet-suburban-g1",
@@ -1930,7 +1930,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-suburban-g1.webp"
   },
   {
     "id": "chevrolet-tahoe-g1",
@@ -1971,7 +1971,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-tahoe-g1.webp"
   },
   {
     "id": "chevrolet-colorado-g1",
@@ -2014,7 +2014,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-colorado-g1.webp"
   },
   {
     "id": "chevrolet-blazer-g1",
@@ -2057,7 +2057,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-blazer-g1.webp"
   },
   {
     "id": "chevrolet-impala-g1",
@@ -2099,7 +2099,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-impala-g1.webp"
   },
   {
     "id": "chevrolet-malibu-g1",
@@ -2140,7 +2140,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-malibu-g1.webp"
   },
   {
     "id": "chevrolet-bolt-ev-g1",
@@ -2179,7 +2179,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-bolt-ev-g1.webp"
   },
   {
     "id": "chevrolet-corvette-g1",
@@ -2218,7 +2218,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-corvette-g1.webp"
   },
   {
     "id": "chevrolet-trax-g1",
@@ -2259,7 +2259,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-trax-g1.webp"
   },
   {
     "id": "chevrolet-trailblazer-g1",
@@ -2298,7 +2298,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-trailblazer-g1.webp"
   },
   {
     "id": "chevrolet-express-g1",
@@ -2342,7 +2342,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-express-g1.webp"
   },
   {
     "id": "chevrolet-hhr-g1",
@@ -2382,7 +2382,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-hhr-g1.webp"
   },
   {
     "id": "chevrolet-cobalt-g1",
@@ -2423,7 +2423,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-cobalt-g1.webp"
   },
   {
     "id": "chevrolet-cruze-g1",
@@ -2463,7 +2463,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/chevrolet-cruze-g1.webp"
   },
   {
     "id": "dodge-charger-g1",
@@ -2504,7 +2504,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/dodge-charger-g1.webp"
   },
   {
     "id": "dodge-durango-g1",
@@ -2545,7 +2545,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/dodge-durango-g1.webp"
   },
   {
     "id": "dodge-journey-g1",
@@ -2588,7 +2588,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/dodge-journey-g1.webp"
   },
   {
     "id": "dodge-grand-caravan-g1",
@@ -2629,7 +2629,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/dodge-grand-caravan-g1.webp"
   },
   {
     "id": "dodge-intrepid-g1",
@@ -2668,7 +2668,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/dodge-intrepid-g1.webp"
   },
   {
     "id": "dodge-avenger-g1",
@@ -2709,7 +2709,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/dodge-avenger-g1.webp"
   },
   {
     "id": "dodge-stratus-g1",
@@ -2750,7 +2750,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/dodge-stratus-g1.webp"
   },
   {
     "id": "dodge-neon-g1",
@@ -2789,7 +2789,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/dodge-neon-g1.webp"
   },
   {
     "id": "dodge-caliber-g1",
@@ -2830,34 +2830,37 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/dodge-caliber-g1.webp"
   },
   {
-    "id": "dodge-dart-g1",
+    "id": "dodge-dart-g4",
     "make": "Dodge",
     "model": "Dart",
-    "generation": 1,
+    "generation": 4,
     "brands": [
       "Dodge"
     ],
     "country_of_origin": "American",
-    "production_start": 2013,
-    "production_end": 2016,
+    "production_start": 1967,
+    "production_end": 1976,
     "decades": [
-      "2010s"
+      "1960s",
+      "1970s"
     ],
     "engine_layouts": [
-      "Inline-4"
+      "Inline-6",
+      "V8"
     ],
-    "body_style": "Sedan",
+    "body_style": "Coupe",
     "drivetrain": [
-      "FWD"
+      "RWD"
     ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 160,
-    "power_output_hp_max": 184,
+    "car_class": "Muscle Car",
+    "power_output_hp_min": 101,
+    "power_output_hp_max": 300,
     "power_output_ranges": [
-      "101-200"
+      "101-200",
+      "201-300"
     ],
     "transmission": [
       "Manual",
@@ -2869,7 +2872,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/dodge-dart-g4.webp"
   },
   {
     "id": "subaru-wrx-g1",
@@ -2909,7 +2912,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/subaru-wrx-g1.webp"
   },
   {
     "id": "subaru-brz-g1",
@@ -2949,7 +2952,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/subaru-brz-g1.webp"
   },
   {
     "id": "subaru-outback-g1",
@@ -2988,7 +2991,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/subaru-outback-g1.webp"
   },
   {
     "id": "subaru-forester-g1",
@@ -3028,7 +3031,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/subaru-forester-g1.webp"
   },
   {
     "id": "subaru-impreza-g1",
@@ -3070,7 +3073,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/subaru-impreza-g1.webp"
   },
   {
     "id": "subaru-legacy-g1",
@@ -3111,7 +3114,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/subaru-legacy-g1.webp"
   },
   {
     "id": "subaru-ascent-g1",
@@ -3150,7 +3153,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/subaru-ascent-g1.webp"
   },
   {
     "id": "subaru-baja-g1",
@@ -3189,7 +3192,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/subaru-baja-g1.webp"
   },
   {
     "id": "porsche-cayenne-g1",
@@ -3232,7 +3235,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/porsche-cayenne-g1.webp"
   },
   {
     "id": "porsche-macan-g1",
@@ -3257,21 +3260,23 @@
       "AWD"
     ],
     "car_class": "SUV",
-    "power_output_hp_min": 340,
+    "power_output_hp_min": 258,
     "power_output_hp_max": 400,
     "power_output_ranges": [
+      "201-300",
       "301-400"
     ],
     "transmission": [
       "Automatic"
     ],
     "fuel_type": [
-      "Gasoline"
+      "Gasoline",
+      "Diesel"
     ],
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/porsche-macan-g1.webp"
   },
   {
     "id": "porsche-panamera-g1",
@@ -3314,7 +3319,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/porsche-panamera-g1.webp"
   },
   {
     "id": "porsche-taycan-g1",
@@ -3355,7 +3360,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/porsche-taycan-g1.webp"
   },
   {
     "id": "porsche-boxster-g1",
@@ -3395,7 +3400,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/porsche-boxster-g1.webp"
   },
   {
     "id": "nissan-frontier-g1",
@@ -3437,7 +3442,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-frontier-g1.webp"
   },
   {
     "id": "nissan-armada-g1",
@@ -3477,7 +3482,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-armada-g1.webp"
   },
   {
     "id": "nissan-pathfinder-g1",
@@ -3519,7 +3524,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-pathfinder-g1.webp"
   },
   {
     "id": "nissan-rogue-g1",
@@ -3559,7 +3564,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-rogue-g1.webp"
   },
   {
     "id": "nissan-murano-g1",
@@ -3598,7 +3603,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-murano-g1.webp"
   },
   {
     "id": "nissan-altima-g1",
@@ -3637,7 +3642,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-altima-g1.webp"
   },
   {
     "id": "nissan-maxima-g1",
@@ -3645,7 +3650,8 @@
     "model": "Maxima",
     "generation": 1,
     "brands": [
-      "Nissan"
+      "Nissan",
+      "Datsun"
     ],
     "country_of_origin": "Japanese",
     "production_start": 1981,
@@ -3677,7 +3683,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-maxima-g1.webp"
   },
   {
     "id": "nissan-sentra-g1",
@@ -3717,7 +3723,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-sentra-g1.webp"
   },
   {
     "id": "nissan-versa-g1",
@@ -3758,7 +3764,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-versa-g1.webp"
   },
   {
     "id": "nissan-juke-g1",
@@ -3798,7 +3804,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-juke-g1.webp"
   },
   {
     "id": "nissan-kicks-g1",
@@ -3809,7 +3815,7 @@
       "Nissan"
     ],
     "country_of_origin": "Japanese",
-    "production_start": 2018,
+    "production_start": 2016,
     "production_end": 2024,
     "decades": [
       "2010s",
@@ -3837,7 +3843,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-kicks-g1.webp"
   },
   {
     "id": "nissan-leaf-g1",
@@ -3875,18 +3881,18 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-leaf-g1.webp"
   },
   {
     "id": "bmw-i3-g1",
-    "make": "Bmw",
+    "make": "BMW",
     "model": "i3",
     "generation": 1,
     "brands": [
-      "Bmw"
+      "BMW"
     ],
     "country_of_origin": "German",
-    "production_start": 2014,
+    "production_start": 2013,
     "production_end": 2022,
     "decades": [
       "2010s",
@@ -3914,15 +3920,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bmw-i3-g1.webp"
   },
   {
     "id": "bmw-i8-g1",
-    "make": "Bmw",
+    "make": "BMW",
     "model": "i8",
     "generation": 1,
     "brands": [
-      "Bmw"
+      "BMW"
     ],
     "country_of_origin": "German",
     "production_start": 2014,
@@ -3953,15 +3959,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bmw-i8-g1.webp"
   },
   {
     "id": "bmw-m2-g1",
-    "make": "Bmw",
+    "make": "BMW",
     "model": "M2",
     "generation": 1,
     "brands": [
-      "Bmw"
+      "BMW"
     ],
     "country_of_origin": "German",
     "production_start": 2016,
@@ -3993,15 +3999,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bmw-m2-g1.webp"
   },
   {
     "id": "bmw-m4-g1",
-    "make": "Bmw",
+    "make": "BMW",
     "model": "M4",
     "generation": 1,
     "brands": [
-      "Bmw"
+      "BMW"
     ],
     "country_of_origin": "German",
     "production_start": 2014,
@@ -4033,15 +4039,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bmw-m4-g1.webp"
   },
   {
     "id": "bmw-m5-g1",
-    "make": "Bmw",
+    "make": "BMW",
     "model": "M5",
     "generation": 1,
     "brands": [
-      "Bmw"
+      "BMW"
     ],
     "country_of_origin": "German",
     "production_start": 1984,
@@ -4071,15 +4077,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bmw-m5-g1.webp"
   },
   {
     "id": "bmw-m6-g1",
-    "make": "Bmw",
+    "make": "BMW",
     "model": "M6",
     "generation": 1,
     "brands": [
-      "Bmw"
+      "BMW"
     ],
     "country_of_origin": "German",
     "production_start": 1983,
@@ -4109,15 +4115,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bmw-m6-g1.webp"
   },
   {
     "id": "bmw-x1-g1",
-    "make": "Bmw",
+    "make": "BMW",
     "model": "X1",
     "generation": 1,
     "brands": [
-      "Bmw"
+      "BMW"
     ],
     "country_of_origin": "German",
     "production_start": 2009,
@@ -4153,15 +4159,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bmw-x1-g1.webp"
   },
   {
     "id": "bmw-x2-g1",
-    "make": "Bmw",
+    "make": "BMW",
     "model": "X2",
     "generation": 1,
     "brands": [
-      "Bmw"
+      "BMW"
     ],
     "country_of_origin": "German",
     "production_start": 2018,
@@ -4193,15 +4199,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bmw-x2-g1.webp"
   },
   {
     "id": "bmw-x3-g1",
-    "make": "Bmw",
+    "make": "BMW",
     "model": "X3",
     "generation": 1,
     "brands": [
-      "Bmw"
+      "BMW"
     ],
     "country_of_origin": "German",
     "production_start": 2004,
@@ -4234,15 +4240,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bmw-x3-g1.webp"
   },
   {
     "id": "bmw-x4-g1",
-    "make": "Bmw",
+    "make": "BMW",
     "model": "X4",
     "generation": 1,
     "brands": [
-      "Bmw"
+      "BMW"
     ],
     "country_of_origin": "German",
     "production_start": 2014,
@@ -4273,15 +4279,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bmw-x4-g1.webp"
   },
   {
     "id": "bmw-x5-g1",
-    "make": "Bmw",
+    "make": "BMW",
     "model": "X5",
     "generation": 1,
     "brands": [
-      "Bmw"
+      "BMW"
     ],
     "country_of_origin": "German",
     "production_start": 2000,
@@ -4311,15 +4317,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bmw-x5-g1.webp"
   },
   {
     "id": "bmw-x6-g1",
-    "make": "Bmw",
+    "make": "BMW",
     "model": "X6",
     "generation": 1,
     "brands": [
-      "Bmw"
+      "BMW"
     ],
     "country_of_origin": "German",
     "production_start": 2008,
@@ -4352,15 +4358,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bmw-x6-g1.webp"
   },
   {
     "id": "bmw-x7-g1",
-    "make": "Bmw",
+    "make": "BMW",
     "model": "X7",
     "generation": 1,
     "brands": [
-      "Bmw"
+      "BMW"
     ],
     "country_of_origin": "German",
     "production_start": 2019,
@@ -4393,15 +4399,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bmw-x7-g1.webp"
   },
   {
     "id": "bmw-z3-g1",
-    "make": "Bmw",
+    "make": "BMW",
     "model": "Z3",
     "generation": 1,
     "brands": [
-      "Bmw"
+      "BMW"
     ],
     "country_of_origin": "German",
     "production_start": 1996,
@@ -4433,15 +4439,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bmw-z3-g1.webp"
   },
   {
     "id": "bmw-z4-g1",
-    "make": "Bmw",
+    "make": "BMW",
     "model": "Z4",
     "generation": 1,
     "brands": [
-      "Bmw"
+      "BMW"
     ],
     "country_of_origin": "German",
     "production_start": 2003,
@@ -4473,7 +4479,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bmw-z4-g1.webp"
   },
   {
     "id": "audi-r8-g1",
@@ -4513,7 +4519,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/audi-r8-g1.webp"
   },
   {
     "id": "audi-a3-g1",
@@ -4554,7 +4560,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/audi-a3-g1.webp"
   },
   {
     "id": "audi-a4-g1",
@@ -4581,9 +4587,10 @@
       "AWD"
     ],
     "car_class": "Sedan",
-    "power_output_hp_min": 150,
-    "power_output_hp_max": 172,
+    "power_output_hp_min": 90,
+    "power_output_hp_max": 174,
     "power_output_ranges": [
+      "0-100",
       "101-200"
     ],
     "transmission": [
@@ -4591,12 +4598,13 @@
       "Automatic"
     ],
     "fuel_type": [
-      "Gasoline"
+      "Gasoline",
+      "Diesel"
     ],
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/audi-a4-g1.webp"
   },
   {
     "id": "audi-a5-g1",
@@ -4636,7 +4644,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/audi-a5-g1.webp"
   },
   {
     "id": "audi-a6-g1",
@@ -4653,16 +4661,20 @@
       "1990s"
     ],
     "engine_layouts": [
+      "Inline-4",
+      "Inline-5",
       "V6"
     ],
     "body_style": "Sedan",
     "drivetrain": [
-      "FWD"
+      "FWD",
+      "AWD"
     ],
     "car_class": "Sedan",
-    "power_output_hp_min": 172,
-    "power_output_hp_max": 172,
+    "power_output_hp_min": 90,
+    "power_output_hp_max": 174,
     "power_output_ranges": [
+      "0-100",
       "101-200"
     ],
     "transmission": [
@@ -4670,12 +4682,13 @@
       "Automatic"
     ],
     "fuel_type": [
-      "Gasoline"
+      "Gasoline",
+      "Diesel"
     ],
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/audi-a6-g1.webp"
   },
   {
     "id": "audi-a7-g1",
@@ -4713,7 +4726,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/audi-a7-g1.webp"
   },
   {
     "id": "audi-a8-g1",
@@ -4737,12 +4750,13 @@
     "body_style": "Sedan",
     "drivetrain": [
       "FWD",
-      "4WD"
+      "AWD"
     ],
     "car_class": "Sedan",
-    "power_output_hp_min": 230,
+    "power_output_hp_min": 174,
     "power_output_hp_max": 300,
     "power_output_ranges": [
+      "101-200",
       "201-300"
     ],
     "transmission": [
@@ -4755,7 +4769,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/audi-a8-g1.webp"
   },
   {
     "id": "audi-q3-g1",
@@ -4794,7 +4808,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/audi-q3-g1.webp"
   },
   {
     "id": "audi-q5-g1",
@@ -4835,7 +4849,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/audi-q5-g1.webp"
   },
   {
     "id": "audi-q7-g1",
@@ -4861,7 +4875,7 @@
       "AWD"
     ],
     "car_class": "SUV",
-    "power_output_hp_min": 280,
+    "power_output_hp_min": 233,
     "power_output_hp_max": 350,
     "power_output_ranges": [
       "201-300",
@@ -4871,12 +4885,13 @@
       "Automatic"
     ],
     "fuel_type": [
-      "Gasoline"
+      "Gasoline",
+      "Diesel"
     ],
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/audi-q7-g1.webp"
   },
   {
     "id": "audi-q8-g1",
@@ -4915,15 +4930,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/audi-q8-g1.webp"
   },
   {
     "id": "mercedes-benz-amg-gt-g1",
-    "make": "Mercedes-benz",
+    "make": "Mercedes-Benz",
     "model": "AMG GT",
     "generation": 1,
     "brands": [
-      "Mercedes-benz"
+      "Mercedes-Benz"
     ],
     "country_of_origin": "German",
     "production_start": 2015,
@@ -4955,15 +4970,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mercedes-benz-amg-gt-g1.webp"
   },
   {
     "id": "mercedes-benz-c-class-g1",
-    "make": "Mercedes-benz",
+    "make": "Mercedes-Benz",
     "model": "C-Class",
     "generation": 1,
     "brands": [
-      "Mercedes-benz"
+      "Mercedes-Benz"
     ],
     "country_of_origin": "German",
     "production_start": 1993,
@@ -4997,15 +5012,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mercedes-benz-c-class-g1.webp"
   },
   {
     "id": "mercedes-benz-e-class-g1",
-    "make": "Mercedes-benz",
+    "make": "Mercedes-Benz",
     "model": "E-Class",
     "generation": 1,
     "brands": [
-      "Mercedes-benz"
+      "Mercedes-Benz"
     ],
     "country_of_origin": "German",
     "production_start": 1984,
@@ -5039,15 +5054,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mercedes-benz-e-class-g1.webp"
   },
   {
     "id": "mercedes-benz-s-class-g1",
-    "make": "Mercedes-benz",
+    "make": "Mercedes-Benz",
     "model": "S-Class",
     "generation": 1,
     "brands": [
-      "Mercedes-benz"
+      "Mercedes-Benz"
     ],
     "country_of_origin": "German",
     "production_start": 1972,
@@ -5081,15 +5096,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mercedes-benz-s-class-g1.webp"
   },
   {
     "id": "mercedes-benz-g-class-g1",
-    "make": "Mercedes-benz",
+    "make": "Mercedes-Benz",
     "model": "G-Class",
     "generation": 1,
     "brands": [
-      "Mercedes-benz"
+      "Mercedes-Benz"
     ],
     "country_of_origin": "German",
     "production_start": 1979,
@@ -5125,7 +5140,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mercedes-benz-g-class-g1.webp"
   },
   {
     "id": "lamborghini-huracan-g1",
@@ -5164,7 +5179,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/lamborghini-huracan-g1.webp"
   },
   {
     "id": "ferrari-488-g1",
@@ -5202,15 +5217,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/ferrari-488-g1.webp"
   },
   {
     "id": "mclaren-720s-g1",
-    "make": "Mclaren",
+    "make": "McLaren",
     "model": "720S",
     "generation": 1,
     "brands": [
-      "Mclaren"
+      "McLaren"
     ],
     "country_of_origin": "British",
     "production_start": 2017,
@@ -5241,7 +5256,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mclaren-720s-g1.webp"
   },
   {
     "id": "aston-martin-vantage-g1",
@@ -5281,7 +5296,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/aston-martin-vantage-g1.webp"
   },
   {
     "id": "jaguar-f-type-g1",
@@ -5322,7 +5337,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/jaguar-f-type-g1.webp"
   },
   {
     "id": "maserati-granturismo-g1",
@@ -5361,7 +5376,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/maserati-granturismo-g1.webp"
   },
   {
     "id": "mazda-rx-7-g1",
@@ -5402,7 +5417,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mazda-rx-7-g1.webp"
   },
   {
     "id": "infiniti-q60-g1",
@@ -5444,7 +5459,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/infiniti-q60-g1.webp"
   },
   {
     "id": "acura-nsx-g1",
@@ -5452,7 +5467,8 @@
     "model": "NSX",
     "generation": 1,
     "brands": [
-      "Acura"
+      "Acura",
+      "Honda"
     ],
     "country_of_origin": "Japanese",
     "production_start": 1990,
@@ -5484,7 +5500,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/acura-nsx-g1.webp"
   },
   {
     "id": "tesla-model-s-g1",
@@ -5524,7 +5540,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/tesla-model-s-g1.webp"
   },
   {
     "id": "koenigsegg-agera-g1",
@@ -5562,7 +5578,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/koenigsegg-agera-g1.webp"
   },
   {
     "id": "pagani-huayra-g1",
@@ -5600,7 +5616,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/pagani-huayra-g1.webp"
   },
   {
     "id": "bugatti-chiron-g1",
@@ -5639,15 +5655,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/bugatti-chiron-g1.webp"
   },
   {
     "id": "rolls-royce-phantom-g1",
-    "make": "Rolls-royce",
+    "make": "Rolls-Royce",
     "model": "Phantom",
     "generation": 1,
     "brands": [
-      "Rolls-royce"
+      "Rolls-Royce"
     ],
     "country_of_origin": "British",
     "production_start": 2003,
@@ -5678,7 +5694,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/rolls-royce-phantom-g1.webp"
   },
   {
     "id": "lincoln-continental-g1",
@@ -5712,13 +5728,12 @@
       "Manual"
     ],
     "fuel_type": [
-      "Diesel",
       "Gasoline"
     ],
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/lincoln-continental-g1.webp"
   },
   {
     "id": "toyota-prius-g1",
@@ -5757,7 +5772,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/toyota-prius-g1.webp"
   },
   {
     "id": "toyota-c-hr-g1",
@@ -5779,24 +5794,27 @@
     ],
     "body_style": "SUV",
     "drivetrain": [
-      "FWD"
+      "FWD",
+      "AWD"
     ],
     "car_class": "SUV",
-    "power_output_hp_min": 144,
-    "power_output_hp_max": 144,
+    "power_output_hp_min": 116,
+    "power_output_hp_max": 122,
     "power_output_ranges": [
       "101-200"
     ],
     "transmission": [
+      "Manual",
       "CVT"
     ],
     "fuel_type": [
-      "Gasoline"
+      "Gasoline",
+      "Hybrid"
     ],
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/toyota-c-hr-g1.webp"
   },
   {
     "id": "toyota-rav4-g1",
@@ -5837,7 +5855,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/toyota-rav4-g1.webp"
   },
   {
     "id": "toyota-avalon-g1",
@@ -5875,7 +5893,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/toyota-avalon-g1.webp"
   },
   {
     "id": "toyota-land-cruiser-g1",
@@ -5913,6 +5931,6 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/toyota-land-cruiser-g1.webp"
   }
 ]

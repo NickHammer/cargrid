@@ -1,4 +1,4 @@
-import type { Car, GridParameter, GameState, GridLayout } from "./types";
+import type { Car, GridParameter, GameState } from "./types";
 
 export const MAX_GUESSES = 9;
 
@@ -65,22 +65,4 @@ export function solvedCount(state: GameState): number {
 export function accuracyPercent(state: GameState): number {
   if (state.guessesUsed === 0) return 0;
   return Math.round((solvedCount(state) / state.guessesUsed) * 100);
-}
-
-/** Hardcoded daily grid — replace with generation logic later */
-export function getTodayGrid(date: string): GridLayout {
-  return {
-    id: `grid-${date}`,
-    date,
-    rows: [
-      { type: "country_of_origin", value: "American", label: "American" },
-      { type: "country_of_origin", value: "Japanese", label: "Japanese" },
-      { type: "country_of_origin", value: "German", label: "German" },
-    ],
-    columns: [
-      { type: "car_class", value: "Muscle Car", label: "Muscle Car" },
-      { type: "car_class", value: "Sports Car", label: "Sports Car" },
-      { type: "decade", value: "1990s", label: "1990s" },
-    ],
-  };
 }

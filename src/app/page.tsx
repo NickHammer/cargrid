@@ -1,5 +1,5 @@
-import Game from "@/components/Game";
+import GameClient from "@/components/GameClient";
 
 export default function Home() {
-  return <Game />;
+  return <GameClient />;
 }

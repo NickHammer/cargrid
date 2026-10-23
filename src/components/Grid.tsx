@@ -1,5 +1,6 @@
 "use client";
 
+import { Fragment } from "react";
 import Image from "next/image";
 import type { GridLayout, CellState } from "@/lib/types";
 import { getCarById } from "@/lib/cars";
@@ -36,10 +37,9 @@ export default function Grid({
 
       {/* Rows */}
       {layout.rows.map((row, rowIdx) => (
-        <>
+        <Fragment key={rowIdx}>
           {/* Row header */}
           <div
-            key={row.value}
             className="flex items-center justify-center rounded-lg bg-gray-800 px-2 py-3 text-center text-sm font-semibold text-amber-400"
           >
             {row.label}
@@ -99,7 +99,7 @@ export default function Grid({
               </button>
             );
           })}
-        </>
+        </Fragment>
       ))}
     </div>
   );

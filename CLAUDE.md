@@ -36,6 +36,12 @@ node scripts/derive-fields.mjs
 
 # Generate a car entry template from NHTSA (Node 18+)
 node scripts/fetch-car-specs.mjs "<make>" "<model>"
+
+# Extend the daily grid schedule (idempotent — existing dates are kept)
+node scripts/generate-grids.mjs --from 2027-10-22 --days 180
+
+# Check every scheduled grid is still solvable — run after ANY cars.json edit
+node scripts/validate-grids.mjs --min 3
 ```
 
 ## Grid Parameters
@@ -132,6 +138,10 @@ node scripts/derive-fields.mjs
 - HP figures pre-1972 are gross ratings (engine on stand); post-1972 are net (SAE). Use whichever figure is commonly cited in enthusiast references for consistency.
 - `body_style` is a single value — pick the primary/most iconic body for that model (e.g., Mustang → Coupe, not Fastback or Convertible)
 - `manufacturer_still_active` refers to the **brand**, not the specific model
+- Production years and engine options use the **global launch**, not the US launch (Prius 1997, not 2001; Kicks 2016, not 2018). Record the full launch line-up, including engines never sold in the US — that is what widens `fuel_type` and `power_output_ranges` correctly.
+- `make` and `brands[]` use canonical display spelling from `scripts/make-names.mjs` ("BMW", not "Bmw"). Brand matching is exact string equality, so run `node scripts/normalize-makes.mjs` after any batch add.
+- `generation` counts generations of the **nameplate as curated**, and the number must be truthful: the 1967–76 Dart is `dodge-dart-g4`, not `-g1`. A dataset may hold `-g4` without holding `-g1`.
+- Muscle Car is applied when a nameplate's performance variant is its defining identity in enthusiast culture (Chevelle SS → Malibu, GTS/340 → Dart), even though base models were ordinary.
 
 ### `car_class` Enum (frozen)
 
@@ -165,13 +175,31 @@ node scripts/derive-fields.mjs
 - GT/touring cars (Aston Martin DB series, Bentley Continental GT) → Coupe
 
 ### Image Strategy
-Manually curate one canonical image per car. Host in `/public/cars/`. Prefer Creative Commons or licensed stock; do not scrape automaker or auction sites.
+One canonical image per car in `/public/cars/<id>.webp`, sourced from Wikimedia Commons (free license guaranteed by requiring the file to live on Commons) and credited on `/credits`, which is a condition of the CC BY / CC BY-SA licenses most of them carry. Do not scrape automaker or auction sites.
+
+The pipeline, in order:
+
+```bash
+node scripts/fetch-car-images.mjs                 # download candidates (pinned file -> generation article -> Commons category -> search)
+node scripts/make-contact-sheets.mjs --unverified # labeled sheets for visual review
+node scripts/mark-image-verified.mjs <id>...      # or --reject <id>...
+node scripts/fetch-car-images.mjs --unverified    # retry whatever was rejected
+node scripts/optimize-car-images.mjs              # re-encode to 640px WebP
+node scripts/apply-image-urls.mjs                 # verified entries -> cars.json image_url
+```
+
+**Every image needs the visual check.** A nameplate's lead image on Wikipedia is almost always the *current* generation, so an unreviewed fetch will happily file a 2024 Rogue under the 2008 one. Only entries marked `"verified": true` in `data/image-credits.json` are wired into `cars.json`; anything else leaves `image_url` empty and the grid renders a text tile instead of the wrong car. When automated resolution keeps failing, pin an exact Commons filename in `PINNED_FILES` in `scripts/fetch-car-images.mjs`.
 
 ## Architecture
 
 The app is intentionally lightweight and mostly client-side:
 
-- **Grid logic** — a 3x3 grid with a row parameter and column parameter per axis; players guess which car satisfies both parameters for a cell
-- **Daily rotation** — grid changes every 24 hours; past grids are archived and replayable
+- **Grid logic** — a 3x3 grid with a row parameter and column parameter per axis; players guess which car satisfies both parameters for a cell. `carMatchesParameter` in `src/lib/game.ts` is the runtime source of truth; `scripts/grid-params.mjs` mirrors it for generation and must be kept in sync.
+- **Daily rotation** — the schedule is **pre-generated and committed** to `data/grids.json` by `scripts/generate-grids.mjs`, not derived at runtime, so an archived grid cannot change when the car dataset does. Dates roll over at the player's *local* midnight (`src/lib/date.ts`) — never `toISOString()`, which would flip the grid at 8pm ET.
+- **Grid solvability** — a grid is only valid if every cell has at least 3 answers *and* 9 **distinct** cars can fill the 9 cells. Per-cell counts alone are not enough, because the autocomplete bars reusing a car; the generator proves it with a bipartite perfect matching. `scripts/validate-grids.mjs` re-checks the whole schedule and must be run after any `cars.json` edit.
+- **Archive** — `/archive` lists past dates, `/archive/[date]` replays one. `localStorage` is keyed by date and discards state when the grid id changes, so replays need no extra storage.
+- **Client-only game** — `GameClient`/`ArchiveListClient` load their component with `next/dynamic` and `ssr: false`, which lets `localStorage` and the local clock be read in a `useState` initializer rather than a mount effect (React 19 flags that as a cascading render) and rules out hydration mismatches on the date.
 - **State persistence** — user ID (UUID), guesses, and score history stored in `localStorage`; no login required
 - **Server usage** — limit to heavier calculations (e.g., end-of-game stats aggregation); avoid server round-trips for core gameplay
+
+> The committed schedule ships to the browser in full, so a determined player can read future grids out of the JS bundle. That is the accepted cost of the no-server design; closing it would mean serving the grid from an endpoint.
