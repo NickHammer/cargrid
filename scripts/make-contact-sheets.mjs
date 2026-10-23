@@ -5,7 +5,10 @@
  * the current generation, not the one the record describes.
  *
  * Each tile is captioned with the car id and its production years, which is
- * what the reviewer checks the bodywork against.
+ * what the reviewer checks the bodywork against. Two separate questions get
+ * asked of every tile: is it the right model AND generation, and does the car
+ * actually fill the frame (a car lost in a wide landscape shot makes a useless
+ * tile once it is cropped to 4:3).
  *
  * Usage:
  *   node scripts/make-contact-sheets.mjs [--out <dir>] [--per 12] [--unverified]
@@ -31,8 +34,11 @@ const outDir = argOf("--out", "contact-sheets");
 const perSheet = parseInt(argOf("--per", "12"), 10);
 const onlyUnverified = argv.includes("--unverified");
 
+// Match the 4:3 tile shape used by src/components/Grid.tsx, so what gets
+// reviewed is exactly what players see — framing problems only show up at the
+// real aspect ratio.
 const TILE_W = 320;
-const TILE_H = 200;
+const TILE_H = 240;
 const LABEL_H = 34;
 const COLS = 4;
 

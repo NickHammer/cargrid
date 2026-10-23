@@ -10,7 +10,11 @@
  *   - at least MIN_CELL valid answers in every cell
  *   - a perfect matching of 9 distinct cars (a 9/9 is actually achievable)
  *
- * Usage: node scripts/validate-grids.mjs [--min 3] [--verbose]
+ * Also guards the schedule runway: --min-days fails the run when fewer than N
+ * days remain from today, so a schedule about to run dry breaks CI instead of
+ * quietly serving "no grid scheduled" to every visitor.
+ *
+ * Usage: node scripts/validate-grids.mjs [--min 3] [--min-days 60] [--verbose]
  * Exits non-zero if any grid fails.
  */
 
@@ -26,7 +30,15 @@ const { grids } = JSON.parse(readFileSync(join(__dirname, "../data/grids.json"),
 const argv = process.argv.slice(2);
 const minIdx = argv.indexOf("--min");
 const MIN_CELL = minIdx >= 0 ? parseInt(argv[minIdx + 1], 10) : 1;
+const daysIdx = argv.indexOf("--min-days");
+const MIN_DAYS = daysIdx >= 0 ? parseInt(argv[daysIdx + 1], 10) : 0;
 const verbose = argv.includes("--verbose");
+
+function todayLocal() {
+  const d = new Date();
+  const pad = (n) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+}
 
 function candidates(row, col) {
   return cars
@@ -99,4 +111,19 @@ console.log(
   "Tightest grids: " + worst.slice(0, 5).map((w) => `${w.date} (${w.min})`).join(", ")
 );
 
-process.exit(failures ? 1 : 0);
+// Runway check — how many scheduled days are still ahead of today?
+const today = todayLocal();
+const remaining = grids.filter((g) => g.date >= today).length;
+const last = grids.at(-1)?.date;
+console.log(`Runway: ${remaining} day(s) remaining, through ${last}.`);
+
+let runwayShort = false;
+if (MIN_DAYS && remaining < MIN_DAYS) {
+  console.log(
+    `\nSCHEDULE RUNNING OUT: ${remaining} day(s) left, below the ${MIN_DAYS} required.\n` +
+      `Extend it with:  node scripts/generate-grids.mjs --from ${last} --days 365`
+  );
+  runwayShort = true;
+}
+
+process.exit(failures || runwayShort ? 1 : 0);

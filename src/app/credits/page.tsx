@@ -4,7 +4,7 @@ import { allCars } from "@/lib/cars";
 import creditsData from "../../../data/image-credits.json";
 
 export const metadata: Metadata = {
-  title: "Image credits · CarGrid.io",
+  title: "Image credits · CarGrid.fun",
   description: "Photographers and licenses for every car image used in CarGrid.",
 };
 

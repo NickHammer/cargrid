@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CarGrid.io",
+  title: "CarGrid.fun",
   description: "A daily car guessing grid game.",
 };
 

@@ -15,7 +15,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { date } = await params;
   return {
-    title: `${formatDisplayDate(date)} · CarGrid.io`,
+    title: `${formatDisplayDate(date)} · CarGrid.fun`,
     description: `Replay the CarGrid puzzle from ${formatDisplayDate(date)}.`,
   };
 }

@@ -253,7 +253,7 @@ let wikiUrl = null;
 
 console.log("Fetching HP data from Wikipedia…");
 try {
-  const WIKI_HEADERS = { "User-Agent": "CarGrid.io/1.0 (curation script; nick.hammerstrom14@gmail.com)" };
+  const WIKI_HEADERS = { "User-Agent": "CarGrid.fun/1.0 (curation script; nick.hammerstrom14@gmail.com)" };
 
   // Search for the most relevant article, preferring first/specific-generation articles
   const query = `${canonicalMake} ${canonicalModel}`;

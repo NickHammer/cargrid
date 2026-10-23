@@ -32,7 +32,7 @@ const CREDITS_PATH = "data/image-credits.json";
 const OUT_DIR = "public/cars";
 
 const UA = {
-  "User-Agent": "CarGridCuration/1.0 (https://github.com/NickHammer/cargrid.io)",
+  "User-Agent": "CarGridCuration/1.0 (https://cargrid.fun)",
   Accept: "application/json",
 };
 
@@ -44,19 +44,33 @@ const PINNED_FILES = {
   "toyota-yaris-g1": "1999 Toyota Yaris GLS 1.0 (Front).jpg",
   "toyota-rav4-g1": "1997 Toyota Rav4, Front Left, 05-01-2021.jpg",
   "toyota-land-cruiser-g1": "Toyota jeep-bj 1951 pictures 1 b.jpg",
-  "honda-accord-g1": "Honda Accord 1.6 (first generation), Pandaan.jpg",
   "ford-fusion-g1": "2010 Ford Fusion in Smokestone Metallic, front left, 10-12-2025.jpg",
   "ford-gt-g1": "2006 Ford GT Petersen Automotive Museum.jpg",
   // Distinct from ford-f-250-g1, which takes the F-Series article lead image.
   "ford-f-350-g1": "1955 Ford F-100 Standard Cab Pickup (44976781304).jpg",
+
+  // Framing pass: these were the right car and generation but made poor tiles —
+  // the car was lost in a wide landscape, shot from behind, or wearing a custom
+  // wrap. Replacements are front-three-quarter shots that fill the frame.
+  "toyota-supra-g1": "1979 Toyota Celica Supra Mk I Coupe (23155184553).jpg",
+  "subaru-crosstrek-g1": "2013 Subaru XV Crosstrek, front left view.jpg",
+  "honda-accord-g1": "1978 Honda Accord 1600 01.jpg",
+  "ford-expedition-g1": "2000 Ford Expedition XLT.jpg",
+  "chevrolet-traverse-g1": "2011 Chevrolet Traverse LT in White Diamond Tricoat, front left, 04-26-2025.jpg",
+  "subaru-wrx-g1": "2015 Subaru WRX Limited, Front Right, 04-10-2021.jpg",
+  "subaru-outback-g1": "'96-'97 Subaru Outback Wagon.JPG",
+  "porsche-cayenne-g1": "2006 Porsche Cayenne, front left (Springs, NY).jpg",
+  "nissan-armada-g1": "'05-'07 Nissan Armada.JPG",
+  "nissan-altima-g1": "1995 Nissan Altima.jpg",
+  "nissan-leaf-g1": "Nissan LEAF (ZE0) front.JPG",
+  "bmw-x7-g1": "2019 BMW X7 xDrive30d M Sport Automatic 3.0 Front.jpg",
+  "audi-a6-g1": "Audi A6 C4.jpg",
   "chevrolet-silverado-g1": "1999-2002 Chevrolet Silverado 1500 extended.jpg",
   "chevrolet-blazer-g1": "1970 Chevrolet Blazer (35016494241).jpg",
   "subaru-impreza-g1": "1996-1997 Subaru Impreza (GC) 1.6 GX Sedan (07-08-2017) 01.jpg",
-  "porsche-cayenne-g1": "2003-2006 Porsche Cayenne (9PA) S wagon 01.jpg",
   "porsche-panamera-g1": "Porsche Panamera 4S (970) – Frontansicht, 7. August 2012, Tübingen.jpg",
   "nissan-maxima-g1": "Datsun 810 Maxima Wagon Diesel.jpg",
   "bmw-z4-g1": "'03-'05 BMW Z4 Roadster (Orange Julep).jpg",
-  "audi-a6-g1": "1996 Audi A6 2.5 TDI (C4).jpg",
   "mercedes-benz-amg-gt-g1": "2015-2017 Mercedes-AMG GT (C 190) S coupe (2017-07-15) 01.jpg",
   "mercedes-benz-g-class-g1": "1989 Mercedes-Benz 280 GE (W460) (4535432871).jpg",
 };
@@ -175,6 +189,10 @@ const CATEGORY_HINTS = {
   "honda-passport-g1": ["Honda Passport (first generation)"],
   "nissan-rogue-g1": ["Nissan Rogue (S35)", "Nissan X-Trail (T31)"],
   "toyota-yaris-g1": ["Toyota Vitz (XP10)", "Toyota Yaris (XP10)"],
+  "toyota-supra-g2": ["Toyota Supra (A60)", "Toyota Celica XX (A60)"],
+  "toyota-supra-g3": ["Toyota Supra (A70, pre-facelift)", "Toyota Supra (A70)"],
+  "toyota-supra-g4": ["Toyota Supra (A80, pre-facelift)", "Toyota Supra (A80)"],
+  "toyota-supra-g5": ["Toyota GR Supra", "Toyota Supra (J29)"],
   "toyota-rav4-g1": ["Toyota RAV4 (XA10)"],
   "toyota-land-cruiser-g1": ["Toyota Land Cruiser BJ", "Toyota Land Cruiser (J20)"],
   "honda-accord-g1": ["Honda Accord (first generation)"],

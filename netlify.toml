@@ -1,0 +1,37 @@
+# Netlify deploy config for CarGrid.
+#
+# The app is a pure static export (see next.config.ts), so Netlify serves plain
+# files from its CDN — no Next.js runtime, no serverless functions, nothing to
+# cold-start. The same `out/` directory would deploy to any static host.
+
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Car images are content-addressed by car id and only ever replaced wholesale
+# by the curation pipeline, so they can be cached hard.
+[[headers]]
+  for = "/cars/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Next's own build output is already hashed per build.
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# The HTML shells must revalidate: a player who leaves a tab open for days and
+# reloads should get the current build, not a stale cached page.
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

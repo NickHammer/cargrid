@@ -4,7 +4,7 @@ import ArchiveListClient from "@/components/ArchiveListClient";
 import { allGrids } from "@/lib/grids";
 
 export const metadata: Metadata = {
-  title: "Archive · CarGrid.io",
+  title: "Archive · CarGrid.fun",
   description: "Replay past CarGrid puzzles.",
 };
 

@@ -361,6 +361,171 @@
     "image_url": "/cars/toyota-supra-g1.webp"
   },
   {
+    "make": "Toyota",
+    "model": "Supra",
+    "brands": [
+      "Toyota"
+    ],
+    "country_of_origin": "Japanese",
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/toyota-supra-g2.webp",
+    "decades": [
+      "1980s"
+    ],
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "id": "toyota-supra-g2",
+    "generation": 2,
+    "production_start": 1981,
+    "production_end": 1986,
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "power_output_hp_min": 145,
+    "power_output_hp_max": 170
+  },
+  {
+    "make": "Toyota",
+    "model": "Supra",
+    "brands": [
+      "Toyota"
+    ],
+    "country_of_origin": "Japanese",
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/toyota-supra-g3.webp",
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "id": "toyota-supra-g3",
+    "generation": 3,
+    "production_start": 1986,
+    "production_end": 1993,
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "power_output_hp_min": 200,
+    "power_output_hp_max": 280
+  },
+  {
+    "make": "Toyota",
+    "model": "Supra",
+    "brands": [
+      "Toyota"
+    ],
+    "country_of_origin": "Japanese",
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": [
+      "The Fast and the Furious"
+    ],
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/toyota-supra-g4.webp",
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "id": "toyota-supra-g4",
+    "generation": 4,
+    "production_start": 1993,
+    "production_end": 2002,
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "power_output_hp_min": 220,
+    "power_output_hp_max": 320
+  },
+  {
+    "make": "Toyota",
+    "model": "Supra",
+    "brands": [
+      "Toyota"
+    ],
+    "country_of_origin": "Japanese",
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/toyota-supra-g5.webp",
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "id": "toyota-supra-g5",
+    "generation": 5,
+    "production_start": 2019,
+    "production_end": null,
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-6"
+    ],
+    "power_output_hp_min": 255,
+    "power_output_hp_max": 382
+  },
+  {
     "id": "toyota-camry-g1",
     "make": "Toyota",
     "model": "Camry",

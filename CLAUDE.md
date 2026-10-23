@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-CarGrid.io is a browser game idea based on [MovieGrid.io](https://moviegrid.io/).
+CarGrid.fun is a browser game idea based on [MovieGrid.io](https://moviegrid.io/).
 - You have a 3x3 grid with a unique parameter corresponding to each row and each column. With the grid being 3x3, you naturally have 9 guesses to complete the grid (100% accuracy).
 - The grid is blank, until you guess the cell correctly, in which point the cell will display the image of the correct car.
 - The grid changes every 24 hours and the old grid get archived. These archived grids should be repeatably playable in an archive section of the website.
@@ -189,6 +189,36 @@ node scripts/apply-image-urls.mjs                 # verified entries -> cars.jso
 ```
 
 **Every image needs the visual check.** A nameplate's lead image on Wikipedia is almost always the *current* generation, so an unreviewed fetch will happily file a 2024 Rogue under the 2008 one. Only entries marked `"verified": true` in `data/image-credits.json` are wired into `cars.json`; anything else leaves `image_url` empty and the grid renders a text tile instead of the wrong car. When automated resolution keeps failing, pin an exact Commons filename in `PINNED_FILES` in `scripts/fetch-car-images.mjs`.
+
+## Deployment
+
+Hosted on **Netlify** as a pure static export. `next.config.ts` sets
+`output: "export"`, `images.unoptimized`, and `trailingSlash`; `netlify.toml`
+publishes `out/`. There is no Next.js runtime, no serverless function and no
+database in production — Netlify just serves files.
+
+```bash
+npm run build      # writes out/ (~736 pages, ~27 MB incl. images)
+```
+
+- **The daily rotation needs no server and no redeploy.** `data/grids.json` is
+  committed with 730 days of grids; each visitor's browser picks the grid for
+  *its own* local date, and `/archive` filters the same list to dates already
+  past. A site left untouched for six months still rotates daily and keeps
+  growing its archive.
+- **A redeploy is only needed** to change the dataset, the code, or to extend
+  the schedule.
+- **The schedule runs out on 2028-10-20.** `validate-grids.mjs --min-days 90`
+  exits non-zero once fewer than 90 days remain, so wire it into CI rather than
+  relying on memory:
+  ```bash
+  node scripts/validate-grids.mjs --min 3 --min-days 90
+  ```
+- `trailingSlash` matters: without it the export emits both `archive/<date>.html`
+  and a directory `archive/<date>/` holding RSC payloads, and static hosts
+  disagree about which wins. Every route is `<path>/index.html` instead.
+- Netlify's free Starter plan permits commercial use including ads and affiliate
+  links; the restriction is on reselling hosting.
 
 ## Architecture
 
