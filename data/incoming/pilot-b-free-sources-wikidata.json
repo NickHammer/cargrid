@@ -1,0 +1,1685 @@
+{
+  "batchId": "pilot-b-free-sources",
+  "source": "Wikidata",
+  "structuredDataLicense": "CC0-1.0",
+  "results": {
+    "Volvo 850": {
+      "retrievedAt": "2026-10-24T01:41:20.814Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volvo+850&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q379074",
+          "label": "Volvo 850",
+          "description": "car model made by Volvo Car Corporation",
+          "url": "https://www.wikidata.org/wiki/Q379074"
+        },
+        {
+          "id": "Q1941589",
+          "label": "Volvo 8500",
+          "description": "intercity bus and citybus from Volvo",
+          "url": "https://www.wikidata.org/wiki/Q1941589"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volvo C30": {
+      "retrievedAt": "2026-10-24T01:41:21.926Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volvo+C30&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q835043",
+          "label": "Volvo C30",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q835043"
+        },
+        {
+          "id": "Q2117427",
+          "label": "Volvo C303",
+          "description": "motor vehicle",
+          "url": "https://www.wikidata.org/wiki/Q2117427"
+        },
+        {
+          "id": "Q10716705",
+          "label": "Volvo C30 Electric",
+          "description": "automobile model",
+          "url": "https://www.wikidata.org/wiki/Q10716705"
+        },
+        {
+          "id": "Q10693483",
+          "label": "Volvo C306",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q10693483"
+        },
+        {
+          "id": "Q50396851",
+          "label": "Volvo C30 Concept",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50396851"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volvo S60": {
+      "retrievedAt": "2026-10-24T01:41:23.035Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volvo+S60&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q1123538",
+          "label": "Volvo S60",
+          "description": "mide size sedan",
+          "url": "https://www.wikidata.org/wiki/Q1123538"
+        },
+        {
+          "id": "Q131443232",
+          "label": "Volvo S60",
+          "description": "racing car model",
+          "url": "https://www.wikidata.org/wiki/Q131443232"
+        },
+        {
+          "id": "Q50397240",
+          "label": "Volvo S60 Concept",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50397240"
+        },
+        {
+          "id": "Q90700700",
+          "label": "Volvo S60 Polestar",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q90700700"
+        },
+        {
+          "id": "Q90997805",
+          "label": "Volvo S60 (2nd generation)",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q90997805"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volvo XC90": {
+      "retrievedAt": "2026-10-24T01:41:24.141Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volvo+XC90&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q933275",
+          "label": "Volvo XC90",
+          "description": "car model made by Volvo Cars",
+          "url": "https://www.wikidata.org/wiki/Q933275"
+        },
+        {
+          "id": "Q90920784",
+          "label": "Volvo XC90 II",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q90920784"
+        },
+        {
+          "id": "Q90920794",
+          "label": "Volvo XC90 II Plug-in Hybrid",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q90920794"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volvo XC60": {
+      "retrievedAt": "2026-10-24T01:41:25.273Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volvo+XC60&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q956861",
+          "label": "Volvo XC60",
+          "description": "car model made by Volvo Car Corporation",
+          "url": "https://www.wikidata.org/wiki/Q956861"
+        },
+        {
+          "id": "Q50396850",
+          "label": "Volvo XC60 Concept",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50396850"
+        },
+        {
+          "id": "Q90701586",
+          "label": "Volvo XC60 (SPA)",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q90701586"
+        },
+        {
+          "id": "Q90701710",
+          "label": "Volvo XC60 Plug-in Hybrid (SPA)",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q90701710"
+        },
+        {
+          "id": "Q139820740",
+          "label": "Volvo XC60 (Y20)",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q139820740"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volvo XC40": {
+      "retrievedAt": "2026-10-24T01:41:26.438Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volvo+XC40&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q28127228",
+          "label": "Volvo XC40",
+          "description": "automobile model",
+          "url": "https://www.wikidata.org/wiki/Q28127228"
+        },
+        {
+          "id": "Q136333937",
+          "label": "Volvo EX40",
+          "description": "electric car model",
+          "url": "https://www.wikidata.org/wiki/Q136333937"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Saab 900": {
+      "retrievedAt": "2026-10-24T01:41:27.586Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Saab+900&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q420929",
+          "label": "Saab 900",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q420929"
+        },
+        {
+          "id": "Q169116",
+          "label": "Saab 9000",
+          "description": "car model manufactured by Saab",
+          "url": "https://www.wikidata.org/wiki/Q169116"
+        },
+        {
+          "id": "Q4992146",
+          "label": "Saab 900 Talladega",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q4992146"
+        },
+        {
+          "id": "Q90998169",
+          "label": "Saab 9000 CS",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q90998169"
+        },
+        {
+          "id": "Q90924347",
+          "label": "Saab 900 (first generation) convertible",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q90924347"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Saab 9000": {
+      "retrievedAt": "2026-10-24T01:41:28.706Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Saab+9000&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q169116",
+          "label": "Saab 9000",
+          "description": "car model manufactured by Saab",
+          "url": "https://www.wikidata.org/wiki/Q169116"
+        },
+        {
+          "id": "Q90998169",
+          "label": "Saab 9000 CS",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q90998169"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Saab 9-3": {
+      "retrievedAt": "2026-10-24T01:41:29.803Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Saab+9-3&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q420807",
+          "label": "Saab 9-3",
+          "description": "compact executive car",
+          "url": "https://www.wikidata.org/wiki/Q420807"
+        },
+        {
+          "id": "Q122923662",
+          "label": "Saab 9-3",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q122923662"
+        },
+        {
+          "id": "Q3460380",
+          "label": "Saab 9-3X",
+          "description": "concept car",
+          "url": "https://www.wikidata.org/wiki/Q3460380"
+        },
+        {
+          "id": "Q50398158",
+          "label": "Saab 9-3 SportHatch",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50398158"
+        },
+        {
+          "id": "Q420925",
+          "label": "Saab 9-3X",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q420925"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Saab 9-5": {
+      "retrievedAt": "2026-10-24T01:41:30.917Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Saab+9-5&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q420806",
+          "label": "Saab 9-5",
+          "description": "Executive car manufactured by Saab",
+          "url": "https://www.wikidata.org/wiki/Q420806"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Renault 5": {
+      "retrievedAt": "2026-10-24T01:41:32.075Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Renault+5&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q504143",
+          "label": "Renault 5",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q504143"
+        },
+        {
+          "id": "Q1131842",
+          "label": "Renault 5 II",
+          "description": "car model (1984-1990)",
+          "url": "https://www.wikidata.org/wiki/Q1131842"
+        },
+        {
+          "id": "Q1299603",
+          "label": "Renault 5 Turbo",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q1299603"
+        },
+        {
+          "id": "Q16041166",
+          "label": "Renault 5 GT Turbo",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q16041166"
+        },
+        {
+          "id": "Q120599582",
+          "label": "Renault 5 (first generation)",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q120599582"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Renault Clio": {
+      "retrievedAt": "2026-10-24T01:41:33.231Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Renault+Clio&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q309258",
+          "label": "Renault Clio",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q309258"
+        },
+        {
+          "id": "Q2085581",
+          "label": "Renault Clio III",
+          "description": "car model by Renault",
+          "url": "https://www.wikidata.org/wiki/Q2085581"
+        },
+        {
+          "id": "Q5114820",
+          "label": "Renault Clio II",
+          "description": "car model by Renault",
+          "url": "https://www.wikidata.org/wiki/Q5114820"
+        },
+        {
+          "id": "Q3425021",
+          "label": "Renault Clio IV",
+          "description": "car model by Renault",
+          "url": "https://www.wikidata.org/wiki/Q3425021"
+        },
+        {
+          "id": "Q3425018",
+          "label": "Renault Clio I",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q3425018"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Renault Megane": {
+      "retrievedAt": "2026-10-24T01:41:34.339Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Renault+Megane&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q222764",
+          "label": "Renault Mégane",
+          "description": "car model manufactured by Renault",
+          "url": "https://www.wikidata.org/wiki/Q222764"
+        },
+        {
+          "id": "Q16595579",
+          "label": "Renault Mégane I",
+          "description": "car model (1995-2002)",
+          "url": "https://www.wikidata.org/wiki/Q16595579"
+        },
+        {
+          "id": "Q56234269",
+          "label": "Renault Arkana",
+          "description": "Compact coupé SUV",
+          "url": "https://www.wikidata.org/wiki/Q56234269"
+        },
+        {
+          "id": "Q16595583",
+          "label": "Renault Mégane II",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q16595583"
+        },
+        {
+          "id": "Q20899924",
+          "label": "Renault Mégane IV",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q20899924"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Renault Scenic": {
+      "retrievedAt": "2026-10-24T01:41:35.443Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Renault+Scenic&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q531589",
+          "label": "Renault Scénic",
+          "description": "vehicle model series by Renault",
+          "url": "https://www.wikidata.org/wiki/Q531589"
+        },
+        {
+          "id": "Q108297096",
+          "label": "Renault Scenic",
+          "description": "prototype",
+          "url": "https://www.wikidata.org/wiki/Q108297096"
+        },
+        {
+          "id": "Q16041093",
+          "label": "Renault Scénic I",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q16041093"
+        },
+        {
+          "id": "Q3425081",
+          "label": "Renault Scénic II",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q3425081"
+        },
+        {
+          "id": "Q2366830",
+          "label": "Renault Scénic III",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q2366830"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Renault Zoe": {
+      "retrievedAt": "2026-10-24T01:41:36.578Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Renault+Zoe&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q1516380",
+          "label": "Renault Zoe",
+          "description": "electric car model",
+          "url": "https://www.wikidata.org/wiki/Q1516380"
+        },
+        {
+          "id": "Q16041306",
+          "label": "Renault ZOE Concept",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q16041306"
+        },
+        {
+          "id": "Q50397398",
+          "label": "Renault Zoe Preview",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50397398"
+        },
+        {
+          "id": "Q50398477",
+          "label": "Renault Zoe E-Sport Concept",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50398477"
+        },
+        {
+          "id": "Q50397104",
+          "label": "Renault Zoe Z.E. Concept",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50397104"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Peugeot 106": {
+      "retrievedAt": "2026-10-24T01:41:37.687Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Peugeot+106&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q826094",
+          "label": "Peugeot 106",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q826094"
+        },
+        {
+          "id": "Q938850",
+          "label": "Citroën Saxo",
+          "description": "motor vehicle",
+          "url": "https://www.wikidata.org/wiki/Q938850"
+        },
+        {
+          "id": "Q3377739",
+          "label": "Peugeot 106 XSi",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q3377739"
+        },
+        {
+          "id": "Q108297074",
+          "label": "Peugeot 106 Maxi",
+          "description": "sports car",
+          "url": "https://www.wikidata.org/wiki/Q108297074"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Peugeot 206": {
+      "retrievedAt": "2026-10-24T01:41:38.845Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Peugeot+206&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q207976",
+          "label": "Peugeot 206",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q207976"
+        },
+        {
+          "id": "Q2696189",
+          "label": "Peugeot 206 WRC",
+          "description": "rally car",
+          "url": "https://www.wikidata.org/wiki/Q2696189"
+        },
+        {
+          "id": "Q6166410",
+          "label": "Peugeot 207 Compact",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q6166410"
+        },
+        {
+          "id": "Q11816055",
+          "label": "Peugeot 206+",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q11816055"
+        },
+        {
+          "id": "Q2264915",
+          "label": "Peugeot 206 CC",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q2264915"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Peugeot 306": {
+      "retrievedAt": "2026-10-24T01:41:39.992Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Peugeot+306&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q431152",
+          "label": "Peugeot 306",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q431152"
+        },
+        {
+          "id": "Q1361311",
+          "label": "Peugeot 305",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q1361311"
+        },
+        {
+          "id": "Q108298042",
+          "label": "Peugeot 306 Cabriolet",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q108298042"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Peugeot 406": {
+      "retrievedAt": "2026-10-24T01:41:41.084Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Peugeot+406&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q328139",
+          "label": "Peugeot 406",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q328139"
+        },
+        {
+          "id": "Q3377766",
+          "label": "Peugeot 406 Coupé",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q3377766"
+        },
+        {
+          "id": "Q123616265",
+          "label": "Peugeot 406 Coupé 2.2 HDi",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q123616265"
+        },
+        {
+          "id": "Q4836679",
+          "label": "BTC-T Peugeot 406 Coupe",
+          "description": "racing car model",
+          "url": "https://www.wikidata.org/wiki/Q4836679"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Citroën 2CV": {
+      "retrievedAt": "2026-10-24T01:41:42.223Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Citro%C3%ABn+2CV&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q326015",
+          "label": "Citroën 2CV",
+          "description": "Small car manufactured by Citroën from 1948 to 1990",
+          "url": "https://www.wikidata.org/wiki/Q326015"
+        },
+        {
+          "id": "Q55155731",
+          "label": "Citroën 2CV 1952",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q55155731"
+        },
+        {
+          "id": "Q55407701",
+          "label": "Citroën 2CV 1953",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q55407701"
+        },
+        {
+          "id": "Q55407703",
+          "label": "Citroën 2CV 1954",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q55407703"
+        },
+        {
+          "id": "Q1080152",
+          "label": "Citroën 2CV fourgonnette",
+          "description": "minibus",
+          "url": "https://www.wikidata.org/wiki/Q1080152"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Citroën DS": {
+      "retrievedAt": "2026-10-24T01:41:43.356Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Citro%C3%ABn+DS&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q465966",
+          "label": "Citroën DS",
+          "description": "front-engine, front-wheel-drive executive car (1955-1975)",
+          "url": "https://www.wikidata.org/wiki/Q465966"
+        },
+        {
+          "id": "Q748426",
+          "label": "Citroën DS3",
+          "description": "supermini",
+          "url": "https://www.wikidata.org/wiki/Q748426"
+        },
+        {
+          "id": "Q1093620",
+          "label": "DS 5",
+          "description": "Citroen hatchback",
+          "url": "https://www.wikidata.org/wiki/Q1093620"
+        },
+        {
+          "id": "Q1065813",
+          "label": "Citroën DS4",
+          "description": "compact car",
+          "url": "https://www.wikidata.org/wiki/Q1065813"
+        },
+        {
+          "id": "Q628598",
+          "label": "Citroën DS3 WRC",
+          "description": "World Rally Car",
+          "url": "https://www.wikidata.org/wiki/Q628598"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Citroën BX": {
+      "retrievedAt": "2026-10-24T01:41:44.448Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Citro%C3%ABn+BX&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q939640",
+          "label": "Citroën BX",
+          "description": "compact car",
+          "url": "https://www.wikidata.org/wiki/Q939640"
+        },
+        {
+          "id": "Q2310708",
+          "label": "Citroën BX 4TC",
+          "description": "French rally car",
+          "url": "https://www.wikidata.org/wiki/Q2310708"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Citroën C4 Cactus": {
+      "retrievedAt": "2026-10-24T01:41:45.603Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Citro%C3%ABn+C4+Cactus&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q2443038",
+          "label": "Citroën C4 Cactus",
+          "description": "car",
+          "url": "https://www.wikidata.org/wiki/Q2443038"
+        },
+        {
+          "id": "Q50398207",
+          "label": "Citroën C4 Cactus Airflow 2L",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50398207"
+        },
+        {
+          "id": "Q50398021",
+          "label": "Citroën C4 Cactus Aventure",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50398021"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Hyundai Elantra": {
+      "retrievedAt": "2026-10-24T01:41:46.761Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Hyundai+Elantra&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q482604",
+          "label": "Hyundai i30",
+          "description": "compact car made by Hyundai Motor Company",
+          "url": "https://www.wikidata.org/wiki/Q482604"
+        },
+        {
+          "id": "Q489649",
+          "label": "Hyundai Lavita",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q489649"
+        },
+        {
+          "id": "Q137557350",
+          "label": "Hyundai Elantra (HD)",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q137557350"
+        },
+        {
+          "id": "Q482530",
+          "label": "Hyundai Avante (Elantra)",
+          "description": "Compact sedan",
+          "url": "https://www.wikidata.org/wiki/Q482530"
+        },
+        {
+          "id": "Q110822482",
+          "label": "Hyundai Elantra N TCR",
+          "description": "racing automobile model",
+          "url": "https://www.wikidata.org/wiki/Q110822482"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Hyundai Tiburon": {
+      "retrievedAt": "2026-10-24T01:41:47.872Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Hyundai+Tiburon&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q482596",
+          "label": "Hyundai Tiburon",
+          "description": "line of sports coupe produced by Hyundai",
+          "url": "https://www.wikidata.org/wiki/Q482596"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Hyundai Veloster": {
+      "retrievedAt": "2026-10-24T01:41:49.043Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Hyundai+Veloster&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q178581",
+          "label": "Hyundai Veloster",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q178581"
+        },
+        {
+          "id": "Q50397428",
+          "label": "Hyundai Veloster Concept",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50397428"
+        },
+        {
+          "id": "Q107571089",
+          "label": "Hyundai Veloster N",
+          "description": "high-performance variant of the Hyundai Veloster",
+          "url": "https://www.wikidata.org/wiki/Q107571089"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Hyundai Ioniq": {
+      "retrievedAt": "2026-10-24T01:41:50.157Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Hyundai+Ioniq&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q22672404",
+          "label": "Hyundai Ioniq",
+          "description": "hybrid, PHEV or electric car model",
+          "url": "https://www.wikidata.org/wiki/Q22672404"
+        },
+        {
+          "id": "Q99342695",
+          "label": "Hyundai Ioniq 5",
+          "description": "electric compact crossover SUV",
+          "url": "https://www.wikidata.org/wiki/Q99342695"
+        },
+        {
+          "id": "Q131293474",
+          "label": "Hyundai Ioniq 9",
+          "description": "Battery electric three-row crossover SUV",
+          "url": "https://www.wikidata.org/wiki/Q131293474"
+        },
+        {
+          "id": "Q135412223",
+          "label": "Hyundai Ioniq 3",
+          "description": "battery electric subcompact car",
+          "url": "https://www.wikidata.org/wiki/Q135412223"
+        },
+        {
+          "id": "Q139674794",
+          "label": "Hyundai Ioniq 6 N",
+          "description": "electric performance sedan",
+          "url": "https://www.wikidata.org/wiki/Q139674794"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Hyundai Ioniq 5": {
+      "retrievedAt": "2026-10-24T01:41:51.271Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Hyundai+Ioniq+5&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q99342695",
+          "label": "Hyundai Ioniq 5",
+          "description": "electric compact crossover SUV",
+          "url": "https://www.wikidata.org/wiki/Q99342695"
+        },
+        {
+          "id": "Q126028569",
+          "label": "Hyundai Ioniq 5 N",
+          "description": "electric crossover SUV",
+          "url": "https://www.wikidata.org/wiki/Q126028569"
+        },
+        {
+          "id": "Q113368712",
+          "label": "Hyundai Ioniq 5 Robotaxi",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q113368712"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Hyundai Kona": {
+      "retrievedAt": "2026-10-24T01:41:52.395Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Hyundai+Kona&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q30322680",
+          "label": "Hyundai Kona",
+          "description": "subcompact crossover SUV",
+          "url": "https://www.wikidata.org/wiki/Q30322680"
+        },
+        {
+          "id": "Q62098523",
+          "label": "Hyundai KONA Electric",
+          "description": "The KONA Electric is a battery electric version of the KONA. It is the second electric car from Hyundai after the Ioniq.",
+          "url": "https://www.wikidata.org/wiki/Q62098523"
+        },
+        {
+          "id": "Q107548782",
+          "label": "Hyundai Kona N",
+          "description": "high-performance variant of the Hyundai Kona",
+          "url": "https://www.wikidata.org/wiki/Q107548782"
+        },
+        {
+          "id": "Q125550159",
+          "label": "Hyundai Kona II",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q125550159"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Kia Sportage": {
+      "retrievedAt": "2026-10-24T01:41:53.499Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kia+Sportage&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q145527",
+          "label": "Kia Sportage",
+          "description": "compact SUV",
+          "url": "https://www.wikidata.org/wiki/Q145527"
+        },
+        {
+          "id": "Q56105496",
+          "label": "Kia Sportage",
+          "description": "motor vehicle",
+          "url": "https://www.wikidata.org/wiki/Q56105496"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Kia Ceed": {
+      "retrievedAt": "2026-10-24T01:41:54.646Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kia+Ceed&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q50380580",
+          "label": "Kia Ceed (CD)",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50380580"
+        },
+        {
+          "id": "Q200970",
+          "label": "Kia Cee'd",
+          "description": "car model manufactured by Kia",
+          "url": "https://www.wikidata.org/wiki/Q200970"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Kia Stinger": {
+      "retrievedAt": "2026-10-24T01:41:55.791Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kia+Stinger&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q28170697",
+          "label": "Kia Stinger",
+          "description": "Mid-size liftback produced by Kia Motors",
+          "url": "https://www.wikidata.org/wiki/Q28170697"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Kia Niro": {
+      "retrievedAt": "2026-10-24T01:41:56.914Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kia+Niro&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q22754238",
+          "label": "Kia Niro",
+          "description": "hybrid compact crossover",
+          "url": "https://www.wikidata.org/wiki/Q22754238"
+        },
+        {
+          "id": "Q62098509",
+          "label": "Kia Niro EV",
+          "description": "electric car model series",
+          "url": "https://www.wikidata.org/wiki/Q62098509"
+        },
+        {
+          "id": "Q50398649",
+          "label": "Kia Niro Concept",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50398649"
+        },
+        {
+          "id": "Q109735634",
+          "label": "Kia Niro (SG2)",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q109735634"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Kia EV6": {
+      "retrievedAt": "2026-10-24T01:41:58.028Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kia+EV6&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q105975708",
+          "label": "Kia EV6",
+          "description": "Battery electric crossover",
+          "url": "https://www.wikidata.org/wiki/Q105975708"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Kia Soul": {
+      "retrievedAt": "2026-10-24T01:41:59.145Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kia+Soul&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q420780",
+          "label": "Kia Heart",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q420780"
+        },
+        {
+          "id": "Q15915742",
+          "label": "Kia Soul EV",
+          "description": "electric car model",
+          "url": "https://www.wikidata.org/wiki/Q15915742"
+        },
+        {
+          "id": "Q50397969",
+          "label": "Kia Soul Concept",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50397969"
+        },
+        {
+          "id": "Q50397244",
+          "label": "Kia Soul'Ster Concept",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50397244"
+        },
+        {
+          "id": "Q11732936",
+          "label": "KIA Soul Surfing Cup",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q11732936"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volkswagen Golf": {
+      "retrievedAt": "2026-10-24T01:42:00.259Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volkswagen+Golf&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q247",
+          "label": "Volkswagen Golf",
+          "description": "small family car manufactured by Volkswagen",
+          "url": "https://www.wikidata.org/wiki/Q247"
+        },
+        {
+          "id": "Q1520000",
+          "label": "Volkswagen Golf Cabriolet",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q1520000"
+        },
+        {
+          "id": "Q62362",
+          "label": "Volkswagen Golf Mk7",
+          "description": "touring car",
+          "url": "https://www.wikidata.org/wiki/Q62362"
+        },
+        {
+          "id": "Q56403002",
+          "label": "Volkswagen Golf Mk8",
+          "description": "compact car manufactured by Volkswagen",
+          "url": "https://www.wikidata.org/wiki/Q56403002"
+        },
+        {
+          "id": "Q1419308",
+          "label": "Volkswagen Golf Mk4",
+          "description": "fourth generation of the Volkswagen Golf",
+          "url": "https://www.wikidata.org/wiki/Q1419308"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volkswagen Polo": {
+      "retrievedAt": "2026-10-24T01:42:01.408Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volkswagen+Polo&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q247819",
+          "label": "Volkswagen Polo",
+          "description": "Series of automobiles manufactured by Volkswagen",
+          "url": "https://www.wikidata.org/wiki/Q247819"
+        },
+        {
+          "id": "Q1468621",
+          "label": "Volkswagen Polo Mk4",
+          "description": "car model (2001-2009)",
+          "url": "https://www.wikidata.org/wiki/Q1468621"
+        },
+        {
+          "id": "Q3399391",
+          "label": "Volkswagen Polo R WRC",
+          "description": "rally car built by Volkswagen for competition in the World Rally Championship",
+          "url": "https://www.wikidata.org/wiki/Q3399391"
+        },
+        {
+          "id": "Q131505079",
+          "label": "Volkswagen Polo Cup South Africa",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q131505079"
+        },
+        {
+          "id": "Q2063072",
+          "label": "Volkswagen Polo Mk5",
+          "description": "car model (2009-2017)",
+          "url": "https://www.wikidata.org/wiki/Q2063072"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volkswagen Passat": {
+      "retrievedAt": "2026-10-24T01:42:02.558Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volkswagen+Passat&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q216754",
+          "label": "Volkswagen Passat",
+          "description": "Car model series",
+          "url": "https://www.wikidata.org/wiki/Q216754"
+        },
+        {
+          "id": "Q2007788",
+          "label": "Volkswagen Passat B6",
+          "description": "motor vehicle",
+          "url": "https://www.wikidata.org/wiki/Q2007788"
+        },
+        {
+          "id": "Q1543320",
+          "label": "Volkswagen Passat B1",
+          "description": "motor vehicle",
+          "url": "https://www.wikidata.org/wiki/Q1543320"
+        },
+        {
+          "id": "Q2007797",
+          "label": "Volkswagen Passat B5",
+          "description": "fifth-generation midsize Volkswagen sedan/saloon and wagon/estate",
+          "url": "https://www.wikidata.org/wiki/Q2007797"
+        },
+        {
+          "id": "Q1784892",
+          "label": "Volkswagen Passat B3",
+          "description": "Car model",
+          "url": "https://www.wikidata.org/wiki/Q1784892"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volkswagen Beetle": {
+      "retrievedAt": "2026-10-24T01:42:03.677Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volkswagen+Beetle&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q152946",
+          "label": "Volkswagen Beetle",
+          "description": "Volkswagen-made car produced from 1938 to 2003",
+          "url": "https://www.wikidata.org/wiki/Q152946"
+        },
+        {
+          "id": "Q1968742",
+          "label": "Volkswagen Beetle",
+          "description": "2011-2019 model in the VW Beetle series",
+          "url": "https://www.wikidata.org/wiki/Q1968742"
+        },
+        {
+          "id": "Q123306928",
+          "label": "Volkswagen Beetle",
+          "description": "1987 film by Roger Last",
+          "url": "https://www.wikidata.org/wiki/Q123306928"
+        },
+        {
+          "id": "Q622618",
+          "label": "Volkswagen New Beetle",
+          "description": "1998 revival of the classic compact car",
+          "url": "https://www.wikidata.org/wiki/Q622618"
+        },
+        {
+          "id": "Q7940298",
+          "label": "Volkswagen Beetle in Mexico",
+          "description": "Wikipedia article",
+          "url": "https://www.wikidata.org/wiki/Q7940298"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volkswagen ID.3": {
+      "retrievedAt": "2026-10-24T01:42:04.778Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volkswagen+ID.3&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q63636478",
+          "label": "Volkswagen ID.3",
+          "description": "electric car",
+          "url": "https://www.wikidata.org/wiki/Q63636478"
+        },
+        {
+          "id": "Q140850894",
+          "label": "Volkswagen ID.3 Neo",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q140850894"
+        },
+        {
+          "id": "Q125739580",
+          "label": "Volkswagen ID.3 Chuzhong",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q125739580"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volkswagen ID.4": {
+      "retrievedAt": "2026-10-24T01:42:05.906Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volkswagen+ID.4&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q86668068",
+          "label": "Volkswagen ID.4",
+          "description": "electric car",
+          "url": "https://www.wikidata.org/wiki/Q86668068"
+        },
+        {
+          "id": "Q124471809",
+          "label": "Volkswagen ID.4 Crozz",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q124471809"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Tesla Roadster": {
+      "retrievedAt": "2026-10-24T01:42:07.044Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Tesla+Roadster&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q43253563",
+          "label": "Tesla Roadster",
+          "description": "second generation of electric sports car from Tesla",
+          "url": "https://www.wikidata.org/wiki/Q43253563"
+        },
+        {
+          "id": "Q210893",
+          "label": "Tesla Roadster",
+          "description": "first generation of electric convertible sports car produced 2008–2012",
+          "url": "https://www.wikidata.org/wiki/Q210893"
+        },
+        {
+          "id": "Q46845259",
+          "label": "Elon Musk's Tesla Roadster",
+          "description": "sports car launched into space in 2018",
+          "url": "https://www.wikidata.org/wiki/Q46845259"
+        },
+        {
+          "id": "Q129785538",
+          "label": "Tesla roadster going to mars",
+          "description": "2018 video game",
+          "url": "https://www.wikidata.org/wiki/Q129785538"
+        },
+        {
+          "id": "Q43263422",
+          "label": "Tesla Roadster",
+          "description": "Wikimedia disambiguation page",
+          "url": "https://www.wikidata.org/wiki/Q43263422"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Tesla Model 3": {
+      "retrievedAt": "2026-10-24T01:42:08.174Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Tesla+Model+3&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q7705507",
+          "label": "Tesla Model 3",
+          "description": "all-electric four-door compact luxury sedan",
+          "url": "https://www.wikidata.org/wiki/Q7705507"
+        },
+        {
+          "id": "Q109501482",
+          "label": "The Vergecast - Tesla Model 3 first drive, iPhone leaks, and a bluetooth salt shaker",
+          "description": "episode of the Vergecast",
+          "url": "https://www.wikidata.org/wiki/Q109501482"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Tesla Model X": {
+      "retrievedAt": "2026-10-24T01:42:09.309Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Tesla+Model+X&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q1634161",
+          "label": "Tesla Model X",
+          "description": "full-size crossover utility vehicle developed by Tesla Motors",
+          "url": "https://www.wikidata.org/wiki/Q1634161"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Tesla Model Y": {
+      "retrievedAt": "2026-10-24T01:42:10.440Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Tesla+Model+Y&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q42298250",
+          "label": "Tesla Model Y",
+          "description": "crossover utility vehicle developed by Tesla Motors",
+          "url": "https://www.wikidata.org/wiki/Q42298250"
+        },
+        {
+          "id": "Q135395682",
+          "label": "Tesla Model Y L",
+          "description": "extended version of the Tesla Model Y",
+          "url": "https://www.wikidata.org/wiki/Q135395682"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Mazda MX-5": {
+      "retrievedAt": "2026-10-24T01:42:11.573Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Mazda+MX-5&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q127110",
+          "label": "Mazda MX-5",
+          "description": "car model manufactured by Mazda",
+          "url": "https://www.wikidata.org/wiki/Q127110"
+        },
+        {
+          "id": "Q55622567",
+          "label": "Mazda MX-5 (ND)",
+          "description": "Fourth generation of the Mazda MX-5",
+          "url": "https://www.wikidata.org/wiki/Q55622567"
+        },
+        {
+          "id": "Q58619979",
+          "label": "Mazda MX-5 (NA)",
+          "description": "the original Miata",
+          "url": "https://www.wikidata.org/wiki/Q58619979"
+        },
+        {
+          "id": "Q55622563",
+          "label": "Mazda MX-5 (NC)",
+          "description": "Third generation of the Mazda MX-5",
+          "url": "https://www.wikidata.org/wiki/Q55622563"
+        },
+        {
+          "id": "Q55622562",
+          "label": "Mazda MX-5 (NB)",
+          "description": "second generation of the Mazda MX-5 car manufactured from 1998 to 2005",
+          "url": "https://www.wikidata.org/wiki/Q55622562"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Mazda RX-8": {
+      "retrievedAt": "2026-10-24T01:42:12.687Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Mazda+RX-8&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q520673",
+          "label": "Mazda RX-8",
+          "description": "rotary powered sports car manufactured by Japanese automobile manufacturer Mazda from 2003–2012",
+          "url": "https://www.wikidata.org/wiki/Q520673"
+        },
+        {
+          "id": "Q752689",
+          "label": "Mazda RX-8 Hydrogen RE",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q752689"
+        },
+        {
+          "id": "Q50397613",
+          "label": "Mazda RX-8 Concept",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50397613"
+        },
+        {
+          "id": "Q65144694",
+          "label": "Mazda RX-87",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q65144694"
+        },
+        {
+          "id": "Q65144712",
+          "label": "Mazda RX-85",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q65144712"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Mazda RX-7": {
+      "retrievedAt": "2026-10-24T01:42:13.791Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Mazda+RX-7&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q861634",
+          "label": "Mazda RX-7",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q861634"
+        },
+        {
+          "id": "Q1543937",
+          "label": "Mazda RX-792P",
+          "description": "motor vehicle",
+          "url": "https://www.wikidata.org/wiki/Q1543937"
+        },
+        {
+          "id": "Q90925161",
+          "label": "Mazda RX-7 (FC)",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q90925161"
+        },
+        {
+          "id": "Q50397931",
+          "label": "Mazda RX-7 Group S",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50397931"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Mazda 323": {
+      "retrievedAt": "2026-10-24T01:42:14.926Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Mazda+323&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q513292",
+          "label": "Mazda 323",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q513292"
+        },
+        {
+          "id": "Q741769",
+          "label": "Mazda R100",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q741769"
+        },
+        {
+          "id": "Q3853228",
+          "label": "Mazda 323 4WD",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q3853228"
+        },
+        {
+          "id": "Q1914618",
+          "label": "Mazda Familia",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q1914618"
+        },
+        {
+          "id": "Q3354475",
+          "label": "Mazda 323F",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q3354475"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Mazda CX-5": {
+      "retrievedAt": "2026-10-24T01:42:16.045Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Mazda+CX-5&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q1580031",
+          "label": "Mazda CX-5",
+          "description": "compact crossover SUV manufactured by Madza",
+          "url": "https://www.wikidata.org/wiki/Q1580031"
+        },
+        {
+          "id": "Q138498343",
+          "label": "Mazda CX-5 (KI)",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q138498343"
+        },
+        {
+          "id": "Q117261030",
+          "label": "Mazda CX-5 (KF)",
+          "description": "second generation of the Mazda CX-5 automobile",
+          "url": "https://www.wikidata.org/wiki/Q117261030"
+        },
+        {
+          "id": "Q50398179",
+          "label": "Mazda CX-5 Prestige-style Concept",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q50398179"
+        },
+        {
+          "id": "Q109601206",
+          "label": "Mazda CX-50",
+          "description": "compact crossover SUV",
+          "url": "https://www.wikidata.org/wiki/Q109601206"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volvo S80": {
+      "retrievedAt": "2026-10-24T01:42:45.157Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volvo+S80&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q542787",
+          "label": "Volvo S80",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q542787"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Renault Laguna": {
+      "retrievedAt": "2026-10-24T01:42:46.300Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Renault+Laguna&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q504162",
+          "label": "Renault Laguna",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q504162"
+        },
+        {
+          "id": "Q2060402",
+          "label": "Renault Laguna",
+          "description": "2007 concept car",
+          "url": "https://www.wikidata.org/wiki/Q2060402"
+        },
+        {
+          "id": "Q16595571",
+          "label": "Renault Laguna II",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q16595571"
+        },
+        {
+          "id": "Q16595566",
+          "label": "Renault Laguna I",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q16595566"
+        },
+        {
+          "id": "Q16595574",
+          "label": "Renault Laguna III",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q16595574"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Hyundai Santa Fe": {
+      "retrievedAt": "2026-10-24T01:42:47.440Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Hyundai+Santa+Fe&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q489852",
+          "label": "Hyundai Santa Fe",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q489852"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Kia Rio": {
+      "retrievedAt": "2026-10-24T01:42:48.578Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kia+Rio&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q493781",
+          "label": "Kia Rio",
+          "description": "Subcompact car",
+          "url": "https://www.wikidata.org/wiki/Q493781"
+        },
+        {
+          "id": "Q56122909",
+          "label": "Kia KX Cross",
+          "description": "motor vehicle",
+          "url": "https://www.wikidata.org/wiki/Q56122909"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Kia Picanto": {
+      "retrievedAt": "2026-10-24T01:42:49.696Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kia+Picanto&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q55380616",
+          "label": "Kia Picanto (TA)",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q55380616"
+        },
+        {
+          "id": "Q55380620",
+          "label": "Kia Picanto (SA)",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q55380620"
+        },
+        {
+          "id": "Q55380613",
+          "label": "Kia Picanto (JA)",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q55380613"
+        },
+        {
+          "id": "Q494465",
+          "label": "Kia morning",
+          "description": "Kia' small car",
+          "url": "https://www.wikidata.org/wiki/Q494465"
+        },
+        {
+          "id": "Q11738879",
+          "label": "Kia Picanto Cup",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q11738879"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Mazda 6": {
+      "retrievedAt": "2026-10-24T01:42:50.844Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Mazda+6&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q285958",
+          "label": "Mazda6",
+          "description": "mid-size car",
+          "url": "https://www.wikidata.org/wiki/Q285958"
+        },
+        {
+          "id": "Q1542973",
+          "label": "Mazda 626",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q1542973"
+        },
+        {
+          "id": "Q125597665",
+          "label": "Mazda 6e",
+          "description": "mid-size car produced by joint venture Changan Mazda",
+          "url": "https://www.wikidata.org/wiki/Q125597665"
+        },
+        {
+          "id": "Q20204834",
+          "label": "Mazda 616",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q20204834"
+        },
+        {
+          "id": "Q964197",
+          "label": "Mazda Capella",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q964197"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Mazda MX-3": {
+      "retrievedAt": "2026-10-24T01:42:51.999Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Mazda+MX-3&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q1755480",
+          "label": "Mazda MX-3",
+          "description": "Kammback coupé produced by Mazda",
+          "url": "https://www.wikidata.org/wiki/Q1755480"
+        },
+        {
+          "id": "Q72190919",
+          "label": "Mazda MX-30",
+          "description": "Compact crossover SUV",
+          "url": "https://www.wikidata.org/wiki/Q72190919"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Mercedes-Benz 190": {
+      "retrievedAt": "2026-10-24T01:42:53.183Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Mercedes-Benz+190&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q656750",
+          "label": "Mercedes-Benz W201",
+          "description": "Mercedes 190 series sedans",
+          "url": "https://www.wikidata.org/wiki/Q656750"
+        },
+        {
+          "id": "Q90990847",
+          "label": "Mercedes-Benz 190 E 2.5-16 Evolution II",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q90990847"
+        },
+        {
+          "id": "Q56344918",
+          "label": "Mercedes-Benz 190 Cosworth",
+          "description": "automobile model",
+          "url": "https://www.wikidata.org/wiki/Q56344918"
+        },
+        {
+          "id": "Q1511468",
+          "label": "Mercedes-Benz 190 SL",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q1511468"
+        },
+        {
+          "id": "Q16348036",
+          "label": "Mercedes-Benz 190 E 2.3-16",
+          "description": "",
+          "url": "https://www.wikidata.org/wiki/Q16348036"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    }
+  }
+}

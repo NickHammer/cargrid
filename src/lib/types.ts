@@ -2,6 +2,12 @@ export interface Car {
   id: string;
   make: string;
   model: string;
+  /**
+   * Other names players genuinely type for this car — a US player searches
+   * "Miata", not "MX-5". Matched by searchCars but never displayed, so the
+   * answer label stays canonical.
+   */
+  aliases?: string[];
   generation: number;
   brands: string[];
   country_of_origin: string;
@@ -21,6 +27,16 @@ export interface Car {
   price_at_launch_usd: number | null;
   manufacturer_still_active: boolean;
   image_url: string;
+  /** Reviewed launch variants only; unknown facts stay absent. */
+  engine_position?: "Front-engine" | "Mid-engine" | "Rear-engine";
+  powertrains?: Powertrain[];
+}
+
+export interface Powertrain {
+  name: string;
+  displacement_cc?: number;
+  cylinders?: number;
+  aspiration?: "Naturally aspirated" | "Turbocharged" | "Supercharged";
 }
 
 export type ParameterType =
@@ -36,7 +52,11 @@ export type ParameterType =
   | "fuel_type"
   | "pop_culture"
   | "price_at_launch"
-  | "manufacturer_still_active";
+  | "manufacturer_still_active"
+  | "aspiration"
+  | "engine_position"
+  | "displacement"
+  | "cylinder_count";
 
 export interface GridParameter {
   type: ParameterType;

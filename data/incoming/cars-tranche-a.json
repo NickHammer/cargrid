@@ -1,0 +1,1659 @@
+[
+  {
+    "id": "volkswagen-golf-gti-g1",
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "generation": 1,
+    "brands": [
+      "Volkswagen"
+    ],
+    "country_of_origin": "German",
+    "production_start": 1976,
+    "production_end": 1983,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 108,
+    "power_output_hp_max": 112,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volkswagen-golf-gti-g2",
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "generation": 2,
+    "brands": [
+      "Volkswagen"
+    ],
+    "country_of_origin": "German",
+    "production_start": 1983,
+    "production_end": 1992,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 110,
+    "power_output_hp_max": 137,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "honda-civic-type-r-g1",
+    "make": "Honda",
+    "model": "Civic Type R",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1997,
+    "production_end": 2000,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 182,
+    "power_output_hp_max": 182,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "honda-civic-type-r-g5",
+    "make": "Honda",
+    "model": "Civic Type R",
+    "generation": 5,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2017,
+    "production_end": 2021,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 306,
+    "power_output_hp_max": 316,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 34775,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-clio-williams-g1",
+    "make": "Renault",
+    "model": "Clio Williams",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1993,
+    "production_end": 1995,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 148,
+    "power_output_hp_max": 148,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-megane-rs-g3",
+    "make": "Renault",
+    "model": "Megane RS",
+    "generation": 3,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2018,
+    "production_end": 2023,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 276,
+    "power_output_hp_max": 296,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-205-gti-g1",
+    "make": "Peugeot",
+    "model": "205 GTI",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1984,
+    "production_end": 1994,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 104,
+    "power_output_hp_max": 128,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "ford-focus-rs-g3",
+    "make": "Ford",
+    "model": "Focus RS",
+    "generation": 3,
+    "brands": [
+      "Ford"
+    ],
+    "country_of_origin": "German",
+    "production_start": 2015,
+    "production_end": 2018,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 350,
+    "power_output_hp_max": 375,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 36775,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "ford-fiesta-st-g2",
+    "make": "Ford",
+    "model": "Fiesta ST",
+    "generation": 2,
+    "brands": [
+      "Ford"
+    ],
+    "country_of_origin": "German",
+    "production_start": 2013,
+    "production_end": 2017,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 180,
+    "power_output_hp_max": 180,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "hyundai-i30-n-g1",
+    "make": "Hyundai",
+    "model": "i30 N",
+    "generation": 1,
+    "brands": [
+      "Hyundai"
+    ],
+    "country_of_origin": "South Korean",
+    "production_start": 2017,
+    "production_end": 2024,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 246,
+    "power_output_hp_max": 271,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "toyota-gr-yaris-g1",
+    "make": "Toyota",
+    "model": "GR Yaris",
+    "generation": 1,
+    "brands": [
+      "Toyota"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2020,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-3"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 257,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mini-john-cooper-works-gp-g3",
+    "make": "MINI",
+    "model": "John Cooper Works GP",
+    "generation": 3,
+    "brands": [
+      "MINI"
+    ],
+    "country_of_origin": "British",
+    "production_start": 2020,
+    "production_end": 2020,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 302,
+    "power_output_hp_max": 302,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 44900,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "dodge-challenger-g1",
+    "make": "Dodge",
+    "model": "Challenger",
+    "generation": 1,
+    "brands": [
+      "Dodge"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1970,
+    "production_end": 1974,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6",
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Muscle Car",
+    "power_output_hp_min": 145,
+    "power_output_hp_max": 425,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": [
+      "Vanishing Point"
+    ],
+    "price_at_launch_usd": 2851,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "dodge-charger-g2",
+    "make": "Dodge",
+    "model": "Charger",
+    "generation": 2,
+    "brands": [
+      "Dodge"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1968,
+    "production_end": 1970,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6",
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Muscle Car",
+    "power_output_hp_min": 145,
+    "power_output_hp_max": 425,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": [
+      "Bullitt",
+      "The Dukes of Hazzard"
+    ],
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "chevrolet-chevelle-g2",
+    "make": "Chevrolet",
+    "model": "Chevelle",
+    "generation": 2,
+    "brands": [
+      "Chevrolet"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1968,
+    "production_end": 1972,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6",
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Muscle Car",
+    "power_output_hp_min": 140,
+    "power_output_hp_max": 450,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 2899,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "chevrolet-nova-g3",
+    "make": "Chevrolet",
+    "model": "Nova",
+    "generation": 3,
+    "brands": [
+      "Chevrolet"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1968,
+    "production_end": 1974,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6",
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Muscle Car",
+    "power_output_hp_min": 140,
+    "power_output_hp_max": 375,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "plymouth-barracuda-g3",
+    "make": "Plymouth",
+    "model": "Barracuda",
+    "generation": 3,
+    "brands": [
+      "Plymouth"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1970,
+    "production_end": 1974,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6",
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Muscle Car",
+    "power_output_hp_min": 125,
+    "power_output_hp_max": 425,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 3164,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "pontiac-firebird-g2",
+    "make": "Pontiac",
+    "model": "Firebird",
+    "generation": 2,
+    "brands": [
+      "Pontiac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1970,
+    "production_end": 1981,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6",
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Muscle Car",
+    "power_output_hp_min": 155,
+    "power_output_hp_max": 345,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": [
+      "Smokey and the Bandit"
+    ],
+    "price_at_launch_usd": 4305,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "buick-regal-gnx-g1",
+    "make": "Buick",
+    "model": "Regal GNX",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1987,
+    "production_end": 1987,
+    "decades": [],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Muscle Car",
+    "power_output_hp_min": 276,
+    "power_output_hp_max": 276,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 29290,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "dodge-coronet-super-bee-g1",
+    "make": "Dodge",
+    "model": "Coronet Super Bee",
+    "generation": 1,
+    "brands": [
+      "Dodge"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1968,
+    "production_end": 1970,
+    "decades": [],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Muscle Car",
+    "power_output_hp_min": 335,
+    "power_output_hp_max": 425,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 3027,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "aston-martin-db5-g1",
+    "make": "Aston Martin",
+    "model": "DB5",
+    "generation": 1,
+    "brands": [
+      "Aston Martin"
+    ],
+    "country_of_origin": "British",
+    "production_start": 1963,
+    "production_end": 1965,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 282,
+    "power_output_hp_max": 325,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": [
+      "Goldfinger",
+      "Skyfall",
+      "Spectre"
+    ],
+    "price_at_launch_usd": 11690,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "jaguar-e-type-g1",
+    "make": "Jaguar",
+    "model": "E-Type",
+    "generation": 1,
+    "brands": [
+      "Jaguar"
+    ],
+    "country_of_origin": "British",
+    "production_start": 1961,
+    "production_end": 1968,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 265,
+    "power_output_hp_max": 265,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 5600,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "toyota-2000gt-g1",
+    "make": "Toyota",
+    "model": "2000GT",
+    "generation": 1,
+    "brands": [
+      "Toyota"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1967,
+    "production_end": 1970,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 148,
+    "power_output_hp_max": 148,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": [
+      "You Only Live Twice"
+    ],
+    "price_at_launch_usd": 7150,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mercedes-benz-300sl-g1",
+    "make": "Mercedes-Benz",
+    "model": "300 SL",
+    "generation": 1,
+    "brands": [
+      "Mercedes-Benz"
+    ],
+    "country_of_origin": "German",
+    "production_start": 1954,
+    "production_end": 1963,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 240,
+    "power_output_hp_max": 240,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 6820,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "bentley-continental-gt-g1",
+    "make": "Bentley",
+    "model": "Continental GT",
+    "generation": 1,
+    "brands": [
+      "Bentley"
+    ],
+    "country_of_origin": "British",
+    "production_start": 2003,
+    "production_end": 2010,
+    "decades": [],
+    "engine_layouts": [
+      "W12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 552,
+    "power_output_hp_max": 552,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 149000,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "lamborghini-espada-g1",
+    "make": "Lamborghini",
+    "model": "Espada",
+    "generation": 1,
+    "brands": [
+      "Lamborghini"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1968,
+    "production_end": 1978,
+    "decades": [],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 321,
+    "power_output_hp_max": 345,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "audi-rs6-avant-g1",
+    "make": "Audi",
+    "model": "RS 6 Avant",
+    "generation": 1,
+    "brands": [
+      "Audi"
+    ],
+    "country_of_origin": "German",
+    "production_start": 2002,
+    "production_end": 2004,
+    "decades": [],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Wagon",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Wagon",
+    "power_output_hp_min": 444,
+    "power_output_hp_max": 444,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "audi-rs4-avant-g1",
+    "make": "Audi",
+    "model": "RS 4 Avant",
+    "generation": 1,
+    "brands": [
+      "Audi"
+    ],
+    "country_of_origin": "German",
+    "production_start": 1999,
+    "production_end": 2001,
+    "decades": [],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Wagon",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Wagon",
+    "power_output_hp_min": 375,
+    "power_output_hp_max": 375,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "nissan-stagea-g1",
+    "make": "Nissan",
+    "model": "Stagea",
+    "generation": 1,
+    "brands": [
+      "Nissan"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1996,
+    "production_end": 2001,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "Wagon",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Wagon",
+    "power_output_hp_min": 128,
+    "power_output_hp_max": 276,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volvo-v70-g1",
+    "make": "Volvo",
+    "model": "V70",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1996,
+    "production_end": 2000,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-5"
+    ],
+    "body_style": "Wagon",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Wagon",
+    "power_output_hp_min": 122,
+    "power_output_hp_max": 250,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mercedes-benz-e-class-estate-g1",
+    "make": "Mercedes-Benz",
+    "model": "E-Class Estate",
+    "generation": 1,
+    "brands": [
+      "Mercedes-Benz"
+    ],
+    "country_of_origin": "German",
+    "production_start": 1996,
+    "production_end": 2002,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4",
+      "V6",
+      "V8"
+    ],
+    "body_style": "Wagon",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Wagon",
+    "power_output_hp_min": 87,
+    "power_output_hp_max": 342,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "subaru-legacy-touring-wagon-g2",
+    "make": "Subaru",
+    "model": "Legacy Touring Wagon",
+    "generation": 2,
+    "brands": [
+      "Subaru"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1993,
+    "production_end": 1998,
+    "decades": [],
+    "engine_layouts": [
+      "Flat-4"
+    ],
+    "body_style": "Wagon",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Wagon",
+    "power_output_hp_min": 113,
+    "power_output_hp_max": 247,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "toyota-land-cruiser-g3",
+    "make": "Toyota",
+    "model": "Land Cruiser",
+    "generation": 3,
+    "brands": [
+      "Toyota"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1960,
+    "production_end": 1984,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 125,
+    "power_output_hp_max": 125,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "land-rover-defender-g3",
+    "make": "Land Rover",
+    "model": "Defender",
+    "generation": 3,
+    "brands": [
+      "Land Rover"
+    ],
+    "country_of_origin": "British",
+    "production_start": 2020,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 196,
+    "power_output_hp_max": 395,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 47700,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "nissan-patrol-g3",
+    "make": "Nissan",
+    "model": "Patrol",
+    "generation": 3,
+    "brands": [
+      "Nissan"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1980,
+    "production_end": 1987,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 94,
+    "power_output_hp_max": 128,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mitsubishi-pajero-g2",
+    "make": "Mitsubishi",
+    "model": "Pajero",
+    "generation": 2,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1991,
+    "production_end": 1999,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 98,
+    "power_output_hp_max": 205,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "ford-bronco-raptor-g6",
+    "make": "Ford",
+    "model": "Bronco Raptor",
+    "generation": 6,
+    "brands": [
+      "Ford"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2022,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 418,
+    "power_output_hp_max": 418,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 69995,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "gmc-jimmy-g1",
+    "make": "GMC",
+    "model": "Jimmy",
+    "generation": 1,
+    "brands": [
+      "GMC"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1970,
+    "production_end": 1972,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6",
+      "V8"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 155,
+    "power_output_hp_max": 255,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 3042,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "ferrari-f40-g1",
+    "make": "Ferrari",
+    "model": "F40",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1987,
+    "production_end": 1992,
+    "decades": [],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 471,
+    "power_output_hp_max": 471,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 400000,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "ferrari-enzo-g1",
+    "make": "Ferrari",
+    "model": "Enzo",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2002,
+    "production_end": 2004,
+    "decades": [],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 651,
+    "power_output_hp_max": 651,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 659330,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "lamborghini-countach-g1",
+    "make": "Lamborghini",
+    "model": "Countach",
+    "generation": 1,
+    "brands": [
+      "Lamborghini"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1974,
+    "production_end": 1978,
+    "decades": [],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 370,
+    "power_output_hp_max": 370,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "lamborghini-miura-g1",
+    "make": "Lamborghini",
+    "model": "Miura",
+    "generation": 1,
+    "brands": [
+      "Lamborghini"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1966,
+    "production_end": 1969,
+    "decades": [],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 345,
+    "power_output_hp_max": 345,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 20000,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mclaren-f1-g1",
+    "make": "McLaren",
+    "model": "F1",
+    "generation": 1,
+    "brands": [
+      "McLaren"
+    ],
+    "country_of_origin": "British",
+    "production_start": 1992,
+    "production_end": 1998,
+    "decades": [],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 627,
+    "power_output_hp_max": 627,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 815000,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "lancia-stratos-g1",
+    "make": "Lancia",
+    "model": "Stratos HF",
+    "generation": 1,
+    "brands": [
+      "Lancia"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1973,
+    "production_end": 1978,
+    "decades": [],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 190,
+    "power_output_hp_max": 190,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "lancia-delta-hf-integrale-g1",
+    "make": "Lancia",
+    "model": "Delta HF Integrale",
+    "generation": 1,
+    "brands": [
+      "Lancia"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1991,
+    "production_end": 1992,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 207,
+    "power_output_hp_max": 207,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "alfa-romeo-giulia-quadrifoglio-g1",
+    "make": "Alfa Romeo",
+    "model": "Giulia Quadrifoglio",
+    "generation": 1,
+    "brands": [
+      "Alfa Romeo"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2016,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 503,
+    "power_output_hp_max": 503,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": 73595,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "tvr-sagaris-g1",
+    "make": "TVR",
+    "model": "Sagaris",
+    "generation": 1,
+    "brands": [
+      "TVR"
+    ],
+    "country_of_origin": "British",
+    "production_start": 2005,
+    "production_end": 2006,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 406,
+    "power_output_hp_max": 406,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  }
+]

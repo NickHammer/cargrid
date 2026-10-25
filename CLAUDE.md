@@ -224,7 +224,7 @@ npm run build      # writes out/ (~736 pages, ~27 MB incl. images)
 
 The app is intentionally lightweight and mostly client-side:
 
-- **Grid logic** — a 3x3 grid with a row parameter and column parameter per axis; players guess which car satisfies both parameters for a cell. `carMatchesParameter` in `src/lib/game.ts` is the runtime source of truth; `scripts/grid-params.mjs` mirrors it for generation and must be kept in sync.
+- **Grid logic** — a 3x3 grid with a row parameter and column parameter per axis; players guess which car satisfies both parameters for a cell. Gameplay and generation now share `src/lib/parameters.mjs`, re-exported by `scripts/grid-params.mjs`. Add parameter types to `src/lib/types.ts` and shared matching/value/label/tier rules together.
 - **Daily rotation** — the schedule is **pre-generated and committed** to `data/grids.json` by `scripts/generate-grids.mjs`, not derived at runtime, so an archived grid cannot change when the car dataset does. Dates roll over at the player's *local* midnight (`src/lib/date.ts`) — never `toISOString()`, which would flip the grid at 8pm ET.
 - **Grid solvability** — a grid is only valid if every cell has at least 3 answers *and* 9 **distinct** cars can fill the 9 cells. Per-cell counts alone are not enough, because the autocomplete bars reusing a car; the generator proves it with a bipartite perfect matching. `scripts/validate-grids.mjs` re-checks the whole schedule and must be run after any `cars.json` edit.
 - **Archive** — `/archive` lists past dates, `/archive/[date]` replays one. `localStorage` is keyed by date and discards state when the grid id changes, so replays need no extra storage.
@@ -232,4 +232,15 @@ The app is intentionally lightweight and mostly client-side:
 - **State persistence** — user ID (UUID), guesses, and score history stored in `localStorage`; no login required
 - **Server usage** — limit to heavier calculations (e.g., end-of-game stats aggregation); avoid server round-trips for core gameplay
 
-> The committed schedule ships to the browser in full, so a determined player can read future grids out of the JS bundle. That is the accepted cost of the no-server design; closing it would mean serving the grid from an endpoint.
+### Answer exposure — a decided trade-off
+
+Both `cars.json` and `grids.json` are inlined into a single client chunk (measured: ~423 KB). Anyone who opens devtools has the complete answer key — every car's specs, the pre-computed `decades` array, and **every scheduled grid for two years**. No reasoning required; the answers are literal values in the bundle.
+
+**This is accepted, not an open bug.** It is inherent to the no-server architecture: the game resolves the daily grid and judges guesses entirely client-side, which is also what makes the archive replayable with no backend. Closing it would mean validating guesses in a serverless function and never shipping the dataset — a different architecture, and the wrong trade for a casual daily puzzle. Casual players will not open devtools; determined ones would cheat regardless. Do not re-raise this as a defect.
+
+Two **friction** measures ship anyway, because they cost nothing and fix the cases a normal player would stumble into:
+
+- The guess autocomplete shows no production years (`carDisplayLabel`, `src/lib/cars.ts`). `Decade` is a live parameter, so printing the year span handed over the answer in the UI itself. Generations are disambiguated with `(Gen N)` only where a nameplate has more than one.
+- `/credits` is sorted by photographer and omits production years, so it reads as the licence-compliance list it is rather than a browsable car index. It still covers **every** published image — that part is a licence obligation and must not be narrowed.
+
+If the exposure ever does matter, the cheapest real improvement is shipping only past-and-present grids and rebuilding daily (a scheduled Netlify build), which removes the two-year preview without touching the architecture.

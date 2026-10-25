@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "data:coverage": "node scripts/coverage-report.mjs",
+    "data:validate": "node scripts/validate-cars.mjs && node scripts/validate-grids.mjs --min 3 --min-days 90",
+    "data:test": "node --test scripts/curation.test.mjs"
   },
   "dependencies": {
     "next": "16.2.4",

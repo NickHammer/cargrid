@@ -15,7 +15,7 @@ import fs from "fs";
 import path from "path";
 import sharp from "sharp";
 
-const CREDITS_PATH = "data/image-credits.json";
+const CREDITS_PATH = process.env.CREDITS_PATH || "data/image-credits.json";
 const DIR = "public/cars";
 
 const argv = process.argv.slice(2);

@@ -1,0 +1,365 @@
+{
+  "batchId": "pilot-b-free-sources",
+  "reviewDate": "2026-10-23",
+  "scope": "Identity-match review only. No specification, image or production-record approvals. Model matches and generation candidates require the stated follow-up.",
+  "counts": {
+    "model-match": 15,
+    "generation-unresolved": 19,
+    "entity-check-needed": 2,
+    "generation-match": 11,
+    "hold": 2,
+    "scope-decision": 1
+  },
+  "records": [
+    {
+      "query": "Volvo 850",
+      "selectedId": "Q379074",
+      "url": "https://www.wikidata.org/wiki/Q379074",
+      "status": "model-match",
+      "note": "Correct model label. Exclude Volvo 8500 bus; production scope still needs sourcing."
+    },
+    {
+      "query": "Volvo C30",
+      "selectedId": "Q835043",
+      "url": "https://www.wikidata.org/wiki/Q835043",
+      "status": "model-match",
+      "note": "Select production C30, not C303/C306, Electric variant or Concept."
+    },
+    {
+      "query": "Volvo S60",
+      "selectedId": "Q1123538",
+      "url": "https://www.wikidata.org/wiki/Q1123538",
+      "status": "generation-unresolved",
+      "note": "Nameplate only; exclude racing, Concept, Polestar and explicit second-generation items. First generation not resolved."
+    },
+    {
+      "query": "Volvo XC90",
+      "selectedId": "Q933275",
+      "url": "https://www.wikidata.org/wiki/Q933275",
+      "status": "generation-unresolved",
+      "note": "Nameplate only. Explicit II and II Plug-in Hybrid results are the wrong generation."
+    },
+    {
+      "query": "Volvo XC60",
+      "selectedId": "Q139820740",
+      "url": "https://www.wikidata.org/wiki/Q139820740",
+      "status": "entity-check-needed",
+      "note": "Y20 label is the intended first-generation candidate, but the item page could not be retrieved for direct confirmation. SPA results are later-generation."
+    },
+    {
+      "query": "Volvo XC40",
+      "selectedId": "Q28127228",
+      "url": "https://www.wikidata.org/wiki/Q28127228",
+      "status": "generation-unresolved",
+      "note": "Model-level candidate; do not merge EX40 electric facts into the 2017 launch lineup."
+    },
+    {
+      "query": "Saab 900",
+      "selectedId": "Q420929",
+      "url": "https://www.wikidata.org/wiki/Q420929",
+      "status": "generation-unresolved",
+      "note": "Nameplate spans generations. Convertible-only item cannot stand in for the full 1978 launch generation."
+    },
+    {
+      "query": "Saab 9000",
+      "selectedId": "Q169116",
+      "url": "https://www.wikidata.org/wiki/Q169116",
+      "status": "model-match",
+      "note": "Prefer full production model to later CS variant. Launch lineup still needs sourcing."
+    },
+    {
+      "query": "Saab 9-3",
+      "selectedId": "Q420807",
+      "url": "https://www.wikidata.org/wiki/Q420807",
+      "status": "generation-unresolved",
+      "note": "Prefer known nameplate for research; duplicate unlabeled Q122923662 needs entity inspection. Exclude 9-3X and SportHatch."
+    },
+    {
+      "query": "Saab 9-5",
+      "selectedId": "Q420806",
+      "url": "https://www.wikidata.org/wiki/Q420806",
+      "status": "generation-unresolved",
+      "note": "Nameplate-level result; first-generation scope not established by the match."
+    },
+    {
+      "query": "Renault 5",
+      "selectedId": "Q120599582",
+      "url": "https://www.wikidata.org/wiki/Q120599582",
+      "status": "entity-check-needed",
+      "note": "Explicit first-generation label is preferable to general nameplate, II, Turbo and GT Turbo. Item page unavailable during direct check."
+    },
+    {
+      "query": "Renault Clio",
+      "selectedId": "Q3425018",
+      "url": "https://www.wikidata.org/wiki/Q3425018",
+      "status": "generation-match",
+      "note": "Clio I item directly inspected. Use instead of nameplate, II, III or IV."
+    },
+    {
+      "query": "Renault Megane",
+      "selectedId": "Q16595579",
+      "url": "https://www.wikidata.org/wiki/Q16595579",
+      "status": "generation-match",
+      "note": "Megane I item directly inspected. Arkana and later Megane generations rejected."
+    },
+    {
+      "query": "Renault Scenic",
+      "selectedId": "Q16041093",
+      "url": "https://www.wikidata.org/wiki/Q16041093",
+      "status": "generation-match",
+      "note": "Scenic I item directly inspected. Exclude prototype and later generations."
+    },
+    {
+      "query": "Renault Zoe",
+      "selectedId": "Q1516380",
+      "url": "https://www.wikidata.org/wiki/Q1516380",
+      "status": "model-match",
+      "note": "Production Zoe, not Concept, Preview, E-Sport or Z.E. concept."
+    },
+    {
+      "query": "Hyundai Elantra",
+      "selectedId": "Q482530",
+      "url": "https://www.wikidata.org/wiki/Q482530",
+      "status": "generation-unresolved",
+      "note": "Avante/Elantra nameplate is the relevant research anchor. First search result i30 and HD-generation item do not match 1990 J1."
+    },
+    {
+      "query": "Hyundai Tiburon",
+      "selectedId": "Q482596",
+      "url": "https://www.wikidata.org/wiki/Q482596",
+      "status": "generation-unresolved",
+      "note": "Correct nameplate; first-generation RD not independently resolved."
+    },
+    {
+      "query": "Hyundai Veloster",
+      "selectedId": "Q178581",
+      "url": "https://www.wikidata.org/wiki/Q178581",
+      "status": "generation-unresolved",
+      "note": "Correct nameplate; exclude Concept and later N performance variant. FS generation still needs evidence."
+    },
+    {
+      "query": "Hyundai Ioniq",
+      "selectedId": "Q22672404",
+      "url": "https://www.wikidata.org/wiki/Q22672404",
+      "status": "model-match",
+      "note": "Original Ioniq model, not Ioniq 5/9/3/6 N. Hybrid/PHEV/EV availability must be scoped separately."
+    },
+    {
+      "query": "Hyundai Ioniq 5",
+      "selectedId": "Q99342695",
+      "url": "https://www.wikidata.org/wiki/Q99342695",
+      "status": "model-match",
+      "note": "Regular production Ioniq 5, not later N or Robotaxi."
+    },
+    {
+      "query": "Hyundai Kona",
+      "selectedId": "Q30322680",
+      "url": "https://www.wikidata.org/wiki/Q30322680",
+      "status": "generation-unresolved",
+      "note": "Nameplate only; exclude Kona II and later Electric/N variants from unverified 2017 launch facts."
+    },
+    {
+      "query": "Kia Sportage",
+      "selectedId": "Q145527",
+      "url": "https://www.wikidata.org/wiki/Q145527",
+      "status": "generation-unresolved",
+      "note": "Use as nameplate research anchor. First-generation identity still needs a separate generation source."
+    },
+    {
+      "query": "Kia Ceed",
+      "selectedId": "Q200970",
+      "url": "https://www.wikidata.org/wiki/Q200970",
+      "status": "generation-unresolved",
+      "note": "Cee'd nameplate is relevant; first result CD is third generation, not 2006 ED. No ED-specific result found."
+    },
+    {
+      "query": "Kia Stinger",
+      "selectedId": "Q28170697",
+      "url": "https://www.wikidata.org/wiki/Q28170697",
+      "status": "model-match",
+      "note": "Production Stinger model is the relevant identity; specifications remain unreviewed."
+    },
+    {
+      "query": "Kia Niro",
+      "selectedId": "Q22754238",
+      "url": "https://www.wikidata.org/wiki/Q22754238",
+      "status": "generation-unresolved",
+      "note": "Nameplate research anchor. Exclude Concept, SG2 generation and EV-series facts from unsupported 2016 launch scope."
+    },
+    {
+      "query": "Kia EV6",
+      "selectedId": "Q105975708",
+      "url": "https://www.wikidata.org/wiki/Q105975708",
+      "status": "model-match",
+      "note": "Production EV6 is the relevant model identity; launch variants still need verification."
+    },
+    {
+      "query": "Kia Soul",
+      "selectedId": null,
+      "url": null,
+      "status": "hold",
+      "note": "Q420780 is labeled Kia Heart and has a Kia Soul EV alias and a later-model image. Likely a mislabeled nameplate, but inspect sitelinks and generation sources before selecting. EV and concept results are unsuitable for the 2008 launch."
+    },
+    {
+      "query": "Volkswagen Golf",
+      "selectedId": "Q1545536",
+      "url": "https://www.wikidata.org/wiki/Q1545536",
+      "status": "generation-match",
+      "note": "Follow-up found Golf Mk1. Item inspected: car model, Golf series, start 1974. The English description 'touring car' is misleading; this is not enough to reject the production-model item."
+    },
+    {
+      "query": "Volkswagen Polo",
+      "selectedId": "Q2712614",
+      "url": "https://www.wikidata.org/wiki/Q2712614",
+      "status": "generation-match",
+      "note": "Follow-up found Polo Mk1. Item inspected: Polo series, start 1975. Reject R WRC and later generations."
+    },
+    {
+      "query": "Volkswagen Passat",
+      "selectedId": "Q1543320",
+      "url": "https://www.wikidata.org/wiki/Q1543320",
+      "status": "generation-match",
+      "note": "Passat B1 item directly inspected. Prefer it to nameplate and B3/B5/B6."
+    },
+    {
+      "query": "Volkswagen Beetle",
+      "selectedId": "Q152946",
+      "url": "https://www.wikidata.org/wiki/Q152946",
+      "status": "scope-decision",
+      "note": "Correct original air-cooled model item inspected. Exclude New Beetle, 2011 model and film. Define launch scope within the original model's long production run before collecting specs."
+    },
+    {
+      "query": "Volkswagen ID.3",
+      "selectedId": "Q63636478",
+      "url": "https://www.wikidata.org/wiki/Q63636478",
+      "status": "model-match",
+      "note": "Regular production ID.3. Do not automatically include Neo or regional Chuzhong specs."
+    },
+    {
+      "query": "Volkswagen ID.4",
+      "selectedId": "Q86668068",
+      "url": "https://www.wikidata.org/wiki/Q86668068",
+      "status": "model-match",
+      "note": "Model-level production identity; resolve regional Crozz variants explicitly."
+    },
+    {
+      "query": "Tesla Roadster",
+      "selectedId": "Q210893",
+      "url": "https://www.wikidata.org/wiki/Q210893",
+      "status": "generation-match",
+      "note": "First-generation 2008-2012 Roadster item directly inspected. First search result Q43253563 is the newer generation. Exclude Musk's individual car and disambiguation/video-game items."
+    },
+    {
+      "query": "Tesla Model 3",
+      "selectedId": "Q7705507",
+      "url": "https://www.wikidata.org/wiki/Q7705507",
+      "status": "model-match",
+      "note": "Correct vehicle model, not podcast episode. Scope initial launch independently of later refreshes."
+    },
+    {
+      "query": "Tesla Model X",
+      "selectedId": "Q1634161",
+      "url": "https://www.wikidata.org/wiki/Q1634161",
+      "status": "model-match",
+      "note": "Correct vehicle model; launch variants still need evidence."
+    },
+    {
+      "query": "Tesla Model Y",
+      "selectedId": "Q42298250",
+      "url": "https://www.wikidata.org/wiki/Q42298250",
+      "status": "model-match",
+      "note": "Correct vehicle model; exclude later extended Model Y L."
+    },
+    {
+      "query": "Mazda MX-5",
+      "selectedId": "Q58619979",
+      "url": "https://www.wikidata.org/wiki/Q58619979",
+      "status": "generation-match",
+      "note": "NA generation directly inspected; exclude nameplate and NB/NC/ND."
+    },
+    {
+      "query": "Mazda RX-8",
+      "selectedId": "Q520673",
+      "url": "https://www.wikidata.org/wiki/Q520673",
+      "status": "model-match",
+      "note": "Regular RX-8. Exclude Hydrogen RE, Concept and RX-85/RX-87."
+    },
+    {
+      "query": "Mazda RX-7",
+      "selectedId": "Q861634",
+      "url": "https://www.wikidata.org/wiki/Q861634",
+      "status": "generation-unresolved",
+      "note": "Nameplate is only a research anchor. FC is wrong for FD. No FD-specific item found in follow-up; never add specs from existing first generation."
+    },
+    {
+      "query": "Mazda 323",
+      "selectedId": null,
+      "url": null,
+      "status": "hold",
+      "note": "Mazda 323 and Mazda Familia are overlapping regional/nameplate entities. Neither cached match establishes BG. Resolve BG identity and generation numbering before choosing an item."
+    },
+    {
+      "query": "Mazda CX-5",
+      "selectedId": "Q1580031",
+      "url": "https://www.wikidata.org/wiki/Q1580031",
+      "status": "generation-unresolved",
+      "note": "Nameplate-level result; KF and KI are later generations. No KE-specific item found."
+    },
+    {
+      "query": "Volvo S80",
+      "selectedId": "Q542787",
+      "url": "https://www.wikidata.org/wiki/Q542787",
+      "status": "generation-unresolved",
+      "note": "Nameplate spans generations; first-generation scope still needs evidence."
+    },
+    {
+      "query": "Renault Laguna",
+      "selectedId": "Q16595566",
+      "url": "https://www.wikidata.org/wiki/Q16595566",
+      "status": "generation-match",
+      "note": "Laguna I item directly inspected; reject 2007 concept and later generations."
+    },
+    {
+      "query": "Hyundai Santa Fe",
+      "selectedId": "Q489852",
+      "url": "https://www.wikidata.org/wiki/Q489852",
+      "status": "generation-unresolved",
+      "note": "Nameplate only; first-generation SM not resolved by returned result."
+    },
+    {
+      "query": "Kia Rio",
+      "selectedId": "Q493781",
+      "url": "https://www.wikidata.org/wiki/Q493781",
+      "status": "generation-unresolved",
+      "note": "Nameplate only; exclude KX Cross and establish first-generation DC separately."
+    },
+    {
+      "query": "Kia Picanto",
+      "selectedId": "Q55380620",
+      "url": "https://www.wikidata.org/wiki/Q55380620",
+      "status": "generation-match",
+      "note": "SA item directly inspected; first result TA and JA are later generations. General Morning label is a nameplate/alias."
+    },
+    {
+      "query": "Mazda 6",
+      "selectedId": "Q285958",
+      "url": "https://www.wikidata.org/wiki/Q285958",
+      "status": "generation-unresolved",
+      "note": "Correct Mazda6 nameplate. Exclude 626, 616, Capella and 6e. First-generation GG/GY still needs evidence."
+    },
+    {
+      "query": "Mazda MX-3",
+      "selectedId": "Q1755480",
+      "url": "https://www.wikidata.org/wiki/Q1755480",
+      "status": "model-match",
+      "note": "Production MX-3, not MX-30 crossover."
+    },
+    {
+      "query": "Mercedes-Benz 190",
+      "selectedId": "Q656750",
+      "url": "https://www.wikidata.org/wiki/Q656750",
+      "status": "generation-match",
+      "note": "W201 item directly inspected and aliases include 190/190 E. Exclude 190 SL and later Evolution/Cosworth-only variants; internal generation-number policy still needs a decision."
+    }
+  ]
+}

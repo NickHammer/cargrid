@@ -1,0 +1,159 @@
+{
+  "batchId": "pilot-b-generation-search",
+  "source": "Wikidata",
+  "structuredDataLicense": "CC0-1.0",
+  "results": {
+    "Volvo S60 first generation": {
+      "retrievedAt": "2026-10-24T01:50:36.492Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volvo+S60+first+generation&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volvo XC90 first generation": {
+      "retrievedAt": "2026-10-24T01:50:37.608Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volvo+XC90+first+generation&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volvo XC40 XZ": {
+      "retrievedAt": "2026-10-24T01:50:38.747Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volvo+XC40+XZ&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Saab 900 first generation": {
+      "retrievedAt": "2026-10-24T01:50:39.848Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Saab+900+first+generation&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Saab 9-3 first generation": {
+      "retrievedAt": "2026-10-24T01:50:40.976Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Saab+9-3+first+generation&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Saab 9-5 first generation": {
+      "retrievedAt": "2026-10-24T01:50:42.103Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Saab+9-5+first+generation&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Hyundai Elantra J1": {
+      "retrievedAt": "2026-10-24T01:50:43.231Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Hyundai+Elantra+J1&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Hyundai Tiburon RD": {
+      "retrievedAt": "2026-10-24T01:50:44.355Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Hyundai+Tiburon+RD&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Hyundai Veloster FS": {
+      "retrievedAt": "2026-10-24T01:50:45.479Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Hyundai+Veloster+FS&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Hyundai Kona OS": {
+      "retrievedAt": "2026-10-24T01:50:46.573Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Hyundai+Kona+OS&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Kia Sportage NB": {
+      "retrievedAt": "2026-10-24T01:50:47.688Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kia+Sportage+NB&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Kia Ceed ED": {
+      "retrievedAt": "2026-10-24T01:50:48.848Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kia+Ceed+ED&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Kia Niro DE": {
+      "retrievedAt": "2026-10-24T01:50:49.950Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kia+Niro+DE&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Kia Soul AM": {
+      "retrievedAt": "2026-10-24T01:50:51.049Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kia+Soul+AM&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volkswagen Golf Mk1": {
+      "retrievedAt": "2026-10-24T01:50:52.162Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volkswagen+Golf+Mk1&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q1545536",
+          "label": "Volkswagen Golf Mk1",
+          "description": "touring car",
+          "url": "https://www.wikidata.org/wiki/Q1545536"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volkswagen Polo Mk1": {
+      "retrievedAt": "2026-10-24T01:50:53.278Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volkswagen+Polo+Mk1&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [
+        {
+          "id": "Q2712614",
+          "label": "Volkswagen Polo Mk1",
+          "description": "car model",
+          "url": "https://www.wikidata.org/wiki/Q2712614"
+        }
+      ],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Mazda RX-7 FD": {
+      "retrievedAt": "2026-10-24T01:50:54.389Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Mazda+RX-7+FD&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Mazda Familia BG": {
+      "retrievedAt": "2026-10-24T01:50:55.473Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Mazda+Familia+BG&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Mazda CX-5 KE": {
+      "retrievedAt": "2026-10-24T01:50:56.566Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Mazda+CX-5+KE&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Volvo S80 first generation": {
+      "retrievedAt": "2026-10-24T01:50:57.666Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Volvo+S80+first+generation&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Hyundai Santa Fe SM": {
+      "retrievedAt": "2026-10-24T01:50:58.768Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Hyundai+Santa+Fe+SM&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Kia Rio DC": {
+      "retrievedAt": "2026-10-24T01:50:59.861Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kia+Rio+DC&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    },
+    "Mazda6 first generation": {
+      "retrievedAt": "2026-10-24T01:51:00.968Z",
+      "requestUrl": "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Mazda6+first+generation&language=en&uselang=en&type=item&limit=5&format=json&maxlag=10",
+      "matches": [],
+      "reviewRequired": "Select a generation-specific identity; these search matches do not verify specifications."
+    }
+  }
+}

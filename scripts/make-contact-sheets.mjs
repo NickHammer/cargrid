@@ -21,8 +21,8 @@ import fs from "fs";
 import path from "path";
 import sharp from "sharp";
 
-const CARS_PATH = "data/cars.json";
-const CREDITS_PATH = "data/image-credits.json";
+const CARS_PATH = process.env.CARS_PATH || "data/cars.json";
+const CREDITS_PATH = process.env.CREDITS_PATH || "data/image-credits.json";
 
 const argv = process.argv.slice(2);
 const argOf = (name, fallback) => {

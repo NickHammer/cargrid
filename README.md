@@ -112,13 +112,13 @@ src/
     useDailyRollover.ts      midnight detection
 
 data/
-  cars.json                  151 curated cars
+  cars.json                  198 curated cars
   grids.json                 730 pre-generated daily grids
   image-credits.json         per-image licence and attribution
   verification-todo.md       dataset decisions and open questions
 
 scripts/                     curation and generation tooling
-public/cars/                 151 WebP car photos
+public/cars/                 198 WebP car photos
 ```
 
 **Why the `*Client.tsx` wrappers.** The game reads `localStorage` and the local
@@ -129,8 +129,13 @@ as a cascading render — and rules out hydration mismatches on the date.
 
 ## The car dataset
 
-`data/cars.json` holds **151 cars** spanning **1935–2024** across **26 makes** and
-**12 classes**.
+**Current expansion workflow:** the working catalog now has **198 cars**.
+See [free-source curation](data/curation/README.md) for coverage reports, the
+50-car research queue, source-backed enrichment batches and reviewed publishing.
+Research candidates are kept separate from the playable catalog.
+
+`data/cars.json` holds **198 cars** spanning **1935–2024** across **42 makes** and
+**13 classes**.
 
 A record is one **generation** of one nameplate, scoped to that generation's
 specs — not the nameplate as a whole. `toyota-supra-g4` is the 1993–2002 A80,
@@ -228,8 +233,9 @@ running dry, so it belongs in CI.
 ## Images
 
 Every car has one canonical photo in `public/cars/<id>.webp`, sourced from
-Wikimedia Commons. Candidates are only accepted if the file lives on Commons,
-which guarantees a free licence.
+Wikimedia Commons. New candidates must be hosted on Commons and pass an explicit
+license-metadata check before download. Attribution and visual verification are
+still required.
 
 **Automated fetching is not enough, and the pipeline assumes that.** A
 nameplate's lead image on Wikipedia is almost always the *current* generation, so
@@ -293,9 +299,8 @@ Notes worth knowing:
 | `optimize-car-images.mjs` | Re-encode to 640px WebP |
 | `apply-image-urls.mjs` | Copy verified image paths into `cars.json` |
 
-> `src/lib/game.ts` is the runtime source of truth for whether a car satisfies a
-> parameter. `scripts/grid-params.mjs` mirrors it for generation, and the two
-> must be kept in sync — any new parameter type goes in both.
+> Gameplay, generation and validation share the parameter rules in
+> `src/lib/parameters.mjs`; `scripts/grid-params.mjs` re-exports them.
 
 ## Credits and licensing
 

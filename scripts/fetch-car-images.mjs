@@ -15,8 +15,9 @@
  *                     usually shows the *current* generation, so these need the
  *                     closest look during review)
  *
- * Every candidate must live on Commons, which guarantees a free license — local
- * enwiki files can be non-free. Attribution is recorded in data/image-credits.json.
+ * Every candidate must live on Commons and pass an explicit license metadata
+ * check. Local enwiki files can be non-free. Attribution is recorded in
+ * data/image-credits.json; visual approval remains a separate step.
  *
  * Images still need visual verification (right model AND generation) before
  * cars.json image_url is set; scripts/make-contact-sheets.mjs builds sheets for
@@ -26,9 +27,13 @@
 
 import fs from "fs";
 import path from "path";
+import { reviewImageLicense } from "./lib/image-license.mjs";
 
-const CARS_PATH = "data/cars.json";
-const CREDITS_PATH = "data/image-credits.json";
+// Path overrides let this script run against an alternate car list / credits
+// file (e.g. a curation tranche staged outside data/cars.json) without
+// touching the main dataset files. Default behavior is unchanged.
+const CARS_PATH = process.env.CARS_PATH || "data/cars.json";
+const CREDITS_PATH = process.env.CREDITS_PATH || "data/image-credits.json";
 const OUT_DIR = "public/cars";
 
 const UA = {
@@ -73,6 +78,34 @@ const PINNED_FILES = {
   "bmw-z4-g1": "'03-'05 BMW Z4 Roadster (Orange Julep).jpg",
   "mercedes-benz-amg-gt-g1": "2015-2017 Mercedes-AMG GT (C 190) S coupe (2017-07-15) 01.jpg",
   "mercedes-benz-g-class-g1": "1989 Mercedes-Benz 280 GE (W460) (4535432871).jpg",
+
+  // Tranche A (data/tranche-a.json) — classic/exotic nameplates where the
+  // default search strategy landed on engine bays, rear shots, the wrong
+  // generation, or show-floor clutter. Picked and visually verified via
+  // contact-sheet review.
+  "toyota-gr-yaris-g1": "Toyota GR Yaris RZ (2020) IMG 9308.jpg",
+  "chevrolet-chevelle-g2": "1968 Chevrolet Chevelle SS, red, front right side, Golden Super Cruise 2026-08-01.jpg",
+  "chevrolet-nova-g3": "1969 Chevrolet Nova SS 396 in Burnished Brown Poly, Front Right, 06-11-2022.jpg",
+  "plymouth-barracuda-g3": "1970 Plymouth AAR 'Cuda in Moulin Rouge, front right (Queen Street 2023).jpg",
+  "bentley-continental-gt-g1": "2005 Bentley Continental GT DutchAngle 8825.jpg",
+  "audi-rs6-avant-g1": "Audi RS6 C5 Avant.jpg",
+  "volvo-v70-g1": "1st Volvo V70.jpg",
+  "nissan-patrol-g1": "1983 Nissan Patrol (4560886250).jpg",
+  "ferrari-enzo-g1": "Scarsdale Concours Enzo 2.jpg",
+  "lamborghini-countach-g1": "Lamborghini Countach LP 400 Periscopio (1975) (52866218691).jpg",
+  "lamborghini-miura-g1": "Lamborghini Miura P400 S (1970) (52866384629).jpg",
+  "lancia-stratos-g1": "Lancia Stratos HF 001.JPG",
+  "subaru-legacy-touring-wagon-g2": "1997-1998 Subaru Legacy Touring Wagon GT-B Limited.jpg",
+  "ferrari-f40-g1": "1990 Ferrari F40 Petersen Automotive Museum.jpg",
+  "lamborghini-espada-g1": "Lamborghini Espada Series II (1974) (52866384814).jpg",
+  "pontiac-firebird-g2": "1971 firebird esprit.jpg",
+  "mercedes-benz-300-sl-g1": "Mercedes-Benz 300 SL - left.jpg",
+  "mini-john-cooper-works-gp-g3": "2020 Mini John Cooper Works GP II Automatic 2.0 Front.jpg",
+  // The generic "Buick Regal (1978)" museum shot read fine for the G-body
+  // shape but didn't show the GNX's distinctive all-black turbo trim; this one
+  // does, without opening the hood or going full rear/side.
+  "buick-regal-gnx-g1": "Sloan Museum at Courtland Center December 2018 30 (1987 Buick GNX).jpg",
+  "volkswagen-golf-gti-g2": "1987 Volkswagen Golf GTi 1.8 Front.jpg",
 };
 
 // Generation-specific article titles. Missing/wrong guesses fall through to the
@@ -341,11 +374,11 @@ async function commonsInfo(fileName) {
   const info = page?.imageinfo?.[0];
   if (!info || page.missing !== undefined) return null;
   const meta = info.extmetadata ?? {};
-  const strip = (s) => (s ?? "").replace(/<[^>]*>/g, "").trim();
+  const reviewedLicense = reviewImageLicense(meta);
+  if (!reviewedLicense) return null;
   return {
     thumbUrl: info.thumburl ?? info.url,
-    license: strip(meta.LicenseShortName?.value) || "unknown",
-    artist: strip(meta.Artist?.value) || "unknown",
+    ...reviewedLicense,
     source: info.descriptionurl,
   };
 }
@@ -446,6 +479,7 @@ for (const car of targets) {
         article: candidate.article,
         matched: step.strategy,
         license: info.license,
+        licenseUrl: info.licenseUrl,
         artist: info.artist,
         source: info.source,
       };

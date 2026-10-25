@@ -38,14 +38,17 @@ const CONFIG = {
 };
 
 // Relaxation ladder for the rare seed that cannot satisfy the strict config.
+// Each rung must search HARDER than the last, not just loosen constraints.
+// Lowering minSupport admits more parameter values, which enlarges the draw
+// space and *lowers* the odds any single random draw is valid — so a rung that
+// relaxes support while keeping the default attempt count is weaker than the
+// rung above it. Attempts therefore climb monotonically down the ladder.
 const LADDER = [
   CONFIG,
-  // Before loosening anything, just search harder — most days that miss on the
-  // first pass succeed at full strictness with more candidate draws.
   { ...CONFIG, attempts: 600 },
-  { ...CONFIG, minCell: 2 },
-  { ...CONFIG, minCell: 2, minSupport: 6 },
-  { ...CONFIG, minCell: 1, minSupport: 5, maxTier3: 2 },
+  { ...CONFIG, attempts: 2000, minCell: 2 },
+  { ...CONFIG, attempts: 4000, minCell: 2, minSupport: 6 },
+  { ...CONFIG, attempts: 12000, minCell: 1, minSupport: 5, maxTier3: 2 },
 ];
 
 // ---------------------------------------------------------------------------

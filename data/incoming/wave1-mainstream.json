@@ -1,0 +1,818 @@
+[
+  {
+    "id": "hyundai-ioniq-5-g1",
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "generation": 1,
+    "brands": [
+      "Hyundai"
+    ],
+    "country_of_origin": "South Korean",
+    "production_start": 2021,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 168,
+    "power_output_hp_max": 302,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "hyundai-tucson-g4",
+    "make": "Hyundai",
+    "model": "Tucson",
+    "generation": 4,
+    "brands": [
+      "Hyundai"
+    ],
+    "country_of_origin": "South Korean",
+    "production_start": 2020,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 115,
+    "power_output_hp_max": 187,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Hybrid",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "hyundai-santa-fe-g5",
+    "make": "Hyundai",
+    "model": "Santa Fe",
+    "generation": 5,
+    "brands": [
+      "Hyundai"
+    ],
+    "country_of_origin": "South Korean",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 191,
+    "power_output_hp_max": 277,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "hyundai-elantra-g7",
+    "make": "Hyundai",
+    "model": "Elantra",
+    "generation": 7,
+    "brands": [
+      "Hyundai"
+    ],
+    "country_of_origin": "South Korean",
+    "production_start": 2020,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 139,
+    "power_output_hp_max": 276,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "hyundai-palisade-g1",
+    "make": "Hyundai",
+    "model": "Palisade",
+    "generation": 1,
+    "brands": [
+      "Hyundai"
+    ],
+    "country_of_origin": "South Korean",
+    "production_start": 2018,
+    "production_end": 2025,
+    "decades": [],
+    "engine_layouts": [
+      "V6",
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 190,
+    "power_output_hp_max": 291,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "hyundai-kona-g2",
+    "make": "Hyundai",
+    "model": "Kona",
+    "generation": 2,
+    "brands": [
+      "Hyundai"
+    ],
+    "country_of_origin": "South Korean",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-3",
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 118,
+    "power_output_hp_max": 195,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "hyundai-sonata-g8",
+    "make": "Hyundai",
+    "model": "Sonata",
+    "generation": 8,
+    "brands": [
+      "Hyundai"
+    ],
+    "country_of_origin": "South Korean",
+    "production_start": 2019,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 180,
+    "power_output_hp_max": 290,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "hyundai-santa-cruz-g1",
+    "make": "Hyundai",
+    "model": "Santa Cruz",
+    "generation": 1,
+    "brands": [
+      "Hyundai"
+    ],
+    "country_of_origin": "South Korean",
+    "production_start": 2021,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 191,
+    "power_output_hp_max": 281,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volkswagen-id-4-g1",
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "generation": 1,
+    "brands": [
+      "Volkswagen"
+    ],
+    "country_of_origin": "German",
+    "production_start": 2020,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 146,
+    "power_output_hp_max": 295,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volkswagen-tiguan-g3",
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "generation": 3,
+    "brands": [
+      "Volkswagen"
+    ],
+    "country_of_origin": "German",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 128,
+    "power_output_hp_max": 268,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volkswagen-atlas-g1",
+    "make": "Volkswagen",
+    "model": "Atlas",
+    "generation": 1,
+    "brands": [
+      "Volkswagen"
+    ],
+    "country_of_origin": "German",
+    "production_start": 2017,
+    "production_end": 2024,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 235,
+    "power_output_hp_max": 276,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volkswagen-jetta-g7",
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "generation": 7,
+    "brands": [
+      "Volkswagen"
+    ],
+    "country_of_origin": "German",
+    "production_start": 2018,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 147,
+    "power_output_hp_max": 228,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volkswagen-taos-g1",
+    "make": "Volkswagen",
+    "model": "Taos",
+    "generation": 1,
+    "brands": [
+      "Volkswagen"
+    ],
+    "country_of_origin": "German",
+    "production_start": 2018,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 108,
+    "power_output_hp_max": 187,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volkswagen-golf-g8",
+    "make": "Volkswagen",
+    "model": "Golf",
+    "generation": 8,
+    "brands": [
+      "Volkswagen"
+    ],
+    "country_of_origin": "German",
+    "production_start": 2019,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-3",
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 242,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "",
+    "aliases": [
+      "VW Golf"
+    ]
+  },
+  {
+    "id": "volkswagen-atlas-cross-sport-g1",
+    "make": "Volkswagen",
+    "model": "Atlas Cross Sport",
+    "generation": 1,
+    "brands": [
+      "Volkswagen"
+    ],
+    "country_of_origin": "German",
+    "production_start": 2020,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 235,
+    "power_output_hp_max": 276,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mazda-cx-5-g2",
+    "make": "Mazda",
+    "model": "CX-5",
+    "generation": 2,
+    "brands": [
+      "Mazda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2017,
+    "production_end": 2025,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 155,
+    "power_output_hp_max": 250,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "",
+    "aliases": [
+      "CX5"
+    ]
+  },
+  {
+    "id": "mazda-cx-50-g1",
+    "make": "Mazda",
+    "model": "CX-50",
+    "generation": 1,
+    "brands": [
+      "Mazda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2022,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 187,
+    "power_output_hp_max": 256,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mazda-cx-90-g1",
+    "make": "Mazda",
+    "model": "CX-90",
+    "generation": 1,
+    "brands": [
+      "Mazda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6",
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 280,
+    "power_output_hp_max": 340,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mazda-cx-30-g1",
+    "make": "Mazda",
+    "model": "CX-30",
+    "generation": 1,
+    "brands": [
+      "Mazda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2019,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 116,
+    "power_output_hp_max": 250,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mazda-3-g4",
+    "make": "Mazda",
+    "model": "3",
+    "generation": 4,
+    "brands": [
+      "Mazda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2019,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 112,
+    "power_output_hp_max": 250,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "",
+    "aliases": [
+      "Mazda3"
+    ]
+  },
+  {
+    "id": "mazda-cx-70-g1",
+    "make": "Mazda",
+    "model": "CX-70",
+    "generation": 1,
+    "brands": [
+      "Mazda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-6",
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 280,
+    "power_output_hp_max": 340,
+    "power_output_ranges": [],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mazda-mx-5-g1",
+    "make": "Mazda",
+    "model": "MX-5",
+    "generation": 1,
+    "brands": [
+      "Mazda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1989,
+    "production_end": 1997,
+    "decades": [],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 116,
+    "power_output_hp_max": 131,
+    "power_output_ranges": [],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "",
+    "aliases": [
+      "Miata",
+      "Mazda Miata",
+      "MX5"
+    ]
+  }
+]

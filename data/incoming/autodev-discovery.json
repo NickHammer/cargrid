@@ -1,0 +1,3122 @@
+{
+  "source": "auto.dev Listings facets (US cars currently for sale)",
+  "caveat": "Skews modern and US-market. Does not surface pre-1981, JDM-only or Europe-only models. Unverified discovery candidates, not vehicle facts.",
+  "generated_calls": 22,
+  "cars": [
+    {
+      "make": "Chevrolet",
+      "model": "Silverado 1500",
+      "listings": 148096
+    },
+    {
+      "make": "Ram",
+      "model": "1500",
+      "listings": 134887
+    },
+    {
+      "make": "Jeep",
+      "model": "Wrangler",
+      "listings": 92210
+    },
+    {
+      "make": "GMC",
+      "model": "Sierra 1500",
+      "listings": 90573
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Cherokee",
+      "listings": 74249
+    },
+    {
+      "make": "Toyota",
+      "model": "Tacoma",
+      "listings": 57459
+    },
+    {
+      "make": "Ford",
+      "model": "Bronco Sport",
+      "listings": 57019
+    },
+    {
+      "make": "Hyundai",
+      "model": "Tucson",
+      "listings": 49583
+    },
+    {
+      "make": "Ram",
+      "model": "2500",
+      "listings": 47834
+    },
+    {
+      "make": "Hyundai",
+      "model": "Santa Fe",
+      "listings": 46324
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-5",
+      "listings": 42117
+    },
+    {
+      "make": "Toyota",
+      "model": "Tundra",
+      "listings": 41893
+    },
+    {
+      "make": "Kia",
+      "model": "Sportage",
+      "listings": 41480
+    },
+    {
+      "make": "Jeep",
+      "model": "Compass",
+      "listings": 40218
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Silverado 2500HD",
+      "listings": 37759
+    },
+    {
+      "make": "Hyundai",
+      "model": "Elantra",
+      "listings": 36817
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Tiguan",
+      "listings": 35827
+    },
+    {
+      "make": "Hyundai",
+      "model": "Palisade",
+      "listings": 34329
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Atlas",
+      "listings": 34292
+    },
+    {
+      "make": "Kia",
+      "model": "Sorento",
+      "listings": 32560
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Cherokee L",
+      "listings": 31623
+    },
+    {
+      "make": "Honda",
+      "model": "HR-V",
+      "listings": 29565
+    },
+    {
+      "make": "GMC",
+      "model": "Sierra 2500HD",
+      "listings": 28438
+    },
+    {
+      "make": "GMC",
+      "model": "Acadia",
+      "listings": 28346
+    },
+    {
+      "make": "Kia",
+      "model": "Seltos",
+      "listings": 26349
+    },
+    {
+      "make": "Jeep",
+      "model": "Gladiator",
+      "listings": 25557
+    },
+    {
+      "make": "GMC",
+      "model": "Terrain",
+      "listings": 25469
+    },
+    {
+      "make": "Jeep",
+      "model": "Cherokee",
+      "listings": 25365
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLC",
+      "listings": 25005
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLE",
+      "listings": 24570
+    },
+    {
+      "make": "Acura",
+      "model": "MDX",
+      "listings": 23668
+    },
+    {
+      "make": "Ram",
+      "model": "3500",
+      "listings": 23656
+    },
+    {
+      "make": "Kia",
+      "model": "Telluride",
+      "listings": 23483
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-50",
+      "listings": 23051
+    },
+    {
+      "make": "Buick",
+      "model": "Enclave",
+      "listings": 22081
+    },
+    {
+      "make": "Kia",
+      "model": "K4",
+      "listings": 21329
+    },
+    {
+      "make": "Hyundai",
+      "model": "Kona",
+      "listings": 20927
+    },
+    {
+      "make": "GMC",
+      "model": "Yukon",
+      "listings": 20817
+    },
+    {
+      "make": "Lexus",
+      "model": "RX",
+      "listings": 20732
+    },
+    {
+      "make": "Volvo",
+      "model": "XC90",
+      "listings": 19770
+    },
+    {
+      "make": "Hyundai",
+      "model": "Sonata",
+      "listings": 19768
+    },
+    {
+      "make": "Kia",
+      "model": "K5",
+      "listings": 19506
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Jetta",
+      "listings": 19154
+    },
+    {
+      "make": "BMW",
+      "model": "3 Series",
+      "listings": 18646
+    },
+    {
+      "make": "Buick",
+      "model": "Envision",
+      "listings": 18177
+    },
+    {
+      "make": "GMC",
+      "model": "Yukon XL",
+      "listings": 17979
+    },
+    {
+      "make": "Volvo",
+      "model": "XC60",
+      "listings": 16200
+    },
+    {
+      "make": "Kia",
+      "model": "Telluride Hybrid",
+      "listings": 16151
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-90",
+      "listings": 15895
+    },
+    {
+      "make": "Cadillac",
+      "model": "Escalade",
+      "listings": 15592
+    },
+    {
+      "make": "Kia",
+      "model": "Sportage Hybrid",
+      "listings": 15489
+    },
+    {
+      "make": "Buick",
+      "model": "Encore GX",
+      "listings": 15211
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Taos",
+      "listings": 14463
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-30",
+      "listings": 14003
+    },
+    {
+      "make": "Toyota",
+      "model": "Corolla Cross",
+      "listings": 13884
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Wagoneer",
+      "listings": 13765
+    },
+    {
+      "make": "Ram",
+      "model": "ProMaster",
+      "listings": 13365
+    },
+    {
+      "make": "Lexus",
+      "model": "NX",
+      "listings": 13357
+    },
+    {
+      "make": "Infiniti",
+      "model": "QX60",
+      "listings": 12971
+    },
+    {
+      "make": "Kia",
+      "model": "Carnival MPV",
+      "listings": 12854
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Silverado 3500HD",
+      "listings": 12727
+    },
+    {
+      "make": "Buick",
+      "model": "Envista",
+      "listings": 12490
+    },
+    {
+      "make": "GMC",
+      "model": "Canyon",
+      "listings": 12439
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Outlander",
+      "listings": 12418
+    },
+    {
+      "make": "Cadillac",
+      "model": "XT5",
+      "listings": 11852
+    },
+    {
+      "make": "Lincoln",
+      "model": "Nautilus",
+      "listings": 11592
+    },
+    {
+      "make": "BMW",
+      "model": "5 Series",
+      "listings": 11282
+    },
+    {
+      "make": "Toyota",
+      "model": "Grand Highlander",
+      "listings": 10989
+    },
+    {
+      "make": "Ford",
+      "model": "Expedition MAX",
+      "listings": 10819
+    },
+    {
+      "make": "Lincoln",
+      "model": "Aviator",
+      "listings": 9515
+    },
+    {
+      "make": "Hyundai",
+      "model": "Santa Cruz",
+      "listings": 9444
+    },
+    {
+      "make": "Acura",
+      "model": "RDX",
+      "listings": 9307
+    },
+    {
+      "make": "Kia",
+      "model": "Forte",
+      "listings": 9297
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover",
+      "listings": 9188
+    },
+    {
+      "make": "Kia",
+      "model": "Soul",
+      "listings": 9187
+    },
+    {
+      "make": "Mazda",
+      "model": "Mazda3",
+      "listings": 9104
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover Sport",
+      "listings": 8942
+    },
+    {
+      "make": "Volvo",
+      "model": "XC40",
+      "listings": 8858
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLS",
+      "listings": 8833
+    },
+    {
+      "make": "GMC",
+      "model": "Sierra 3500HD",
+      "listings": 8334
+    },
+    {
+      "make": "Cadillac",
+      "model": "CT5",
+      "listings": 8233
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLA",
+      "listings": 8149
+    },
+    {
+      "make": "Hyundai",
+      "model": "Venue",
+      "listings": 7912
+    },
+    {
+      "make": "Tesla",
+      "model": "Model 3",
+      "listings": 7800
+    },
+    {
+      "make": "Ford",
+      "model": "Mustang Mach-E",
+      "listings": 7686
+    },
+    {
+      "make": "Lexus",
+      "model": "ES",
+      "listings": 7619
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLB",
+      "listings": 7612
+    },
+    {
+      "make": "Lincoln",
+      "model": "Navigator",
+      "listings": 7548
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Outlander Sport",
+      "listings": 7362
+    },
+    {
+      "make": "Infiniti",
+      "model": "QX80",
+      "listings": 7317
+    },
+    {
+      "make": "Kia",
+      "model": "Carnival MPV Hybrid",
+      "listings": 7197
+    },
+    {
+      "make": "BMW",
+      "model": "4 Series",
+      "listings": 6968
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "CLA",
+      "listings": 6851
+    },
+    {
+      "make": "Lexus",
+      "model": "TX",
+      "listings": 6545
+    },
+    {
+      "make": "Tesla",
+      "model": "Model Y",
+      "listings": 6530
+    },
+    {
+      "make": "Jeep",
+      "model": "Renegade",
+      "listings": 6470
+    },
+    {
+      "make": "Acura",
+      "model": "ADX",
+      "listings": 6321
+    },
+    {
+      "make": "Lexus",
+      "model": "GX",
+      "listings": 6147
+    },
+    {
+      "make": "Jeep",
+      "model": "Wagoneer",
+      "listings": 6075
+    },
+    {
+      "make": "MINI",
+      "model": "Cooper",
+      "listings": 5960
+    },
+    {
+      "make": "Kia",
+      "model": "Sorento Hybrid",
+      "listings": 5911
+    },
+    {
+      "make": "Lexus",
+      "model": "IS",
+      "listings": 5853
+    },
+    {
+      "make": "Ford",
+      "model": "F-450",
+      "listings": 5819
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "Sprinter",
+      "listings": 5634
+    },
+    {
+      "make": "Cadillac",
+      "model": "Lyriq",
+      "listings": 5457
+    },
+    {
+      "make": "Honda",
+      "model": "CR-V Hybrid",
+      "listings": 5340
+    },
+    {
+      "make": "Toyota",
+      "model": "bZ",
+      "listings": 5271
+    },
+    {
+      "make": "BMW",
+      "model": "2 Series",
+      "listings": 5136
+    },
+    {
+      "make": "Acura",
+      "model": "Integra",
+      "listings": 4863
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "listings": 4759
+    },
+    {
+      "make": "Audi",
+      "model": "SQ5",
+      "listings": 4702
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "CLE",
+      "listings": 4651
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 5",
+      "listings": 4637
+    },
+    {
+      "make": "Ford",
+      "model": "Econoline",
+      "listings": 4571
+    },
+    {
+      "make": "BMW",
+      "model": "7 Series",
+      "listings": 4533
+    },
+    {
+      "make": "Kia",
+      "model": "Niro",
+      "listings": 4482
+    },
+    {
+      "make": "Ford",
+      "model": "F-550",
+      "listings": 4479
+    },
+    {
+      "make": "Kia",
+      "model": "Optima",
+      "listings": 4424
+    },
+    {
+      "make": "Buick",
+      "model": "Encore",
+      "listings": 4392
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Silverado 2500 HD",
+      "listings": 4364
+    },
+    {
+      "make": "Kia",
+      "model": "Carnival",
+      "listings": 4346
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Blazer EV",
+      "listings": 4302
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover Velar",
+      "listings": 4085
+    },
+    {
+      "make": "Kia",
+      "model": "EV6",
+      "listings": 4010
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-50 Hybrid",
+      "listings": 3980
+    },
+    {
+      "make": "MINI",
+      "model": "Cooper Countryman",
+      "listings": 3970
+    },
+    {
+      "make": "GMC",
+      "model": "Savana",
+      "listings": 3938
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Golf",
+      "listings": 3893
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-70",
+      "listings": 3858
+    },
+    {
+      "make": "Lincoln",
+      "model": "Corsair",
+      "listings": 3744
+    },
+    {
+      "make": "Kia",
+      "model": "K4 Hatchback",
+      "listings": 3684
+    },
+    {
+      "make": "Jeep",
+      "model": "Wrangler Unlimited",
+      "listings": 3647
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Atlas Cross Sport",
+      "listings": 3566
+    },
+    {
+      "make": "Cadillac",
+      "model": "XT4",
+      "listings": 3543
+    },
+    {
+      "make": "Lincoln",
+      "model": "Navigator L",
+      "listings": 3543
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Eclipse Cross",
+      "listings": 3481
+    },
+    {
+      "make": "Ram",
+      "model": "1500 Classic",
+      "listings": 3453
+    },
+    {
+      "make": "Infiniti",
+      "model": "QX65",
+      "listings": 3409
+    },
+    {
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "listings": 3359
+    },
+    {
+      "make": "Toyota",
+      "model": "RAV4 Hybrid",
+      "listings": 3336
+    },
+    {
+      "make": "Nissan",
+      "model": "Titan",
+      "listings": 3308
+    },
+    {
+      "make": "Cadillac",
+      "model": "XT6",
+      "listings": 3291
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Passat",
+      "listings": 3147
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover Evoque",
+      "listings": 3125
+    },
+    {
+      "make": "Ram",
+      "model": "5500",
+      "listings": 3042
+    },
+    {
+      "make": "Hyundai",
+      "model": "TUCSON",
+      "listings": 2992
+    },
+    {
+      "make": "Acura",
+      "model": "TLX",
+      "listings": 2990
+    },
+    {
+      "make": "Mazda",
+      "model": "Miata",
+      "listings": 2973
+    },
+    {
+      "make": "Toyota",
+      "model": "Grand Highlander Hybrid",
+      "listings": 2942
+    },
+    {
+      "make": "Nissan",
+      "model": "Rogue Sport",
+      "listings": 2940
+    },
+    {
+      "make": "Toyota",
+      "model": "Crown Signia",
+      "listings": 2917
+    },
+    {
+      "make": "Audi",
+      "model": "S5",
+      "listings": 2755
+    },
+    {
+      "make": "GMC",
+      "model": "Sierra 2500",
+      "listings": 2684
+    },
+    {
+      "make": "Lexus",
+      "model": "RX 350",
+      "listings": 2676
+    },
+    {
+      "make": "GMC",
+      "model": "Sierra 2500 HD",
+      "listings": 2667
+    },
+    {
+      "make": "Kia",
+      "model": "EV9",
+      "listings": 2650
+    },
+    {
+      "make": "Land Rover",
+      "model": "Discovery",
+      "listings": 2640
+    },
+    {
+      "make": "Mazda",
+      "model": "Mazda CX-5",
+      "listings": 2580
+    },
+    {
+      "make": "Hyundai",
+      "model": "ELANTRA",
+      "listings": 2534
+    },
+    {
+      "make": "Infiniti",
+      "model": "Q50",
+      "listings": 2501
+    },
+    {
+      "make": "Hyundai",
+      "model": "Santa Fe Hybrid",
+      "listings": 2499
+    },
+    {
+      "make": "Land Rover",
+      "model": "Discovery Sport",
+      "listings": 2477
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-9",
+      "listings": 2392
+    },
+    {
+      "make": "Jeep",
+      "model": "Patriot",
+      "listings": 2333
+    },
+    {
+      "make": "Nissan",
+      "model": "Z",
+      "listings": 2315
+    },
+    {
+      "make": "Honda",
+      "model": "Accord Hybrid",
+      "listings": 2281
+    },
+    {
+      "make": "Infiniti",
+      "model": "QX50",
+      "listings": 2262
+    },
+    {
+      "make": "Hyundai",
+      "model": "Santa Fe Sport",
+      "listings": 2253
+    },
+    {
+      "make": "Hyundai",
+      "model": "Elantra N",
+      "listings": 2248
+    },
+    {
+      "make": "Honda",
+      "model": "Prologue",
+      "listings": 2229
+    },
+    {
+      "make": "Volvo",
+      "model": "S60",
+      "listings": 2217
+    },
+    {
+      "make": "Hyundai",
+      "model": "SANTA FE",
+      "listings": 2177
+    },
+    {
+      "make": "Jaguar",
+      "model": "F-Pace",
+      "listings": 2111
+    },
+    {
+      "make": "Hyundai",
+      "model": "Tucson Hybrid",
+      "listings": 2097
+    },
+    {
+      "make": "Cadillac",
+      "model": "Vistiq",
+      "listings": 2038
+    },
+    {
+      "make": "Cadillac",
+      "model": "Optiq",
+      "listings": 2004
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "SL-Class",
+      "listings": 1981
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "EQE",
+      "listings": 1946
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "Sprinter 2500",
+      "listings": 1866
+    },
+    {
+      "make": "BMW",
+      "model": "i4",
+      "listings": 1832
+    },
+    {
+      "make": "Tesla",
+      "model": "Model X",
+      "listings": 1829
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "Stelvio",
+      "listings": 1824
+    },
+    {
+      "make": "Lexus",
+      "model": "LX",
+      "listings": 1822
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "EQS",
+      "listings": 1779
+    },
+    {
+      "make": "Cadillac",
+      "model": "CT4",
+      "listings": 1731
+    },
+    {
+      "make": "Cadillac",
+      "model": "CTS",
+      "listings": 1697
+    },
+    {
+      "make": "Nissan",
+      "model": "Ariya",
+      "listings": 1695
+    },
+    {
+      "make": "Ram",
+      "model": "ProMaster Cargo Van",
+      "listings": 1683
+    },
+    {
+      "make": "Cadillac",
+      "model": "SRX",
+      "listings": 1672
+    },
+    {
+      "make": "Kia",
+      "model": "Niro EV",
+      "listings": 1671
+    },
+    {
+      "make": "Mazda",
+      "model": "3",
+      "listings": 1632
+    },
+    {
+      "make": "Honda",
+      "model": "Accord Sedan",
+      "listings": 1612
+    },
+    {
+      "make": "Hyundai",
+      "model": "KONA",
+      "listings": 1601
+    },
+    {
+      "make": "BMW",
+      "model": "iX",
+      "listings": 1601
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Mirage",
+      "listings": 1556
+    },
+    {
+      "make": "Cadillac",
+      "model": "LYRIQ",
+      "listings": 1551
+    },
+    {
+      "make": "Lincoln",
+      "model": "MKZ",
+      "listings": 1544
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "M-Class",
+      "listings": 1522
+    },
+    {
+      "make": "Bentley",
+      "model": "Continental",
+      "listings": 1495
+    },
+    {
+      "make": "Mazda",
+      "model": "Mazda6",
+      "listings": 1484
+    },
+    {
+      "make": "Lincoln",
+      "model": "MKX",
+      "listings": 1480
+    },
+    {
+      "make": "Ram",
+      "model": "ProMaster City",
+      "listings": 1418
+    },
+    {
+      "make": "Hyundai",
+      "model": "Accent",
+      "listings": 1414
+    },
+    {
+      "make": "Subaru",
+      "model": "XV Crosstrek",
+      "listings": 1381
+    },
+    {
+      "make": "BMW",
+      "model": "8 Series",
+      "listings": 1364
+    },
+    {
+      "make": "Lincoln",
+      "model": "MKC",
+      "listings": 1364
+    },
+    {
+      "make": "Hyundai",
+      "model": "Palisade Hybrid",
+      "listings": 1360
+    },
+    {
+      "make": "Buick",
+      "model": "LaCrosse",
+      "listings": 1359
+    },
+    {
+      "make": "Dodge",
+      "model": "Ram 1500",
+      "listings": 1355
+    },
+    {
+      "make": "Dodge",
+      "model": "Hornet",
+      "listings": 1343
+    },
+    {
+      "make": "Lexus",
+      "model": "UX",
+      "listings": 1321
+    },
+    {
+      "make": "Volkswagen",
+      "model": "GTI",
+      "listings": 1294
+    },
+    {
+      "make": "Honda",
+      "model": "Civic Sedan",
+      "listings": 1283
+    },
+    {
+      "make": "Hyundai",
+      "model": "PALISADE",
+      "listings": 1250
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Beetle",
+      "listings": 1246
+    },
+    {
+      "make": "Jeep",
+      "model": "Wrangler 4xe",
+      "listings": 1229
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "Giulia",
+      "listings": 1216
+    },
+    {
+      "make": "Acura",
+      "model": "ILX",
+      "listings": 1204
+    },
+    {
+      "make": "GMC",
+      "model": "Hummer EV",
+      "listings": 1176
+    },
+    {
+      "make": "MINI",
+      "model": "Countryman",
+      "listings": 1174
+    },
+    {
+      "make": "Cadillac",
+      "model": "XTS",
+      "listings": 1119
+    },
+    {
+      "make": "Volvo",
+      "model": "EX30",
+      "listings": 1119
+    },
+    {
+      "make": "Mazda",
+      "model": "Mazda CX-30",
+      "listings": 1107
+    },
+    {
+      "make": "Cadillac",
+      "model": "ATS",
+      "listings": 1102
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GL-Class",
+      "listings": 1079
+    },
+    {
+      "make": "Ram",
+      "model": "4500",
+      "listings": 1072
+    },
+    {
+      "make": "Audi",
+      "model": "Q4 e-tron",
+      "listings": 1065
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "Sprinter Cargo Van",
+      "listings": 1055
+    },
+    {
+      "make": "Cadillac",
+      "model": "Escalade ESV",
+      "listings": 1043
+    },
+    {
+      "make": "Dodge",
+      "model": "Ram 2500",
+      "listings": 974
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Wagoneer L",
+      "listings": 962
+    },
+    {
+      "make": "Mazda",
+      "model": "Mazda CX-50",
+      "listings": 953
+    },
+    {
+      "make": "Cadillac",
+      "model": "Escalade IQ",
+      "listings": 938
+    },
+    {
+      "make": "Lexus",
+      "model": "LS",
+      "listings": 933
+    },
+    {
+      "make": "Maserati",
+      "model": "Levante",
+      "listings": 924
+    },
+    {
+      "make": "Nissan",
+      "model": "Titan XD",
+      "listings": 920
+    },
+    {
+      "make": "Lexus",
+      "model": "RZ",
+      "listings": 918
+    },
+    {
+      "make": "Maserati",
+      "model": "Grecale",
+      "listings": 904
+    },
+    {
+      "make": "Jeep",
+      "model": "Liberty",
+      "listings": 894
+    },
+    {
+      "make": "Subaru",
+      "model": "Solterra",
+      "listings": 893
+    },
+    {
+      "make": "Audi",
+      "model": "SQ8",
+      "listings": 886
+    },
+    {
+      "make": "Lexus",
+      "model": "ES 350",
+      "listings": 870
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "Tonale",
+      "listings": 863
+    },
+    {
+      "make": "Ram",
+      "model": "1500 Crew Cab",
+      "listings": 860
+    },
+    {
+      "make": "Honda",
+      "model": "Prelude",
+      "listings": 844
+    },
+    {
+      "make": "Nissan",
+      "model": "NV200",
+      "listings": 842
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Urus",
+      "listings": 833
+    },
+    {
+      "make": "Acura",
+      "model": "TL",
+      "listings": 824
+    },
+    {
+      "make": "Honda",
+      "model": "Civic Hybrid",
+      "listings": 822
+    },
+    {
+      "make": "Lexus",
+      "model": "GS",
+      "listings": 818
+    },
+    {
+      "make": "Buick",
+      "model": "Regal",
+      "listings": 818
+    },
+    {
+      "make": "Volvo",
+      "model": "EX90",
+      "listings": 818
+    },
+    {
+      "make": "Nissan",
+      "model": "NV",
+      "listings": 803
+    },
+    {
+      "make": "GMC",
+      "model": "Sierra 3500",
+      "listings": 801
+    },
+    {
+      "make": "Volvo",
+      "model": "V60",
+      "listings": 799
+    },
+    {
+      "make": "Audi",
+      "model": "Q6 e-tron",
+      "listings": 788
+    },
+    {
+      "make": "Audi",
+      "model": "S3",
+      "listings": 788
+    },
+    {
+      "make": "Audi",
+      "model": "RS Q8",
+      "listings": 778
+    },
+    {
+      "make": "Maserati",
+      "model": "Ghibli",
+      "listings": 778
+    },
+    {
+      "make": "Land Rover",
+      "model": "Defender 110",
+      "listings": 768
+    },
+    {
+      "make": "Audi",
+      "model": "Q8 e-tron",
+      "listings": 764
+    },
+    {
+      "make": "GMC",
+      "model": "Sierra 1500 Crew Cab",
+      "listings": 763
+    },
+    {
+      "make": "Infiniti",
+      "model": "G37",
+      "listings": 709
+    },
+    {
+      "make": "Ram",
+      "model": "Ram 1500",
+      "listings": 674
+    },
+    {
+      "make": "Lexus",
+      "model": "RXh",
+      "listings": 674
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-3",
+      "listings": 665
+    },
+    {
+      "make": "GMC",
+      "model": "Sierra EV",
+      "listings": 659
+    },
+    {
+      "make": "Mazda",
+      "model": "MX-5 Miata",
+      "listings": 659
+    },
+    {
+      "make": "GMC",
+      "model": "Sierra 3500 HD",
+      "listings": 652
+    },
+    {
+      "make": "Lexus",
+      "model": "NX 350",
+      "listings": 650
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Mirage G4",
+      "listings": 647
+    },
+    {
+      "make": "Cadillac",
+      "model": "OPTIQ",
+      "listings": 636
+    },
+    {
+      "make": "Jeep",
+      "model": "Wagoneer L",
+      "listings": 633
+    },
+    {
+      "make": "Infiniti",
+      "model": "QX55",
+      "listings": 630
+    },
+    {
+      "make": "Lexus",
+      "model": "RC",
+      "listings": 628
+    },
+    {
+      "make": "Nissan",
+      "model": "Xterra",
+      "listings": 620
+    },
+    {
+      "make": "Mazda",
+      "model": "Mazda CX-90",
+      "listings": 618
+    },
+    {
+      "make": "Cadillac",
+      "model": "Escalade IQL",
+      "listings": 613
+    },
+    {
+      "make": "Lexus",
+      "model": "RX HYBRID",
+      "listings": 605
+    },
+    {
+      "make": "Mazda",
+      "model": "Mazda3 Sedan",
+      "listings": 604
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Cullinan",
+      "listings": 585
+    },
+    {
+      "make": "Audi",
+      "model": "S4",
+      "listings": 576
+    },
+    {
+      "make": "Cadillac",
+      "model": "VISTIQ",
+      "listings": 572
+    },
+    {
+      "make": "Bentley",
+      "model": "Bentayga",
+      "listings": 569
+    },
+    {
+      "make": "Audi",
+      "model": "Q5 Sportback",
+      "listings": 567
+    },
+    {
+      "make": "Jaguar",
+      "model": "XJ",
+      "listings": 558
+    },
+    {
+      "make": "MINI",
+      "model": "Hardtop 2 Door",
+      "listings": 556
+    },
+    {
+      "make": "Honda",
+      "model": "Civic Hatchback",
+      "listings": 547
+    },
+    {
+      "make": "Buick",
+      "model": "Verano",
+      "listings": 543
+    },
+    {
+      "make": "Lexus",
+      "model": "TX 350",
+      "listings": 541
+    },
+    {
+      "make": "Jaguar",
+      "model": "XF",
+      "listings": 530
+    },
+    {
+      "make": "Honda",
+      "model": "Insight",
+      "listings": 527
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Cherokee 4xe",
+      "listings": 521
+    },
+    {
+      "make": "MINI",
+      "model": "Cooper Clubman",
+      "listings": 479
+    },
+    {
+      "make": "Acura",
+      "model": "TSX",
+      "listings": 478
+    },
+    {
+      "make": "Cadillac",
+      "model": "CT6",
+      "listings": 473
+    },
+    {
+      "make": "Jaguar",
+      "model": "F-PACE",
+      "listings": 470
+    },
+    {
+      "make": "Jeep",
+      "model": "Wrangler 4XE PHEV",
+      "listings": 463
+    },
+    {
+      "make": "Aston Martin",
+      "model": "DBX",
+      "listings": 462
+    },
+    {
+      "make": "Mazda",
+      "model": "Mazda3 Hatchback",
+      "listings": 458
+    },
+    {
+      "make": "Honda",
+      "model": "Element",
+      "listings": 447
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Golf R",
+      "listings": 446
+    },
+    {
+      "make": "Bentley",
+      "model": "Flying Spur",
+      "listings": 432
+    },
+    {
+      "make": "Jeep",
+      "model": "Recon",
+      "listings": 427
+    },
+    {
+      "make": "Lexus",
+      "model": "GX 460",
+      "listings": 422
+    },
+    {
+      "make": "Land Rover",
+      "model": "LR4",
+      "listings": 408
+    },
+    {
+      "make": "Porsche",
+      "model": "718 Cayman",
+      "listings": 403
+    },
+    {
+      "make": "Volkswagen",
+      "model": "CC",
+      "listings": 401
+    },
+    {
+      "make": "MINI",
+      "model": "Hardtop 4 Door",
+      "listings": 397
+    },
+    {
+      "make": "MINI",
+      "model": "Convertible",
+      "listings": 396
+    },
+    {
+      "make": "Volvo",
+      "model": "S90",
+      "listings": 390
+    },
+    {
+      "make": "Lexus",
+      "model": "NX HYBRID",
+      "listings": 389
+    },
+    {
+      "make": "Lincoln",
+      "model": "Town Car",
+      "listings": 389
+    },
+    {
+      "make": "Buick",
+      "model": "Lucerne",
+      "listings": 385
+    },
+    {
+      "make": "Dodge",
+      "model": "Ram 3500",
+      "listings": 376
+    },
+    {
+      "make": "GMC",
+      "model": "Sierra 1500 Limited",
+      "listings": 373
+    },
+    {
+      "make": "Infiniti",
+      "model": "QX30",
+      "listings": 373
+    },
+    {
+      "make": "Lincoln",
+      "model": "MKS",
+      "listings": 360
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Ghost",
+      "listings": 357
+    },
+    {
+      "make": "Ram",
+      "model": "2500 Crew Cab",
+      "listings": 355
+    },
+    {
+      "make": "Dodge",
+      "model": "Dakota",
+      "listings": 352
+    },
+    {
+      "make": "Aston Martin",
+      "model": "V8 Vantage",
+      "listings": 348
+    },
+    {
+      "make": "Jaguar",
+      "model": "XK",
+      "listings": 339
+    },
+    {
+      "make": "Ram",
+      "model": "3500 Chassis Cab",
+      "listings": 334
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Touareg",
+      "listings": 332
+    },
+    {
+      "make": "Maserati",
+      "model": "Quattroporte",
+      "listings": 331
+    },
+    {
+      "make": "Mazda",
+      "model": "MX-5 Miata RF",
+      "listings": 326
+    },
+    {
+      "make": "Volvo",
+      "model": "C40",
+      "listings": 323
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Outlander PHEV",
+      "listings": 316
+    },
+    {
+      "make": "Honda",
+      "model": "Accord Crosstour",
+      "listings": 309
+    },
+    {
+      "make": "Lincoln",
+      "model": "Nautilus Hybrid",
+      "listings": 306
+    },
+    {
+      "make": "Ram",
+      "model": "5500 Chassis Cab",
+      "listings": 304
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Eos",
+      "listings": 303
+    },
+    {
+      "make": "Ram",
+      "model": "ProMaster 2500",
+      "listings": 298
+    },
+    {
+      "make": "Jeep",
+      "model": "Wrangler 4 Door",
+      "listings": 291
+    },
+    {
+      "make": "Porsche",
+      "model": "Cayenne Coupe",
+      "listings": 289
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Jetta GLI",
+      "listings": 284
+    },
+    {
+      "make": "Porsche",
+      "model": "718 Boxster",
+      "listings": 284
+    },
+    {
+      "make": "Porsche",
+      "model": "Cayman",
+      "listings": 284
+    },
+    {
+      "make": "Volvo",
+      "model": "XC70",
+      "listings": 279
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Arteon",
+      "listings": 278
+    },
+    {
+      "make": "Buick",
+      "model": "Cascada",
+      "listings": 278
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Lancer",
+      "listings": 269
+    },
+    {
+      "make": "Infiniti",
+      "model": "QX56",
+      "listings": 268
+    },
+    {
+      "make": "Subaru",
+      "model": "Uncharted",
+      "listings": 266
+    },
+    {
+      "make": "Jaguar",
+      "model": "XE",
+      "listings": 264
+    },
+    {
+      "make": "Jaguar",
+      "model": "E-Pace",
+      "listings": 261
+    },
+    {
+      "make": "Pontiac",
+      "model": "Solstice",
+      "listings": 259
+    },
+    {
+      "make": "Infiniti",
+      "model": "G35",
+      "listings": 258
+    },
+    {
+      "make": "Tesla",
+      "model": "Cybertruck",
+      "listings": 257
+    },
+    {
+      "make": "Ram",
+      "model": "Ram 2500",
+      "listings": 255
+    },
+    {
+      "make": "Volkswagen",
+      "model": "New Beetle",
+      "listings": 255
+    },
+    {
+      "make": "Lincoln",
+      "model": "MKT",
+      "listings": 246
+    },
+    {
+      "make": "Pontiac",
+      "model": "G6",
+      "listings": 241
+    },
+    {
+      "make": "Acura",
+      "model": "ZDX",
+      "listings": 236
+    },
+    {
+      "make": "GMC",
+      "model": "Envoy",
+      "listings": 216
+    },
+    {
+      "make": "Infiniti",
+      "model": "Q70",
+      "listings": 216
+    },
+    {
+      "make": "Land Rover",
+      "model": "Defender 130",
+      "listings": 215
+    },
+    {
+      "make": "Volvo",
+      "model": "XC90 plug-in hybrid",
+      "listings": 210
+    },
+    {
+      "make": "McLaren",
+      "model": "Artura",
+      "listings": 208
+    },
+    {
+      "make": "Infiniti",
+      "model": "FX35",
+      "listings": 198
+    },
+    {
+      "make": "GMC",
+      "model": "Canyon Crew Cab",
+      "listings": 194
+    },
+    {
+      "make": "Ferrari",
+      "model": "458",
+      "listings": 194
+    },
+    {
+      "make": "Aston Martin",
+      "model": "DB12",
+      "listings": 192
+    },
+    {
+      "make": "GMC",
+      "model": "Savana Cargo",
+      "listings": 182
+    },
+    {
+      "make": "Infiniti",
+      "model": "QX70",
+      "listings": 180
+    },
+    {
+      "make": "Dodge",
+      "model": "Nitro",
+      "listings": 169
+    },
+    {
+      "make": "Infiniti",
+      "model": "JX35",
+      "listings": 169
+    },
+    {
+      "make": "Volvo",
+      "model": "C70",
+      "listings": 169
+    },
+    {
+      "make": "Volvo",
+      "model": "S80",
+      "listings": 168
+    },
+    {
+      "make": "Ferrari",
+      "model": "Roma",
+      "listings": 165
+    },
+    {
+      "make": "Volvo",
+      "model": "XC60 plug-in hybrid",
+      "listings": 165
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Aventador",
+      "listings": 162
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Cherokee WK",
+      "listings": 159
+    },
+    {
+      "make": "Ram",
+      "model": "ProMaster Cargo",
+      "listings": 157
+    },
+    {
+      "make": "Ferrari",
+      "model": "F430",
+      "listings": 155
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Lancer Evolution",
+      "listings": 155
+    },
+    {
+      "make": "Ferrari",
+      "model": "F8 Spider",
+      "listings": 153
+    },
+    {
+      "make": "Subaru",
+      "model": "Trailseeker",
+      "listings": 152
+    },
+    {
+      "make": "Ram",
+      "model": "1500 Quad Cab",
+      "listings": 150
+    },
+    {
+      "make": "McLaren",
+      "model": "750S",
+      "listings": 149
+    },
+    {
+      "make": "Volvo",
+      "model": "V60 Cross Country",
+      "listings": 149
+    },
+    {
+      "make": "Buick",
+      "model": "LeSabre",
+      "listings": 146
+    },
+    {
+      "make": "Ferrari",
+      "model": "812 GTS",
+      "listings": 145
+    },
+    {
+      "make": "Volvo",
+      "model": "V90",
+      "listings": 145
+    },
+    {
+      "make": "MINI",
+      "model": "Clubman",
+      "listings": 143
+    },
+    {
+      "make": "Acura",
+      "model": "RLX",
+      "listings": 142
+    },
+    {
+      "make": "Ferrari",
+      "model": "California",
+      "listings": 141
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Eclipse",
+      "listings": 133
+    },
+    {
+      "make": "Aston Martin",
+      "model": "Vanquish",
+      "listings": 132
+    },
+    {
+      "make": "Pontiac",
+      "model": "Grand Prix",
+      "listings": 131
+    },
+    {
+      "make": "Pontiac",
+      "model": "Vibe",
+      "listings": 126
+    },
+    {
+      "make": "Land Rover",
+      "model": "LR2",
+      "listings": 123
+    },
+    {
+      "make": "Volvo",
+      "model": "EX60",
+      "listings": 122
+    },
+    {
+      "make": "Volkswagen",
+      "model": "e-Golf",
+      "listings": 116
+    },
+    {
+      "make": "Infiniti",
+      "model": "M37",
+      "listings": 115
+    },
+    {
+      "make": "MINI",
+      "model": "Cooper Convertible",
+      "listings": 115
+    },
+    {
+      "make": "Ferrari",
+      "model": "SF90",
+      "listings": 114
+    },
+    {
+      "make": "MINI",
+      "model": "2 Door",
+      "listings": 114
+    },
+    {
+      "make": "Volkswagen",
+      "model": "ID. Buzz",
+      "listings": 113
+    },
+    {
+      "make": "Infiniti",
+      "model": "EX35",
+      "listings": 109
+    },
+    {
+      "make": "MINI",
+      "model": "Cooper S",
+      "listings": 108
+    },
+    {
+      "make": "Ram",
+      "model": "4500 Chassis Cab",
+      "listings": 106
+    },
+    {
+      "make": "Volvo",
+      "model": "S40",
+      "listings": 106
+    },
+    {
+      "make": "Pontiac",
+      "model": "GTO",
+      "listings": 102
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Revuelto",
+      "listings": 101
+    },
+    {
+      "make": "Dodge",
+      "model": "Ram Pickup 2500",
+      "listings": 93
+    },
+    {
+      "make": "Volvo",
+      "model": "C30",
+      "listings": 92
+    },
+    {
+      "make": "Dodge",
+      "model": "Grand Caravan Passenger",
+      "listings": 90
+    },
+    {
+      "make": "Ferrari",
+      "model": "Purosangue",
+      "listings": 90
+    },
+    {
+      "make": "Ram",
+      "model": "ProMaster EV",
+      "listings": 89
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Wraith",
+      "listings": 88
+    },
+    {
+      "make": "Infiniti",
+      "model": "M35",
+      "listings": 87
+    },
+    {
+      "make": "Subaru",
+      "model": "Tribeca",
+      "listings": 86
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Gallardo",
+      "listings": 86
+    },
+    {
+      "make": "Plymouth",
+      "model": "Prowler",
+      "listings": 86
+    },
+    {
+      "make": "Ferrari",
+      "model": "360",
+      "listings": 85
+    },
+    {
+      "make": "Ferrari",
+      "model": "812 Superfast",
+      "listings": 85
+    },
+    {
+      "make": "McLaren",
+      "model": "570S",
+      "listings": 85
+    },
+    {
+      "make": "Dodge",
+      "model": "Magnum",
+      "listings": 84
+    },
+    {
+      "make": "Ferrari",
+      "model": "F12",
+      "listings": 84
+    },
+    {
+      "make": "Aston Martin",
+      "model": "DB11",
+      "listings": 83
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Dawn",
+      "listings": 83
+    },
+    {
+      "make": "MINI",
+      "model": "Cooper S Countryman",
+      "listings": 81
+    },
+    {
+      "make": "Porsche",
+      "model": "Macan Electric",
+      "listings": 81
+    },
+    {
+      "make": "Ferrari",
+      "model": "Portofino",
+      "listings": 80
+    },
+    {
+      "make": "Maserati",
+      "model": "GranCabrio",
+      "listings": 78
+    },
+    {
+      "make": "Buick",
+      "model": "Rendezvous",
+      "listings": 77
+    },
+    {
+      "make": "Maserati",
+      "model": "MC20",
+      "listings": 76
+    },
+    {
+      "make": "MINI",
+      "model": "4 Door",
+      "listings": 75
+    },
+    {
+      "make": "Jaguar",
+      "model": "S-Type",
+      "listings": 74
+    },
+    {
+      "make": "Volvo",
+      "model": "XC90 Plug-In Hybrid",
+      "listings": 74
+    },
+    {
+      "make": "Pontiac",
+      "model": "G8",
+      "listings": 73
+    },
+    {
+      "make": "Acura",
+      "model": "RL",
+      "listings": 72
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Spectre",
+      "listings": 72
+    },
+    {
+      "make": "Bentley",
+      "model": "Flying Spur V8",
+      "listings": 69
+    },
+    {
+      "make": "Jaguar",
+      "model": "E-PACE",
+      "listings": 68
+    },
+    {
+      "make": "McLaren",
+      "model": "GT",
+      "listings": 68
+    },
+    {
+      "make": "Ferrari",
+      "model": "296 GTB",
+      "listings": 67
+    },
+    {
+      "make": "Ferrari",
+      "model": "296 GTS",
+      "listings": 67
+    },
+    {
+      "make": "Porsche",
+      "model": "718 Spyder",
+      "listings": 67
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Galant",
+      "listings": 65
+    },
+    {
+      "make": "Ferrari",
+      "model": "F8 Tributo",
+      "listings": 64
+    },
+    {
+      "make": "Infiniti",
+      "model": "G25",
+      "listings": 64
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Temerario",
+      "listings": 64
+    },
+    {
+      "make": "McLaren",
+      "model": "GTS",
+      "listings": 64
+    },
+    {
+      "make": "MINI",
+      "model": "Cooper Coupe",
+      "listings": 64
+    },
+    {
+      "make": "Dodge",
+      "model": "Ram Pickup 1500",
+      "listings": 63
+    },
+    {
+      "make": "Aston Martin",
+      "model": "DBS",
+      "listings": 63
+    },
+    {
+      "make": "MINI",
+      "model": "Cooper Paceman",
+      "listings": 63
+    },
+    {
+      "make": "Buick",
+      "model": "Century",
+      "listings": 62
+    },
+    {
+      "make": "Bentley",
+      "model": "Continental GTC",
+      "listings": 62
+    },
+    {
+      "make": "MINI",
+      "model": "Cooper Hardtop",
+      "listings": 62
+    },
+    {
+      "make": "Pontiac",
+      "model": "Torrent",
+      "listings": 60
+    },
+    {
+      "make": "Ferrari",
+      "model": "Portofino M",
+      "listings": 56
+    },
+    {
+      "make": "Land Rover",
+      "model": "Defender 90",
+      "listings": 56
+    },
+    {
+      "make": "MINI",
+      "model": "Hardtop",
+      "listings": 55
+    },
+    {
+      "make": "Aston Martin",
+      "model": "DB9",
+      "listings": 53
+    },
+    {
+      "make": "Subaru",
+      "model": "Crosstrek Hybrid",
+      "listings": 51
+    },
+    {
+      "make": "Infiniti",
+      "model": "Q40",
+      "listings": 51
+    },
+    {
+      "make": "Jaguar",
+      "model": "I-Pace",
+      "listings": 50
+    },
+    {
+      "make": "Bentley",
+      "model": "Arnage",
+      "listings": 48
+    },
+    {
+      "make": "Buick",
+      "model": "Park Avenue",
+      "listings": 46
+    },
+    {
+      "make": "Dodge",
+      "model": "Charger Daytona",
+      "listings": 46
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Endeavor",
+      "listings": 46
+    },
+    {
+      "make": "Acura",
+      "model": "RSX",
+      "listings": 45
+    },
+    {
+      "make": "Land Rover",
+      "model": "LR3",
+      "listings": 45
+    },
+    {
+      "make": "Bentley",
+      "model": "Bentayga W12",
+      "listings": 44
+    },
+    {
+      "make": "Porsche",
+      "model": "Cayenne E-Hybrid",
+      "listings": 44
+    },
+    {
+      "make": "Jaguar",
+      "model": "X-Type",
+      "listings": 43
+    },
+    {
+      "make": "Lincoln",
+      "model": "Corsair Plug-In Hybrid",
+      "listings": 43
+    },
+    {
+      "make": "Lincoln",
+      "model": "Mark LT",
+      "listings": 43
+    },
+    {
+      "make": "Porsche",
+      "model": "944",
+      "listings": 43
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "Spider",
+      "listings": 42
+    },
+    {
+      "make": "Bentley",
+      "model": "Mulsanne",
+      "listings": 41
+    },
+    {
+      "make": "McLaren",
+      "model": "765LT",
+      "listings": 41
+    },
+    {
+      "make": "McLaren",
+      "model": "600LT",
+      "listings": 40
+    },
+    {
+      "make": "MINI",
+      "model": "Cooper Roadster",
+      "listings": 40
+    },
+    {
+      "make": "Porsche",
+      "model": "928",
+      "listings": 39
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "4C",
+      "listings": 36
+    },
+    {
+      "make": "Ferrari",
+      "model": "488 Spider",
+      "listings": 36
+    },
+    {
+      "make": "Pontiac",
+      "model": "Grand Am",
+      "listings": 36
+    },
+    {
+      "make": "Land Rover",
+      "model": "Discovery Sport Landmark",
+      "listings": 35
+    },
+    {
+      "make": "Ferrari",
+      "model": "599",
+      "listings": 34
+    },
+    {
+      "make": "Pontiac",
+      "model": "Fiero",
+      "listings": 34
+    },
+    {
+      "make": "Pontiac",
+      "model": "Bonneville",
+      "listings": 34
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover Velar Belgravia Edition",
+      "listings": 33
+    },
+    {
+      "make": "McLaren",
+      "model": "MP4-12C",
+      "listings": 33
+    },
+    {
+      "make": "McLaren",
+      "model": "750S Spider",
+      "listings": 32
+    },
+    {
+      "make": "Buick",
+      "model": "Riviera",
+      "listings": 31
+    },
+    {
+      "make": "Maserati",
+      "model": "GranTurismo Convertible",
+      "listings": 31
+    },
+    {
+      "make": "Ferrari",
+      "model": "GTC4Lusso",
+      "listings": 30
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Outlander Plug-In Hybrid",
+      "listings": 30
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "3000GT",
+      "listings": 29
+    },
+    {
+      "make": "Jaguar",
+      "model": "XJ-Series",
+      "listings": 28
+    },
+    {
+      "make": "Acura",
+      "model": "CL",
+      "listings": 27
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Ghost Series II",
+      "listings": 27
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "i-MiEV",
+      "listings": 26
+    },
+    {
+      "make": "Buick",
+      "model": "Rainier",
+      "listings": 25
+    },
+    {
+      "make": "MINI",
+      "model": "COUNTRYMAN",
+      "listings": 25
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Raider",
+      "listings": 25
+    },
+    {
+      "make": "McLaren",
+      "model": "Artura Spider",
+      "listings": 24
+    },
+    {
+      "make": "Pontiac",
+      "model": "G5",
+      "listings": 24
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Silver Spur",
+      "listings": 24
+    },
+    {
+      "make": "Bentley",
+      "model": "Bentayga EWB",
+      "listings": 23
+    },
+    {
+      "make": "Lincoln",
+      "model": "Mark Series",
+      "listings": 23
+    },
+    {
+      "make": "McLaren",
+      "model": "570GT",
+      "listings": 23
+    },
+    {
+      "make": "McLaren",
+      "model": "720S Spider",
+      "listings": 23
+    },
+    {
+      "make": "MINI",
+      "model": "2 DOOR",
+      "listings": 23
+    },
+    {
+      "make": "Buick",
+      "model": "Regal Sportback",
+      "listings": 22
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Huracan STO",
+      "listings": 22
+    },
+    {
+      "make": "Buick",
+      "model": "Reatta",
+      "listings": 21
+    },
+    {
+      "make": "Buick",
+      "model": "Roadmaster",
+      "listings": 20
+    },
+    {
+      "make": "Buick",
+      "model": "Regal TourX",
+      "listings": 19
+    },
+    {
+      "make": "Aston Martin",
+      "model": "V12 Vantage",
+      "listings": 19
+    },
+    {
+      "make": "Jaguar",
+      "model": "XK-Series",
+      "listings": 19
+    },
+    {
+      "make": "Jaguar",
+      "model": "I-PACE",
+      "listings": 19
+    },
+    {
+      "make": "Lincoln",
+      "model": "Blackwood",
+      "listings": 19
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Black Badge Cullinan",
+      "listings": 19
+    },
+    {
+      "make": "Lincoln",
+      "model": "MKZ Hybrid",
+      "listings": 18
+    },
+    {
+      "make": "Maserati",
+      "model": "Spyder",
+      "listings": 18
+    },
+    {
+      "make": "McLaren",
+      "model": "650S",
+      "listings": 18
+    },
+    {
+      "make": "Pontiac",
+      "model": "Sunfire",
+      "listings": 18
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Murcielago",
+      "listings": 17
+    },
+    {
+      "make": "Lincoln",
+      "model": "LS",
+      "listings": 17
+    },
+    {
+      "make": "Lincoln",
+      "model": "Zephyr",
+      "listings": 17
+    },
+    {
+      "make": "McLaren",
+      "model": "Senna",
+      "listings": 17
+    },
+    {
+      "make": "Pontiac",
+      "model": "Montana",
+      "listings": 17
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover Plug-In Hybrid",
+      "listings": 16
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Corniche",
+      "listings": 16
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Montero",
+      "listings": 15
+    },
+    {
+      "make": "Bentley",
+      "model": "Azure",
+      "listings": 14
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover Sport Plug-in Hybrid",
+      "listings": 13
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Eclipse Spyder",
+      "listings": 13
+    },
+    {
+      "make": "Porsche",
+      "model": "Cayman S",
+      "listings": 12
+    },
+    {
+      "make": "Porsche",
+      "model": "968",
+      "listings": 12
+    },
+    {
+      "make": "Porsche",
+      "model": "Cayenne E-Hybrid Coupe",
+      "listings": 12
+    },
+    {
+      "make": "Aston Martin",
+      "model": "DB7 Vantage",
+      "listings": 11
+    },
+    {
+      "make": "Aston Martin",
+      "model": "V12 Vanquish",
+      "listings": 11
+    },
+    {
+      "make": "Aston Martin",
+      "model": "Rapide S",
+      "listings": 11
+    },
+    {
+      "make": "Bentley",
+      "model": "Continental Flying Spur",
+      "listings": 11
+    },
+    {
+      "make": "Porsche",
+      "model": "Cayenne Coupe Electric",
+      "listings": 11
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Silver Seraph",
+      "listings": 11
+    },
+    {
+      "make": "Tesla",
+      "model": "Roadster",
+      "listings": 11
+    },
+    {
+      "make": "Aston Martin",
+      "model": "DBX707",
+      "listings": 10
+    },
+    {
+      "make": "McLaren",
+      "model": "765LT Spider",
+      "listings": 10
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Montero Sport",
+      "listings": 10
+    },
+    {
+      "make": "Acura",
+      "model": "MDX Sport Hybrid",
+      "listings": 9
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover Evoque Hoxton Edition",
+      "listings": 9
+    },
+    {
+      "make": "Maserati",
+      "model": "Coupe",
+      "listings": 9
+    },
+    {
+      "make": "McLaren",
+      "model": "650S Spider",
+      "listings": 9
+    },
+    {
+      "make": "Porsche",
+      "model": "Carrera GT",
+      "listings": 9
+    },
+    {
+      "make": "Aston Martin",
+      "model": "Rapide",
+      "listings": 8
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover SE LWB7 P530",
+      "listings": 8
+    },
+    {
+      "make": "McLaren",
+      "model": "570S Spider",
+      "listings": 8
+    },
+    {
+      "make": "Jaguar",
+      "model": "XKR",
+      "listings": 7
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Sian",
+      "listings": 7
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Outlander Plug in Hybrid",
+      "listings": 7
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Fuso",
+      "listings": 7
+    },
+    {
+      "make": "Pontiac",
+      "model": "G3",
+      "listings": 7
+    },
+    {
+      "make": "Pontiac",
+      "model": "Aztek",
+      "listings": 7
+    },
+    {
+      "make": "Acura",
+      "model": "TSX Sport Wagon",
+      "listings": 6
+    },
+    {
+      "make": "Acura",
+      "model": "Legend",
+      "listings": 6
+    },
+    {
+      "make": "Aston Martin",
+      "model": "Virage",
+      "listings": 6
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Huracan Tecnica",
+      "listings": 6
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Huracan EVO",
+      "listings": 6
+    },
+    {
+      "make": "McLaren",
+      "model": "620R",
+      "listings": 6
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Silver Spirit",
+      "listings": 6
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Black Badge Ghost",
+      "listings": 6
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Diablo",
+      "listings": 5
+    },
+    {
+      "make": "Plymouth",
+      "model": "Grand Voyager",
+      "listings": 5
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "4C Spider",
+      "listings": 4
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "Tonale Hybrid",
+      "listings": 4
+    },
+    {
+      "make": "Bentley",
+      "model": "Continental GT Speed",
+      "listings": 4
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover SE LWB7 P400",
+      "listings": 4
+    },
+    {
+      "make": "Maserati",
+      "model": "MC20 Cielo",
+      "listings": 4
+    },
+    {
+      "make": "McLaren",
+      "model": "675LT",
+      "listings": 4
+    },
+    {
+      "make": "Plymouth",
+      "model": "Neon",
+      "listings": 4
+    },
+    {
+      "make": "Pontiac",
+      "model": "Parisienne",
+      "listings": 4
+    },
+    {
+      "make": "Tesla",
+      "model": "MODEL X",
+      "listings": 4
+    },
+    {
+      "make": "Tesla",
+      "model": "MODEL 3",
+      "listings": 4
+    },
+    {
+      "make": "Bentley",
+      "model": "Continental GTC V8 S",
+      "listings": 3
+    },
+    {
+      "make": "Bentley",
+      "model": "Continental GTC Speed",
+      "listings": 3
+    },
+    {
+      "make": "Bentley",
+      "model": "Continental Supersports",
+      "listings": 3
+    },
+    {
+      "make": "Bentley",
+      "model": "Turbo",
+      "listings": 3
+    },
+    {
+      "make": "Bentley",
+      "model": "FLYING SPUR",
+      "listings": 3
+    },
+    {
+      "make": "Bentley",
+      "model": "CONTINENTAL GTC",
+      "listings": 3
+    },
+    {
+      "make": "Jaguar",
+      "model": "XJR",
+      "listings": 3
+    },
+    {
+      "make": "Koenigsegg",
+      "model": "Regera",
+      "listings": 3
+    },
+    {
+      "make": "Maserati",
+      "model": "Grecale Folgore",
+      "listings": 3
+    },
+    {
+      "make": "Maserati",
+      "model": "GranTurismo Folgore",
+      "listings": 3
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Phantom Drophead Coupe",
+      "listings": 3
+    },
+    {
+      "make": "Acura",
+      "model": "INTEGRA",
+      "listings": 2
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "164",
+      "listings": 2
+    },
+    {
+      "make": "Aston Martin",
+      "model": "DBS Superleggera",
+      "listings": 2
+    },
+    {
+      "make": "Aston Martin",
+      "model": "DB7",
+      "listings": 2
+    },
+    {
+      "make": "Aston Martin",
+      "model": "Valour",
+      "listings": 2
+    },
+    {
+      "make": "Bugatti",
+      "model": "Veyron",
+      "listings": 2
+    },
+    {
+      "make": "Jaguar",
+      "model": "XJL",
+      "listings": 2
+    },
+    {
+      "make": "Jaguar",
+      "model": "XK8",
+      "listings": 2
+    },
+    {
+      "make": "Maserati",
+      "model": "Gran Sport",
+      "listings": 2
+    },
+    {
+      "make": "Maserati",
+      "model": "Grecale ~",
+      "listings": 2
+    },
+    {
+      "make": "Plymouth",
+      "model": "Voyager",
+      "listings": 2
+    },
+    {
+      "make": "Pontiac",
+      "model": "Trans Sport",
+      "listings": 2
+    },
+    {
+      "make": "Pontiac",
+      "model": "Sunbird",
+      "listings": 2
+    },
+    {
+      "make": "Pontiac",
+      "model": "Pursuit",
+      "listings": 2
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Phantom Coupe",
+      "listings": 2
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Silver Dawn",
+      "listings": 2
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Black Badge Spectre",
+      "listings": 2
+    },
+    {
+      "make": "Acura",
+      "model": "RLX Sport Hybrid",
+      "listings": 1
+    },
+    {
+      "make": "Acura",
+      "model": "SLX",
+      "listings": 1
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "GTV",
+      "listings": 1
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "Guila",
+      "listings": 1
+    },
+    {
+      "make": "Aston Martin",
+      "model": "Vantage S Roadster",
+      "listings": 1
+    },
+    {
+      "make": "Aston Martin",
+      "model": "DB9 GT",
+      "listings": 1
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Aventador S",
+      "listings": 1
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Countach LPI 800-4",
+      "listings": 1
+    },
+    {
+      "make": "Maserati",
+      "model": "GT2 Stradale",
+      "listings": 1
+    },
+    {
+      "make": "Plymouth",
+      "model": "Laser",
+      "listings": 1
+    },
+    {
+      "make": "Renault",
+      "model": "Alliance DL",
+      "listings": 1
+    },
+    {
+      "make": "Tesla",
+      "model": "Y",
+      "listings": 1
+    },
+    {
+      "make": "Tesla",
+      "model": "CYBERTRUCK",
+      "listings": 1
+    },
+    {
+      "make": "TVR",
+      "model": "Chimaera",
+      "listings": 1
+    }
+  ]
+}

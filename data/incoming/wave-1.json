@@ -1,0 +1,765 @@
+{
+  "generated_from": "data/incoming/autodev-discovery.json",
+  "note": "Research queue, not vehicle facts. Each entry still needs a generation chosen and specs sourced per CLAUDE.md. Ordered by how much grid variety each car unlocks, cheapest unlock first.",
+  "target_support": 8,
+  "projected_brand_axes": {
+    "before": 9,
+    "after": 20
+  },
+  "cars": [
+    {
+      "make": "Mercedes-Benz",
+      "model": "EQE",
+      "brand_has": 7,
+      "brand_needs": 1,
+      "unlocks": [
+        "brand:Mercedes-Benz",
+        "fuel_type:Electric + engine_layout:Electric"
+      ],
+      "us_listings": 1946,
+      "priority": 3
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "EQS",
+      "brand_has": 7,
+      "brand_needs": 1,
+      "unlocks": [
+        "brand:Mercedes-Benz",
+        "fuel_type:Electric + engine_layout:Electric"
+      ],
+      "us_listings": 1779,
+      "priority": 3
+    },
+    {
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Volkswagen",
+        "fuel_type:Electric + engine_layout:Electric"
+      ],
+      "us_listings": 3359,
+      "priority": 1.333
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 5",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Hyundai",
+        "fuel_type:Electric + engine_layout:Electric"
+      ],
+      "us_listings": 4637,
+      "priority": 1.286
+    },
+    {
+      "make": "Pontiac",
+      "model": "Grand Prix",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Pontiac",
+        "fuel_type:Electric + engine_layout:Electric"
+      ],
+      "us_listings": 131,
+      "priority": 1.286
+    },
+    {
+      "make": "Porsche",
+      "model": "718 Cayman",
+      "brand_has": 6,
+      "brand_needs": 2,
+      "unlocks": [
+        "brand:Porsche"
+      ],
+      "us_listings": 403,
+      "priority": 1
+    },
+    {
+      "make": "Porsche",
+      "model": "Cayenne Coupe",
+      "brand_has": 6,
+      "brand_needs": 2,
+      "unlocks": [
+        "brand:Porsche"
+      ],
+      "us_listings": 289,
+      "priority": 1
+    },
+    {
+      "make": "Porsche",
+      "model": "718 Boxster",
+      "brand_has": 6,
+      "brand_needs": 2,
+      "unlocks": [
+        "brand:Porsche"
+      ],
+      "us_listings": 284,
+      "priority": 1
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-50 Hybrid",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Mazda",
+        "fuel_type:Hybrid"
+      ],
+      "us_listings": 3980,
+      "priority": 0.786
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Urus",
+      "brand_has": 4,
+      "brand_needs": 4,
+      "unlocks": [
+        "brand:Lamborghini"
+      ],
+      "us_listings": 833,
+      "priority": 0.5
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Aventador",
+      "brand_has": 4,
+      "brand_needs": 4,
+      "unlocks": [
+        "brand:Lamborghini"
+      ],
+      "us_listings": 162,
+      "priority": 0.5
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Revuelto",
+      "brand_has": 4,
+      "brand_needs": 4,
+      "unlocks": [
+        "brand:Lamborghini"
+      ],
+      "us_listings": 101,
+      "priority": 0.5
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Gallardo",
+      "brand_has": 4,
+      "brand_needs": 4,
+      "unlocks": [
+        "brand:Lamborghini"
+      ],
+      "us_listings": 86,
+      "priority": 0.5
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Temerario",
+      "brand_has": 4,
+      "brand_needs": 4,
+      "unlocks": [
+        "brand:Lamborghini"
+      ],
+      "us_listings": 64,
+      "priority": 0.5
+    },
+    {
+      "make": "Ferrari",
+      "model": "458",
+      "brand_has": 3,
+      "brand_needs": 5,
+      "unlocks": [
+        "brand:Ferrari"
+      ],
+      "us_listings": 194,
+      "priority": 0.4
+    },
+    {
+      "make": "Ferrari",
+      "model": "Roma",
+      "brand_has": 3,
+      "brand_needs": 5,
+      "unlocks": [
+        "brand:Ferrari"
+      ],
+      "us_listings": 165,
+      "priority": 0.4
+    },
+    {
+      "make": "Ferrari",
+      "model": "F430",
+      "brand_has": 3,
+      "brand_needs": 5,
+      "unlocks": [
+        "brand:Ferrari"
+      ],
+      "us_listings": 155,
+      "priority": 0.4
+    },
+    {
+      "make": "Ferrari",
+      "model": "F8 Spider",
+      "brand_has": 3,
+      "brand_needs": 5,
+      "unlocks": [
+        "brand:Ferrari"
+      ],
+      "us_listings": 153,
+      "priority": 0.4
+    },
+    {
+      "make": "Ferrari",
+      "model": "812 GTS",
+      "brand_has": 3,
+      "brand_needs": 5,
+      "unlocks": [
+        "brand:Ferrari"
+      ],
+      "us_listings": 145,
+      "priority": 0.4
+    },
+    {
+      "make": "Ferrari",
+      "model": "California",
+      "brand_has": 3,
+      "brand_needs": 5,
+      "unlocks": [
+        "brand:Ferrari"
+      ],
+      "us_listings": 141,
+      "priority": 0.4
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Tiguan",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Volkswagen"
+      ],
+      "us_listings": 35827,
+      "priority": 0.333
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Atlas",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Volkswagen"
+      ],
+      "us_listings": 34292,
+      "priority": 0.333
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Jetta",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Volkswagen"
+      ],
+      "us_listings": 19154,
+      "priority": 0.333
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Taos",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Volkswagen"
+      ],
+      "us_listings": 14463,
+      "priority": 0.333
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Golf",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Volkswagen"
+      ],
+      "us_listings": 3893,
+      "priority": 0.333
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Atlas Cross Sport",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Volkswagen"
+      ],
+      "us_listings": 3566,
+      "priority": 0.333
+    },
+    {
+      "make": "Jaguar",
+      "model": "F-Pace",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Jaguar"
+      ],
+      "us_listings": 2581,
+      "priority": 0.333
+    },
+    {
+      "make": "Jaguar",
+      "model": "XJ",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Jaguar"
+      ],
+      "us_listings": 558,
+      "priority": 0.333
+    },
+    {
+      "make": "Jaguar",
+      "model": "XF",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Jaguar"
+      ],
+      "us_listings": 530,
+      "priority": 0.333
+    },
+    {
+      "make": "Aston Martin",
+      "model": "DBX",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Aston Martin"
+      ],
+      "us_listings": 462,
+      "priority": 0.333
+    },
+    {
+      "make": "Aston Martin",
+      "model": "V8 Vantage",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Aston Martin"
+      ],
+      "us_listings": 348,
+      "priority": 0.333
+    },
+    {
+      "make": "Jaguar",
+      "model": "XK",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Jaguar"
+      ],
+      "us_listings": 339,
+      "priority": 0.333
+    },
+    {
+      "make": "Jaguar",
+      "model": "E-Pace",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Jaguar"
+      ],
+      "us_listings": 329,
+      "priority": 0.333
+    },
+    {
+      "make": "Jaguar",
+      "model": "XE",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Jaguar"
+      ],
+      "us_listings": 264,
+      "priority": 0.333
+    },
+    {
+      "make": "McLaren",
+      "model": "Artura",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:McLaren"
+      ],
+      "us_listings": 208,
+      "priority": 0.333
+    },
+    {
+      "make": "Aston Martin",
+      "model": "DB12",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Aston Martin"
+      ],
+      "us_listings": 192,
+      "priority": 0.333
+    },
+    {
+      "make": "McLaren",
+      "model": "750S",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:McLaren"
+      ],
+      "us_listings": 149,
+      "priority": 0.333
+    },
+    {
+      "make": "Aston Martin",
+      "model": "Vanquish",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Aston Martin"
+      ],
+      "us_listings": 132,
+      "priority": 0.333
+    },
+    {
+      "make": "McLaren",
+      "model": "570S",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:McLaren"
+      ],
+      "us_listings": 85,
+      "priority": 0.333
+    },
+    {
+      "make": "Aston Martin",
+      "model": "DB11",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Aston Martin"
+      ],
+      "us_listings": 83,
+      "priority": 0.333
+    },
+    {
+      "make": "Jaguar",
+      "model": "S-Type",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Jaguar"
+      ],
+      "us_listings": 74,
+      "priority": 0.333
+    },
+    {
+      "make": "McLaren",
+      "model": "GT",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:McLaren"
+      ],
+      "us_listings": 68,
+      "priority": 0.333
+    },
+    {
+      "make": "McLaren",
+      "model": "GTS",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:McLaren"
+      ],
+      "us_listings": 64,
+      "priority": 0.333
+    },
+    {
+      "make": "Aston Martin",
+      "model": "DBS",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Aston Martin"
+      ],
+      "us_listings": 63,
+      "priority": 0.333
+    },
+    {
+      "make": "Aston Martin",
+      "model": "DB9",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:Aston Martin"
+      ],
+      "us_listings": 53,
+      "priority": 0.333
+    },
+    {
+      "make": "McLaren",
+      "model": "765LT",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:McLaren"
+      ],
+      "us_listings": 41,
+      "priority": 0.333
+    },
+    {
+      "make": "McLaren",
+      "model": "600LT",
+      "brand_has": 2,
+      "brand_needs": 6,
+      "unlocks": [
+        "brand:McLaren"
+      ],
+      "us_listings": 40,
+      "priority": 0.333
+    },
+    {
+      "make": "Hyundai",
+      "model": "Tucson",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Hyundai"
+      ],
+      "us_listings": 52575,
+      "priority": 0.286
+    },
+    {
+      "make": "Hyundai",
+      "model": "Santa Fe",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Hyundai"
+      ],
+      "us_listings": 48501,
+      "priority": 0.286
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-5",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Mazda"
+      ],
+      "us_listings": 42117,
+      "priority": 0.286
+    },
+    {
+      "make": "Hyundai",
+      "model": "Elantra",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Hyundai"
+      ],
+      "us_listings": 39351,
+      "priority": 0.286
+    },
+    {
+      "make": "Hyundai",
+      "model": "Palisade",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Hyundai"
+      ],
+      "us_listings": 35579,
+      "priority": 0.286
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-50",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Mazda"
+      ],
+      "us_listings": 23051,
+      "priority": 0.286
+    },
+    {
+      "make": "Hyundai",
+      "model": "Kona",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Hyundai"
+      ],
+      "us_listings": 22528,
+      "priority": 0.286
+    },
+    {
+      "make": "Hyundai",
+      "model": "Sonata",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Hyundai"
+      ],
+      "us_listings": 19768,
+      "priority": 0.286
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-90",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Mazda"
+      ],
+      "us_listings": 15895,
+      "priority": 0.286
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-30",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Mazda"
+      ],
+      "us_listings": 14003,
+      "priority": 0.286
+    },
+    {
+      "make": "Hyundai",
+      "model": "Santa Cruz",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Hyundai"
+      ],
+      "us_listings": 9444,
+      "priority": 0.286
+    },
+    {
+      "make": "Mazda",
+      "model": "Mazda3",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Mazda"
+      ],
+      "us_listings": 9104,
+      "priority": 0.286
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-70",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Mazda"
+      ],
+      "us_listings": 3858,
+      "priority": 0.286
+    },
+    {
+      "make": "Mazda",
+      "model": "Miata",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Mazda"
+      ],
+      "us_listings": 2973,
+      "priority": 0.286
+    },
+    {
+      "make": "Pontiac",
+      "model": "Solstice",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Pontiac"
+      ],
+      "us_listings": 259,
+      "priority": 0.286
+    },
+    {
+      "make": "Pontiac",
+      "model": "G6",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Pontiac"
+      ],
+      "us_listings": 241,
+      "priority": 0.286
+    },
+    {
+      "make": "Pontiac",
+      "model": "Vibe",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Pontiac"
+      ],
+      "us_listings": 126,
+      "priority": 0.286
+    },
+    {
+      "make": "Pontiac",
+      "model": "GTO",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Pontiac"
+      ],
+      "us_listings": 102,
+      "priority": 0.286
+    },
+    {
+      "make": "Pontiac",
+      "model": "G8",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Pontiac"
+      ],
+      "us_listings": 73,
+      "priority": 0.286
+    },
+    {
+      "make": "Pontiac",
+      "model": "Torrent",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Pontiac"
+      ],
+      "us_listings": 60,
+      "priority": 0.286
+    },
+    {
+      "make": "Pontiac",
+      "model": "Grand Am",
+      "brand_has": 1,
+      "brand_needs": 7,
+      "unlocks": [
+        "brand:Pontiac"
+      ],
+      "us_listings": 36,
+      "priority": 0.286
+    }
+  ]
+}

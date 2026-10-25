@@ -1,0 +1,507 @@
+[
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "acura-nsx-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Japan (Honda NSX launch; same generation sold as Acura)",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "engine_position": "Mid-engine",
+      "powertrains": [
+        {
+          "name": "C30A launch V6",
+          "cylinders": 6,
+          "aspiration": "Naturally aspirated",
+          "displacement_cc": 2977
+        }
+      ]
+    },
+    "evidence": {
+      "engine_position": [
+        {
+          "url": "https://global.honda/en/tech/engine/car/C30A_NSX_vtec_DOHC/",
+          "note": "Honda's C30A retrospective identifies the 1990 NSX launch engine as a naturally aspirated 2977 cc V6 and describes its placement behind the cabin."
+        }
+      ],
+      "powertrains": [
+        {
+          "url": "https://global.honda/en/tech/engine/car/C30A_NSX_vtec_DOHC/",
+          "note": "Honda's C30A retrospective identifies the 1990 NSX launch engine as a naturally aspirated 2977 cc V6 and describes its placement behind the cabin."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "ferrari-enzo-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Global",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "powertrains": [
+        {
+          "name": "F140 launch V12",
+          "cylinders": 12,
+          "aspiration": "Naturally aspirated",
+          "displacement_cc": 5998.8
+        }
+      ]
+    },
+    "evidence": {
+      "powertrains": [
+        {
+          "url": "https://www.ferrari.com/it-CH/auto/enzo-ferrari",
+          "note": "Factory specification gives a 5998.80 cc V12."
+        },
+        {
+          "url": "https://www.ferrari.com/en-HU/magazine/articles/GTO-to-F80-via-the-racetrack?amp=true",
+          "note": "Ferrari's 2002 Enzo history explicitly identifies natural aspiration."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "toyota-gr86-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Europe launch specification",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "engine_position": "Front-engine",
+      "powertrains": [
+        {
+          "name": "FA24 launch boxer",
+          "cylinders": 4,
+          "aspiration": "Naturally aspirated",
+          "displacement_cc": 2387
+        }
+      ]
+    },
+    "evidence": {
+      "engine_position": [
+        {
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/220530M-GR86-Press-Pack-1.pdf",
+          "note": "Launch press pack identifies the front-mounted, naturally aspirated 2387 cc flat-four; manual and automatic use the same engine."
+        }
+      ],
+      "powertrains": [
+        {
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/220530M-GR86-Press-Pack-1.pdf",
+          "note": "Launch press pack identifies the front-mounted, naturally aspirated 2387 cc flat-four; manual and automatic use the same engine."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "toyota-gr-yaris-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Europe 2020 launch; performance G16E-GTS variant",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "powertrains": [
+        {
+          "name": "G16E-GTS launch turbo",
+          "cylinders": 3,
+          "aspiration": "Turbocharged",
+          "displacement_cc": 1618
+        }
+      ]
+    },
+    "evidence": {
+      "powertrains": [
+        {
+          "url": "https://media.toyota.co.uk/the-new-toyota-gr-yaris-forged-in-the-heat-of-world-rally-competition/",
+          "note": "January 2020 debut specification lists 1618 cc, three cylinders and a single-scroll turbo. Japan-only naturally aspirated RS is not verified by this source."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "toyota-supra-g5",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Europe 2019 launch 3.0 variant",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "engine_position": "Front-engine",
+      "powertrains": [
+        {
+          "name": "B58 launch 3.0",
+          "cylinders": 6,
+          "aspiration": "Turbocharged",
+          "displacement_cc": 2998
+        }
+      ]
+    },
+    "evidence": {
+      "engine_position": [
+        {
+          "url": "https://media.toyota.co.uk/the-legend-returns-world-premiere-of-the-new-toyota-gr-supra-at-the-2019-north-american-international-auto-show/",
+          "note": "2019 debut specifies a front-mounted 2998 cc turbocharged inline-six. This reviewed subset does not claim to cover Japan's four-cylinder launch variants."
+        }
+      ],
+      "powertrains": [
+        {
+          "url": "https://media.toyota.co.uk/the-legend-returns-world-premiere-of-the-new-toyota-gr-supra-at-the-2019-north-american-international-auto-show/",
+          "note": "2019 debut specifies a front-mounted 2998 cc turbocharged inline-six. This reviewed subset does not claim to cover Japan's four-cylinder launch variants."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "bmw-i8-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "UK 2014 launch",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "powertrains": [
+        {
+          "name": "B38 launch petrol engine (hybrid system)",
+          "cylinders": 3,
+          "aspiration": "Turbocharged",
+          "displacement_cc": 1499
+        }
+      ]
+    },
+    "evidence": {
+      "powertrains": [
+        {
+          "url": "https://www.press.bmwgroup.com/united-kingdom/article/attachment/T0188404EN_GB/275484",
+          "note": "2014 factory press specification lists a 1499 cc three-cylinder turbo petrol engine; electric motor excluded from piston-engine displacement."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "ferrari-488-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Global 2015 GTB launch",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "engine_position": "Mid-engine",
+      "powertrains": [
+        {
+          "name": "GTB launch V8",
+          "cylinders": 8,
+          "aspiration": "Turbocharged",
+          "displacement_cc": 3902
+        }
+      ]
+    },
+    "evidence": {
+      "engine_position": [
+        {
+          "url": "https://cdn.ferrari.com/cms/network/media/pdf/ferrari_nv_-_2015_20-f_feb_25_final_1_1.pdf",
+          "note": "2015 annual report identifies the launch GTB's mid-mounted 3902 cc turbo V8. Later Pista variants are outside this record."
+        }
+      ],
+      "powertrains": [
+        {
+          "url": "https://cdn.ferrari.com/cms/network/media/pdf/ferrari_nv_-_2015_20-f_feb_25_final_1_1.pdf",
+          "note": "2015 annual report identifies the launch GTB's mid-mounted 3902 cc turbo V8. Later Pista variants are outside this record."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "ferrari-f40-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Global launch",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "powertrains": [
+        {
+          "name": "F120 launch V8",
+          "cylinders": 8,
+          "aspiration": "Turbocharged"
+        }
+      ]
+    },
+    "evidence": {
+      "powertrains": [
+        {
+          "url": "https://www.ferrari.com/en-AO/history/moments/1987/enzos-dream/more",
+          "note": "Factory history explicitly describes the F40's twin-turbo V8. Exact cc is left unknown in this enrichment."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "pagani-huayra-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Global original coupe",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "powertrains": [
+        {
+          "name": "Mercedes-AMG M158",
+          "cylinders": 12,
+          "aspiration": "Turbocharged",
+          "displacement_cc": 5980
+        }
+      ]
+    },
+    "evidence": {
+      "powertrains": [
+        {
+          "url": "https://www.pagani.com/huayra/",
+          "note": "Original Huayra factory specification identifies the M158 twin-turbo V12 and 5980 cc capacity."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "koenigsegg-agera-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Global original Agera",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "powertrains": [
+        {
+          "name": "Original Agera V8",
+          "cylinders": 8,
+          "aspiration": "Turbocharged"
+        }
+      ]
+    },
+    "evidence": {
+      "powertrains": [
+        {
+          "url": "https://www.koenigsegg.com/technical-specifications-agera",
+          "note": "Original Agera specifications identify a V8 with twin exhaust-driven turbochargers. Rounded 5.0 L is not converted into a claimed exact cc value."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "bugatti-chiron-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Global original Chiron",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "powertrains": [
+        {
+          "name": "Original quad-turbo W16",
+          "cylinders": 16,
+          "aspiration": "Turbocharged"
+        }
+      ]
+    },
+    "evidence": {
+      "powertrains": [
+        {
+          "url": "https://newsroom.bugatti.com/api/en/press-releases/pdf/bugatti-chiron-lebe-bugatti-honors-ettores-daughter-with-a-special-edition",
+          "note": "Factory retrospective explicitly describes the original 2016 Chiron's quad-turbo W16. Exact displacement is not inferred from rounded 8.0 L."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "mclaren-720s-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Global original coupe",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "powertrains": [
+        {
+          "name": "720S launch V8",
+          "cylinders": 8,
+          "aspiration": "Turbocharged"
+        }
+      ]
+    },
+    "evidence": {
+      "powertrains": [
+        {
+          "url": "https://cars.mclaren.com/us_en/legacy/720s",
+          "note": "Factory legacy specification identifies the coupe's twin-turbo V8. Rounded 4.0 L is not converted into exact cc."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "mclaren-f1-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Global original road car",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "powertrains": [
+        {
+          "name": "Original road-car engine",
+          "aspiration": "Naturally aspirated"
+        }
+      ]
+    },
+    "evidence": {
+      "powertrains": [
+        {
+          "url": "https://cars.mclaren.com/us-en/legacy/mclaren-f1",
+          "note": "McLaren identifies its original road car as naturally aspirated. This evidence does not add an exact displacement."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "lamborghini-miura-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Global original P400",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "engine_position": "Mid-engine",
+      "powertrains": [
+        {
+          "name": "P400 launch V12",
+          "cylinders": 12,
+          "displacement_cc": 3929
+        }
+      ]
+    },
+    "evidence": {
+      "engine_position": [
+        {
+          "url": "https://www.lamborghini.com/ko-en/%EB%89%B4%EC%8A%A4/lamborghini-miura-first-supercar-history",
+          "note": "Factory history describes the original P400's transverse 3929 cc V12 and mid-engine layout; later S/SV power changes are excluded."
+        }
+      ],
+      "powertrains": [
+        {
+          "url": "https://www.lamborghini.com/ko-en/%EB%89%B4%EC%8A%A4/lamborghini-miura-first-supercar-history",
+          "note": "Factory history describes the original P400's transverse 3929 cc V12 and mid-engine layout; later S/SV power changes are excluded."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "bmw-m3-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Europe E30 launch",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "powertrains": [
+        {
+          "name": "E30 launch four-cylinder",
+          "cylinders": 4,
+          "aspiration": "Naturally aspirated"
+        }
+      ]
+    },
+    "evidence": {
+      "powertrains": [
+        {
+          "url": "https://www.bmw-m.com/en/topics/magazine-article-pool/bmw-m3-generationen.html.html",
+          "note": "BMW's E30 section explicitly identifies the original M3's naturally aspirated four-cylinder. Exact displacement is not asserted here."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "porsche-911-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Global original 911",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "powertrains": [
+        {
+          "name": "Original launch flat-six",
+          "cylinders": 6,
+          "aspiration": "Naturally aspirated"
+        }
+      ]
+    },
+    "evidence": {
+      "powertrains": [
+        {
+          "url": "https://newsroom.porsche.com/dam/jcr%3Aa76c43d7-7e38-416e-a6c4-075a43507740/01_911er_Generationen_Ur-Elfer_EN.pdf",
+          "note": "Factory generation sheet identifies naturally aspirated flat-six engines. Its full-generation displacement range is not treated as launch displacement."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "lamborghini-huracan-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Global LP 610-4 launch",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "powertrains": [
+        {
+          "name": "LP 610-4 launch V10",
+          "cylinders": 10,
+          "aspiration": "Naturally aspirated",
+          "displacement_cc": 5204
+        }
+      ]
+    },
+    "evidence": {
+      "powertrains": [
+        {
+          "url": "https://www.lamborghini.com/de-en/nachrichten/automobili-lamborghini-and-italian-state-police-20-years-together",
+          "note": "Factory retrospective identifies the 2014 LP 610-4's naturally aspirated V10."
+        },
+        {
+          "url": "https://preowned.lamborghini.com/de_de/models/huracan-coupe",
+          "note": "Factory LP 610-4 technical specification gives exact capacity as 5204 cc."
+        }
+      ]
+    }
+  },
+  {
+    "batchId": "launch-facts-2026-10-23",
+    "carId": "aston-martin-vantage-g1",
+    "status": "approved",
+    "scope": "launch",
+    "market": "Global 2005 V8 Vantage",
+    "reviewedAt": "2026-10-23",
+    "facts": {
+      "powertrains": [
+        {
+          "name": "2005 launch V8",
+          "cylinders": 8,
+          "aspiration": "Naturally aspirated"
+        }
+      ]
+    },
+    "evidence": {
+      "powertrains": [
+        {
+          "url": "https://media.astonmartin.com/vantage-hyper-red-press-kit/?lang=eng",
+          "note": "Factory press kit contrasts the original naturally aspirated V8 generation with its twin-turbo successor and dates the first Gaydon Vantage to 2005."
+        },
+        {
+          "url": "https://www.astonmartin.com/en/our-world/news/2020/3/2/vantage-sports-car-superiority-for-70-years-nbsp",
+          "note": "Factory history identifies the 2005 launch engine as a V8; later V12 and 4.7-liter variants are excluded."
+        }
+      ]
+    }
+  }
+]

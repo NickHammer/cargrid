@@ -1,0 +1,960 @@
+{
+  "schemaVersion": 1,
+  "id": "pilot-b-free-sources",
+  "name": "50 targeted discovery candidates — not published vehicle facts",
+  "createdAt": "2026-10-23",
+  "sourcePolicy": "Free sources only: Wikidata for discovery; manufacturer archives and brochures, NHTSA and EPA for evidence; Commons for separately reviewed images. No paid APIs.",
+  "goal": "Research additions intended to bring Volvo, Renault, Hyundai, Kia, Volkswagen, Mazda and Mercedes-Benz to the 8-car brand threshold, while broadening Swedish/French/South Korean coverage and electrification. Targets are unverified planning tags, not publishable facts.",
+  "records": [
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volvo 850",
+        "make": "Volvo",
+        "model": "850",
+        "eraHint": "1991–1996"
+      },
+      "targets": [
+        "brand:Volvo",
+        "country_of_origin:Swedish"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volvo C30",
+        "make": "Volvo",
+        "model": "C30",
+        "eraHint": "2006–2013"
+      },
+      "targets": [
+        "brand:Volvo",
+        "country_of_origin:Swedish"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volvo S60",
+        "make": "Volvo",
+        "model": "S60",
+        "eraHint": "first generation, 2000"
+      },
+      "targets": [
+        "brand:Volvo",
+        "country_of_origin:Swedish"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volvo XC90",
+        "make": "Volvo",
+        "model": "XC90",
+        "eraHint": "first generation, 2002"
+      },
+      "targets": [
+        "brand:Volvo",
+        "country_of_origin:Swedish"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volvo XC60",
+        "make": "Volvo",
+        "model": "XC60",
+        "eraHint": "first generation, 2008"
+      },
+      "targets": [
+        "brand:Volvo",
+        "country_of_origin:Swedish"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volvo XC40",
+        "make": "Volvo",
+        "model": "XC40",
+        "eraHint": "first generation, 2017"
+      },
+      "targets": [
+        "brand:Volvo",
+        "country_of_origin:Swedish"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Saab 900",
+        "make": "Saab",
+        "model": "900",
+        "eraHint": "original generation, 1978"
+      },
+      "targets": [
+        "brand:Saab",
+        "country_of_origin:Swedish"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Saab 9000",
+        "make": "Saab",
+        "model": "9000",
+        "eraHint": "1984"
+      },
+      "targets": [
+        "brand:Saab",
+        "country_of_origin:Swedish"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Saab 9-3",
+        "make": "Saab",
+        "model": "9-3",
+        "eraHint": "first generation, 1998"
+      },
+      "targets": [
+        "brand:Saab",
+        "country_of_origin:Swedish"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Saab 9-5",
+        "make": "Saab",
+        "model": "9-5",
+        "eraHint": "first generation, 1997"
+      },
+      "targets": [
+        "brand:Saab",
+        "country_of_origin:Swedish"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Renault 5",
+        "make": "Renault",
+        "model": "5",
+        "eraHint": "first generation, 1972"
+      },
+      "targets": [
+        "brand:Renault",
+        "country_of_origin:French"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Renault Clio",
+        "make": "Renault",
+        "model": "Clio",
+        "eraHint": "first generation, 1990"
+      },
+      "targets": [
+        "brand:Renault",
+        "country_of_origin:French"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Renault Megane",
+        "make": "Renault",
+        "model": "Megane",
+        "eraHint": "first generation, 1995"
+      },
+      "targets": [
+        "brand:Renault",
+        "country_of_origin:French"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Renault Scenic",
+        "make": "Renault",
+        "model": "Scenic",
+        "eraHint": "first generation, 1996"
+      },
+      "targets": [
+        "brand:Renault",
+        "country_of_origin:French"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Renault Zoe",
+        "make": "Renault",
+        "model": "Zoe",
+        "eraHint": "2012"
+      },
+      "targets": [
+        "brand:Renault",
+        "country_of_origin:French"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Hyundai Elantra",
+        "make": "Hyundai",
+        "model": "Elantra",
+        "eraHint": "first generation, 1990"
+      },
+      "targets": [
+        "brand:Hyundai",
+        "country_of_origin:South Korean"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Hyundai Tiburon",
+        "make": "Hyundai",
+        "model": "Tiburon",
+        "eraHint": "first generation, 1996"
+      },
+      "targets": [
+        "brand:Hyundai",
+        "country_of_origin:South Korean"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Hyundai Veloster",
+        "make": "Hyundai",
+        "model": "Veloster",
+        "eraHint": "first generation, 2011"
+      },
+      "targets": [
+        "brand:Hyundai",
+        "country_of_origin:South Korean"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Hyundai Ioniq",
+        "make": "Hyundai",
+        "model": "Ioniq",
+        "eraHint": "2016; distinguish hybrid, plug-in and electric launch availability"
+      },
+      "targets": [
+        "brand:Hyundai",
+        "country_of_origin:South Korean"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Hyundai Ioniq 5",
+        "make": "Hyundai",
+        "model": "Ioniq 5",
+        "eraHint": "2021"
+      },
+      "targets": [
+        "brand:Hyundai",
+        "country_of_origin:South Korean"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Hyundai Kona",
+        "make": "Hyundai",
+        "model": "Kona",
+        "eraHint": "first generation, 2017; distinguish later electric launch"
+      },
+      "targets": [
+        "brand:Hyundai",
+        "country_of_origin:South Korean"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Kia Sportage",
+        "make": "Kia",
+        "model": "Sportage",
+        "eraHint": "first generation, 1993"
+      },
+      "targets": [
+        "brand:Kia",
+        "country_of_origin:South Korean"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Kia Ceed",
+        "make": "Kia",
+        "model": "Ceed",
+        "eraHint": "first generation, 2006"
+      },
+      "targets": [
+        "brand:Kia",
+        "country_of_origin:South Korean"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Kia Stinger",
+        "make": "Kia",
+        "model": "Stinger",
+        "eraHint": "2017"
+      },
+      "targets": [
+        "brand:Kia",
+        "country_of_origin:South Korean"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Kia Niro",
+        "make": "Kia",
+        "model": "Niro",
+        "eraHint": "first generation, 2016; distinguish later plug-in/electric launches"
+      },
+      "targets": [
+        "brand:Kia",
+        "country_of_origin:South Korean"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Kia EV6",
+        "make": "Kia",
+        "model": "EV6",
+        "eraHint": "2021"
+      },
+      "targets": [
+        "brand:Kia",
+        "country_of_origin:South Korean"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Kia Soul",
+        "make": "Kia",
+        "model": "Soul",
+        "eraHint": "first generation, 2008; distinguish later EV"
+      },
+      "targets": [
+        "brand:Kia",
+        "country_of_origin:South Korean"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volkswagen Golf",
+        "make": "Volkswagen",
+        "model": "Golf",
+        "eraHint": "first generation, 1974; distinguish existing GTI"
+      },
+      "targets": [
+        "brand:Volkswagen",
+        "country_of_origin:German"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volkswagen Polo",
+        "make": "Volkswagen",
+        "model": "Polo",
+        "eraHint": "first generation, 1975"
+      },
+      "targets": [
+        "brand:Volkswagen",
+        "country_of_origin:German"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volkswagen Passat",
+        "make": "Volkswagen",
+        "model": "Passat",
+        "eraHint": "first generation, 1973"
+      },
+      "targets": [
+        "brand:Volkswagen",
+        "country_of_origin:German"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volkswagen Beetle",
+        "make": "Volkswagen",
+        "model": "Beetle",
+        "eraHint": "original air-cooled model; establish generation policy"
+      },
+      "targets": [
+        "brand:Volkswagen",
+        "country_of_origin:German"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volkswagen ID.3",
+        "make": "Volkswagen",
+        "model": "ID.3",
+        "eraHint": "2019"
+      },
+      "targets": [
+        "brand:Volkswagen",
+        "country_of_origin:German"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volkswagen ID.4",
+        "make": "Volkswagen",
+        "model": "ID.4",
+        "eraHint": "2020"
+      },
+      "targets": [
+        "brand:Volkswagen",
+        "country_of_origin:German"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Tesla Roadster",
+        "make": "Tesla",
+        "model": "Roadster",
+        "eraHint": "first generation, 2008"
+      },
+      "targets": [
+        "brand:Tesla",
+        "country_of_origin:American"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Tesla Model 3",
+        "make": "Tesla",
+        "model": "Model 3",
+        "eraHint": "2017"
+      },
+      "targets": [
+        "brand:Tesla",
+        "country_of_origin:American"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Tesla Model X",
+        "make": "Tesla",
+        "model": "Model X",
+        "eraHint": "2015"
+      },
+      "targets": [
+        "brand:Tesla",
+        "country_of_origin:American"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Tesla Model Y",
+        "make": "Tesla",
+        "model": "Model Y",
+        "eraHint": "2020"
+      },
+      "targets": [
+        "brand:Tesla",
+        "country_of_origin:American"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Mazda MX-5",
+        "make": "Mazda",
+        "model": "MX-5",
+        "eraHint": "NA generation, 1989"
+      },
+      "targets": [
+        "brand:Mazda",
+        "country_of_origin:Japanese"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Mazda RX-8",
+        "make": "Mazda",
+        "model": "RX-8",
+        "eraHint": "2003"
+      },
+      "targets": [
+        "brand:Mazda",
+        "country_of_origin:Japanese"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Mazda RX-7",
+        "make": "Mazda",
+        "model": "RX-7",
+        "eraHint": "FD generation, 1991; existing record is first generation"
+      },
+      "targets": [
+        "brand:Mazda",
+        "country_of_origin:Japanese"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Mazda 323",
+        "make": "Mazda",
+        "model": "323",
+        "eraHint": "BG generation, 1989; verify nameplate generation numbering"
+      },
+      "targets": [
+        "brand:Mazda",
+        "country_of_origin:Japanese"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Mazda CX-5",
+        "make": "Mazda",
+        "model": "CX-5",
+        "eraHint": "first generation, 2012"
+      },
+      "targets": [
+        "brand:Mazda",
+        "country_of_origin:Japanese"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volvo S80",
+        "make": "Volvo",
+        "model": "S80",
+        "eraHint": "first generation, 1998"
+      },
+      "targets": [
+        "brand:Volvo",
+        "country_of_origin:Swedish"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Renault Laguna",
+        "make": "Renault",
+        "model": "Laguna",
+        "eraHint": "first generation, 1994"
+      },
+      "targets": [
+        "brand:Renault",
+        "country_of_origin:French"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Hyundai Santa Fe",
+        "make": "Hyundai",
+        "model": "Santa Fe",
+        "eraHint": "first generation, 2000"
+      },
+      "targets": [
+        "brand:Hyundai",
+        "country_of_origin:South Korean"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Kia Rio",
+        "make": "Kia",
+        "model": "Rio",
+        "eraHint": "first generation, 1999"
+      },
+      "targets": [
+        "brand:Kia",
+        "country_of_origin:South Korean"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Kia Picanto",
+        "make": "Kia",
+        "model": "Picanto",
+        "eraHint": "first generation, 2004"
+      },
+      "targets": [
+        "brand:Kia",
+        "country_of_origin:South Korean"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Mazda 6",
+        "make": "Mazda",
+        "model": "6",
+        "eraHint": "first generation, 2002"
+      },
+      "targets": [
+        "brand:Mazda",
+        "country_of_origin:Japanese"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Mazda MX-3",
+        "make": "Mazda",
+        "model": "MX-3",
+        "eraHint": "1991"
+      },
+      "targets": [
+        "brand:Mazda",
+        "country_of_origin:Japanese"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Mercedes-Benz 190",
+        "make": "Mercedes-Benz",
+        "model": "190",
+        "eraHint": "W201, 1982; verify nameplate generation policy"
+      },
+      "targets": [
+        "brand:Mercedes-Benz",
+        "country_of_origin:German"
+      ],
+      "reviewRequired": [
+        "Confirm generation identity, global launch year and production end.",
+        "Collect field-specific sources for the launch lineup; later variants do not qualify automatically.",
+        "Resolve scope conflicts and curated car_class before approval.",
+        "Image optional: use empty image_url until a separate Commons license and visual review passes."
+      ]
+    }
+  ]
+}

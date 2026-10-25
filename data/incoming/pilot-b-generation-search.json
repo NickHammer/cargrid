@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "pilot-b-generation-search",
+  "notes": "Follow-up identity searches only; no vehicle fact approvals.",
+  "records": [
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volvo S60 first generation"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volvo XC90 first generation"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volvo XC40 XZ"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Saab 900 first generation"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Saab 9-3 first generation"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Saab 9-5 first generation"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Hyundai Elantra J1"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Hyundai Tiburon RD"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Hyundai Veloster FS"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Hyundai Kona OS"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Kia Sportage NB"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Kia Ceed ED"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Kia Niro DE"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Kia Soul AM"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volkswagen Golf Mk1"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volkswagen Polo Mk1"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Mazda RX-7 FD"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Mazda Familia BG"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Mazda CX-5 KE"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Volvo S80 first generation"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Hyundai Santa Fe SM"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Kia Rio DC"
+      }
+    },
+    {
+      "status": "candidate",
+      "discovery": {
+        "query": "Mazda6 first generation"
+      }
+    }
+  ]
+}
