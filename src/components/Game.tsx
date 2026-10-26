@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect, useRef } from "react";
 import Link from "next/link";
 import Grid from "./Grid";
 import GuessInput from "./GuessInput";
@@ -17,6 +17,7 @@ import { allCars } from "@/lib/cars";
 import { getGridForDate } from "@/lib/grids";
 import { loadGameState, saveGameState } from "@/lib/storage";
 import { localDateString, formatDisplayDate } from "@/lib/date";
+import { track } from "@/lib/analytics";
 import { useDailyRollover } from "@/lib/useDailyRollover";
 
 interface Props {
@@ -79,14 +80,30 @@ export default function Game({ date: dateProp, isArchive = false }: Props) {
   const handleNewDay = useCallback(
     (next: string) => {
       const inProgress = !!state && state.guessesUsed > 0 && !isGameOver(state);
-      if (inProgress) setPendingDate(next);
-      else switchToDate(next);
+      if (inProgress) {
+        setPendingDate(next);
+        track("rollover_prompted", { from: date, to: next });
+      } else {
+        switchToDate(next);
+      }
     },
-    [state, switchToDate]
+    [state, switchToDate, date]
   );
 
   // Archive routes are pinned to their date and must not roll over.
   useDailyRollover(date, handleNewDay, !dateProp);
+
+  // One per board so completion rate has a denominator. Keyed on the date so a
+  // midnight rollover counts as opening a new grid, not a re-render.
+  const opened = useRef<string | null>(null);
+  useEffect(() => {
+    if (!grid || opened.current === date) return;
+    opened.current = date;
+    track(isArchive ? "archive_opened" : "grid_opened", {
+      date,
+      resumed: (state?.guessesUsed ?? 0) > 0,
+    });
+  }, [date, grid, isArchive, state]);
 
   const handleCellClick = useCallback((row: number, col: number) => {
     setSelectedCell({ row, col });
@@ -115,8 +132,31 @@ export default function Game({ date: dateProp, isArchive = false }: Props) {
       saveGameState(newState);
       setLastResult(correct ? "correct" : "incorrect");
       if (correct) setSelectedCell(null);
+
+      // Which cells people get right, and what they guess when wrong, is what
+      // tells us whether a grid was fair. Cell is reported as a position, not
+      // the answer, so the beacon never carries the solution.
+      track(correct ? "guess_correct" : "guess_incorrect", {
+        date,
+        cell: `${row}-${col}`,
+        row_label: grid.rows[row].label,
+        col_label: grid.columns[col].label,
+        guess_number: newState.guessesUsed,
+        is_archive: isArchive,
+      });
+
+      if (isGameOver(newState)) {
+        const solved = solvedCount(newState);
+        track("grid_completed", {
+          date,
+          solved,
+          guesses_used: newState.guessesUsed,
+          perfect: solved === 9,
+          is_archive: isArchive,
+        });
+      }
     },
-    [grid, state, selectedCell]
+    [grid, state, selectedCell, date, isArchive]
   );
 
   const handleCloseModal = useCallback(() => {

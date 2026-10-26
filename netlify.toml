@@ -11,6 +11,22 @@
 [build.environment]
   NODE_VERSION = "22"
 
+# Analytics is wired here rather than in Netlify's UI so the production build is
+# reproducible from the repo. The Umami website id is not a secret — it ships in
+# the served HTML by design, since the tracker runs in the visitor's browser.
+#
+# Scoped to `context.production` on purpose: deploy previews and branch builds
+# get no analytics at all, so reviewing a preview cannot inflate the real
+# numbers. (Netlify UI variables apply to every context, which is the trap this
+# avoids.) `_DOMAINS` is a second guard — Umami discards events from any other
+# host, so a fork or a netlify.app subdomain cannot report in either. Both the
+# apex and www are listed because whichever one Netlify treats as primary must
+# be present — a host missing from this list reports nothing at all, silently.
+[context.production.environment]
+  NEXT_PUBLIC_ANALYTICS = "umami"
+  NEXT_PUBLIC_ANALYTICS_SITE = "396cfa94-fa3e-4c1e-a53f-3d4519a90538"
+  NEXT_PUBLIC_ANALYTICS_DOMAINS = "cargrid.fun,www.cargrid.fun"
+
 # Car images are content-addressed by car id and only ever replaced wholesale
 # by the curation pipeline, so they can be cached hard.
 [[headers]]
