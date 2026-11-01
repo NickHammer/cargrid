@@ -40,29 +40,48 @@ node scripts/fetch-car-specs.mjs "<make>" "<model>"
 # Extend the daily grid schedule (idempotent — existing dates are kept)
 node scripts/generate-grids.mjs --from 2027-10-22 --days 180
 
+# Which categories can't appear in any grid, and which are one partner from it
+node scripts/generate-grids.mjs --report
+
 # Check every scheduled grid is still solvable — run after ANY cars.json edit
 node scripts/validate-grids.mjs --min 3
 ```
 
 ## Grid Parameters
 
-13 confirmed parameters (Racing Heritage removed), drawn from a pool to construct each daily grid.
+19 parameter types (Racing Heritage removed), drawn from a pool to construct
+each daily grid. `src/lib/parameters.mjs` is the source of truth — this list
+has gone stale before, so check `PARAMETER_TYPES` rather than trusting it.
 
 **Tier 1 — Identity/Attribute (high value)**
-- Brand/Make, Country of Origin, Decade, Engine Layout, Body Style, Drivetrain
+- Brand/Make, Country of Origin, Decade, Engine Layout, Body Style, Drivetrain, Engine Position, Cylinder Count
 
 **Tier 2 — Good**
-- Car Class, Power Output, Transmission, Fuel Type
+- Car Class, Power Output, Aspiration, Displacement, Region, Parent Group
 
 **Tier 3 — Use sparingly**
-- Pop Culture, Price at Launch, Manufacturer Still Active
+- Transmission, Fuel Type, Pop Culture, Price at Launch, Manufacturer Still Active
+
+**Region and Parent Group are derived, not stored** — from `country_of_origin`
+and `brands` respectively, via lookup tables in `parameters.mjs`, so they cannot
+drift from the fields they generalise. They exist because the *identity* axis
+was the game's bottleneck: every grid needs three identity categories and there
+were only three types to draw them from. They are Tier 2 rather than Tier 1
+because each is broader than the category it generalises, so it makes an easier
+puzzle than Brand or Country and should not outrank them. Parent Group maps only
+genuine multi-marque owners and is a point-in-time fact — Subaru and Mazda are
+*not* Toyota subsidiaries (minority stakes), and Bugatti left VW Group in 2021.
 
 ### Parameter Design Rules
 - Brand CAN appear on both row and column axes — rebadged cars can satisfy two brand parameters simultaneously; a car record supports multiple brands.
 - Car Class definitions are kept as strict as possible; each car has an explicit, curated class tag — not inferred.
 - One axis should generally favor identity-based parameters (Brand, Country, Decade) and the other attribute-based (Engine, Body Style, Class), but this is a soft guideline.
 - A grid entry is **Make + Model** (e.g., "Ford Mustang") — no year, trim, or edition required when guessing. When multiple generations exist in the dataset, autocomplete disambiguates: "Subaru Crosstrek (Gen 2 · 2018–2023)".
-- Each generation is a **separate entry** with its own ID (`subaru-crosstrek-g2`) and specs scoped to that generation's **launch specs only**.
+- Each generation is a **separate entry** with its own ID (`subaru-crosstrek-g2`) and specs scoped to that generation, recorded as the **span of that generation's factory line-up\***.
+- \* **A performance version gets its own record. Fold it into its parent only when it adds nothing** — same `car_class`, same `body_style`, same `drivetrain`, and its power sits inside a 100 hp bucket the base line-up already covers. A badge-and-wheels trim 15 hp up folds in; a different machine gets its own entry. So Challenger SRT Demon, Charger Hellcat, Mustang GT500, Camaro ZL1, Golf GTI and EV6 GT are all **separate records**, alongside M3, WRX STI, Civic Type R and Focus RS.
+- \* **Do not decide this by counting differing fields.** `power_output_hp_min`, `power_output_hp_max` and `power_output_ranges` always move together, so any faster version differs in three fields before anything else is compared — measured at 7–9 of 13 fields across six real parent/variant pairs. A threshold that never returns "fold" is not a test.
+- \* **Why separate, despite Make + Model guessing:** folding makes a record claim capability no ordinary example of that car had. While the Demon was folded in, `dodge-challenger-g3` spanned 250–1025 hp, so "Dodge Challenger" was accepted as a correct answer to a **1000+ hp** square. Separating makes the Demon right and the base car wrong, which is the better puzzle, and the autocomplete disambiguates by name exactly as it already does for generations. Engine *options* on one model are not variants and stay folded — a 1970 Challenger could be ordered with a straight-six or a 426 Hemi, which is why `dodge-challenger-g1` legitimately reads 145–425 hp.
+- This says *span*, not *launch day*. An engine added mid-generation counts; an engine from the next generation does not. The dataset has always worked this way — `subaru-impreza-g1` reads 110–240 hp for 1992–2000, a range no 1992 car could reach — and the earlier "launch specs only" wording contradicted it.
 - IDs always include the generation suffix (`-g1`, `-g2`, etc.) even if only one generation exists in the dataset.
 - Decades, Engine Layout, Drivetrain, Transmission, and Fuel Type are **multi-value** — a car qualifies for all options it was offered with at release.
 - Power Output uses **100hp buckets**: `0-100`, `101-200`, `201-300`, `301-400`, `401-500`, `501-600`, `601-700`, `701-800`, `801-900`, `901-1000`, `1000+`. A car with multiple engine options spans multiple buckets.
@@ -131,17 +150,22 @@ node scripts/derive-fields.mjs
 ### Curation Workflow
 1. Run `fetch-car-specs.mjs` — fills in drivetrain, transmission, fuel type, body style, HP from Car Query API
 2. Manually fill in `TODO` fields: engine_layout config (V/Inline/Flat), car_class, pop_culture, price, image_url
-3. Set `production_end` to the **first generation** end year (not the nameplate's final year)
+3. Set `production_end` to the end year of **the generation being curated** (not the nameplate's final year)
 4. Run `derive-fields.mjs` to recompute `decades` and `power_output_ranges`
 
 ### Curation Rules
 - HP figures pre-1972 are gross ratings (engine on stand); post-1972 are net (SAE). Use whichever figure is commonly cited in enthusiast references for consistency.
 - `body_style` is a single value — pick the primary/most iconic body for that model (e.g., Mustang → Coupe, not Fastback or Convertible)
 - `manufacturer_still_active` refers to the **brand**, not the specific model
-- Production years and engine options use the **global launch**, not the US launch (Prius 1997, not 2001; Kicks 2016, not 2018). Record the full launch line-up, including engines never sold in the US — that is what widens `fuel_type` and `power_output_ranges` correctly.
+- Production years use the **global launch**, not the US launch (Prius 1997, not 2001; Kicks 2016, not 2018). This covers the same car reaching a market later — it does not pull in an earlier car sold under a different name, so the VW Taos starts in 2020 even though the Tharu it restyles has been built in China since 2018.
+- Record the full line-up for the generation, including engines never sold in the US — that is what widens `fuel_type` and `power_output_ranges` correctly.
+- **Never invent a power figure to fill a range.** If a source documents one engine and lists others without outputs, record only the documented one and say so, as `kia-sorento-g1` does. A guessed floor is how a record ends up claiming a 99 hp V6.
 - `make` and `brands[]` use canonical display spelling from `scripts/make-names.mjs` ("BMW", not "Bmw"). Brand matching is exact string equality, so run `node scripts/normalize-makes.mjs` after any batch add.
 - `generation` counts generations of the **nameplate as curated**, and the number must be truthful: the 1967–76 Dart is `dodge-dart-g4`, not `-g1`. A dataset may hold `-g4` without holding `-g1`.
 - Muscle Car is applied when a nameplate's performance variant is its defining identity in enthusiast culture (Chevelle SS → Malibu, GTS/340 → Dart), even though base models were ordinary.
+- **Road cars only.** A record must be a vehicle sold to the public for road use. Pure competition cars are excluded — they were never sold, never
+registered, and a player cannot reasonably be expected to guess them.
+- **Homologation specials are valid**: a road-going version built to qualify a car for a racing class is a road car, and usually a famous one (Lancia Delta HF Integrale, Ford RS200, Nissan Skyline GT-R, Porsche 959, BMW M3 E30). The test is whether a road-legal version was sold, not how many were built. Excluded by this rule: `nissan-r390-gt1-g1` (the Le Mans GT1 entry — one road car existed as a homologation formality but was never sold), Ferrari's FXX and Vulcan-style track-only specials, and any "Rally"/"GT1"/"DTM"/"Group B prototype" row that never reached a showroom.
 
 ### `car_class` Enum (frozen)
 
@@ -163,8 +187,10 @@ node scripts/derive-fields.mjs
 - `Hatchback` — non-performance hatchbacks
 - `Wagon` — estates; shooting brakes deferred here for now
 - `Minivan` — people carriers
+- `Van` — commercial-derived vans, panel vans and microvans (Transit, Econoline, Express, Savana, ProMaster, Vandura, Damas). Used as both `body_style` and `car_class`
 
 **Boundary decisions**
+- Van vs Minivan: a Minivan was designed to carry people (Odyssey, Caravan); a Van is a commercial vehicle, whether or not the example at hand has seats. `docs/BRAND-PASS.md` used to exclude vans outright because there was no value for them — that exclusion is withdrawn
 - Muscle Car must be American — a Japanese or European performance coupe is Sports Car regardless of engine size
 - Sports Car vs Supercar: exotic manufacturer = Supercar by default; use 500+ hp as tiebreaker for ambiguous cases
 - Dodge Viper → Supercar (purpose-built exotic despite being American)
@@ -227,6 +253,9 @@ The app is intentionally lightweight and mostly client-side:
 - **Grid logic** — a 3x3 grid with a row parameter and column parameter per axis; players guess which car satisfies both parameters for a cell. Gameplay and generation now share `src/lib/parameters.mjs`, re-exported by `scripts/grid-params.mjs`. Add parameter types to `src/lib/types.ts` and shared matching/value/label/tier rules together.
 - **Daily rotation** — the schedule is **pre-generated and committed** to `data/grids.json` by `scripts/generate-grids.mjs`, not derived at runtime, so an archived grid cannot change when the car dataset does. Dates roll over at the player's *local* midnight (`src/lib/date.ts`) — never `toISOString()`, which would flip the grid at 8pm ET.
 - **Grid solvability** — a grid is only valid if every cell has at least 3 answers *and* 9 **distinct** cars can fill the 9 cells. Per-cell counts alone are not enough, because the autocomplete bars reusing a car; the generator proves it with a bipartite perfect matching. `scripts/validate-grids.mjs` re-checks the whole schedule and must be run after any `cars.json` edit.
+- **Grids are built, not guessed.** The generator pairs every two categories once into a compatibility table (does their square hold `minCell` cars without being a giveaway?), then assembles grids by only ever picking partners that table approves — so all nine cells are valid by construction and the per-cell check is redundant. Each date also gets a **featured category** from an even rotation, which is what guarantees breadth: an under-used category appears because its turn came up, not because a random draw got lucky. The long comment at the top of `generate-grids.mjs` has the measurements, including why the previous random-draw search got *worse* as the catalog grew and left a third of the categories permanently unreachable. **Do not replace this with a random search, and do not try to fix category coverage by adjusting the score** — that was tried and provably cannot work, because a losing category never reaches the scorer at all.
+- **Two categories on one axis must not be interchangeable.** `maxSameType` only counts *types*, so it misses cross-type clashes: "SUV" is both a `body_style` and a `car_class`, "Electric" both an `engine_layout` and a `fuel_type`. Without a check, an axis renders as `SUV | Inline-4 | SUV` — two columns a player cannot tell apart; 11 of 736 scheduled grids had one. `trioDistinct` in the generator rejects a trio with a repeated label, or with two categories covering exactly the same cars. Cross-*axis* duplicates need no check, because that square would be the whole of both categories and the compatibility table already rejects it as a giveaway.
+- **A category needs three workable partners to appear at all.** With `minCell: 3`, a category crossing a 3-category axis needs three partners that each yield a 3-answer square, so a narrow category (Plug-in Hybrid, 8 cars, 2 partners) is unusable no matter how interesting it is. `generate-grids.mjs --report` lists what is unreachable and what is one partner away, which makes it the data-collection to-do list: prefer a new category that crosses many existing ones over one that is merely novel.
 - **Archive** — `/archive` lists past dates, `/archive/[date]` replays one. `localStorage` is keyed by date and discards state when the grid id changes, so replays need no extra storage.
 - **Client-only game** — `GameClient`/`ArchiveListClient` load their component with `next/dynamic` and `ssr: false`, which lets `localStorage` and the local clock be read in a `useState` initializer rather than a mount effect (React 19 flags that as a cascading render) and rules out hydration mismatches on the date.
 - **State persistence** — user ID (UUID), guesses, and score history stored in `localStorage`; no login required

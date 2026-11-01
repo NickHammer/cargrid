@@ -22,6 +22,8 @@ export const MATCH = {
   engine_position: (c, v) => c.engine_position === v,
   displacement: (c, v) => displacementValues(c).includes(v),
   cylinder_count: (c, v) => cylinderValues(c).includes(v),
+  region: (c, v) => regionValues(c).includes(v),
+  parent_group: (c, v) => parentGroupValues(c).includes(v),
 };
 
 /** @type {Record<import('./types').ParameterType, (car: import('./types').Car) => string[]>} */
@@ -43,7 +45,95 @@ export const VALUES = {
   engine_position: (c) => c.engine_position ? [c.engine_position] : [],
   displacement: displacementValues,
   cylinder_count: cylinderValues,
+  region: regionValues,
+  parent_group: parentGroupValues,
 };
+
+/**
+ * Continent-level origin, derived from `country_of_origin` rather than stored,
+ * so it cannot drift from it.
+ *
+ * This exists because the identity axis was the narrowest part of the game:
+ * every grid needs three identity categories and there were only three types to
+ * draw them from (brand, country, decade). Region adds breadth where it is
+ * scarcest. Country implies region — every German car is European — so those
+ * squares are rejected as giveaways by the generator's implied-cell rule, and
+ * two of them on one axis take the overlap penalty.
+ *
+ * An unmapped country yields no region, which is the safe direction: a new
+ * country simply has no region until it is added here.
+ */
+const REGION_BY_COUNTRY = {
+  American: "North American",
+  Austrian: "European",
+  British: "European",
+  Croatian: "European",
+  Czech: "European",
+  Danish: "European",
+  Dutch: "European",
+  French: "European",
+  German: "European",
+  Italian: "European",
+  Romanian: "European",
+  Russian: "European",
+  Swedish: "European",
+  Chinese: "Asian",
+  Japanese: "Asian",
+  "South Korean": "Asian",
+  Vietnamese: "Asian",
+  Australian: "Oceanian",
+};
+
+/** @param {import('./types').Car} car */
+function regionValues(car) {
+  const region = REGION_BY_COUNTRY[car.country_of_origin];
+  return region ? [region] : [];
+}
+
+/**
+ * Corporate parent, as of 2026 — a point-in-time fact, not a historical one.
+ * A Lancia built in 1972 is mapped to Stellantis because that is who owns the
+ * marque now, which is how players think about "who makes it".
+ *
+ * Only genuine multi-marque parents are listed. A brand whose parent owns no
+ * other marque would produce a group with exactly the brand's own cars, which
+ * is a duplicate category rather than a new one.
+ *
+ * Deliberate exclusions:
+ *   - Subaru and Mazda. Toyota holds minority stakes (~20% and ~5%); neither is
+ *     a subsidiary, and folding them into "Toyota Group" would be wrong.
+ *   - Bugatti. Majority-owned by Bugatti Rimac since 2021, so it is no longer
+ *     a VW Group marque.
+ *   - Ferrari, Aston Martin, McLaren, Tesla, Rivian, Rimac, BYD, Koenigsegg,
+ *     Pagani, Isuzu, TVR — independent, or sole marque of their owner.
+ */
+const PARENT_GROUP_BY_BRAND = {
+  Audi: "VW Group", Bentley: "VW Group", Lamborghini: "VW Group",
+  Porsche: "VW Group", Volkswagen: "VW Group",
+  "Alfa Romeo": "Stellantis", Chrysler: "Stellantis", Dodge: "Stellantis",
+  Lancia: "Stellantis", Maserati: "Stellantis", Peugeot: "Stellantis",
+  Plymouth: "Stellantis",
+  Buick: "General Motors", Chevrolet: "General Motors", GMC: "General Motors",
+  Pontiac: "General Motors",
+  Ford: "Ford Motor Company", Lincoln: "Ford Motor Company",
+  Acura: "Honda Motor", Honda: "Honda Motor",
+  Datsun: "Renault-Nissan-Mitsubishi", Infiniti: "Renault-Nissan-Mitsubishi",
+  Mitsubishi: "Renault-Nissan-Mitsubishi", Nissan: "Renault-Nissan-Mitsubishi",
+  Renault: "Renault-Nissan-Mitsubishi",
+  BMW: "BMW Group", MINI: "BMW Group", "Rolls-Royce": "BMW Group",
+  Hyundai: "Hyundai Motor Group", Kia: "Hyundai Motor Group",
+  Jaguar: "Tata Motors", "Land Rover": "Tata Motors",
+  Volvo: "Geely",
+  Lexus: "Toyota Motor", Toyota: "Toyota Motor",
+};
+
+/** @param {import('./types').Car} car */
+function parentGroupValues(car) {
+  return [...new Set(car.brands.flatMap((b) => {
+    const group = PARENT_GROUP_BY_BRAND[b];
+    return group ? [group] : [];
+  }))];
+}
 
 // Exact cc boundaries; electric cars never acquire a fictional 0 L engine.
 export const DISPLACEMENT_BUCKETS = [
@@ -98,10 +188,15 @@ export const TIER = {
   transmission: 3, fuel_type: 3,
   pop_culture: 3, price_at_launch: 3, manufacturer_still_active: 3,
   aspiration: 2, engine_position: 1, displacement: 2, cylinder_count: 1,
+  // Tier 2, not 1: both are broader than the category they generalise, so they
+  // make easier puzzles than Brand or Country and should not outrank them.
+  region: 2, parent_group: 2,
 };
 
 /** Identity-flavoured types — CLAUDE.md asks one axis to lean this way. */
-export const IDENTITY_TYPES = new Set(["brand", "country_of_origin", "decade"]);
+export const IDENTITY_TYPES = new Set([
+  "brand", "country_of_origin", "decade", "region", "parent_group",
+]);
 
 export const PARAMETER_TYPES = Object.keys(MATCH);
 

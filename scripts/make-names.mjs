@@ -25,6 +25,12 @@ export const DISPLAY_MAKE = {
   "am general": "AM General",
   "ds": "DS",
   "byd": "BYD",
+  // Added for the 2026-11 bulk import. Title-casing mangles all four:
+  // "Ruf", "Seat", "Ss", "Ssangyong".
+  "ruf": "RUF",
+  "seat": "SEAT",
+  "ss": "SS",
+  "ssangyong": "SsangYong",
   "nio": "NIO",
   "jac": "JAC",
   "faw": "FAW",

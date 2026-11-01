@@ -56,7 +56,9 @@ export type ParameterType =
   | "aspiration"
   | "engine_position"
   | "displacement"
-  | "cylinder_count";
+  | "cylinder_count"
+  | "region"
+  | "parent_group";
 
 export interface GridParameter {
   type: ParameterType;

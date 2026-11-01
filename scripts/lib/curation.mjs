@@ -3,7 +3,7 @@ import { deriveDecades, derivePowerRanges } from "../derive-fields.mjs";
 import { MATCH, VALUES, IDENTITY_TYPES } from "../grid-params.mjs";
 import { canonicalMakeName } from "../make-names.mjs";
 
-export const CAR_CLASSES = ["Muscle Car", "Sports Car", "Supercar", "Hypercar", "Hot Hatch", "SUV", "Off-Road", "Pickup Truck", "Sedan", "Coupe", "Hatchback", "Wagon", "Minivan"];
+export const CAR_CLASSES = ["Muscle Car", "Sports Car", "Supercar", "Hypercar", "Hot Hatch", "SUV", "Off-Road", "Pickup Truck", "Sedan", "Coupe", "Hatchback", "Wagon", "Minivan", "Van"];
 export const FACT_FIELDS = ["engine_position", "powertrains"];
 const required = ["id", "make", "model", "generation", "brands", "country_of_origin", "production_start", "production_end", "decades", "engine_layouts", "body_style", "drivetrain", "car_class", "power_output_hp_min", "power_output_hp_max", "power_output_ranges", "transmission", "fuel_type", "pop_culture", "price_at_launch_usd", "manufacturer_still_active", "image_url"];
 const arrays = ["brands", "decades", "engine_layouts", "drivetrain", "power_output_ranges", "transmission", "fuel_type"];
