@@ -36,6 +36,16 @@ for (const id of ids) {
   if (reject) {
     delete credits[id].verified;
     credits[id].rejected = true;
+    // Remember which Commons file was turned down, so a re-fetch cannot serve
+    // the same photo again. Without this the search strategies are
+    // deterministic and hand back the identical reject — which is how one
+    // ivy-covered wreck was offered for two different Civic generations.
+    const source = credits[id].source;
+    if (source) {
+      const seen = new Set(credits[id].rejectedFiles ?? []);
+      seen.add(source);
+      credits[id].rejectedFiles = [...seen];
+    }
   } else {
     credits[id].verified = true;
     delete credits[id].rejected;

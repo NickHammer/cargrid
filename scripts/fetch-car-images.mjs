@@ -106,7 +106,154 @@ const PINNED_FILES = {
   // does, without opening the hood or going full rear/side.
   "buick-regal-gnx-g1": "Sloan Museum at Courtland Center December 2018 30 (1987 Buick GNX).jpg",
   "volkswagen-golf-gti-g2": "1987 Volkswagen Golf GTi 1.8 Front.jpg",
+
+  // Wave-1 review (the 66 cars added with the 264-car catalog). Every one of
+  // these resolved through the free-text search strategy, which is the weakest
+  // rung — it matches on words, not on the car. Four classes of failure showed
+  // up on the contact sheets:
+  //
+  //   wrong subject   "Ferrari Roma" hit a 1530s painting of Mary Magdalene
+  //                   arriving in Rome; "Mazda 3 2019" hit a Mazda CX-3.
+  //   wrong generation a year in the filename is the model year, not the
+  //                   generation: "2020 Elantra" is the last gen-6 AD, and
+  //                   "2012-2016 Boxster" is the 981, not the 718 this record
+  //                   describes.
+  //   wrong body      the 812 GTS is a spider, but the search landed on an 812
+  //                   Superfast coupe; same for the F430 Coupe vs Spider.
+  //   unusable frame  a bare Vanquish badge, two cars with the bonnet open, a
+  //                   derelict in a yard, an Austrian police Tiguan, and five
+  //                   rear-three-quarter shots. A rear view is near-impossible
+  //                   to guess from.
+  //
+  // Replacements are front-three-quarter shots of the right generation, picked
+  // by reading Commons filenames for a chassis code where one exists.
+  "aston-martin-db11-g1": "2017 Aston Martin DB11 V12 coupé, Lightning Silver, front right.jpg",
+  "aston-martin-vanquish-g2": "Geneva MotorShow 2013 - Aston Martin Vanquish.jpg",
+  "aston-martin-vantage-g2": "2019 Aston Martin Vantage, front left view (Greenwich 2018).jpg",
+  // Round 2 landed on an interior shot of the steering wheel: a Commons
+  // filename naming the model and engine says nothing about what is in frame.
+  "ferrari-458-g1": "2011 Ferrari 458 Italia DCT S-A 4.5 Front.jpg",
+  "ferrari-812-gts-g1": "2022 Ferrari 812GTS in Verde British, front left (Newark).jpg",
+  "ferrari-f430-g1": "2006 Ferrari F430 F1 (15803258744).jpg",
+  "ferrari-f8-spider-g1": "2022 Ferrari F8 Spider.jpg",
+  "ferrari-roma-g1": "2021 Ferrari Roma in Rosso Fiorano, front right.jpg",
+  "hyundai-elantra-g7": "2021 Hyundai Elantra SEL (Canada), front 8.28.21.jpg",
+  "hyundai-santa-fe-g5": "2024 Hyundai Santa Fe 2.5 GLS AWD in Creamy Pearl White, front left, 05-18-2024.jpg",
+  "jaguar-s-type-g1": "Jaguar S-Type Front Left.jpg",
+  // X150 is the chassis code for the 2006-2014 car; "Jaguar XK" alone pulls
+  // the 1996 XK8 and the 2005 show car.
+  "jaguar-xk-g2": "Jaguar X150 front 20080223.jpg",
+  "lamborghini-gallardo-g1": "Lamborghini Gallardo Nera 1.jpg",
+  // BP is the gen-4 Mazda3 chassis code, which is what keeps this off the CX-3.
+  // FASTBACK is the hatchback this record describes; round 2 found the right
+  // car but shot at night with the headlights on, which made a murky tile.
+  "mazda-3-g4": "Mazda3 FASTBACK XD Burgundy Selection (3DA-BP8P) front.jpg",
+  "mclaren-600lt-g1": "McLaren 600LT IMG 2954.jpg",
+  "mclaren-765lt-g1": "2021 McLaren 765LT Coupé in White, front right.jpg",
+  "pontiac-grand-prix-g1": "1964 Pontiac Grand Prix, front left, 06-16-2024.jpg",
+  // 982 is the 718 generation; the 981 it replaced looks similar enough that
+  // the model year in a filename is not enough to tell them apart.
+  "porsche-boxster-g4": "Porsche 718 Boxster T (front).jpg",
+  "porsche-cayman-g3": "Porsche 718 Cayman GTS (982c) front.jpg",
+  "volkswagen-tiguan-g3": "2025 Volkswagen Tiguan Highline R-Line 4MOTION in Oryx White Pearl, front left, 2025-05-18.jpg",
+
+  // Kia tranche. Search found the right nameplate but the wrong thing in frame:
+  // the Soul hit the "Diva" show concept photographed from behind, and the
+  // Stinger hit a close-up of the grille script.
+  "kia-optima-g3": "Silver Kia Optima in Dhaka Motor Show 2012.jpg",
+  // Free-text search finds almost no first-generation Sorento; the BL category
+  // is full of them.
+  "kia-sorento-g1": "'03-'06 Kia Sorento Limited.JPG",
+  "kia-soul-g1": "2010 Kia Soul 2.0L 4u in Vanilla Shake, Front Left, 2021-04-28.jpg",
+  "kia-stinger-g1": "2023 Kia Stinger GT-Line, front left, 07-21-2024.jpg",
+
+  // Subaru tranche. A22 is the first-generation Leone chassis code; search on
+  // the nameplate returned a rusted shell in a yard. VM is the first-generation
+  // Levorg; search returned a show car photographed with its tailgate open.
+  "subaru-leone-g1": "Subaru A22 Leone 4door 1400 CUSTOM (23110312463).jpg",
+  "subaru-levorg-g1": "Subaru LEVORG 2.0GT-S EyeSight (VMG) front.JPG",
+
+  // Muscle + EV tranche. 7 of 28 failed the contact-sheet review, all from the
+  // free-text search rung, in the same four classes seen on every earlier wave:
+  //
+  //   interiors   — "BYD Atto 3" and "Pontiac Firebird" both returned a
+  //                 dashboard-and-steering-wheel shot with no car visible.
+  //   rear views  — "Ford Mustang 2015" and "Tesla Model 3" returned rear
+  //                 three-quarters, the Model 3 in a packed auto-show hall.
+  //   not the car — "Tesla Model X" returned an open falcon-wing door behind a
+  //                 velvet rope, the body cropped out of frame entirely.
+  //   wrong car   — "Chevrolet Camaro 1993" found the Indy Pace Car in full
+  //                 livery in a crowded lot, which reads as a race car.
+  //
+  // Each replacement is a front-three-quarter of a plain example. Model years
+  // are pinned where a nameplate spans generations the search cannot tell
+  // apart.
+  "byd-atto-3-g1": "BYD Atto 3 front-left.jpg",
+  // A base 2000 coupe rather than the pace car or a Z28 — the fourth-gen
+  // F-body shape is the point, not the trim.
+  "chevrolet-camaro-g4": "2000 Chevrolet Camaro coupe, front right, 10-28-2022.jpg",
+  // 2018 is the S550 facelift, inside the 2015-2023 span of this record.
+  "ford-mustang-g6": "2018 Ford Mustang GT V8 5.0 facelift Front.jpg",
+  // Third-gen Firebird took three rounds. Free-text search returned an
+  // interior; the GTA file that replaced it turned out to be a rear
+  // three-quarter (full-width taillight bar, spoiler, exhaust); and the
+  // category's best-lit front shot is a hot rod with a blower through the hood.
+  // This one is a stock 1989 car, pop-ups closed, front three-quarter.
+  "pontiac-firebird-g3": "1989 Pontiac Firebird (9074822607).jpg",
+  "tesla-cybertruck-g1": "2024 Tesla Cybertruck, front left, 07-27-2024.jpg",
+  "tesla-model-3-g1":
+    "2019 Tesla Model 3 Long Range Dual Motor in Red Multi-Coat, front left, 2021-05-30.jpg",
+  "tesla-model-x-g1":
+    "2017 Tesla Model X 100D in Catalina White, Front Left, 04-30-2023.jpg",
+
+  // Honda brand pass. The Civic spans eleven generations that look broadly
+  // alike, so free-text search is near useless on it: 5 of 10 failed review,
+  // and the SAME photo of an ivy-covered abandoned car came back for both g4
+  // and g5. Commons files them by launch year — "Category:Honda Civic (1991)"
+  // — with a body-style subcategory under each, which is the reliable route.
+  // Each pin below is a stock example from that generation's hatchback
+  // subcategory, matching the Hatchback body these records carry.
+  "honda-civic-g3": "1984 Honda Civic 3 door, Cambridge.jpg",
+  "honda-civic-g4": "1990 Honda Civic 3 door 1.5I (8079904700).jpg",
+  // Neither the "1992 Honda Civic with a V6!" file from the same set
+  // (engine-swapped) nor "1992 Honda Civic (7601196922).jpg", which is a show
+  // car photographed with its bonnet open over the engine bay.
+  // In this photographer's series the trailing 01 is the front three-quarter
+  // and 02 is the rear — 02 was fetched first and came back as a rear shot.
+  "honda-civic-g5": "1993-1995 Honda Civic GLi 3-door hatchback (2011-11-17) 01.jpg",
+  "honda-civic-g6": "1998-2000 Honda Civic CXi 3-door hatchback (2009-11-17) 01.jpg",
+  "honda-civic-g11": "2022 Honda Civic Sport Touring, Front Right, 11-07-2021.jpg",
+
+  // Nissan wave. Both of these defeated four fetch rounds: the search ranked a
+  // single bad file top every time, and once rejected the guard left the car
+  // with no candidate at all rather than a worse one.
+  //   micra-march-g2: every round returned a close-up of the boot badge of a
+  //   "HOLIDAY" special edition — a photograph of lettering, not of a car.
+  //   skyline-g11: the V35 kept resolving to the current V37 via the bare
+  //   nameplate article, and Commons files most V35s as rear shots.
+  "nissan-micra-march-g2": "1999 Nissan Micra Inspiration (K11) - 1.0 16v (55PS) petrol manual - 2025-06-09, front left.jpg",
+  "nissan-skyline-g11": "2003 Nissan Skyline V35.jpg",
 };
+
+// Hand-picked pins live in data/curation/pinned-files.json so a human can add
+// them without editing this file. They win over the entries above, because a
+// person looked at the photo and the map above is only ever a previous guess.
+// Empty values are ignored, which lets the JSON carry a slot per car that
+// still needs one — see docs/IMAGES-WANTED.md.
+{
+  const path = "data/curation/pinned-files.json";
+  if (fs.existsSync(path)) {
+    const { pins = {} } = JSON.parse(fs.readFileSync(path, "utf8"));
+    let added = 0;
+    for (const [id, file] of Object.entries(pins)) {
+      if (typeof file === "string" && file.trim()) {
+        PINNED_FILES[id] = file.trim().replace(/^File:/i, "");
+        added++;
+      }
+    }
+    if (added) console.log(`${added} hand-picked pin(s) loaded from ${path}\n`);
+  }
+}
 
 // Generation-specific article titles. Missing/wrong guesses fall through to the
 // next strategy; "Make Model" is always the final fallback.
@@ -358,7 +505,13 @@ function scoreFile(fileName, car) {
     if (word.length > 1 && name.includes(word)) score += 3;
   }
   if (name.includes(car.make.toLowerCase())) score += 2;
-  if (/(front|side|profile|3-4|three.quarter)/.test(name)) score += 2;
+  // A front three-quarter is the tile this game wants. A pure side profile is
+  // not: cropped to 4:3 it loses the grille, which is most of what identifies
+  // a car at a glance. "side" and "profile" used to earn the same bonus as
+  // "front", which actively promoted the wrong shot — every side-on candidate
+  // across the Nissan, Lexus and Jeep waves was rejected on review.
+  if (/(front|3-4|three.quarter)/.test(name)) score += 3;
+  if (/(side|profile)/.test(name)) score -= 2;
   return score;
 }
 
@@ -395,6 +548,49 @@ async function download(url, destBase) {
 // --- candidate plan per car ------------------------------------------------
 
 /** Ordered list of {strategy, run} producing {file, article} candidates. */
+/**
+ * Chassis codes, read from data/incoming/models-by-generation.json.
+ *
+ * That file carries a `code` per generation, and where it holds a real chassis
+ * designation (XJ, W126, R33, X351, "80 Series") it is the single best search
+ * term available: it names one generation and cannot match another. Both image
+ * waves so far failed mainly on wrong generations, because a launch-year query
+ * only hints at the era.
+ *
+ * The field is inconsistent across brands, so it is filtered rather than
+ * trusted. Rejected: generation echoes ("3rd gen"), purely numeric Fiat/Abarth
+ * project numbers ("312", "348") which match nothing on Commons, and free text
+ * ("Nuova 500 based", "2nd gen (Brazil)"). A usable code has a letter in it,
+ * is short, and carries no parentheses.
+ *
+ * The file is optional — absent, the fetcher simply falls back to the
+ * launch-year queries it used before.
+ */
+const CHASSIS_CODES = (() => {
+  const index = new Map();
+  const path = "data/incoming/models-by-generation.json";
+  if (!fs.existsSync(path)) return index;
+  const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const usable = (code) => {
+    const c = (code ?? "").trim();
+    if (!c || c.length > 12) return false;
+    if (/gen\b|\(|\)|based|original/i.test(c)) return false;
+    if (!/[a-z]/i.test(c)) return false;          // "312" is a project number
+    return /^[a-z0-9][a-z0-9 /.-]*$/i.test(c);
+  };
+  for (const row of JSON.parse(fs.readFileSync(path, "utf8"))) {
+    if (!usable(row.code)) continue;
+    const gen = Number(/^(\d+)/.exec(row.generation ?? "")?.[1] ?? 1);
+    index.set(`${slug(row.brand)}|${slug(row.model)}|${gen}`, row.code.trim());
+  }
+  return index;
+})();
+
+function chassisCode(car) {
+  const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
+  return CHASSIS_CODES.get(`${slug(car.make)}|${slug(car.model)}|${car.generation}`) ?? null;
+}
+
 function planFor(car) {
   const plan = [];
   if (PINNED_FILES[car.id]) {
@@ -416,8 +612,13 @@ function planFor(car) {
     });
   }
   const end = car.production_end ?? new Date().getFullYear();
+  const chassis = chassisCode(car);
   const queries = [
     ...(SEARCH_HINTS[car.id] ?? []),
+    // A chassis code names one generation and nothing else, so it beats a
+    // launch-year query that only hints at the era. "Jeep Cherokee XJ" cannot
+    // come back as a KL; "Jeep Cherokee 1984" frequently does.
+    ...(chassis ? [`${car.make} ${car.model} ${chassis}`, `${car.make} ${chassis}`] : []),
     `${car.make} ${car.model} ${car.production_start}`,
     `${car.make} ${car.model} ${Math.min(car.production_start + 2, end)}`,
   ];
@@ -428,11 +629,20 @@ function planFor(car) {
       run: async () => bestOf(await searchFiles(q), car, `Commons search: ${q}`),
     });
   }
-  plan.push({
-    strategy: "main-article",
-    label: `${car.make} ${car.model}`,
-    run: () => pageImage(`${car.make} ${car.model}`),
-  });
+  // Last resort, and only for a car still in production. The bare "Make Model"
+  // article leads with the CURRENT generation, so this strategy is right for
+  // the newest record of a nameplate and reliably wrong for every older one.
+  // Measured over the Nissan and Lexus waves: it produced a 2010s Y62 Patrol
+  // for a 1980 record, a 2016 Maxima for a 2004 record, an R34 GT-R for a 1973
+  // record and a 2014 Skyline for a 2001 record — while being correct for
+  // patrol-g5, skyline-g13 and navara-g2, all of which are current.
+  if (car.production_end === null) {
+    plan.push({
+      strategy: "main-article",
+      label: `${car.make} ${car.model}`,
+      run: () => pageImage(`${car.make} ${car.model}`),
+    });
+  }
   return plan;
 }
 
@@ -466,6 +676,7 @@ console.log(`Fetching images for ${targets.length} car(s)…\n`);
 let ok = 0, missed = 0;
 for (const car of targets) {
   let done = false;
+  const rejectedFiles = new Set(credits[car.id]?.rejectedFiles ?? []);
   for (const step of planFor(car)) {
     if (done) break;
     try {
@@ -473,6 +684,13 @@ for (const car of targets) {
       if (!candidate) continue;
       const info = await commonsInfo(candidate.file);
       if (!info) continue; // not on Commons — likely non-free, skip
+      // A file turned down for this car during review must not come back. The
+      // strategies are deterministic, so without this a re-fetch returns the
+      // same reject and the review loop never terminates.
+      if (rejectedFiles.has(info.source)) {
+        console.log(`  · ${car.id} skipping previously rejected ${candidate.article}`);
+        continue;
+      }
       const dest = await download(info.thumbUrl, path.join(OUT_DIR, car.id));
       credits[car.id] = {
         file: "/" + path.relative("public", dest).replace(/\\/g, "/"),
@@ -482,6 +700,9 @@ for (const car of targets) {
         licenseUrl: info.licenseUrl,
         artist: info.artist,
         source: info.source,
+        // Carried across the overwrite: the reject history belongs to the car,
+        // not to whichever candidate happens to be current.
+        ...(rejectedFiles.size ? { rejectedFiles: [...rejectedFiles] } : {}),
       };
       console.log(`+ ${car.id} <- ${candidate.article} [${info.license}] (${step.strategy})`);
       ok++;
