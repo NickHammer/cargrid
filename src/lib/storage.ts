@@ -1,6 +1,6 @@
 import type { GameState } from "./types";
 
-const PREFIX = "cargrid-state-";
+export const PREFIX = "cargrid-state-";
 
 function key(date: string): string {
   return `${PREFIX}${date}`;

@@ -2,6 +2,9 @@
 
 import { useState, useMemo, useCallback, useEffect, useRef } from "react";
 import Link from "next/link";
+import SiteFooter from "@/components/SiteFooter";
+import ShareResult from "@/components/ShareResult";
+import HowToPlay from "@/components/HowToPlay";
 import Grid from "./Grid";
 import GuessInput from "./GuessInput";
 import type { Car, GameState } from "@/lib/types";
@@ -16,6 +19,7 @@ import {
 import { allCars } from "@/lib/cars";
 import { getGridForDate } from "@/lib/grids";
 import { loadGameState, saveGameState } from "@/lib/storage";
+import { loadStats } from "@/lib/stats";
 import { localDateString, formatDisplayDate } from "@/lib/date";
 import { track } from "@/lib/analytics";
 import { useDailyRollover } from "@/lib/useDailyRollover";
@@ -105,6 +109,16 @@ export default function Game({ date: dateProp, isArchive = false }: Props) {
     });
   }, [date, grid, isArchive, state]);
 
+  // All-time stats, derived from the finished boards already in localStorage.
+  // Only read once the board is over, because that is the only place they are
+  // shown — and reading on every render would scan storage nine times a game.
+  // `date` is in the deps on purpose, though loadStats() does not read it:
+  // finishing one archive board and then opening another already-finished one
+  // leaves `gameOver` true the whole time, and without `date` the panel would
+  // still be showing the stats from before the first board was counted.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const stats = useMemo(() => (gameOver ? loadStats() : null), [gameOver, date]);
+
   const handleCellClick = useCallback((row: number, col: number) => {
     setSelectedCell({ row, col });
     setLastResult(null);
@@ -188,51 +202,53 @@ export default function Game({ date: dateProp, isArchive = false }: Props) {
   const activeCol = selectedCell ? grid.columns[selectedCell.col] : null;
 
   return (
-    <div className="flex min-h-[100dvh] flex-col bg-gray-950 px-3 py-3 sm:px-4">
+    <div className="flex min-h-[100dvh] flex-col px-3 py-3 sm:px-4">
       {/* Compact top bar — wordmark + date left, stats right, so the grid gets
           the vertical space instead of a stacked header. */}
       <header className="mx-auto flex w-full max-w-5xl flex-wrap items-center justify-between gap-x-6 gap-y-2 pb-3">
-        <div className="flex items-baseline gap-3">
-          <h1 className="text-xl font-bold tracking-tight text-white sm:text-2xl">
-            Car<span className="text-amber-400">Grid</span>
-          </h1>
-          <span className="text-xs text-gray-500 sm:text-sm">
+        <div className="flex items-center gap-3">
+          <div>
+            <h1 className="font-display text-2xl uppercase leading-none tracking-tight text-ink sm:text-3xl">
+              Car
+              <span className="bg-gradient-to-br from-hazard-400 to-hazard-600 bg-clip-text text-transparent">
+                Grid
+              </span>
+            </h1>
+            {/* Stoplight: red, amber, then green — which holds. */}
+            <div className="mt-1.5 flex items-center gap-1.5" aria-hidden="true">
+              <span className="lamp lamp-stop" />
+              <span className="lamp lamp-wait" />
+              <span className="lamp lamp-go" />
+            </div>
+          </div>
+          <span className="self-end pb-0.5 text-xs font-medium text-ink-dim sm:text-sm">
             {formatDisplayDate(date)}
             {isArchive && " · Archive"}
           </span>
         </div>
 
         <div className="flex items-center gap-4 text-sm">
+          <HowToPlay />
           <Stat label="Solved" value={`${solved}/9`} />
           <Stat
             label="Left"
             value={String(guessesLeft)}
-            tone={guessesLeft <= 2 ? "text-red-400" : "text-white"}
+            tone={guessesLeft <= 2 ? "text-stop-400" : "text-ink"}
           />
           <Stat label="Guesses" value={String(state.guessesUsed)} />
-          <nav className="ml-1 hidden items-center gap-3 text-xs text-gray-500 sm:flex">
-            {!isArchive && (
-              <Link href="/archive" className="hover:text-amber-400">
-                Archive
-              </Link>
-            )}
-            <Link href="/credits" className="hover:text-amber-400">
-              Credits
-            </Link>
-          </nav>
         </div>
       </header>
 
       {/* Grid */}
       <main className="flex flex-1 flex-col items-center justify-center">
         {pendingDate && (
-          <div className="mb-3 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 rounded-xl border border-amber-500/40 bg-amber-500/10 px-4 py-2 text-center text-sm">
-            <span className="text-amber-200">
+          <div className="mb-3 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 rounded-xl border border-hazard-500/40 bg-hazard-500/10 px-4 py-2 text-center text-sm">
+            <span className="text-hazard-400">
               A new grid is ready for {formatDisplayDate(pendingDate)}.
             </span>
             <button
               onClick={() => switchToDate(pendingDate)}
-              className="rounded-lg bg-amber-500 px-3 py-1 text-xs font-bold text-gray-950 hover:bg-amber-400"
+              className="btn-hazard px-3 py-1 text-xs"
             >
               Play it
             </button>
@@ -250,17 +266,50 @@ export default function Game({ date: dateProp, isArchive = false }: Props) {
 
         {/* Game over banner */}
         {gameOver && (
-          <div className="mt-4 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 rounded-xl border border-gray-800 bg-gray-900 px-5 py-3 text-center">
-            <p className="text-base font-bold text-white">
-              {solved === 9 ? "Perfect!" : `${solved}/9 solved`}
-            </p>
-            <p className="text-sm text-gray-400">
-              {state.guessesUsed} guess{state.guessesUsed !== 1 ? "es" : ""}
-              {state.guessesUsed > 0 && <> · {accuracyPercent(state)}% accuracy</>}
-            </p>
-            <p className="text-xs text-gray-500">
+          <div className="panel mt-4 flex w-full max-w-sm flex-col items-center gap-3 px-5 py-4 text-center">
+            <div>
+              <p className="font-display text-xl uppercase">
+                {solved === 9 ? (
+                  // Flare is used nowhere else — it should mean one thing only.
+                  <span className="bg-gradient-to-r from-flare-400 via-hazard-400 to-volt-400 bg-clip-text text-transparent">
+                    Perfect!
+                  </span>
+                ) : (
+                  <span className="text-ink">{solved}/9 solved</span>
+                )}
+              </p>
+              <p className="mt-0.5 text-sm text-ink-dim">
+                {state.guessesUsed} guess{state.guessesUsed !== 1 ? "es" : ""}
+                {state.guessesUsed > 0 && <> · {accuracyPercent(state)}% accuracy</>}
+              </p>
+            </div>
+
+            <ShareResult state={state} />
+
+            {stats && stats.played > 0 && (
+              <>
+                <div className="checker-rule w-full" />
+                <div className="flex w-full items-start justify-between gap-2">
+                  <Stat label="Played" value={String(stats.played)} />
+                  <Stat label="Solve rate" value={`${stats.solveRate}%`} />
+                  <Stat
+                    label="Streak"
+                    value={String(stats.currentStreak)}
+                    tone={stats.currentStreak > 0 ? "text-go-400" : "text-ink"}
+                  />
+                  <Stat label="Best" value={String(stats.bestStreak)} />
+                  <Stat
+                    label="Perfect"
+                    value={String(stats.perfect)}
+                    tone={stats.perfect > 0 ? "text-flare-400" : "text-ink"}
+                  />
+                </div>
+              </>
+            )}
+
+            <p className="text-xs text-ink-faint">
               {isArchive ? (
-                <Link href="/" className="text-amber-400 hover:text-amber-300">
+                <Link href="/" className="text-hazard-400 hover:text-hazard-500">
                   Play today&apos;s grid
                 </Link>
               ) : (
@@ -271,17 +320,7 @@ export default function Game({ date: dateProp, isArchive = false }: Props) {
         )}
       </main>
 
-      {/* Links repeat at the bottom on mobile, where the header has no room */}
-      <nav className="mt-3 flex justify-center gap-4 text-xs text-gray-600 sm:hidden">
-        {!isArchive && (
-          <Link href="/archive" className="hover:text-amber-400">
-            Archive
-          </Link>
-        )}
-        <Link href="/credits" className="hover:text-amber-400">
-          Image credits
-        </Link>
-      </nav>
+      <SiteFooter current={isArchive ? "archive" : "today"} />
 
       {/* Guess modal */}
       {selectedCell && !gameOver && (
@@ -289,21 +328,21 @@ export default function Game({ date: dateProp, isArchive = false }: Props) {
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4 backdrop-blur-sm"
           onClick={(e) => e.target === e.currentTarget && handleCloseModal()}
         >
-          <div className="w-full max-w-md rounded-2xl border border-gray-700 bg-gray-900 p-6 shadow-2xl">
+          <div className="panel w-full max-w-md p-6 shadow-2xl">
             <div className="mb-4 flex items-start justify-between">
               <div>
-                <p className="text-xs font-medium uppercase tracking-widest text-gray-500">
+                <p className="text-xs font-medium uppercase tracking-widest text-ink-faint">
                   Find a car that is…
                 </p>
-                <p className="mt-1 text-lg font-bold text-white">
-                  <span className="text-amber-400">{activeRow?.label}</span>
+                <p className="font-display mt-1 text-lg text-ink">
+                  <span className="text-hazard-400">{activeRow?.label}</span>
                   {" × "}
-                  <span className="text-amber-400">{activeCol?.label}</span>
+                  <span className="text-hazard-400">{activeCol?.label}</span>
                 </p>
               </div>
               <button
                 onClick={handleCloseModal}
-                className="ml-4 rounded-lg p-1 text-gray-500 hover:text-white"
+                className="ml-4 rounded-lg p-1 text-ink-faint transition-colors hover:text-ink"
                 aria-label="Close"
               >
                 ✕
@@ -311,14 +350,14 @@ export default function Game({ date: dateProp, isArchive = false }: Props) {
             </div>
 
             {lastResult === "incorrect" && (
-              <div className="mb-3 rounded-lg bg-red-900/40 px-3 py-2 text-sm text-red-400">
+              <div className="mb-3 rounded-lg border border-stop-400/30 bg-stop-400/10 px-3 py-2 text-sm text-stop-400">
                 Not quite — try another car.
               </div>
             )}
 
             <GuessInput onSelect={handleGuess} usedCarIds={usedCarIds} />
 
-            <p className="mt-4 text-center text-xs text-gray-500">
+            <p className="mt-4 text-center text-xs text-ink-faint">
               {guessesLeft} guess{guessesLeft !== 1 ? "es" : ""} remaining
             </p>
           </div>
@@ -328,11 +367,11 @@ export default function Game({ date: dateProp, isArchive = false }: Props) {
   );
 }
 
-function Stat({ label, value, tone = "text-white" }: { label: string; value: string; tone?: string }) {
+function Stat({ label, value, tone = "text-ink" }: { label: string; value: string; tone?: string }) {
   return (
     <div className="text-center leading-tight">
       <div className={`text-sm font-bold sm:text-base ${tone}`}>{value}</div>
-      <div className="text-[10px] uppercase tracking-wide text-gray-500">{label}</div>
+      <div className="text-[10px] uppercase tracking-wide text-ink-faint">{label}</div>
     </div>
   );
 }

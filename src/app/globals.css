@@ -1,26 +1,278 @@
 @import "tailwindcss";
 
+/* ---------------------------------------------------------------------------
+   CarGrid design language — "pit lane"
+   ---------------------------------------------------------------------------
+   The game had Tailwind defaults: gray-950 background, amber-400 accents. It
+   worked but read as a form, not a game. This gives it a motorsport identity
+   without touching any game logic — everything here is colour, type, texture
+   and motion.
+
+   Three ideas carry it:
+     1. Asphalt, not grey. The base is a warm-black with a faint noise//grain
+        so large dark areas do not look like flat dead space.
+     2. One hot accent, used sparingly. Amber-to-orange, the colour of a
+        hazard light, reserved for the things you can act on.
+     3. Racing furniture. Checkered flag edges, speed lines, a start-light
+        column. These are decoration, and they stay out of the way of the
+        photographs, which are the actual content.
+--------------------------------------------------------------------------- */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Asphalt base */
+  --asphalt-900: #0b0c0f;
+  --asphalt-800: #121419;
+  --asphalt-700: #1b1e26;
+  --asphalt-600: #262a35;
+  --asphalt-500: #3a404f;
+
+  /* Hazard accent */
+  --hazard-400: #ffc53d;
+  --hazard-500: #ff9d00;
+  --hazard-600: #f97316;
+
+  /* Volt — the cold counterweight to the hazard amber. Column axes use it so
+     the two axes of the grid are told apart by colour, not just position. */
+  --volt-400: #38e2f0;
+  --volt-500: #06b6d4;
+
+  /* Flare — reserved for the rarest thing on screen: a perfect game. */
+  --flare-400: #f472b6;
+  --flare-500: #ec4899;
+
+  /* Stoplight. Real signal colours, used for the gantry and for state. */
+  --stop-400: #ff5a5f;
+  --stop-500: #ef4444;
+  --wait-400: #ffc53d;
+  --wait-500: #f0a500;
+  --go-400: #34d399;
+  --go-500: #10b981;
+
+  --ink: #f4f6fb;
+  --ink-dim: #9aa3b5;
+  --ink-faint: #646d80;
+
+  --background: var(--asphalt-900);
+  --foreground: var(--ink);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-asphalt-900: var(--asphalt-900);
+  --color-asphalt-800: var(--asphalt-800);
+  --color-asphalt-700: var(--asphalt-700);
+  --color-asphalt-600: var(--asphalt-600);
+  --color-asphalt-500: var(--asphalt-500);
+  --color-hazard-400: var(--hazard-400);
+  --color-hazard-500: var(--hazard-500);
+  --color-hazard-600: var(--hazard-600);
+  --color-go-400: var(--go-400);
+  --color-go-500: var(--go-500);
+  --color-stop-400: var(--stop-400);
+  --color-stop-500: var(--stop-500);
+  --color-wait-400: var(--wait-400);
+  --color-wait-500: var(--wait-500);
+  --color-volt-400: var(--volt-400);
+  --color-volt-500: var(--volt-500);
+  --color-flare-400: var(--flare-400);
+  --color-flare-500: var(--flare-500);
+  --color-ink: var(--ink);
+  --color-ink-dim: var(--ink-dim);
+  --color-ink-faint: var(--ink-faint);
+  --font-display: var(--font-display);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body {
+  background: var(--asphalt-900);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  /* Asphalt grain: two offset radial gradients at very low alpha. Cheap, and
+     it stops the large dark areas reading as flat black. */
+  background-image:
+    radial-gradient(circle at 12% 8%, rgba(255, 157, 0, 0.07), transparent 42%),
+    radial-gradient(circle at 88% 20%, rgba(6, 182, 212, 0.06), transparent 40%),
+    radial-gradient(circle at 70% 92%, rgba(236, 72, 153, 0.05), transparent 42%);
+  background-attachment: fixed;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* --- Type ---------------------------------------------------------------- */
+
+.font-display {
+  font-family: var(--font-display), var(--font-geist-sans), sans-serif;
+  letter-spacing: -0.01em;
+}
+
+/* --- Checkered flag ------------------------------------------------------ */
+/* A 2-square repeating conic gradient. Used as a thin rule, never as a field,
+   because at any real size it vibrates badly against the photographs. */
+
+.checker-rule {
+  height: 6px;
+  background-image:
+    conic-gradient(var(--ink) 25%, transparent 0 50%, var(--ink) 0 75%, transparent 0);
+  background-size: 12px 12px;
+  opacity: 0.18;
+}
+
+/* --- Surfaces ------------------------------------------------------------ */
+
+.panel {
+  background: linear-gradient(180deg, var(--asphalt-800), var(--asphalt-900));
+  border: 1px solid var(--asphalt-600);
+  border-radius: 1rem;
+}
+
+/* Axis label chips, coloured by axis. Rows run amber, columns run volt, so a
+   glance at a chip tells you which way it reads — useful once the board fills
+   with photographs and the labels are the only text left. */
+.axis-chip {
+  background: linear-gradient(135deg, var(--asphalt-700), var(--asphalt-800));
+  border: 1px solid var(--asphalt-600);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  /* Padding and wrapping live here, not in utility classes, because the two
+     variants carry a 3px coloured edge that has to be padded away from the
+     text. The longest real labels are single words ("Turbocharged",
+     "Naturally Aspirated", "Manufacturer Active") that are wider than the
+     label column, so they must be allowed to break mid-word; `hyphens: auto`
+     puts a hyphen in rather than splitting blind, and `anywhere` is the
+     fallback for a word the hyphenation dictionary does not know. */
+  padding: 0.45rem 0.5rem;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+  /* Tracking costs roughly a character of width per 10 characters, which is
+     the difference between fitting and not at this column width. */
+  letter-spacing: 0;
+}
+
+.axis-chip-row {
+  border-left: 3px solid var(--hazard-500);
+  color: var(--hazard-400);
+  padding-left: 0.6rem;
+}
+
+.axis-chip-col {
+  border-top: 3px solid var(--volt-500);
+  color: var(--volt-400);
+  padding-top: 0.5rem;
+}
+
+/* --- Tiles --------------------------------------------------------------- */
+
+.tile {
+  background: linear-gradient(180deg, var(--asphalt-700), var(--asphalt-800));
+  border: 2px solid var(--asphalt-600);
+  transition: transform 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+}
+
+.tile-open:hover {
+  transform: translateY(-3px);
+  border-color: var(--hazard-500);
+  box-shadow: 0 10px 24px -10px rgba(255, 157, 0, 0.55);
+}
+
+.tile-open:active {
+  transform: translateY(0) scale(0.97);
+}
+
+.tile-solved {
+  border-color: var(--go-500);
+  box-shadow: 0 0 0 1px rgba(16, 185, 129, 0.35), 0 8px 26px -12px rgba(16, 185, 129, 0.75);
+}
+
+/* The sweep that runs across a tile the moment it is solved. Purely a reward
+   cue; it plays once and leaves no transform behind. */
+@keyframes tile-sweep {
+  from { transform: translateX(-120%) skewX(-18deg); opacity: 0.85; }
+  to   { transform: translateX(260%) skewX(-18deg); opacity: 0; }
+}
+
+.tile-sweep::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 42%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  animation: tile-sweep 700ms ease-out 1;
+  pointer-events: none;
+}
+
+/* --- Buttons ------------------------------------------------------------- */
+
+.btn-hazard {
+  background: linear-gradient(180deg, var(--hazard-400), var(--hazard-600));
+  color: #1a1206;
+  font-weight: 800;
+  border-radius: 0.65rem;
+  box-shadow: 0 6px 18px -8px rgba(255, 157, 0, 0.9);
+  transition: transform 120ms ease, filter 120ms ease;
+}
+
+.btn-hazard:hover { filter: brightness(1.08); transform: translateY(-1px); }
+.btn-hazard:active { transform: translateY(0) scale(0.98); }
+
+.btn-ghost {
+  border: 1px solid var(--asphalt-600);
+  background: var(--asphalt-800);
+  color: var(--ink-dim);
+  border-radius: 0.65rem;
+  transition: color 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+
+.btn-ghost:hover {
+  color: var(--hazard-400);
+  border-color: var(--hazard-500);
+  background: var(--asphalt-700);
+}
+
+/* --- Stoplight ----------------------------------------------------------- */
+/* Three lamps under the wordmark, run as a real signal: red, then amber, then
+   green, which stays lit. Each lamp dims to a dark version of its own colour
+   rather than to grey, so the unlit gantry still reads as a traffic light. */
+
+@keyframes lamp-stop {
+  0%, 18%   { background: var(--stop-500); box-shadow: 0 0 12px 2px rgba(239, 68, 68, 0.85); }
+  34%, 100% { background: #3a1416; box-shadow: none; }
+}
+
+@keyframes lamp-wait {
+  0%, 20%   { background: #3a2f10; box-shadow: none; }
+  30%, 52%  { background: var(--wait-500); box-shadow: 0 0 12px 2px rgba(240, 165, 0, 0.85); }
+  64%, 100% { background: #3a2f10; box-shadow: none; }
+}
+
+@keyframes lamp-go {
+  0%, 56%  { background: #0f2e24; box-shadow: none; }
+  70%, 100% { background: var(--go-500); box-shadow: 0 0 14px 3px rgba(16, 185, 129, 0.8); }
+}
+
+.lamp {
+  width: 9px;
+  height: 9px;
+  border-radius: 9999px;
+  animation-duration: 2.2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.lamp-stop { background: #3a1416; animation-name: lamp-stop; }
+.lamp-wait { background: #3a2f10; animation-name: lamp-wait; }
+.lamp-go   { background: #0f2e24; animation-name: lamp-go; }
+
+/* --- Motion preferences -------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .tile,
+  .btn-hazard,
+  .btn-ghost { transition: none; }
+  .tile-open:hover,
+  .btn-hazard:hover { transform: none; }
+  .tile-sweep::after,
+  .lamp { animation: none; }
+  .lamp-stop { background: var(--stop-500); }
+  .lamp-wait { background: var(--wait-500); }
+  .lamp-go { background: var(--go-500); }
 }
