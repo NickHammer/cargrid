@@ -6609,5 +6609,773 @@
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:2013_Cadillac_XTS_Federal_Coach.jpg"
     ]
+  },
+  "buick-cascada-g1": {
+    "file": "/cars/buick-cascada-g1.webp",
+    "article": "Commons search: Buick Cascada 2016",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Cutlass",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Buick_Cascada_Premium_in_Toasted_Coconut_Metallic,_front_right,_08-16-2026.jpg",
+    "verified": true
+  },
+  "buick-century-g1": {
+    "file": "/cars/buick-century-g1.webp",
+    "article": "Commons search: Buick Century 1936",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Don O'Brien from Piketon, Ohio, United States",
+    "source": "https://commons.wikimedia.org/wiki/File:1936_Buick_Century_coupe_(3887580377).jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1936_Buick_Century_coupe_(3887580377).jpg"
+    ]
+  },
+  "buick-century-g2": {
+    "file": "/cars/buick-century-g2.webp",
+    "article": "Commons search: Buick Century 1954",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "That Hartford Guy",
+    "source": "https://commons.wikimedia.org/wiki/File:1954_Buick_Century.jpg",
+    "verified": true
+  },
+  "buick-century-g3": {
+    "file": "/cars/buick-century-g3.webp",
+    "article": "Commons search: Buick Century 1973",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1973_Buick_Century_Gran_Sport_Stage_I,_front_right_(Greenwich_2018).jpg",
+    "verified": true
+  },
+  "buick-century-g4": {
+    "file": "/cars/buick-century-g4.webp",
+    "article": "Commons search: Buick Century 1978",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Raymond stout",
+    "source": "https://commons.wikimedia.org/wiki/File:1978_Buick_Century_Special.jpg",
+    "verified": true
+  },
+  "buick-century-g5": {
+    "file": "/cars/buick-century-g5.webp",
+    "article": "Commons search: Buick Century 1982",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Elise240SX",
+    "source": "https://commons.wikimedia.org/wiki/File:1984_Buick_Century_Limited_Sedan_in_Silver,_Front_Right,_10-26-2022.jpg",
+    "verified": true
+  },
+  "buick-century-g6": {
+    "file": "/cars/buick-century-g6.webp",
+    "article": "Commons search: Buick Century 1997",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:2003_Buick_Century_Custom,_front_right,_08-30-2026.jpg",
+    "verified": true
+  },
+  "buick-electra-e5-g1": {
+    "file": "/cars/buick-electra-e5-g1.webp",
+    "article": "Commons search: Buick Electra E5 2023",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "User3204",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_SAIC-GM_Buick_Electra_E5_(front).jpg",
+    "verified": true
+  },
+  "buick-electra-g1": {
+    "file": "/cars/buick-electra-g1.webp",
+    "article": "Commons search: Buick Electra 1959",
+    "matched": "search",
+    "license": "CC BY-SA 2.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "artist": "Nimmerya",
+    "source": "https://commons.wikimedia.org/wiki/File:1959_Buick_Electra_225_Riviera_Sedan_front.JPG",
+    "verified": true
+  },
+  "buick-electra-g2": {
+    "file": "/cars/buick-electra-g2.webp",
+    "article": "Commons search: Buick Electra 1961",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Aos.1905",
+    "source": "https://commons.wikimedia.org/wiki/File:Buick_Electra_convertible_(1961)_(front_three-quarter_view,_left)_at_GLION_MUSEUM.jpg",
+    "verified": true
+  },
+  "buick-electra-g3": {
+    "file": "/cars/buick-electra-g3.webp",
+    "article": "Commons search: Buick Electra 1965",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Hedning",
+    "source": "https://commons.wikimedia.org/wiki/File:Buick_electra_225_1965_front_stockholm_2008.jpg",
+    "verified": true
+  },
+  "buick-electra-g4": {
+    "file": "/cars/buick-electra-g4.webp",
+    "article": "Commons search: Buick Electra 1971",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "c5karl, cropped and levels adjusted by uploader Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1971_Buick_Electra_225,_Seattle_(front).jpg",
+    "verified": true
+  },
+  "buick-electra-g5": {
+    "file": "/cars/buick-electra-g5.webp",
+    "article": "Commons search: Buick Electra 1979",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Bull-Doser",
+    "source": "https://commons.wikimedia.org/wiki/File:1979_Buick_Electra,_front_(Auto_classique_VAQ_Baie-D%27Urf%C3%A9_%2713).jpg",
+    "verified": true
+  },
+  "buick-electra-g6": {
+    "file": "/cars/buick-electra-g6.webp",
+    "article": "Commons search: Buick Electra 1985",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Riley from Christchurch, New Zealand",
+    "source": "https://commons.wikimedia.org/wiki/File:%221985_Oldsmobile_Cutlass_Ciera_Brougham%22_(but_really_a_Buick_Electra)_(31205356972).jpg",
+    "verified": true
+  },
+  "buick-enclave-g1": {
+    "file": "/cars/buick-enclave-g1.webp",
+    "article": "Commons search: Buick Enclave 2008",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Elise240SX",
+    "source": "https://commons.wikimedia.org/wiki/File:2008_Buick_Enclave_CXL,_Front_Left,_07-20-2021.jpg",
+    "verified": true
+  },
+  "buick-enclave-g2": {
+    "file": "/cars/buick-enclave-g2.webp",
+    "article": "Commons search: Buick Enclave 2018",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Buick_Enclave_Avenir_AWD_(white),_front_left.jpg",
+    "verified": true
+  },
+  "buick-enclave-g3": {
+    "file": "/cars/buick-enclave-g3.webp",
+    "article": "Commons search: Buick Enclave 2025",
+    "matched": "search",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "Deathpallie325",
+    "source": "https://commons.wikimedia.org/wiki/File:2025_Buick_Enclave_front_view.jpg",
+    "verified": true
+  },
+  "buick-encore-g1": {
+    "file": "/cars/buick-encore-g1.webp",
+    "article": "Commons search: Buick Encore 2013",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:2013_Buick_Encore,_dk_red,_front_left.jpg",
+    "verified": true
+  },
+  "buick-encore-gx-g1": {
+    "file": "/cars/buick-encore-gx-g1.webp",
+    "article": "Commons search: Buick Encore GX 2020",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:2020_Buick_Encore_GX_Select_AWD,_front_left.jpg",
+    "verified": true
+  },
+  "buick-envision-g1": {
+    "file": "/cars/buick-envision-g1.webp",
+    "article": "Commons search: Buick Envision 2016",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Buick_Envision,_front_right.jpg",
+    "verified": true
+  },
+  "buick-envision-g2": {
+    "file": "/cars/buick-envision-g2.webp",
+    "article": "Commons search: Buick Envision 2021",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Elise240SX",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_Buick_Envision_Essence_AWD,_Front_Left,_07-18-2021.jpg",
+    "verified": true
+  },
+  "buick-envista-g1": {
+    "file": "/cars/buick-envista-g1.webp",
+    "article": "Commons search: Buick Envista 2024",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:2024_Buick_Envista_Avenir_in_Summit_White,_front_right.jpg",
+    "verified": true
+  },
+  "buick-gran-sport-gs-g1": {
+    "file": "/cars/buick-gran-sport-gs-g1.webp",
+    "article": "Commons search: Buick Gran Sport / GS 1965",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1965_Buick_Riviera_Gran_Sport_in_Bamboo_Cream,_front_right.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1965_Buick_Riviera_Gran_Sport_in_Bamboo_Cream,_front_right.jpg"
+    ]
+  },
+  "buick-invicta-g1": {
+    "file": "/cars/buick-invicta-g1.webp",
+    "article": "Commons search: Buick Invicta 1959",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1960_Buick_Invicta_Custom_Estate_Wagon,_front_right_side.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1960_Buick_Invicta_Custom_Estate_Wagon,_front_right_side.jpg"
+    ]
+  },
+  "buick-lacrosse-g1": {
+    "file": "/cars/buick-lacrosse-g1.webp",
+    "article": "Commons search: Buick LaCrosse 2005",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:2005_Buick_LaCrosse_CX,_front_12.12.20.jpg",
+    "verified": true
+  },
+  "buick-lacrosse-g2": {
+    "file": "/cars/buick-lacrosse-g2.webp",
+    "article": "Commons search: Buick LaCrosse 2010",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Elise240SX",
+    "source": "https://commons.wikimedia.org/wiki/File:2010_Buick_LaCrosse_CX_in_Quicksilver_Metallic,_Front_Left,_2023-12-22.jpg",
+    "verified": true
+  },
+  "buick-lacrosse-g3": {
+    "file": "/cars/buick-lacrosse-g3.webp",
+    "article": "Commons search: Buick LaCrosse 2017",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "User3204",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_SAIC-GM_Buick_LaCrosse_(front).jpg",
+    "verified": true
+  },
+  "buick-lesabre-g1": {
+    "file": "/cars/buick-lesabre-g1.webp",
+    "article": "Commons search: Buick LeSabre 1959",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1959_Buick_LeSabre_2-door_hardtop,_front_right,_06-13-2026.jpg",
+    "verified": true
+  },
+  "buick-lesabre-g2": {
+    "file": "/cars/buick-lesabre-g2.webp",
+    "article": "Commons search: Buick LeSabre 1961",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1961_Buick_LeSabre_4-door_hardtop,_front_left,_06-14-2025.jpg",
+    "verified": true
+  },
+  "buick-lesabre-g3": {
+    "file": "/cars/buick-lesabre-g3.webp",
+    "article": "Commons search: Buick LeSabre 1965",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1965_Buick_LeSabre_convertible_in_blue,_front_left.jpg",
+    "verified": true
+  },
+  "buick-lesabre-g4": {
+    "file": "/cars/buick-lesabre-g4.webp",
+    "article": "Commons search: Buick LeSabre 1971",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Sicnag",
+    "source": "https://commons.wikimedia.org/wiki/File:1975_Buick_LeSabre_Custom_Convertible_(46841078381).jpg",
+    "verified": true
+  },
+  "buick-lesabre-g5": {
+    "file": "/cars/buick-lesabre-g5.webp",
+    "article": "Commons search: Buick LeSabre 1977",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:1977_Buick_LeSabre_sedan,_brown.jpg",
+    "verified": true
+  },
+  "buick-lesabre-g6": {
+    "file": "/cars/buick-lesabre-g6.webp",
+    "article": "Commons search: Buick LeSabre 1986",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Greg Gjerdingen from Willmar, USA",
+    "source": "https://commons.wikimedia.org/wiki/File:1986_Buick_LeSabre_Coupe_(34043810843).jpg",
+    "verified": true
+  },
+  "buick-lesabre-g7": {
+    "file": "/cars/buick-lesabre-g7.webp",
+    "article": "Commons search: Buick LeSabre 1992",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "SsmIntrigue",
+    "source": "https://commons.wikimedia.org/wiki/File:1992_-_1996_Buick_LeSabre_Custom.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1992_-_1996_Buick_LeSabre_Custom.jpg"
+    ]
+  },
+  "buick-lesabre-g8": {
+    "file": "/cars/buick-lesabre-g8.webp",
+    "article": "Commons search: Buick LeSabre 2000",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:2000_Buick_LeSabre_Limited,_front_right,_08-25-2024.jpg",
+    "verified": true
+  },
+  "buick-lucerne-g1": {
+    "file": "/cars/buick-lucerne-g1.webp",
+    "article": "Commons search: Buick Lucerne 2006",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Elise240SX",
+    "source": "https://commons.wikimedia.org/wiki/File:2006_Buick_Lucerne_CX_in_Sandstone_Metallic,_Front_Right,_04-21-2022.jpg",
+    "verified": true
+  },
+  "buick-park-avenue-g1": {
+    "file": "/cars/buick-park-avenue-g1.webp",
+    "article": "Commons search: Buick Park Avenue 1991",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1991-1996_Buick_Park_Avenue.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1991-1996_Buick_Park_Avenue.jpg"
+    ]
+  },
+  "buick-park-avenue-g2": {
+    "file": "/cars/buick-park-avenue-g2.webp",
+    "article": "Commons search: Buick Park Avenue 1997",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Bull-Doser",
+    "source": "https://commons.wikimedia.org/wiki/File:Park_Avenue_1997-2000.JPG",
+    "verified": true
+  },
+  "buick-rainier-g1": {
+    "file": "/cars/buick-rainier-g1.webp",
+    "article": "Commons search: Buick Rainier 2004",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Bull-Doser",
+    "source": "https://commons.wikimedia.org/wiki/File:2004-05_Buick_Rainier.JPG",
+    "verified": true
+  },
+  "buick-reatta-g1": {
+    "file": "/cars/buick-reatta-g1.webp",
+    "article": "Commons search: Buick Reatta 1988",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1988_Buick_Reatta,_front_left.jpg",
+    "verified": true
+  },
+  "buick-regal-g1": {
+    "file": "/cars/buick-regal-g1.webp",
+    "article": "Commons search: Buick Regal 1973",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artist": "Thomas doerfer",
+    "source": "https://commons.wikimedia.org/wiki/File:Buick_Regal_1973.JPG",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Buick_Regal_1973.JPG"
+    ]
+  },
+  "buick-regal-g2": {
+    "file": "/cars/buick-regal-g2.webp",
+    "article": "Commons search: Buick Regal 1978",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "A.W.O.L.   Thanks for over 2.900,000 views  :)) from",
+    "source": "https://commons.wikimedia.org/wiki/File:1978_Buick_Regal_(1).jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1978_Buick_Regal_(1).jpg"
+    ]
+  },
+  "buick-regal-g3": {
+    "file": "/cars/buick-regal-g3.webp",
+    "article": "Commons search: Buick Regal 1988",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1990_Buick_Regal_Custom_Coupe,_front_right,_05-16-2023.jpg",
+    "verified": true
+  },
+  "buick-regal-g4": {
+    "file": "/cars/buick-regal-g4.webp",
+    "article": "Commons search: Buick Regal 1997",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:2003_Buick_Regal_LS,_front_right,_09-03-2022.jpg",
+    "verified": true
+  },
+  "buick-regal-g5": {
+    "file": "/cars/buick-regal-g5.webp",
+    "article": "Commons search: Buick Regal 2011",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Elise240SX",
+    "source": "https://commons.wikimedia.org/wiki/File:2011_Buick_Regal_CXL_1SB_in_Majestic_Blue_Metallic,_front_right,_2025-10-13.jpg",
+    "verified": true
+  },
+  "buick-regal-g6": {
+    "file": "/cars/buick-regal-g6.webp",
+    "article": "Commons search: Buick Regal 2018",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Buick_Regal_TourX_Essence,_front_right,_07-13-2023.jpg",
+    "verified": true
+  },
+  "buick-regal-grand-national-g1": {
+    "file": "/cars/buick-regal-grand-national-g1.webp",
+    "article": "Commons search: Buick Regal Grand National G-body",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "ilikewaffles11",
+    "source": "https://commons.wikimedia.org/wiki/File:Buick_Grand_National_(9284404531).jpg",
+    "verified": true
+  },
+  "buick-rendezvous-g1": {
+    "file": "/cars/buick-rendezvous-g1.webp",
+    "article": "Commons search: Buick Rendezvous 2002",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2004_Buick_Rendezvous_3.4_Front.jpg",
+    "verified": true
+  },
+  "buick-riviera-g1": {
+    "file": "/cars/buick-riviera-g1.webp",
+    "article": "Commons search: Buick Riviera 1963",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Xnatedawgx",
+    "source": "https://commons.wikimedia.org/wiki/File:1963_Buick_Riviera,_white,_Golden_Super_Cruise_2026-08-01.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1963_Buick_Riviera,_white,_Golden_Super_Cruise_2026-08-01.jpg"
+    ]
+  },
+  "buick-riviera-g2": {
+    "file": "/cars/buick-riviera-g2.webp",
+    "article": "Commons search: Buick Riviera 1966",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1966_Buick_Riviera,_front_left,_07-20-2024.jpg",
+    "verified": true
+  },
+  "buick-riviera-g3": {
+    "file": "/cars/buick-riviera-g3.webp",
+    "article": "Commons search: Buick Riviera 1971",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:1971_Buick_Riviera_front,_Chelsea_5.18.19.jpg",
+    "verified": true
+  },
+  "buick-riviera-g4": {
+    "file": "/cars/buick-riviera-g4.webp",
+    "article": "Commons search: Buick Riviera 1974",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Ermell",
+    "source": "https://commons.wikimedia.org/wiki/File:Buick_Riviera_Boattail_1974_Gleisenau_2018_P8110501-PSD.jpg",
+    "verified": true
+  },
+  "buick-riviera-g5": {
+    "file": "/cars/buick-riviera-g5.webp",
+    "article": "Commons search: Buick Riviera 1977",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:1978_Buick_Riviera_LXXV_Edition,_front_5.19.19.jpg",
+    "verified": true
+  },
+  "buick-riviera-g6": {
+    "file": "/cars/buick-riviera-g6.webp",
+    "article": "Commons search: Buick Riviera 1979",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1981_Buick_Riviera_Coupe,_front_right_(Cruisin%27_the_River_Lowellville_Car_Show,_June_19th,_2023).jpg",
+    "verified": true
+  },
+  "buick-riviera-g7": {
+    "file": "/cars/buick-riviera-g7.webp",
+    "article": "Commons search: Buick Riviera 1986",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Accord14",
+    "source": "https://commons.wikimedia.org/wiki/File:1986_Buick_Riviera_T-Type_in_Maroon,_front_right.jpg",
+    "verified": true
+  },
+  "buick-riviera-g8": {
+    "file": "/cars/buick-riviera-g8.webp",
+    "article": "Commons search: Buick Riviera 1995",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "SsmIntrigue",
+    "source": "https://commons.wikimedia.org/wiki/File:1995_Buick_Riviera,_Front_Left,_04-18-2021.jpg",
+    "verified": true
+  },
+  "buick-roadmaster-g1": {
+    "file": "/cars/buick-roadmaster-g1.webp",
+    "article": "Commons search: Buick Roadmaster Classic",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Valder137",
+    "source": "https://commons.wikimedia.org/wiki/File:Buick_Roadmaster_1941_Phaeton_Convertible_LSideFront_Lake_Mirror_Cassic_16Oct2010_(14874273921).jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Buick_Roadmaster_1941_Phaeton_Convertible_LSideFront_Lake_Mirror_Cassic_16Oct2010_(14874273921).jpg"
+    ]
+  },
+  "buick-roadmaster-g2": {
+    "file": "/cars/buick-roadmaster-g2.webp",
+    "article": "Commons search: Buick Roadmaster B-body",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "That Hartford Guy",
+    "source": "https://commons.wikimedia.org/wiki/File:1995_Buick_Roadmaster_Limited_fvr.jpg",
+    "verified": true
+  },
+  "buick-skylark-g1": {
+    "file": "/cars/buick-skylark-g1.webp",
+    "article": "Commons search: Buick Skylark 1953",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Greg Gjerdingen from Willmar, USA",
+    "source": "https://commons.wikimedia.org/wiki/File:1953_Buick_Skylark_Convertible_(34743411455).jpg",
+    "verified": true
+  },
+  "buick-skylark-g2": {
+    "file": "/cars/buick-skylark-g2.webp",
+    "article": "Commons search: Buick Skylark 1961",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Charles01",
+    "source": "https://commons.wikimedia.org/wiki/File:Buick_Skylark_1961.jpg",
+    "verified": true
+  },
+  "buick-skylark-g3": {
+    "file": "/cars/buick-skylark-g3.webp",
+    "article": "Commons search: Buick Skylark 1964",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "User ChiemseeMan on de.wikipedia",
+    "source": "https://commons.wikimedia.org/wiki/File:1964_Buick_Skylark_Convertible_serie_4300_front.jpg",
+    "verified": true
+  },
+  "buick-skylark-g4": {
+    "file": "/cars/buick-skylark-g4.webp",
+    "article": "Commons search: Buick Skylark 1977",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1977_Buick_Skylark_S_2-door_coupe,_front_left.jpg",
+    "verified": true
+  },
+  "buick-skylark-g5": {
+    "file": "/cars/buick-skylark-g5.webp",
+    "article": "Commons search: Buick Skylark 1980",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Niels de Wit from Lunteren, The Netherlands",
+    "source": "https://commons.wikimedia.org/wiki/File:1980_Buick_Skylark_(9505108130).jpg",
+    "verified": true
+  },
+  "buick-skylark-g6": {
+    "file": "/cars/buick-skylark-g6.webp",
+    "article": "Commons search: Buick Skylark 1986",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1989_Buick_Skylark_Custom_sedan_in_Pewter_Gray,_front_left.jpg",
+    "verified": true
+  },
+  "buick-skylark-g7": {
+    "file": "/cars/buick-skylark-g7.webp",
+    "article": "Commons search: Buick Skylark 1992",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "ITakePhotosOfCars",
+    "source": "https://commons.wikimedia.org/wiki/File:Buick_Skylark_Limited_1993_red_left_front_view.jpg",
+    "verified": true
+  },
+  "buick-somerset-g1": {
+    "file": "/cars/buick-somerset-g1.webp",
+    "article": "Commons search: Buick Somerset 1985",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1985-1987_Buick_Somerset.jpg",
+    "verified": true
+  },
+  "buick-special-g1": {
+    "file": "/cars/buick-special-g1.webp",
+    "article": "Commons search: Buick Special 1936",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1936_Buick_Series_40_Special_4dr_sedan_(style_no_41),_front_left.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1936_Buick_Series_40_Special_4dr_sedan_(style_no_41),_front_left.jpg"
+    ]
+  },
+  "buick-special-g2": {
+    "file": "/cars/buick-special-g2.webp",
+    "article": "Commons search: Buick Special 1961",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Rutger van der Maar",
+    "source": "https://commons.wikimedia.org/wiki/File:1961_Buick_Special_front.jpg",
+    "verified": true
+  },
+  "buick-super-g1": {
+    "file": "/cars/buick-super-g1.webp",
+    "article": "Commons search: Buick Super 1940",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1940_Buick_Super_Series_50_4-door_Touring_Sedan,_front_right.jpg",
+    "verified": true
+  },
+  "buick-terraza-g1": {
+    "file": "/cars/buick-terraza-g1.webp",
+    "article": "Commons search: Buick Terraza 2005",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:2005_Buick_Terraza_CXL,_front_right,_06-16-2021.jpg",
+    "verified": true
+  },
+  "buick-verano-g1": {
+    "file": "/cars/buick-verano-g1.webp",
+    "article": "Commons search: Buick Verano 2012",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:2012_Buick_Verano_--_2012_DC.JPG",
+    "verified": true
+  },
+  "buick-wildcat-g1": {
+    "file": "/cars/buick-wildcat-g1.webp",
+    "article": "Commons search: Buick Wildcat 1962",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Sicnag",
+    "source": "https://commons.wikimedia.org/wiki/File:1966_Buick_Wildcat_Convertible_(26741948311).jpg",
+    "verified": true
+  },
+  "cadillac-srx-g1": {
+    "file": "/cars/cadillac-srx-g1.webp",
+    "article": "Commons search: Cadillac SRX 2004",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "DestinationFearFan",
+    "source": "https://commons.wikimedia.org/wiki/File:2004_Cadillac_SRX_SUV.jpg"
+  },
+  "cadillac-srx-g2": {
+    "file": "/cars/cadillac-srx-g2.webp",
+    "article": "Commons search: Cadillac SRX 2010",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:2010_Cadillac_SRX_--_2010_DC.jpg"
   }
 }

@@ -3,9 +3,19 @@
 Every car currently in the game. Generated — do not hand-edit.
 Re-run `node scripts/make-catalog.mjs` after any change to `data/cars.json`.
 
-- **658** cars across **48** makes
-- **595** playable (verified image wired up)
-- **63** awaiting an image — these render as a text tile:
+- **730** cars across **48** makes
+- **657** playable (verified image wired up)
+- **73** awaiting an image — these render as a text tile:
+  - `buick-century-g1`
+  - `buick-gran-sport-gs-g1`
+  - `buick-invicta-g1`
+  - `buick-lesabre-g7`
+  - `buick-park-avenue-g1`
+  - `buick-regal-g1`
+  - `buick-regal-g2`
+  - `buick-riviera-g1`
+  - `buick-roadmaster-g1`
+  - `buick-special-g1`
   - `cadillac-ats-v-g1`
   - `cadillac-ct4-v-blackwing-g1`
   - `cadillac-ct5-v-blackwing-g1`
@@ -84,7 +94,7 @@ generation's factory line-up in hp, performance variants included.
 | [BMW](#bmw) | 16 | German |
 | [Bentley](#bentley) | 1 | British |
 | [Bugatti](#bugatti) | 1 | French |
-| [Buick](#buick) | 1 | American |
+| [Buick](#buick) | 73 | American |
 | [Cadillac](#cadillac) | 63 | American |
 | [Chevrolet](#chevrolet) | 24 | American |
 | [Dodge](#dodge) | 16 | American |
@@ -207,7 +217,79 @@ generation's factory line-up in hp, performance variants included.
 
 | Model | Gen | Years | Class | Body | hp | Image |
 |---|---:|---|---|---|---|:-:|
+| Cascada | 1 | 2016–2019 | Coupe | Convertible | 200 | yes |
+| Century | 1 | 1936–1942 | Sedan | Sedan | 120–165 | **no** |
+| Century | 2 | 1954–1958 | Sedan | Sedan | 200–300 | yes |
+| Century | 3 | 1973–1977 | Sedan | Sedan | 110–230 | yes |
+| Century | 4 | 1978–1981 | Sedan | Sedan | 90–170 | yes |
+| Century | 5 | 1982–1996 | Sedan | Sedan | 85–160 | yes |
+| Century | 6 | 1997–2005 | Sedan | Sedan | 160–175 | yes |
+| Electra | 1 | 1959–1960 | Sedan | Sedan | 325 | yes |
+| Electra | 2 | 1961–1964 | Sedan | Sedan | 325–340 | yes |
+| Electra | 3 | 1965–1970 | Sedan | Sedan | 325–370 | yes |
+| Electra | 4 | 1971–1976 | Sedan | Sedan | 205–315 | yes |
+| Electra | 5 | 1977–1984 | Sedan | Sedan | 105–185 | yes |
+| Electra | 6 | 1985–1990 | Sedan | Sedan | 110–165 | yes |
+| Electra E5 | 1 | 2023–now | SUV | SUV | 242–516 | yes |
+| Enclave | 1 | 2008–2017 | SUV | SUV | 275–288 | yes |
+| Enclave | 2 | 2018–2024 | SUV | SUV | 310 | yes |
+| Enclave | 3 | 2025–now | SUV | SUV | 328 | yes |
+| Encore | 1 | 2013–2022 | SUV | SUV | 138–153 | yes |
+| Encore GX | 1 | 2020–now | SUV | SUV | 137–155 | yes |
+| Envision | 1 | 2016–2020 | SUV | SUV | 197–252 | yes |
+| Envision | 2 | 2021–2025 | SUV | SUV | 228 | yes |
+| Envista | 1 | 2024–now | SUV | SUV | 137 | yes |
+| Gran Sport / GS | 1 | 1965–1975 | Muscle Car | Coupe | 260–360 | **no** |
+| Invicta | 1 | 1959–1963 | Sedan | Sedan | 325 | **no** |
+| LaCrosse | 1 | 2005–2009 | Sedan | Sedan | 200–300 | yes |
+| LaCrosse | 2 | 2010–2016 | Sedan | Sedan | 182–304 | yes |
+| LaCrosse | 3 | 2017–2019 | Sedan | Sedan | 194–310 | yes |
+| LeSabre | 1 | 1959–1960 | Sedan | Sedan | 210–250 | yes |
+| LeSabre | 2 | 1961–1964 | Sedan | Sedan | 235–325 | yes |
+| LeSabre | 3 | 1965–1970 | Sedan | Sedan | 210–370 | yes |
+| LeSabre | 4 | 1971–1976 | Sedan | Sedan | 145–260 | yes |
+| LeSabre | 5 | 1977–1985 | Sedan | Sedan | 105–180 | yes |
+| LeSabre | 6 | 1986–1991 | Sedan | Sedan | 140–165 | yes |
+| LeSabre | 7 | 1992–1999 | Sedan | Sedan | 170–205 | **no** |
+| LeSabre | 8 | 2000–2005 | Sedan | Sedan | 205 | yes |
+| Lucerne | 1 | 2006–2011 | Sedan | Sedan | 197–292 | yes |
+| Park Avenue | 1 | 1991–1996 | Sedan | Sedan | 170–225 | **no** |
+| Park Avenue | 2 | 1997–2005 | Sedan | Sedan | 205–240 | yes |
+| Rainier | 1 | 2004–2007 | SUV | SUV | 275–302 | yes |
+| Reatta | 1 | 1988–1991 | Coupe | Coupe | 165–170 | yes |
+| Regal | 1 | 1973–1977 | Coupe | Coupe | 105–175 | **no** |
+| Regal | 2 | 1978–1987 | Coupe | Coupe | 85–245 | **no** |
+| Regal | 3 | 1988–1996 | Sedan | Sedan | 125–170 | yes |
+| Regal | 4 | 1997–2004 | Sedan | Sedan | 195–240 | yes |
+| Regal | 5 | 2011–2017 | Sedan | Sedan | 182–270 | yes |
+| Regal | 6 | 2018–2020 | Sedan | Hatchback | 250–310 | yes |
 | Regal GNX | 1 | 1987–1987 | Muscle Car | Coupe | 276 | yes |
+| Regal Grand National | 1 | 1982–1987 | Muscle Car | Coupe | 175–245 | yes |
+| Rendezvous | 1 | 2002–2007 | SUV | SUV | 185–245 | yes |
+| Riviera | 1 | 1963–1965 | Coupe | Coupe | 325–360 | **no** |
+| Riviera | 2 | 1966–1970 | Coupe | Coupe | 340–370 | yes |
+| Riviera | 3 | 1971–1973 | Coupe | Coupe | 250–330 | yes |
+| Riviera | 4 | 1974–1976 | Coupe | Coupe | 205–230 | yes |
+| Riviera | 5 | 1977–1978 | Coupe | Coupe | 155–185 | yes |
+| Riviera | 6 | 1979–1985 | Coupe | Coupe | 105–190 | yes |
+| Riviera | 7 | 1986–1993 | Coupe | Coupe | 140–170 | yes |
+| Riviera | 8 | 1995–1999 | Coupe | Coupe | 205–240 | yes |
+| Roadmaster | 1 | 1936–1958 | Sedan | Sedan | 120–300 | **no** |
+| Roadmaster | 2 | 1991–1996 | Sedan | Sedan | 170–260 | yes |
+| Skylark | 1 | 1953–1954 | Coupe | Convertible | 188–200 | yes |
+| Skylark | 2 | 1961–1963 | Coupe | Coupe | 185–200 | yes |
+| Skylark | 3 | 1964–1972 | Coupe | Coupe | 155–315 | yes |
+| Skylark | 4 | 1975–1979 | Coupe | Coupe | 110–155 | yes |
+| Skylark | 5 | 1980–1985 | Sedan | Sedan | 90–135 | yes |
+| Skylark | 6 | 1986–1991 | Sedan | Sedan | 92–160 | yes |
+| Skylark | 7 | 1992–1998 | Sedan | Sedan | 115–160 | yes |
+| Somerset | 1 | 1985–1987 | Coupe | Coupe | 86–125 | yes |
+| Special | 1 | 1936–1958 | Sedan | Sedan | 93–250 | **no** |
+| Special | 2 | 1961–1969 | Sedan | Sedan | 135–260 | yes |
+| Super | 1 | 1940–1958 | Sedan | Sedan | 110–300 | yes |
+| Terraza | 1 | 2005–2007 | Minivan | Minivan | 200–240 | yes |
+| Verano | 1 | 2012–2017 | Sedan | Sedan | 180–250 | yes |
+| Wildcat | 1 | 1962–1970 | Coupe | Coupe | 325–370 | yes |
 
 ## Cadillac
 
