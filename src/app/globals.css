@@ -54,6 +54,23 @@
 
   --background: var(--asphalt-900);
   --foreground: var(--ink);
+
+  /* Width of the grid's axis-label column.
+     Two regimes rather than one clamp, because the two breakpoints want
+     opposite things. Below 640px the chips show short forms at 11px and only
+     need room for a two-line break of the widest word ("Lamborghini", 88.4px),
+     so a narrow column leaves more width for the photographs. From 640px the
+     chips show full labels at 12px and must fit "Turbocharged" (113.1px) on
+     one line, which needs 140px once padding and the coloured edge are taken
+     off. A single clamp spanning both forced the wide value onto large phones
+     that did not need it. */
+  --label-w: clamp(4.75rem, 20vw, 5.75rem);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --label-w: 8.75rem;
+  }
 }
 
 @theme inline {
@@ -141,7 +158,11 @@ body {
      fallback for a word the hyphenation dictionary does not know. */
   padding: 0.45rem 0.5rem;
   line-height: 1.15;
-  overflow-wrap: anywhere;
+  /* `break-word`, not `anywhere`: both will split a word that cannot fit, but
+     `anywhere` also splits words that would fit on the next line, which is how
+     "Turbocharged" came out as "tur / bochar / ged" on a phone instead of a
+     clean two-line break. */
+  overflow-wrap: break-word;
   hyphens: auto;
   /* Tracking costs roughly a character of width per 10 characters, which is
      the difference between fitting and not at this column width. */
