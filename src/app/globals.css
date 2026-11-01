@@ -184,7 +184,18 @@ body {
 }
 
 /* The sweep that runs across a tile the moment it is solved. Purely a reward
-   cue; it plays once and leaves no transform behind. */
+   cue; it plays once and must leave nothing behind.
+
+   The base state is `opacity: 0`, and the animation both starts and ends
+   transparent. That matters twice over, because a bare `animation` would show
+   this bar as a permanent white smear down the left edge of every solved
+   photograph:
+     - after the run, without `forwards` the element snaps back to its base
+       state, which is the bar parked at the left at full opacity;
+     - under `prefers-reduced-motion` the animation is switched off entirely,
+       so the base state is the ONLY state there is.
+   Driving opacity from the keyframes makes the resting state invisible in both
+   cases, so the shine exists only while it is travelling. */
 @keyframes tile-sweep {
   from { transform: translateX(-120%) skewX(-18deg); opacity: 0.85; }
   to   { transform: translateX(260%) skewX(-18deg); opacity: 0; }
@@ -196,7 +207,8 @@ body {
   inset: 0 auto 0 0;
   width: 42%;
   background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
-  animation: tile-sweep 700ms ease-out 1;
+  opacity: 0;
+  animation: tile-sweep 700ms ease-out 1 forwards;
   pointer-events: none;
 }
 
