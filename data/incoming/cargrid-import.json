@@ -1390,46 +1390,6 @@
     "image_url": ""
   },
   {
-    "id": "acura-rl-g1",
-    "make": "Acura",
-    "model": "RL",
-    "generation": 1,
-    "brands": [
-      "Acura",
-      "Honda"
-    ],
-    "country_of_origin": "Japanese",
-    "production_start": 1996,
-    "production_end": 2004,
-    "decades": [
-      "1990s",
-      "2000s"
-    ],
-    "engine_layouts": [
-      "V6"
-    ],
-    "body_style": "Sedan",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 210,
-    "power_output_hp_max": 225,
-    "power_output_ranges": [
-      "201-300"
-    ],
-    "transmission": [
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
     "id": "acura-rl-g2",
     "make": "Acura",
     "model": "RL",
@@ -29088,47 +29048,6 @@
     "image_url": ""
   },
   {
-    "id": "chevrolet-volt-g1",
-    "make": "Chevrolet",
-    "model": "Volt",
-    "generation": 1,
-    "brands": [
-      "Chevrolet",
-      "Opel",
-      "Vauxhall",
-      "Holden"
-    ],
-    "country_of_origin": "American",
-    "production_start": 2011,
-    "production_end": 2015,
-    "decades": [
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 149,
-    "power_output_hp_max": 149,
-    "power_output_ranges": [
-      "101-200"
-    ],
-    "transmission": [
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Plug-in Hybrid"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
     "id": "chevrolet-volt-g2",
     "make": "Chevrolet",
     "model": "Volt",
@@ -31407,50 +31326,6 @@
     "image_url": ""
   },
   {
-    "id": "citroen-c-crosser-g1",
-    "make": "Citroën",
-    "model": "C-Crosser",
-    "generation": 1,
-    "brands": [
-      "Citroën",
-      "Mitsubishi",
-      "Peugeot"
-    ],
-    "country_of_origin": "French",
-    "production_start": 2007,
-    "production_end": 2012,
-    "decades": [
-      "2000s",
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "SUV",
-    "drivetrain": [
-      "FWD",
-      "AWD"
-    ],
-    "car_class": "SUV",
-    "power_output_hp_min": 154,
-    "power_output_hp_max": 168,
-    "power_output_ranges": [
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "CVT"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
     "id": "citroen-c-zero-g1",
     "make": "Citroën",
     "model": "C-Zero",
@@ -31485,50 +31360,6 @@
     ],
     "fuel_type": [
       "Electric"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "citroen-c1-g1",
-    "make": "Citroën",
-    "model": "C1",
-    "generation": 1,
-    "brands": [
-      "Citroën",
-      "Peugeot",
-      "Toyota"
-    ],
-    "country_of_origin": "French",
-    "production_start": 2005,
-    "production_end": 2014,
-    "decades": [
-      "2000s",
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-3",
-      "Inline-4"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 54,
-    "power_output_hp_max": 67,
-    "power_output_ranges": [
-      "0-100"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
     ],
     "pop_culture": null,
     "price_at_launch_usd": null,
@@ -36638,8 +36469,8 @@
     "generation": 2,
     "brands": [
       "Dodge",
-      "Plymouth",
-      "Chrysler"
+      "Chrysler",
+      "Plymouth"
     ],
     "country_of_origin": "American",
     "production_start": 1991,
@@ -52069,50 +51900,6 @@
     "image_url": ""
   },
   {
-    "id": "gmc-caballero-g1",
-    "make": "GMC",
-    "model": "Caballero",
-    "generation": 1,
-    "brands": [
-      "GMC",
-      "Chevrolet"
-    ],
-    "country_of_origin": "American",
-    "production_start": 1978,
-    "production_end": 1987,
-    "decades": [
-      "1970s",
-      "1980s"
-    ],
-    "engine_layouts": [
-      "V6",
-      "V8"
-    ],
-    "body_style": "Pickup Truck",
-    "drivetrain": [
-      "RWD"
-    ],
-    "car_class": "Pickup Truck",
-    "power_output_hp_min": 95,
-    "power_output_hp_max": 180,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
     "id": "gmc-canyon-g1",
     "make": "GMC",
     "model": "Canyon",
@@ -52152,52 +51939,6 @@
     ],
     "fuel_type": [
       "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "gmc-canyon-g2",
-    "make": "GMC",
-    "model": "Canyon",
-    "generation": 2,
-    "brands": [
-      "GMC",
-      "Chevrolet"
-    ],
-    "country_of_origin": "American",
-    "production_start": 2015,
-    "production_end": 2022,
-    "decades": [
-      "2010s",
-      "2020s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "V6"
-    ],
-    "body_style": "Pickup Truck",
-    "drivetrain": [
-      "RWD",
-      "4WD"
-    ],
-    "car_class": "Pickup Truck",
-    "power_output_hp_min": 181,
-    "power_output_hp_max": 308,
-    "power_output_ranges": [
-      "101-200",
-      "201-300",
-      "301-400"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
     ],
     "pop_culture": null,
     "price_at_launch_usd": null,
@@ -52491,53 +52232,6 @@
     "image_url": ""
   },
   {
-    "id": "gmc-jimmy-k5-g2",
-    "make": "GMC",
-    "model": "Jimmy (K5)",
-    "generation": 2,
-    "brands": [
-      "GMC",
-      "Chevrolet"
-    ],
-    "country_of_origin": "American",
-    "production_start": 1973,
-    "production_end": 1991,
-    "decades": [
-      "1970s",
-      "1980s",
-      "1990s"
-    ],
-    "engine_layouts": [
-      "Inline-6",
-      "V8"
-    ],
-    "body_style": "SUV",
-    "drivetrain": [
-      "RWD",
-      "4WD"
-    ],
-    "car_class": "Off-Road",
-    "power_output_hp_min": 100,
-    "power_output_hp_max": 210,
-    "power_output_ranges": [
-      "0-100",
-      "101-200",
-      "201-300"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
     "id": "gmc-s-15-jimmy-jimmy-g1",
     "make": "GMC",
     "model": "S-15 Jimmy / Jimmy",
@@ -52564,50 +52258,6 @@
     ],
     "car_class": "SUV",
     "power_output_hp_min": 83,
-    "power_output_hp_max": 160,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "gmc-s-15-sonoma-g1",
-    "make": "GMC",
-    "model": "S-15 / Sonoma",
-    "generation": 1,
-    "brands": [
-      "GMC",
-      "Chevrolet"
-    ],
-    "country_of_origin": "American",
-    "production_start": 1982,
-    "production_end": 1993,
-    "decades": [
-      "1980s",
-      "1990s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "V6"
-    ],
-    "body_style": "Pickup Truck",
-    "drivetrain": [
-      "RWD",
-      "4WD"
-    ],
-    "car_class": "Pickup Truck",
-    "power_output_hp_min": 82,
     "power_output_hp_max": 160,
     "power_output_ranges": [
       "0-100",
@@ -52842,186 +52492,6 @@
     "fuel_type": [
       "Gasoline",
       "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "gmc-sierra-g3",
-    "make": "GMC",
-    "model": "Sierra",
-    "generation": 3,
-    "brands": [
-      "GMC",
-      "Chevrolet"
-    ],
-    "country_of_origin": "American",
-    "production_start": 2007,
-    "production_end": 2013,
-    "decades": [
-      "2000s",
-      "2010s"
-    ],
-    "engine_layouts": [
-      "V6",
-      "V8"
-    ],
-    "body_style": "Pickup Truck",
-    "drivetrain": [
-      "RWD",
-      "4WD"
-    ],
-    "car_class": "Pickup Truck",
-    "power_output_hp_min": 195,
-    "power_output_hp_max": 403,
-    "power_output_ranges": [
-      "101-200",
-      "201-300",
-      "301-400",
-      "401-500"
-    ],
-    "transmission": [
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "gmc-sierra-g4",
-    "make": "GMC",
-    "model": "Sierra",
-    "generation": 4,
-    "brands": [
-      "GMC",
-      "Chevrolet"
-    ],
-    "country_of_origin": "American",
-    "production_start": 2014,
-    "production_end": 2018,
-    "decades": [
-      "2010s"
-    ],
-    "engine_layouts": [
-      "V6",
-      "V8"
-    ],
-    "body_style": "Pickup Truck",
-    "drivetrain": [
-      "RWD",
-      "4WD"
-    ],
-    "car_class": "Pickup Truck",
-    "power_output_hp_min": 285,
-    "power_output_hp_max": 445,
-    "power_output_ranges": [
-      "201-300",
-      "301-400",
-      "401-500"
-    ],
-    "transmission": [
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "gmc-sierra-g5",
-    "make": "GMC",
-    "model": "Sierra",
-    "generation": 5,
-    "brands": [
-      "GMC",
-      "Chevrolet"
-    ],
-    "country_of_origin": "American",
-    "production_start": 2019,
-    "production_end": null,
-    "decades": [
-      "2010s",
-      "2020s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "V8",
-      "Inline-6"
-    ],
-    "body_style": "Pickup Truck",
-    "drivetrain": [
-      "RWD",
-      "4WD"
-    ],
-    "car_class": "Pickup Truck",
-    "power_output_hp_min": 277,
-    "power_output_hp_max": 470,
-    "power_output_ranges": [
-      "201-300",
-      "301-400",
-      "401-500"
-    ],
-    "transmission": [
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "gmc-sonoma-g2",
-    "make": "GMC",
-    "model": "Sonoma",
-    "generation": 2,
-    "brands": [
-      "GMC",
-      "Chevrolet",
-      "Isuzu"
-    ],
-    "country_of_origin": "American",
-    "production_start": 1994,
-    "production_end": 2004,
-    "decades": [
-      "1990s",
-      "2000s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "V6"
-    ],
-    "body_style": "Pickup Truck",
-    "drivetrain": [
-      "RWD",
-      "4WD"
-    ],
-    "car_class": "Pickup Truck",
-    "power_output_hp_min": 118,
-    "power_output_hp_max": 190,
-    "power_output_ranges": [
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
     ],
     "pop_culture": null,
     "price_at_launch_usd": null,
@@ -53446,48 +52916,6 @@
     "image_url": ""
   },
   {
-    "id": "gmc-yukon-g4",
-    "make": "GMC",
-    "model": "Yukon",
-    "generation": 4,
-    "brands": [
-      "GMC",
-      "Chevrolet"
-    ],
-    "country_of_origin": "American",
-    "production_start": 2015,
-    "production_end": 2020,
-    "decades": [
-      "2010s",
-      "2020s"
-    ],
-    "engine_layouts": [
-      "V8"
-    ],
-    "body_style": "SUV",
-    "drivetrain": [
-      "RWD",
-      "4WD"
-    ],
-    "car_class": "SUV",
-    "power_output_hp_min": 355,
-    "power_output_hp_max": 420,
-    "power_output_ranges": [
-      "301-400",
-      "401-500"
-    ],
-    "transmission": [
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
     "id": "gmc-yukon-g5",
     "make": "GMC",
     "model": "Yukon",
@@ -53532,47 +52960,6 @@
     "image_url": ""
   },
   {
-    "id": "gmc-yukon-xl-g1",
-    "make": "GMC",
-    "model": "Yukon XL",
-    "generation": 1,
-    "brands": [
-      "GMC",
-      "Chevrolet"
-    ],
-    "country_of_origin": "American",
-    "production_start": 2000,
-    "production_end": 2006,
-    "decades": [
-      "2000s"
-    ],
-    "engine_layouts": [
-      "V8"
-    ],
-    "body_style": "SUV",
-    "drivetrain": [
-      "RWD",
-      "4WD"
-    ],
-    "car_class": "SUV",
-    "power_output_hp_min": 285,
-    "power_output_hp_max": 340,
-    "power_output_ranges": [
-      "201-300",
-      "301-400"
-    ],
-    "transmission": [
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
     "id": "gmc-yukon-xl-g2",
     "make": "GMC",
     "model": "Yukon XL",
@@ -53599,48 +52986,6 @@
     "car_class": "SUV",
     "power_output_hp_min": 310,
     "power_output_hp_max": 403,
-    "power_output_ranges": [
-      "301-400",
-      "401-500"
-    ],
-    "transmission": [
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "gmc-yukon-xl-g3",
-    "make": "GMC",
-    "model": "Yukon XL",
-    "generation": 3,
-    "brands": [
-      "GMC",
-      "Chevrolet"
-    ],
-    "country_of_origin": "American",
-    "production_start": 2015,
-    "production_end": 2020,
-    "decades": [
-      "2010s",
-      "2020s"
-    ],
-    "engine_layouts": [
-      "V8"
-    ],
-    "body_style": "SUV",
-    "drivetrain": [
-      "RWD",
-      "4WD"
-    ],
-    "car_class": "SUV",
-    "power_output_hp_min": 355,
-    "power_output_hp_max": 420,
     "power_output_ranges": [
       "301-400",
       "401-500"
@@ -73082,52 +72427,6 @@
     "image_url": ""
   },
   {
-    "id": "lancia-zeta-g1",
-    "make": "Lancia",
-    "model": "Zeta",
-    "generation": 1,
-    "brands": [
-      "Lancia",
-      "Peugeot",
-      "Citroën",
-      "Fiat"
-    ],
-    "country_of_origin": "Italian",
-    "production_start": 1994,
-    "production_end": 2002,
-    "decades": [
-      "1990s",
-      "2000s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "V6"
-    ],
-    "body_style": "Minivan",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Minivan",
-    "power_output_hp_min": 89,
-    "power_output_hp_max": 145,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
     "id": "land-rover-90-110-defender-g1",
     "make": "Land Rover",
     "model": "90 / 110 / Defender",
@@ -87650,86 +86949,6 @@
     "image_url": ""
   },
   {
-    "id": "mercury-grand-marquis-g2",
-    "make": "Mercury",
-    "model": "Grand Marquis",
-    "generation": 2,
-    "brands": [
-      "Mercury",
-      "Ford"
-    ],
-    "country_of_origin": "American",
-    "production_start": 1983,
-    "production_end": 1991,
-    "decades": [
-      "1980s",
-      "1990s"
-    ],
-    "engine_layouts": [
-      "V8"
-    ],
-    "body_style": "Sedan",
-    "drivetrain": [
-      "RWD"
-    ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 140,
-    "power_output_hp_max": 180,
-    "power_output_ranges": [
-      "101-200"
-    ],
-    "transmission": [
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": false,
-    "image_url": ""
-  },
-  {
-    "id": "mercury-grand-marquis-g3",
-    "make": "Mercury",
-    "model": "Grand Marquis",
-    "generation": 3,
-    "brands": [
-      "Mercury",
-      "Ford"
-    ],
-    "country_of_origin": "American",
-    "production_start": 1992,
-    "production_end": 1997,
-    "decades": [
-      "1990s"
-    ],
-    "engine_layouts": [
-      "V8"
-    ],
-    "body_style": "Sedan",
-    "drivetrain": [
-      "RWD"
-    ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 190,
-    "power_output_hp_max": 210,
-    "power_output_ranges": [
-      "101-200",
-      "201-300"
-    ],
-    "transmission": [
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": false,
-    "image_url": ""
-  },
-  {
     "id": "mercury-grand-marquis-g4",
     "make": "Mercury",
     "model": "Grand Marquis",
@@ -88238,47 +87457,6 @@
     "image_url": ""
   },
   {
-    "id": "mercury-montego-g2",
-    "make": "Mercury",
-    "model": "Montego",
-    "generation": 2,
-    "brands": [
-      "Mercury",
-      "Ford"
-    ],
-    "country_of_origin": "American",
-    "production_start": 2005,
-    "production_end": 2007,
-    "decades": [
-      "2000s"
-    ],
-    "engine_layouts": [
-      "V6"
-    ],
-    "body_style": "Sedan",
-    "drivetrain": [
-      "FWD",
-      "AWD"
-    ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 203,
-    "power_output_hp_max": 203,
-    "power_output_ranges": [
-      "201-300"
-    ],
-    "transmission": [
-      "Automatic",
-      "CVT"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": false,
-    "image_url": ""
-  },
-  {
     "id": "mercury-monterey-g1",
     "make": "Mercury",
     "model": "Monterey",
@@ -88389,89 +87567,6 @@
     "car_class": "SUV",
     "power_output_hp_min": 205,
     "power_output_hp_max": 215,
-    "power_output_ranges": [
-      "201-300"
-    ],
-    "transmission": [
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": false,
-    "image_url": ""
-  },
-  {
-    "id": "mercury-mountaineer-g2",
-    "make": "Mercury",
-    "model": "Mountaineer",
-    "generation": 2,
-    "brands": [
-      "Mercury",
-      "Ford"
-    ],
-    "country_of_origin": "American",
-    "production_start": 2002,
-    "production_end": 2005,
-    "decades": [
-      "2000s"
-    ],
-    "engine_layouts": [
-      "V6",
-      "V8"
-    ],
-    "body_style": "SUV",
-    "drivetrain": [
-      "RWD",
-      "AWD"
-    ],
-    "car_class": "SUV",
-    "power_output_hp_min": 210,
-    "power_output_hp_max": 239,
-    "power_output_ranges": [
-      "201-300"
-    ],
-    "transmission": [
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": false,
-    "image_url": ""
-  },
-  {
-    "id": "mercury-mountaineer-g3",
-    "make": "Mercury",
-    "model": "Mountaineer",
-    "generation": 3,
-    "brands": [
-      "Mercury",
-      "Ford"
-    ],
-    "country_of_origin": "American",
-    "production_start": 2006,
-    "production_end": 2010,
-    "decades": [
-      "2000s",
-      "2010s"
-    ],
-    "engine_layouts": [
-      "V6",
-      "V8"
-    ],
-    "body_style": "SUV",
-    "drivetrain": [
-      "RWD",
-      "AWD"
-    ],
-    "car_class": "SUV",
-    "power_output_hp_min": 210,
-    "power_output_hp_max": 292,
     "power_output_ranges": [
       "201-300"
     ],
@@ -88727,91 +87822,6 @@
     "image_url": ""
   },
   {
-    "id": "mercury-sable-g5",
-    "make": "Mercury",
-    "model": "Sable",
-    "generation": 5,
-    "brands": [
-      "Mercury",
-      "Ford"
-    ],
-    "country_of_origin": "American",
-    "production_start": 2008,
-    "production_end": 2009,
-    "decades": [
-      "2000s"
-    ],
-    "engine_layouts": [
-      "V6"
-    ],
-    "body_style": "Sedan",
-    "drivetrain": [
-      "FWD",
-      "AWD"
-    ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 263,
-    "power_output_hp_max": 263,
-    "power_output_ranges": [
-      "201-300"
-    ],
-    "transmission": [
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": false,
-    "image_url": ""
-  },
-  {
-    "id": "mercury-topaz-g1",
-    "make": "Mercury",
-    "model": "Topaz",
-    "generation": 1,
-    "brands": [
-      "Mercury",
-      "Ford"
-    ],
-    "country_of_origin": "American",
-    "production_start": 1984,
-    "production_end": 1994,
-    "decades": [
-      "1980s",
-      "1990s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "V6"
-    ],
-    "body_style": "Sedan",
-    "drivetrain": [
-      "FWD",
-      "AWD"
-    ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 52,
-    "power_output_hp_max": 135,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": false,
-    "image_url": ""
-  },
-  {
     "id": "mercury-tracer-g1",
     "make": "Mercury",
     "model": "Tracer",
@@ -88883,50 +87893,6 @@
       "101-200"
     ],
     "transmission": [
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": false,
-    "image_url": ""
-  },
-  {
-    "id": "mercury-zephyr-g1",
-    "make": "Mercury",
-    "model": "Zephyr",
-    "generation": 1,
-    "brands": [
-      "Mercury",
-      "Ford"
-    ],
-    "country_of_origin": "American",
-    "production_start": 1978,
-    "production_end": 1983,
-    "decades": [
-      "1970s",
-      "1980s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "Inline-6",
-      "V8"
-    ],
-    "body_style": "Sedan",
-    "drivetrain": [
-      "RWD"
-    ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 88,
-    "power_output_hp_max": 140,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
       "Automatic"
     ],
     "fuel_type": [
@@ -96672,9 +95638,9 @@
     "generation": 1,
     "brands": [
       "Opel",
-      "Vauxhall",
       "Chevrolet",
-      "Holden"
+      "Holden",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 2011,
@@ -96713,9 +95679,9 @@
     "generation": 1,
     "brands": [
       "Opel",
-      "Vauxhall",
       "Chevrolet",
-      "Saturn"
+      "Saturn",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 2006,
@@ -96883,8 +95849,8 @@
     "generation": 1,
     "brands": [
       "Opel",
-      "Vauxhall",
-      "Holden"
+      "Holden",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 1991,
@@ -96926,8 +95892,8 @@
     "generation": 2,
     "brands": [
       "Opel",
-      "Vauxhall",
-      "Holden"
+      "Holden",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 1998,
@@ -96970,9 +95936,9 @@
     "generation": 3,
     "brands": [
       "Opel",
-      "Vauxhall",
       "Holden",
-      "Saturn"
+      "Saturn",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 2004,
@@ -97016,8 +95982,8 @@
     "generation": 4,
     "brands": [
       "Opel",
-      "Vauxhall",
-      "Holden"
+      "Holden",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 2009,
@@ -97061,8 +96027,8 @@
     "generation": 5,
     "brands": [
       "Opel",
-      "Vauxhall",
-      "Holden"
+      "Holden",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 2015,
@@ -97152,8 +96118,8 @@
     "generation": 1,
     "brands": [
       "Opel",
-      "Vauxhall",
-      "Holden"
+      "Holden",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 1989,
@@ -97197,9 +96163,9 @@
     "generation": 1,
     "brands": [
       "Opel",
-      "Vauxhall",
       "Buick",
-      "Holden"
+      "Holden",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 2013,
@@ -97402,9 +96368,9 @@
     "generation": 2,
     "brands": [
       "Opel",
-      "Vauxhall",
+      "Chevrolet",
       "Holden",
-      "Chevrolet"
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 1993,
@@ -97448,8 +96414,8 @@
     "generation": 3,
     "brands": [
       "Opel",
-      "Vauxhall",
-      "Holden"
+      "Holden",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 2000,
@@ -98014,9 +96980,9 @@
     "generation": 1,
     "brands": [
       "Opel",
-      "Vauxhall",
       "Buick",
-      "Holden"
+      "Holden",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 2008,
@@ -98062,9 +97028,9 @@
     "generation": 2,
     "brands": [
       "Opel",
-      "Vauxhall",
       "Buick",
-      "Holden"
+      "Holden",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 2017,
@@ -98269,9 +97235,9 @@
     "generation": 5,
     "brands": [
       "Opel",
-      "Vauxhall",
       "Daewoo",
-      "Pontiac"
+      "Pontiac",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 1984,
@@ -98359,8 +97325,8 @@
     "generation": 1,
     "brands": [
       "Opel",
-      "Vauxhall",
-      "Chevrolet"
+      "Chevrolet",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 2015,
@@ -98612,8 +97578,8 @@
     "generation": 1,
     "brands": [
       "Opel",
-      "Vauxhall",
-      "Buick"
+      "Buick",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 2012,
@@ -98784,8 +97750,8 @@
     "generation": 2,
     "brands": [
       "Opel",
-      "Vauxhall",
-      "Cadillac"
+      "Cadillac",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 1994,
@@ -99081,8 +98047,8 @@
     "generation": 1,
     "brands": [
       "Opel",
-      "Vauxhall",
-      "Holden"
+      "Holden",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 1994,
@@ -99212,8 +98178,8 @@
     "generation": 2,
     "brands": [
       "Opel",
-      "Vauxhall",
-      "Holden"
+      "Holden",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 1995,
@@ -99257,8 +98223,8 @@
     "generation": 3,
     "brands": [
       "Opel",
-      "Vauxhall",
-      "Holden"
+      "Holden",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 2002,
@@ -99302,8 +98268,8 @@
     "generation": 1,
     "brands": [
       "Opel",
-      "Vauxhall",
-      "Holden"
+      "Holden",
+      "Vauxhall"
     ],
     "country_of_origin": "German",
     "production_start": 1999,
@@ -99931,50 +98897,6 @@
       "Gasoline",
       "Diesel",
       "Electric"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "peugeot-107-g1",
-    "make": "Peugeot",
-    "model": "107",
-    "generation": 1,
-    "brands": [
-      "Peugeot",
-      "Citroën",
-      "Toyota"
-    ],
-    "country_of_origin": "French",
-    "production_start": 2005,
-    "production_end": 2014,
-    "decades": [
-      "2000s",
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-3",
-      "Inline-4"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 54,
-    "power_output_hp_max": 67,
-    "power_output_ranges": [
-      "0-100"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
     ],
     "pop_culture": null,
     "price_at_launch_usd": null,
@@ -100966,8 +99888,8 @@
     "generation": 1,
     "brands": [
       "Peugeot",
-      "Mitsubishi",
-      "Citroën"
+      "Citroën",
+      "Mitsubishi"
     ],
     "country_of_origin": "French",
     "production_start": 2007,
@@ -102677,46 +101599,6 @@
     "image_url": ""
   },
   {
-    "id": "plymouth-reliant-g1",
-    "make": "Plymouth",
-    "model": "Reliant",
-    "generation": 1,
-    "brands": [
-      "Plymouth",
-      "Dodge"
-    ],
-    "country_of_origin": "American",
-    "production_start": 1981,
-    "production_end": 1989,
-    "decades": [
-      "1980s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "Sedan",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 84,
-    "power_output_hp_max": 100,
-    "power_output_ranges": [
-      "0-100"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": false,
-    "image_url": ""
-  },
-  {
     "id": "plymouth-road-runner-g1",
     "make": "Plymouth",
     "model": "Road Runner",
@@ -103129,136 +102011,6 @@
       "0-100",
       "101-200",
       "201-300"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": false,
-    "image_url": ""
-  },
-  {
-    "id": "plymouth-volare-g1",
-    "make": "Plymouth",
-    "model": "Volaré",
-    "generation": 1,
-    "brands": [
-      "Plymouth",
-      "Dodge"
-    ],
-    "country_of_origin": "American",
-    "production_start": 1976,
-    "production_end": 1980,
-    "decades": [
-      "1970s",
-      "1980s"
-    ],
-    "engine_layouts": [
-      "Inline-6",
-      "V8"
-    ],
-    "body_style": "Sedan",
-    "drivetrain": [
-      "RWD"
-    ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 90,
-    "power_output_hp_max": 170,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": false,
-    "image_url": ""
-  },
-  {
-    "id": "plymouth-voyager-g1",
-    "make": "Plymouth",
-    "model": "Voyager",
-    "generation": 1,
-    "brands": [
-      "Plymouth",
-      "Dodge"
-    ],
-    "country_of_origin": "American",
-    "production_start": 1984,
-    "production_end": 1990,
-    "decades": [
-      "1980s",
-      "1990s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "V6"
-    ],
-    "body_style": "Minivan",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Minivan",
-    "power_output_hp_min": 84,
-    "power_output_hp_max": 150,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": false,
-    "image_url": ""
-  },
-  {
-    "id": "plymouth-voyager-g2",
-    "make": "Plymouth",
-    "model": "Voyager",
-    "generation": 2,
-    "brands": [
-      "Plymouth",
-      "Dodge",
-      "Chrysler"
-    ],
-    "country_of_origin": "American",
-    "production_start": 1991,
-    "production_end": 1995,
-    "decades": [
-      "1990s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "V6"
-    ],
-    "body_style": "Minivan",
-    "drivetrain": [
-      "FWD",
-      "AWD"
-    ],
-    "car_class": "Minivan",
-    "power_output_hp_min": 100,
-    "power_output_hp_max": 162,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
     ],
     "transmission": [
       "Manual",
@@ -120832,8 +119584,8 @@
     "generation": 1,
     "brands": [
       "Toyota",
-      "Peugeot",
-      "Citroën"
+      "Citroën",
+      "Peugeot"
     ],
     "country_of_origin": "Japanese",
     "production_start": 2005,
@@ -127521,48 +126273,6 @@
     "image_url": ""
   },
   {
-    "id": "vauxhall-adam-g1",
-    "make": "Vauxhall",
-    "model": "Adam",
-    "generation": 1,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2013,
-    "production_end": 2019,
-    "decades": [
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "Inline-3"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 69,
-    "power_output_hp_max": 148,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
     "id": "vauxhall-ampera-g1",
     "make": "Vauxhall",
     "model": "Ampera",
@@ -127597,53 +126307,6 @@
     ],
     "fuel_type": [
       "Plug-in Hybrid"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-antara-g1",
-    "make": "Vauxhall",
-    "model": "Antara",
-    "generation": 1,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Chevrolet",
-      "Saturn"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2006,
-    "production_end": 2015,
-    "decades": [
-      "2000s",
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "V6"
-    ],
-    "body_style": "SUV",
-    "drivetrain": [
-      "FWD",
-      "AWD"
-    ],
-    "car_class": "SUV",
-    "power_output_hp_min": 125,
-    "power_output_hp_max": 224,
-    "power_output_ranges": [
-      "101-200",
-      "201-300"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
     ],
     "pop_culture": null,
     "price_at_launch_usd": null,
@@ -127693,320 +126356,6 @@
     "image_url": ""
   },
   {
-    "id": "vauxhall-astra-g2",
-    "make": "Vauxhall",
-    "model": "Astra",
-    "generation": 2,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Daewoo",
-      "Pontiac"
-    ],
-    "country_of_origin": "British",
-    "production_start": 1984,
-    "production_end": 1991,
-    "decades": [
-      "1980s",
-      "1990s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 54,
-    "power_output_hp_max": 148,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-astra-g3",
-    "make": "Vauxhall",
-    "model": "Astra",
-    "generation": 3,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Holden"
-    ],
-    "country_of_origin": "British",
-    "production_start": 1991,
-    "production_end": 1998,
-    "decades": [
-      "1990s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 59,
-    "power_output_hp_max": 148,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-astra-g4",
-    "make": "Vauxhall",
-    "model": "Astra",
-    "generation": 4,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Holden"
-    ],
-    "country_of_origin": "British",
-    "production_start": 1998,
-    "production_end": 2004,
-    "decades": [
-      "1990s",
-      "2000s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 64,
-    "power_output_hp_max": 197,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-astra-g5",
-    "make": "Vauxhall",
-    "model": "Astra",
-    "generation": 5,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Holden",
-      "Saturn"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2004,
-    "production_end": 2010,
-    "decades": [
-      "2000s",
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 79,
-    "power_output_hp_max": 237,
-    "power_output_ranges": [
-      "0-100",
-      "101-200",
-      "201-300"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-astra-g6",
-    "make": "Vauxhall",
-    "model": "Astra",
-    "generation": 6,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Holden"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2009,
-    "production_end": 2015,
-    "decades": [
-      "2000s",
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 86,
-    "power_output_hp_max": 276,
-    "power_output_ranges": [
-      "0-100",
-      "101-200",
-      "201-300"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-astra-g7",
-    "make": "Vauxhall",
-    "model": "Astra",
-    "generation": 7,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Holden"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2015,
-    "production_end": 2021,
-    "decades": [
-      "2010s",
-      "2020s"
-    ],
-    "engine_layouts": [
-      "Inline-3",
-      "Inline-4"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 104,
-    "power_output_hp_max": 197,
-    "power_output_ranges": [
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic",
-      "CVT"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-astra-g8",
-    "make": "Vauxhall",
-    "model": "Astra",
-    "generation": 8,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2021,
-    "production_end": null,
-    "decades": [
-      "2020s"
-    ],
-    "engine_layouts": [
-      "Inline-3",
-      "Inline-4",
-      "Electric"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 109,
-    "power_output_hp_max": 222,
-    "power_output_ranges": [
-      "101-200",
-      "201-300"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel",
-      "Plug-in Hybrid",
-      "Electric"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
     "id": "vauxhall-belmont-g1",
     "make": "Vauxhall",
     "model": "Belmont",
@@ -128045,51 +126394,6 @@
     "fuel_type": [
       "Gasoline",
       "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-calibra-g1",
-    "make": "Vauxhall",
-    "model": "Calibra",
-    "generation": 1,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Holden"
-    ],
-    "country_of_origin": "British",
-    "production_start": 1989,
-    "production_end": 1997,
-    "decades": [
-      "1980s",
-      "1990s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "V6"
-    ],
-    "body_style": "Coupe",
-    "drivetrain": [
-      "FWD",
-      "AWD"
-    ],
-    "car_class": "Sports Car",
-    "power_output_hp_min": 113,
-    "power_output_hp_max": 201,
-    "power_output_ranges": [
-      "101-200",
-      "201-300"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
     ],
     "pop_culture": null,
     "price_at_launch_usd": null,
@@ -128186,49 +126490,6 @@
     "image_url": ""
   },
   {
-    "id": "vauxhall-cascada-g1",
-    "make": "Vauxhall",
-    "model": "Cascada",
-    "generation": 1,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Buick",
-      "Holden"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2013,
-    "production_end": 2019,
-    "decades": [
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "Convertible",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Coupe",
-    "power_output_hp_min": 118,
-    "power_output_hp_max": 197,
-    "power_output_ranges": [
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
     "id": "vauxhall-cavalier-g1",
     "make": "Vauxhall",
     "model": "Cavalier",
@@ -128263,94 +126524,6 @@
     ],
     "fuel_type": [
       "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-cavalier-g2",
-    "make": "Vauxhall",
-    "model": "Cavalier",
-    "generation": 2,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 1981,
-    "production_end": 1988,
-    "decades": [
-      "1980s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "Sedan",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 53,
-    "power_output_hp_max": 128,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-cavalier-g3",
-    "make": "Vauxhall",
-    "model": "Cavalier",
-    "generation": 3,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 1988,
-    "production_end": 1995,
-    "decades": [
-      "1980s",
-      "1990s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "V6"
-    ],
-    "body_style": "Sedan",
-    "drivetrain": [
-      "FWD",
-      "AWD"
-    ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 74,
-    "power_output_hp_max": 201,
-    "power_output_ranges": [
-      "0-100",
-      "101-200",
-      "201-300"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
     ],
     "pop_culture": null,
     "price_at_launch_usd": null,
@@ -128399,231 +126572,6 @@
     "image_url": ""
   },
   {
-    "id": "vauxhall-corsa-g2",
-    "make": "Vauxhall",
-    "model": "Corsa",
-    "generation": 2,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Holden",
-      "Chevrolet"
-    ],
-    "country_of_origin": "British",
-    "production_start": 1993,
-    "production_end": 2000,
-    "decades": [
-      "1990s",
-      "2000s"
-    ],
-    "engine_layouts": [
-      "Inline-3",
-      "Inline-4"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 44,
-    "power_output_hp_max": 108,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-corsa-g3",
-    "make": "Vauxhall",
-    "model": "Corsa",
-    "generation": 3,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Holden"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2000,
-    "production_end": 2006,
-    "decades": [
-      "2000s"
-    ],
-    "engine_layouts": [
-      "Inline-3",
-      "Inline-4"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 57,
-    "power_output_hp_max": 123,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-corsa-g4",
-    "make": "Vauxhall",
-    "model": "Corsa",
-    "generation": 4,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2006,
-    "production_end": 2014,
-    "decades": [
-      "2000s",
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-3",
-      "Inline-4"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 64,
-    "power_output_hp_max": 207,
-    "power_output_ranges": [
-      "0-100",
-      "101-200",
-      "201-300"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-corsa-g5",
-    "make": "Vauxhall",
-    "model": "Corsa",
-    "generation": 5,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2014,
-    "production_end": 2019,
-    "decades": [
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "Inline-3"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 69,
-    "power_output_hp_max": 204,
-    "power_output_ranges": [
-      "0-100",
-      "101-200",
-      "201-300"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-corsa-g6",
-    "make": "Vauxhall",
-    "model": "Corsa",
-    "generation": 6,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2019,
-    "production_end": null,
-    "decades": [
-      "2010s",
-      "2020s"
-    ],
-    "engine_layouts": [
-      "Inline-3",
-      "Inline-4",
-      "Electric"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 74,
-    "power_output_hp_max": 154,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel",
-      "Electric"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
     "id": "vauxhall-cresta-velox-g1",
     "make": "Vauxhall",
     "model": "Cresta / Velox",
@@ -128660,50 +126608,6 @@
     ],
     "fuel_type": [
       "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-crossland-x-crossland-g1",
-    "make": "Vauxhall",
-    "model": "Crossland X / Crossland",
-    "generation": 1,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2017,
-    "production_end": 2024,
-    "decades": [
-      "2010s",
-      "2020s"
-    ],
-    "engine_layouts": [
-      "Inline-3",
-      "Inline-4"
-    ],
-    "body_style": "SUV",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "SUV",
-    "power_output_hp_min": 82,
-    "power_output_hp_max": 128,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
     ],
     "pop_culture": null,
     "price_at_launch_usd": null,
@@ -128798,234 +126702,6 @@
     "image_url": ""
   },
   {
-    "id": "vauxhall-frontera-g2",
-    "make": "Vauxhall",
-    "model": "Frontera",
-    "generation": 2,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2024,
-    "production_end": null,
-    "decades": [
-      "2020s"
-    ],
-    "engine_layouts": [
-      "Inline-3",
-      "Electric"
-    ],
-    "body_style": "SUV",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "SUV",
-    "power_output_hp_min": 108,
-    "power_output_hp_max": 143,
-    "power_output_ranges": [
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Electric"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-grandland-g2",
-    "make": "Vauxhall",
-    "model": "Grandland",
-    "generation": 2,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2024,
-    "production_end": null,
-    "decades": [
-      "2020s"
-    ],
-    "engine_layouts": [
-      "Inline-3",
-      "Inline-4",
-      "Electric"
-    ],
-    "body_style": "SUV",
-    "drivetrain": [
-      "FWD",
-      "AWD"
-    ],
-    "car_class": "SUV",
-    "power_output_hp_min": 143,
-    "power_output_hp_max": 320,
-    "power_output_ranges": [
-      "101-200",
-      "201-300",
-      "301-400"
-    ],
-    "transmission": [
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Plug-in Hybrid",
-      "Electric"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-grandland-x-grandland-g1",
-    "make": "Vauxhall",
-    "model": "Grandland X / Grandland",
-    "generation": 1,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2017,
-    "production_end": 2024,
-    "decades": [
-      "2010s",
-      "2020s"
-    ],
-    "engine_layouts": [
-      "Inline-3",
-      "Inline-4"
-    ],
-    "body_style": "SUV",
-    "drivetrain": [
-      "FWD",
-      "AWD"
-    ],
-    "car_class": "SUV",
-    "power_output_hp_min": 128,
-    "power_output_hp_max": 296,
-    "power_output_ranges": [
-      "101-200",
-      "201-300"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel",
-      "Plug-in Hybrid"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-insignia-g1",
-    "make": "Vauxhall",
-    "model": "Insignia",
-    "generation": 1,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Buick",
-      "Holden"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2008,
-    "production_end": 2017,
-    "decades": [
-      "2000s",
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "V6"
-    ],
-    "body_style": "Sedan",
-    "drivetrain": [
-      "FWD",
-      "AWD"
-    ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 113,
-    "power_output_hp_max": 321,
-    "power_output_ranges": [
-      "101-200",
-      "201-300",
-      "301-400"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-insignia-g2",
-    "make": "Vauxhall",
-    "model": "Insignia",
-    "generation": 2,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Buick",
-      "Holden"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2017,
-    "production_end": 2022,
-    "decades": [
-      "2010s",
-      "2020s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD",
-      "AWD"
-    ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 108,
-    "power_output_hp_max": 256,
-    "power_output_ranges": [
-      "101-200",
-      "201-300"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
     "id": "vauxhall-lotus-carlton-g1",
     "make": "Vauxhall",
     "model": "Lotus Carlton",
@@ -129058,180 +126734,6 @@
     ],
     "fuel_type": [
       "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-meriva-g1",
-    "make": "Vauxhall",
-    "model": "Meriva",
-    "generation": 1,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2003,
-    "production_end": 2010,
-    "decades": [
-      "2000s",
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "Minivan",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Minivan",
-    "power_output_hp_min": 74,
-    "power_output_hp_max": 178,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-meriva-g2",
-    "make": "Vauxhall",
-    "model": "Meriva",
-    "generation": 2,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2010,
-    "production_end": 2017,
-    "decades": [
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "Minivan",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Minivan",
-    "power_output_hp_min": 74,
-    "power_output_hp_max": 138,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-mokka-g2",
-    "make": "Vauxhall",
-    "model": "Mokka",
-    "generation": 2,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2020,
-    "production_end": null,
-    "decades": [
-      "2020s"
-    ],
-    "engine_layouts": [
-      "Inline-3",
-      "Inline-4",
-      "Electric"
-    ],
-    "body_style": "SUV",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "SUV",
-    "power_output_hp_min": 99,
-    "power_output_hp_max": 276,
-    "power_output_ranges": [
-      "0-100",
-      "101-200",
-      "201-300"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel",
-      "Electric"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-mokka-mokka-x-g1",
-    "make": "Vauxhall",
-    "model": "Mokka / Mokka X",
-    "generation": 1,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Buick"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2012,
-    "production_end": 2019,
-    "decades": [
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "SUV",
-    "drivetrain": [
-      "FWD",
-      "AWD"
-    ],
-    "car_class": "SUV",
-    "power_output_hp_min": 113,
-    "power_output_hp_max": 150,
-    "power_output_ranges": [
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
     ],
     "pop_culture": null,
     "price_at_launch_usd": null,
@@ -129369,53 +126871,6 @@
     "image_url": ""
   },
   {
-    "id": "vauxhall-omega-g1",
-    "make": "Vauxhall",
-    "model": "Omega",
-    "generation": 1,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Cadillac"
-    ],
-    "country_of_origin": "British",
-    "production_start": 1994,
-    "production_end": 2003,
-    "decades": [
-      "1990s",
-      "2000s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "V6",
-      "Inline-6"
-    ],
-    "body_style": "Sedan",
-    "drivetrain": [
-      "RWD"
-    ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 99,
-    "power_output_hp_max": 215,
-    "power_output_ranges": [
-      "0-100",
-      "101-200",
-      "201-300"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
     "id": "vauxhall-royale-g1",
     "make": "Vauxhall",
     "model": "Royale",
@@ -129498,50 +126953,6 @@
     "image_url": ""
   },
   {
-    "id": "vauxhall-signum-g1",
-    "make": "Vauxhall",
-    "model": "Signum",
-    "generation": 1,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2003,
-    "production_end": 2008,
-    "decades": [
-      "2000s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "V6"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 99,
-    "power_output_hp_max": 247,
-    "power_output_ranges": [
-      "0-100",
-      "101-200",
-      "201-300"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
     "id": "vauxhall-sintra-g1",
     "make": "Vauxhall",
     "model": "Sintra",
@@ -129570,139 +126981,6 @@
     "power_output_hp_max": 198,
     "power_output_ranges": [
       "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-tigra-g1",
-    "make": "Vauxhall",
-    "model": "Tigra",
-    "generation": 1,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Holden"
-    ],
-    "country_of_origin": "British",
-    "production_start": 1994,
-    "production_end": 2001,
-    "decades": [
-      "1990s",
-      "2000s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "Coupe",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Coupe",
-    "power_output_hp_min": 89,
-    "power_output_hp_max": 105,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-vectra-g2",
-    "make": "Vauxhall",
-    "model": "Vectra",
-    "generation": 2,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Holden"
-    ],
-    "country_of_origin": "British",
-    "production_start": 1995,
-    "production_end": 2002,
-    "decades": [
-      "1990s",
-      "2000s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "V6"
-    ],
-    "body_style": "Sedan",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 74,
-    "power_output_hp_max": 192,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-vectra-g3",
-    "make": "Vauxhall",
-    "model": "Vectra",
-    "generation": 3,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Holden"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2002,
-    "production_end": 2008,
-    "decades": [
-      "2000s"
-    ],
-    "engine_layouts": [
-      "Inline-4",
-      "V6"
-    ],
-    "body_style": "Sedan",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Sedan",
-    "power_output_hp_min": 99,
-    "power_output_hp_max": 276,
-    "power_output_ranges": [
-      "0-100",
-      "101-200",
-      "201-300"
     ],
     "transmission": [
       "Manual",
@@ -129879,47 +127157,6 @@
     "image_url": ""
   },
   {
-    "id": "vauxhall-viva-g4",
-    "make": "Vauxhall",
-    "model": "Viva",
-    "generation": 4,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Chevrolet"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2015,
-    "production_end": 2019,
-    "decades": [
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-3"
-    ],
-    "body_style": "Hatchback",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Hatchback",
-    "power_output_hp_min": 74,
-    "power_output_hp_max": 74,
-    "power_output_ranges": [
-      "0-100"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
     "id": "vauxhall-vx220-g1",
     "make": "Vauxhall",
     "model": "VX220",
@@ -129995,134 +127232,6 @@
     ],
     "fuel_type": [
       "Gasoline"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-zafira-g1",
-    "make": "Vauxhall",
-    "model": "Zafira",
-    "generation": 1,
-    "brands": [
-      "Vauxhall",
-      "Opel",
-      "Holden"
-    ],
-    "country_of_origin": "British",
-    "production_start": 1999,
-    "production_end": 2005,
-    "decades": [
-      "1990s",
-      "2000s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "Minivan",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Minivan",
-    "power_output_hp_min": 83,
-    "power_output_hp_max": 197,
-    "power_output_ranges": [
-      "0-100",
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-zafira-g2",
-    "make": "Vauxhall",
-    "model": "Zafira",
-    "generation": 2,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2005,
-    "production_end": 2014,
-    "decades": [
-      "2000s",
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "Minivan",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Minivan",
-    "power_output_hp_min": 104,
-    "power_output_hp_max": 237,
-    "power_output_ranges": [
-      "101-200",
-      "201-300"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
-    ],
-    "pop_culture": null,
-    "price_at_launch_usd": null,
-    "manufacturer_still_active": true,
-    "image_url": ""
-  },
-  {
-    "id": "vauxhall-zafira-tourer-g3",
-    "make": "Vauxhall",
-    "model": "Zafira Tourer",
-    "generation": 3,
-    "brands": [
-      "Vauxhall",
-      "Opel"
-    ],
-    "country_of_origin": "British",
-    "production_start": 2011,
-    "production_end": 2019,
-    "decades": [
-      "2010s"
-    ],
-    "engine_layouts": [
-      "Inline-4"
-    ],
-    "body_style": "Minivan",
-    "drivetrain": [
-      "FWD"
-    ],
-    "car_class": "Minivan",
-    "power_output_hp_min": 113,
-    "power_output_hp_max": 197,
-    "power_output_ranges": [
-      "101-200"
-    ],
-    "transmission": [
-      "Manual",
-      "Automatic"
-    ],
-    "fuel_type": [
-      "Gasoline",
-      "Diesel"
     ],
     "pop_culture": null,
     "price_at_launch_usd": null,
