@@ -3,9 +3,9 @@
 Every car currently in the game. Generated — do not hand-edit.
 Re-run `node scripts/make-catalog.mjs` after any change to `data/cars.json`.
 
-- **528** cars across **47** makes
-- **504** playable (verified image wired up)
-- **24** awaiting an image — these render as a text tile:
+- **595** cars across **47** makes
+- **544** playable (verified image wired up)
+- **51** awaiting an image — these render as a text tile:
   - `jeep-cj-5-g1`
   - `jeep-cj-6-g1`
   - `jeep-cj-8-scrambler-g1`
@@ -17,6 +17,33 @@ Re-run `node scripts/make-catalog.mjs` after any change to `data/cars.json`.
   - `lexus-gs-g1`
   - `lexus-ls-g1`
   - `lexus-lx-g1`
+  - `mitsubishi-3000gt-gto-g1`
+  - `mitsubishi-colt-g2`
+  - `mitsubishi-diamante-g1`
+  - `mitsubishi-endeavor-g1`
+  - `mitsubishi-fto-g1`
+  - `mitsubishi-galant-g6`
+  - `mitsubishi-galant-g7`
+  - `mitsubishi-i-miev-g1`
+  - `mitsubishi-l200-triton-g1`
+  - `mitsubishi-l200-triton-g2`
+  - `mitsubishi-l200-triton-g6`
+  - `mitsubishi-lancer-evolution-ii-g1`
+  - `mitsubishi-lancer-evolution-iii-g1`
+  - `mitsubishi-lancer-evolution-v-g1`
+  - `mitsubishi-lancer-g7`
+  - `mitsubishi-lancer-mirage-g4`
+  - `mitsubishi-lancer-mirage-g5`
+  - `mitsubishi-lancer-mirage-g6`
+  - `mitsubishi-mirage-g1`
+  - `mitsubishi-outlander-g1`
+  - `mitsubishi-outlander-g4`
+  - `mitsubishi-outlander-sport-asx-rvr-g1`
+  - `mitsubishi-pajero-montero-g3`
+  - `mitsubishi-pajero-montero-g4`
+  - `mitsubishi-pajero-sport-montero-sport-g1`
+  - `mitsubishi-pajero-sport-montero-sport-g2`
+  - `mitsubishi-starion-g1`
   - `nissan-maxima-g6`
   - `nissan-micra-g6`
   - `nissan-micra-march-g3`
@@ -68,7 +95,7 @@ generation's factory line-up in hp, performance variants included.
 | [Mazda](#mazda) | 8 | Japanese |
 | [McLaren](#mclaren) | 8 | British |
 | [Mercedes-Benz](#mercedes-benz) | 9 | German |
-| [Mitsubishi](#mitsubishi) | 1 | Japanese |
+| [Mitsubishi](#mitsubishi) | 68 | Japanese |
 | [Nissan](#nissan) | 138 | Japanese |
 | [Pagani](#pagani) | 1 | Italian |
 | [Peugeot](#peugeot) | 1 | French |
@@ -539,7 +566,74 @@ generation's factory line-up in hp, performance variants included.
 
 | Model | Gen | Years | Class | Body | hp | Image |
 |---|---:|---|---|---|---|:-:|
+| 3000GT / GTO | 1 | 1990–2000 | Sports Car | Coupe | 160–320 | **no** |
+| ASX | 2 | 2023–now | SUV | SUV | 90–158 | yes |
+| Colt | 1 | 2002–2012 | Hatchback | Hatchback | 74–154 | yes |
+| Colt | 2 | 2023–now | Hatchback | Hatchback | 64–141 | **no** |
+| Colt Galant / Galant | 1 | 1969–1973 | Sedan | Sedan | 85–123 | yes |
+| Cordia | 1 | 1982–1990 | Coupe | Coupe | 75–114 | yes |
+| Delica D:5 | 1 | 2007–now | Minivan | Minivan | 143–168 | yes |
+| Destinator | 1 | 2025–now | SUV | SUV | 161 | yes |
+| Diamante | 1 | 1990–1996 | Sedan | Sedan | 158–207 | **no** |
+| Diamante | 2 | 1995–2005 | Sedan | Sedan | 172–210 | yes |
+| Eclipse | 1 | 1989–1994 | Sports Car | Coupe | 92–195 | yes |
+| Eclipse | 2 | 1995–1999 | Sports Car | Coupe | 140–210 | yes |
+| Eclipse | 3 | 2000–2005 | Sports Car | Coupe | 147–210 | yes |
+| Eclipse | 4 | 2006–2012 | Sports Car | Coupe | 162–265 | yes |
+| Eclipse Cross | 1 | 2017–now | SUV | SUV | 148–188 | yes |
+| Endeavor | 1 | 2004–2011 | SUV | SUV | 215–225 | **no** |
+| Expo | 1 | 1992–1996 | Minivan | Minivan | 113–136 | yes |
+| FTO | 1 | 1994–2000 | Sports Car | Coupe | 123–197 | **no** |
+| Galant | 2 | 1973–1987 | Sedan | Sedan | 74–145 | yes |
+| Galant | 6 | 1987–1992 | Sedan | Sedan | 90–237 | **no** |
+| Galant | 7 | 1992–1996 | Sedan | Sedan | 88–237 | **no** |
+| Galant | 8 | 1996–2003 | Sedan | Sedan | 98–276 | yes |
+| Galant | 9 | 2004–2012 | Sedan | Sedan | 160–258 | yes |
+| i-MiEV | 1 | 2009–2021 | Hatchback | Hatchback | 63–66 | **no** |
+| L200 / Triton | 1 | 1978–1986 | Pickup Truck | Pickup Truck | 79–108 | **no** |
+| L200 / Triton | 2 | 1986–1996 | Pickup Truck | Pickup Truck | 76–150 | **no** |
+| L200 / Triton | 3 | 1996–2005 | Pickup Truck | Pickup Truck | 99–133 | yes |
+| L200 / Triton | 4 | 2005–2015 | Pickup Truck | Pickup Truck | 113–182 | yes |
+| L200 / Triton | 5 | 2015–2024 | Pickup Truck | Pickup Truck | 126–178 | yes |
+| L200 / Triton | 6 | 2023–now | Pickup Truck | Pickup Truck | 148–201 | **no** |
+| Lancer | 1 | 1973–1979 | Sedan | Sedan | 69–108 | yes |
+| Lancer | 7 | 2000–2007 | Sedan | Sedan | 98–162 | **no** |
+| Lancer | 8 | 2007–2017 | Sedan | Sedan | 107–237 | yes |
+| Lancer / Mirage | 4 | 1988–1992 | Sedan | Sedan | 67–192 | **no** |
+| Lancer / Mirage | 5 | 1991–1996 | Sedan | Sedan | 74–192 | **no** |
+| Lancer / Mirage | 6 | 1995–2003 | Sedan | Sedan | 78–173 | **no** |
+| Lancer Evolution I | 1 | 1992–1994 | Sports Car | Sedan | 247 | yes |
+| Lancer Evolution II | 1 | 1994–1995 | Sports Car | Sedan | 256 | **no** |
+| Lancer Evolution III | 1 | 1995–1996 | Sports Car | Sedan | 266 | **no** |
+| Lancer Evolution IV | 1 | 1996–1998 | Sports Car | Sedan | 276 | yes |
+| Lancer Evolution IX | 1 | 2005–2007 | Sports Car | Sedan | 276–286 | yes |
+| Lancer Evolution V | 1 | 1998–1999 | Sports Car | Sedan | 276 | **no** |
+| Lancer Evolution VI | 1 | 1999–2001 | Sports Car | Sedan | 276 | yes |
+| Lancer Evolution VII | 1 | 2001–2003 | Sports Car | Sedan | 271–276 | yes |
+| Lancer Evolution VIII | 1 | 2003–2005 | Sports Car | Sedan | 271–276 | yes |
+| Lancer Evolution X | 1 | 2007–2016 | Sports Car | Sedan | 291–403 | yes |
+| Lancer EX | 2 | 1979–1987 | Sedan | Sedan | 79–158 | yes |
+| Mirage | 1 | 1978–1983 | Hatchback | Hatchback | 54–104 | **no** |
+| Mirage | 6 | 2012–2025 | Hatchback | Hatchback | 70–78 | yes |
+| Outlander | 1 | 2001–2006 | SUV | SUV | 134–237 | **no** |
+| Outlander | 2 | 2005–2012 | SUV | SUV | 138–230 | yes |
+| Outlander | 3 | 2012–2021 | SUV | SUV | 148–224 | yes |
+| Outlander | 4 | 2021–now | SUV | SUV | 181–302 | **no** |
+| Outlander Sport / ASX / RVR | 1 | 2010–2023 | SUV | SUV | 115–168 | **no** |
 | Pajero | 2 | 1991–1999 | Off-Road | SUV | 98–205 | yes |
+| Pajero / Montero | 1 | 1982–1991 | Off-Road | SUV | 82–148 | yes |
+| Pajero / Montero | 3 | 1999–2006 | Off-Road | SUV | 158–215 | **no** |
+| Pajero / Montero | 4 | 2006–2021 | Off-Road | SUV | 168–247 | **no** |
+| Pajero iO / Pinin | 1 | 1998–2007 | SUV | SUV | 98–127 | yes |
+| Pajero Sport / Montero Sport | 1 | 1996–2008 | Off-Road | SUV | 99–197 | **no** |
+| Pajero Sport / Montero Sport | 2 | 2008–2015 | Off-Road | SUV | 134–217 | **no** |
+| Pajero Sport / Montero Sport | 3 | 2015–now | Off-Road | SUV | 178–206 | yes |
+| Raider | 1 | 2006–2009 | Pickup Truck | Pickup Truck | 210–230 | yes |
+| Space Star | 1 | 1998–2005 | Minivan | Minivan | 85–120 | yes |
+| Starion | 1 | 1982–1989 | Sports Car | Hatchback | 143–197 | **no** |
+| Tredia | 1 | 1982–1990 | Sedan | Sedan | 82–114 | yes |
+| Xforce | 1 | 2023–now | SUV | SUV | 103–114 | yes |
+| Xpander | 1 | 2017–now | Minivan | Minivan | 103–114 | yes |
 
 ## Nissan
 
