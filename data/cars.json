@@ -1819,6 +1819,2522 @@
     "image_url": "/cars/buick-regal-gnx-g1.webp"
   },
   {
+    "id": "cadillac-allante-g1",
+    "make": "Cadillac",
+    "model": "Allanté",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1987,
+    "production_end": 1993,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 170,
+    "power_output_hp_max": 295,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-allante-g1.webp"
+  },
+  {
+    "id": "cadillac-ats-g1",
+    "make": "Cadillac",
+    "model": "ATS",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2013,
+    "production_end": 2019,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 202,
+    "power_output_hp_max": 335,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-ats-g1.webp"
+  },
+  {
+    "id": "cadillac-ats-v-g1",
+    "make": "Cadillac",
+    "model": "ATS-V",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2016,
+    "production_end": 2019,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 464,
+    "power_output_hp_max": 464,
+    "power_output_ranges": [
+      "401-500"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "cadillac-calais-g1",
+    "make": "Cadillac",
+    "model": "Calais",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1965,
+    "production_end": 1976,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 190,
+    "power_output_hp_max": 375,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-calais-g1.webp"
+  },
+  {
+    "id": "cadillac-catera-g1",
+    "make": "Cadillac",
+    "model": "Catera",
+    "generation": 1,
+    "brands": [
+      "Cadillac",
+      "Opel",
+      "Vauxhall"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1997,
+    "production_end": 2001,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 200,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-catera-g1.webp"
+  },
+  {
+    "id": "cadillac-celestiq-g1",
+    "make": "Cadillac",
+    "model": "Celestiq",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 600,
+    "power_output_hp_max": 655,
+    "power_output_ranges": [
+      "501-600",
+      "601-700"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-celestiq-g1.webp"
+  },
+  {
+    "id": "cadillac-cimarron-g1",
+    "make": "Cadillac",
+    "model": "Cimarron",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1982,
+    "production_end": 1988,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 88,
+    "power_output_hp_max": 125,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-cimarron-g1.webp"
+  },
+  {
+    "id": "cadillac-ct4-g1",
+    "make": "Cadillac",
+    "model": "CT4",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2020,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 237,
+    "power_output_hp_max": 325,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-ct4-g1.webp"
+  },
+  {
+    "id": "cadillac-ct4-v-blackwing-g1",
+    "make": "Cadillac",
+    "model": "CT4-V Blackwing",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2022,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 472,
+    "power_output_hp_max": 472,
+    "power_output_ranges": [
+      "401-500"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "cadillac-ct5-g1",
+    "make": "Cadillac",
+    "model": "CT5",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2020,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 237,
+    "power_output_hp_max": 360,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-ct5-g1.webp"
+  },
+  {
+    "id": "cadillac-ct5-v-blackwing-g1",
+    "make": "Cadillac",
+    "model": "CT5-V Blackwing",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2022,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 668,
+    "power_output_hp_max": 668,
+    "power_output_ranges": [
+      "601-700"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "cadillac-ct6-g1",
+    "make": "Cadillac",
+    "model": "CT6",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2016,
+    "production_end": 2020,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 237,
+    "power_output_hp_max": 550,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500",
+      "501-600"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "cadillac-cts-g1",
+    "make": "Cadillac",
+    "model": "CTS",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2003,
+    "production_end": 2007,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 210,
+    "power_output_hp_max": 255,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-cts-g1.webp"
+  },
+  {
+    "id": "cadillac-cts-g2",
+    "make": "Cadillac",
+    "model": "CTS",
+    "generation": 2,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2008,
+    "production_end": 2014,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 263,
+    "power_output_hp_max": 318,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "cadillac-cts-g3",
+    "make": "Cadillac",
+    "model": "CTS",
+    "generation": 3,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2014,
+    "production_end": 2019,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 268,
+    "power_output_hp_max": 420,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "cadillac-cts-v-g1",
+    "make": "Cadillac",
+    "model": "CTS-V",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2004,
+    "production_end": 2007,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 400,
+    "power_output_hp_max": 400,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-cts-v-g1.webp"
+  },
+  {
+    "id": "cadillac-cts-v-g2",
+    "make": "Cadillac",
+    "model": "CTS-V",
+    "generation": 2,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2009,
+    "production_end": 2014,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 556,
+    "power_output_hp_max": 556,
+    "power_output_ranges": [
+      "501-600"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-cts-v-g2.webp"
+  },
+  {
+    "id": "cadillac-cts-v-g3",
+    "make": "Cadillac",
+    "model": "CTS-V",
+    "generation": 3,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2016,
+    "production_end": 2019,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 640,
+    "power_output_hp_max": 640,
+    "power_output_ranges": [
+      "601-700"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-cts-v-g3.webp"
+  },
+  {
+    "id": "cadillac-de-ville-g1",
+    "make": "Cadillac",
+    "model": "De Ville",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1959,
+    "production_end": 1964,
+    "decades": [
+      "1950s",
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 325,
+    "power_output_hp_max": 340,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-de-ville-g1.webp"
+  },
+  {
+    "id": "cadillac-de-ville-g2",
+    "make": "Cadillac",
+    "model": "De Ville",
+    "generation": 2,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1965,
+    "production_end": 1970,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 340,
+    "power_output_hp_max": 375,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-de-ville-g2.webp"
+  },
+  {
+    "id": "cadillac-de-ville-g3",
+    "make": "Cadillac",
+    "model": "De Ville",
+    "generation": 3,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1971,
+    "production_end": 1976,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 190,
+    "power_output_hp_max": 345,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-de-ville-g3.webp"
+  },
+  {
+    "id": "cadillac-de-ville-g4",
+    "make": "Cadillac",
+    "model": "De Ville",
+    "generation": 4,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1977,
+    "production_end": 1984,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 105,
+    "power_output_hp_max": 180,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-de-ville-g4.webp"
+  },
+  {
+    "id": "cadillac-de-ville-g5",
+    "make": "Cadillac",
+    "model": "De Ville",
+    "generation": 5,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1985,
+    "production_end": 1993,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 125,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-de-ville-g5.webp"
+  },
+  {
+    "id": "cadillac-deville-g6",
+    "make": "Cadillac",
+    "model": "DeVille",
+    "generation": 6,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1994,
+    "production_end": 1999,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 200,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "cadillac-deville-g7",
+    "make": "Cadillac",
+    "model": "DeVille",
+    "generation": 7,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2000,
+    "production_end": 2005,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 275,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-deville-g7.webp"
+  },
+  {
+    "id": "cadillac-dts-g1",
+    "make": "Cadillac",
+    "model": "DTS",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2006,
+    "production_end": 2011,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 275,
+    "power_output_hp_max": 292,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-dts-g1.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g1",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1953,
+    "production_end": 1953,
+    "decades": [
+      "1950s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 210,
+    "power_output_hp_max": 210,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "cadillac-eldorado-g10",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 10,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1992,
+    "production_end": 2002,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 200,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g10.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g2",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 2,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1954,
+    "production_end": 1956,
+    "decades": [
+      "1950s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 230,
+    "power_output_hp_max": 305,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g2.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g3",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 3,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1957,
+    "production_end": 1958,
+    "decades": [
+      "1950s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 325,
+    "power_output_hp_max": 335,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g3.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g4",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 4,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1959,
+    "production_end": 1960,
+    "decades": [
+      "1950s",
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 345,
+    "power_output_hp_max": 345,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g4.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g5",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 5,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1961,
+    "production_end": 1966,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 325,
+    "power_output_hp_max": 340,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g5.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g6",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 6,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1967,
+    "production_end": 1970,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 340,
+    "power_output_hp_max": 400,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g6.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g7",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 7,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1971,
+    "production_end": 1978,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 180,
+    "power_output_hp_max": 365,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g7.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g8",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 8,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1979,
+    "production_end": 1985,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 105,
+    "power_output_hp_max": 180,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g8.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g9",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 9,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1986,
+    "production_end": 1991,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 130,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "cadillac-elr-g1",
+    "make": "Cadillac",
+    "model": "ELR",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2014,
+    "production_end": 2016,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 207,
+    "power_output_hp_max": 233,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-elr-g1.webp"
+  },
+  {
+    "id": "cadillac-escalade-g1",
+    "make": "Cadillac",
+    "model": "Escalade",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1999,
+    "production_end": 2000,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "4WD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 255,
+    "power_output_hp_max": 255,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-escalade-g1.webp"
+  },
+  {
+    "id": "cadillac-escalade-g2",
+    "make": "Cadillac",
+    "model": "Escalade",
+    "generation": 2,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2002,
+    "production_end": 2006,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 285,
+    "power_output_hp_max": 345,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-escalade-g2.webp"
+  },
+  {
+    "id": "cadillac-escalade-g3",
+    "make": "Cadillac",
+    "model": "Escalade",
+    "generation": 3,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2007,
+    "production_end": 2014,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 332,
+    "power_output_hp_max": 403,
+    "power_output_ranges": [
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-escalade-g3.webp"
+  },
+  {
+    "id": "cadillac-escalade-g4",
+    "make": "Cadillac",
+    "model": "Escalade",
+    "generation": 4,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2015,
+    "production_end": 2020,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 420,
+    "power_output_hp_max": 420,
+    "power_output_ranges": [
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-escalade-g4.webp"
+  },
+  {
+    "id": "cadillac-escalade-g5",
+    "make": "Cadillac",
+    "model": "Escalade",
+    "generation": 5,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2021,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V8",
+      "Inline-6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 277,
+    "power_output_hp_max": 682,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500",
+      "501-600",
+      "601-700"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-escalade-g5.webp"
+  },
+  {
+    "id": "cadillac-escalade-iq-g1",
+    "make": "Cadillac",
+    "model": "Escalade IQ",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2025,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 680,
+    "power_output_hp_max": 750,
+    "power_output_ranges": [
+      "601-700",
+      "701-800"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-escalade-iq-g1.webp"
+  },
+  {
+    "id": "cadillac-fleetwood-brougham-g1",
+    "make": "Cadillac",
+    "model": "Fleetwood Brougham",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1977,
+    "production_end": 1992,
+    "decades": [
+      "1970s",
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 105,
+    "power_output_hp_max": 185,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-fleetwood-brougham-g1.webp"
+  },
+  {
+    "id": "cadillac-fleetwood-g1",
+    "make": "Cadillac",
+    "model": "Fleetwood",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1985,
+    "production_end": 1992,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 125,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-fleetwood-g1.webp"
+  },
+  {
+    "id": "cadillac-fleetwood-g2",
+    "make": "Cadillac",
+    "model": "Fleetwood",
+    "generation": 2,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1993,
+    "production_end": 1996,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 185,
+    "power_output_hp_max": 260,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-fleetwood-g2.webp"
+  },
+  {
+    "id": "cadillac-lyriq-g1",
+    "make": "Cadillac",
+    "model": "Lyriq",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 340,
+    "power_output_hp_max": 615,
+    "power_output_ranges": [
+      "301-400",
+      "401-500",
+      "501-600",
+      "601-700"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-lyriq-g1.webp"
+  },
+  {
+    "id": "cadillac-optiq-g1",
+    "make": "Cadillac",
+    "model": "Optiq",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2025,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 300,
+    "power_output_hp_max": 519,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500",
+      "501-600"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-optiq-g1.webp"
+  },
+  {
+    "id": "cadillac-series-62-g1",
+    "make": "Cadillac",
+    "model": "Series 62",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1940,
+    "production_end": 1964,
+    "decades": [
+      "1940s",
+      "1950s",
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 135,
+    "power_output_hp_max": 340,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-series-62-g1.webp"
+  },
+  {
+    "id": "cadillac-seville-g1",
+    "make": "Cadillac",
+    "model": "Seville",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1975,
+    "production_end": 1979,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 120,
+    "power_output_hp_max": 180,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-seville-g1.webp"
+  },
+  {
+    "id": "cadillac-seville-g2",
+    "make": "Cadillac",
+    "model": "Seville",
+    "generation": 2,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1980,
+    "production_end": 1985,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 105,
+    "power_output_hp_max": 145,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-seville-g2.webp"
+  },
+  {
+    "id": "cadillac-seville-g3",
+    "make": "Cadillac",
+    "model": "Seville",
+    "generation": 3,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1986,
+    "production_end": 1991,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 130,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-seville-g3.webp"
+  },
+  {
+    "id": "cadillac-seville-g4",
+    "make": "Cadillac",
+    "model": "Seville",
+    "generation": 4,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1992,
+    "production_end": 1997,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 200,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-seville-g4.webp"
+  },
+  {
+    "id": "cadillac-seville-g5",
+    "make": "Cadillac",
+    "model": "Seville",
+    "generation": 5,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1998,
+    "production_end": 2004,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 275,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-seville-g5.webp"
+  },
+  {
+    "id": "cadillac-srx-g1",
+    "make": "Cadillac",
+    "model": "SRX",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2004,
+    "production_end": 2009,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 255,
+    "power_output_hp_max": 320,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "cadillac-srx-g2",
+    "make": "Cadillac",
+    "model": "SRX",
+    "generation": 2,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2010,
+    "production_end": 2016,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 265,
+    "power_output_hp_max": 308,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "cadillac-sts-g1",
+    "make": "Cadillac",
+    "model": "STS",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2005,
+    "production_end": 2011,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 255,
+    "power_output_hp_max": 469,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-sts-g1.webp"
+  },
+  {
+    "id": "cadillac-vistiq-g1",
+    "make": "Cadillac",
+    "model": "Vistiq",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2026,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 615,
+    "power_output_hp_max": 615,
+    "power_output_ranges": [
+      "601-700"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-vistiq-g1.webp"
+  },
+  {
+    "id": "cadillac-xlr-g1",
+    "make": "Cadillac",
+    "model": "XLR",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2004,
+    "production_end": 2009,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 320,
+    "power_output_hp_max": 443,
+    "power_output_ranges": [
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-xlr-g1.webp"
+  },
+  {
+    "id": "cadillac-xt4-g1",
+    "make": "Cadillac",
+    "model": "XT4",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2019,
+    "production_end": 2025,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 235,
+    "power_output_hp_max": 237,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-xt4-g1.webp"
+  },
+  {
+    "id": "cadillac-xt5-g1",
+    "make": "Cadillac",
+    "model": "XT5",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2017,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 235,
+    "power_output_hp_max": 310,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-xt5-g1.webp"
+  },
+  {
+    "id": "cadillac-xt6-g1",
+    "make": "Cadillac",
+    "model": "XT6",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2020,
+    "production_end": 2025,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 237,
+    "power_output_hp_max": 310,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-xt6-g1.webp"
+  },
+  {
+    "id": "cadillac-xts-g1",
+    "make": "Cadillac",
+    "model": "XTS",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2013,
+    "production_end": 2019,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 304,
+    "power_output_hp_max": 410,
+    "power_output_ranges": [
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
     "id": "chevrolet-blazer-g1",
     "make": "Chevrolet",
     "model": "Blazer",

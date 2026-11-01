@@ -3,9 +3,21 @@
 Every car currently in the game. Generated — do not hand-edit.
 Re-run `node scripts/make-catalog.mjs` after any change to `data/cars.json`.
 
-- **595** cars across **47** makes
-- **544** playable (verified image wired up)
-- **51** awaiting an image — these render as a text tile:
+- **658** cars across **48** makes
+- **595** playable (verified image wired up)
+- **63** awaiting an image — these render as a text tile:
+  - `cadillac-ats-v-g1`
+  - `cadillac-ct4-v-blackwing-g1`
+  - `cadillac-ct5-v-blackwing-g1`
+  - `cadillac-ct6-g1`
+  - `cadillac-cts-g2`
+  - `cadillac-cts-g3`
+  - `cadillac-deville-g6`
+  - `cadillac-eldorado-g1`
+  - `cadillac-eldorado-g9`
+  - `cadillac-srx-g1`
+  - `cadillac-srx-g2`
+  - `cadillac-xts-g1`
   - `jeep-cj-5-g1`
   - `jeep-cj-6-g1`
   - `jeep-cj-8-scrambler-g1`
@@ -73,6 +85,7 @@ generation's factory line-up in hp, performance variants included.
 | [Bentley](#bentley) | 1 | British |
 | [Bugatti](#bugatti) | 1 | French |
 | [Buick](#buick) | 1 | American |
+| [Cadillac](#cadillac) | 63 | American |
 | [Chevrolet](#chevrolet) | 24 | American |
 | [Dodge](#dodge) | 16 | American |
 | [Ferrari](#ferrari) | 9 | Italian |
@@ -195,6 +208,74 @@ generation's factory line-up in hp, performance variants included.
 | Model | Gen | Years | Class | Body | hp | Image |
 |---|---:|---|---|---|---|:-:|
 | Regal GNX | 1 | 1987–1987 | Muscle Car | Coupe | 276 | yes |
+
+## Cadillac
+
+| Model | Gen | Years | Class | Body | hp | Image |
+|---|---:|---|---|---|---|:-:|
+| Allanté | 1 | 1987–1993 | Sports Car | Convertible | 170–295 | yes |
+| ATS | 1 | 2013–2019 | Sedan | Sedan | 202–335 | yes |
+| ATS-V | 1 | 2016–2019 | Sedan | Sedan | 464 | **no** |
+| Calais | 1 | 1965–1976 | Sedan | Sedan | 190–375 | yes |
+| Catera | 1 | 1997–2001 | Sedan | Sedan | 200 | yes |
+| Celestiq | 1 | 2024–now | Sedan | Sedan | 600–655 | yes |
+| Cimarron | 1 | 1982–1988 | Sedan | Sedan | 88–125 | yes |
+| CT4 | 1 | 2020–now | Sedan | Sedan | 237–325 | yes |
+| CT4-V Blackwing | 1 | 2022–now | Sedan | Sedan | 472 | **no** |
+| CT5 | 1 | 2020–now | Sedan | Sedan | 237–360 | yes |
+| CT5-V Blackwing | 1 | 2022–now | Sedan | Sedan | 668 | **no** |
+| CT6 | 1 | 2016–2020 | Sedan | Sedan | 237–550 | **no** |
+| CTS | 1 | 2003–2007 | Sedan | Sedan | 210–255 | yes |
+| CTS | 2 | 2008–2014 | Sedan | Sedan | 263–318 | **no** |
+| CTS | 3 | 2014–2019 | Sedan | Sedan | 268–420 | **no** |
+| CTS-V | 1 | 2004–2007 | Sedan | Sedan | 400 | yes |
+| CTS-V | 2 | 2009–2014 | Sedan | Sedan | 556 | yes |
+| CTS-V | 3 | 2016–2019 | Sedan | Sedan | 640 | yes |
+| De Ville | 1 | 1959–1964 | Sedan | Sedan | 325–340 | yes |
+| De Ville | 2 | 1965–1970 | Sedan | Sedan | 340–375 | yes |
+| De Ville | 3 | 1971–1976 | Sedan | Sedan | 190–345 | yes |
+| De Ville | 4 | 1977–1984 | Sedan | Sedan | 105–180 | yes |
+| De Ville | 5 | 1985–1993 | Sedan | Sedan | 125–200 | yes |
+| DeVille | 6 | 1994–1999 | Sedan | Sedan | 200–300 | **no** |
+| DeVille | 7 | 2000–2005 | Sedan | Sedan | 275–300 | yes |
+| DTS | 1 | 2006–2011 | Sedan | Sedan | 275–292 | yes |
+| Eldorado | 1 | 1953–1953 | Coupe | Convertible | 210 | **no** |
+| Eldorado | 2 | 1954–1956 | Coupe | Convertible | 230–305 | yes |
+| Eldorado | 3 | 1957–1958 | Coupe | Convertible | 325–335 | yes |
+| Eldorado | 4 | 1959–1960 | Coupe | Convertible | 345 | yes |
+| Eldorado | 5 | 1961–1966 | Coupe | Convertible | 325–340 | yes |
+| Eldorado | 6 | 1967–1970 | Coupe | Coupe | 340–400 | yes |
+| Eldorado | 7 | 1971–1978 | Coupe | Convertible | 180–365 | yes |
+| Eldorado | 8 | 1979–1985 | Coupe | Coupe | 105–180 | yes |
+| Eldorado | 9 | 1986–1991 | Coupe | Coupe | 130–200 | **no** |
+| Eldorado | 10 | 1992–2002 | Coupe | Coupe | 200–300 | yes |
+| ELR | 1 | 2014–2016 | Coupe | Coupe | 207–233 | yes |
+| Escalade | 1 | 1999–2000 | SUV | SUV | 255 | yes |
+| Escalade | 2 | 2002–2006 | SUV | SUV | 285–345 | yes |
+| Escalade | 3 | 2007–2014 | SUV | SUV | 332–403 | yes |
+| Escalade | 4 | 2015–2020 | SUV | SUV | 420 | yes |
+| Escalade | 5 | 2021–now | SUV | SUV | 277–682 | yes |
+| Escalade IQ | 1 | 2025–now | SUV | SUV | 680–750 | yes |
+| Fleetwood | 1 | 1985–1992 | Sedan | Sedan | 125–200 | yes |
+| Fleetwood | 2 | 1993–1996 | Sedan | Sedan | 185–260 | yes |
+| Fleetwood Brougham | 1 | 1977–1992 | Sedan | Sedan | 105–185 | yes |
+| Lyriq | 1 | 2023–now | SUV | SUV | 340–615 | yes |
+| Optiq | 1 | 2025–now | SUV | SUV | 300–519 | yes |
+| Series 62 | 1 | 1940–1964 | Sedan | Sedan | 135–340 | yes |
+| Seville | 1 | 1975–1979 | Sedan | Sedan | 120–180 | yes |
+| Seville | 2 | 1980–1985 | Sedan | Sedan | 105–145 | yes |
+| Seville | 3 | 1986–1991 | Sedan | Sedan | 130–200 | yes |
+| Seville | 4 | 1992–1997 | Sedan | Sedan | 200–300 | yes |
+| Seville | 5 | 1998–2004 | Sedan | Sedan | 275–300 | yes |
+| SRX | 1 | 2004–2009 | SUV | SUV | 255–320 | **no** |
+| SRX | 2 | 2010–2016 | SUV | SUV | 265–308 | **no** |
+| STS | 1 | 2005–2011 | Sedan | Sedan | 255–469 | yes |
+| Vistiq | 1 | 2026–now | SUV | SUV | 615 | yes |
+| XLR | 1 | 2004–2009 | Sports Car | Convertible | 320–443 | yes |
+| XT4 | 1 | 2019–2025 | SUV | SUV | 235–237 | yes |
+| XT5 | 1 | 2017–now | SUV | SUV | 235–310 | yes |
+| XT6 | 1 | 2020–2025 | SUV | SUV | 237–310 | yes |
+| XTS | 1 | 2013–2019 | Sedan | Sedan | 304–410 | **no** |
 
 ## Chevrolet
 

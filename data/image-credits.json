@@ -5982,5 +5982,632 @@
     "artist": "AIMHO'S REBELLION 8490s",
     "source": "https://commons.wikimedia.org/wiki/File:2020_Mitsubishi_Xpander_MPV_front_view_in_Brunei.jpg",
     "verified": true
+  },
+  "cadillac-allante-g1": {
+    "file": "/cars/cadillac-allante-g1.webp",
+    "article": "Commons search: Cadillac Allanté 1987",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Greg Gjerdingen from Willmar, USA",
+    "source": "https://commons.wikimedia.org/wiki/File:1987_Cadillac_Allant%C3%A9,_front_left_(9456395106).jpg",
+    "verified": true
+  },
+  "cadillac-ats-g1": {
+    "file": "/cars/cadillac-ats-g1.webp",
+    "article": "Commons search: Cadillac ATS 2013",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:2013_Cadillac_ATS_--_2012_DC.JPG",
+    "verified": true
+  },
+  "cadillac-ats-v-g1": {
+    "file": "/cars/cadillac-ats-v-g1.webp",
+    "article": "Commons search: Cadillac ATS-V 2016",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Greg Gjerdingen from Willmar, USA",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Cadillac_ATS-V_(25743067616).jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2016_Cadillac_ATS-V_(25743067616).jpg"
+    ]
+  },
+  "cadillac-calais-g1": {
+    "file": "/cars/cadillac-calais-g1.webp",
+    "article": "Commons search: Cadillac Calais 1965",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Theodulf",
+    "source": "https://commons.wikimedia.org/wiki/File:1966_Cadillac_Calais_two_door_front.jpg",
+    "verified": true
+  },
+  "cadillac-catera-g1": {
+    "file": "/cars/cadillac-catera-g1.webp",
+    "article": "Commons search: Cadillac Catera 1997",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1997_Cadillac_Catera,_front_left,_12-11-2022.jpg",
+    "verified": true
+  },
+  "cadillac-celestiq-g1": {
+    "file": "/cars/cadillac-celestiq-g1.webp",
+    "article": "Cadillac Celestiq",
+    "matched": "main-article",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:2025_Cadillac_Celestiq_%22Vale%22,_front_right_(Greenwich_2025).jpg",
+    "verified": true
+  },
+  "cadillac-cimarron-g1": {
+    "file": "/cars/cadillac-cimarron-g1.webp",
+    "article": "Commons search: Cadillac Cimarron 1982",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Improbcat",
+    "source": "https://commons.wikimedia.org/wiki/File:1982_Cadillac_Cimarron,_front_left.jpg",
+    "verified": true
+  },
+  "cadillac-ct4-g1": {
+    "file": "/cars/cadillac-ct4-g1.webp",
+    "article": "Commons search: Cadillac CT4 2020",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:2020_Cadillac_CT4_Premium_Luxury,_front_5.7.21.jpg",
+    "verified": true
+  },
+  "cadillac-ct5-g1": {
+    "file": "/cars/cadillac-ct5-g1.webp",
+    "article": "Commons search: Cadillac CT5 2020",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "User3204",
+    "source": "https://commons.wikimedia.org/wiki/File:2020_SAIC-GM_Cadillac_CT5.jpg",
+    "verified": true
+  },
+  "cadillac-ct5-v-blackwing-g1": {
+    "file": "/cars/cadillac-ct5-v-blackwing-g1.webp",
+    "article": "Commons search: Cadillac CT5-V Blackwing 2022",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Cadillac_CT5-V_Blackwing_in_Dark_Emerald_Frost,_front_left.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2022_Cadillac_CT5-V_Blackwing_in_Dark_Emerald_Frost,_front_left.jpg"
+    ]
+  },
+  "cadillac-ct6-g1": {
+    "file": "/cars/cadillac-ct6-g1.webp",
+    "article": "Commons search: Cadillac CT6 2016",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Cadillac_CT6_Premium_Luxury_AWD_Super_Cruise,_front_right.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2018_Cadillac_CT6_Premium_Luxury_AWD_Super_Cruise,_front_right.jpg"
+    ]
+  },
+  "cadillac-cts-g1": {
+    "file": "/cars/cadillac-cts-g1.webp",
+    "article": "Commons search: Cadillac CTS 2003",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Rblimas at English Wikipedia",
+    "source": "https://commons.wikimedia.org/wiki/File:2003_Cadillac_CTS.jpg",
+    "verified": true
+  },
+  "cadillac-cts-g2": {
+    "file": "/cars/cadillac-cts-g2.webp",
+    "article": "Commons search: Cadillac CTS 2008",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:2008_Cadillac_CTS_sedan_01.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2008_Cadillac_CTS_sedan_01.jpg"
+    ]
+  },
+  "cadillac-cts-g3": {
+    "file": "/cars/cadillac-cts-g3.webp",
+    "article": "Commons search: Cadillac CTS 2014",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "L.Willms",
+    "source": "https://commons.wikimedia.org/wiki/File:Cadillac-CTS-2014-gray_IAA2013_front-view_LWS2815.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Cadillac-CTS-2014-gray_IAA2013_front-view_LWS2815.jpg"
+    ]
+  },
+  "cadillac-cts-v-g1": {
+    "file": "/cars/cadillac-cts-v-g1.webp",
+    "article": "Commons search: Cadillac CTS-V 2004",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Bull-Doser",
+    "source": "https://commons.wikimedia.org/wiki/File:%2704-%2705_Cadillac_CTS-V.jpg",
+    "verified": true
+  },
+  "cadillac-cts-v-g2": {
+    "file": "/cars/cadillac-cts-v-g2.webp",
+    "article": "Commons search: Cadillac CTS-V 2009",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:2009_Cadillac_CTS-V_in_Black,_front_left_(08-25-2009).jpg",
+    "verified": true
+  },
+  "cadillac-cts-v-g3": {
+    "file": "/cars/cadillac-cts-v-g3.webp",
+    "article": "Commons search: Cadillac CTS-V 2016",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Randolf Lomo",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Cadillac_CTS-V.png",
+    "verified": true
+  },
+  "cadillac-de-ville-g1": {
+    "file": "/cars/cadillac-de-ville-g1.webp",
+    "article": "Commons search: Cadillac De Ville 1959",
+    "matched": "search",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "artist": "Redsimon at English Wikipedia",
+    "source": "https://commons.wikimedia.org/wiki/File:Cadillac_Sedan_de_Ville_1959_front.jpg",
+    "verified": true
+  },
+  "cadillac-de-ville-g2": {
+    "file": "/cars/cadillac-de-ville-g2.webp",
+    "article": "Commons search: Cadillac De Ville 1965",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1965_Cadillac_De_Ville_convertible,_front_left,_08-29-2026.jpg",
+    "verified": true
+  },
+  "cadillac-de-ville-g3": {
+    "file": "/cars/cadillac-de-ville-g3.webp",
+    "article": "Commons search: Cadillac De Ville 1971",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1971_Cadillac_coupe_DeVille,_front_right,_06-08-2024.jpg",
+    "verified": true
+  },
+  "cadillac-de-ville-g4": {
+    "file": "/cars/cadillac-de-ville-g4.webp",
+    "article": "Commons search: Cadillac De Ville 1977",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Mick from Northamptonshire, England",
+    "source": "https://commons.wikimedia.org/wiki/File:Cadillac_1977_Sedan_de_Ville_.jpg",
+    "verified": true
+  },
+  "cadillac-de-ville-g5": {
+    "file": "/cars/cadillac-de-ville-g5.webp",
+    "article": "Commons search: Cadillac De Ville 1985",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1985_Cadillac_Sedan_de_Ville.jpg",
+    "verified": true
+  },
+  "cadillac-deville-g6": {
+    "file": "/cars/cadillac-deville-g6.webp",
+    "article": "Commons search: Cadillac DeVille 1994",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:1994-1996_Cadillac_Deville_--_01-28-2010.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1994-1996_Cadillac_Deville_--_01-28-2010.jpg"
+    ]
+  },
+  "cadillac-deville-g7": {
+    "file": "/cars/cadillac-deville-g7.webp",
+    "article": "Commons search: Cadillac DeVille 2000",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:2002_Cadillac_DeVille,_front_right,_09-10-2022.jpg",
+    "verified": true
+  },
+  "cadillac-dts-g1": {
+    "file": "/cars/cadillac-dts-g1.webp",
+    "article": "Commons search: Cadillac DTS 2006",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:2006_Cadillac_DTS_4.6L,_front_8.18.19.jpg",
+    "verified": true
+  },
+  "cadillac-eldorado-g1": {
+    "file": "/cars/cadillac-eldorado-g1.webp",
+    "article": "Commons search: Cadillac Eldorado 1953",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Michi1308",
+    "source": "https://commons.wikimedia.org/wiki/File:Cadillac_Eldorado_1953-bumper_detail.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Cadillac_Eldorado_1953-bumper_detail.jpg"
+    ]
+  },
+  "cadillac-eldorado-g10": {
+    "file": "/cars/cadillac-eldorado-g10.webp",
+    "article": "Commons search: Cadillac Eldorado 1992",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "SsmIntrigue",
+    "source": "https://commons.wikimedia.org/wiki/File:1992_Cadillac_Eldorado_Touring_Coupe_in_Medium_Garnet_Red_Metallic,_Front_Right,_06-29-2019.jpg",
+    "verified": true
+  },
+  "cadillac-eldorado-g2": {
+    "file": "/cars/cadillac-eldorado-g2.webp",
+    "article": "Commons search: Cadillac Eldorado 1954",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:Cadillac_Eldorado_Convertible_(1954)_1Y7A6104.jpg",
+    "verified": true
+  },
+  "cadillac-eldorado-g3": {
+    "file": "/cars/cadillac-eldorado-g3.webp",
+    "article": "Commons search: Cadillac Eldorado 1957",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "This picture has been taken by Oleg Yunakov. Contact e-mail: yunakovgmail.com. Image can be used in accordance with the terms of the СС-BY-SA license. Other photos can be seen here.",
+    "source": "https://commons.wikimedia.org/wiki/File:1957_Cadillac_Eldorado_-_01.jpg",
+    "verified": true
+  },
+  "cadillac-eldorado-g4": {
+    "file": "/cars/cadillac-eldorado-g4.webp",
+    "article": "Commons search: Cadillac Eldorado 1959",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MrWalkr",
+    "source": "https://commons.wikimedia.org/wiki/File:1959_Cadillac_Eldorado_Biarritz.jpg",
+    "verified": true
+  },
+  "cadillac-eldorado-g5": {
+    "file": "/cars/cadillac-eldorado-g5.webp",
+    "article": "Commons search: Cadillac Eldorado 1961",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "RL GNZLZ from Chile",
+    "source": "https://commons.wikimedia.org/wiki/File:Cadillac_Eldorado_1961_(41645986585).jpg",
+    "verified": true
+  },
+  "cadillac-eldorado-g6": {
+    "file": "/cars/cadillac-eldorado-g6.webp",
+    "article": "Commons search: Cadillac Eldorado 1967",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "nakhon100",
+    "source": "https://commons.wikimedia.org/wiki/File:Cadillac_Eldorado_1967_(9056530087).jpg",
+    "verified": true
+  },
+  "cadillac-eldorado-g7": {
+    "file": "/cars/cadillac-eldorado-g7.webp",
+    "article": "Commons search: Cadillac Eldorado 1971",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1971_Cadillac_Fleetwood_Eldorado_convertible,_front_left,_06-16-2024.jpg",
+    "verified": true
+  },
+  "cadillac-eldorado-g8": {
+    "file": "/cars/cadillac-eldorado-g8.webp",
+    "article": "Commons search: Cadillac Eldorado 1979",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Addvisor",
+    "source": "https://commons.wikimedia.org/wiki/File:Cadillac_Eldorado_(1979)_front.jpg",
+    "verified": true
+  },
+  "cadillac-eldorado-g9": {
+    "file": "/cars/cadillac-eldorado-g9.webp",
+    "article": "Commons search: Cadillac Eldorado 1986",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1986-1991_Cadillac_Eldorado.png",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1986-1991_Cadillac_Eldorado.png"
+    ]
+  },
+  "cadillac-elr-g1": {
+    "file": "/cars/cadillac-elr-g1.webp",
+    "article": "Commons search: Cadillac ELR 2014",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Cadillac_ELR,_front_right_(Cruisin%27_the_River_Lowellville_Car_Show,_June_19th,_2023).jpg",
+    "verified": true
+  },
+  "cadillac-escalade-g1": {
+    "file": "/cars/cadillac-escalade-g1.webp",
+    "article": "Commons search: Cadillac Escalade 1999",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Cutlass",
+    "source": "https://commons.wikimedia.org/wiki/File:1999_Cadillac_Escalade_in_Silver_Sand,_front_left,_09-19-2026.jpg",
+    "verified": true
+  },
+  "cadillac-escalade-g2": {
+    "file": "/cars/cadillac-escalade-g2.webp",
+    "article": "Commons search: Cadillac Escalade GMT800",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:GMT800-Cadillac-Escalade-ESV.jpg",
+    "verified": true
+  },
+  "cadillac-escalade-g3": {
+    "file": "/cars/cadillac-escalade-g3.webp",
+    "article": "Commons search: Cadillac Escalade GMT900",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artist": "Sfoskett",
+    "source": "https://commons.wikimedia.org/wiki/File:2007_Cadillac_Escalade_front_2.jpg",
+    "verified": true
+  },
+  "cadillac-escalade-g4": {
+    "file": "/cars/cadillac-escalade-g4.webp",
+    "article": "Commons search: Cadillac Escalade K2XL",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Shirley 501JFW",
+    "source": "https://commons.wikimedia.org/wiki/File:JAIA18_Cadillac_Escalade_Platinum_GMT_K2XL_1.jpg",
+    "verified": true
+  },
+  "cadillac-escalade-g5": {
+    "file": "/cars/cadillac-escalade-g5.webp",
+    "article": "Commons search: Cadillac Escalade 2021",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_Cadillac_Escalade_ESV_4WD_Premium_Luxury_in_Satin_Steel_Metallic,_front_right.jpg",
+    "verified": true
+  },
+  "cadillac-escalade-iq-g1": {
+    "file": "/cars/cadillac-escalade-iq-g1.webp",
+    "article": "Commons search: Cadillac Escalade IQ 2025",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Wlb5V",
+    "source": "https://commons.wikimedia.org/wiki/File:2025_Cadillac_Escalade_IQ.jpg",
+    "verified": true
+  },
+  "cadillac-fleetwood-brougham-g1": {
+    "file": "/cars/cadillac-fleetwood-brougham-g1.webp",
+    "article": "Commons search: Cadillac Fleetwood Brougham RWD",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "InSapphoWeTrust from Los Angeles, California, USA",
+    "source": "https://commons.wikimedia.org/wiki/File:1990_Cadillac_Brougham_dElegance_(US)_(8391188884).jpg",
+    "verified": true
+  },
+  "cadillac-fleetwood-g1": {
+    "file": "/cars/cadillac-fleetwood-g1.webp",
+    "article": "Commons search: Cadillac Fleetwood C-body FWD",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Elise240SX",
+    "source": "https://commons.wikimedia.org/wiki/File:1989_Cadillac_Fleetwood_in_Dark_Garnet_Red,_Front_Right,_06-11-2022.jpg",
+    "verified": true
+  },
+  "cadillac-fleetwood-g2": {
+    "file": "/cars/cadillac-fleetwood-g2.webp",
+    "article": "Commons search: Cadillac Fleetwood 1993",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1993_Cadillac_Fleetwood_Brougham,_front_left,_06-15-2025.jpg",
+    "verified": true
+  },
+  "cadillac-lyriq-g1": {
+    "file": "/cars/cadillac-lyriq-g1.webp",
+    "article": "Commons search: Cadillac Lyriq 2023",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_Cadillac_Lyriq_Luxury_1,_front_right,_08-22-2024.jpg",
+    "verified": true
+  },
+  "cadillac-optiq-g1": {
+    "file": "/cars/cadillac-optiq-g1.webp",
+    "article": "Commons search: Cadillac Optiq 2025",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:2025_Cadillac_Optiq,_front_5.3.25.jpg",
+    "verified": true
+  },
+  "cadillac-series-62-g1": {
+    "file": "/cars/cadillac-series-62-g1.webp",
+    "article": "Commons search: Cadillac Series 62 1940",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artist": "Stephen Foskett (Wikipedia User: sfoskett)",
+    "source": "https://commons.wikimedia.org/wiki/File:1941_Cadillac_Series_62_convertible_coupe.JPG",
+    "verified": true
+  },
+  "cadillac-seville-g1": {
+    "file": "/cars/cadillac-seville-g1.webp",
+    "article": "Commons search: Cadillac Seville 1977",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "That Hartford Guy",
+    "source": "https://commons.wikimedia.org/wiki/File:Cadillac_Seville_1977.jpg",
+    "verified": true
+  },
+  "cadillac-seville-g2": {
+    "file": "/cars/cadillac-seville-g2.webp",
+    "article": "Commons search: Cadillac Seville 1980",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Rutger van der Maar",
+    "source": "https://commons.wikimedia.org/wiki/File:1985_Cadillac_Seville_4.1_V8_front.jpg",
+    "verified": true
+  },
+  "cadillac-seville-g3": {
+    "file": "/cars/cadillac-seville-g3.webp",
+    "article": "Commons search: Cadillac Seville 1986",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1987_Cadillac_Seville_%22Custom_Gold_Edition%22,_front_right_(2022_Ellwood_City_Fall_Fest_%26_Car_Cruise).jpg",
+    "verified": true
+  },
+  "cadillac-seville-g4": {
+    "file": "/cars/cadillac-seville-g4.webp",
+    "article": "Commons search: Cadillac Seville 1992",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1995_Cadillac_Seville_SLS,_front_right,_05-24-2024.jpg",
+    "verified": true
+  },
+  "cadillac-seville-g5": {
+    "file": "/cars/cadillac-seville-g5.webp",
+    "article": "Commons search: Cadillac Seville 1998",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Trevor578",
+    "source": "https://commons.wikimedia.org/wiki/File:1998_Cadillac_Seville_SLS.jpg",
+    "verified": true
+  },
+  "cadillac-sts-g1": {
+    "file": "/cars/cadillac-sts-g1.webp",
+    "article": "Commons search: Cadillac STS 2005",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:2005_Cadillac_STS_V8,_front_left,_09-11-2022.jpg",
+    "verified": true
+  },
+  "cadillac-vistiq-g1": {
+    "file": "/cars/cadillac-vistiq-g1.webp",
+    "article": "Commons search: Cadillac Vistiq 2026",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:2026_Cadillac_Vistiq_Sport_900e4_in_Stellar_Black,_front_left.jpg",
+    "verified": true
+  },
+  "cadillac-xlr-g1": {
+    "file": "/cars/cadillac-xlr-g1.webp",
+    "article": "Commons search: Cadillac XLR 2004",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:2004_Cadillac_XLR_Neiman_Marcus_Edition,_front_left,_07-19-2025.jpg",
+    "verified": true
+  },
+  "cadillac-xt4-g1": {
+    "file": "/cars/cadillac-xt4-g1.webp",
+    "article": "Commons search: Cadillac XT4 2019",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:2019_Cadillac_XT4_front_NYIAS_2019.jpg",
+    "verified": true
+  },
+  "cadillac-xt5-g1": {
+    "file": "/cars/cadillac-xt5-g1.webp",
+    "article": "Commons search: Cadillac XT5 2017",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Cadillac_XT5_front_3.18.18.jpg",
+    "verified": true
+  },
+  "cadillac-xt6-g1": {
+    "file": "/cars/cadillac-xt6-g1.webp",
+    "article": "Commons search: Cadillac XT6 2020",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:2020_Cadillac_XT6_Premium,_front_3.2.20.jpg",
+    "verified": true
+  },
+  "cadillac-xts-g1": {
+    "file": "/cars/cadillac-xts-g1.webp",
+    "article": "Commons search: Cadillac XTS 2013",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Oleg Yunakov",
+    "source": "https://commons.wikimedia.org/wiki/File:2013_Cadillac_XTS_Federal_Coach.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2013_Cadillac_XTS_Federal_Coach.jpg"
+    ]
   }
 }
