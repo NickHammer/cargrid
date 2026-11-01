@@ -4591,16 +4591,17 @@
   },
   "lexus-lx-g1": {
     "file": "/cars/lexus-lx-g1.webp",
-    "article": "Commons search: Lexus LX J80",
+    "article": "Commons search: Lexus LX 1996",
     "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Ethan Llamas",
-    "source": "https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_J80_VX_4x4_1995_(2).jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Rutger van der Maar",
+    "source": "https://commons.wikimedia.org/wiki/File:1996_Lexus_LX_450_(40923775743).jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:1996-1997_Lexus_LX_450_profile.jpg",
       "https://commons.wikimedia.org/wiki/File:Lexus_LX_450_1997_front_seats.jpg",
-      "https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_J80_VX_4x4_1995_(2).jpg"
+      "https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_J80_VX_4x4_1995_(2).jpg",
+      "https://commons.wikimedia.org/wiki/File:1996_Lexus_LX_450_(40923775743).jpg"
     ],
     "rejected": true
   },
@@ -4967,15 +4968,16 @@
   },
   "jeep-compass-g3": {
     "file": "/cars/jeep-compass-g3.webp",
-    "article": "Commons search: Jeep Compass 2026",
-    "matched": "search",
+    "article": "Jeep Compass",
+    "matched": "main-article",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Elise240SX",
-    "source": "https://commons.wikimedia.org/wiki/File:2026_Jeep_Compass_North_in_Silver_Zynith_Metallic,_front_left,_2026-08-08.jpg",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:2019_Jeep_Compass_Limited_2.4L,_front_7.6.19.jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:2025_Jeep_Compass_Sport_in_Bright_White,_front_right,_2025-09-07.jpg",
-      "https://commons.wikimedia.org/wiki/File:2026_Jeep_Compass_North_in_Silver_Zynith_Metallic,_front_left,_2026-08-08.jpg"
+      "https://commons.wikimedia.org/wiki/File:2026_Jeep_Compass_North_in_Silver_Zynith_Metallic,_front_left,_2026-08-08.jpg",
+      "https://commons.wikimedia.org/wiki/File:2019_Jeep_Compass_Limited_2.4L,_front_7.6.19.jpg"
     ],
     "rejected": true
   },
@@ -5239,17 +5241,17 @@
   },
   "jeep-wrangler-g2": {
     "file": "/cars/jeep-wrangler-g2.webp",
-    "article": "Commons search: Jeep Wrangler 1997",
+    "article": "Commons search: Jeep Wrangler 1999",
     "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "SsmIntrigue",
-    "source": "https://commons.wikimedia.org/wiki/File:1997_Jeep_Wrangler_TJ_SE,_Front_Left,_09-20-2020.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "GPS 56 from New Zealand",
+    "source": "https://commons.wikimedia.org/wiki/File:1999_Jeep_Wrangler_Sport_(32630359046).jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:2007_Jeep_Wrangler_Sport.jpg",
       "https://commons.wikimedia.org/wiki/File:1997_Jeep_Wrangler_TJ_SE,_Front_Left,_09-20-2020.jpg"
     ],
-    "rejected": true
+    "verified": true
   },
   "jeep-wrangler-g3": {
     "file": "/cars/jeep-wrangler-g3.webp",
@@ -5273,16 +5275,16 @@
   },
   "mitsubishi-3000gt-gto-g1": {
     "file": "/cars/mitsubishi-3000gt-gto-g1.webp",
-    "article": "Commons search: Mitsubishi 3000GT / GTO 1990",
+    "article": "Commons search: Mitsubishi 3000GT / GTO 1992",
     "matched": "search",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "artist": "RL GNZLZ from Chile",
-    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_GTO_VR4_1990_(32646604038).jpg",
-    "rejected": true,
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Danielslack1",
+    "source": "https://commons.wikimedia.org/wiki/File:1992_Mitsubishi_3000GT_VR4.jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:Mitsubishi_GTO_VR4_1990_(32646604038).jpg"
-    ]
+    ],
+    "verified": true
   },
   "mitsubishi-asx-g2": {
     "file": "/cars/mitsubishi-asx-g2.webp",
@@ -5306,16 +5308,16 @@
   },
   "mitsubishi-colt-g2": {
     "file": "/cars/mitsubishi-colt-g2.webp",
-    "article": "Commons search: Mitsubishi Colt 2023",
+    "article": "Commons search: Mitsubishi Colt 2025",
     "matched": "search",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Alexander-93",
-    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Colt_(2023)_1X7A1657.jpg",
-    "rejected": true,
+    "artist": "A2613",
+    "source": "https://commons.wikimedia.org/wiki/File:Stasiun_Cicalengka_Depan_2025.jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:Mitsubishi_Colt_(2023)_1X7A1657.jpg"
-    ]
+    ],
+    "verified": true
   },
   "mitsubishi-colt-galant-galant-g1": {
     "file": "/cars/mitsubishi-colt-galant-galant-g1.webp",
@@ -5359,16 +5361,16 @@
   },
   "mitsubishi-diamante-g1": {
     "file": "/cars/mitsubishi-diamante-g1.webp",
-    "article": "Commons search: Mitsubishi Diamante 1990",
+    "article": "Commons search: Mitsubishi Diamante 1992",
     "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Toyotacoronaexsaloon",
-    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_diamante_espada_1993_r.jpg",
-    "rejected": true,
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Bull-Doser at English Wikipedia",
+    "source": "https://commons.wikimedia.org/wiki/File:Diamante_1992.JPG",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:Mitsubishi_diamante_espada_1993_r.jpg"
-    ]
+    ],
+    "verified": true
   },
   "mitsubishi-diamante-g2": {
     "file": "/cars/mitsubishi-diamante-g2.webp",
@@ -5432,16 +5434,17 @@
   },
   "mitsubishi-endeavor-g1": {
     "file": "/cars/mitsubishi-endeavor-g1.webp",
-    "article": "Commons search: Mitsubishi Endeavor 2004",
+    "article": "Commons search: Mitsubishi Endeavor 2006",
     "matched": "search",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "artist": "order_242 from Chile",
-    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Endeavor_V6_2004_(15567421470).jpg",
-    "rejected": true,
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Ethan Llamas",
+    "source": "https://commons.wikimedia.org/wiki/File:2006_Mitsubishi_L200_Endeavor_GL_in_Icelandic_White,_front_right.jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:Mitsubishi_Endeavor_V6_2004_(15567421470).jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:Mitsubishi_Endeavor_V6_2004_(15567421470).jpg",
+      "https://commons.wikimedia.org/wiki/File:2006_Mitsubishi_L200_Endeavor_GL_in_Icelandic_White,_front_right.jpg"
+    ],
+    "rejected": true
   },
   "mitsubishi-expo-g1": {
     "file": "/cars/mitsubishi-expo-g1.webp",
@@ -5455,16 +5458,17 @@
   },
   "mitsubishi-fto-g1": {
     "file": "/cars/mitsubishi-fto-g1.webp",
-    "article": "Commons search: Mitsubishi FTO 1994",
+    "article": "Commons search: Mitsubishi FTO 1996",
     "matched": "search",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "artist": "RL GNZLZ from Chile",
-    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_FTO_1994_(39134483155).jpg",
-    "rejected": true,
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:1996_Mitsubishi_FTO_GS_Auto.jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:Mitsubishi_FTO_1994_(39134483155).jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:Mitsubishi_FTO_1994_(39134483155).jpg",
+      "https://commons.wikimedia.org/wiki/File:1996_Mitsubishi_FTO_GS_Auto.jpg"
+    ],
+    "rejected": true
   },
   "mitsubishi-galant-g2": {
     "file": "/cars/mitsubishi-galant-g2.webp",
@@ -5478,29 +5482,30 @@
   },
   "mitsubishi-galant-g6": {
     "file": "/cars/mitsubishi-galant-g6.webp",
-    "article": "Commons search: Mitsubishi Galant 1987",
+    "article": "Commons search: Mitsubishi Galant 1989",
     "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Jones028 from Hong Kong",
-    "source": "https://commons.wikimedia.org/wiki/File:1987_Mitsubishi_Galant_VR-4_%22Rally%22_(51306752433).jpg",
-    "rejected": true,
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1989_Mitsubishi_Galant_in_red,_front_left.jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1987_Mitsubishi_Galant_VR-4_%22Rally%22_(51306752433).jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:1987_Mitsubishi_Galant_VR-4_%22Rally%22_(51306752433).jpg",
+      "https://commons.wikimedia.org/wiki/File:1989_Mitsubishi_Galant_in_red,_front_left.jpg"
+    ],
+    "rejected": true
   },
   "mitsubishi-galant-g7": {
     "file": "/cars/mitsubishi-galant-g7.webp",
-    "article": "Commons search: Mitsubishi Galant 1992",
+    "article": "Commons search: Mitsubishi Galant 1994",
     "matched": "search",
-    "license": "Public domain",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "artist": "No machine-readable author provided. Ilya p assumed (based on copyright claims).",
-    "source": "https://commons.wikimedia.org/wiki/File:1992_Mitsubishi_Galant_01.jpg",
-    "rejected": true,
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1994_Mitsubishi_Galant_GLSi_Automatic_2.0_Front.jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:1992_Mitsubishi_Galant_01.jpg"
-    ]
+    ],
+    "verified": true
   },
   "mitsubishi-galant-g8": {
     "file": "/cars/mitsubishi-galant-g8.webp",
@@ -5524,16 +5529,16 @@
   },
   "mitsubishi-i-miev-g1": {
     "file": "/cars/mitsubishi-i-miev-g1.webp",
-    "article": "Commons search: Mitsubishi i-MiEV 2009",
+    "article": "Commons search: Mitsubishi i-MiEV 2011",
     "matched": "search",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "artist": "Oq10pass",
-    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_i-MiEV_2009-2018_(2).jpg",
-    "rejected": true,
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "MSVG (Michael Gil)",
+    "source": "https://commons.wikimedia.org/wiki/File:Canada_2011_Mitsubishi_i-MiEV_03.jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:Mitsubishi_i-MiEV_2009-2018_(2).jpg"
-    ]
+    ],
+    "verified": true
   },
   "mitsubishi-l200-triton-g1": {
     "file": "/cars/mitsubishi-l200-triton-g1.webp",
@@ -5603,29 +5608,31 @@
   },
   "mitsubishi-lancer-evolution-ii-g1": {
     "file": "/cars/mitsubishi-lancer-evolution-ii-g1.webp",
-    "article": "Commons search: Mitsubishi Lancer Evolution II 1994",
+    "article": "Commons search: Mitsubishi Lancer Evolution II 1995",
     "matched": "search",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "artist": "Piadina1998",
-    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Evo_II_Rally_Car_1994.png",
-    "rejected": true,
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Kylie &amp; Rob (and Helen)",
+    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_E-CE9A_Lancer_RS_EVOLUTION_%E2%85%A1_(6761144503).jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Evo_II_Rally_Car_1994.png"
-    ]
+      "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Evo_II_Rally_Car_1994.png",
+      "https://commons.wikimedia.org/wiki/File:Mitsubishi_E-CE9A_Lancer_RS_EVOLUTION_%E2%85%A1_(6761144503).jpg"
+    ],
+    "rejected": true
   },
   "mitsubishi-lancer-evolution-iii-g1": {
     "file": "/cars/mitsubishi-lancer-evolution-iii-g1.webp",
-    "article": "Commons search: Mitsubishi Lancer Evolution III 1995",
+    "article": "Commons search: Mitsubishi Lancer Evolution III 1996",
     "matched": "search",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "artist": "TTTNIS",
-    "source": "https://commons.wikimedia.org/wiki/File:1995_Mitsubishi_Lancer_Evolution_III_Rally_Australia_Winner.jpg",
-    "rejected": true,
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Tokumeigakarinoaoshima",
+    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_LANCER_EVOLUTION_III_Gr.A_ver.1996_Rally_Finland.jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1995_Mitsubishi_Lancer_Evolution_III_Rally_Australia_Winner.jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:1995_Mitsubishi_Lancer_Evolution_III_Rally_Australia_Winner.jpg",
+      "https://commons.wikimedia.org/wiki/File:Mitsubishi_LANCER_EVOLUTION_III_Gr.A_ver.1996_Rally_Finland.jpg"
+    ],
+    "rejected": true
   },
   "mitsubishi-lancer-evolution-iv-g1": {
     "file": "/cars/mitsubishi-lancer-evolution-iv-g1.webp",
@@ -5722,16 +5729,17 @@
   },
   "mitsubishi-lancer-g7": {
     "file": "/cars/mitsubishi-lancer-g7.webp",
-    "article": "Commons search: Mitsubishi Lancer CS",
+    "article": "Commons search: Mitsubishi Lancer 2000",
     "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Ethan Llamas",
-    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_CS_1.6_GLX_Black.jpg",
-    "rejected": true,
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "TTTNIS",
+    "source": "https://commons.wikimedia.org/wiki/File:2000_Mitsubishi_Lancer_RS_Evolution_VI_Tommi_Makinen_Edition.jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_CS_1.6_GLX_Black.jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_CS_1.6_GLX_Black.jpg",
+      "https://commons.wikimedia.org/wiki/File:2000_Mitsubishi_Lancer_RS_Evolution_VI_Tommi_Makinen_Edition.jpg"
+    ],
+    "rejected": true
   },
   "mitsubishi-lancer-g8": {
     "file": "/cars/mitsubishi-lancer-g8.webp",
@@ -5745,42 +5753,43 @@
   },
   "mitsubishi-lancer-mirage-g5": {
     "file": "/cars/mitsubishi-lancer-mirage-g5.webp",
-    "article": "Commons search: Mitsubishi CB/CD",
+    "article": "Commons search: Mitsubishi Lancer / Mirage 1991",
     "matched": "search",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "artist": "TuRbO_J from Adelaide, Australia",
-    "source": "https://commons.wikimedia.org/wiki/File:1996-1999_Mitsubishi_Lancer_(CE)_GLXi_station_wagon_(14999847884).jpg",
-    "rejected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:1992-1996_Mitsubishi_Lancer_(CC)_GL_coupe_(8609354562).jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1996-1999_Mitsubishi_Lancer_(CE)_GLXi_station_wagon_(14999847884).jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:1996-1999_Mitsubishi_Lancer_(CE)_GLXi_station_wagon_(14999847884).jpg",
+      "https://commons.wikimedia.org/wiki/File:1992-1996_Mitsubishi_Lancer_(CC)_GL_coupe_(8609354562).jpg"
+    ],
+    "rejected": true
   },
   "mitsubishi-lancer-mirage-g6": {
     "file": "/cars/mitsubishi-lancer-mirage-g6.webp",
-    "article": "Commons search: Mitsubishi Lancer / Mirage 1995",
+    "article": "Commons search: Mitsubishi Lancer / Mirage 1997",
     "matched": "search",
-    "license": "Public domain",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "artist": "OSX",
-    "source": "https://commons.wikimedia.org/wiki/File:1992-1995_Mitsubishi_Lancer_(CC)_GLXi_coupe_01.jpg",
-    "rejected": true,
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "Mike384",
+    "source": "https://commons.wikimedia.org/wiki/File:1997-1999_Mitsubishi_Lancer_GSR.JPG",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:1992-1995_Mitsubishi_Lancer_(CC)_GLXi_coupe_01.jpg"
-    ]
+    ],
+    "verified": true
   },
   "mitsubishi-mirage-g1": {
     "file": "/cars/mitsubishi-mirage-g1.webp",
-    "article": "Commons search: Mitsubishi Mirage 1978",
+    "article": "Commons search: Mitsubishi Mirage 1980",
     "matched": "search",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "artist": "TTTNIS",
-    "source": "https://commons.wikimedia.org/wiki/File:1981_Mitsubishi_Mirage_1600GT.jpg",
-    "rejected": true,
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Riley from Christchurch, New Zealand",
+    "source": "https://commons.wikimedia.org/wiki/File:1980_Mitsubishi_Mirage_GL_(15874733595).jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:1981_Mitsubishi_Mirage_1600GT.jpg"
-    ]
+    ],
+    "verified": true
   },
   "mitsubishi-mirage-g6": {
     "file": "/cars/mitsubishi-mirage-g6.webp",
@@ -5794,16 +5803,17 @@
   },
   "mitsubishi-outlander-g1": {
     "file": "/cars/mitsubishi-outlander-g1.webp",
-    "article": "Commons search: Mitsubishi Outlander 2001",
+    "article": "Commons search: Mitsubishi Outlander 2003",
     "matched": "search",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "artist": "Mytho88",
-    "source": "https://commons.wikimedia.org/wiki/File:2001_Mitsubishi_Airtrek_01.jpg",
-    "rejected": true,
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2003_Mitsubishi_Outlander_Sport_SE_Automatic_2.4_Front.jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:2001_Mitsubishi_Airtrek_01.jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:2001_Mitsubishi_Airtrek_01.jpg",
+      "https://commons.wikimedia.org/wiki/File:2003_Mitsubishi_Outlander_Sport_SE_Automatic_2.4_Front.jpg"
+    ],
+    "rejected": true
   },
   "mitsubishi-outlander-g2": {
     "file": "/cars/mitsubishi-outlander-g2.webp",
@@ -5827,16 +5837,17 @@
   },
   "mitsubishi-outlander-g4": {
     "file": "/cars/mitsubishi-outlander-g4.webp",
-    "article": "Commons search: Mitsubishi Outlander 2021",
+    "article": "Commons search: Mitsubishi Outlander 2023",
     "matched": "search",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "LuvsMG481",
-    "source": "https://commons.wikimedia.org/wiki/File:2020_Mitsubishi_Outlander_ES_AWD_front_01.jpg",
-    "rejected": true,
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:2004_Mitsubishi_Outlander_LS,_front_right,_09-24-2023.jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:2020_Mitsubishi_Outlander_ES_AWD_front_01.jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:2020_Mitsubishi_Outlander_ES_AWD_front_01.jpg",
+      "https://commons.wikimedia.org/wiki/File:2004_Mitsubishi_Outlander_LS,_front_right,_09-24-2023.jpg"
+    ],
+    "rejected": true
   },
   "mitsubishi-outlander-sport-asx-rvr-g1": {
     "file": "/cars/mitsubishi-outlander-sport-asx-rvr-g1.webp",
@@ -5942,16 +5953,17 @@
   },
   "mitsubishi-starion-g1": {
     "file": "/cars/mitsubishi-starion-g1.webp",
-    "article": "Commons search: Mitsubishi Starion 1982",
+    "article": "Commons search: Mitsubishi Starion 1984",
     "matched": "search",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Jeremy from Sydney, Australia",
-    "source": "https://commons.wikimedia.org/wiki/File:1982_Mitsubishi_Starion_(JA)_Turbo_hatchback_(21243179875).jpg",
-    "rejected": true,
+    "artist": "Rutger van der Maar",
+    "source": "https://commons.wikimedia.org/wiki/File:1984_Mitsubishi_Starion_2.0_Turbo_EX.jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1982_Mitsubishi_Starion_(JA)_Turbo_hatchback_(21243179875).jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:1982_Mitsubishi_Starion_(JA)_Turbo_hatchback_(21243179875).jpg",
+      "https://commons.wikimedia.org/wiki/File:1984_Mitsubishi_Starion_2.0_Turbo_EX.jpg"
+    ],
+    "rejected": true
   },
   "mitsubishi-tredia-g1": {
     "file": "/cars/mitsubishi-tredia-g1.webp",
@@ -6005,16 +6017,17 @@
   },
   "cadillac-ats-v-g1": {
     "file": "/cars/cadillac-ats-v-g1.webp",
-    "article": "Commons search: Cadillac ATS-V 2016",
+    "article": "Commons search: Cadillac ATS-V 2018",
     "matched": "search",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Greg Gjerdingen from Willmar, USA",
-    "source": "https://commons.wikimedia.org/wiki/File:2016_Cadillac_ATS-V_(25743067616).jpg",
-    "rejected": true,
+    "artist": "Grant.C",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_ASA_AutoX_IMG_7727_edited_(33693846944).jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:2016_Cadillac_ATS-V_(25743067616).jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:2016_Cadillac_ATS-V_(25743067616).jpg",
+      "https://commons.wikimedia.org/wiki/File:2017_ASA_AutoX_IMG_7727_edited_(33693846944).jpg"
+    ],
+    "rejected": true
   },
   "cadillac-calais-g1": {
     "file": "/cars/cadillac-calais-g1.webp",
@@ -6078,16 +6091,16 @@
   },
   "cadillac-ct5-v-blackwing-g1": {
     "file": "/cars/cadillac-ct5-v-blackwing-g1.webp",
-    "article": "Commons search: Cadillac CT5-V Blackwing 2022",
+    "article": "Commons search: Cadillac CT5-V Blackwing 2024",
     "matched": "search",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "artist": "Mr.choppers",
-    "source": "https://commons.wikimedia.org/wiki/File:2022_Cadillac_CT5-V_Blackwing_in_Dark_Emerald_Frost,_front_left.jpg",
-    "rejected": true,
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Charles from Port Chester, New York",
+    "source": "https://commons.wikimedia.org/wiki/File:Cadillac_CT5-V_Blackwing_(2024)_(54091584593).jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:2022_Cadillac_CT5-V_Blackwing_in_Dark_Emerald_Frost,_front_left.jpg"
-    ]
+    ],
+    "verified": true
   },
   "cadillac-ct6-g1": {
     "file": "/cars/cadillac-ct6-g1.webp",
@@ -6114,29 +6127,29 @@
   },
   "cadillac-cts-g2": {
     "file": "/cars/cadillac-cts-g2.webp",
-    "article": "Commons search: Cadillac CTS 2008",
+    "article": "Commons search: Cadillac CTS 2010",
     "matched": "search",
-    "license": "Public domain",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "artist": "OSX",
-    "source": "https://commons.wikimedia.org/wiki/File:2008_Cadillac_CTS_sedan_01.jpg",
-    "rejected": true,
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:2010_Cadillac_CTS_AWD_Premium_Collection,_front_left,_09-03-2022.jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:2008_Cadillac_CTS_sedan_01.jpg"
-    ]
+    ],
+    "verified": true
   },
   "cadillac-cts-g3": {
     "file": "/cars/cadillac-cts-g3.webp",
-    "article": "Commons search: Cadillac CTS 2014",
+    "article": "Commons search: Cadillac CTS 2016",
     "matched": "search",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "artist": "L.Willms",
-    "source": "https://commons.wikimedia.org/wiki/File:Cadillac-CTS-2014-gray_IAA2013_front-view_LWS2815.jpg",
-    "rejected": true,
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Randolf Lomo",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Cadillac_CTS-V.png",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:Cadillac-CTS-2014-gray_IAA2013_front-view_LWS2815.jpg"
-    ]
+    ],
+    "verified": true
   },
   "cadillac-cts-v-g1": {
     "file": "/cars/cadillac-cts-v-g1.webp",
@@ -6220,16 +6233,16 @@
   },
   "cadillac-deville-g6": {
     "file": "/cars/cadillac-deville-g6.webp",
-    "article": "Commons search: Cadillac DeVille 1994",
+    "article": "Commons search: Cadillac DeVille 1996",
     "matched": "search",
-    "license": "Public domain",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "artist": "IFCAR",
-    "source": "https://commons.wikimedia.org/wiki/File:1994-1996_Cadillac_Deville_--_01-28-2010.jpg",
-    "rejected": true,
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "That Hartford Guy from Hartford, Connecticut, USA",
+    "source": "https://commons.wikimedia.org/wiki/File:1996_Cadillac_DeVille_(6).jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:1994-1996_Cadillac_Deville_--_01-28-2010.jpg"
-    ]
+    ],
+    "verified": true
   },
   "cadillac-deville-g7": {
     "file": "/cars/cadillac-deville-g7.webp",
@@ -6346,16 +6359,17 @@
   },
   "cadillac-eldorado-g9": {
     "file": "/cars/cadillac-eldorado-g9.webp",
-    "article": "Commons search: Cadillac Eldorado 1986",
+    "article": "Commons search: Cadillac Eldorado 1988",
     "matched": "search",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "MercurySable99",
-    "source": "https://commons.wikimedia.org/wiki/File:1986-1991_Cadillac_Eldorado.png",
-    "rejected": true,
+    "artist": "NickWilson1964",
+    "source": "https://commons.wikimedia.org/wiki/File:1988_Cadillac_Eldorado_Front_Grille.jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1986-1991_Cadillac_Eldorado.png"
-    ]
+      "https://commons.wikimedia.org/wiki/File:1986-1991_Cadillac_Eldorado.png",
+      "https://commons.wikimedia.org/wiki/File:1988_Cadillac_Eldorado_Front_Grille.jpg"
+    ],
+    "rejected": true
   },
   "cadillac-elr-g1": {
     "file": "/cars/cadillac-elr-g1.webp",
@@ -6599,16 +6613,17 @@
   },
   "cadillac-xts-g1": {
     "file": "/cars/cadillac-xts-g1.webp",
-    "article": "Commons search: Cadillac XTS 2013",
+    "article": "Commons search: Cadillac XTS 2015",
     "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Oleg Yunakov",
-    "source": "https://commons.wikimedia.org/wiki/File:2013_Cadillac_XTS_Federal_Coach.jpg",
-    "rejected": true,
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Kieran White",
+    "source": "https://commons.wikimedia.org/wiki/File:2015_Cadillac_XTS_(28015595893).jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:2013_Cadillac_XTS_Federal_Coach.jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:2013_Cadillac_XTS_Federal_Coach.jpg",
+      "https://commons.wikimedia.org/wiki/File:2015_Cadillac_XTS_(28015595893).jpg"
+    ],
+    "rejected": true
   },
   "buick-cascada-g1": {
     "file": "/cars/buick-cascada-g1.webp",
@@ -6622,16 +6637,17 @@
   },
   "buick-century-g1": {
     "file": "/cars/buick-century-g1.webp",
-    "article": "Commons search: Buick Century 1936",
+    "article": "Commons search: Buick Century 1938",
     "matched": "search",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Don O'Brien from Piketon, Ohio, United States",
-    "source": "https://commons.wikimedia.org/wiki/File:1936_Buick_Century_coupe_(3887580377).jpg",
-    "rejected": true,
+    "artist": "Greg Gjerdingen from Willmar, USA",
+    "source": "https://commons.wikimedia.org/wiki/File:1938_Buick_Century_Convertible_(34670500442).jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1936_Buick_Century_coupe_(3887580377).jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:1936_Buick_Century_coupe_(3887580377).jpg",
+      "https://commons.wikimedia.org/wiki/File:1938_Buick_Century_Convertible_(34670500442).jpg"
+    ],
+    "rejected": true
   },
   "buick-century-g2": {
     "file": "/cars/buick-century-g2.webp",
@@ -6835,29 +6851,30 @@
   },
   "buick-gran-sport-gs-g1": {
     "file": "/cars/buick-gran-sport-gs-g1.webp",
-    "article": "Commons search: Buick Gran Sport / GS 1965",
+    "article": "Commons search: Buick Gran Sport / GS 1967",
     "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Mr.choppers",
-    "source": "https://commons.wikimedia.org/wiki/File:1965_Buick_Riviera_Gran_Sport_in_Bamboo_Cream,_front_right.jpg",
-    "rejected": true,
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Greg Gjerdingen from Willmar, USA",
+    "source": "https://commons.wikimedia.org/wiki/File:1965_Buick_Gran_Sport_(29487818242).jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1965_Buick_Riviera_Gran_Sport_in_Bamboo_Cream,_front_right.jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:1965_Buick_Riviera_Gran_Sport_in_Bamboo_Cream,_front_right.jpg",
+      "https://commons.wikimedia.org/wiki/File:1965_Buick_Gran_Sport_(29487818242).jpg"
+    ],
+    "rejected": true
   },
   "buick-invicta-g1": {
     "file": "/cars/buick-invicta-g1.webp",
-    "article": "Commons search: Buick Invicta 1959",
+    "article": "Commons search: Buick Invicta 1961",
     "matched": "search",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "artist": "Mr.choppers",
-    "source": "https://commons.wikimedia.org/wiki/File:1960_Buick_Invicta_Custom_Estate_Wagon,_front_right_side.jpg",
-    "rejected": true,
+    "artist": "FOTO:Fortepan — ID 18819: Adományozó/Donor: Drimbe József.",
+    "source": "https://commons.wikimedia.org/wiki/File:F%C3%A9rfi_portr%C3%A9,_Buick_Invicta_1961-es_modell._Fortepan_27101.jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:1960_Buick_Invicta_Custom_Estate_Wagon,_front_right_side.jpg"
-    ]
+    ],
+    "verified": true
   },
   "buick-lacrosse-g1": {
     "file": "/cars/buick-lacrosse-g1.webp",
@@ -6951,16 +6968,16 @@
   },
   "buick-lesabre-g7": {
     "file": "/cars/buick-lesabre-g7.webp",
-    "article": "Commons search: Buick LeSabre 1992",
+    "article": "Commons search: Buick LeSabre 1994",
     "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "SsmIntrigue",
-    "source": "https://commons.wikimedia.org/wiki/File:1992_-_1996_Buick_LeSabre_Custom.jpg",
-    "rejected": true,
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Charles from Port Chester, New York",
+    "source": "https://commons.wikimedia.org/wiki/File:Buick_LeSabre_Custom_(1994)_(54191553537).jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:1992_-_1996_Buick_LeSabre_Custom.jpg"
-    ]
+    ],
+    "verified": true
   },
   "buick-lesabre-g8": {
     "file": "/cars/buick-lesabre-g8.webp",
@@ -6984,16 +7001,16 @@
   },
   "buick-park-avenue-g1": {
     "file": "/cars/buick-park-avenue-g1.webp",
-    "article": "Commons search: Buick Park Avenue 1991",
+    "article": "Commons search: Buick Park Avenue 1993",
     "matched": "search",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "MercurySable99",
-    "source": "https://commons.wikimedia.org/wiki/File:1991-1996_Buick_Park_Avenue.jpg",
-    "rejected": true,
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:1993_Buick_Park_Avenue_front,_Lime_Rock_9.1.19.jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:1991-1996_Buick_Park_Avenue.jpg"
-    ]
+    ],
+    "verified": true
   },
   "buick-park-avenue-g2": {
     "file": "/cars/buick-park-avenue-g2.webp",
@@ -7027,29 +7044,31 @@
   },
   "buick-regal-g1": {
     "file": "/cars/buick-regal-g1.webp",
-    "article": "Commons search: Buick Regal 1973",
-    "matched": "search",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "artist": "Thomas doerfer",
-    "source": "https://commons.wikimedia.org/wiki/File:Buick_Regal_1973.JPG",
-    "rejected": true,
-    "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:Buick_Regal_1973.JPG"
-    ]
-  },
-  "buick-regal-g2": {
-    "file": "/cars/buick-regal-g2.webp",
-    "article": "Commons search: Buick Regal 1978",
+    "article": "Commons search: Buick Regal 1975",
     "matched": "search",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "A.W.O.L.   Thanks for over 2.900,000 views  :)) from",
-    "source": "https://commons.wikimedia.org/wiki/File:1978_Buick_Regal_(1).jpg",
-    "rejected": true,
+    "artist": "Michael Neubert from Arlington, VA, USA",
+    "source": "https://commons.wikimedia.org/wiki/File:1975_Buick_Regal,_in_Leningrad_USSR,_1975_(9535594294).jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1978_Buick_Regal_(1).jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:Buick_Regal_1973.JPG",
+      "https://commons.wikimedia.org/wiki/File:1975_Buick_Regal,_in_Leningrad_USSR,_1975_(9535594294).jpg"
+    ],
+    "rejected": true
+  },
+  "buick-regal-g2": {
+    "file": "/cars/buick-regal-g2.webp",
+    "article": "Commons search: Buick Regal 1980",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Take Me Higher at en.wikipedia",
+    "source": "https://commons.wikimedia.org/wiki/File:1980_Buick_Regal_coup%C3%A9.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1978_Buick_Regal_(1).jpg",
+      "https://commons.wikimedia.org/wiki/File:1980_Buick_Regal_coup%C3%A9.jpg"
+    ],
+    "rejected": true
   },
   "buick-regal-g3": {
     "file": "/cars/buick-regal-g3.webp",
@@ -7113,16 +7132,17 @@
   },
   "buick-riviera-g1": {
     "file": "/cars/buick-riviera-g1.webp",
-    "article": "Commons search: Buick Riviera 1963",
+    "article": "Commons search: Buick Riviera 1965",
     "matched": "search",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Xnatedawgx",
-    "source": "https://commons.wikimedia.org/wiki/File:1963_Buick_Riviera,_white,_Golden_Super_Cruise_2026-08-01.jpg",
-    "rejected": true,
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1965_Buick_Riviera,_front_right,_09-07-2024.jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1963_Buick_Riviera,_white,_Golden_Super_Cruise_2026-08-01.jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:1963_Buick_Riviera,_white,_Golden_Super_Cruise_2026-08-01.jpg",
+      "https://commons.wikimedia.org/wiki/File:1965_Buick_Riviera,_front_right,_09-07-2024.jpg"
+    ],
+    "rejected": true
   },
   "buick-riviera-g2": {
     "file": "/cars/buick-riviera-g2.webp",
@@ -7196,16 +7216,17 @@
   },
   "buick-roadmaster-g1": {
     "file": "/cars/buick-roadmaster-g1.webp",
-    "article": "Commons search: Buick Roadmaster Classic",
+    "article": "Commons search: Buick Classic",
     "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Valder137",
-    "source": "https://commons.wikimedia.org/wiki/File:Buick_Roadmaster_1941_Phaeton_Convertible_LSideFront_Lake_Mirror_Cassic_16Oct2010_(14874273921).jpg",
-    "rejected": true,
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:Buick_Roadmaster_Riviera_Coupe_(1958)_Classic-Gala_2021_1X7A0248.jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:Buick_Roadmaster_1941_Phaeton_Convertible_LSideFront_Lake_Mirror_Cassic_16Oct2010_(14874273921).jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:Buick_Roadmaster_1941_Phaeton_Convertible_LSideFront_Lake_Mirror_Cassic_16Oct2010_(14874273921).jpg",
+      "https://commons.wikimedia.org/wiki/File:Buick_Roadmaster_Riviera_Coupe_(1958)_Classic-Gala_2021_1X7A0248.jpg"
+    ],
+    "rejected": true
   },
   "buick-roadmaster-g2": {
     "file": "/cars/buick-roadmaster-g2.webp",
@@ -7299,16 +7320,16 @@
   },
   "buick-special-g1": {
     "file": "/cars/buick-special-g1.webp",
-    "article": "Commons search: Buick Special 1936",
+    "article": "Commons search: Buick Special 1938",
     "matched": "search",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "artist": "Mr.choppers",
-    "source": "https://commons.wikimedia.org/wiki/File:1936_Buick_Series_40_Special_4dr_sedan_(style_no_41),_front_left.jpg",
-    "rejected": true,
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "SG2012",
+    "source": "https://commons.wikimedia.org/wiki/File:Buick_Special_(1938)_-_9939307183.jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:1936_Buick_Series_40_Special_4dr_sedan_(style_no_41),_front_left.jpg"
-    ]
+    ],
+    "verified": true
   },
   "buick-special-g2": {
     "file": "/cars/buick-special-g2.webp",
@@ -7367,7 +7388,11 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "artist": "DestinationFearFan",
-    "source": "https://commons.wikimedia.org/wiki/File:2004_Cadillac_SRX_SUV.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:2004_Cadillac_SRX_SUV.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2004_Cadillac_SRX_SUV.jpg"
+    ]
   },
   "cadillac-srx-g2": {
     "file": "/cars/cadillac-srx-g2.webp",
@@ -7376,6 +7401,7 @@
     "license": "Public domain",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "artist": "IFCAR",
-    "source": "https://commons.wikimedia.org/wiki/File:2010_Cadillac_SRX_--_2010_DC.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:2010_Cadillac_SRX_--_2010_DC.jpg",
+    "verified": true
   }
 }
