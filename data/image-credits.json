@@ -1,31 +1,4 @@
 {
-  "ford-mustang-g1": {
-    "file": "/cars/ford-mustang-g1.webp",
-    "article": "Ford Mustang (first generation)",
-    "matched": "generation-article",
-    "license": "CC BY-SA 3.0",
-    "artist": "Kroelleboelle",
-    "source": "https://commons.wikimedia.org/wiki/File:1965_Ford_Mustang_2D_Hardtop_Front.jpg",
-    "verified": true
-  },
-  "porsche-911-g1": {
-    "file": "/cars/porsche-911-g1.webp",
-    "article": "Porsche 911 (classic)",
-    "matched": "generation-article",
-    "license": "CC BY-SA 3.0",
-    "artist": "Charles01",
-    "source": "https://commons.wikimedia.org/wiki/File:Porsche_911E_ca_1969.jpg",
-    "verified": true
-  },
-  "toyota-corolla-g1": {
-    "file": "/cars/toyota-corolla-g1.webp",
-    "article": "Toyota Corolla (E10)",
-    "matched": "generation-article",
-    "license": "CC BY-SA 3.0",
-    "artist": "D.Bellwood",
-    "source": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_First-generation_001.jpg",
-    "verified": true
-  },
   "dodge-viper-g1": {
     "file": "/cars/dodge-viper-g1.webp",
     "article": "Dodge Viper (SR I)",
@@ -105,15 +78,6 @@
     "license": "CC BY-SA 3.0",
     "artist": "Mr.choppers",
     "source": "https://commons.wikimedia.org/wiki/File:1985_Toyota_4Runner,_canopy_off_(front_left).jpg",
-    "verified": true
-  },
-  "toyota-crown-g1": {
-    "file": "/cars/toyota-crown-g1.webp",
-    "article": "Commons category: Toyopet Crown",
-    "matched": "commons-category",
-    "license": "CC BY-SA 4.0",
-    "artist": "Tokumeigakarinoaoshima",
-    "source": "https://commons.wikimedia.org/wiki/File:The_frontview_of_Toyopet_Crown_1900_Deluxe_(RS31).jpg",
     "verified": true
   },
   "toyota-yaris-g1": {
@@ -260,24 +224,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:1974_Ford_F100_Pickup_(15957127573).jpg",
     "verified": true
   },
-  "ford-f-250-g1": {
-    "file": "/cars/ford-f-250-g1.webp",
-    "article": "Ford F-Series (second generation)",
-    "matched": "generation-article",
-    "license": "CC BY 2.0",
-    "artist": "crudmucosa",
-    "source": "https://commons.wikimedia.org/wiki/File:1956_Ford_F-100_in_Bright_Red.jpg",
-    "verified": true
-  },
-  "ford-f-350-g1": {
-    "file": "/cars/ford-f-350-g1.webp",
-    "article": "Commons file: 1955 Ford F-100 Standard Cab Pickup (44976781304).jpg",
-    "matched": "pinned",
-    "license": "CC BY 2.0",
-    "artist": "Sicnag",
-    "source": "https://commons.wikimedia.org/wiki/File:1955_Ford_F-100_Standard_Cab_Pickup_(44976781304).jpg",
-    "verified": true
-  },
   "ford-focus-g1": {
     "file": "/cars/ford-focus-g1.webp",
     "article": "Ford Focus (first generation)",
@@ -377,15 +323,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:2006_Ford_GT_Petersen_Automotive_Museum.jpg",
     "verified": true
   },
-  "chevrolet-camaro-g1": {
-    "file": "/cars/chevrolet-camaro-g1.webp",
-    "article": "Chevrolet Camaro (first generation)",
-    "matched": "generation-article",
-    "license": "CC BY 2.0",
-    "artist": "Sicnag",
-    "source": "https://commons.wikimedia.org/wiki/File:Chevrolet_Camaro_RS_327_1968_(cropped).jpg",
-    "verified": true
-  },
   "chevrolet-silverado-g1": {
     "file": "/cars/chevrolet-silverado-g1.webp",
     "article": "Commons file: 1999-2002 Chevrolet Silverado 1500 extended.jpg",
@@ -413,15 +350,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:2011_Chevrolet_Traverse_LT_in_White_Diamond_Tricoat,_front_left,_04-26-2025.jpg",
     "verified": true
   },
-  "chevrolet-suburban-g1": {
-    "file": "/cars/chevrolet-suburban-g1.webp",
-    "article": "Commons search: 1937 Chevrolet Carryall Suburban",
-    "matched": "commons-search",
-    "license": "CC BY 2.0",
-    "artist": "Alden Jewell",
-    "source": "https://commons.wikimedia.org/wiki/File:1937_Chevrolet_Carryall_Suburban_(front).jpg",
-    "verified": true
-  },
   "chevrolet-tahoe-g1": {
     "file": "/cars/chevrolet-tahoe-g1.webp",
     "article": "Commons search: 1995 Chevrolet Tahoe",
@@ -440,33 +368,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:2004_Chevrolet_Colorado_LS_Regular_Cab_Z85_2WD,_front_right,_07-17-2023.jpg",
     "verified": true
   },
-  "chevrolet-blazer-g1": {
-    "file": "/cars/chevrolet-blazer-g1.webp",
-    "article": "Commons file: 1970 Chevrolet Blazer (35016494241).jpg",
-    "matched": "pinned",
-    "license": "CC BY 2.0",
-    "artist": "Greg Gjerdingen from Willmar, USA",
-    "source": "https://commons.wikimedia.org/wiki/File:1970_Chevrolet_Blazer_(35016494241).jpg",
-    "verified": true
-  },
-  "chevrolet-impala-g1": {
-    "file": "/cars/chevrolet-impala-g1.webp",
-    "article": "Commons search: 1958 Chevrolet Impala",
-    "matched": "commons-search",
-    "license": "CC BY-SA 4.0",
-    "artist": "MercurySable99",
-    "source": "https://commons.wikimedia.org/wiki/File:1958_Chevrolet_Bel_Air_Impala_Sport_Coupe,_front_left,_06-15-2024.jpg",
-    "verified": true
-  },
-  "chevrolet-malibu-g1": {
-    "file": "/cars/chevrolet-malibu-g1.webp",
-    "article": "Commons search: 1965 Chevrolet Chevelle Malibu",
-    "matched": "commons-search",
-    "license": "CC BY 2.0",
-    "artist": "Valder137",
-    "source": "https://commons.wikimedia.org/wiki/File:Chevrolet_Malibu_1965_SS_Convertible_LSideFront_Lake_Mirror_Cassic_16Oct2010_(14897143993).jpg",
-    "verified": true
-  },
   "chevrolet-bolt-ev-g1": {
     "file": "/cars/chevrolet-bolt-ev-g1.webp",
     "article": "Chevrolet Bolt",
@@ -474,15 +375,6 @@
     "license": "CC BY-SA 4.0",
     "artist": "Kevauto",
     "source": "https://commons.wikimedia.org/wiki/File:2022_Chevrolet_Bolt_EV_2LT,_NYC_official_fleet_1.2.23.jpg",
-    "verified": true
-  },
-  "chevrolet-corvette-g1": {
-    "file": "/cars/chevrolet-corvette-g1.webp",
-    "article": "Chevrolet Corvette (C1)",
-    "matched": "generation-article",
-    "license": "CC BY-SA 4.0",
-    "artist": "Morio",
-    "source": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg",
     "verified": true
   },
   "chevrolet-trax-g1": {
@@ -537,15 +429,6 @@
     "license": "CC BY-SA 4.0",
     "artist": "MercurySable99",
     "source": "https://commons.wikimedia.org/wiki/File:2011_Chevrolet_Cruze_LS,_front_left,_09-28-2024.jpg",
-    "verified": true
-  },
-  "dodge-charger-g1": {
-    "file": "/cars/dodge-charger-g1.webp",
-    "article": "Commons category: 1966 Dodge Charger",
-    "matched": "commons-category",
-    "license": "CC BY-SA 4.0",
-    "artist": "Acabashi",
-    "source": "https://commons.wikimedia.org/wiki/File:1966_Dodge_Charger_6276_cc_Heath_Festival_2023.jpg",
     "verified": true
   },
   "dodge-durango-g1": {
@@ -1124,15 +1007,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:Bugatti_Chiron_1.jpg",
     "verified": true
   },
-  "lincoln-continental-g1": {
-    "file": "/cars/lincoln-continental-g1.webp",
-    "article": "Commons search: 1941 Lincoln Continental",
-    "matched": "commons-search",
-    "license": "CC BY 2.0",
-    "artist": "{{{1}}}",
-    "source": "https://commons.wikimedia.org/wiki/File:1941_Lincoln_Continental_Convertible.jpg",
-    "verified": true
-  },
   "toyota-prius-g1": {
     "file": "/cars/toyota-prius-g1.webp",
     "article": "Toyota Prius (XW10)",
@@ -1167,15 +1041,6 @@
     "license": "CC BY-SA 4.0",
     "artist": "MercurySable99",
     "source": "https://commons.wikimedia.org/wiki/File:1995_Toyota_Avalon_XLS_front_right.jpg",
-    "verified": true
-  },
-  "toyota-land-cruiser-g1": {
-    "file": "/cars/toyota-land-cruiser-g1.webp",
-    "article": "Commons file: Toyota jeep-bj 1951 pictures 1 b.jpg",
-    "matched": "pinned",
-    "license": "Public domain",
-    "artist": "Toyota Motor Corporation",
-    "source": "https://commons.wikimedia.org/wiki/File:Toyota_jeep-bj_1951_pictures_1_b.jpg",
     "verified": true
   },
   "bmw-m6-g1": {
@@ -1439,24 +1304,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:Dodge_Challenger_(1970)_Hirschaid-20220709-RM-115601.jpg",
     "verified": true
   },
-  "dodge-charger-g2": {
-    "file": "/cars/dodge-charger-g2.webp",
-    "article": "Commons search: Dodge Charger 1968",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "artist": "Calreyn88",
-    "source": "https://commons.wikimedia.org/wiki/File:1968_Dodge_Charger_R_T.jpg",
-    "verified": true
-  },
-  "chevrolet-chevelle-g2": {
-    "file": "/cars/chevrolet-chevelle-g2.webp",
-    "article": "Commons file: 1968 Chevrolet Chevelle SS, red, front right side, Golden Super Cruise 2026-08-01.jpg",
-    "matched": "pinned",
-    "license": "CC BY-SA 4.0",
-    "artist": "Xnatedawgx",
-    "source": "https://commons.wikimedia.org/wiki/File:1968_Chevrolet_Chevelle_SS,_red,_front_right_side,_Golden_Super_Cruise_2026-08-01.jpg",
-    "verified": true
-  },
   "chevrolet-nova-g3": {
     "file": "/cars/chevrolet-nova-g3.webp",
     "article": "Commons file: 1969 Chevrolet Nova SS 396 in Burnished Brown Poly, Front Right, 06-11-2022.jpg",
@@ -1482,42 +1329,6 @@
     "license": "CC BY-SA 3.0",
     "artist": "François Martinez",
     "source": "https://commons.wikimedia.org/wiki/File:1971_firebird_esprit.jpg",
-    "verified": true
-  },
-  "dodge-coronet-super-bee-g1": {
-    "file": "/cars/dodge-coronet-super-bee-g1.webp",
-    "article": "Commons search: Dodge Coronet Super Bee 1968",
-    "matched": "search",
-    "license": "CC BY 2.0",
-    "artist": "Sicnag",
-    "source": "https://commons.wikimedia.org/wiki/File:1970_Dodge_Coronet_Super_Bee_(cropped).jpg",
-    "verified": true
-  },
-  "aston-martin-db5-g1": {
-    "file": "/cars/aston-martin-db5-g1.webp",
-    "article": "Commons search: Aston Martin DB5 1963",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "artist": "DestinationFearFan",
-    "source": "https://commons.wikimedia.org/wiki/File:1963_Aston_Martin_DB5_(James_Bond)_front.jpg",
-    "verified": true
-  },
-  "jaguar-e-type-g1": {
-    "file": "/cars/jaguar-e-type-g1.webp",
-    "article": "Commons search: Jaguar E-Type 1961",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "artist": "DeFacto",
-    "source": "https://commons.wikimedia.org/wiki/File:Jaguar_E-Type_Series_1_3.8_Litre_1961.jpg",
-    "verified": true
-  },
-  "toyota-2000gt-g1": {
-    "file": "/cars/toyota-2000gt-g1.webp",
-    "article": "Commons search: Toyota 2000GT 1967",
-    "matched": "search",
-    "license": "CC BY 2.0",
-    "artist": "Jeremy from Sydney, Australia",
-    "source": "https://commons.wikimedia.org/wiki/File:1967-1970_Toyota_2000GT_coupe_(16109105472).jpg",
     "verified": true
   },
   "bentley-continental-gt-g1": {
@@ -1592,15 +1403,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:1991_Mitsubishi_Pajero_2.5TD_Wagon_LWB,_front_left.jpg",
     "verified": true
   },
-  "gmc-jimmy-g1": {
-    "file": "/cars/gmc-jimmy-g1.webp",
-    "article": "Commons search: GMC Jimmy 1970",
-    "matched": "search",
-    "license": "Public domain",
-    "artist": "Bull-Doser",
-    "source": "https://commons.wikimedia.org/wiki/File:%2770_GMC_Jimmy_(Cruisin%27_At_The_Boardwalk_%2711).jpg",
-    "verified": true
-  },
   "ferrari-f40-g1": {
     "file": "/cars/ferrari-f40-g1.webp",
     "article": "Commons file: 1990 Ferrari F40 Petersen Automotive Museum.jpg",
@@ -1626,15 +1428,6 @@
     "license": "CC BY 2.0",
     "artist": "Charles from Port Chester, New York",
     "source": "https://commons.wikimedia.org/wiki/File:Lamborghini_Countach_LP_400_Periscopio_(1975)_(52866218691).jpg",
-    "verified": true
-  },
-  "lamborghini-miura-g1": {
-    "file": "/cars/lamborghini-miura-g1.webp",
-    "article": "Commons file: Lamborghini Miura P400 S (1970) (52866384629).jpg",
-    "matched": "pinned",
-    "license": "CC BY 2.0",
-    "artist": "Charles from Port Chester, New York",
-    "source": "https://commons.wikimedia.org/wiki/File:Lamborghini_Miura_P400_S_(1970)_(52866384629).jpg",
     "verified": true
   },
   "mclaren-f1-g1": {
@@ -1707,15 +1500,6 @@
     "license": "CC BY-SA 4.0",
     "artist": "Michael Barera",
     "source": "https://commons.wikimedia.org/wiki/File:Sloan_Museum_at_Courtland_Center_December_2018_30_(1987_Buick_GNX).jpg",
-    "verified": true
-  },
-  "mercedes-benz-300sl-g1": {
-    "file": "/cars/mercedes-benz-300sl-g1.webp",
-    "article": "Commons file: Mercedes-Benz 300 SL - left.jpg",
-    "matched": "pinned",
-    "license": "CC BY-SA 3.0",
-    "artist": "This photograph was taken with a Canon PowerShot A520 by User:Jed",
-    "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_300_SL_-_left.jpg",
     "verified": true
   },
   "toyota-land-cruiser-g3": {
@@ -2244,26 +2028,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:1973_Pontiac_Grand_Am_4-Door_Colonnade_Hardtop,_front_left_(2022_Ellwood_City_Fall_Fest_%26_Car_Cruise).jpg",
     "verified": true
   },
-  "pontiac-grand-prix-g1": {
-    "file": "/cars/pontiac-grand-prix-g1.webp",
-    "article": "Commons file: 1964 Pontiac Grand Prix, front left, 06-16-2024.jpg",
-    "matched": "pinned",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "MercurySable99",
-    "source": "https://commons.wikimedia.org/wiki/File:1964_Pontiac_Grand_Prix,_front_left,_06-16-2024.jpg",
-    "verified": true
-  },
-  "pontiac-gto-g1": {
-    "file": "/cars/pontiac-gto-g1.webp",
-    "article": "Commons search: Pontiac GTO 1964",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "MercurySable99",
-    "source": "https://commons.wikimedia.org/wiki/File:1964_Pontiac_GTO_Sports_Coupe,_front_right,_10-12-2025.jpg",
-    "verified": true
-  },
   "pontiac-solstice-g1": {
     "file": "/cars/pontiac-solstice-g1.webp",
     "article": "Commons search: Pontiac Solstice 2005",
@@ -2482,16 +2246,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "artist": "Gold Pony",
     "source": "https://commons.wikimedia.org/wiki/File:2020_Kia_Telluride_front_view_1_(United_States).png",
-    "verified": true
-  },
-  "subaru-360-g1": {
-    "file": "/cars/subaru-360-g1.webp",
-    "article": "Commons search: Subaru 360 1958",
-    "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Emran Kassim",
-    "source": "https://commons.wikimedia.org/wiki/File:Subaru_360_(1958).jpg",
     "verified": true
   },
   "subaru-brat-g1": {
@@ -3875,16 +3629,6 @@
     ],
     "verified": true
   },
-  "nissan-skyline-g1": {
-    "file": "/cars/nissan-skyline-g1.webp",
-    "article": "Commons search: Nissan Skyline 1959",
-    "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Sicnag",
-    "source": "https://commons.wikimedia.org/wiki/File:1963_Prince_Gloria_6_Sedan_(23679381506).jpg",
-    "verified": true
-  },
   "nissan-skyline-g10": {
     "file": "/cars/nissan-skyline-g10.webp",
     "article": "Commons search: Nissan Skyline 1998",
@@ -3932,26 +3676,6 @@
       "https://commons.wikimedia.org/wiki/File:2015-2017_Nissan_Skyline_350GT_Hybrid_Type_SP.jpg",
       "https://commons.wikimedia.org/wiki/File:Osaka_Auto_Messe_2016_(221)_-_tuned_Nissan_SKYLINE_(C210).jpg"
     ],
-    "verified": true
-  },
-  "nissan-skyline-g2": {
-    "file": "/cars/nissan-skyline-g2.webp",
-    "article": "Commons search: Nissan Skyline 1963",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Tokumeigakarinoaoshima",
-    "source": "https://commons.wikimedia.org/wiki/File:The_frontview_of_Prince_Skyline_Sport_Convertible_mid-year_1963.jpg",
-    "verified": true
-  },
-  "nissan-skyline-g3": {
-    "file": "/cars/nissan-skyline-g3.webp",
-    "article": "Commons search: Nissan Skyline 1968",
-    "matched": "search",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "artist": "TTTNIS",
-    "source": "https://commons.wikimedia.org/wiki/File:1966-1968_Nissan_Prince_Skyline_GT.jpg",
     "verified": true
   },
   "nissan-skyline-g4": {
@@ -4028,30 +3752,6 @@
       "https://commons.wikimedia.org/wiki/File:1993_Nissan_Skyline_R33_GT-R_front.jpg"
     ],
     "verified": true
-  },
-  "nissan-skyline-gt-r-g1": {
-    "file": "/cars/nissan-skyline-gt-r-g1.webp",
-    "article": "Commons search: Nissan Skyline GT-R 1969",
-    "matched": "search",
-    "license": "Public domain",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "artist": "TTTNIS",
-    "source": "https://commons.wikimedia.org/wiki/File:1969_Nissan_Skyline_Sedan_2000GT-R.jpg",
-    "verified": true
-  },
-  "nissan-skyline-gt-r-g2": {
-    "file": "/cars/nissan-skyline-gt-r-g2.webp",
-    "article": "Nissan Skyline GT-R",
-    "matched": "main-article",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "artist": "TTTNIS",
-    "source": "https://commons.wikimedia.org/wiki/File:Nissan_Skyline_GT-R_R34_V_Spec_II.jpg",
-    "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:Nissan_Skyline_GT-R_C110_(1973).jpg",
-      "https://commons.wikimedia.org/wiki/File:Nissan_Skyline_GT-R_R34_V_Spec_II.jpg"
-    ],
-    "rejected": true
   },
   "nissan-skyline-gt-r-g3": {
     "file": "/cars/nissan-skyline-gt-r-g3.webp",
@@ -4848,36 +4548,6 @@
     ],
     "verified": true
   },
-  "jeep-cj-2a-g1": {
-    "file": "/cars/jeep-cj-2a-g1.webp",
-    "article": "Commons search: Jeep CJ-2A 1945",
-    "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "David Berry from Rohnert Park CA, USA",
-    "source": "https://commons.wikimedia.org/wiki/File:1945-49_Willys_CJ-2A_(8516773565).jpg",
-    "verified": true
-  },
-  "jeep-cj-3a-g1": {
-    "file": "/cars/jeep-cj-3a-g1.webp",
-    "article": "Commons search: Jeep CJ-3A 1949",
-    "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Greg Gjerdingen from Willmar, USA",
-    "source": "https://commons.wikimedia.org/wiki/File:1949_Willys_Jeep_CJ-3A_(34714571964).jpg",
-    "verified": true
-  },
-  "jeep-cj-3b-g1": {
-    "file": "/cars/jeep-cj-3b-g1.webp",
-    "article": "Commons search: Jeep CJ-3B 1953",
-    "matched": "search",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "artist": "Mr.choppers",
-    "source": "https://commons.wikimedia.org/wiki/File:1953_Willys_CJ-3B_with_trailer,_Silver_Plume_CO.jpg",
-    "verified": true
-  },
   "jeep-cj-5-g1": {
     "file": "/cars/jeep-cj-5-g1.webp",
     "article": "Commons search: Jeep CJ-5 1956",
@@ -4980,16 +4650,6 @@
       "https://commons.wikimedia.org/wiki/File:2019_Jeep_Compass_Limited_2.4L,_front_7.6.19.jpg"
     ],
     "rejected": true
-  },
-  "jeep-fc-forward-control-g1": {
-    "file": "/cars/jeep-fc-forward-control-g1.webp",
-    "article": "Commons search: Jeep FC (Forward Control) 1958",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "MercurySable99",
-    "source": "https://commons.wikimedia.org/wiki/File:1958_Jeep_FC-150,_front_right,_09-09-2023.jpg",
-    "verified": true
   },
   "jeep-gladiator-g1": {
     "file": "/cars/jeep-gladiator-g1.webp",
@@ -5100,33 +4760,6 @@
     ],
     "verified": true
   },
-  "jeep-jeepster-commando-g1": {
-    "file": "/cars/jeep-jeepster-commando-g1.webp",
-    "article": "Commons search: Jeep Jeepster Commando 1969",
-    "matched": "search",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "artist": "Mr.choppers",
-    "source": "https://commons.wikimedia.org/wiki/File:1969_Jeepster_Commando_C101_in_blue.jpg",
-    "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1967_Jeep_Jeepster_V6_in_red_and_white_at_Keystone_Truck_and_Tractor_Museum_5of6.jpg"
-    ],
-    "verified": true
-  },
-  "jeep-jeepster-g1": {
-    "file": "/cars/jeep-jeepster-g1.webp",
-    "article": "Commons search: Jeep Jeepster 1950",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "CZmarlin — Christopher Ziemnowicz, a photo credit would be appreciated if this image is used anywhere other than Wikipedia.",
-    "source": "https://commons.wikimedia.org/wiki/File:1950_Jeepster_Willys-Overland_in_blue_4-cylinder_with_overdrive_at_2021_AMO_meet_3of5.jpg",
-    "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1950_Willys_Jeepster_6-cylinder_in_red_and_black_with_open_top_at_2015_Macungie_show_3of4.jpg",
-      "https://commons.wikimedia.org/wiki/File:1950_Jeepster_Willys-Overland_in_blue_4-cylinder_with_overdrive_at_2021_AMO_meet_3of5.jpg"
-    ],
-    "rejected": true
-  },
   "jeep-liberty-g1": {
     "file": "/cars/jeep-liberty-g1.webp",
     "article": "Commons search: Jeep Liberty KJ",
@@ -5211,19 +4844,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "artist": "MercurySable99",
     "source": "https://commons.wikimedia.org/wiki/File:2024_Jeep_Wagoneer_S_Launch_Edition,_front_right,_09-12-2026.jpg",
-    "verified": true
-  },
-  "jeep-willys-mb-g1": {
-    "file": "/cars/jeep-willys-mb-g1.webp",
-    "article": "Commons search: Jeep Willys MB 1943",
-    "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Valder137",
-    "source": "https://commons.wikimedia.org/wiki/File:Willys_MB_1942_Slat_Grill_Jeep_with_Bantam_1943_Trailer_RSideFronts_Lake_Mirror_Cassic_16Oct2010_(15044797836).jpg",
-    "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1941_Willys_MB_Ford_GPW_(Jeep)_Museo_Nazionale_dell%27Automobile_Torino_05.jpg"
-    ],
     "verified": true
   },
   "jeep-wrangler-g1": {
@@ -5317,16 +4937,6 @@
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:Mitsubishi_Colt_(2023)_1X7A1657.jpg"
     ],
-    "verified": true
-  },
-  "mitsubishi-colt-galant-galant-g1": {
-    "file": "/cars/mitsubishi-colt-galant-galant-g1.webp",
-    "article": "Commons search: Mitsubishi Colt Galant / Galant 1969",
-    "matched": "search",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "artist": "TTTNIS",
-    "source": "https://commons.wikimedia.org/wiki/File:1969_Mitsubishi_Colt_Galant_AII_GS.jpg",
     "verified": true
   },
   "mitsubishi-cordia-g1": {
@@ -6181,26 +5791,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:2016_Cadillac_CTS-V.png",
     "verified": true
   },
-  "cadillac-de-ville-g1": {
-    "file": "/cars/cadillac-de-ville-g1.webp",
-    "article": "Commons search: Cadillac De Ville 1959",
-    "matched": "search",
-    "license": "CC BY 2.5",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
-    "artist": "Redsimon at English Wikipedia",
-    "source": "https://commons.wikimedia.org/wiki/File:Cadillac_Sedan_de_Ville_1959_front.jpg",
-    "verified": true
-  },
-  "cadillac-de-ville-g2": {
-    "file": "/cars/cadillac-de-ville-g2.webp",
-    "article": "Commons search: Cadillac De Ville 1965",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "MercurySable99",
-    "source": "https://commons.wikimedia.org/wiki/File:1965_Cadillac_De_Ville_convertible,_front_left,_08-29-2026.jpg",
-    "verified": true
-  },
   "cadillac-de-ville-g3": {
     "file": "/cars/cadillac-de-ville-g3.webp",
     "article": "Commons search: Cadillac De Ville 1971",
@@ -6264,19 +5854,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:2006_Cadillac_DTS_4.6L,_front_8.18.19.jpg",
     "verified": true
   },
-  "cadillac-eldorado-g1": {
-    "file": "/cars/cadillac-eldorado-g1.webp",
-    "article": "Commons search: Cadillac Eldorado 1953",
-    "matched": "search",
-    "license": "Public domain",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "artist": "Michi1308",
-    "source": "https://commons.wikimedia.org/wiki/File:Cadillac_Eldorado_1953-bumper_detail.jpg",
-    "rejected": true,
-    "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:Cadillac_Eldorado_1953-bumper_detail.jpg"
-    ]
-  },
   "cadillac-eldorado-g10": {
     "file": "/cars/cadillac-eldorado-g10.webp",
     "article": "Commons search: Cadillac Eldorado 1992",
@@ -6285,56 +5862,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "artist": "SsmIntrigue",
     "source": "https://commons.wikimedia.org/wiki/File:1992_Cadillac_Eldorado_Touring_Coupe_in_Medium_Garnet_Red_Metallic,_Front_Right,_06-29-2019.jpg",
-    "verified": true
-  },
-  "cadillac-eldorado-g2": {
-    "file": "/cars/cadillac-eldorado-g2.webp",
-    "article": "Commons search: Cadillac Eldorado 1954",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Alexander Migl",
-    "source": "https://commons.wikimedia.org/wiki/File:Cadillac_Eldorado_Convertible_(1954)_1Y7A6104.jpg",
-    "verified": true
-  },
-  "cadillac-eldorado-g3": {
-    "file": "/cars/cadillac-eldorado-g3.webp",
-    "article": "Commons search: Cadillac Eldorado 1957",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "This picture has been taken by Oleg Yunakov. Contact e-mail: yunakovgmail.com. Image can be used in accordance with the terms of the СС-BY-SA license. Other photos can be seen here.",
-    "source": "https://commons.wikimedia.org/wiki/File:1957_Cadillac_Eldorado_-_01.jpg",
-    "verified": true
-  },
-  "cadillac-eldorado-g4": {
-    "file": "/cars/cadillac-eldorado-g4.webp",
-    "article": "Commons search: Cadillac Eldorado 1959",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "MrWalkr",
-    "source": "https://commons.wikimedia.org/wiki/File:1959_Cadillac_Eldorado_Biarritz.jpg",
-    "verified": true
-  },
-  "cadillac-eldorado-g5": {
-    "file": "/cars/cadillac-eldorado-g5.webp",
-    "article": "Commons search: Cadillac Eldorado 1961",
-    "matched": "search",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "artist": "RL GNZLZ from Chile",
-    "source": "https://commons.wikimedia.org/wiki/File:Cadillac_Eldorado_1961_(41645986585).jpg",
-    "verified": true
-  },
-  "cadillac-eldorado-g6": {
-    "file": "/cars/cadillac-eldorado-g6.webp",
-    "article": "Commons search: Cadillac Eldorado 1967",
-    "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "nakhon100",
-    "source": "https://commons.wikimedia.org/wiki/File:Cadillac_Eldorado_1967_(9056530087).jpg",
     "verified": true
   },
   "cadillac-eldorado-g7": {
@@ -6491,16 +6018,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:2025_Cadillac_Optiq,_front_5.3.25.jpg",
     "verified": true
   },
-  "cadillac-series-62-g1": {
-    "file": "/cars/cadillac-series-62-g1.webp",
-    "article": "Commons search: Cadillac Series 62 1940",
-    "matched": "search",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "artist": "Stephen Foskett (Wikipedia User: sfoskett)",
-    "source": "https://commons.wikimedia.org/wiki/File:1941_Cadillac_Series_62_convertible_coupe.JPG",
-    "verified": true
-  },
   "cadillac-seville-g1": {
     "file": "/cars/cadillac-seville-g1.webp",
     "article": "Commons search: Cadillac Seville 1977",
@@ -6635,30 +6152,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:2016_Buick_Cascada_Premium_in_Toasted_Coconut_Metallic,_front_right,_08-16-2026.jpg",
     "verified": true
   },
-  "buick-century-g1": {
-    "file": "/cars/buick-century-g1.webp",
-    "article": "Commons search: Buick Century 1938",
-    "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Greg Gjerdingen from Willmar, USA",
-    "source": "https://commons.wikimedia.org/wiki/File:1938_Buick_Century_Convertible_(34670500442).jpg",
-    "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1936_Buick_Century_coupe_(3887580377).jpg",
-      "https://commons.wikimedia.org/wiki/File:1938_Buick_Century_Convertible_(34670500442).jpg"
-    ],
-    "rejected": true
-  },
-  "buick-century-g2": {
-    "file": "/cars/buick-century-g2.webp",
-    "article": "Commons search: Buick Century 1954",
-    "matched": "search",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "artist": "That Hartford Guy",
-    "source": "https://commons.wikimedia.org/wiki/File:1954_Buick_Century.jpg",
-    "verified": true
-  },
   "buick-century-g3": {
     "file": "/cars/buick-century-g3.webp",
     "article": "Commons search: Buick Century 1973",
@@ -6707,36 +6200,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "artist": "User3204",
     "source": "https://commons.wikimedia.org/wiki/File:2023_SAIC-GM_Buick_Electra_E5_(front).jpg",
-    "verified": true
-  },
-  "buick-electra-g1": {
-    "file": "/cars/buick-electra-g1.webp",
-    "article": "Commons search: Buick Electra 1959",
-    "matched": "search",
-    "license": "CC BY-SA 2.0 de",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
-    "artist": "Nimmerya",
-    "source": "https://commons.wikimedia.org/wiki/File:1959_Buick_Electra_225_Riviera_Sedan_front.JPG",
-    "verified": true
-  },
-  "buick-electra-g2": {
-    "file": "/cars/buick-electra-g2.webp",
-    "article": "Commons search: Buick Electra 1961",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Aos.1905",
-    "source": "https://commons.wikimedia.org/wiki/File:Buick_Electra_convertible_(1961)_(front_three-quarter_view,_left)_at_GLION_MUSEUM.jpg",
-    "verified": true
-  },
-  "buick-electra-g3": {
-    "file": "/cars/buick-electra-g3.webp",
-    "article": "Commons search: Buick Electra 1965",
-    "matched": "search",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "artist": "Hedning",
-    "source": "https://commons.wikimedia.org/wiki/File:Buick_electra_225_1965_front_stockholm_2008.jpg",
     "verified": true
   },
   "buick-electra-g4": {
@@ -6863,19 +6326,6 @@
     ],
     "rejected": true
   },
-  "buick-invicta-g1": {
-    "file": "/cars/buick-invicta-g1.webp",
-    "article": "Commons search: Buick Invicta 1961",
-    "matched": "search",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "artist": "FOTO:Fortepan — ID 18819: Adományozó/Donor: Drimbe József.",
-    "source": "https://commons.wikimedia.org/wiki/File:F%C3%A9rfi_portr%C3%A9,_Buick_Invicta_1961-es_modell._Fortepan_27101.jpg",
-    "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1960_Buick_Invicta_Custom_Estate_Wagon,_front_right_side.jpg"
-    ],
-    "verified": true
-  },
   "buick-lacrosse-g1": {
     "file": "/cars/buick-lacrosse-g1.webp",
     "article": "Commons search: Buick LaCrosse 2005",
@@ -6904,36 +6354,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "artist": "User3204",
     "source": "https://commons.wikimedia.org/wiki/File:2017_SAIC-GM_Buick_LaCrosse_(front).jpg",
-    "verified": true
-  },
-  "buick-lesabre-g1": {
-    "file": "/cars/buick-lesabre-g1.webp",
-    "article": "Commons search: Buick LeSabre 1959",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "MercurySable99",
-    "source": "https://commons.wikimedia.org/wiki/File:1959_Buick_LeSabre_2-door_hardtop,_front_right,_06-13-2026.jpg",
-    "verified": true
-  },
-  "buick-lesabre-g2": {
-    "file": "/cars/buick-lesabre-g2.webp",
-    "article": "Commons search: Buick LeSabre 1961",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "MercurySable99",
-    "source": "https://commons.wikimedia.org/wiki/File:1961_Buick_LeSabre_4-door_hardtop,_front_left,_06-14-2025.jpg",
-    "verified": true
-  },
-  "buick-lesabre-g3": {
-    "file": "/cars/buick-lesabre-g3.webp",
-    "article": "Commons search: Buick LeSabre 1965",
-    "matched": "search",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "artist": "Mr.choppers",
-    "source": "https://commons.wikimedia.org/wiki/File:1965_Buick_LeSabre_convertible_in_blue,_front_left.jpg",
     "verified": true
   },
   "buick-lesabre-g4": {
@@ -7130,40 +6550,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:2004_Buick_Rendezvous_3.4_Front.jpg",
     "verified": true
   },
-  "buick-riviera-g1": {
-    "file": "/cars/buick-riviera-g1.webp",
-    "article": "Commons search: Buick Riviera 1965",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "MercurySable99",
-    "source": "https://commons.wikimedia.org/wiki/File:1965_Buick_Riviera,_front_right,_09-07-2024.jpg",
-    "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1963_Buick_Riviera,_white,_Golden_Super_Cruise_2026-08-01.jpg",
-      "https://commons.wikimedia.org/wiki/File:1965_Buick_Riviera,_front_right,_09-07-2024.jpg"
-    ],
-    "rejected": true
-  },
-  "buick-riviera-g2": {
-    "file": "/cars/buick-riviera-g2.webp",
-    "article": "Commons search: Buick Riviera 1966",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "MercurySable99",
-    "source": "https://commons.wikimedia.org/wiki/File:1966_Buick_Riviera,_front_left,_07-20-2024.jpg",
-    "verified": true
-  },
-  "buick-riviera-g3": {
-    "file": "/cars/buick-riviera-g3.webp",
-    "article": "Commons search: Buick Riviera 1971",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Kevauto",
-    "source": "https://commons.wikimedia.org/wiki/File:1971_Buick_Riviera_front,_Chelsea_5.18.19.jpg",
-    "verified": true
-  },
   "buick-riviera-g4": {
     "file": "/cars/buick-riviera-g4.webp",
     "article": "Commons search: Buick Riviera 1974",
@@ -7214,20 +6600,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:1995_Buick_Riviera,_Front_Left,_04-18-2021.jpg",
     "verified": true
   },
-  "buick-roadmaster-g1": {
-    "file": "/cars/buick-roadmaster-g1.webp",
-    "article": "Commons search: Buick Classic",
-    "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Alexander Migl",
-    "source": "https://commons.wikimedia.org/wiki/File:Buick_Roadmaster_Riviera_Coupe_(1958)_Classic-Gala_2021_1X7A0248.jpg",
-    "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:Buick_Roadmaster_1941_Phaeton_Convertible_LSideFront_Lake_Mirror_Cassic_16Oct2010_(14874273921).jpg",
-      "https://commons.wikimedia.org/wiki/File:Buick_Roadmaster_Riviera_Coupe_(1958)_Classic-Gala_2021_1X7A0248.jpg"
-    ],
-    "rejected": true
-  },
   "buick-roadmaster-g2": {
     "file": "/cars/buick-roadmaster-g2.webp",
     "article": "Commons search: Buick Roadmaster B-body",
@@ -7236,36 +6608,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "artist": "That Hartford Guy",
     "source": "https://commons.wikimedia.org/wiki/File:1995_Buick_Roadmaster_Limited_fvr.jpg",
-    "verified": true
-  },
-  "buick-skylark-g1": {
-    "file": "/cars/buick-skylark-g1.webp",
-    "article": "Commons search: Buick Skylark 1953",
-    "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Greg Gjerdingen from Willmar, USA",
-    "source": "https://commons.wikimedia.org/wiki/File:1953_Buick_Skylark_Convertible_(34743411455).jpg",
-    "verified": true
-  },
-  "buick-skylark-g2": {
-    "file": "/cars/buick-skylark-g2.webp",
-    "article": "Commons search: Buick Skylark 1961",
-    "matched": "search",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "artist": "Charles01",
-    "source": "https://commons.wikimedia.org/wiki/File:Buick_Skylark_1961.jpg",
-    "verified": true
-  },
-  "buick-skylark-g3": {
-    "file": "/cars/buick-skylark-g3.webp",
-    "article": "Commons search: Buick Skylark 1964",
-    "matched": "search",
-    "license": "Public domain",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "artist": "User ChiemseeMan on de.wikipedia",
-    "source": "https://commons.wikimedia.org/wiki/File:1964_Buick_Skylark_Convertible_serie_4300_front.jpg",
     "verified": true
   },
   "buick-skylark-g4": {
@@ -7318,39 +6660,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:1985-1987_Buick_Somerset.jpg",
     "verified": true
   },
-  "buick-special-g1": {
-    "file": "/cars/buick-special-g1.webp",
-    "article": "Commons search: Buick Special 1938",
-    "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "SG2012",
-    "source": "https://commons.wikimedia.org/wiki/File:Buick_Special_(1938)_-_9939307183.jpg",
-    "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1936_Buick_Series_40_Special_4dr_sedan_(style_no_41),_front_left.jpg"
-    ],
-    "verified": true
-  },
-  "buick-special-g2": {
-    "file": "/cars/buick-special-g2.webp",
-    "article": "Commons search: Buick Special 1961",
-    "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Rutger van der Maar",
-    "source": "https://commons.wikimedia.org/wiki/File:1961_Buick_Special_front.jpg",
-    "verified": true
-  },
-  "buick-super-g1": {
-    "file": "/cars/buick-super-g1.webp",
-    "article": "Commons search: Buick Super 1940",
-    "matched": "search",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "artist": "Mr.choppers",
-    "source": "https://commons.wikimedia.org/wiki/File:1940_Buick_Super_Series_50_4-door_Touring_Sedan,_front_right.jpg",
-    "verified": true
-  },
   "buick-terraza-g1": {
     "file": "/cars/buick-terraza-g1.webp",
     "article": "Commons search: Buick Terraza 2005",
@@ -7369,16 +6678,6 @@
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "artist": "IFCAR",
     "source": "https://commons.wikimedia.org/wiki/File:2012_Buick_Verano_--_2012_DC.JPG",
-    "verified": true
-  },
-  "buick-wildcat-g1": {
-    "file": "/cars/buick-wildcat-g1.webp",
-    "article": "Commons search: Buick Wildcat 1962",
-    "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Sicnag",
-    "source": "https://commons.wikimedia.org/wiki/File:1966_Buick_Wildcat_Convertible_(26741948311).jpg",
     "verified": true
   },
   "cadillac-srx-g1": {
