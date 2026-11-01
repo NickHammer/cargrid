@@ -44,7 +44,9 @@ export type GameEvent =
   | "guess_incorrect"
   | "grid_completed"
   | "archive_opened"
-  | "rollover_prompted";
+  | "rollover_prompted"
+  | "result_shared"
+  | "how_to_play_opened";
 
 type Props = Record<string, string | number | boolean>;
 

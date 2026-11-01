@@ -25,7 +25,7 @@ interface Props {
  * last term is what keeps the whole board on screen without scrolling. `dvh`
  * rather than `vh` because mobile browser chrome makes `vh` overflow.
  */
-const LABEL = "clamp(4.5rem, 11vw, 7rem)";
+const LABEL = "clamp(5rem, 13vw, 8.5rem)";
 const GAP = "0.5rem";
 const HEADER_ROW = "3.25rem";
 const VERTICAL_BUDGET = "84dvh";
@@ -54,7 +54,7 @@ export default function Grid({
       {layout.columns.map((col) => (
         <div
           key={col.value}
-          className="flex items-center justify-center rounded-lg bg-gray-800 px-2 py-2 text-center text-xs font-semibold leading-tight text-amber-400 sm:text-sm"
+          className="axis-chip axis-chip-col font-display flex items-center justify-center rounded-lg text-center text-[11px] uppercase sm:text-xs"
           style={{ minHeight: HEADER_ROW }}
         >
           {col.label}
@@ -65,7 +65,7 @@ export default function Grid({
       {layout.rows.map((row, rowIdx) => (
         <Fragment key={rowIdx}>
           {/* Row header */}
-          <div className="flex items-center justify-center rounded-lg bg-gray-800 px-1.5 py-2 text-center text-xs font-semibold leading-tight text-amber-400 sm:text-sm">
+          <div className="axis-chip axis-chip-row font-display flex items-center justify-center rounded-lg text-center text-[11px] uppercase sm:text-xs">
             {row.label}
           </div>
 
@@ -91,14 +91,14 @@ export default function Grid({
                 onClick={() => !cell.solved && !gameOver && onCellClick(rowIdx, colIdx)}
                 disabled={cell.solved || gameOver}
                 aria-label={ariaLabel}
-                className={`relative aspect-[4/3] overflow-hidden rounded-lg border-2 outline-none transition-all focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-950
+                className={`tile group relative aspect-[4/3] overflow-hidden rounded-xl outline-none focus-visible:ring-2 focus-visible:ring-hazard-400 focus-visible:ring-offset-2 focus-visible:ring-offset-asphalt-900
                   ${cell.solved
-                    ? "cursor-default border-green-500 bg-gray-800"
+                    ? "tile-solved tile-sweep cursor-default"
                     : isSelected
-                    ? "border-amber-400 bg-gray-700"
+                    ? "border-hazard-400 shadow-[0_0_0_3px_rgba(255,157,0,0.25)]"
                     : gameOver
-                    ? "cursor-default border-gray-800 bg-gray-900"
-                    : "border-gray-700 bg-gray-800 hover:border-amber-500 hover:bg-gray-700 active:scale-95"
+                    ? "cursor-default opacity-60"
+                    : "tile-open"
                   }`}
               >
                 {cell.solved && car ? (
@@ -143,7 +143,11 @@ export default function Grid({
                         </span>
                       </>
                     ) : (
-                      !gameOver && <span className="text-2xl text-gray-600">+</span>
+                      !gameOver && (
+                        <span className="font-display text-2xl text-asphalt-500 transition-colors group-hover:text-hazard-500">
+                          +
+                        </span>
+                      )
                     )}
                   </div>
                 )}

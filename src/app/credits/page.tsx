@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import BackLink from "@/components/BackLink";
+import SiteFooter from "@/components/SiteFooter";
 import { allCars } from "@/lib/cars";
 import creditsData from "../../../data/image-credits.json";
 
@@ -36,14 +37,19 @@ export default function CreditsPage() {
     });
 
   return (
-    <main className="flex min-h-screen flex-col items-center bg-gray-950 px-4 py-8">
+    <main className="flex min-h-screen flex-col items-center px-4 py-6">
+      <div className="mb-6 w-full max-w-2xl">
+        <BackLink fallback="/" label="Back" />
+      </div>
+
       <div className="mb-6 max-w-2xl text-center">
-        <h1 className="text-3xl font-bold tracking-tight text-white">Image credits</h1>
-        <p className="mt-2 text-sm text-gray-400">
+        <h1 className="font-display text-4xl uppercase tracking-tight text-ink">Image credits</h1>
+        <div className="checker-rule mx-auto mt-3 w-28" />
+        <p className="mt-3 text-sm text-ink-dim">
           Every car photo comes from Wikimedia Commons under a free license. Each row links to
           the original file, which carries the full license text.
         </p>
-        <p className="mt-2 text-xs text-gray-500">
+        <p className="mt-2 text-xs text-ink-faint">
           This page exists solely to satisfy the attribution requirement of those licenses — it
           is not a car index, so it&apos;s sorted by photographer rather than by car.
         </p>
@@ -52,7 +58,7 @@ export default function CreditsPage() {
       <div className="w-full max-w-2xl overflow-x-auto">
         <table className="w-full border-collapse text-left text-sm">
           <thead>
-            <tr className="border-b border-gray-800 text-xs uppercase tracking-wider text-gray-500">
+            <tr className="border-b border-asphalt-600 text-xs uppercase tracking-wider text-ink-faint">
               <th className="py-2 pr-4 font-medium">Photographer</th>
               <th className="py-2 pr-4 font-medium">Source</th>
               <th className="py-2 font-medium">License</th>
@@ -60,37 +66,30 @@ export default function CreditsPage() {
           </thead>
           <tbody>
             {rows.map(({ car, credit }) => (
-              <tr key={car.id} className="border-b border-gray-900 align-top">
-                <td className="py-2 pr-4 text-gray-200">{credit.artist}</td>
-                <td className="py-2 pr-4 text-gray-400">
+              <tr key={car.id} className="border-b border-asphalt-800 align-top">
+                <td className="py-2 pr-4 text-ink">{credit.artist}</td>
+                <td className="py-2 pr-4 text-ink-dim">
                   {/* Link text is the car, not the year — the licence requires identifying
                       the work, not the car's production span. */}
                   <a
                     href={credit.source}
                     target="_blank"
                     rel="noreferrer"
-                    className="hover:text-amber-400"
+                    className="transition-colors hover:text-hazard-400"
                   >
                     {car.make} {car.model}
                   </a>
                 </td>
-                <td className="py-2 text-gray-500">{credit.license}</td>
+                <td className="py-2 text-ink-faint">{credit.license}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
 
-      <p className="mt-6 text-xs text-gray-600">{rows.length} images</p>
+      <p className="mt-6 text-xs text-ink-faint">{rows.length} images</p>
 
-      <nav className="mt-8 flex gap-4 text-xs text-gray-500">
-        <Link href="/" className="hover:text-amber-400">
-          Today&apos;s grid
-        </Link>
-        <Link href="/archive" className="hover:text-amber-400">
-          Archive
-        </Link>
-      </nav>
+      <SiteFooter current="credits" />
     </main>
   );
 }

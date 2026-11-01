@@ -17,6 +17,12 @@ const nextConfig: NextConfig = {
   // which one wins for /archive/2026-10-22. Directory + index.html is
   // unambiguous everywhere.
   trailingSlash: true,
+
+  // The Next.js logo in the bottom-left corner of `npm run dev` is the dev-tools
+  // indicator, not an icon file — deleting public/next.svg could never remove
+  // it. It never ships in the export, but it sits on top of the board while
+  // working on the design, so it is switched off.
+  devIndicators: false,
 };
 
 export default nextConfig;
