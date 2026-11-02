@@ -68,6 +68,8 @@ const CONFIG = {
   minCell: 3,        // every square needs this many valid answers
   maxSameType: 2,    // same category type per axis
   maxTier3: 1,       // "use sparingly" categories per grid
+  maxTwinOverlap: 0.8, // two categories on one axis may share at most this much
+
   candidates: 60,    // grids built per day before scoring picks the best
   featureTries: 6,   // next-in-rotation categories to try if the first yields none
 };
@@ -222,7 +224,11 @@ const worldCache = new Map();
  * cars might be 300 categories and ~20k pairs, still milliseconds.
  */
 function buildWorld(cars, config) {
-  const sig = `${config.minSupport}:${config.minCell}`;
+  // The cached world carries its config, and `trioDistinct` reads
+  // maxTwinOverlap off it, so that value belongs in the key. Every rung of the
+  // relaxation ladder uses the same one today; leaving it out would silently
+  // hand a later rung the first rung's threshold if that ever changed.
+  const sig = `${config.minSupport}:${config.minCell}:${config.maxTwinOverlap}`;
   const hit = worldCache.get(sig);
   if (hit && hit.cars === cars) return hit;
 
@@ -286,6 +292,21 @@ function buildWorld(cars, config) {
     contains(a, b) {
       for (let w = 0; w < words; w++) if (bits[a][w] & ~bits[b][w]) return false;
       return true;
+    },
+    /**
+     * How alike two categories are, as shared cars over combined cars
+     * (0 = nothing in common, 1 = the same set).
+     *
+     * Deliberately two-way. A one-way test ("is a inside b?") calls V6 a
+     * duplicate of 6 cylinders, which it is not — 94 six-cylinder cars are not
+     * V6, so the two columns ask different questions. It also calls V8 a
+     * duplicate of Automatic, when Automatic holds 634 cars against V8's few
+     * dozen and no player would confuse them.
+     */
+    similarity(a, b) {
+      const inter = cellSize(a, b);
+      const union = size[a] + size[b] - inter;
+      return union === 0 ? 0 : inter / union;
     },
   };
 
@@ -355,11 +376,26 @@ function trioDistinct(world, trio) {
     if (labels.has(label)) return false;
     labels.add(label);
   }
-  // Different labels can still cover exactly the same cars, which makes two
-  // rows produce identical squares — a 3x3 grid with only two real columns.
+  // Different labels can still cover the same cars, which makes two columns
+  // ask the same question — a 3x3 grid with only two real columns.
+  //
+  // This used to demand the two sets be EXACTLY equal, and that bar was too
+  // high to be useful: "Ford" (24 cars) and "Ford Motor Company" (25) differ by
+  // the single Lincoln Continental, so they passed, and 2026-11-02 shipped with
+  // Ford and Ford Motor Company side by side. Across the 742-day schedule the
+  // exact test missed 65 days, all from four pairs that are plainly two names
+  // for one idea: Asian/Japanese (328 cars shared, 38 days), 4 cylinders/
+  // Inline-4 (323 shared, 24 days), Ford/Ford Motor Company and Jaguar/Tata
+  // Motors.
+  //
+  // `maxTwinOverlap` sits at 0.8 because the data leaves a wide gap there: the
+  // four bad pairs score 0.90-0.96 and the next pair down is 6 cylinders/V6 at
+  // 0.71, so the cut-off is not balanced on a knife edge. 6 cylinders/V6 is the
+  // closest thing still allowed, and it stays because Inline-6 and Flat-6 make
+  // it a real distinction.
   for (let x = 0; x < trio.length; x++) {
     for (let y = x + 1; y < trio.length; y++) {
-      if (world.contains(trio[x], trio[y]) && world.contains(trio[y], trio[x])) return false;
+      if (world.similarity(trio[x], trio[y]) > world.config.maxTwinOverlap) return false;
     }
   }
   return true;
