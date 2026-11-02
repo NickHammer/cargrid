@@ -1,9 +1,9 @@
 # Photos wanted
 
-16 of 730 cars still have no photo. They render as a plain
+14 of 730 cars still have no photo. They render as a plain
 text tile in the game, which works but looks unfinished.
 
-**Mitsubishi** 7 · **Nissan** 4 · **Cadillac** 2 · **Buick** 1 · **Jeep** 1 · **Lexus** 1
+**Mitsubishi** 7 · **Nissan** 4 · **Cadillac** 1 · **Jeep** 1 · **Lexus** 1
 
 ## Why these are still empty
 
@@ -59,8 +59,6 @@ Commons with the Flickypedia tool.
 
 | id | car | years | body / class | status | search Commons |
 |---|---|---|---|---|---|
-| `buick-roadmaster-g1` | Buick Roadmaster | 1936–1958 | Sedan / Sedan | 5 photos tried, all wrong | [Roadmaster](https://commons.wikimedia.org/w/index.php?search=Buick%20Roadmaster%201936&ns6=1) |
-| `cadillac-ct6-g1` | Cadillac CT6 | 2016–2020 | Sedan / Sedan | 3 photos tried, all wrong | [CT6](https://commons.wikimedia.org/w/index.php?search=Cadillac%20CT6%202016&ns6=1) |
 | `cadillac-eldorado-g1` | Cadillac Eldorado | 1953–1953 | Convertible / Coupe | 1 photo tried, all wrong | [Eldorado](https://commons.wikimedia.org/w/index.php?search=Cadillac%20Eldorado%201953&ns6=1) |
 | `jeep-cj-6-g1` | Jeep CJ-6 | 1955–1975 | SUV / Off-Road | 2 photos tried, all wrong | [CJ-6](https://commons.wikimedia.org/w/index.php?search=Jeep%20CJ-6%201955&ns6=1) |
 | `lexus-es-g2` | Lexus ES | 1991–1996 | Sedan / Sedan | 4 photos tried, all wrong | [ES](https://commons.wikimedia.org/w/index.php?search=Lexus%20ES%201991&ns6=1) |

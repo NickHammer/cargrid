@@ -1,8 +1,6 @@
 {
   "_readme": "Commons file names, without the File: prefix. Filled in by hand for cars the automated fetcher cannot resolve; see docs/IMAGES-WANTED.md. Empty values are ignored.",
   "pins": {
-    "buick-roadmaster-g1": "",
-    "cadillac-ct6-g1": "",
     "cadillac-eldorado-g1": "",
     "jeep-cj-6-g1": "",
     "lexus-es-g2": "",
