@@ -501,9 +501,19 @@ function scoreFile(fileName, car) {
   if (years.length) {
     score += years.some((y) => y >= car.production_start - 1 && y <= end + 1) ? 12 : -8;
   }
-  for (const word of car.model.toLowerCase().split(/[\s-]+/)) {
-    if (word.length > 1 && name.includes(word)) score += 3;
+  // Score the best-matching market name, not every word of the slash-joined
+  // string pooled together. Pooling let a *different car in the dataset* win:
+  // for "Qashqai / Rogue Sport" a plain Nissan Rogue photo scored +3 for
+  // "rogue" and +3 for "sport", beating a genuine Qashqai on +3. Requiring
+  // every word of one name to be present makes "Rogue Sport" cost both words.
+  let nameScore = 0;
+  for (const marketName of marketNames(car)) {
+    const words = marketName.toLowerCase().split(/[\s-]+/).filter((w) => w.length > 1);
+    if (words.length && words.every((w) => name.includes(w))) {
+      nameScore = Math.max(nameScore, 3 * words.length);
+    }
   }
+  score += nameScore;
   if (name.includes(car.make.toLowerCase())) score += 2;
   // A front three-quarter is the tile this game wants. A pure side profile is
   // not: cropped to 4:3 it loses the grille, which is most of what identifies
@@ -586,9 +596,39 @@ const CHASSIS_CODES = (() => {
   return index;
 })();
 
+/**
+ * The market names a model was sold under, as separate search terms.
+ *
+ * `model` holds every name a car carried, slash-joined, because the guess box
+ * has to accept all of them: "Nissan Qashqai / Rogue Sport", "Mitsubishi
+ * Outlander Sport / ASX / RVR". That is right for gameplay and useless as a
+ * search query — Commons was being asked for "Nissan Qashqai / Rogue Sport
+ * 2006", which matches nothing, while plain "Nissan Qashqai" returns over
+ * 1,900 files. 17 of the 50 cars that had no image carried a slash, and 8 of
+ * those were logged as "nothing exists on Commons" when thousands of files did.
+ *
+ * Splitting also *helps* rather than merely unbreaks: a car photographed mostly
+ * in Europe is filed under its European name, so trying each name in turn
+ * reaches photos a single query never would.
+ *
+ * Ordered as written, so the home-market name (listed first in the dataset) is
+ * searched first.
+ */
+function marketNames(car) {
+  return car.model
+    .split("/")
+    .map((s) => s.trim())
+    .filter(Boolean);
+}
+
 function chassisCode(car) {
   const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
-  return CHASSIS_CODES.get(`${slug(car.make)}|${slug(car.model)}|${car.generation}`) ?? null;
+  // Keyed on one market name, so a slash-joined model never matched.
+  for (const name of marketNames(car)) {
+    const code = CHASSIS_CODES.get(`${slug(car.make)}|${slug(name)}|${car.generation}`);
+    if (code) return code;
+  }
+  return null;
 }
 
 function planFor(car) {
@@ -613,14 +653,20 @@ function planFor(car) {
   }
   const end = car.production_end ?? new Date().getFullYear();
   const chassis = chassisCode(car);
+  const names = marketNames(car);
   const queries = [
     ...(SEARCH_HINTS[car.id] ?? []),
     // A chassis code names one generation and nothing else, so it beats a
     // launch-year query that only hints at the era. "Jeep Cherokee XJ" cannot
     // come back as a KL; "Jeep Cherokee 1984" frequently does.
-    ...(chassis ? [`${car.make} ${car.model} ${chassis}`, `${car.make} ${chassis}`] : []),
-    `${car.make} ${car.model} ${car.production_start}`,
-    `${car.make} ${car.model} ${Math.min(car.production_start + 2, end)}`,
+    ...(chassis ? [`${car.make} ${names[0]} ${chassis}`, `${car.make} ${chassis}`] : []),
+    // One query per market name rather than one for the slash-joined string.
+    // Interleaved by shape, not grouped by name, so the launch-year query for
+    // every name is tried before any of the launch+2 queries — the year is a
+    // weaker signal than the name, so it should not get two attempts at the
+    // home market before the export name is tried at all.
+    ...names.map((n) => `${car.make} ${n} ${car.production_start}`),
+    ...names.map((n) => `${car.make} ${n} ${Math.min(car.production_start + 2, end)}`),
   ];
   for (const q of queries) {
     plan.push({
@@ -637,11 +683,15 @@ function planFor(car) {
   // record and a 2014 Skyline for a 2001 record — while being correct for
   // patrol-g5, skyline-g13 and navara-g2, all of which are current.
   if (car.production_end === null) {
-    plan.push({
-      strategy: "main-article",
-      label: `${car.make} ${car.model}`,
-      run: () => pageImage(`${car.make} ${car.model}`),
-    });
+    // Per market name: "Nissan Qashqai / Rogue Sport" is not an article title
+    // on any wiki, so this strategy could never fire for a dual-named car.
+    for (const name of names) {
+      plan.push({
+        strategy: "main-article",
+        label: `${car.make} ${name}`,
+        run: () => pageImage(`${car.make} ${name}`),
+      });
+    }
   }
   return plan;
 }

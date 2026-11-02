@@ -1781,6 +1781,1855 @@
     ]
   },
   {
+    "id": "buick-cascada-g1",
+    "make": "Buick",
+    "model": "Cascada",
+    "generation": 1,
+    "brands": [
+      "Buick",
+      "Opel",
+      "Vauxhall",
+      "Holden"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2016,
+    "production_end": 2019,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 200,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-cascada-g1.webp"
+  },
+  {
+    "id": "buick-century-g1",
+    "make": "Buick",
+    "model": "Century",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1936,
+    "production_end": 1942,
+    "decades": [
+      "1930s",
+      "1940s"
+    ],
+    "engine_layouts": [
+      "Inline-8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 120,
+    "power_output_hp_max": 165,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-century-g1.webp"
+  },
+  {
+    "id": "buick-century-g2",
+    "make": "Buick",
+    "model": "Century",
+    "generation": 2,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1954,
+    "production_end": 1958,
+    "decades": [
+      "1950s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 200,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-century-g2.webp"
+  },
+  {
+    "id": "buick-century-g3",
+    "make": "Buick",
+    "model": "Century",
+    "generation": 3,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1973,
+    "production_end": 1977,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 110,
+    "power_output_hp_max": 230,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-century-g3.webp"
+  },
+  {
+    "id": "buick-century-g4",
+    "make": "Buick",
+    "model": "Century",
+    "generation": 4,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1978,
+    "production_end": 1981,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 90,
+    "power_output_hp_max": 170,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-century-g4.webp"
+  },
+  {
+    "id": "buick-century-g5",
+    "make": "Buick",
+    "model": "Century",
+    "generation": 5,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1982,
+    "production_end": 1996,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 85,
+    "power_output_hp_max": 160,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-century-g5.webp"
+  },
+  {
+    "id": "buick-century-g6",
+    "make": "Buick",
+    "model": "Century",
+    "generation": 6,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1997,
+    "production_end": 2005,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 160,
+    "power_output_hp_max": 175,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-century-g6.webp"
+  },
+  {
+    "id": "buick-electra-e5-g1",
+    "make": "Buick",
+    "model": "Electra E5",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 242,
+    "power_output_hp_max": 516,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500",
+      "501-600"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-electra-e5-g1.webp"
+  },
+  {
+    "id": "buick-electra-g1",
+    "make": "Buick",
+    "model": "Electra",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1959,
+    "production_end": 1960,
+    "decades": [
+      "1950s",
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 325,
+    "power_output_hp_max": 325,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-electra-g1.webp"
+  },
+  {
+    "id": "buick-electra-g2",
+    "make": "Buick",
+    "model": "Electra",
+    "generation": 2,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1961,
+    "production_end": 1964,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 325,
+    "power_output_hp_max": 340,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-electra-g2.webp"
+  },
+  {
+    "id": "buick-electra-g3",
+    "make": "Buick",
+    "model": "Electra",
+    "generation": 3,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1965,
+    "production_end": 1970,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 325,
+    "power_output_hp_max": 370,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-electra-g3.webp"
+  },
+  {
+    "id": "buick-electra-g4",
+    "make": "Buick",
+    "model": "Electra",
+    "generation": 4,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1971,
+    "production_end": 1976,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 205,
+    "power_output_hp_max": 315,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-electra-g4.webp"
+  },
+  {
+    "id": "buick-electra-g5",
+    "make": "Buick",
+    "model": "Electra",
+    "generation": 5,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1977,
+    "production_end": 1984,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 105,
+    "power_output_hp_max": 185,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-electra-g5.webp"
+  },
+  {
+    "id": "buick-electra-g6",
+    "make": "Buick",
+    "model": "Electra",
+    "generation": 6,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1985,
+    "production_end": 1990,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 110,
+    "power_output_hp_max": 165,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-electra-g6.webp"
+  },
+  {
+    "id": "buick-enclave-g1",
+    "make": "Buick",
+    "model": "Enclave",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2008,
+    "production_end": 2017,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 275,
+    "power_output_hp_max": 288,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-enclave-g1.webp"
+  },
+  {
+    "id": "buick-enclave-g2",
+    "make": "Buick",
+    "model": "Enclave",
+    "generation": 2,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2018,
+    "production_end": 2024,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 310,
+    "power_output_hp_max": 310,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-enclave-g2.webp"
+  },
+  {
+    "id": "buick-enclave-g3",
+    "make": "Buick",
+    "model": "Enclave",
+    "generation": 3,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2025,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 328,
+    "power_output_hp_max": 328,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-enclave-g3.webp"
+  },
+  {
+    "id": "buick-encore-g1",
+    "make": "Buick",
+    "model": "Encore",
+    "generation": 1,
+    "brands": [
+      "Buick",
+      "Opel",
+      "Vauxhall"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2013,
+    "production_end": 2022,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 138,
+    "power_output_hp_max": 153,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-encore-g1.webp"
+  },
+  {
+    "id": "buick-encore-gx-g1",
+    "make": "Buick",
+    "model": "Encore GX",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2020,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 137,
+    "power_output_hp_max": 155,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-encore-gx-g1.webp"
+  },
+  {
+    "id": "buick-envision-g1",
+    "make": "Buick",
+    "model": "Envision",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2016,
+    "production_end": 2020,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 197,
+    "power_output_hp_max": 252,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-envision-g1.webp"
+  },
+  {
+    "id": "buick-envision-g2",
+    "make": "Buick",
+    "model": "Envision",
+    "generation": 2,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2021,
+    "production_end": 2025,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 228,
+    "power_output_hp_max": 228,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-envision-g2.webp"
+  },
+  {
+    "id": "buick-envista-g1",
+    "make": "Buick",
+    "model": "Envista",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 137,
+    "power_output_hp_max": 137,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-envista-g1.webp"
+  },
+  {
+    "id": "buick-gran-sport-gs-g1",
+    "make": "Buick",
+    "model": "Gran Sport / GS",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1965,
+    "production_end": 1975,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Muscle Car",
+    "power_output_hp_min": 260,
+    "power_output_hp_max": 360,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-gran-sport-gs-g1.webp"
+  },
+  {
+    "id": "buick-invicta-g1",
+    "make": "Buick",
+    "model": "Invicta",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1959,
+    "production_end": 1963,
+    "decades": [
+      "1950s",
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 325,
+    "power_output_hp_max": 325,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-invicta-g1.webp"
+  },
+  {
+    "id": "buick-lacrosse-g1",
+    "make": "Buick",
+    "model": "LaCrosse",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2005,
+    "production_end": 2009,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 200,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-lacrosse-g1.webp"
+  },
+  {
+    "id": "buick-lacrosse-g2",
+    "make": "Buick",
+    "model": "LaCrosse",
+    "generation": 2,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2010,
+    "production_end": 2016,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 182,
+    "power_output_hp_max": 304,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-lacrosse-g2.webp"
+  },
+  {
+    "id": "buick-lacrosse-g3",
+    "make": "Buick",
+    "model": "LaCrosse",
+    "generation": 3,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2017,
+    "production_end": 2019,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 194,
+    "power_output_hp_max": 310,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-lacrosse-g3.webp"
+  },
+  {
+    "id": "buick-lesabre-g1",
+    "make": "Buick",
+    "model": "LeSabre",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1959,
+    "production_end": 1960,
+    "decades": [
+      "1950s",
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 210,
+    "power_output_hp_max": 250,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-lesabre-g1.webp"
+  },
+  {
+    "id": "buick-lesabre-g2",
+    "make": "Buick",
+    "model": "LeSabre",
+    "generation": 2,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1961,
+    "production_end": 1964,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 235,
+    "power_output_hp_max": 325,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-lesabre-g2.webp"
+  },
+  {
+    "id": "buick-lesabre-g3",
+    "make": "Buick",
+    "model": "LeSabre",
+    "generation": 3,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1965,
+    "production_end": 1970,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 210,
+    "power_output_hp_max": 370,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-lesabre-g3.webp"
+  },
+  {
+    "id": "buick-lesabre-g4",
+    "make": "Buick",
+    "model": "LeSabre",
+    "generation": 4,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1971,
+    "production_end": 1976,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 145,
+    "power_output_hp_max": 260,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-lesabre-g4.webp"
+  },
+  {
+    "id": "buick-lesabre-g5",
+    "make": "Buick",
+    "model": "LeSabre",
+    "generation": 5,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1977,
+    "production_end": 1985,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 105,
+    "power_output_hp_max": 180,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-lesabre-g5.webp"
+  },
+  {
+    "id": "buick-lesabre-g6",
+    "make": "Buick",
+    "model": "LeSabre",
+    "generation": 6,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1986,
+    "production_end": 1991,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 140,
+    "power_output_hp_max": 165,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-lesabre-g6.webp"
+  },
+  {
+    "id": "buick-lesabre-g7",
+    "make": "Buick",
+    "model": "LeSabre",
+    "generation": 7,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1992,
+    "production_end": 1999,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 170,
+    "power_output_hp_max": 205,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-lesabre-g7.webp"
+  },
+  {
+    "id": "buick-lesabre-g8",
+    "make": "Buick",
+    "model": "LeSabre",
+    "generation": 8,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2000,
+    "production_end": 2005,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 205,
+    "power_output_hp_max": 205,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-lesabre-g8.webp"
+  },
+  {
+    "id": "buick-lucerne-g1",
+    "make": "Buick",
+    "model": "Lucerne",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2006,
+    "production_end": 2011,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 197,
+    "power_output_hp_max": 292,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-lucerne-g1.webp"
+  },
+  {
+    "id": "buick-park-avenue-g1",
+    "make": "Buick",
+    "model": "Park Avenue",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1991,
+    "production_end": 1996,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 170,
+    "power_output_hp_max": 225,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-park-avenue-g1.webp"
+  },
+  {
+    "id": "buick-park-avenue-g2",
+    "make": "Buick",
+    "model": "Park Avenue",
+    "generation": 2,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1997,
+    "production_end": 2005,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 205,
+    "power_output_hp_max": 240,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-park-avenue-g2.webp"
+  },
+  {
+    "id": "buick-rainier-g1",
+    "make": "Buick",
+    "model": "Rainier",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2004,
+    "production_end": 2007,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-6",
+      "V8"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 275,
+    "power_output_hp_max": 302,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-rainier-g1.webp"
+  },
+  {
+    "id": "buick-reatta-g1",
+    "make": "Buick",
+    "model": "Reatta",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1988,
+    "production_end": 1991,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 165,
+    "power_output_hp_max": 170,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-reatta-g1.webp"
+  },
+  {
+    "id": "buick-regal-g1",
+    "make": "Buick",
+    "model": "Regal",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1973,
+    "production_end": 1977,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 105,
+    "power_output_hp_max": 175,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-regal-g1.webp"
+  },
+  {
+    "id": "buick-regal-g2",
+    "make": "Buick",
+    "model": "Regal",
+    "generation": 2,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1978,
+    "production_end": 1987,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 85,
+    "power_output_hp_max": 245,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-regal-g2.webp"
+  },
+  {
+    "id": "buick-regal-g3",
+    "make": "Buick",
+    "model": "Regal",
+    "generation": 3,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1988,
+    "production_end": 1996,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 125,
+    "power_output_hp_max": 170,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-regal-g3.webp"
+  },
+  {
+    "id": "buick-regal-g4",
+    "make": "Buick",
+    "model": "Regal",
+    "generation": 4,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1997,
+    "production_end": 2004,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 195,
+    "power_output_hp_max": 240,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-regal-g4.webp"
+  },
+  {
+    "id": "buick-regal-g5",
+    "make": "Buick",
+    "model": "Regal",
+    "generation": 5,
+    "brands": [
+      "Buick",
+      "Opel",
+      "Vauxhall",
+      "Holden"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2011,
+    "production_end": 2017,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 182,
+    "power_output_hp_max": 270,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-regal-g5.webp"
+  },
+  {
+    "id": "buick-regal-g6",
+    "make": "Buick",
+    "model": "Regal",
+    "generation": 6,
+    "brands": [
+      "Buick",
+      "Opel",
+      "Vauxhall",
+      "Holden"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2018,
+    "production_end": 2020,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 250,
+    "power_output_hp_max": 310,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-regal-g6.webp"
+  },
+  {
     "id": "buick-regal-gnx-g1",
     "make": "Buick",
     "model": "Regal GNX",
@@ -1817,6 +3666,3560 @@
     "price_at_launch_usd": 29290,
     "manufacturer_still_active": true,
     "image_url": "/cars/buick-regal-gnx-g1.webp"
+  },
+  {
+    "id": "buick-regal-grand-national-g1",
+    "make": "Buick",
+    "model": "Regal Grand National",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1982,
+    "production_end": 1987,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Muscle Car",
+    "power_output_hp_min": 175,
+    "power_output_hp_max": 245,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-regal-grand-national-g1.webp"
+  },
+  {
+    "id": "buick-rendezvous-g1",
+    "make": "Buick",
+    "model": "Rendezvous",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2002,
+    "production_end": 2007,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 185,
+    "power_output_hp_max": 245,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-rendezvous-g1.webp"
+  },
+  {
+    "id": "buick-riviera-g1",
+    "make": "Buick",
+    "model": "Riviera",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1963,
+    "production_end": 1965,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 325,
+    "power_output_hp_max": 360,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-riviera-g1.webp"
+  },
+  {
+    "id": "buick-riviera-g2",
+    "make": "Buick",
+    "model": "Riviera",
+    "generation": 2,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1966,
+    "production_end": 1970,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 340,
+    "power_output_hp_max": 370,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-riviera-g2.webp"
+  },
+  {
+    "id": "buick-riviera-g3",
+    "make": "Buick",
+    "model": "Riviera",
+    "generation": 3,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1971,
+    "production_end": 1973,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 250,
+    "power_output_hp_max": 330,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-riviera-g3.webp"
+  },
+  {
+    "id": "buick-riviera-g4",
+    "make": "Buick",
+    "model": "Riviera",
+    "generation": 4,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1974,
+    "production_end": 1976,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 205,
+    "power_output_hp_max": 230,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-riviera-g4.webp"
+  },
+  {
+    "id": "buick-riviera-g5",
+    "make": "Buick",
+    "model": "Riviera",
+    "generation": 5,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1977,
+    "production_end": 1978,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 155,
+    "power_output_hp_max": 185,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-riviera-g5.webp"
+  },
+  {
+    "id": "buick-riviera-g6",
+    "make": "Buick",
+    "model": "Riviera",
+    "generation": 6,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1979,
+    "production_end": 1985,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 105,
+    "power_output_hp_max": 190,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-riviera-g6.webp"
+  },
+  {
+    "id": "buick-riviera-g7",
+    "make": "Buick",
+    "model": "Riviera",
+    "generation": 7,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1986,
+    "production_end": 1993,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 140,
+    "power_output_hp_max": 170,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-riviera-g7.webp"
+  },
+  {
+    "id": "buick-riviera-g8",
+    "make": "Buick",
+    "model": "Riviera",
+    "generation": 8,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1995,
+    "production_end": 1999,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 205,
+    "power_output_hp_max": 240,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-riviera-g8.webp"
+  },
+  {
+    "id": "buick-roadmaster-g1",
+    "make": "Buick",
+    "model": "Roadmaster",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1936,
+    "production_end": 1958,
+    "decades": [
+      "1930s",
+      "1940s",
+      "1950s"
+    ],
+    "engine_layouts": [
+      "Inline-8",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 120,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "buick-roadmaster-g2",
+    "make": "Buick",
+    "model": "Roadmaster",
+    "generation": 2,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1991,
+    "production_end": 1996,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 170,
+    "power_output_hp_max": 260,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-roadmaster-g2.webp"
+  },
+  {
+    "id": "buick-skylark-g1",
+    "make": "Buick",
+    "model": "Skylark",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1953,
+    "production_end": 1954,
+    "decades": [
+      "1950s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 188,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-skylark-g1.webp"
+  },
+  {
+    "id": "buick-skylark-g2",
+    "make": "Buick",
+    "model": "Skylark",
+    "generation": 2,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1961,
+    "production_end": 1963,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 185,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-skylark-g2.webp"
+  },
+  {
+    "id": "buick-skylark-g3",
+    "make": "Buick",
+    "model": "Skylark",
+    "generation": 3,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1964,
+    "production_end": 1972,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 155,
+    "power_output_hp_max": 315,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-skylark-g3.webp"
+  },
+  {
+    "id": "buick-skylark-g4",
+    "make": "Buick",
+    "model": "Skylark",
+    "generation": 4,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1975,
+    "production_end": 1979,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 110,
+    "power_output_hp_max": 155,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-skylark-g4.webp"
+  },
+  {
+    "id": "buick-skylark-g5",
+    "make": "Buick",
+    "model": "Skylark",
+    "generation": 5,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1980,
+    "production_end": 1985,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 90,
+    "power_output_hp_max": 135,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-skylark-g5.webp"
+  },
+  {
+    "id": "buick-skylark-g6",
+    "make": "Buick",
+    "model": "Skylark",
+    "generation": 6,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1986,
+    "production_end": 1991,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 92,
+    "power_output_hp_max": 160,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-skylark-g6.webp"
+  },
+  {
+    "id": "buick-skylark-g7",
+    "make": "Buick",
+    "model": "Skylark",
+    "generation": 7,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1992,
+    "production_end": 1998,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 115,
+    "power_output_hp_max": 160,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-skylark-g7.webp"
+  },
+  {
+    "id": "buick-somerset-g1",
+    "make": "Buick",
+    "model": "Somerset",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1985,
+    "production_end": 1987,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 86,
+    "power_output_hp_max": 125,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-somerset-g1.webp"
+  },
+  {
+    "id": "buick-special-g1",
+    "make": "Buick",
+    "model": "Special",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1936,
+    "production_end": 1958,
+    "decades": [
+      "1930s",
+      "1940s",
+      "1950s"
+    ],
+    "engine_layouts": [
+      "Inline-8",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 93,
+    "power_output_hp_max": 250,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-special-g1.webp"
+  },
+  {
+    "id": "buick-special-g2",
+    "make": "Buick",
+    "model": "Special",
+    "generation": 2,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1961,
+    "production_end": 1969,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V8",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 135,
+    "power_output_hp_max": 260,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-special-g2.webp"
+  },
+  {
+    "id": "buick-super-g1",
+    "make": "Buick",
+    "model": "Super",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1940,
+    "production_end": 1958,
+    "decades": [
+      "1940s",
+      "1950s"
+    ],
+    "engine_layouts": [
+      "Inline-8",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 110,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-super-g1.webp"
+  },
+  {
+    "id": "buick-terraza-g1",
+    "make": "Buick",
+    "model": "Terraza",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2005,
+    "production_end": 2007,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 200,
+    "power_output_hp_max": 240,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-terraza-g1.webp"
+  },
+  {
+    "id": "buick-verano-g1",
+    "make": "Buick",
+    "model": "Verano",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2012,
+    "production_end": 2017,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 180,
+    "power_output_hp_max": 250,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-verano-g1.webp"
+  },
+  {
+    "id": "buick-wildcat-g1",
+    "make": "Buick",
+    "model": "Wildcat",
+    "generation": 1,
+    "brands": [
+      "Buick"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1962,
+    "production_end": 1970,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 325,
+    "power_output_hp_max": 370,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/buick-wildcat-g1.webp"
+  },
+  {
+    "id": "cadillac-allante-g1",
+    "make": "Cadillac",
+    "model": "Allanté",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1987,
+    "production_end": 1993,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 170,
+    "power_output_hp_max": 295,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-allante-g1.webp"
+  },
+  {
+    "id": "cadillac-ats-g1",
+    "make": "Cadillac",
+    "model": "ATS",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2013,
+    "production_end": 2019,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 202,
+    "power_output_hp_max": 335,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-ats-g1.webp"
+  },
+  {
+    "id": "cadillac-ats-v-g1",
+    "make": "Cadillac",
+    "model": "ATS-V",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2016,
+    "production_end": 2019,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 464,
+    "power_output_hp_max": 464,
+    "power_output_ranges": [
+      "401-500"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-ats-v-g1.webp"
+  },
+  {
+    "id": "cadillac-calais-g1",
+    "make": "Cadillac",
+    "model": "Calais",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1965,
+    "production_end": 1976,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 190,
+    "power_output_hp_max": 375,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-calais-g1.webp"
+  },
+  {
+    "id": "cadillac-catera-g1",
+    "make": "Cadillac",
+    "model": "Catera",
+    "generation": 1,
+    "brands": [
+      "Cadillac",
+      "Opel",
+      "Vauxhall"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1997,
+    "production_end": 2001,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 200,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-catera-g1.webp"
+  },
+  {
+    "id": "cadillac-celestiq-g1",
+    "make": "Cadillac",
+    "model": "Celestiq",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 600,
+    "power_output_hp_max": 655,
+    "power_output_ranges": [
+      "501-600",
+      "601-700"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-celestiq-g1.webp"
+  },
+  {
+    "id": "cadillac-cimarron-g1",
+    "make": "Cadillac",
+    "model": "Cimarron",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1982,
+    "production_end": 1988,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 88,
+    "power_output_hp_max": 125,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-cimarron-g1.webp"
+  },
+  {
+    "id": "cadillac-ct4-g1",
+    "make": "Cadillac",
+    "model": "CT4",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2020,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 237,
+    "power_output_hp_max": 325,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-ct4-g1.webp"
+  },
+  {
+    "id": "cadillac-ct4-v-blackwing-g1",
+    "make": "Cadillac",
+    "model": "CT4-V Blackwing",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2022,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 472,
+    "power_output_hp_max": 472,
+    "power_output_ranges": [
+      "401-500"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-ct4-v-blackwing-g1.webp"
+  },
+  {
+    "id": "cadillac-ct5-g1",
+    "make": "Cadillac",
+    "model": "CT5",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2020,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 237,
+    "power_output_hp_max": 360,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-ct5-g1.webp"
+  },
+  {
+    "id": "cadillac-ct5-v-blackwing-g1",
+    "make": "Cadillac",
+    "model": "CT5-V Blackwing",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2022,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 668,
+    "power_output_hp_max": 668,
+    "power_output_ranges": [
+      "601-700"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-ct5-v-blackwing-g1.webp"
+  },
+  {
+    "id": "cadillac-ct6-g1",
+    "make": "Cadillac",
+    "model": "CT6",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2016,
+    "production_end": 2020,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 237,
+    "power_output_hp_max": 550,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500",
+      "501-600"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "cadillac-cts-g1",
+    "make": "Cadillac",
+    "model": "CTS",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2003,
+    "production_end": 2007,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 210,
+    "power_output_hp_max": 255,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-cts-g1.webp"
+  },
+  {
+    "id": "cadillac-cts-g2",
+    "make": "Cadillac",
+    "model": "CTS",
+    "generation": 2,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2008,
+    "production_end": 2014,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 263,
+    "power_output_hp_max": 318,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-cts-g2.webp"
+  },
+  {
+    "id": "cadillac-cts-g3",
+    "make": "Cadillac",
+    "model": "CTS",
+    "generation": 3,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2014,
+    "production_end": 2019,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 268,
+    "power_output_hp_max": 420,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-cts-g3.webp"
+  },
+  {
+    "id": "cadillac-cts-v-g1",
+    "make": "Cadillac",
+    "model": "CTS-V",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2004,
+    "production_end": 2007,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 400,
+    "power_output_hp_max": 400,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-cts-v-g1.webp"
+  },
+  {
+    "id": "cadillac-cts-v-g2",
+    "make": "Cadillac",
+    "model": "CTS-V",
+    "generation": 2,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2009,
+    "production_end": 2014,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 556,
+    "power_output_hp_max": 556,
+    "power_output_ranges": [
+      "501-600"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-cts-v-g2.webp"
+  },
+  {
+    "id": "cadillac-cts-v-g3",
+    "make": "Cadillac",
+    "model": "CTS-V",
+    "generation": 3,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2016,
+    "production_end": 2019,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 640,
+    "power_output_hp_max": 640,
+    "power_output_ranges": [
+      "601-700"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-cts-v-g3.webp"
+  },
+  {
+    "id": "cadillac-de-ville-g1",
+    "make": "Cadillac",
+    "model": "De Ville",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1959,
+    "production_end": 1964,
+    "decades": [
+      "1950s",
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 325,
+    "power_output_hp_max": 340,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-de-ville-g1.webp"
+  },
+  {
+    "id": "cadillac-de-ville-g2",
+    "make": "Cadillac",
+    "model": "De Ville",
+    "generation": 2,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1965,
+    "production_end": 1970,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 340,
+    "power_output_hp_max": 375,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-de-ville-g2.webp"
+  },
+  {
+    "id": "cadillac-de-ville-g3",
+    "make": "Cadillac",
+    "model": "De Ville",
+    "generation": 3,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1971,
+    "production_end": 1976,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 190,
+    "power_output_hp_max": 345,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-de-ville-g3.webp"
+  },
+  {
+    "id": "cadillac-de-ville-g4",
+    "make": "Cadillac",
+    "model": "De Ville",
+    "generation": 4,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1977,
+    "production_end": 1984,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 105,
+    "power_output_hp_max": 180,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-de-ville-g4.webp"
+  },
+  {
+    "id": "cadillac-de-ville-g5",
+    "make": "Cadillac",
+    "model": "De Ville",
+    "generation": 5,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1985,
+    "production_end": 1993,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 125,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-de-ville-g5.webp"
+  },
+  {
+    "id": "cadillac-deville-g6",
+    "make": "Cadillac",
+    "model": "DeVille",
+    "generation": 6,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1994,
+    "production_end": 1999,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 200,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-deville-g6.webp"
+  },
+  {
+    "id": "cadillac-deville-g7",
+    "make": "Cadillac",
+    "model": "DeVille",
+    "generation": 7,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2000,
+    "production_end": 2005,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 275,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-deville-g7.webp"
+  },
+  {
+    "id": "cadillac-dts-g1",
+    "make": "Cadillac",
+    "model": "DTS",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2006,
+    "production_end": 2011,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 275,
+    "power_output_hp_max": 292,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-dts-g1.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g1",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1953,
+    "production_end": 1953,
+    "decades": [
+      "1950s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 210,
+    "power_output_hp_max": 210,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "cadillac-eldorado-g10",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 10,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1992,
+    "production_end": 2002,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 200,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g10.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g2",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 2,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1954,
+    "production_end": 1956,
+    "decades": [
+      "1950s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 230,
+    "power_output_hp_max": 305,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g2.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g3",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 3,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1957,
+    "production_end": 1958,
+    "decades": [
+      "1950s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 325,
+    "power_output_hp_max": 335,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g3.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g4",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 4,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1959,
+    "production_end": 1960,
+    "decades": [
+      "1950s",
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 345,
+    "power_output_hp_max": 345,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g4.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g5",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 5,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1961,
+    "production_end": 1966,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 325,
+    "power_output_hp_max": 340,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g5.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g6",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 6,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1967,
+    "production_end": 1970,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 340,
+    "power_output_hp_max": 400,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g6.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g7",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 7,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1971,
+    "production_end": 1978,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 180,
+    "power_output_hp_max": 365,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g7.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g8",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 8,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1979,
+    "production_end": 1985,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 105,
+    "power_output_hp_max": 180,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g8.webp"
+  },
+  {
+    "id": "cadillac-eldorado-g9",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 9,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1986,
+    "production_end": 1991,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 130,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-eldorado-g9.webp"
+  },
+  {
+    "id": "cadillac-elr-g1",
+    "make": "Cadillac",
+    "model": "ELR",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2014,
+    "production_end": 2016,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 207,
+    "power_output_hp_max": 233,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-elr-g1.webp"
+  },
+  {
+    "id": "cadillac-escalade-g1",
+    "make": "Cadillac",
+    "model": "Escalade",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1999,
+    "production_end": 2000,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "4WD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 255,
+    "power_output_hp_max": 255,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-escalade-g1.webp"
+  },
+  {
+    "id": "cadillac-escalade-g2",
+    "make": "Cadillac",
+    "model": "Escalade",
+    "generation": 2,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2002,
+    "production_end": 2006,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 285,
+    "power_output_hp_max": 345,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-escalade-g2.webp"
+  },
+  {
+    "id": "cadillac-escalade-g3",
+    "make": "Cadillac",
+    "model": "Escalade",
+    "generation": 3,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2007,
+    "production_end": 2014,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 332,
+    "power_output_hp_max": 403,
+    "power_output_ranges": [
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-escalade-g3.webp"
+  },
+  {
+    "id": "cadillac-escalade-g4",
+    "make": "Cadillac",
+    "model": "Escalade",
+    "generation": 4,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2015,
+    "production_end": 2020,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 420,
+    "power_output_hp_max": 420,
+    "power_output_ranges": [
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-escalade-g4.webp"
+  },
+  {
+    "id": "cadillac-escalade-g5",
+    "make": "Cadillac",
+    "model": "Escalade",
+    "generation": 5,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2021,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V8",
+      "Inline-6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 277,
+    "power_output_hp_max": 682,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500",
+      "501-600",
+      "601-700"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-escalade-g5.webp"
+  },
+  {
+    "id": "cadillac-escalade-iq-g1",
+    "make": "Cadillac",
+    "model": "Escalade IQ",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2025,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 680,
+    "power_output_hp_max": 750,
+    "power_output_ranges": [
+      "601-700",
+      "701-800"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-escalade-iq-g1.webp"
+  },
+  {
+    "id": "cadillac-fleetwood-brougham-g1",
+    "make": "Cadillac",
+    "model": "Fleetwood Brougham",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1977,
+    "production_end": 1992,
+    "decades": [
+      "1970s",
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 105,
+    "power_output_hp_max": 185,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-fleetwood-brougham-g1.webp"
+  },
+  {
+    "id": "cadillac-fleetwood-g1",
+    "make": "Cadillac",
+    "model": "Fleetwood",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1985,
+    "production_end": 1992,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 125,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-fleetwood-g1.webp"
+  },
+  {
+    "id": "cadillac-fleetwood-g2",
+    "make": "Cadillac",
+    "model": "Fleetwood",
+    "generation": 2,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1993,
+    "production_end": 1996,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 185,
+    "power_output_hp_max": 260,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-fleetwood-g2.webp"
+  },
+  {
+    "id": "cadillac-lyriq-g1",
+    "make": "Cadillac",
+    "model": "Lyriq",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 340,
+    "power_output_hp_max": 615,
+    "power_output_ranges": [
+      "301-400",
+      "401-500",
+      "501-600",
+      "601-700"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-lyriq-g1.webp"
+  },
+  {
+    "id": "cadillac-optiq-g1",
+    "make": "Cadillac",
+    "model": "Optiq",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2025,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 300,
+    "power_output_hp_max": 519,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500",
+      "501-600"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-optiq-g1.webp"
+  },
+  {
+    "id": "cadillac-series-62-g1",
+    "make": "Cadillac",
+    "model": "Series 62",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1940,
+    "production_end": 1964,
+    "decades": [
+      "1940s",
+      "1950s",
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 135,
+    "power_output_hp_max": 340,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-series-62-g1.webp"
+  },
+  {
+    "id": "cadillac-seville-g1",
+    "make": "Cadillac",
+    "model": "Seville",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1975,
+    "production_end": 1979,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 120,
+    "power_output_hp_max": 180,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-seville-g1.webp"
+  },
+  {
+    "id": "cadillac-seville-g2",
+    "make": "Cadillac",
+    "model": "Seville",
+    "generation": 2,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1980,
+    "production_end": 1985,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 105,
+    "power_output_hp_max": 145,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-seville-g2.webp"
+  },
+  {
+    "id": "cadillac-seville-g3",
+    "make": "Cadillac",
+    "model": "Seville",
+    "generation": 3,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1986,
+    "production_end": 1991,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 130,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-seville-g3.webp"
+  },
+  {
+    "id": "cadillac-seville-g4",
+    "make": "Cadillac",
+    "model": "Seville",
+    "generation": 4,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1992,
+    "production_end": 1997,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 200,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-seville-g4.webp"
+  },
+  {
+    "id": "cadillac-seville-g5",
+    "make": "Cadillac",
+    "model": "Seville",
+    "generation": 5,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1998,
+    "production_end": 2004,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 275,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-seville-g5.webp"
+  },
+  {
+    "id": "cadillac-srx-g1",
+    "make": "Cadillac",
+    "model": "SRX",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2004,
+    "production_end": 2009,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 255,
+    "power_output_hp_max": 320,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-srx-g1.webp"
+  },
+  {
+    "id": "cadillac-srx-g2",
+    "make": "Cadillac",
+    "model": "SRX",
+    "generation": 2,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2010,
+    "production_end": 2016,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 265,
+    "power_output_hp_max": 308,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-srx-g2.webp"
+  },
+  {
+    "id": "cadillac-sts-g1",
+    "make": "Cadillac",
+    "model": "STS",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2005,
+    "production_end": 2011,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 255,
+    "power_output_hp_max": 469,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-sts-g1.webp"
+  },
+  {
+    "id": "cadillac-vistiq-g1",
+    "make": "Cadillac",
+    "model": "Vistiq",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2026,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 615,
+    "power_output_hp_max": 615,
+    "power_output_ranges": [
+      "601-700"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-vistiq-g1.webp"
+  },
+  {
+    "id": "cadillac-xlr-g1",
+    "make": "Cadillac",
+    "model": "XLR",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2004,
+    "production_end": 2009,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 320,
+    "power_output_hp_max": 443,
+    "power_output_ranges": [
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-xlr-g1.webp"
+  },
+  {
+    "id": "cadillac-xt4-g1",
+    "make": "Cadillac",
+    "model": "XT4",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2019,
+    "production_end": 2025,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 235,
+    "power_output_hp_max": 237,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-xt4-g1.webp"
+  },
+  {
+    "id": "cadillac-xt5-g1",
+    "make": "Cadillac",
+    "model": "XT5",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2017,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 235,
+    "power_output_hp_max": 310,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-xt5-g1.webp"
+  },
+  {
+    "id": "cadillac-xt6-g1",
+    "make": "Cadillac",
+    "model": "XT6",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2020,
+    "production_end": 2025,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 237,
+    "power_output_hp_max": 310,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-xt6-g1.webp"
+  },
+  {
+    "id": "cadillac-xts-g1",
+    "make": "Cadillac",
+    "model": "XTS",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2013,
+    "production_end": 2019,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 304,
+    "power_output_hp_max": 410,
+    "power_output_ranges": [
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/cadillac-xts-g1.webp"
   },
   {
     "id": "chevrolet-blazer-g1",
@@ -6942,7 +12345,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/jeep-cj-5-g1.webp"
   },
   {
     "id": "jeep-cj-6-g1",
@@ -7070,7 +12473,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/jeep-cj-8-scrambler-g1.webp"
   },
   {
     "id": "jeep-comanche-g1",
@@ -7329,7 +12732,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/jeep-compass-g3.webp"
   },
   {
     "id": "jeep-fc-forward-control-g1",
@@ -7879,7 +13282,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/jeep-jeepster-g1.webp"
   },
   {
     "id": "jeep-liberty-g1",
@@ -8335,7 +13738,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/jeep-wrangler-g2.webp"
   },
   {
     "id": "jeep-wrangler-g3",
@@ -9533,7 +14936,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/lexus-es-g3.webp"
   },
   {
     "id": "lexus-es-g4",
@@ -9777,7 +15180,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/lexus-gs-g1.webp"
   },
   {
     "id": "lexus-gs-g2",
@@ -10482,7 +15885,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/lexus-ls-g1.webp"
   },
   {
     "id": "lexus-ls-g2",
@@ -10684,7 +16087,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/lexus-lx-g1.webp"
   },
   {
     "id": "lexus-lx-g2",
@@ -12608,6 +18011,2275 @@
     "image_url": "/cars/mini-john-cooper-works-gp-g3.webp"
   },
   {
+    "id": "mitsubishi-3000gt-gto-g1",
+    "make": "Mitsubishi",
+    "model": "3000GT / GTO",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi",
+      "Dodge"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1990,
+    "production_end": 2000,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 160,
+    "power_output_hp_max": 320,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-3000gt-gto-g1.webp"
+  },
+  {
+    "id": "mitsubishi-asx-g2",
+    "make": "Mitsubishi",
+    "model": "ASX",
+    "generation": 2,
+    "brands": [
+      "Mitsubishi",
+      "Renault"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3",
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 90,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-asx-g2.webp"
+  },
+  {
+    "id": "mitsubishi-colt-g1",
+    "make": "Mitsubishi",
+    "model": "Colt",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2002,
+    "production_end": 2012,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-3",
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 74,
+    "power_output_hp_max": 154,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-colt-g1.webp"
+  },
+  {
+    "id": "mitsubishi-colt-g2",
+    "make": "Mitsubishi",
+    "model": "Colt",
+    "generation": 2,
+    "brands": [
+      "Mitsubishi",
+      "Renault"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3",
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 64,
+    "power_output_hp_max": 141,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-colt-g2.webp"
+  },
+  {
+    "id": "mitsubishi-colt-galant-galant-g1",
+    "make": "Mitsubishi",
+    "model": "Colt Galant / Galant",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1969,
+    "production_end": 1973,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 85,
+    "power_output_hp_max": 123,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-colt-galant-galant-g1.webp"
+  },
+  {
+    "id": "mitsubishi-cordia-g1",
+    "make": "Mitsubishi",
+    "model": "Cordia",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1982,
+    "production_end": 1990,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 75,
+    "power_output_hp_max": 114,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-cordia-g1.webp"
+  },
+  {
+    "id": "mitsubishi-delica-d-5-g1",
+    "make": "Mitsubishi",
+    "model": "Delica D:5",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2007,
+    "production_end": null,
+    "decades": [
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 143,
+    "power_output_hp_max": 168,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-delica-d-5-g1.webp"
+  },
+  {
+    "id": "mitsubishi-destinator-g1",
+    "make": "Mitsubishi",
+    "model": "Destinator",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2025,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 161,
+    "power_output_hp_max": 161,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-destinator-g1.webp"
+  },
+  {
+    "id": "mitsubishi-diamante-g1",
+    "make": "Mitsubishi",
+    "model": "Diamante",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1990,
+    "production_end": 1996,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 158,
+    "power_output_hp_max": 207,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-diamante-g1.webp"
+  },
+  {
+    "id": "mitsubishi-diamante-g2",
+    "make": "Mitsubishi",
+    "model": "Diamante",
+    "generation": 2,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1995,
+    "production_end": 2005,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 172,
+    "power_output_hp_max": 210,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-diamante-g2.webp"
+  },
+  {
+    "id": "mitsubishi-eclipse-cross-g1",
+    "make": "Mitsubishi",
+    "model": "Eclipse Cross",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2017,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 148,
+    "power_output_hp_max": 188,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-eclipse-cross-g1.webp"
+  },
+  {
+    "id": "mitsubishi-eclipse-g1",
+    "make": "Mitsubishi",
+    "model": "Eclipse",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi",
+      "Plymouth",
+      "Eagle"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1989,
+    "production_end": 1994,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 92,
+    "power_output_hp_max": 195,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-eclipse-g1.webp"
+  },
+  {
+    "id": "mitsubishi-eclipse-g2",
+    "make": "Mitsubishi",
+    "model": "Eclipse",
+    "generation": 2,
+    "brands": [
+      "Mitsubishi",
+      "Eagle"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1995,
+    "production_end": 1999,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 140,
+    "power_output_hp_max": 210,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-eclipse-g2.webp"
+  },
+  {
+    "id": "mitsubishi-eclipse-g3",
+    "make": "Mitsubishi",
+    "model": "Eclipse",
+    "generation": 3,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2000,
+    "production_end": 2005,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 147,
+    "power_output_hp_max": 210,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-eclipse-g3.webp"
+  },
+  {
+    "id": "mitsubishi-eclipse-g4",
+    "make": "Mitsubishi",
+    "model": "Eclipse",
+    "generation": 4,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2006,
+    "production_end": 2012,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 162,
+    "power_output_hp_max": 265,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-eclipse-g4.webp"
+  },
+  {
+    "id": "mitsubishi-endeavor-g1",
+    "make": "Mitsubishi",
+    "model": "Endeavor",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2004,
+    "production_end": 2011,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 215,
+    "power_output_hp_max": 225,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-endeavor-g1.webp"
+  },
+  {
+    "id": "mitsubishi-expo-g1",
+    "make": "Mitsubishi",
+    "model": "Expo",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi",
+      "Eagle",
+      "Plymouth"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1992,
+    "production_end": 1996,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 113,
+    "power_output_hp_max": 136,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-expo-g1.webp"
+  },
+  {
+    "id": "mitsubishi-fto-g1",
+    "make": "Mitsubishi",
+    "model": "FTO",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1994,
+    "production_end": 2000,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 123,
+    "power_output_hp_max": 197,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-fto-g1.webp"
+  },
+  {
+    "id": "mitsubishi-galant-g2",
+    "make": "Mitsubishi",
+    "model": "Galant",
+    "generation": 2,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1973,
+    "production_end": 1987,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 74,
+    "power_output_hp_max": 145,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-galant-g2.webp"
+  },
+  {
+    "id": "mitsubishi-galant-g6",
+    "make": "Mitsubishi",
+    "model": "Galant",
+    "generation": 6,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1987,
+    "production_end": 1992,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 90,
+    "power_output_hp_max": 237,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mitsubishi-galant-g7",
+    "make": "Mitsubishi",
+    "model": "Galant",
+    "generation": 7,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1992,
+    "production_end": 1996,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 88,
+    "power_output_hp_max": 237,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-galant-g7.webp"
+  },
+  {
+    "id": "mitsubishi-galant-g8",
+    "make": "Mitsubishi",
+    "model": "Galant",
+    "generation": 8,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1996,
+    "production_end": 2003,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 98,
+    "power_output_hp_max": 276,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-galant-g8.webp"
+  },
+  {
+    "id": "mitsubishi-galant-g9",
+    "make": "Mitsubishi",
+    "model": "Galant",
+    "generation": 9,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2004,
+    "production_end": 2012,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 160,
+    "power_output_hp_max": 258,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-galant-g9.webp"
+  },
+  {
+    "id": "mitsubishi-i-miev-g1",
+    "make": "Mitsubishi",
+    "model": "i-MiEV",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi",
+      "Peugeot",
+      "Citroën"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2009,
+    "production_end": 2021,
+    "decades": [
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 63,
+    "power_output_hp_max": 66,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-i-miev-g1.webp"
+  },
+  {
+    "id": "mitsubishi-l200-triton-g1",
+    "make": "Mitsubishi",
+    "model": "L200 / Triton",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi",
+      "Dodge"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1978,
+    "production_end": 1986,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 79,
+    "power_output_hp_max": 108,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mitsubishi-l200-triton-g2",
+    "make": "Mitsubishi",
+    "model": "L200 / Triton",
+    "generation": 2,
+    "brands": [
+      "Mitsubishi",
+      "Dodge"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1986,
+    "production_end": 1996,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 76,
+    "power_output_hp_max": 150,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mitsubishi-l200-triton-g3",
+    "make": "Mitsubishi",
+    "model": "L200 / Triton",
+    "generation": 3,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1996,
+    "production_end": 2005,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 99,
+    "power_output_hp_max": 133,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-l200-triton-g3.webp"
+  },
+  {
+    "id": "mitsubishi-l200-triton-g4",
+    "make": "Mitsubishi",
+    "model": "L200 / Triton",
+    "generation": 4,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2005,
+    "production_end": 2015,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 113,
+    "power_output_hp_max": 182,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-l200-triton-g4.webp"
+  },
+  {
+    "id": "mitsubishi-l200-triton-g5",
+    "make": "Mitsubishi",
+    "model": "L200 / Triton",
+    "generation": 5,
+    "brands": [
+      "Mitsubishi",
+      "Fiat",
+      "Ram"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2015,
+    "production_end": 2024,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 126,
+    "power_output_hp_max": 178,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-l200-triton-g5.webp"
+  },
+  {
+    "id": "mitsubishi-l200-triton-g6",
+    "make": "Mitsubishi",
+    "model": "L200 / Triton",
+    "generation": 6,
+    "brands": [
+      "Mitsubishi",
+      "Nissan"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 148,
+    "power_output_hp_max": 201,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-l200-triton-g6.webp"
+  },
+  {
+    "id": "mitsubishi-lancer-evolution-i-g1",
+    "make": "Mitsubishi",
+    "model": "Lancer Evolution I",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1992,
+    "production_end": 1994,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 247,
+    "power_output_hp_max": 247,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-lancer-evolution-i-g1.webp"
+  },
+  {
+    "id": "mitsubishi-lancer-evolution-ii-g1",
+    "make": "Mitsubishi",
+    "model": "Lancer Evolution II",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1994,
+    "production_end": 1995,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 256,
+    "power_output_hp_max": 256,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mitsubishi-lancer-evolution-iii-g1",
+    "make": "Mitsubishi",
+    "model": "Lancer Evolution III",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1995,
+    "production_end": 1996,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 266,
+    "power_output_hp_max": 266,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mitsubishi-lancer-evolution-iv-g1",
+    "make": "Mitsubishi",
+    "model": "Lancer Evolution IV",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1996,
+    "production_end": 1998,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 276,
+    "power_output_hp_max": 276,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-lancer-evolution-iv-g1.webp"
+  },
+  {
+    "id": "mitsubishi-lancer-evolution-ix-g1",
+    "make": "Mitsubishi",
+    "model": "Lancer Evolution IX",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2005,
+    "production_end": 2007,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 276,
+    "power_output_hp_max": 286,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-lancer-evolution-ix-g1.webp"
+  },
+  {
+    "id": "mitsubishi-lancer-evolution-v-g1",
+    "make": "Mitsubishi",
+    "model": "Lancer Evolution V",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1998,
+    "production_end": 1999,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 276,
+    "power_output_hp_max": 276,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mitsubishi-lancer-evolution-vi-g1",
+    "make": "Mitsubishi",
+    "model": "Lancer Evolution VI",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1999,
+    "production_end": 2001,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 276,
+    "power_output_hp_max": 276,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-lancer-evolution-vi-g1.webp"
+  },
+  {
+    "id": "mitsubishi-lancer-evolution-vii-g1",
+    "make": "Mitsubishi",
+    "model": "Lancer Evolution VII",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2001,
+    "production_end": 2003,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 271,
+    "power_output_hp_max": 276,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-lancer-evolution-vii-g1.webp"
+  },
+  {
+    "id": "mitsubishi-lancer-evolution-viii-g1",
+    "make": "Mitsubishi",
+    "model": "Lancer Evolution VIII",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2003,
+    "production_end": 2005,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 271,
+    "power_output_hp_max": 276,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-lancer-evolution-viii-g1.webp"
+  },
+  {
+    "id": "mitsubishi-lancer-evolution-x-g1",
+    "make": "Mitsubishi",
+    "model": "Lancer Evolution X",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2007,
+    "production_end": 2016,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 291,
+    "power_output_hp_max": 403,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-lancer-evolution-x-g1.webp"
+  },
+  {
+    "id": "mitsubishi-lancer-ex-g2",
+    "make": "Mitsubishi",
+    "model": "Lancer EX",
+    "generation": 2,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1979,
+    "production_end": 1987,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 79,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-lancer-ex-g2.webp"
+  },
+  {
+    "id": "mitsubishi-lancer-g1",
+    "make": "Mitsubishi",
+    "model": "Lancer",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1973,
+    "production_end": 1979,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 69,
+    "power_output_hp_max": 108,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-lancer-g1.webp"
+  },
+  {
+    "id": "mitsubishi-lancer-g7",
+    "make": "Mitsubishi",
+    "model": "Lancer",
+    "generation": 7,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2000,
+    "production_end": 2007,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 98,
+    "power_output_hp_max": 162,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-lancer-g7.webp"
+  },
+  {
+    "id": "mitsubishi-lancer-g8",
+    "make": "Mitsubishi",
+    "model": "Lancer",
+    "generation": 8,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2007,
+    "production_end": 2017,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 107,
+    "power_output_hp_max": 237,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-lancer-g8.webp"
+  },
+  {
+    "id": "mitsubishi-lancer-mirage-g4",
+    "make": "Mitsubishi",
+    "model": "Lancer / Mirage",
+    "generation": 4,
+    "brands": [
+      "Mitsubishi",
+      "Dodge",
+      "Plymouth",
+      "Eagle"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1988,
+    "production_end": 1992,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 67,
+    "power_output_hp_max": 192,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-lancer-mirage-g4.webp"
+  },
+  {
+    "id": "mitsubishi-lancer-mirage-g5",
+    "make": "Mitsubishi",
+    "model": "Lancer / Mirage",
+    "generation": 5,
+    "brands": [
+      "Mitsubishi",
+      "Dodge",
+      "Plymouth",
+      "Eagle"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1991,
+    "production_end": 1996,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 74,
+    "power_output_hp_max": 192,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-lancer-mirage-g5.webp"
+  },
+  {
+    "id": "mitsubishi-lancer-mirage-g6",
+    "make": "Mitsubishi",
+    "model": "Lancer / Mirage",
+    "generation": 6,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1995,
+    "production_end": 2003,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 78,
+    "power_output_hp_max": 173,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-lancer-mirage-g6.webp"
+  },
+  {
+    "id": "mitsubishi-mirage-g1",
+    "make": "Mitsubishi",
+    "model": "Mirage",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi",
+      "Dodge",
+      "Plymouth"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1978,
+    "production_end": 1983,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 54,
+    "power_output_hp_max": 104,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-mirage-g1.webp"
+  },
+  {
+    "id": "mitsubishi-mirage-g6",
+    "make": "Mitsubishi",
+    "model": "Mirage",
+    "generation": 6,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2012,
+    "production_end": 2025,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 70,
+    "power_output_hp_max": 78,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-mirage-g6.webp"
+  },
+  {
+    "id": "mitsubishi-outlander-g1",
+    "make": "Mitsubishi",
+    "model": "Outlander",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2001,
+    "production_end": 2006,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 134,
+    "power_output_hp_max": 237,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-outlander-g1.webp"
+  },
+  {
+    "id": "mitsubishi-outlander-g2",
+    "make": "Mitsubishi",
+    "model": "Outlander",
+    "generation": 2,
+    "brands": [
+      "Mitsubishi",
+      "Peugeot",
+      "Citroën"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2005,
+    "production_end": 2012,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 138,
+    "power_output_hp_max": 230,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-outlander-g2.webp"
+  },
+  {
+    "id": "mitsubishi-outlander-g3",
+    "make": "Mitsubishi",
+    "model": "Outlander",
+    "generation": 3,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2012,
+    "production_end": 2021,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 148,
+    "power_output_hp_max": 224,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-outlander-g3.webp"
+  },
+  {
+    "id": "mitsubishi-outlander-g4",
+    "make": "Mitsubishi",
+    "model": "Outlander",
+    "generation": 4,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2021,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 181,
+    "power_output_hp_max": 302,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-outlander-g4.webp"
+  },
+  {
+    "id": "mitsubishi-outlander-sport-asx-rvr-g1",
+    "make": "Mitsubishi",
+    "model": "Outlander Sport / ASX / RVR",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi",
+      "Peugeot",
+      "Citroën"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2010,
+    "production_end": 2023,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 115,
+    "power_output_hp_max": 168,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-outlander-sport-asx-rvr-g1.webp"
+  },
+  {
     "id": "mitsubishi-pajero-g2",
     "make": "Mitsubishi",
     "model": "Pajero",
@@ -12649,6 +20321,559 @@
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
     "image_url": "/cars/mitsubishi-pajero-g2.webp"
+  },
+  {
+    "id": "mitsubishi-pajero-io-pinin-g1",
+    "make": "Mitsubishi",
+    "model": "Pajero iO / Pinin",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1998,
+    "production_end": 2007,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "4WD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 98,
+    "power_output_hp_max": 127,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-pajero-io-pinin-g1.webp"
+  },
+  {
+    "id": "mitsubishi-pajero-montero-g1",
+    "make": "Mitsubishi",
+    "model": "Pajero / Montero",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi",
+      "Dodge"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1982,
+    "production_end": 1991,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 82,
+    "power_output_hp_max": 148,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-pajero-montero-g1.webp"
+  },
+  {
+    "id": "mitsubishi-pajero-montero-g3",
+    "make": "Mitsubishi",
+    "model": "Pajero / Montero",
+    "generation": 3,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1999,
+    "production_end": 2006,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 158,
+    "power_output_hp_max": 215,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-pajero-montero-g3.webp"
+  },
+  {
+    "id": "mitsubishi-pajero-montero-g4",
+    "make": "Mitsubishi",
+    "model": "Pajero / Montero",
+    "generation": 4,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2006,
+    "production_end": 2021,
+    "decades": [
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 168,
+    "power_output_hp_max": 247,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-pajero-montero-g4.webp"
+  },
+  {
+    "id": "mitsubishi-pajero-sport-montero-sport-g1",
+    "make": "Mitsubishi",
+    "model": "Pajero Sport / Montero Sport",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1996,
+    "production_end": 2008,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 99,
+    "power_output_hp_max": 197,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-pajero-sport-montero-sport-g1.webp"
+  },
+  {
+    "id": "mitsubishi-pajero-sport-montero-sport-g2",
+    "make": "Mitsubishi",
+    "model": "Pajero Sport / Montero Sport",
+    "generation": 2,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2008,
+    "production_end": 2015,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 134,
+    "power_output_hp_max": 217,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mitsubishi-pajero-sport-montero-sport-g3",
+    "make": "Mitsubishi",
+    "model": "Pajero Sport / Montero Sport",
+    "generation": 3,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2015,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 178,
+    "power_output_hp_max": 206,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-pajero-sport-montero-sport-g3.webp"
+  },
+  {
+    "id": "mitsubishi-raider-g1",
+    "make": "Mitsubishi",
+    "model": "Raider",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi",
+      "Dodge"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2006,
+    "production_end": 2009,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 210,
+    "power_output_hp_max": 230,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-raider-g1.webp"
+  },
+  {
+    "id": "mitsubishi-space-star-g1",
+    "make": "Mitsubishi",
+    "model": "Space Star",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1998,
+    "production_end": 2005,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 85,
+    "power_output_hp_max": 120,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-space-star-g1.webp"
+  },
+  {
+    "id": "mitsubishi-starion-g1",
+    "make": "Mitsubishi",
+    "model": "Starion",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi",
+      "Chrysler",
+      "Dodge",
+      "Plymouth"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1982,
+    "production_end": 1989,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 143,
+    "power_output_hp_max": 197,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-starion-g1.webp"
+  },
+  {
+    "id": "mitsubishi-tredia-g1",
+    "make": "Mitsubishi",
+    "model": "Tredia",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1982,
+    "production_end": 1990,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 82,
+    "power_output_hp_max": 114,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-tredia-g1.webp"
+  },
+  {
+    "id": "mitsubishi-xforce-g1",
+    "make": "Mitsubishi",
+    "model": "Xforce",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 103,
+    "power_output_hp_max": 114,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-xforce-g1.webp"
+  },
+  {
+    "id": "mitsubishi-xpander-g1",
+    "make": "Mitsubishi",
+    "model": "Xpander",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi",
+      "Nissan"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2017,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 103,
+    "power_output_hp_max": 114,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/mitsubishi-xpander-g1.webp"
   },
   {
     "id": "nissan-180sx-g1",
@@ -14438,7 +22663,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-maxima-g6.webp"
   },
   {
     "id": "nissan-maxima-g7",
@@ -14724,7 +22949,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-micra-march-g3.webp"
   },
   {
     "id": "nissan-micra-march-g4",
@@ -14972,7 +23197,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-navara-g1.webp"
   },
   {
     "id": "nissan-navara-g2",
@@ -15900,7 +24125,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-pulsar-gti-r-g1.webp"
   },
   {
     "id": "nissan-pulsar-nx-nx-g1",
@@ -16027,7 +24252,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-qashqai-rogue-sport-g1.webp"
   },
   {
     "id": "nissan-qashqai-rogue-sport-g2",
@@ -16070,7 +24295,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-qashqai-rogue-sport-g2.webp"
   },
   {
     "id": "nissan-quest-g1",
@@ -16785,7 +25010,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-silvia-200sx-g4.webp"
   },
   {
     "id": "nissan-silvia-240sx-g5",
@@ -16826,7 +25051,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-silvia-240sx-g5.webp"
   },
   {
     "id": "nissan-silvia-240sx-g6",
@@ -17029,7 +25254,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-skyline-g11.webp"
   },
   {
     "id": "nissan-skyline-g12",

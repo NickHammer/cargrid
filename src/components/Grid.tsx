@@ -25,7 +25,41 @@ interface Props {
  * last term is what keeps the whole board on screen without scrolling. `dvh`
  * rather than `vh` because mobile browser chrome makes `vh` overflow.
  */
-const LABEL = "clamp(5rem, 13vw, 8.5rem)";
+/**
+ * Label column width lives in globals.css as `--label-w`, because it has to
+ * change at the same 640px breakpoint where the chips switch font size and
+ * swap in their short forms, and an inline style cannot hold a media query.
+ */
+const LABEL = "var(--label-w)";
+
+/**
+ * Phone-only short forms, shown below the `sm` breakpoint.
+ *
+ * Only one entry, and it has to stay that way unless a label is BOTH too wide
+ * and unambiguous when shortened. "Turbocharged" qualifies on both counts: it
+ * is the widest token across all 104 labels, and its axis holds exactly two
+ * values, "Turbocharged" and "Naturally aspirated", so "Turbo" cannot be
+ * mistaken for anything. Brands are deliberately absent: "Lambo" is slang, and
+ * "VW" would read as the existing "VW Group" parent-company label.
+ *
+ * Swapped with CSS rather than a width check in JS, so there is no hydration
+ * mismatch and no resize listener. The hidden copy is `display: none`, which
+ * screen readers skip, so only one label is ever announced.
+ */
+const SHORT_LABELS: Record<string, string> = {
+  Turbocharged: "Turbo",
+};
+
+function AxisLabel({ label }: { label: string }) {
+  const short = SHORT_LABELS[label];
+  if (!short) return <>{label}</>;
+  return (
+    <>
+      <span className="sm:hidden">{short}</span>
+      <span className="hidden sm:inline">{label}</span>
+    </>
+  );
+}
 const GAP = "0.5rem";
 const HEADER_ROW = "3.25rem";
 const VERTICAL_BUDGET = "84dvh";
@@ -57,7 +91,7 @@ export default function Grid({
           className="axis-chip axis-chip-col font-display flex items-center justify-center rounded-lg text-center text-[11px] uppercase sm:text-xs"
           style={{ minHeight: HEADER_ROW }}
         >
-          {col.label}
+          <AxisLabel label={col.label} />
         </div>
       ))}
 
@@ -66,7 +100,7 @@ export default function Grid({
         <Fragment key={rowIdx}>
           {/* Row header */}
           <div className="axis-chip axis-chip-row font-display flex items-center justify-center rounded-lg text-center text-[11px] uppercase sm:text-xs">
-            {row.label}
+            <AxisLabel label={row.label} />
           </div>
 
           {/* Cells */}
