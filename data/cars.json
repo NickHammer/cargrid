@@ -1858,7 +1858,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/buick-century-g1.webp"
   },
   {
     "id": "buick-century-g2",
@@ -3415,7 +3415,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/buick-regal-g1.webp"
   },
   {
     "id": "buick-regal-g2",
@@ -3458,7 +3458,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/buick-regal-g2.webp"
   },
   {
     "id": "buick-regal-g3",
@@ -3782,7 +3782,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/buick-riviera-g1.webp"
   },
   {
     "id": "buick-riviera-g2",
@@ -4824,7 +4824,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/cadillac-ats-v-g1.webp"
   },
   {
     "id": "cadillac-calais-g1",
@@ -5065,7 +5065,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/cadillac-ct4-v-blackwing-g1.webp"
   },
   {
     "id": "cadillac-ct5-g1",
@@ -6133,7 +6133,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/cadillac-eldorado-g9.webp"
   },
   {
     "id": "cadillac-elr-g1",
@@ -6896,7 +6896,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/cadillac-srx-g1.webp"
   },
   {
     "id": "cadillac-srx-g2",
@@ -12345,7 +12345,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/jeep-cj-5-g1.webp"
   },
   {
     "id": "jeep-cj-6-g1",
@@ -12473,7 +12473,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/jeep-cj-8-scrambler-g1.webp"
   },
   {
     "id": "jeep-comanche-g1",
@@ -12732,7 +12732,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/jeep-compass-g3.webp"
   },
   {
     "id": "jeep-fc-forward-control-g1",
@@ -13282,7 +13282,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/jeep-jeepster-g1.webp"
   },
   {
     "id": "jeep-liberty-g1",
@@ -14936,7 +14936,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/lexus-es-g3.webp"
   },
   {
     "id": "lexus-es-g4",
@@ -15180,7 +15180,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/lexus-gs-g1.webp"
   },
   {
     "id": "lexus-gs-g2",
@@ -15885,7 +15885,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/lexus-ls-g1.webp"
   },
   {
     "id": "lexus-ls-g2",
@@ -16087,7 +16087,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/lexus-lx-g1.webp"
   },
   {
     "id": "lexus-lx-g2",
@@ -18680,7 +18680,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mitsubishi-endeavor-g1.webp"
   },
   {
     "id": "mitsubishi-expo-g1",
@@ -18763,7 +18763,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mitsubishi-fto-g1.webp"
   },
   {
     "id": "mitsubishi-galant-g2",
@@ -19283,7 +19283,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mitsubishi-l200-triton-g6.webp"
   },
   {
     "id": "mitsubishi-lancer-evolution-i-g1",
@@ -19792,7 +19792,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mitsubishi-lancer-g7.webp"
   },
   {
     "id": "mitsubishi-lancer-g8",
@@ -19882,7 +19882,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mitsubishi-lancer-mirage-g4.webp"
   },
   {
     "id": "mitsubishi-lancer-mirage-g5",
@@ -20096,7 +20096,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mitsubishi-outlander-g1.webp"
   },
   {
     "id": "mitsubishi-outlander-g2",
@@ -20448,7 +20448,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mitsubishi-pajero-montero-g3.webp"
   },
   {
     "id": "mitsubishi-pajero-montero-g4",
@@ -20492,7 +20492,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mitsubishi-pajero-montero-g4.webp"
   },
   {
     "id": "mitsubishi-pajero-sport-montero-sport-g1",
@@ -20536,7 +20536,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mitsubishi-pajero-sport-montero-sport-g1.webp"
   },
   {
     "id": "mitsubishi-pajero-sport-montero-sport-g2",
@@ -20749,7 +20749,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/mitsubishi-starion-g1.webp"
   },
   {
     "id": "mitsubishi-tredia-g1",
@@ -22663,7 +22663,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-maxima-g6.webp"
   },
   {
     "id": "nissan-maxima-g7",
@@ -22949,7 +22949,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-micra-march-g3.webp"
   },
   {
     "id": "nissan-micra-march-g4",
@@ -23197,7 +23197,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-navara-g1.webp"
   },
   {
     "id": "nissan-navara-g2",
@@ -24125,7 +24125,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-pulsar-gti-r-g1.webp"
   },
   {
     "id": "nissan-pulsar-nx-nx-g1",
@@ -24252,7 +24252,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-qashqai-rogue-sport-g1.webp"
   },
   {
     "id": "nissan-qashqai-rogue-sport-g2",
@@ -24295,7 +24295,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-qashqai-rogue-sport-g2.webp"
   },
   {
     "id": "nissan-quest-g1",
@@ -25051,7 +25051,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-silvia-240sx-g5.webp"
   },
   {
     "id": "nissan-silvia-240sx-g6",
@@ -25254,7 +25254,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": ""
+    "image_url": "/cars/nissan-skyline-g11.webp"
   },
   {
     "id": "nissan-skyline-g12",
