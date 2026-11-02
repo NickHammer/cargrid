@@ -3851,16 +3851,16 @@
   },
   "nissan-silvia-200sx-g4": {
     "file": "/cars/nissan-silvia-200sx-g4.webp",
-    "article": "Commons search: Nissan Silvia / 200SX 1983",
+    "article": "Commons search: Nissan Silvia 1985",
     "matched": "search",
-    "license": "Public domain",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "artist": "Oshag03",
-    "source": "https://commons.wikimedia.org/wiki/File:1983_Nissan_200SX_(S110),_front_right_White.jpg",
-    "rejected": true,
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Kieran White from Manchester, England",
+    "source": "https://commons.wikimedia.org/wiki/File:1985_Nissan_Silvia_Turbo_Auto_(15029687143).jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:1983_Nissan_200SX_(S110),_front_right_White.jpg"
-    ]
+    ],
+    "verified": true
   },
   "nissan-silvia-g7": {
     "file": "/cars/nissan-silvia-g7.webp",
@@ -5542,16 +5542,17 @@
   },
   "mitsubishi-l200-triton-g1": {
     "file": "/cars/mitsubishi-l200-triton-g1.webp",
-    "article": "Commons search: Mitsubishi L200 / Triton 1978",
+    "article": "Commons search: Mitsubishi L200 1980",
     "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Ethan Llamas",
-    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Triton_2.4_Athlete_4WD_White_Diamond_-_front.jpg",
-    "rejected": true,
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "NZ Car Freak",
+    "source": "https://commons.wikimedia.org/wiki/File:1980_Mitsubishi_L200.jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:Mitsubishi_Triton_2.4_Athlete_4WD_White_Diamond_-_front.jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:Mitsubishi_Triton_2.4_Athlete_4WD_White_Diamond_-_front.jpg",
+      "https://commons.wikimedia.org/wiki/File:1980_Mitsubishi_L200.jpg"
+    ],
+    "rejected": true
   },
   "mitsubishi-l200-triton-g3": {
     "file": "/cars/mitsubishi-l200-triton-g3.webp",
@@ -5585,16 +5586,17 @@
   },
   "mitsubishi-l200-triton-g6": {
     "file": "/cars/mitsubishi-l200-triton-g6.webp",
-    "article": "Commons search: Mitsubishi L200 / Triton 2023",
+    "article": "Commons search: Mitsubishi L200 2023",
     "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Manrat Thiusthas",
-    "source": "https://commons.wikimedia.org/wiki/File:Royal_Thai_Army,_Mitsubishi_L200-Triton_utility_vehicle..jpg",
-    "rejected": true,
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "Aciarium",
+    "source": "https://commons.wikimedia.org/wiki/File:DSC05661_Mitsubishi_L200,_Bundesheer,_Front_Right,_2023-10.jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:Royal_Thai_Army,_Mitsubishi_L200-Triton_utility_vehicle..jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:Royal_Thai_Army,_Mitsubishi_L200-Triton_utility_vehicle..jpg",
+      "https://commons.wikimedia.org/wiki/File:DSC05661_Mitsubishi_L200,_Bundesheer,_Front_Right,_2023-10.jpg"
+    ],
+    "rejected": true
   },
   "mitsubishi-lancer-evolution-i-g1": {
     "file": "/cars/mitsubishi-lancer-evolution-i-g1.webp",
@@ -5729,15 +5731,16 @@
   },
   "mitsubishi-lancer-g7": {
     "file": "/cars/mitsubishi-lancer-g7.webp",
-    "article": "Commons search: Mitsubishi Lancer 2000",
+    "article": "Commons search: Mitsubishi Lancer 2002",
     "matched": "search",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "artist": "TTTNIS",
-    "source": "https://commons.wikimedia.org/wiki/File:2000_Mitsubishi_Lancer_RS_Evolution_VI_Tommi_Makinen_Edition.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Elise240SX",
+    "source": "https://commons.wikimedia.org/wiki/File:2002_Mitsubishi_Lancer_Evolution_VII_in_Palmer_Red,_Front_Left,_07-25-2023.jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_CS_1.6_GLX_Black.jpg",
-      "https://commons.wikimedia.org/wiki/File:2000_Mitsubishi_Lancer_RS_Evolution_VI_Tommi_Makinen_Edition.jpg"
+      "https://commons.wikimedia.org/wiki/File:2000_Mitsubishi_Lancer_RS_Evolution_VI_Tommi_Makinen_Edition.jpg",
+      "https://commons.wikimedia.org/wiki/File:2002_Mitsubishi_Lancer_Evolution_VII_in_Palmer_Red,_Front_Left,_07-25-2023.jpg"
     ],
     "rejected": true
   },
@@ -5753,17 +5756,17 @@
   },
   "mitsubishi-lancer-mirage-g5": {
     "file": "/cars/mitsubishi-lancer-mirage-g5.webp",
-    "article": "Commons search: Mitsubishi Lancer / Mirage 1991",
+    "article": "Commons search: Mitsubishi Lancer 1991",
     "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "TuRbO_J from Adelaide, Australia",
-    "source": "https://commons.wikimedia.org/wiki/File:1992-1996_Mitsubishi_Lancer_(CC)_GL_coupe_(8609354562).jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Interesting.cars.insta",
+    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_GLi_1991-1996_01_Front.jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:1996-1999_Mitsubishi_Lancer_(CE)_GLXi_station_wagon_(14999847884).jpg",
       "https://commons.wikimedia.org/wiki/File:1992-1996_Mitsubishi_Lancer_(CC)_GL_coupe_(8609354562).jpg"
     ],
-    "rejected": true
+    "verified": true
   },
   "mitsubishi-lancer-mirage-g6": {
     "file": "/cars/mitsubishi-lancer-mirage-g6.webp",
@@ -5837,30 +5840,30 @@
   },
   "mitsubishi-outlander-g4": {
     "file": "/cars/mitsubishi-outlander-g4.webp",
-    "article": "Commons search: Mitsubishi Outlander 2023",
-    "matched": "search",
+    "article": "Mitsubishi Outlander",
+    "matched": "main-article",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "MercurySable99",
-    "source": "https://commons.wikimedia.org/wiki/File:2004_Mitsubishi_Outlander_LS,_front_right,_09-24-2023.jpg",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:2025_Mitsubishi_Outlander_PHEV_(fourth_generation)_IMG_3129.jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:2020_Mitsubishi_Outlander_ES_AWD_front_01.jpg",
       "https://commons.wikimedia.org/wiki/File:2004_Mitsubishi_Outlander_LS,_front_right,_09-24-2023.jpg"
     ],
-    "rejected": true
+    "verified": true
   },
   "mitsubishi-outlander-sport-asx-rvr-g1": {
     "file": "/cars/mitsubishi-outlander-sport-asx-rvr-g1.webp",
-    "article": "Commons search: Mitsubishi Outlander Sport / ASX / RVR 2010",
+    "article": "Commons search: Mitsubishi Outlander Sport 2010",
     "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Alexander-93",
-    "source": "https://commons.wikimedia.org/wiki/File:2024_Mitsubishi_ASX_Leonberg_2024_IMG_1053.jpg",
-    "rejected": true,
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:2011_Mitsubishi_Outlander_Sport_--_12-06-2010.jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:2024_Mitsubishi_ASX_Leonberg_2024_IMG_1053.jpg"
-    ]
+    ],
+    "verified": true
   },
   "mitsubishi-pajero-io-pinin-g1": {
     "file": "/cars/mitsubishi-pajero-io-pinin-g1.webp",
@@ -5884,42 +5887,45 @@
   },
   "mitsubishi-pajero-montero-g3": {
     "file": "/cars/mitsubishi-pajero-montero-g3.webp",
-    "article": "Commons search: Mitsubishi Pajero / Montero 1999",
-    "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Spanish Coches",
-    "source": "https://commons.wikimedia.org/wiki/File:1999_Mitsubishi_Montero_iO_(3792013925).jpg",
-    "rejected": true,
-    "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1999_Mitsubishi_Montero_iO_(3792013925).jpg"
-    ]
-  },
-  "mitsubishi-pajero-montero-g4": {
-    "file": "/cars/mitsubishi-pajero-montero-g4.webp",
-    "article": "Commons search: Mitsubishi Pajero / Montero 2006",
-    "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Jason Lawrence from New York",
-    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_(Jamaica)_(35240281996).jpg",
-    "rejected": true,
-    "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_(Jamaica)_(35240281996).jpg"
-    ]
-  },
-  "mitsubishi-pajero-sport-montero-sport-g1": {
-    "file": "/cars/mitsubishi-pajero-sport-montero-sport-g1.webp",
-    "article": "Commons search: Mitsubishi Pajero Sport / Montero Sport 1998",
+    "article": "Commons search: Mitsubishi Pajero 1999",
     "matched": "search",
     "license": "CC0",
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "artist": "MoCars",
-    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_Sport_Third_Generation_(pre-facelift_vs_facelift_of_front).png",
-    "rejected": true,
+    "artist": "Ethan Llamas",
+    "source": "https://commons.wikimedia.org/wiki/File:1999_Mitsubishi_Pajero_2.8_Field_Master_4x4,_front_right,_06-29-2024.jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_Sport_Third_Generation_(pre-facelift_vs_facelift_of_front).png"
-    ]
+      "https://commons.wikimedia.org/wiki/File:1999_Mitsubishi_Montero_iO_(3792013925).jpg",
+      "https://commons.wikimedia.org/wiki/File:1999_Mitsubishi_Pajero_2.8_Field_Master_4x4,_front_right,_06-29-2024.jpg"
+    ],
+    "rejected": true
+  },
+  "mitsubishi-pajero-montero-g4": {
+    "file": "/cars/mitsubishi-pajero-montero-g4.webp",
+    "article": "Commons search: Mitsubishi Pajero 2006",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:2002-2006_Mitsubishi_Pajero_(NP)_GLX_wagon_01.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_(Jamaica)_(35240281996).jpg",
+      "https://commons.wikimedia.org/wiki/File:2002-2006_Mitsubishi_Pajero_(NP)_GLX_wagon_01.jpg"
+    ],
+    "rejected": true
+  },
+  "mitsubishi-pajero-sport-montero-sport-g1": {
+    "file": "/cars/mitsubishi-pajero-sport-montero-sport-g1.webp",
+    "article": "Commons search: Mitsubishi Pajero Sport 1996",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Charles from Port Chester, New York",
+    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_Sport_3.2_DI-D_GLS_(2009)_(52721951691).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_Sport_Third_Generation_(pre-facelift_vs_facelift_of_front).png",
+      "https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_Sport_3.2_DI-D_GLS_(2009)_(52721951691).jpg"
+    ],
+    "rejected": true
   },
   "mitsubishi-pajero-sport-montero-sport-g3": {
     "file": "/cars/mitsubishi-pajero-sport-montero-sport-g3.webp",
@@ -6613,17 +6619,17 @@
   },
   "cadillac-xts-g1": {
     "file": "/cars/cadillac-xts-g1.webp",
-    "article": "Commons search: Cadillac XTS 2015",
+    "article": "Commons search: Cadillac XTS 2013",
     "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Kieran White",
-    "source": "https://commons.wikimedia.org/wiki/File:2015_Cadillac_XTS_(28015595893).jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "User3204",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_SAIC-GM_Cadillac_XTS_(facelift,_front).jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:2013_Cadillac_XTS_Federal_Coach.jpg",
       "https://commons.wikimedia.org/wiki/File:2015_Cadillac_XTS_(28015595893).jpg"
     ],
-    "rejected": true
+    "verified": true
   },
   "buick-cascada-g1": {
     "file": "/cars/buick-cascada-g1.webp",
@@ -6851,17 +6857,17 @@
   },
   "buick-gran-sport-gs-g1": {
     "file": "/cars/buick-gran-sport-gs-g1.webp",
-    "article": "Commons search: Buick Gran Sport / GS 1967",
+    "article": "Commons search: Buick Gran Sport 1965",
     "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Greg Gjerdingen from Willmar, USA",
-    "source": "https://commons.wikimedia.org/wiki/File:1965_Buick_Gran_Sport_(29487818242).jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MercurySable99",
+    "source": "https://commons.wikimedia.org/wiki/File:1965_Buick_Skylark_Gran_Sport_coupe,_front_left,_08-29-2026.jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:1965_Buick_Riviera_Gran_Sport_in_Bamboo_Cream,_front_right.jpg",
       "https://commons.wikimedia.org/wiki/File:1965_Buick_Gran_Sport_(29487818242).jpg"
     ],
-    "rejected": true
+    "verified": true
   },
   "buick-invicta-g1": {
     "file": "/cars/buick-invicta-g1.webp",
@@ -7216,15 +7222,16 @@
   },
   "buick-roadmaster-g1": {
     "file": "/cars/buick-roadmaster-g1.webp",
-    "article": "Commons search: Buick Classic",
+    "article": "Commons search: Buick Roadmaster 1936",
     "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "Alexander Migl",
-    "source": "https://commons.wikimedia.org/wiki/File:Buick_Roadmaster_Riviera_Coupe_(1958)_Classic-Gala_2021_1X7A0248.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "rsaxvc",
+    "source": "https://commons.wikimedia.org/wiki/File:1936_Buick_80_Roadmaster_convertible_(27966079782).jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:Buick_Roadmaster_1941_Phaeton_Convertible_LSideFront_Lake_Mirror_Cassic_16Oct2010_(14874273921).jpg",
-      "https://commons.wikimedia.org/wiki/File:Buick_Roadmaster_Riviera_Coupe_(1958)_Classic-Gala_2021_1X7A0248.jpg"
+      "https://commons.wikimedia.org/wiki/File:Buick_Roadmaster_Riviera_Coupe_(1958)_Classic-Gala_2021_1X7A0248.jpg",
+      "https://commons.wikimedia.org/wiki/File:1936_Buick_80_Roadmaster_convertible_(27966079782).jpg"
     ],
     "rejected": true
   },
@@ -7383,16 +7390,17 @@
   },
   "cadillac-srx-g1": {
     "file": "/cars/cadillac-srx-g1.webp",
-    "article": "Commons search: Cadillac SRX 2004",
+    "article": "Commons search: Cadillac SRX 2006",
     "matched": "search",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artist": "DestinationFearFan",
-    "source": "https://commons.wikimedia.org/wiki/File:2004_Cadillac_SRX_SUV.jpg",
-    "rejected": true,
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Neonman132",
+    "source": "https://commons.wikimedia.org/wiki/File:2006_Cadillac_SRX.png",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:2004_Cadillac_SRX_SUV.jpg"
-    ]
+      "https://commons.wikimedia.org/wiki/File:2004_Cadillac_SRX_SUV.jpg",
+      "https://commons.wikimedia.org/wiki/File:2006_Cadillac_SRX.png"
+    ],
+    "rejected": true
   },
   "cadillac-srx-g2": {
     "file": "/cars/cadillac-srx-g2.webp",
@@ -7403,5 +7411,83 @@
     "artist": "IFCAR",
     "source": "https://commons.wikimedia.org/wiki/File:2010_Cadillac_SRX_--_2010_DC.jpg",
     "verified": true
+  },
+  "mitsubishi-l200-triton-g2": {
+    "file": "/cars/mitsubishi-l200-triton-g2.webp",
+    "article": "Commons search: Mitsubishi L200 1986",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:1984-1986_Mitsubishi_L200_Express_(MD)_4WD_cab_chassis_(2015-06-03)_01.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1984-1986_Mitsubishi_L200_Express_(MD)_4WD_cab_chassis_(2015-06-03)_01.jpg"
+    ]
+  },
+  "mitsubishi-lancer-mirage-g4": {
+    "file": "/cars/mitsubishi-lancer-mirage-g4.webp",
+    "article": "Commons search: Mitsubishi Lancer 1988",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_(1988)_IMG_4922.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_(1988)_IMG_4922.jpg"
+    ]
+  },
+  "mitsubishi-pajero-sport-montero-sport-g2": {
+    "file": "/cars/mitsubishi-pajero-sport-montero-sport-g2.webp",
+    "article": "Commons search: Mitsubishi Pajero Sport 2008",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Charles from Port Chester, New York",
+    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_Sport_3.2_DI-D_GLS_(2009)_(52721951691).jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_Sport_3.2_DI-D_GLS_(2009)_(52721951691).jpg"
+    ]
+  },
+  "nissan-micra-march-g3": {
+    "file": "/cars/nissan-micra-march-g3.webp",
+    "article": "Commons search: Nissan Micra 2002",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "DieselFordMondeo",
+    "source": "https://commons.wikimedia.org/wiki/File:2002_Nissan_Micra_1.0_S_(Front).png",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2002_Nissan_Micra_1.0_S_(Front).png"
+    ]
+  },
+  "nissan-qashqai-rogue-sport-g2": {
+    "file": "/cars/nissan-qashqai-rogue-sport-g2.webp",
+    "article": "Commons search: Nissan Qashqai 2013",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Car leasing made simple from Slough, UK",
+    "source": "https://commons.wikimedia.org/wiki/File:2014_Nissan_Qashqai_Front_On.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2014_Nissan_Qashqai_Front_On.jpg"
+    ]
+  },
+  "nissan-silvia-240sx-g5": {
+    "file": "/cars/nissan-silvia-240sx-g5.webp",
+    "article": "Commons search: Nissan Silvia 1988",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Morio",
+    "source": "https://commons.wikimedia.org/wiki/File:Nissan_Silvia_200SX_(RVS12;_1988)_front.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Nissan_Silvia_200SX_(RVS12;_1988)_front.jpg"
+    ]
   }
 }
