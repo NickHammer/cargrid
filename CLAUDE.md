@@ -214,6 +214,31 @@ node scripts/optimize-car-images.mjs              # re-encode to 640px WebP
 node scripts/apply-image-urls.mjs                 # verified entries -> cars.json image_url
 ```
 
+**A photo wider than 2:1 cannot just be dropped in.** The tile is 4:3 and crops
+from the centre, so a 2.66:1 photo shows only its middle 50% and nothing picked
+which 50% — the car's nose or tail ends up outside the tile. 70 of 716 published
+photos were in that state. `optimize-car-images.mjs` now lists anything over 2:1
+at the end of a run, and `recrop-wide-images.mjs` fixes them:
+
+```bash
+node scripts/recrop-wide-images.mjs --fetch        # big originals back from Commons
+node scripts/recrop-wide-images.mjs --candidates   # 4 options per car + review sheets
+node scripts/recrop-wide-images.mjs --apply picks.json
+```
+
+It re-downloads from Commons rather than re-cropping the published file, because
+a 4:3 window out of a 640x241 webp is 321px wide for a ~300px tile with nothing
+spare; the `source` URL kept for attribution is what makes the original findable
+again. Four options are offered because **no automatic rule gets this right**:
+sharp's `attention` strategy picked a background pickup truck over the Buick
+Riviera in front of it. Of the 70, `attention` won 34, `entropy` 17, plain
+centre 3 — and 16 needed the fourth option, `whole`, which fits the entire photo
+into the tile and fills the band above and below with a blurred, darkened copy
+of itself. That one exists because when a car fills the width of a 2.6:1 frame,
+*every* 4:3 crop is a door and a wheel; it is also the right answer when cropping
+would cut off what defines the class, like a pickup's bed or an estate's tail.
+The crops are stored at exactly 4:3, so the tile no longer crops at all.
+
 **Every image needs the visual check.** A nameplate's lead image on Wikipedia is almost always the *current* generation, so an unreviewed fetch will happily file a 2024 Rogue under the 2008 one. Only entries marked `"verified": true` in `data/image-credits.json` are wired into `cars.json`; anything else leaves `image_url` empty and the grid renders a text tile instead of the wrong car. When automated resolution keeps failing, pin an exact Commons filename in `PINNED_FILES` in `scripts/fetch-car-images.mjs`.
 
 ## Deployment
