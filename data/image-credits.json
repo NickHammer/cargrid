@@ -6122,18 +6122,18 @@
   },
   "cadillac-ct6-g1": {
     "file": "/cars/cadillac-ct6-g1.webp",
-    "article": "Commons file: 2016 Cadillac CT6 (25621985412).jpg",
+    "article": "Commons file: 2020 Cadillac CT6 Luxury (3.6 AWD) in Red Horizon Tintcoat, front left.jpg",
     "matched": "pinned",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Greg Gjerdingen from Willmar, USA",
-    "source": "https://commons.wikimedia.org/wiki/File:2016_Cadillac_CT6_(25621985412).jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:2020_Cadillac_CT6_Luxury_(3.6_AWD)_in_Red_Horizon_Tintcoat,_front_left.jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:2018_Cadillac_CT6_Premium_Luxury_AWD_Super_Cruise,_front_right.jpg",
       "https://commons.wikimedia.org/wiki/File:2018_Cadillac_CT6_Premium_Luxury_AWD_Super_Cruise,_front_right_(cropped).jpg",
       "https://commons.wikimedia.org/wiki/File:2016_Cadillac_CT6_(25621985412).jpg"
     ],
-    "rejected": true
+    "verified": true
   },
   "cadillac-cts-g1": {
     "file": "/cars/cadillac-cts-g1.webp",
@@ -7239,12 +7239,12 @@
   },
   "buick-roadmaster-g1": {
     "file": "/cars/buick-roadmaster-g1.webp",
-    "article": "Commons search: Buick Roadmaster 1938",
-    "matched": "search",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artist": "Rex Gray",
-    "source": "https://commons.wikimedia.org/wiki/File:1938_Buick_Roadmaster_-_maroon_-_rvl.jpg",
+    "article": "Commons file: 1937 Buick Roadmaster Series 80 sedan, front right.jpg",
+    "matched": "pinned",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1937_Buick_Roadmaster_Series_80_sedan,_front_right.jpg",
     "rejectedFiles": [
       "https://commons.wikimedia.org/wiki/File:Buick_Roadmaster_1941_Phaeton_Convertible_LSideFront_Lake_Mirror_Cassic_16Oct2010_(14874273921).jpg",
       "https://commons.wikimedia.org/wiki/File:Buick_Roadmaster_Riviera_Coupe_(1958)_Classic-Gala_2021_1X7A0248.jpg",
@@ -7252,7 +7252,7 @@
       "https://commons.wikimedia.org/wiki/File:1936_Buick_Roadmaster_Series_Eighty_Convertible_Phaeton.jpg",
       "https://commons.wikimedia.org/wiki/File:1938_Buick_Roadmaster_-_maroon_-_rvl.jpg"
     ],
-    "rejected": true
+    "verified": true
   },
   "buick-roadmaster-g2": {
     "file": "/cars/buick-roadmaster-g2.webp",
