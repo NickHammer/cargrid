@@ -163,17 +163,6 @@ node scripts/derive-fields.mjs
 - `make` and `brands[]` use canonical display spelling from `scripts/make-names.mjs` ("BMW", not "Bmw"). Brand matching is exact string equality, so run `node scripts/normalize-makes.mjs` after any batch add.
 - `generation` counts generations of the **nameplate as curated**, and the number must be truthful: the 1967–76 Dart is `dodge-dart-g4`, not `-g1`. A dataset may hold `-g4` without holding `-g1`.
 - Muscle Car is applied when a nameplate's performance variant is its defining identity in enthusiast culture (Chevelle SS → Malibu, GTS/340 → Dart), even though base models were ordinary.
-- **Nothing that stopped being made before 1974.** A record only belongs in the
-dataset if the car was still in production in 1974 or later. Judge it on
-`production_end`, not `production_start`: a generation that spans the cutoff
-stays (Dodge Challenger 1970–1974, Ford Bronco 1966–1977), and where a nameplate
-has an older generation that ended and a newer one that carried on, the newer one
-is kept and the older is dropped. This removed 69 records, including some famous
-cars — DB5, E-Type, Miura, 300 SL, 2000GT, the 1964 Mustang, the first Camaro and
-Corvette, the Hakosuka GT-R and the 1963–73 911 — so do not re-add them on the
-grounds that they are iconic. It also emptied the `1950s` decade and the
-`$0–$10,000` price band below the eligibility floor, so those categories can no
-longer appear in a grid.
 - **Road cars only.** A record must be a vehicle sold to the public for road use. Pure competition cars are excluded — they were never sold, never
 registered, and a player cannot reasonably be expected to guess them.
 - **Homologation specials are valid**: a road-going version built to qualify a car for a racing class is a road car, and usually a famous one (Lancia Delta HF Integrale, Ford RS200, Nissan Skyline GT-R, Porsche 959, BMW M3 E30). The test is whether a road-legal version was sold, not how many were built. Excluded by this rule: `nissan-r390-gt1-g1` (the Le Mans GT1 entry — one road car existed as a homologation formality but was never sold), Ferrari's FXX and Vulcan-style track-only specials, and any "Rally"/"GT1"/"DTM"/"Group B prototype" row that never reached a showroom.
