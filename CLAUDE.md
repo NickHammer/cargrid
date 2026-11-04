@@ -249,6 +249,31 @@ of itself. That one exists because when a car fills the width of a 2.6:1 frame,
 would cut off what defines the class, like a pickup's bed or an estate's tail.
 The crops are stored at exactly 4:3, so the tile no longer crops at all.
 
+**A car without a photo does not ship.** An empty `image_url` used to render as
+a plain text tile, which made the record a correct answer that showed the player
+nothing. Records without a verified photo now wait in
+`data/incoming/needs-photo.json` instead of sitting in the catalog:
+
+```bash
+node scripts/park-imageless-cars.mjs --dry-run   # what has no photo
+node scripts/park-imageless-cars.mjs             # move those out of cars.json
+node scripts/park-imageless-cars.mjs --restore   # bring back the now-photographed
+node scripts/validate-grids.mjs --min 3          # removing cars CAN break a grid
+```
+
+Nothing is deleted — the full record is kept and comes back the moment a photo
+is verified. `curation.test.mjs` enforces this, so a car with no photo fails CI.
+**Park after the image rounds, never before**: the fetcher reads `cars.json` to
+know what to look for, so a car parked early is a car it will never retry.
+
+**Give up on a photo rather than lower the bar.** Two fetch rounds is the
+budget; what is still wrong after that gets parked and logged, not shipped with
+a doubtful picture. Older European models are the hard case — for the Renault
+wave, plain Commons search returned a postage stamp of a 1910 car, a line
+drawing, a toy in a display box, four crashed cars, three race liveries, a
+police car, a fire engine, two interior shots and a close-up of an indicator
+lens. 25 of 79 were parked.
+
 **Every image needs the visual check.** A nameplate's lead image on Wikipedia is almost always the *current* generation, so an unreviewed fetch will happily file a 2024 Rogue under the 2008 one. Only entries marked `"verified": true` in `data/image-credits.json` are wired into `cars.json`; anything else leaves `image_url` empty and the grid renders a text tile instead of the wrong car. When automated resolution keeps failing, pin an exact Commons filename in `PINNED_FILES` in `scripts/fetch-car-images.mjs`.
 
 ## Deployment

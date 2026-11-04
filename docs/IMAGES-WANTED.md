@@ -1,77 +1,72 @@
 # Photos wanted
 
-14 of 730 cars still have no photo. They render as a plain
-text tile in the game, which works but looks unfinished.
+42 cars are curated and ready but have no usable photo, so they are
+**not in the game**. They wait in `data/incoming/needs-photo.json` and return
+automatically once a photo is verified:
 
-**Mitsubishi** 7 · **Nissan** 4 · **Cadillac** 1 · **Jeep** 1 · **Lexus** 1
+```bash
+# put the Commons file name in data/curation/pinned-files.json against the car id, then:
+node scripts/fetch-car-images.mjs <car-id>
+node scripts/mark-image-verified.mjs <car-id>
+node scripts/optimize-car-images.mjs
+node scripts/park-imageless-cars.mjs --restore
+node scripts/validate-grids.mjs --min 3
+```
 
-## Why these are still empty
+**Renault** 25 · **Mitsubishi** 7 · **Nissan** 5 · **Cadillac** 2 · **Lexus** 2 · **Jeep** 1
 
-Not because Wikimedia Commons lacks the cars. It holds thousands of photos
-of most of them. These are the ones where the automatic picker keeps
-choosing a photo of the wrong thing, and a person has to look instead.
+## What a usable photo looks like
 
-The three ways it goes wrong, all seen in the last pass:
-
-- **The wrong generation.** A nameplate runs for forty years and every
-  version is called the same thing. A photo labelled 1999 can be the
-  outgoing shape rather than the incoming one.
-- **The year in the file name is when the photo was taken**, not what the
-  car is. A 2006 truck photographed in 2023 reads as a 2023 truck.
-- **The wrong body.** A convertible where the record says saloon, an
-  estate where it says saloon. Body Style is a real category in the game,
-  so this one actually makes a puzzle wrong.
-
-## What a good photo looks like
-
-Tiles are cropped to 4:3 and shown about 300px wide, so:
-
-1. **Front three-quarter.** Front corner of the car, showing the grille and
-   one side at once. A straight-on nose shot hides the shape; a pure side
-   view loses the grille, which is most of what you recognise a car by.
-2. **The car fills the frame.** Not a street scene with a car in it.
-3. **Standard car, nothing on it or in front of it.** No race livery, no
-   body kit, no crates on the bonnet, nobody leaning on it.
-4. **Right generation.** The single thing most worth double-checking.
-
-## How to hand one back
-
-Give the **file name**, not the file. Every published photo has to be a
-Commons file, because that is what lets the pipeline check the licence and
-record the photographer on the `/credits` page. Crediting them is a
-condition of the licences most of these carry, so a photo of unknown origin
-cannot be used.
-
-1. Open a search link below.
-2. Pick a photo. **Open it full size** before deciding; the small previews
-   crop tightly and hide what is wrong with a shot.
-3. Copy the name exactly as Commons shows it, without the `File:` part.
-4. Paste it into `data/curation/pinned-files.json` against the car id, or
-   just send the list over.
-
-You can also take the photo yourself. Most of what is left is an ordinary
-car you could find in a car park, and a photo you took has no licence
-question at all. Flickr is the other good source: set its licence filter to
-allow commercial use and changes, and photos found there can be moved onto
-Commons with the Flickypedia tool.
+Tiles are 4:3 at about 300px, so: a front three-quarter view, the car filling
+the frame, a standard car with no livery or body kit, nothing and nobody in
+front of it, and above all **the right generation** — a nameplate runs for
+decades and every version carries the same name.
 
 ## The list
 
-| id | car | years | body / class | status | search Commons |
-|---|---|---|---|---|---|
-| `cadillac-eldorado-g1` | Cadillac Eldorado | 1953–1953 | Convertible / Coupe | 1 photo tried, all wrong | [Eldorado](https://commons.wikimedia.org/w/index.php?search=Cadillac%20Eldorado%201953&ns6=1) |
-| `jeep-cj-6-g1` | Jeep CJ-6 | 1955–1975 | SUV / Off-Road | 2 photos tried, all wrong | [CJ-6](https://commons.wikimedia.org/w/index.php?search=Jeep%20CJ-6%201955&ns6=1) |
-| `lexus-es-g2` | Lexus ES | 1991–1996 | Sedan / Sedan | 4 photos tried, all wrong | [ES](https://commons.wikimedia.org/w/index.php?search=Lexus%20ES%201991&ns6=1) |
-| `mitsubishi-galant-g6` | Mitsubishi Galant | 1987–1992 | Sedan / Sedan | 4 photos tried, all wrong | [Galant](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20Galant%201987&ns6=1) |
-| `mitsubishi-l200-triton-g1` | Mitsubishi L200 / Triton | 1978–1986 | Pickup Truck / Pickup Truck | 2 photos tried, all wrong | [L200](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20L200%201978&ns6=1) · [Triton](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20Triton%201978&ns6=1) |
-| `mitsubishi-l200-triton-g2` | Mitsubishi L200 / Triton | 1986–1996 | Pickup Truck / Pickup Truck | 3 photos tried, all wrong | [L200](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20L200%201986&ns6=1) · [Triton](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20Triton%201986&ns6=1) |
-| `mitsubishi-lancer-evolution-ii-g1` | Mitsubishi Lancer Evolution II | 1994–1995 | Sedan / Sports Car | 2 photos tried, all wrong | [Lancer Evolution II](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20Lancer%20Evolution%20II%201994&ns6=1) |
-| `mitsubishi-lancer-evolution-iii-g1` | Mitsubishi Lancer Evolution III | 1995–1996 | Sedan / Sports Car | 2 photos tried, all wrong | [Lancer Evolution III](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20Lancer%20Evolution%20III%201995&ns6=1) |
-| `mitsubishi-lancer-evolution-v-g1` | Mitsubishi Lancer Evolution V | 1998–1999 | Sedan / Sports Car | 1 photo tried, all wrong | [Lancer Evolution V](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20Lancer%20Evolution%20V%201998&ns6=1) |
-| `mitsubishi-pajero-sport-montero-sport-g2` | Mitsubishi Pajero Sport / Montero Sport | 2008–2015 | SUV / Off-Road | 4 photos tried, all wrong | [Pajero Sport](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20Pajero%20Sport%202008&ns6=1) · [Montero Sport](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20Montero%20Sport%202008&ns6=1) |
-| `nissan-micra-g6` | Nissan Micra | 2025–now | Hatchback / Hatchback | 3 photos tried, all wrong | [Micra](https://commons.wikimedia.org/w/index.php?search=Nissan%20Micra%202025&ns6=1) |
-| `nissan-patrol-g2` | Nissan Patrol | 1980–1989 | SUV / Off-Road | 2 photos tried, all wrong | [Patrol](https://commons.wikimedia.org/w/index.php?search=Nissan%20Patrol%201980&ns6=1) |
-| `nissan-pulsar-nx-nx-g1` | Nissan Pulsar NX / NX | 1983–1993 | Coupe / Coupe | nothing found yet | [Pulsar NX](https://commons.wikimedia.org/w/index.php?search=Nissan%20Pulsar%20NX%201983&ns6=1) · [NX](https://commons.wikimedia.org/w/index.php?search=Nissan%20NX%201983&ns6=1) |
-| `nissan-skyline-gt-r-g2` | Nissan Skyline GT-R | 1973–1973 | Coupe / Sports Car | 3 photos tried, all wrong | [Skyline GT-R](https://commons.wikimedia.org/w/index.php?search=Nissan%20Skyline%20GT-R%201973&ns6=1) |
+| id | car | years | body / class | search Commons |
+|---|---|---|---|---|
+| `cadillac-cts-g3` | Cadillac CTS | 2014–2019 | Sedan / Sedan | [CTS](https://commons.wikimedia.org/w/index.php?search=Cadillac%20CTS%202014&ns6=1) |
+| `cadillac-eldorado-g1` | Cadillac Eldorado | 1953–1953 | Convertible / Coupe | [Eldorado](https://commons.wikimedia.org/w/index.php?search=Cadillac%20Eldorado%201953&ns6=1) |
+| `jeep-cj-6-g1` | Jeep CJ-6 | 1955–1975 | SUV / Off-Road | [CJ-6](https://commons.wikimedia.org/w/index.php?search=Jeep%20CJ-6%201955&ns6=1) |
+| `lexus-es-g2` | Lexus ES | 1991–1996 | Sedan / Sedan | [ES](https://commons.wikimedia.org/w/index.php?search=Lexus%20ES%201991&ns6=1) |
+| `lexus-ls-g2` | Lexus LS | 1994–2000 | Sedan / Sedan | [LS](https://commons.wikimedia.org/w/index.php?search=Lexus%20LS%201994&ns6=1) |
+| `mitsubishi-galant-g6` | Mitsubishi Galant | 1987–1992 | Sedan / Sedan | [Galant](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20Galant%201987&ns6=1) |
+| `mitsubishi-l200-triton-g1` | Mitsubishi L200 / Triton | 1978–1986 | Pickup Truck / Pickup Truck | [L200](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20L200%201978&ns6=1) · [Triton](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20Triton%201978&ns6=1) |
+| `mitsubishi-l200-triton-g2` | Mitsubishi L200 / Triton | 1986–1996 | Pickup Truck / Pickup Truck | [L200](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20L200%201986&ns6=1) · [Triton](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20Triton%201986&ns6=1) |
+| `mitsubishi-lancer-evolution-ii-g1` | Mitsubishi Lancer Evolution II | 1994–1995 | Sedan / Sports Car | [Lancer Evolution II](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20Lancer%20Evolution%20II%201994&ns6=1) |
+| `mitsubishi-lancer-evolution-iii-g1` | Mitsubishi Lancer Evolution III | 1995–1996 | Sedan / Sports Car | [Lancer Evolution III](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20Lancer%20Evolution%20III%201995&ns6=1) |
+| `mitsubishi-lancer-evolution-v-g1` | Mitsubishi Lancer Evolution V | 1998–1999 | Sedan / Sports Car | [Lancer Evolution V](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20Lancer%20Evolution%20V%201998&ns6=1) |
+| `mitsubishi-pajero-sport-montero-sport-g2` | Mitsubishi Pajero Sport / Montero Sport | 2008–2015 | SUV / Off-Road | [Pajero Sport](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20Pajero%20Sport%202008&ns6=1) · [Montero Sport](https://commons.wikimedia.org/w/index.php?search=Mitsubishi%20Montero%20Sport%202008&ns6=1) |
+| `nissan-micra-g6` | Nissan Micra | 2025–now | Hatchback / Hatchback | [Micra](https://commons.wikimedia.org/w/index.php?search=Nissan%20Micra%202025&ns6=1) |
+| `nissan-patrol-g2` | Nissan Patrol | 1980–1989 | SUV / Off-Road | [Patrol](https://commons.wikimedia.org/w/index.php?search=Nissan%20Patrol%201980&ns6=1) |
+| `nissan-pulsar-nx-nx-g1` | Nissan Pulsar NX / NX | 1983–1993 | Coupe / Coupe | [Pulsar NX](https://commons.wikimedia.org/w/index.php?search=Nissan%20Pulsar%20NX%201983&ns6=1) · [NX](https://commons.wikimedia.org/w/index.php?search=Nissan%20NX%201983&ns6=1) |
+| `nissan-skyline-g9` | Nissan Skyline | 1993–1998 | Sedan / Sedan | [Skyline](https://commons.wikimedia.org/w/index.php?search=Nissan%20Skyline%201993&ns6=1) |
+| `nissan-skyline-gt-r-g2` | Nissan Skyline GT-R | 1973–1973 | Coupe / Sports Car | [Skyline GT-R](https://commons.wikimedia.org/w/index.php?search=Nissan%20Skyline%20GT-R%201973&ns6=1) |
+| `renault-10-g1` | Renault 10 | 1965–1971 | Sedan / Sedan | [10](https://commons.wikimedia.org/w/index.php?search=Renault%2010%201965&ns6=1) |
+| `renault-14-g1` | Renault 14 | 1976–1983 | Hatchback / Hatchback | [14](https://commons.wikimedia.org/w/index.php?search=Renault%2014%201976&ns6=1) |
+| `renault-19-g1` | Renault 19 | 1988–2000 | Hatchback / Hatchback | [19](https://commons.wikimedia.org/w/index.php?search=Renault%2019%201988&ns6=1) |
+| `renault-21-g1` | Renault 21 | 1986–1995 | Sedan / Sedan | [21](https://commons.wikimedia.org/w/index.php?search=Renault%2021%201986&ns6=1) |
+| `renault-25-g1` | Renault 25 | 1984–1992 | Hatchback / Hatchback | [25](https://commons.wikimedia.org/w/index.php?search=Renault%2025%201984&ns6=1) |
+| `renault-4-e-tech-g2` | Renault 4 E-Tech | 2024–now | SUV / SUV | [4 E-Tech](https://commons.wikimedia.org/w/index.php?search=Renault%204%20E-Tech%202024&ns6=1) |
+| `renault-5-e-tech-g3` | Renault 5 E-Tech | 2024–now | Hatchback / Hatchback | [5 E-Tech](https://commons.wikimedia.org/w/index.php?search=Renault%205%20E-Tech%202024&ns6=1) |
+| `renault-5-g1` | Renault 5 | 1972–1985 | Hatchback / Hatchback | [5](https://commons.wikimedia.org/w/index.php?search=Renault%205%201972&ns6=1) |
+| `renault-9-11-g1` | Renault 9 / 11 | 1981–1989 | Sedan / Sedan | [9](https://commons.wikimedia.org/w/index.php?search=Renault%209%201981&ns6=1) · [11](https://commons.wikimedia.org/w/index.php?search=Renault%2011%201981&ns6=1) |
+| `renault-arkana-g1` | Renault Arkana | 2019–now | SUV / SUV | [Arkana](https://commons.wikimedia.org/w/index.php?search=Renault%20Arkana%202019&ns6=1) |
+| `renault-clio-g3` | Renault Clio | 2005–2014 | Hatchback / Hatchback | [Clio](https://commons.wikimedia.org/w/index.php?search=Renault%20Clio%202005&ns6=1) |
+| `renault-clio-g6` | Renault Clio | 2025–now | Hatchback / Hatchback | [Clio](https://commons.wikimedia.org/w/index.php?search=Renault%20Clio%202025&ns6=1) |
+| `renault-espace-g1` | Renault Espace | 1984–1991 | Minivan / Minivan | [Espace](https://commons.wikimedia.org/w/index.php?search=Renault%20Espace%201984&ns6=1) |
+| `renault-fluence-g1` | Renault Fluence | 2009–2017 | Sedan / Sedan | [Fluence](https://commons.wikimedia.org/w/index.php?search=Renault%20Fluence%202009&ns6=1) |
+| `renault-kangoo-g1` | Renault Kangoo | 1997–2007 | Minivan / Minivan | [Kangoo](https://commons.wikimedia.org/w/index.php?search=Renault%20Kangoo%201997&ns6=1) |
+| `renault-kangoo-g3` | Renault Kangoo | 2021–now | Minivan / Minivan | [Kangoo](https://commons.wikimedia.org/w/index.php?search=Renault%20Kangoo%202021&ns6=1) |
+| `renault-laguna-g1` | Renault Laguna | 1993–2001 | Hatchback / Hatchback | [Laguna](https://commons.wikimedia.org/w/index.php?search=Renault%20Laguna%201993&ns6=1) |
+| `renault-megane-g1` | Renault Mégane | 1995–2002 | Hatchback / Hatchback | [Mégane](https://commons.wikimedia.org/w/index.php?search=Renault%20M%C3%A9gane%201995&ns6=1) |
+| `renault-megane-rs-g2` | Renault Mégane RS | 2004–2009 | Hatchback / Hot Hatch | [Mégane RS](https://commons.wikimedia.org/w/index.php?search=Renault%20M%C3%A9gane%20RS%202004&ns6=1) |
+| `renault-rafale-g1` | Renault Rafale | 2024–now | SUV / SUV | [Rafale](https://commons.wikimedia.org/w/index.php?search=Renault%20Rafale%202024&ns6=1) |
+| `renault-scenic-g2` | Renault Scénic | 2003–2009 | Minivan / Minivan | [Scénic](https://commons.wikimedia.org/w/index.php?search=Renault%20Sc%C3%A9nic%202003&ns6=1) |
+| `renault-scenic-g4` | Renault Scénic | 2016–2022 | Minivan / Minivan | [Scénic](https://commons.wikimedia.org/w/index.php?search=Renault%20Sc%C3%A9nic%202016&ns6=1) |
+| `renault-symbioz-g1` | Renault Symbioz | 2024–now | SUV / SUV | [Symbioz](https://commons.wikimedia.org/w/index.php?search=Renault%20Symbioz%202024&ns6=1) |
+| `renault-talisman-g1` | Renault Talisman | 2015–2022 | Sedan / Sedan | [Talisman](https://commons.wikimedia.org/w/index.php?search=Renault%20Talisman%202015&ns6=1) |
+| `renault-twingo-g1` | Renault Twingo | 1993–2007 | Hatchback / Hatchback | [Twingo](https://commons.wikimedia.org/w/index.php?search=Renault%20Twingo%201993&ns6=1) |
 
-Generated 2026-11-02.
+Generated 2026-11-04.

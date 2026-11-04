@@ -166,3 +166,17 @@ test("every published image has a verified credit entry", () => {
     .map((c) => c.id);
   assert.deepEqual(missing, []);
 });
+
+/**
+ * No car ships without a photo.
+ *
+ * A record with an empty image_url used to render as a plain text tile. That
+ * made it a correct answer that showed the player nothing, and the standing
+ * rule for this catalog is accurate data AND an accurate image — both, or the
+ * car waits. Records without a photo live in data/incoming/needs-photo.json
+ * and come back via `park-imageless-cars.mjs --restore` once one is verified.
+ */
+test("every car in the catalog has a photo", () => {
+  const missing = cars.filter((car) => !car.image_url).map((car) => car.id);
+  assert.deepEqual(missing, []);
+});
