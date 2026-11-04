@@ -50,8 +50,8 @@ export type ParameterType =
   | "power_output"
   | "transmission"
   | "fuel_type"
-  | "pop_culture"
-  | "price_at_launch"
+  // "pop_culture" and "price_at_launch" were retired as axes on 2026-11-03 —
+  // see the note in parameters.mjs. The Car fields above stay; the axes went.
   | "manufacturer_still_active"
   | "aspiration"
   | "engine_position"

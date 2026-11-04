@@ -49,8 +49,7 @@ node scripts/validate-grids.mjs --min 3
 
 ## Grid Parameters
 
-19 parameter types (Racing Heritage removed), drawn from a pool to construct
-each daily grid. `src/lib/parameters.mjs` is the source of truth — this list
+17 parameter types, drawn from a pool to construct each daily grid. `src/lib/parameters.mjs` is the source of truth — this list
 has gone stale before, so check `PARAMETER_TYPES` rather than trusting it.
 
 **Tier 1 — Identity/Attribute (high value)**
@@ -60,7 +59,20 @@ has gone stale before, so check `PARAMETER_TYPES` rather than trusting it.
 - Car Class, Power Output, Aspiration, Displacement, Region, Parent Group
 
 **Tier 3 — Use sparingly**
-- Transmission, Fuel Type, Pop Culture, Price at Launch, Manufacturer Still Active
+- Transmission, Fuel Type, Manufacturer Still Active
+
+**Pop Culture and Price at Launch were retired as axes on 2026-11-03**, taking
+the list from 19 to 17. Both failed on data, not on idea. Pop Culture had 7 of
+730 cars filled in, never cleared the eligibility floor, and appeared in **zero**
+of 742 scheduled grids — a declared type that could not appear is a trap for
+whoever reads this list next. Price at Launch had 50 of 730 priced and reached
+27 grids, but a square asking which car cost $25–50k in 1994 tests recall, not
+reasoning, which is the wrong kind of hard for this game. **The `pop_culture`
+and `price_at_launch_usd` fields stay on the records** and are still
+schema-checked — only the axes are gone, so re-adding one means filling in a few
+hundred records first, not editing `parameters.mjs`. Retiring Price at Launch
+meant regenerating every future grid, since 27 of them referenced it; past dates
+and the live day were verified byte-identical across that regeneration.
 
 **Region and Parent Group are derived, not stored** — from `country_of_origin`
 and `brands` respectively, via lookup tables in `parameters.mjs`, so they cannot
@@ -129,8 +141,6 @@ interface Car {
 | Power Output | `car.power_output_ranges.includes(param)` |
 | Transmission | `car.transmission.includes(param)` |
 | Fuel Type | `car.fuel_type.includes(param)` |
-| Pop Culture | `car.pop_culture?.includes(param)` |
-| Price at Launch | range check against `price_at_launch_usd` |
 | Manufacturer Still Active | boolean match |
 
 ## Car Dataset
@@ -259,7 +269,7 @@ npm run build      # writes out/ (~736 pages, ~27 MB incl. images)
   growing its archive.
 - **A redeploy is only needed** to change the dataset, the code, or to extend
   the schedule.
-- **The schedule runs out on 2028-11-01.** `validate-grids.mjs --min-days 90`
+- **The schedule runs out on 2028-11-02.** `validate-grids.mjs --min-days 90`
   exits non-zero once fewer than 90 days remain. This is now wired into
   `.github/workflows/checks.yml` rather than left to memory.
 
