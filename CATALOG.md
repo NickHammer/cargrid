@@ -3,82 +3,9 @@
 Every car currently in the game. Generated — do not hand-edit.
 Re-run `node scripts/make-catalog.mjs` after any change to `data/cars.json`.
 
-- **730** cars across **48** makes
-- **657** playable (verified image wired up)
-- **73** awaiting an image — these render as a text tile:
-  - `buick-century-g1`
-  - `buick-gran-sport-gs-g1`
-  - `buick-invicta-g1`
-  - `buick-lesabre-g7`
-  - `buick-park-avenue-g1`
-  - `buick-regal-g1`
-  - `buick-regal-g2`
-  - `buick-riviera-g1`
-  - `buick-roadmaster-g1`
-  - `buick-special-g1`
-  - `cadillac-ats-v-g1`
-  - `cadillac-ct4-v-blackwing-g1`
-  - `cadillac-ct5-v-blackwing-g1`
-  - `cadillac-ct6-g1`
-  - `cadillac-cts-g2`
-  - `cadillac-cts-g3`
-  - `cadillac-deville-g6`
-  - `cadillac-eldorado-g1`
-  - `cadillac-eldorado-g9`
-  - `cadillac-srx-g1`
-  - `cadillac-srx-g2`
-  - `cadillac-xts-g1`
-  - `jeep-cj-5-g1`
-  - `jeep-cj-6-g1`
-  - `jeep-cj-8-scrambler-g1`
-  - `jeep-compass-g3`
-  - `jeep-jeepster-g1`
-  - `jeep-wrangler-g2`
-  - `lexus-es-g2`
-  - `lexus-es-g3`
-  - `lexus-gs-g1`
-  - `lexus-ls-g1`
-  - `lexus-lx-g1`
-  - `mitsubishi-3000gt-gto-g1`
-  - `mitsubishi-colt-g2`
-  - `mitsubishi-diamante-g1`
-  - `mitsubishi-endeavor-g1`
-  - `mitsubishi-fto-g1`
-  - `mitsubishi-galant-g6`
-  - `mitsubishi-galant-g7`
-  - `mitsubishi-i-miev-g1`
-  - `mitsubishi-l200-triton-g1`
-  - `mitsubishi-l200-triton-g2`
-  - `mitsubishi-l200-triton-g6`
-  - `mitsubishi-lancer-evolution-ii-g1`
-  - `mitsubishi-lancer-evolution-iii-g1`
-  - `mitsubishi-lancer-evolution-v-g1`
-  - `mitsubishi-lancer-g7`
-  - `mitsubishi-lancer-mirage-g4`
-  - `mitsubishi-lancer-mirage-g5`
-  - `mitsubishi-lancer-mirage-g6`
-  - `mitsubishi-mirage-g1`
-  - `mitsubishi-outlander-g1`
-  - `mitsubishi-outlander-g4`
-  - `mitsubishi-outlander-sport-asx-rvr-g1`
-  - `mitsubishi-pajero-montero-g3`
-  - `mitsubishi-pajero-montero-g4`
-  - `mitsubishi-pajero-sport-montero-sport-g1`
-  - `mitsubishi-pajero-sport-montero-sport-g2`
-  - `mitsubishi-starion-g1`
-  - `nissan-maxima-g6`
-  - `nissan-micra-g6`
-  - `nissan-micra-march-g3`
-  - `nissan-navara-g1`
-  - `nissan-patrol-g2`
-  - `nissan-pulsar-gti-r-g1`
-  - `nissan-pulsar-nx-nx-g1`
-  - `nissan-qashqai-rogue-sport-g1`
-  - `nissan-qashqai-rogue-sport-g2`
-  - `nissan-silvia-200sx-g4`
-  - `nissan-silvia-240sx-g5`
-  - `nissan-skyline-g11`
-  - `nissan-skyline-gt-r-g2`
+- **1000** cars across **52** makes
+- **1000** playable (verified image wired up)
+- **0** awaiting an image
 
 A car is one **generation** of a nameplate. Power is the span of that
 generation's factory line-up in hp, performance variants included.
@@ -95,46 +22,50 @@ generation's factory line-up in hp, performance variants included.
 | [Bentley](#bentley) | 1 | British |
 | [Bugatti](#bugatti) | 1 | French |
 | [Buick](#buick) | 73 | American |
-| [Cadillac](#cadillac) | 63 | American |
+| [Cadillac](#cadillac) | 61 | American |
 | [Chevrolet](#chevrolet) | 24 | American |
+| [Citroën](#citro-n) | 41 | French |
 | [Dodge](#dodge) | 16 | American |
 | [Ferrari](#ferrari) | 9 | Italian |
+| [Fiat](#fiat) | 55 | Italian |
 | [Ford](#ford) | 24 | American, German |
 | [GMC](#gmc) | 1 | American |
+| [Holden](#holden) | 31 | Australian |
 | [Honda](#honda) | 20 | Japanese |
 | [Hyundai](#hyundai) | 9 | South Korean |
 | [Infiniti](#infiniti) | 1 | Japanese |
 | [Jaguar](#jaguar) | 9 | British |
-| [Jeep](#jeep) | 44 | American |
+| [Jeep](#jeep) | 43 | American |
 | [Kia](#kia) | 9 | South Korean |
 | [Koenigsegg](#koenigsegg) | 1 | Swedish |
 | [Lamborghini](#lamborghini) | 9 | Italian |
 | [Lancia](#lancia) | 2 | Italian |
 | [Land Rover](#land-rover) | 1 | British |
-| [Lexus](#lexus) | 49 | Japanese |
+| [Lexus](#lexus) | 47 | Japanese |
 | [Lincoln](#lincoln) | 1 | American |
 | [MINI](#mini) | 1 | British |
 | [Maserati](#maserati) | 1 | Italian |
 | [Mazda](#mazda) | 8 | Japanese |
 | [McLaren](#mclaren) | 8 | British |
 | [Mercedes-Benz](#mercedes-benz) | 9 | German |
-| [Mitsubishi](#mitsubishi) | 68 | Japanese |
-| [Nissan](#nissan) | 138 | Japanese |
+| [Mitsubishi](#mitsubishi) | 61 | Japanese |
+| [Nissan](#nissan) | 133 | Japanese |
 | [Pagani](#pagani) | 1 | Italian |
-| [Peugeot](#peugeot) | 1 | French |
+| [Peugeot](#peugeot) | 41 | French |
 | [Plymouth](#plymouth) | 1 | American |
 | [Pontiac](#pontiac) | 12 | American |
 | [Porsche](#porsche) | 9 | German |
-| [Renault](#renault) | 2 | French |
+| [Renault](#renault) | 56 | French |
 | [Rimac](#rimac) | 2 | Croatian |
 | [Rivian](#rivian) | 2 | American |
 | [Rolls-Royce](#rolls-royce) | 1 | British |
+| [Skoda](#skoda) | 32 | Czech |
 | [Subaru](#subaru) | 20 | Japanese |
 | [TVR](#tvr) | 1 | British |
 | [Tesla](#tesla) | 5 | American |
 | [Toyota](#toyota) | 23 | Japanese |
 | [Volkswagen](#volkswagen) | 9 | German |
-| [Volvo](#volvo) | 1 | Swedish |
+| [Volvo](#volvo) | 35 | Swedish |
 
 ## Acura
 
@@ -218,7 +149,7 @@ generation's factory line-up in hp, performance variants included.
 | Model | Gen | Years | Class | Body | hp | Image |
 |---|---:|---|---|---|---|:-:|
 | Cascada | 1 | 2016–2019 | Coupe | Convertible | 200 | yes |
-| Century | 1 | 1936–1942 | Sedan | Sedan | 120–165 | **no** |
+| Century | 1 | 1936–1942 | Sedan | Sedan | 120–165 | yes |
 | Century | 2 | 1954–1958 | Sedan | Sedan | 200–300 | yes |
 | Century | 3 | 1973–1977 | Sedan | Sedan | 110–230 | yes |
 | Century | 4 | 1978–1981 | Sedan | Sedan | 90–170 | yes |
@@ -239,8 +170,8 @@ generation's factory line-up in hp, performance variants included.
 | Envision | 1 | 2016–2020 | SUV | SUV | 197–252 | yes |
 | Envision | 2 | 2021–2025 | SUV | SUV | 228 | yes |
 | Envista | 1 | 2024–now | SUV | SUV | 137 | yes |
-| Gran Sport / GS | 1 | 1965–1975 | Muscle Car | Coupe | 260–360 | **no** |
-| Invicta | 1 | 1959–1963 | Sedan | Sedan | 325 | **no** |
+| Gran Sport / GS | 1 | 1965–1975 | Muscle Car | Coupe | 260–360 | yes |
+| Invicta | 1 | 1959–1963 | Sedan | Sedan | 325 | yes |
 | LaCrosse | 1 | 2005–2009 | Sedan | Sedan | 200–300 | yes |
 | LaCrosse | 2 | 2010–2016 | Sedan | Sedan | 182–304 | yes |
 | LaCrosse | 3 | 2017–2019 | Sedan | Sedan | 194–310 | yes |
@@ -250,15 +181,15 @@ generation's factory line-up in hp, performance variants included.
 | LeSabre | 4 | 1971–1976 | Sedan | Sedan | 145–260 | yes |
 | LeSabre | 5 | 1977–1985 | Sedan | Sedan | 105–180 | yes |
 | LeSabre | 6 | 1986–1991 | Sedan | Sedan | 140–165 | yes |
-| LeSabre | 7 | 1992–1999 | Sedan | Sedan | 170–205 | **no** |
+| LeSabre | 7 | 1992–1999 | Sedan | Sedan | 170–205 | yes |
 | LeSabre | 8 | 2000–2005 | Sedan | Sedan | 205 | yes |
 | Lucerne | 1 | 2006–2011 | Sedan | Sedan | 197–292 | yes |
-| Park Avenue | 1 | 1991–1996 | Sedan | Sedan | 170–225 | **no** |
+| Park Avenue | 1 | 1991–1996 | Sedan | Sedan | 170–225 | yes |
 | Park Avenue | 2 | 1997–2005 | Sedan | Sedan | 205–240 | yes |
 | Rainier | 1 | 2004–2007 | SUV | SUV | 275–302 | yes |
 | Reatta | 1 | 1988–1991 | Coupe | Coupe | 165–170 | yes |
-| Regal | 1 | 1973–1977 | Coupe | Coupe | 105–175 | **no** |
-| Regal | 2 | 1978–1987 | Coupe | Coupe | 85–245 | **no** |
+| Regal | 1 | 1973–1977 | Coupe | Coupe | 105–175 | yes |
+| Regal | 2 | 1978–1987 | Coupe | Coupe | 85–245 | yes |
 | Regal | 3 | 1988–1996 | Sedan | Sedan | 125–170 | yes |
 | Regal | 4 | 1997–2004 | Sedan | Sedan | 195–240 | yes |
 | Regal | 5 | 2011–2017 | Sedan | Sedan | 182–270 | yes |
@@ -266,7 +197,7 @@ generation's factory line-up in hp, performance variants included.
 | Regal GNX | 1 | 1987–1987 | Muscle Car | Coupe | 276 | yes |
 | Regal Grand National | 1 | 1982–1987 | Muscle Car | Coupe | 175–245 | yes |
 | Rendezvous | 1 | 2002–2007 | SUV | SUV | 185–245 | yes |
-| Riviera | 1 | 1963–1965 | Coupe | Coupe | 325–360 | **no** |
+| Riviera | 1 | 1963–1965 | Coupe | Coupe | 325–360 | yes |
 | Riviera | 2 | 1966–1970 | Coupe | Coupe | 340–370 | yes |
 | Riviera | 3 | 1971–1973 | Coupe | Coupe | 250–330 | yes |
 | Riviera | 4 | 1974–1976 | Coupe | Coupe | 205–230 | yes |
@@ -274,7 +205,7 @@ generation's factory line-up in hp, performance variants included.
 | Riviera | 6 | 1979–1985 | Coupe | Coupe | 105–190 | yes |
 | Riviera | 7 | 1986–1993 | Coupe | Coupe | 140–170 | yes |
 | Riviera | 8 | 1995–1999 | Coupe | Coupe | 205–240 | yes |
-| Roadmaster | 1 | 1936–1958 | Sedan | Sedan | 120–300 | **no** |
+| Roadmaster | 1 | 1936–1958 | Sedan | Sedan | 120–300 | yes |
 | Roadmaster | 2 | 1991–1996 | Sedan | Sedan | 170–260 | yes |
 | Skylark | 1 | 1953–1954 | Coupe | Convertible | 188–200 | yes |
 | Skylark | 2 | 1961–1963 | Coupe | Coupe | 185–200 | yes |
@@ -284,7 +215,7 @@ generation's factory line-up in hp, performance variants included.
 | Skylark | 6 | 1986–1991 | Sedan | Sedan | 92–160 | yes |
 | Skylark | 7 | 1992–1998 | Sedan | Sedan | 115–160 | yes |
 | Somerset | 1 | 1985–1987 | Coupe | Coupe | 86–125 | yes |
-| Special | 1 | 1936–1958 | Sedan | Sedan | 93–250 | **no** |
+| Special | 1 | 1936–1958 | Sedan | Sedan | 93–250 | yes |
 | Special | 2 | 1961–1969 | Sedan | Sedan | 135–260 | yes |
 | Super | 1 | 1940–1958 | Sedan | Sedan | 110–300 | yes |
 | Terraza | 1 | 2005–2007 | Minivan | Minivan | 200–240 | yes |
@@ -297,19 +228,18 @@ generation's factory line-up in hp, performance variants included.
 |---|---:|---|---|---|---|:-:|
 | Allanté | 1 | 1987–1993 | Sports Car | Convertible | 170–295 | yes |
 | ATS | 1 | 2013–2019 | Sedan | Sedan | 202–335 | yes |
-| ATS-V | 1 | 2016–2019 | Sedan | Sedan | 464 | **no** |
+| ATS-V | 1 | 2016–2019 | Sedan | Sedan | 464 | yes |
 | Calais | 1 | 1965–1976 | Sedan | Sedan | 190–375 | yes |
 | Catera | 1 | 1997–2001 | Sedan | Sedan | 200 | yes |
 | Celestiq | 1 | 2024–now | Sedan | Sedan | 600–655 | yes |
 | Cimarron | 1 | 1982–1988 | Sedan | Sedan | 88–125 | yes |
 | CT4 | 1 | 2020–now | Sedan | Sedan | 237–325 | yes |
-| CT4-V Blackwing | 1 | 2022–now | Sedan | Sedan | 472 | **no** |
+| CT4-V Blackwing | 1 | 2022–now | Sedan | Sedan | 472 | yes |
 | CT5 | 1 | 2020–now | Sedan | Sedan | 237–360 | yes |
-| CT5-V Blackwing | 1 | 2022–now | Sedan | Sedan | 668 | **no** |
-| CT6 | 1 | 2016–2020 | Sedan | Sedan | 237–550 | **no** |
+| CT5-V Blackwing | 1 | 2022–now | Sedan | Sedan | 668 | yes |
+| CT6 | 1 | 2016–2020 | Sedan | Sedan | 237–550 | yes |
 | CTS | 1 | 2003–2007 | Sedan | Sedan | 210–255 | yes |
-| CTS | 2 | 2008–2014 | Sedan | Sedan | 263–318 | **no** |
-| CTS | 3 | 2014–2019 | Sedan | Sedan | 268–420 | **no** |
+| CTS | 2 | 2008–2014 | Sedan | Sedan | 263–318 | yes |
 | CTS-V | 1 | 2004–2007 | Sedan | Sedan | 400 | yes |
 | CTS-V | 2 | 2009–2014 | Sedan | Sedan | 556 | yes |
 | CTS-V | 3 | 2016–2019 | Sedan | Sedan | 640 | yes |
@@ -318,10 +248,9 @@ generation's factory line-up in hp, performance variants included.
 | De Ville | 3 | 1971–1976 | Sedan | Sedan | 190–345 | yes |
 | De Ville | 4 | 1977–1984 | Sedan | Sedan | 105–180 | yes |
 | De Ville | 5 | 1985–1993 | Sedan | Sedan | 125–200 | yes |
-| DeVille | 6 | 1994–1999 | Sedan | Sedan | 200–300 | **no** |
+| DeVille | 6 | 1994–1999 | Sedan | Sedan | 200–300 | yes |
 | DeVille | 7 | 2000–2005 | Sedan | Sedan | 275–300 | yes |
 | DTS | 1 | 2006–2011 | Sedan | Sedan | 275–292 | yes |
-| Eldorado | 1 | 1953–1953 | Coupe | Convertible | 210 | **no** |
 | Eldorado | 2 | 1954–1956 | Coupe | Convertible | 230–305 | yes |
 | Eldorado | 3 | 1957–1958 | Coupe | Convertible | 325–335 | yes |
 | Eldorado | 4 | 1959–1960 | Coupe | Convertible | 345 | yes |
@@ -329,7 +258,7 @@ generation's factory line-up in hp, performance variants included.
 | Eldorado | 6 | 1967–1970 | Coupe | Coupe | 340–400 | yes |
 | Eldorado | 7 | 1971–1978 | Coupe | Convertible | 180–365 | yes |
 | Eldorado | 8 | 1979–1985 | Coupe | Coupe | 105–180 | yes |
-| Eldorado | 9 | 1986–1991 | Coupe | Coupe | 130–200 | **no** |
+| Eldorado | 9 | 1986–1991 | Coupe | Coupe | 130–200 | yes |
 | Eldorado | 10 | 1992–2002 | Coupe | Coupe | 200–300 | yes |
 | ELR | 1 | 2014–2016 | Coupe | Coupe | 207–233 | yes |
 | Escalade | 1 | 1999–2000 | SUV | SUV | 255 | yes |
@@ -349,15 +278,15 @@ generation's factory line-up in hp, performance variants included.
 | Seville | 3 | 1986–1991 | Sedan | Sedan | 130–200 | yes |
 | Seville | 4 | 1992–1997 | Sedan | Sedan | 200–300 | yes |
 | Seville | 5 | 1998–2004 | Sedan | Sedan | 275–300 | yes |
-| SRX | 1 | 2004–2009 | SUV | SUV | 255–320 | **no** |
-| SRX | 2 | 2010–2016 | SUV | SUV | 265–308 | **no** |
+| SRX | 1 | 2004–2009 | SUV | SUV | 255–320 | yes |
+| SRX | 2 | 2010–2016 | SUV | SUV | 265–308 | yes |
 | STS | 1 | 2005–2011 | Sedan | Sedan | 255–469 | yes |
 | Vistiq | 1 | 2026–now | SUV | SUV | 615 | yes |
 | XLR | 1 | 2004–2009 | Sports Car | Convertible | 320–443 | yes |
 | XT4 | 1 | 2019–2025 | SUV | SUV | 235–237 | yes |
 | XT5 | 1 | 2017–now | SUV | SUV | 235–310 | yes |
 | XT6 | 1 | 2020–2025 | SUV | SUV | 237–310 | yes |
-| XTS | 1 | 2013–2019 | Sedan | Sedan | 304–410 | **no** |
+| XTS | 1 | 2013–2019 | Sedan | Sedan | 304–410 | yes |
 
 ## Chevrolet
 
@@ -387,6 +316,52 @@ generation's factory line-up in hp, performance variants included.
 | Trailblazer | 1 | 2002–2009 | SUV | SUV | 270 | yes |
 | Traverse | 1 | 2009–2017 | SUV | SUV | 281 | yes |
 | Trax | 1 | 2013–2022 | SUV | SUV | 138 | yes |
+
+## Citroën
+
+| Model | Gen | Years | Class | Body | hp | Image |
+|---|---:|---|---|---|---|:-:|
+| 2CV | 1 | 1948–1990 | Sedan | Sedan | 9–29 | yes |
+| Ami | 2 | 2020–now | Hatchback | Hatchback | 8 | yes |
+| AX | 1 | 1986–1998 | Hatchback | Hatchback | 45–100 | yes |
+| Berlingo | 3 | 2018–now | Minivan | Minivan | 100–134 | yes |
+| BX | 1 | 1982–1994 | Hatchback | Hatchback | 54–158 | yes |
+| C1 | 2 | 2014–2022 | Hatchback | Hatchback | 67–81 | yes |
+| C2 | 1 | 2003–2009 | Hatchback | Hatchback | 60–123 | yes |
+| C3 | 1 | 2002–2009 | Hatchback | Hatchback | 60–108 | yes |
+| C3 | 2 | 2009–2016 | Hatchback | Hatchback | 67–118 | yes |
+| C3 | 3 | 2016–2024 | Hatchback | Hatchback | 67–108 | yes |
+| C3 Aircross | 1 | 2017–2024 | SUV | SUV | 81–128 | yes |
+| C3 Aircross | 2 | 2024–now | SUV | SUV | 99–134 | yes |
+| C4 | 2 | 2010–2018 | Hatchback | Hatchback | 91–161 | yes |
+| C4 | 3 | 2020–now | Hatchback | Hatchback | 99–154 | yes |
+| C4 Cactus | 1 | 2014–2020 | Hatchback | Hatchback | 74–128 | yes |
+| C4 Picasso | 1 | 2006–2013 | Minivan | Minivan | 108–148 | yes |
+| C4 Picasso / SpaceTourer | 2 | 2013–2022 | Minivan | Minivan | 99–163 | yes |
+| C5 | 1 | 2001–2008 | Sedan | Hatchback | 108–207 | yes |
+| C5 | 2 | 2008–2017 | Sedan | Sedan | 108–237 | yes |
+| C5 Aircross | 1 | 2018–2025 | SUV | SUV | 128–222 | yes |
+| C5 Aircross | 2 | 2025–now | SUV | SUV | 143–227 | yes |
+| C5 X | 1 | 2021–now | Sedan | Hatchback | 128–222 | yes |
+| C6 | 1 | 2005–2012 | Sedan | Sedan | 168–237 | yes |
+| C8 | 1 | 2002–2014 | Minivan | Minivan | 107–201 | yes |
+| CX | 1 | 1974–1991 | Sedan | Sedan | 66–166 | yes |
+| DS | 1 | 1955–1975 | Sedan | Sedan | 64–139 | yes |
+| DS3 | 1 | 2009–2015 | Hatchback | Hatchback | 74–204 | yes |
+| DS4 | 1 | 2011–2015 | Hatchback | Hatchback | 108–197 | yes |
+| DS5 | 1 | 2011–2015 | Hatchback | Hatchback | 108–197 | yes |
+| GS / GSA | 1 | 1970–1986 | Sedan | Sedan | 54–106 | yes |
+| H Van | 1 | 1947–1981 | Van | Van | 28–58 | yes |
+| ID | 1 | 1957–1975 | Sedan | Sedan | 62–108 | yes |
+| LN / LNA | 1 | 1976–1986 | Hatchback | Hatchback | 32–50 | yes |
+| Saxo | 1 | 1996–2004 | Hatchback | Hatchback | 45–118 | yes |
+| SM | 1 | 1970–1975 | Sports Car | Coupe | 168–176 | yes |
+| Traction Avant | 1 | 1934–1957 | Sedan | Sedan | 32–76 | yes |
+| Visa | 1 | 1978–1988 | Hatchback | Hatchback | 35–113 | yes |
+| Xantia | 1 | 1993–2002 | Sedan | Hatchback | 89–191 | yes |
+| XM | 1 | 1989–2000 | Sedan | Hatchback | 108–197 | yes |
+| Xsara Picasso | 1 | 1999–2012 | Minivan | Minivan | 89–136 | yes |
+| ZX | 1 | 1991–1998 | Hatchback | Hatchback | 64–165 | yes |
 
 ## Dodge
 
@@ -423,6 +398,66 @@ generation's factory line-up in hp, performance variants included.
 | F8 Spider | 1 | 2019–2023 | Supercar | Convertible | 710 | yes |
 | Roma | 1 | 2019–now | Coupe | Coupe | 612 | yes |
 
+## Fiat
+
+| Model | Gen | Years | Class | Body | hp | Image |
+|---|---:|---|---|---|---|:-:|
+| 124 Spider | 1 | 2016–2020 | Sports Car | Convertible | 138–160 | yes |
+| 124 Sport Spider | 1 | 1966–1985 | Sports Car | Convertible | 89–135 | yes |
+| 126 | 1 | 1972–2000 | Hatchback | Hatchback | 23–25 | yes |
+| 127 | 1 | 1971–1983 | Hatchback | Hatchback | 40–75 | yes |
+| 128 | 1 | 1969–1985 | Sedan | Sedan | 54–74 | yes |
+| 131 | 1 | 1974–1984 | Sedan | Sedan | 64–113 | yes |
+| 132 | 1 | 1972–1981 | Sedan | Sedan | 71–120 | yes |
+| 500 | 1 | 2007–2024 | Hatchback | Hatchback | 59–99 | yes |
+| 500 Topolino | 1 | 1936–1955 | Hatchback | Hatchback | 13–16 | yes |
+| 500e | 1 | 2020–now | Hatchback | Hatchback | 94–117 | yes |
+| 500L | 1 | 2012–2022 | Minivan | Minivan | 94–160 | yes |
+| 500X | 1 | 2014–now | SUV | SUV | 94–180 | yes |
+| 600 | 1 | 1955–1969 | Hatchback | Hatchback | 21–32 | yes |
+| Argenta | 1 | 1981–1985 | Sedan | Sedan | 72–133 | yes |
+| Argo | 1 | 2017–now | Hatchback | Hatchback | 75–139 | yes |
+| Barchetta | 1 | 1995–2005 | Sports Car | Convertible | 128 | yes |
+| Bravo | 2 | 2007–2014 | Hatchback | Hatchback | 89–163 | yes |
+| Bravo / Brava | 1 | 1995–2001 | Hatchback | Hatchback | 79–145 | yes |
+| Cinquecento | 1 | 1991–1998 | Hatchback | Hatchback | 30–54 | yes |
+| Coupé | 1 | 1993–2000 | Sports Car | Coupe | 129–217 | yes |
+| Croma | 1 | 1985–1996 | Sedan | Hatchback | 89–153 | yes |
+| Croma | 2 | 2005–2011 | Wagon | Wagon | 118–197 | yes |
+| Cronos | 1 | 2018–now | Sedan | Sedan | 75–139 | yes |
+| Dino | 1 | 1966–1973 | Sports Car | Coupe | 158–178 | yes |
+| Doblò | 1 | 2000–2010 | Minivan | Minivan | 64–118 | yes |
+| Doblò | 2 | 2010–2022 | Minivan | Minivan | 89–133 | yes |
+| Doblò | 3 | 2022–now | Minivan | Minivan | 100–134 | yes |
+| Fastback | 1 | 2022–now | SUV | SUV | 128–183 | yes |
+| Freemont | 1 | 2011–2016 | SUV | SUV | 138–280 | yes |
+| Fullback | 1 | 2016–2019 | Pickup Truck | Pickup Truck | 148–178 | yes |
+| Grande Panda | 1 | 2024–now | Hatchback | Hatchback | 99–111 | yes |
+| Grande Punto / Punto | 3 | 2005–2018 | Hatchback | Hatchback | 64–133 | yes |
+| Idea | 1 | 2003–2012 | Minivan | Minivan | 69–94 | yes |
+| Linea | 1 | 2007–2018 | Sedan | Sedan | 76–150 | yes |
+| Multipla | 1 | 1998–2010 | Minivan | Minivan | 89–118 | yes |
+| Nuova 500 | 1 | 1957–1975 | Hatchback | Hatchback | 13–21 | yes |
+| Palio | 1 | 1996–2017 | Hatchback | Hatchback | 54–130 | yes |
+| Panda | 1 | 1980–2003 | Hatchback | Hatchback | 30–50 | yes |
+| Panda | 2 | 2003–2012 | Hatchback | Hatchback | 53–99 | yes |
+| Pulse | 1 | 2021–now | SUV | SUV | 105–183 | yes |
+| Punto | 2 | 1999–2010 | Hatchback | Hatchback | 59–128 | yes |
+| Ritmo / Strada | 1 | 1978–1988 | Hatchback | Hatchback | 54–104 | yes |
+| Sedici | 1 | 2005–2014 | SUV | SUV | 105–133 | yes |
+| Seicento | 1 | 1998–2010 | Hatchback | Hatchback | 30–54 | yes |
+| Stilo | 1 | 2001–2007 | Hatchback | Hatchback | 79–168 | yes |
+| Strada | 2 | 2020–now | Pickup Truck | Pickup Truck | 85–128 | yes |
+| Tempra | 1 | 1990–1998 | Sedan | Sedan | 64–156 | yes |
+| Tipo | 1 | 1988–1995 | Hatchback | Hatchback | 57–146 | yes |
+| Tipo | 2 | 2015–now | Sedan | Sedan | 94–128 | yes |
+| Topolino | 1 | 2023–now | Hatchback | Hatchback | 8 | yes |
+| Toro | 1 | 2016–now | Pickup Truck | Pickup Truck | 128–185 | yes |
+| Ulysse | 1 | 1994–2010 | Minivan | Minivan | 89–201 | yes |
+| Uno | 1 | 1983–1995 | Hatchback | Hatchback | 44–116 | yes |
+| Uno | 2 | 2010–2021 | Hatchback | Hatchback | 73–109 | yes |
+| X1/9 | 1 | 1972–1989 | Sports Car | Coupe | 66–85 | yes |
+
 ## Ford
 
 | Model | Gen | Years | Class | Body | hp | Image |
@@ -457,6 +492,42 @@ generation's factory line-up in hp, performance variants included.
 | Model | Gen | Years | Class | Body | hp | Image |
 |---|---:|---|---|---|---|:-:|
 | Jimmy | 1 | 1970–1972 | Off-Road | SUV | 155–255 | yes |
+
+## Holden
+
+| Model | Gen | Years | Class | Body | hp | Image |
+|---|---:|---|---|---|---|:-:|
+| 48-215 / FJ | 1 | 1948–1956 | Sedan | Sedan | 60 | yes |
+| Astra | 2 | 1987–1989 | Hatchback | Hatchback | 74–85 | yes |
+| Astra | 4 | 1998–2005 | Hatchback | Hatchback | 84–197 | yes |
+| Astra | 5 | 2004–2009 | Hatchback | Hatchback | 113–237 | yes |
+| Astra | 6 | 2017–2020 | Hatchback | Hatchback | 148–197 | yes |
+| Barina | 1 | 1985–2018 | Hatchback | Hatchback | 51–138 | yes |
+| Captiva | 1 | 2006–2018 | SUV | SUV | 134–255 | yes |
+| Colorado | 1 | 2008–2012 | Pickup Truck | Pickup Truck | 154–180 | yes |
+| Colorado | 2 | 2012–2020 | Pickup Truck | Pickup Truck | 147–197 | yes |
+| Commodore | 2 | 1988–1997 | Sedan | Sedan | 160–248 | yes |
+| Commodore | 3 | 1997–2006 | Sedan | Sedan | 197–349 | yes |
+| Commodore | 4 | 2006–2017 | Sedan | Sedan | 241–408 | yes |
+| Commodore | 5 | 2018–2020 | Sedan | Hatchback | 168–308 | yes |
+| Cruze | 1 | 2009–2016 | Sedan | Sedan | 113–163 | yes |
+| FE / FC | 1 | 1956–1960 | Sedan | Sedan | 70 | yes |
+| Gemini | 1 | 1975–1985 | Sedan | Sedan | 60–75 | yes |
+| HD / HR | 1 | 1965–1968 | Sedan | Sedan | 100–145 | yes |
+| Jackaroo | 1 | 1981–1991 | Off-Road | SUV | 85–120 | yes |
+| Kingswood / Premier | 1 | 1968–1971 | Sedan | Sedan | 114–300 | yes |
+| Monaro | 1 | 1968–1971 | Muscle Car | Coupe | 114–300 | yes |
+| Monaro | 2 | 1971–1977 | Muscle Car | Coupe | 118–275 | yes |
+| Monaro | 3 | 2001–2005 | Muscle Car | Coupe | 201–349 | yes |
+| Rodeo | 1 | 1988–2003 | Pickup Truck | Pickup Truck | 80–190 | yes |
+| Rodeo | 2 | 2003–2008 | Pickup Truck | Pickup Truck | 130–210 | yes |
+| Sandman | 1 | 1974–1980 | Van | Van | 118–240 | yes |
+| Statesman | 1 | 1971–1980 | Sedan | Sedan | 118–240 | yes |
+| Statesman / Caprice | 1 | 1990–1999 | Sedan | Sedan | 165–215 | yes |
+| Statesman / Caprice | 2 | 1999–2006 | Sedan | Sedan | 197–349 | yes |
+| Statesman / Caprice | 3 | 2006–2017 | Sedan | Sedan | 241–355 | yes |
+| Torana | 2 | 1969–1974 | Sedan | Sedan | 60–190 | yes |
+| Torana | 3 | 1974–1980 | Sedan | Sedan | 80–240 | yes |
 
 ## Honda
 
@@ -529,16 +600,15 @@ generation's factory line-up in hp, performance variants included.
 | CJ-2A | 1 | 1945–1949 | Off-Road | SUV | 60 | yes |
 | CJ-3A | 1 | 1949–1953 | Off-Road | SUV | 60 | yes |
 | CJ-3B | 1 | 1953–1968 | Off-Road | SUV | 72 | yes |
-| CJ-5 | 1 | 1954–1983 | Off-Road | SUV | 72–150 | **no** |
-| CJ-6 | 1 | 1955–1975 | Off-Road | SUV | 72–160 | **no** |
+| CJ-5 | 1 | 1954–1983 | Off-Road | SUV | 72–150 | yes |
 | CJ-7 | 1 | 1976–1986 | Off-Road | SUV | 82–150 | yes |
-| CJ-8 Scrambler | 1 | 1981–1986 | Off-Road | Pickup Truck | 61–115 | **no** |
+| CJ-8 Scrambler | 1 | 1981–1986 | Off-Road | Pickup Truck | 61–115 | yes |
 | Comanche | 1 | 1986–1992 | Pickup Truck | Pickup Truck | 85–190 | yes |
 | Commander | 1 | 2006–2010 | SUV | SUV | 210–357 | yes |
 | Commander | 2 | 2021–now | SUV | SUV | 182–200 | yes |
 | Compass | 1 | 2007–2017 | SUV | SUV | 138–172 | yes |
 | Compass | 2 | 2017–now | SUV | SUV | 118–240 | yes |
-| Compass | 3 | 2025–now | SUV | SUV | 143–370 | **no** |
+| Compass | 3 | 2025–now | SUV | SUV | 143–370 | yes |
 | FC (Forward Control) | 1 | 1956–1965 | Pickup Truck | Pickup Truck | 72–105 | yes |
 | Gladiator | 1 | 2020–now | Pickup Truck | Pickup Truck | 260–285 | yes |
 | Gladiator / J-Series | 1 | 1963–1988 | Pickup Truck | Pickup Truck | 110–250 | yes |
@@ -550,7 +620,7 @@ generation's factory line-up in hp, performance variants included.
 | Grand Cherokee L | 5 | 2021–now | SUV | SUV | 293–357 | yes |
 | Grand Wagoneer | 1 | 1984–1991 | SUV | SUV | 144 | yes |
 | Grand Wagoneer | 2 | 2022–now | SUV | SUV | 471–510 | yes |
-| Jeepster | 1 | 1948–1950 | SUV | Convertible | 63–72 | **no** |
+| Jeepster | 1 | 1948–1950 | SUV | Convertible | 63–72 | yes |
 | Jeepster Commando | 1 | 1967–1973 | Off-Road | SUV | 75–160 | yes |
 | Liberty | 1 | 2002–2007 | SUV | SUV | 150–210 | yes |
 | Liberty | 2 | 2008–2012 | SUV | SUV | 175–210 | yes |
@@ -562,7 +632,7 @@ generation's factory line-up in hp, performance variants included.
 | Wagoneer S | 1 | 2024–now | SUV | SUV | 600 | yes |
 | Willys MB | 1 | 1941–1945 | Off-Road | SUV | 60 | yes |
 | Wrangler | 1 | 1987–1995 | Off-Road | SUV | 112–190 | yes |
-| Wrangler | 2 | 1997–2006 | Off-Road | SUV | 120–190 | **no** |
+| Wrangler | 2 | 1997–2006 | Off-Road | SUV | 120–190 | yes |
 | Wrangler | 3 | 2007–2018 | Off-Road | SUV | 175–285 | yes |
 | Wrangler | 4 | 2018–now | Off-Road | SUV | 260–470 | yes |
 
@@ -619,14 +689,13 @@ generation's factory line-up in hp, performance variants included.
 |---|---:|---|---|---|---|:-:|
 | CT | 1 | 2011–2022 | Hatchback | Hatchback | 134 | yes |
 | ES | 1 | 1989–1991 | Sedan | Sedan | 156 | yes |
-| ES | 2 | 1991–1996 | Sedan | Sedan | 185–188 | **no** |
-| ES | 3 | 1996–2001 | Sedan | Sedan | 200–210 | **no** |
+| ES | 3 | 1996–2001 | Sedan | Sedan | 200–210 | yes |
 | ES | 4 | 2001–2006 | Sedan | Sedan | 210–225 | yes |
 | ES | 5 | 2006–2012 | Sedan | Sedan | 272 | yes |
 | ES | 6 | 2012–2018 | Sedan | Sedan | 200–268 | yes |
 | ES | 7 | 2018–2025 | Sedan | Sedan | 203–302 | yes |
 | ES | 8 | 2026–now | Sedan | Sedan | 244–338 | yes |
-| GS | 1 | 1991–1997 | Sedan | Sedan | 220–276 | **no** |
+| GS | 1 | 1991–1997 | Sedan | Sedan | 220–276 | yes |
 | GS | 2 | 1997–2005 | Sedan | Sedan | 220–300 | yes |
 | GS | 3 | 2005–2011 | Sedan | Sedan | 245–342 | yes |
 | GS | 4 | 2012–2020 | Sedan | Sedan | 241–467 | yes |
@@ -643,12 +712,11 @@ generation's factory line-up in hp, performance variants included.
 | LFA | 1 | 2010–2012 | Supercar | Coupe | 553 | yes |
 | LM | 1 | 2020–2023 | Minivan | Minivan | 197–247 | yes |
 | LM | 2 | 2023–now | Minivan | Minivan | 247–366 | yes |
-| LS | 1 | 1989–1994 | Sedan | Sedan | 250 | **no** |
-| LS | 2 | 1994–2000 | Sedan | Sedan | 250–290 | yes |
+| LS | 1 | 1989–1994 | Sedan | Sedan | 250 | yes |
 | LS | 3 | 2000–2006 | Sedan | Sedan | 290–294 | yes |
 | LS | 4 | 2006–2017 | Sedan | Sedan | 380–438 | yes |
 | LS | 5 | 2017–now | Sedan | Sedan | 354–416 | yes |
-| LX | 1 | 1996–1997 | SUV | SUV | 212 | **no** |
+| LX | 1 | 1996–1997 | SUV | SUV | 212 | yes |
 | LX | 2 | 1998–2007 | SUV | SUV | 230–275 | yes |
 | LX | 3 | 2008–2021 | SUV | SUV | 367–383 | yes |
 | LX | 4 | 2022–now | SUV | SUV | 409–457 | yes |
@@ -729,71 +797,64 @@ generation's factory line-up in hp, performance variants included.
 
 | Model | Gen | Years | Class | Body | hp | Image |
 |---|---:|---|---|---|---|:-:|
-| 3000GT / GTO | 1 | 1990–2000 | Sports Car | Coupe | 160–320 | **no** |
+| 3000GT / GTO | 1 | 1990–2000 | Sports Car | Coupe | 160–320 | yes |
 | ASX | 2 | 2023–now | SUV | SUV | 90–158 | yes |
 | Colt | 1 | 2002–2012 | Hatchback | Hatchback | 74–154 | yes |
-| Colt | 2 | 2023–now | Hatchback | Hatchback | 64–141 | **no** |
+| Colt | 2 | 2023–now | Hatchback | Hatchback | 64–141 | yes |
 | Colt Galant / Galant | 1 | 1969–1973 | Sedan | Sedan | 85–123 | yes |
 | Cordia | 1 | 1982–1990 | Coupe | Coupe | 75–114 | yes |
 | Delica D:5 | 1 | 2007–now | Minivan | Minivan | 143–168 | yes |
 | Destinator | 1 | 2025–now | SUV | SUV | 161 | yes |
-| Diamante | 1 | 1990–1996 | Sedan | Sedan | 158–207 | **no** |
+| Diamante | 1 | 1990–1996 | Sedan | Sedan | 158–207 | yes |
 | Diamante | 2 | 1995–2005 | Sedan | Sedan | 172–210 | yes |
 | Eclipse | 1 | 1989–1994 | Sports Car | Coupe | 92–195 | yes |
 | Eclipse | 2 | 1995–1999 | Sports Car | Coupe | 140–210 | yes |
 | Eclipse | 3 | 2000–2005 | Sports Car | Coupe | 147–210 | yes |
 | Eclipse | 4 | 2006–2012 | Sports Car | Coupe | 162–265 | yes |
 | Eclipse Cross | 1 | 2017–now | SUV | SUV | 148–188 | yes |
-| Endeavor | 1 | 2004–2011 | SUV | SUV | 215–225 | **no** |
+| Endeavor | 1 | 2004–2011 | SUV | SUV | 215–225 | yes |
 | Expo | 1 | 1992–1996 | Minivan | Minivan | 113–136 | yes |
-| FTO | 1 | 1994–2000 | Sports Car | Coupe | 123–197 | **no** |
+| FTO | 1 | 1994–2000 | Sports Car | Coupe | 123–197 | yes |
 | Galant | 2 | 1973–1987 | Sedan | Sedan | 74–145 | yes |
-| Galant | 6 | 1987–1992 | Sedan | Sedan | 90–237 | **no** |
-| Galant | 7 | 1992–1996 | Sedan | Sedan | 88–237 | **no** |
+| Galant | 7 | 1992–1996 | Sedan | Sedan | 88–237 | yes |
 | Galant | 8 | 1996–2003 | Sedan | Sedan | 98–276 | yes |
 | Galant | 9 | 2004–2012 | Sedan | Sedan | 160–258 | yes |
-| i-MiEV | 1 | 2009–2021 | Hatchback | Hatchback | 63–66 | **no** |
-| L200 / Triton | 1 | 1978–1986 | Pickup Truck | Pickup Truck | 79–108 | **no** |
-| L200 / Triton | 2 | 1986–1996 | Pickup Truck | Pickup Truck | 76–150 | **no** |
+| i-MiEV | 1 | 2009–2021 | Hatchback | Hatchback | 63–66 | yes |
 | L200 / Triton | 3 | 1996–2005 | Pickup Truck | Pickup Truck | 99–133 | yes |
 | L200 / Triton | 4 | 2005–2015 | Pickup Truck | Pickup Truck | 113–182 | yes |
 | L200 / Triton | 5 | 2015–2024 | Pickup Truck | Pickup Truck | 126–178 | yes |
-| L200 / Triton | 6 | 2023–now | Pickup Truck | Pickup Truck | 148–201 | **no** |
+| L200 / Triton | 6 | 2023–now | Pickup Truck | Pickup Truck | 148–201 | yes |
 | Lancer | 1 | 1973–1979 | Sedan | Sedan | 69–108 | yes |
-| Lancer | 7 | 2000–2007 | Sedan | Sedan | 98–162 | **no** |
+| Lancer | 7 | 2000–2007 | Sedan | Sedan | 98–162 | yes |
 | Lancer | 8 | 2007–2017 | Sedan | Sedan | 107–237 | yes |
-| Lancer / Mirage | 4 | 1988–1992 | Sedan | Sedan | 67–192 | **no** |
-| Lancer / Mirage | 5 | 1991–1996 | Sedan | Sedan | 74–192 | **no** |
-| Lancer / Mirage | 6 | 1995–2003 | Sedan | Sedan | 78–173 | **no** |
+| Lancer / Mirage | 4 | 1988–1992 | Sedan | Sedan | 67–192 | yes |
+| Lancer / Mirage | 5 | 1991–1996 | Sedan | Sedan | 74–192 | yes |
+| Lancer / Mirage | 6 | 1995–2003 | Sedan | Sedan | 78–173 | yes |
 | Lancer Evolution I | 1 | 1992–1994 | Sports Car | Sedan | 247 | yes |
-| Lancer Evolution II | 1 | 1994–1995 | Sports Car | Sedan | 256 | **no** |
-| Lancer Evolution III | 1 | 1995–1996 | Sports Car | Sedan | 266 | **no** |
 | Lancer Evolution IV | 1 | 1996–1998 | Sports Car | Sedan | 276 | yes |
 | Lancer Evolution IX | 1 | 2005–2007 | Sports Car | Sedan | 276–286 | yes |
-| Lancer Evolution V | 1 | 1998–1999 | Sports Car | Sedan | 276 | **no** |
 | Lancer Evolution VI | 1 | 1999–2001 | Sports Car | Sedan | 276 | yes |
 | Lancer Evolution VII | 1 | 2001–2003 | Sports Car | Sedan | 271–276 | yes |
 | Lancer Evolution VIII | 1 | 2003–2005 | Sports Car | Sedan | 271–276 | yes |
 | Lancer Evolution X | 1 | 2007–2016 | Sports Car | Sedan | 291–403 | yes |
 | Lancer EX | 2 | 1979–1987 | Sedan | Sedan | 79–158 | yes |
-| Mirage | 1 | 1978–1983 | Hatchback | Hatchback | 54–104 | **no** |
+| Mirage | 1 | 1978–1983 | Hatchback | Hatchback | 54–104 | yes |
 | Mirage | 6 | 2012–2025 | Hatchback | Hatchback | 70–78 | yes |
-| Outlander | 1 | 2001–2006 | SUV | SUV | 134–237 | **no** |
+| Outlander | 1 | 2001–2006 | SUV | SUV | 134–237 | yes |
 | Outlander | 2 | 2005–2012 | SUV | SUV | 138–230 | yes |
 | Outlander | 3 | 2012–2021 | SUV | SUV | 148–224 | yes |
-| Outlander | 4 | 2021–now | SUV | SUV | 181–302 | **no** |
-| Outlander Sport / ASX / RVR | 1 | 2010–2023 | SUV | SUV | 115–168 | **no** |
+| Outlander | 4 | 2021–now | SUV | SUV | 181–302 | yes |
+| Outlander Sport / ASX / RVR | 1 | 2010–2023 | SUV | SUV | 115–168 | yes |
 | Pajero | 2 | 1991–1999 | Off-Road | SUV | 98–205 | yes |
 | Pajero / Montero | 1 | 1982–1991 | Off-Road | SUV | 82–148 | yes |
-| Pajero / Montero | 3 | 1999–2006 | Off-Road | SUV | 158–215 | **no** |
-| Pajero / Montero | 4 | 2006–2021 | Off-Road | SUV | 168–247 | **no** |
+| Pajero / Montero | 3 | 1999–2006 | Off-Road | SUV | 158–215 | yes |
+| Pajero / Montero | 4 | 2006–2021 | Off-Road | SUV | 168–247 | yes |
 | Pajero iO / Pinin | 1 | 1998–2007 | SUV | SUV | 98–127 | yes |
-| Pajero Sport / Montero Sport | 1 | 1996–2008 | Off-Road | SUV | 99–197 | **no** |
-| Pajero Sport / Montero Sport | 2 | 2008–2015 | Off-Road | SUV | 134–217 | **no** |
+| Pajero Sport / Montero Sport | 1 | 1996–2008 | Off-Road | SUV | 99–197 | yes |
 | Pajero Sport / Montero Sport | 3 | 2015–now | Off-Road | SUV | 178–206 | yes |
 | Raider | 1 | 2006–2009 | Pickup Truck | Pickup Truck | 210–230 | yes |
 | Space Star | 1 | 1998–2005 | Minivan | Minivan | 85–120 | yes |
-| Starion | 1 | 1982–1989 | Sports Car | Hatchback | 143–197 | **no** |
+| Starion | 1 | 1982–1989 | Sports Car | Hatchback | 143–197 | yes |
 | Tredia | 1 | 1982–1990 | Sedan | Sedan | 82–114 | yes |
 | Xforce | 1 | 2023–now | SUV | SUV | 103–114 | yes |
 | Xpander | 1 | 2017–now | Minivan | Minivan | 103–114 | yes |
@@ -845,20 +906,19 @@ generation's factory line-up in hp, performance variants included.
 | Maxima | 3 | 1989–1994 | Sedan | Sedan | 160–190 | yes |
 | Maxima | 4 | 1995–1999 | Sedan | Sedan | 153–190 | yes |
 | Maxima | 5 | 2000–2003 | Sedan | Sedan | 153–255 | yes |
-| Maxima | 6 | 2004–2008 | Sedan | Sedan | 265 | **no** |
+| Maxima | 6 | 2004–2008 | Sedan | Sedan | 265 | yes |
 | Maxima | 7 | 2009–2015 | Sedan | Sedan | 290 | yes |
 | Maxima | 8 | 2016–2023 | Sedan | Sedan | 300 | yes |
 | Micra | 5 | 2017–2023 | Hatchback | Hatchback | 70–115 | yes |
-| Micra | 6 | 2025–now | Hatchback | Hatchback | 120–148 | **no** |
 | Micra / March | 1 | 1982–1992 | Hatchback | Hatchback | 50–108 | yes |
 | Micra / March | 2 | 1992–2002 | Hatchback | Hatchback | 54–87 | yes |
-| Micra / March | 3 | 2002–2010 | Hatchback | Hatchback | 64–108 | **no** |
+| Micra / March | 3 | 2002–2010 | Hatchback | Hatchback | 64–108 | yes |
 | Micra / March | 4 | 2010–2017 | Hatchback | Hatchback | 79–114 | yes |
 | Murano | 1 | 2003–2007 | SUV | SUV | 245 | yes |
 | Murano | 2 | 2008–2014 | SUV | SUV | 188–265 | yes |
 | Murano | 3 | 2015–2024 | SUV | SUV | 250–260 | yes |
 | Murano | 4 | 2025–now | SUV | SUV | 241 | yes |
-| Navara | 1 | 2005–2015 | Pickup Truck | Pickup Truck | 142–269 | **no** |
+| Navara | 1 | 2005–2015 | Pickup Truck | Pickup Truck | 142–269 | yes |
 | Navara | 2 | 2014–now | Pickup Truck | Pickup Truck | 158–188 | yes |
 | Note | 1 | 2005–2013 | Hatchback | Hatchback | 87–108 | yes |
 | Note | 2 | 2012–2020 | Hatchback | Hatchback | 78–107 | yes |
@@ -872,7 +932,6 @@ generation's factory line-up in hp, performance variants included.
 | Pathfinder | 4 | 2013–2020 | SUV | SUV | 250–284 | yes |
 | Pathfinder | 5 | 2021–now | SUV | SUV | 284 | yes |
 | Patrol | 1 | 1959–1980 | Off-Road | SUV | 125–145 | yes |
-| Patrol | 2 | 1980–1989 | Off-Road | SUV | 94–140 | **no** |
 | Patrol | 3 | 1980–1987 | Off-Road | SUV | 94–128 | yes |
 | Patrol | 4 | 1997–2016 | Off-Road | SUV | 128–281 | yes |
 | Patrol | 5 | 2010–2024 | Off-Road | SUV | 271–422 | yes |
@@ -880,11 +939,10 @@ generation's factory line-up in hp, performance variants included.
 | Primera | 1 | 1990–1996 | Sedan | Sedan | 89–148 | yes |
 | Primera | 2 | 1995–2002 | Sedan | Sedan | 89–187 | yes |
 | Primera | 3 | 2001–2008 | Sedan | Sedan | 108–201 | yes |
-| Pulsar GTI-R | 1 | 1990–1994 | Hot Hatch | Hatchback | 227 | **no** |
-| Pulsar NX / NX | 1 | 1983–1993 | Coupe | Coupe | 67–140 | **no** |
+| Pulsar GTI-R | 1 | 1990–1994 | Hot Hatch | Hatchback | 227 | yes |
 | Qashqai | 3 | 2021–now | SUV | SUV | 138–187 | yes |
-| Qashqai / Rogue Sport | 1 | 2006–2013 | SUV | SUV | 104–148 | **no** |
-| Qashqai / Rogue Sport | 2 | 2013–2021 | SUV | SUV | 108–161 | **no** |
+| Qashqai / Rogue Sport | 1 | 2006–2013 | SUV | SUV | 104–148 | yes |
+| Qashqai / Rogue Sport | 2 | 2013–2021 | SUV | SUV | 108–161 | yes |
 | Quest | 1 | 1993–1998 | Minivan | Minivan | 151 | yes |
 | Quest | 2 | 1999–2002 | Minivan | Minivan | 170 | yes |
 | Quest | 3 | 2004–2009 | Minivan | Minivan | 235–240 | yes |
@@ -903,8 +961,8 @@ generation's factory line-up in hp, performance variants included.
 | Sentra | 7 | 2013–2019 | Sedan | Sedan | 124–188 | yes |
 | Sentra | 8 | 2020–now | Sedan | Sedan | 149 | yes |
 | Silvia | 7 | 1999–2002 | Sports Car | Coupe | 163–247 | yes |
-| Silvia / 200SX | 4 | 1983–1988 | Sports Car | Coupe | 97–187 | **no** |
-| Silvia / 240SX | 5 | 1988–1994 | Sports Car | Coupe | 140–202 | **no** |
+| Silvia / 200SX | 4 | 1983–1988 | Sports Car | Coupe | 97–187 | yes |
+| Silvia / 240SX | 5 | 1988–1994 | Sports Car | Coupe | 140–202 | yes |
 | Silvia / 240SX | 6 | 1993–1998 | Sports Car | Coupe | 155–217 | yes |
 | Skyline | 1 | 1957–1963 | Sedan | Sedan | 59–93 | yes |
 | Skyline | 2 | 1963–1968 | Sedan | Sedan | 69–123 | yes |
@@ -914,13 +972,11 @@ generation's factory line-up in hp, performance variants included.
 | Skyline | 6 | 1981–1985 | Sedan | Sedan | 90–202 | yes |
 | Skyline | 7 | 1985–1989 | Sedan | Sedan | 94–207 | yes |
 | Skyline | 8 | 1989–1994 | Sedan | Sedan | 90–212 | yes |
-| Skyline | 9 | 1993–1998 | Sedan | Sedan | 123–247 | yes |
 | Skyline | 10 | 1998–2002 | Sedan | Sedan | 153–276 | yes |
-| Skyline | 11 | 2001–2006 | Sedan | Sedan | 212–276 | **no** |
+| Skyline | 11 | 2001–2006 | Sedan | Sedan | 212–276 | yes |
 | Skyline | 12 | 2006–2014 | Sedan | Sedan | 222–328 | yes |
 | Skyline | 13 | 2014–now | Sedan | Sedan | 208–400 | yes |
 | Skyline GT-R | 1 | 1969–1972 | Sports Car | Coupe | 158 | yes |
-| Skyline GT-R | 2 | 1973–1973 | Sports Car | Coupe | 158 | **no** |
 | Skyline GT-R | 3 | 1989–1994 | Sports Car | Coupe | 276 | yes |
 | Skyline GT-R | 4 | 1995–1998 | Sports Car | Coupe | 276 | yes |
 | Skyline GT-R | 5 | 1999–2002 | Sports Car | Coupe | 276 | yes |
@@ -951,7 +1007,47 @@ generation's factory line-up in hp, performance variants included.
 
 | Model | Gen | Years | Class | Body | hp | Image |
 |---|---:|---|---|---|---|:-:|
+| 1007 | 1 | 2004–2009 | Hatchback | Hatchback | 74–108 | yes |
+| 104 | 1 | 1972–1988 | Hatchback | Hatchback | 45–71 | yes |
+| 108 | 1 | 2014–2021 | Hatchback | Hatchback | 67–81 | yes |
+| 2008 | 1 | 2013–2019 | SUV | SUV | 81–128 | yes |
+| 2008 | 2 | 2019–now | SUV | SUV | 99–154 | yes |
+| 201 | 1 | 1929–1937 | Sedan | Sedan | 23–35 | yes |
+| 203 | 1 | 1948–1960 | Sedan | Sedan | 42–49 | yes |
+| 204 | 1 | 1965–1976 | Sedan | Sedan | 44–59 | yes |
+| 205 | 1 | 1983–1998 | Hatchback | Hatchback | 44–128 | yes |
 | 205 GTI | 1 | 1984–1994 | Hot Hatch | Hatchback | 104–128 | yes |
+| 206 | 1 | 1998–2012 | Hatchback | Hatchback | 59–175 | yes |
+| 207 | 1 | 2006–2014 | Hatchback | Hatchback | 74–173 | yes |
+| 208 | 1 | 2012–2019 | Hatchback | Hatchback | 67–205 | yes |
+| 208 | 2 | 2019–now | Hatchback | Hatchback | 74–154 | yes |
+| 3008 | 1 | 2009–2016 | SUV | SUV | 108–197 | yes |
+| 3008 | 2 | 2016–2023 | SUV | SUV | 118–296 | yes |
+| 3008 | 3 | 2023–now | SUV | SUV | 143–320 | yes |
+| 301 | 1 | 2012–now | Sedan | Sedan | 71–113 | yes |
+| 305 | 1 | 1977–1989 | Sedan | Sedan | 59–104 | yes |
+| 306 | 1 | 1993–2002 | Hatchback | Hatchback | 74–165 | yes |
+| 307 | 1 | 2001–2008 | Hatchback | Hatchback | 74–174 | yes |
+| 308 | 2 | 2013–2021 | Hatchback | Hatchback | 81–266 | yes |
+| 308 | 3 | 2021–now | Hatchback | Hatchback | 109–222 | yes |
+| 4007 | 1 | 2007–2012 | SUV | SUV | 154–168 | yes |
+| 4008 | 1 | 2012–2017 | SUV | SUV | 113–148 | yes |
+| 403 | 1 | 1955–1966 | Sedan | Sedan | 47–64 | yes |
+| 405 | 1 | 1987–1997 | Sedan | Sedan | 64–197 | yes |
+| 407 | 1 | 2004–2011 | Sedan | Sedan | 114–237 | yes |
+| 408 | 1 | 2022–now | Hatchback | Hatchback | 128–222 | yes |
+| 5008 | 2 | 2017–2024 | SUV | SUV | 128–178 | yes |
+| 5008 | 3 | 2024–now | SUV | SUV | 143–320 | yes |
+| 504 | 1 | 1968–1983 | Sedan | Sedan | 69–142 | yes |
+| 505 | 1 | 1979–1992 | Sedan | Sedan | 72–178 | yes |
+| 508 | 2 | 2018–2025 | Sedan | Sedan | 128–355 | yes |
+| 604 | 1 | 1975–1985 | Sedan | Sedan | 79–142 | yes |
+| 605 | 1 | 1989–1999 | Sedan | Sedan | 114–197 | yes |
+| 806 | 1 | 1994–2002 | Minivan | Minivan | 89–145 | yes |
+| 807 | 1 | 2002–2014 | Minivan | Minivan | 134–201 | yes |
+| Landtrek | 1 | 2020–now | Pickup Truck | Pickup Truck | 148–207 | yes |
+| RCZ | 1 | 2010–2015 | Sports Car | Coupe | 154–266 | yes |
+| Rifter | 1 | 2018–now | Minivan | Minivan | 74–134 | yes |
 
 ## Plymouth
 
@@ -994,8 +1090,62 @@ generation's factory line-up in hp, performance variants included.
 
 | Model | Gen | Years | Class | Body | hp | Image |
 |---|---:|---|---|---|---|:-:|
+| 12 | 1 | 1969–1980 | Sedan | Sedan | 53–123 | yes |
+| 15 / 17 | 1 | 1971–1979 | Coupe | Coupe | 59–107 | yes |
+| 16 | 1 | 1965–1980 | Hatchback | Hatchback | 54–92 | yes |
+| 18 | 1 | 1978–1986 | Sedan | Sedan | 63–123 | yes |
+| 20 / 30 | 1 | 1975–1984 | Hatchback | Hatchback | 63–140 | yes |
+| 4 | 1 | 1961–1994 | Hatchback | Hatchback | 23–34 | yes |
+| 4CV | 1 | 1947–1961 | Sedan | Sedan | 17–21 | yes |
+| 5 Turbo | 1 | 1980–1986 | Hot Hatch | Hatchback | 158 | yes |
+| 6 | 1 | 1968–1986 | Hatchback | Hatchback | 33–47 | yes |
+| 8 | 1 | 1962–1976 | Sedan | Sedan | 43–94 | yes |
+| Alliance / Encore (AMC) | 1 | 1983–1987 | Sedan | Sedan | 56–95 | yes |
+| Austral | 1 | 2022–now | SUV | SUV | 138–197 | yes |
+| Avantime | 1 | 2001–2003 | Minivan | Minivan | 148–204 | yes |
+| Captur | 1 | 2013–2019 | SUV | SUV | 89–148 | yes |
+| Captur | 2 | 2019–now | SUV | SUV | 89–158 | yes |
+| Clio | 1 | 1990–1998 | Hatchback | Hatchback | 54–148 | yes |
+| Clio | 2 | 1998–2012 | Hatchback | Hatchback | 59–180 | yes |
+| Clio | 4 | 2012–2019 | Hatchback | Hatchback | 72–217 | yes |
+| Clio | 5 | 2019–2025 | Hatchback | Hatchback | 64–143 | yes |
+| Clio V6 | 1 | 2001–2005 | Hot Hatch | Hatchback | 227–251 | yes |
 | Clio Williams | 1 | 1993–1995 | Hot Hatch | Hatchback | 148 | yes |
+| Dauphine | 1 | 1956–1967 | Sedan | Sedan | 26–54 | yes |
+| Espace | 2 | 1991–1996 | Minivan | Minivan | 89–151 | yes |
+| Espace | 3 | 1996–2002 | Minivan | Minivan | 98–187 | yes |
+| Espace | 4 | 2002–2014 | Minivan | Minivan | 118–241 | yes |
+| Espace | 5 | 2015–2023 | Minivan | Minivan | 128–222 | yes |
+| Espace | 6 | 2023–now | SUV | SUV | 197 | yes |
+| Floride / Caravelle | 1 | 1958–1968 | Sports Car | Convertible | 39–54 | yes |
+| Fuego | 1 | 1980–1992 | Coupe | Coupe | 63–130 | yes |
+| Grand Koleos | 3 | 2024–now | SUV | SUV | 208–242 | yes |
+| Kadjar | 1 | 2015–2022 | SUV | SUV | 108–158 | yes |
+| Kangoo | 2 | 2007–2021 | Minivan | Minivan | 74–113 | yes |
+| Koleos | 1 | 2008–2016 | SUV | SUV | 141–171 | yes |
+| Koleos | 2 | 2016–2024 | SUV | SUV | 142–175 | yes |
+| Kwid | 1 | 2015–now | Hatchback | Hatchback | 53–67 | yes |
+| Laguna | 2 | 2001–2007 | Hatchback | Hatchback | 94–204 | yes |
+| Laguna | 3 | 2007–2015 | Hatchback | Hatchback | 108–237 | yes |
+| Mégane | 2 | 2002–2009 | Hatchback | Hatchback | 79–163 | yes |
+| Mégane | 3 | 2008–2016 | Hatchback | Hatchback | 89–178 | yes |
+| Mégane | 4 | 2016–2024 | Hatchback | Hatchback | 89–202 | yes |
+| Mégane E-Tech Electric | 1 | 2022–now | SUV | SUV | 128–217 | yes |
 | Megane RS | 3 | 2018–2023 | Hot Hatch | Hatchback | 276–296 | yes |
+| Mégane RS | 4 | 2018–2023 | Hot Hatch | Hatchback | 276–296 | yes |
+| Modus | 1 | 2004–2012 | Minivan | Minivan | 74–110 | yes |
+| Safrane | 1 | 1992–2000 | Hatchback | Hatchback | 105–264 | yes |
+| Scénic | 1 | 1996–2003 | Minivan | Minivan | 89–138 | yes |
+| Scénic | 3 | 2009–2016 | Minivan | Minivan | 89–158 | yes |
+| Scénic E-Tech | 5 | 2024–now | SUV | SUV | 168–217 | yes |
+| Super 5 | 2 | 1984–1996 | Hatchback | Hatchback | 42–118 | yes |
+| Twingo | 2 | 2007–2014 | Hatchback | Hatchback | 57–131 | yes |
+| Twingo | 3 | 2014–2024 | Hatchback | Hatchback | 64–108 | yes |
+| Twingo E-Tech | 4 | 2026–now | Hatchback | Hatchback | 81 | yes |
+| Twizy | 1 | 2012–2023 | Hatchback | Convertible | 5–17 | yes |
+| Vel Satis | 1 | 2002–2009 | Hatchback | Hatchback | 148–238 | yes |
+| Wind | 1 | 2010–2013 | Sports Car | Convertible | 99–131 | yes |
+| Zoe | 1 | 2012–2024 | Hatchback | Hatchback | 79–133 | yes |
 
 ## Rimac
 
@@ -1016,6 +1166,43 @@ generation's factory line-up in hp, performance variants included.
 | Model | Gen | Years | Class | Body | hp | Image |
 |---|---:|---|---|---|---|:-:|
 | Phantom | 7 | 2003–2016 | Sedan | Sedan | 453 | yes |
+
+## Skoda
+
+| Model | Gen | Years | Class | Body | hp | Image |
+|---|---:|---|---|---|---|:-:|
+| 100 / 110 | 1 | 1969–1977 | Sedan | Sedan | 41–61 | yes |
+| 1000 MB | 1 | 1964–1969 | Sedan | Sedan | 42–52 | yes |
+| 105 / 120 / Estelle | 1 | 1976–1990 | Sedan | Sedan | 45–57 | yes |
+| 110 R Coupé | 1 | 1970–1980 | Sports Car | Coupe | 61 | yes |
+| Citigo | 1 | 2011–2020 | Hatchback | Hatchback | 59–82 | yes |
+| Elroq | 1 | 2024–now | SUV | SUV | 168–335 | yes |
+| Enyaq | 1 | 2020–now | SUV | SUV | 146–335 | yes |
+| Fabia | 1 | 1999–2007 | Hatchback | Hatchback | 49–128 | yes |
+| Fabia | 2 | 2007–2014 | Hatchback | Hatchback | 59–178 | yes |
+| Fabia | 3 | 2014–2021 | Hatchback | Hatchback | 59–108 | yes |
+| Fabia | 4 | 2021–now | Hatchback | Hatchback | 64–175 | yes |
+| Favorit | 1 | 1987–1994 | Hatchback | Hatchback | 62–67 | yes |
+| Felicia | 1 | 1994–2001 | Hatchback | Hatchback | 53–74 | yes |
+| Kamiq | 1 | 2019–now | SUV | SUV | 94–148 | yes |
+| Karoq | 1 | 2017–now | SUV | SUV | 108–187 | yes |
+| Kodiaq | 1 | 2016–2024 | SUV | SUV | 123–241 | yes |
+| Kodiaq | 2 | 2024–now | SUV | SUV | 148–261 | yes |
+| Kushaq | 1 | 2021–now | SUV | SUV | 113–148 | yes |
+| Kylaq | 1 | 2024–now | SUV | SUV | 113 | yes |
+| Octavia | 1 | 1996–2010 | Sedan | Hatchback | 67–178 | yes |
+| Octavia | 3 | 2012–2020 | Sedan | Hatchback | 85–241 | yes |
+| Octavia (1959) | 1 | 1959–1971 | Sedan | Sedan | 39–54 | yes |
+| Rapid | 1 | 2012–2019 | Sedan | Hatchback | 74–123 | yes |
+| Rapid (Garde) | 1 | 1981–1990 | Coupe | Coupe | 53–61 | yes |
+| Roomster | 1 | 2006–2015 | Minivan | Minivan | 59–104 | yes |
+| Scala | 1 | 2019–now | Hatchback | Hatchback | 94–148 | yes |
+| Slavia | 1 | 2022–now | Sedan | Sedan | 113–148 | yes |
+| Superb | 1 | 2001–2008 | Sedan | Sedan | 99–190 | yes |
+| Superb | 2 | 2008–2015 | Sedan | Hatchback | 104–256 | yes |
+| Superb | 3 | 2015–2023 | Sedan | Hatchback | 118–276 | yes |
+| Superb | 4 | 2024–now | Sedan | Hatchback | 148–261 | yes |
+| Yeti | 1 | 2009–2017 | SUV | SUV | 104–158 | yes |
 
 ## Subaru
 
@@ -1104,5 +1291,39 @@ generation's factory line-up in hp, performance variants included.
 
 | Model | Gen | Years | Class | Body | hp | Image |
 |---|---:|---|---|---|---|:-:|
+| 140 Series | 1 | 1966–1974 | Sedan | Sedan | 74–122 | yes |
+| 164 | 1 | 1968–1975 | Sedan | Sedan | 143–173 | yes |
+| 240 | 1 | 1974–1993 | Sedan | Sedan | 79–153 | yes |
+| 480 | 1 | 1986–1995 | Coupe | Coupe | 108–118 | yes |
+| 760 | 1 | 1982–1990 | Sedan | Sedan | 128–201 | yes |
+| 850 | 1 | 1991–1996 | Sedan | Sedan | 124–247 | yes |
+| 940 / 960 | 1 | 1990–1998 | Sedan | Sedan | 109–201 | yes |
+| Amazon (120 / 130 / 220) | 1 | 1956–1970 | Sedan | Sedan | 59–113 | yes |
+| C30 | 1 | 2006–2013 | Hatchback | Hatchback | 99–227 | yes |
+| C70 | 1 | 1996–2005 | Coupe | Coupe | 161–247 | yes |
+| C70 | 2 | 2006–2013 | Coupe | Convertible | 138–227 | yes |
+| EM90 | 1 | 2024–now | Minivan | Minivan | 268 | yes |
+| ES90 | 1 | 2025–now | Sedan | Sedan | 328–670 | yes |
+| EX30 | 1 | 2023–now | SUV | SUV | 268–422 | yes |
+| EX90 | 1 | 2024–now | SUV | SUV | 402–670 | yes |
+| P1800 | 1 | 1961–1973 | Sports Car | Coupe | 99–128 | yes |
+| PV544 | 1 | 1958–1965 | Sedan | Sedan | 59–94 | yes |
+| S40 / V40 | 1 | 1995–2004 | Sedan | Sedan | 89–197 | yes |
+| S60 | 1 | 2000–2009 | Sedan | Sedan | 138–296 | yes |
+| S60 | 2 | 2010–2018 | Sedan | Sedan | 113–362 | yes |
+| S60 | 3 | 2018–2024 | Sedan | Sedan | 194–455 | yes |
+| S80 | 1 | 1998–2006 | Sedan | Sedan | 138–268 | yes |
+| S80 | 2 | 2006–2016 | Sedan | Sedan | 134–311 | yes |
+| V40 | 2 | 2012–2019 | Hatchback | Hatchback | 113–251 | yes |
+| V60 | 1 | 2010–2018 | Wagon | Wagon | 113–362 | yes |
+| V60 | 2 | 2018–now | Wagon | Wagon | 194–455 | yes |
 | V70 | 1 | 1996–2000 | Wagon | Wagon | 122–250 | yes |
+| V70 | 2 | 2000–2007 | Wagon | Wagon | 138–296 | yes |
+| V70 | 3 | 2007–2016 | Wagon | Wagon | 108–300 | yes |
+| XC40 / EX40 | 1 | 2017–now | SUV | SUV | 127–402 | yes |
+| XC60 | 1 | 2008–2017 | SUV | SUV | 161–325 | yes |
+| XC60 | 2 | 2017–now | SUV | SUV | 194–455 | yes |
+| XC70 | 1 | 2000–2007 | Wagon | Wagon | 161–207 | yes |
+| XC90 | 1 | 2002–2014 | SUV | SUV | 161–311 | yes |
+| XC90 | 2 | 2014–now | SUV | SUV | 187–455 | yes |
 
