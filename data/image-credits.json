@@ -4027,9 +4027,10 @@
     "artist": "DestinationFearFan",
     "source": "https://commons.wikimedia.org/wiki/File:1995_Nissan_Skyline_(R33)_GT-R_front.jpg",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:1993_Nissan_Skyline_R33_GT-R_front.jpg"
+      "https://commons.wikimedia.org/wiki/File:1993_Nissan_Skyline_R33_GT-R_front.jpg",
+      "https://commons.wikimedia.org/wiki/File:1995_Nissan_Skyline_(R33)_GT-R_front.jpg"
     ],
-    "verified": true
+    "rejected": true
   },
   "nissan-skyline-gt-r-g1": {
     "file": "/cars/nissan-skyline-gt-r-g1.webp",
@@ -4556,7 +4557,10 @@
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "artist": "Cutlass",
     "source": "https://commons.wikimedia.org/wiki/File:1994_Lexus_LS_400_in_Opal_White_Pearl,_front_left,_10-25-2025.jpg",
-    "verified": true
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1994_Lexus_LS_400_in_Opal_White_Pearl,_front_left,_10-25-2025.jpg"
+    ]
   },
   "lexus-ls-g3": {
     "file": "/cars/lexus-ls-g3.webp",
@@ -6167,9 +6171,10 @@
     "artist": "Randolf Lomo",
     "source": "https://commons.wikimedia.org/wiki/File:2016_Cadillac_CTS-V.png",
     "rejectedFiles": [
-      "https://commons.wikimedia.org/wiki/File:Cadillac-CTS-2014-gray_IAA2013_front-view_LWS2815.jpg"
+      "https://commons.wikimedia.org/wiki/File:Cadillac-CTS-2014-gray_IAA2013_front-view_LWS2815.jpg",
+      "https://commons.wikimedia.org/wiki/File:2016_Cadillac_CTS-V.png"
     ],
-    "verified": true
+    "rejected": true
   },
   "cadillac-cts-v-g1": {
     "file": "/cars/cadillac-cts-v-g1.webp",
@@ -7548,6 +7553,926 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "artist": "Mr.choppers",
     "source": "https://commons.wikimedia.org/wiki/File:Jeep_CJ-8_Scrambler,_front_right.jpg",
+    "verified": true
+  },
+  "renault-10-g1": {
+    "file": "/cars/renault-10-g1.webp",
+    "article": "Commons search: Renault 10 1967",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Txemari (Argazki).",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_-_10_(FASA)_1967._-_52482657407.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_R8_Gordini_1965-1970_frontright_2009-10-04_U.jpg",
+      "https://commons.wikimedia.org/wiki/File:Renault_-_10_(FASA)_1967._-_52482657407.jpg"
+    ],
+    "rejected": true
+  },
+  "renault-12-g1": {
+    "file": "/cars/renault-12-g1.webp",
+    "article": "Commons search: Renault 12 1971",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1971_Renault_12_TL_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Stamp_of_Umm_al-Quwain-1969-Renault-12-16-1910-75dirham-perfin.jpg"
+    ],
+    "verified": true
+  },
+  "renault-14-g1": {
+    "file": "/cars/renault-14-g1.webp",
+    "article": "Commons search: Renault 14 1978",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Jeremy from Sydney, Australia",
+    "source": "https://commons.wikimedia.org/wiki/File:1978_Renault_Virage_sedan_(15709371148).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1976-01-14_Wim_en_Wilma_Lippens_auto_ongeluk_met_Renault_14.jpg",
+      "https://commons.wikimedia.org/wiki/File:1978_Renault_Virage_sedan_(15709371148).jpg"
+    ],
+    "rejected": true
+  },
+  "renault-15-17-g1": {
+    "file": "/cars/renault-15-17-g1.webp",
+    "article": "Commons search: Renault 15 1973",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:1973_Renault_15_TS_1.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_15_near_Biggleswade_1289cc_first_registered_May_1976.jpg"
+    ],
+    "verified": true
+  },
+  "renault-16-g1": {
+    "file": "/cars/renault-16-g1.webp",
+    "article": "Commons search: Renault 16 1965",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Andrew Bone from Weymouth, England",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_16_(1965-66)_(22982228206).jpg",
+    "verified": true
+  },
+  "renault-18-g1": {
+    "file": "/cars/renault-18-g1.webp",
+    "article": "Commons search: Renault 18 1978",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Kroelleboelle",
+    "source": "https://commons.wikimedia.org/wiki/File:1978_Renault_18_Limousine_Front.jpg",
+    "verified": true
+  },
+  "renault-19-g1": {
+    "file": "/cars/renault-19-g1.webp",
+    "article": "Commons search: Renault 19 1990",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Rutger van der Maar",
+    "source": "https://commons.wikimedia.org/wiki/File:1990_Renault_5_1.4_Automatic_front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_19_GTX_1988.jpg",
+      "https://commons.wikimedia.org/wiki/File:1990_Renault_5_1.4_Automatic_front.jpg"
+    ],
+    "rejected": true
+  },
+  "renault-20-30-g1": {
+    "file": "/cars/renault-20-30-g1.webp",
+    "article": "Commons search: Renault 20 1975",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "https://www.flickr.com/people/nakedcharlton/",
+    "source": "https://commons.wikimedia.org/wiki/File:1983_Renault_20_TX_automatique,_front_view.jpg",
+    "verified": true
+  },
+  "renault-21-g1": {
+    "file": "/cars/renault-21-g1.webp",
+    "article": "Commons search: Renault 21 1988",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Spanish Coches",
+    "source": "https://commons.wikimedia.org/wiki/File:1988_Renault_21_Turbo_(4322170883).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1986-1994_Renault_21_Saloon_(52777497430).jpg",
+      "https://commons.wikimedia.org/wiki/File:1988_Renault_21_Turbo_(4322170883).jpg"
+    ],
+    "rejected": true
+  },
+  "renault-25-g1": {
+    "file": "/cars/renault-25-g1.webp",
+    "article": "Commons search: Renault 25 1986",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Riley from Christchurch, New Zealand",
+    "source": "https://commons.wikimedia.org/wiki/File:1986_Renault_25_GTX_(27754756816).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1984_Renault_25_TS_-_Dieppe,_Seine-Maritime_-_France_(17304063071).jpg",
+      "https://commons.wikimedia.org/wiki/File:1986_Renault_25_GTX_(27754756816).jpg"
+    ],
+    "rejected": true
+  },
+  "renault-4-e-tech-g2": {
+    "file": "/cars/renault-4-e-tech-g2.webp",
+    "article": "Commons search: Renault 4 E-Tech 2026",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MarcelX42",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_4_E-Tech_IAA_Transportation_2026_(DSC2142).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_5_E-Tech_GIMS_2024_1X7A2227.jpg",
+      "https://commons.wikimedia.org/wiki/File:Renault_4_E-Tech_IAA_Transportation_2026_(DSC2142).jpg"
+    ],
+    "rejected": true
+  },
+  "renault-4-g1": {
+    "file": "/cars/renault-4-g1.webp",
+    "article": "Commons search: Renault 4 1963",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Spanish Coches",
+    "source": "https://commons.wikimedia.org/wiki/File:1963_Renault_4_Parisienne_(8557697924).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_4_1961.jpg"
+    ],
+    "verified": true
+  },
+  "renault-4cv-g1": {
+    "file": "/cars/renault-4cv-g1.webp",
+    "article": "Commons search: Renault 4CV 1947",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Rutger van der Maar",
+    "source": "https://commons.wikimedia.org/wiki/File:1958_Renault_4CV_front.jpg",
+    "verified": true
+  },
+  "renault-5-e-tech-g3": {
+    "file": "/cars/renault-5-e-tech-g3.webp",
+    "article": "Commons search: Renault 5 E-Tech 2026",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Bretwa",
+    "source": "https://commons.wikimedia.org/wiki/File:White_Renault_5_E-Tech_Electric_-_2026-02-26.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_5_E-Tech_GIMS_2024_1X7A2227.jpg",
+      "https://commons.wikimedia.org/wiki/File:White_Renault_5_E-Tech_Electric_-_2026-02-26.jpg"
+    ],
+    "rejected": true
+  },
+  "renault-5-g1": {
+    "file": "/cars/renault-5-g1.webp",
+    "article": "Commons search: Renault 5 1974",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Retired electrician",
+    "source": "https://commons.wikimedia.org/wiki/File:Moscow_car_show_2026-08-01_1974_Toyota_Sera,_Renault_5_01.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1972_Renault_5,_GIMS_2024,_Le_Grand-Saconnex_(GIMS0064-2).jpg",
+      "https://commons.wikimedia.org/wiki/File:Moscow_car_show_2026-08-01_1974_Toyota_Sera,_Renault_5_01.jpg"
+    ],
+    "rejected": true
+  },
+  "renault-5-turbo-g1": {
+    "file": "/cars/renault-5-turbo-g1.webp",
+    "article": "Commons search: Renault 5 Turbo 1980",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Alf van Beem",
+    "source": "https://commons.wikimedia.org/wiki/File:Nationale_oldtimerdag_Zandvoort_2010,_1981_RENAULT_5_TURBO,_JH-VZ-86_pic2.JPG",
+    "verified": true
+  },
+  "renault-6-g1": {
+    "file": "/cars/renault-6-g1.webp",
+    "article": "Commons search: Renault 6 1970",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Federico Gomez Aghetta",
+    "source": "https://commons.wikimedia.org/wiki/File:IKA_Renault_6_1970_(frente).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1968_Renault_R_1133_Caravelle,_Dutch_licence_registration_AH-57-43,_pic_6.JPG"
+    ],
+    "verified": true
+  },
+  "renault-8-g1": {
+    "file": "/cars/renault-8-g1.webp",
+    "article": "Commons search: Renault 8 1962",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Croquant",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_-_R_8_Major_-_1962_(M.A.R.C.).jpg",
+    "verified": true
+  },
+  "renault-9-11-g1": {
+    "file": "/cars/renault-9-11-g1.webp",
+    "article": "Commons search: Renault 9 1983",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:1985_Renault_Alliance_convertible.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_9_1981-2_Phase_1_(10444360246).jpg",
+      "https://commons.wikimedia.org/wiki/File:1985_Renault_Alliance_convertible.jpg"
+    ],
+    "rejected": true
+  },
+  "renault-alliance-encore-amc-g1": {
+    "file": "/cars/renault-alliance-encore-amc-g1.webp",
+    "article": "Commons search: Renault Alliance 1983",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Thesupermat",
+    "source": "https://commons.wikimedia.org/wiki/File:R%C3%A9tromobile_2018_-_Renault_Alliance_-_1983_-_002.jpg",
+    "verified": true
+  },
+  "renault-arkana-g1": {
+    "file": "/cars/renault-arkana-g1.webp",
+    "article": "Commons search: Renault Arkana 2021",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Peter Broster",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Arkana_Hybrid_2021.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_Arkana_E-TECH_Hybrid_145_(2022)_(53334256320).jpg",
+      "https://commons.wikimedia.org/wiki/File:Renault_Arkana_Hybrid_2021.jpg"
+    ],
+    "rejected": true
+  },
+  "renault-austral-g1": {
+    "file": "/cars/renault-austral-g1.webp",
+    "article": "Commons search: Renault Austral 2022",
+    "matched": "search",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "Renault France",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Renault_Austral_E-Tech_(front_view).png",
+    "verified": true
+  },
+  "renault-avantime-g1": {
+    "file": "/cars/renault-avantime-g1.webp",
+    "article": "Commons search: Renault Avantime 2001",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2002_Renault_Avantime_Privilege_3.0_Front.jpg",
+    "verified": true
+  },
+  "renault-captur-g1": {
+    "file": "/cars/renault-captur-g1.webp",
+    "article": "Commons search: Renault Captur I",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "LuvsMG481",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Renault_Captur_TCE_front.jpg",
+    "verified": true
+  },
+  "renault-captur-g2": {
+    "file": "/cars/renault-captur-g2.webp",
+    "article": "Commons search: Renault Captur II",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander-93",
+    "source": "https://commons.wikimedia.org/wiki/File:2024_Renault_Captur_II_IMG_9974.jpg",
+    "verified": true
+  },
+  "renault-clio-g1": {
+    "file": "/cars/renault-clio-g1.webp",
+    "article": "Commons search: Renault Clio I",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:1992_Renault_Clio_Williams_2.jpg",
+    "verified": true
+  },
+  "renault-clio-g2": {
+    "file": "/cars/renault-clio-g2.webp",
+    "article": "Commons search: Renault Clio II",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "DieselFordMondeo",
+    "source": "https://commons.wikimedia.org/wiki/File:2002_Renault_Clio_Authentique_1.2_(Front).jpg",
+    "verified": true
+  },
+  "renault-clio-g3": {
+    "file": "/cars/renault-clio-g3.webp",
+    "article": "Commons search: Renault III",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "JoachimKohler-HB",
+    "source": "https://commons.wikimedia.org/wiki/File:DiePost_Paketzustellfahrzeug_Renault_Master_III,_Modell_2010.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2011_Renault_Clio_RS_(54134).jpg",
+      "https://commons.wikimedia.org/wiki/File:DiePost_Paketzustellfahrzeug_Renault_Master_III,_Modell_2010.jpg"
+    ],
+    "rejected": true
+  },
+  "renault-clio-g4": {
+    "file": "/cars/renault-clio-g4.webp",
+    "article": "Commons search: Renault Clio IV",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Renault_Clio_GT_Line_TCE_900cc_Front.jpg",
+    "verified": true
+  },
+  "renault-clio-g5": {
+    "file": "/cars/renault-clio-g5.webp",
+    "article": "Commons search: Renault Clio V",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander-93",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Clio_V_(2023)_1X7A1577.jpg",
+    "verified": true
+  },
+  "renault-clio-g6": {
+    "file": "/cars/renault-clio-g6.webp",
+    "article": "Commons search: Renault VI",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander-93",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Espace_VI_Automesse_Ludwigsburg_2024_IMG_1501.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_Clio_VI_Auto_Zuerich_2025_DSC_3205.jpg",
+      "https://commons.wikimedia.org/wiki/File:Renault_Espace_VI_Automesse_Ludwigsburg_2024_IMG_1501.jpg"
+    ],
+    "rejected": true
+  },
+  "renault-clio-v6-g1": {
+    "file": "/cars/renault-clio-v6-g1.webp",
+    "article": "Commons search: Renault Clio V6 2001",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:2001_Renault_Clio_V6.jpg",
+    "verified": true
+  },
+  "renault-dauphine-g1": {
+    "file": "/cars/renault-dauphine-g1.webp",
+    "article": "Commons search: Renault Dauphine 1956",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Damian B Oh",
+    "source": "https://commons.wikimedia.org/wiki/File:1956_Renault_DauPhine_Red_(1).jpg",
+    "verified": true
+  },
+  "renault-espace-g1": {
+    "file": "/cars/renault-espace-g1.webp",
+    "article": "Commons search: Renault Espace 1986",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MrWalkr",
+    "source": "https://commons.wikimedia.org/wiki/File:1986_Renault_Espace_GTS_Popemobile_MHM.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_Kangoo_frontal_crash.jpg",
+      "https://commons.wikimedia.org/wiki/File:1986_Renault_Espace_GTS_Popemobile_MHM.jpg"
+    ],
+    "rejected": true
+  },
+  "renault-espace-g2": {
+    "file": "/cars/renault-espace-g2.webp",
+    "article": "Commons search: Renault Espace II",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artist": "Rudolf Stricker",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Espace_front_20070520.jpg",
+    "verified": true
+  },
+  "renault-espace-g3": {
+    "file": "/cars/renault-espace-g3.webp",
+    "article": "Commons search: Renault Espace III",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2002_Renault_Espace_Expression_DCi_2.2_Front.jpg",
+    "verified": true
+  },
+  "renault-espace-g4": {
+    "file": "/cars/renault-espace-g4.webp",
+    "article": "Commons search: Renault Espace IV",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Espace_Edition_25th_dCi_175_(IV,_Facelift)_%E2%80%93_Frontansicht_(1),_17._Juli_2011,_Ratingen.jpg",
+    "verified": true
+  },
+  "renault-espace-g5": {
+    "file": "/cars/renault-espace-g5.webp",
+    "article": "Commons search: Renault Espace V",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Espace_Intens_ENERGY_dCi_160_EDC_(V)_%E2%80%93_Frontansicht,_2._Mai_2015,_D%C3%BCsseldorf.jpg",
+    "verified": true
+  },
+  "renault-espace-g6": {
+    "file": "/cars/renault-espace-g6.webp",
+    "article": "Commons search: Renault Espace 2025",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:2025_Renault_Espace_VI_IMG_5634.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_Espace_VI_IAA_2023_1X7A0630.jpg"
+    ],
+    "verified": true
+  },
+  "renault-floride-caravelle-g1": {
+    "file": "/cars/renault-floride-caravelle-g1.webp",
+    "article": "Commons search: Renault Floride 1958",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Sicnag",
+    "source": "https://commons.wikimedia.org/wiki/File:1961_Renault_Floride_Convertible_(46009562625).jpg",
+    "verified": true
+  },
+  "renault-fluence-g1": {
+    "file": "/cars/renault-fluence-g1.webp",
+    "article": "Commons search: Renault Fluence 2011",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Diego HC",
+    "source": "https://commons.wikimedia.org/wiki/File:TC_2000_Renault_Fluence_2011.JPG",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_Fluence_Z.E._Concept_IAA_2009.jpg",
+      "https://commons.wikimedia.org/wiki/File:TC_2000_Renault_Fluence_2011.JPG"
+    ],
+    "rejected": true
+  },
+  "renault-fuego-g1": {
+    "file": "/cars/renault-fuego-g1.webp",
+    "article": "Commons search: Renault Fuego 1980",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Riley from Christchurch, New Zealand",
+    "source": "https://commons.wikimedia.org/wiki/File:1987_Renault_Fuego_Turbo_(9064417061).jpg",
+    "verified": true
+  },
+  "renault-grand-koleos-g3": {
+    "file": "/cars/renault-grand-koleos-g3.webp",
+    "article": "Commons search: Renault Grand Koleos 2024",
+    "matched": "search",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "jasonryudotnet",
+    "source": "https://commons.wikimedia.org/wiki/File:2024_Renault_Grand_Koleos_E-Tech_Hybrid_Iconic_front_view.jpg",
+    "verified": true
+  },
+  "renault-kadjar-g1": {
+    "file": "/cars/renault-kadjar-g1.webp",
+    "article": "Commons search: Renault Kadjar 2015",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Renault_Kadjar_Dynamique_NAV_DCi_1.5_Front.jpg",
+    "verified": true
+  },
+  "renault-kangoo-g1": {
+    "file": "/cars/renault-kangoo-g1.webp",
+    "article": "Commons search: Renault Kangoo 1999",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "order_242 from Chile",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Kangoo_1.9d_RL_Van_1999_(15200655900).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_Kangoo_frontal_crash.jpg",
+      "https://commons.wikimedia.org/wiki/File:Renault_Kangoo_1.9d_RL_Van_1999_(15200655900).jpg"
+    ],
+    "rejected": true
+  },
+  "renault-kangoo-g2": {
+    "file": "/cars/renault-kangoo-g2.webp",
+    "article": "Commons search: Renault Kangoo II",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "EurovisionNim",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Renault_Kangoo_(X61_Series_II)_van_(2017-01-30)_01.jpg",
+    "verified": true
+  },
+  "renault-kangoo-g3": {
+    "file": "/cars/renault-kangoo-g3.webp",
+    "article": "Commons search: Renault III",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Kilyann Le Hen",
+    "source": "https://commons.wikimedia.org/wiki/File:R%C3%A9trosport_2023_-_Renault_Clio_III_RS,_Renault_M%C3%A9gane_III_RS_et_Subaru_Impreza_I_WRX.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_Grand_Kangoo_III_E-Tech_IAA_2023_1X7A0714.jpg",
+      "https://commons.wikimedia.org/wiki/File:R%C3%A9trosport_2023_-_Renault_Clio_III_RS,_Renault_M%C3%A9gane_III_RS_et_Subaru_Impreza_I_WRX.jpg"
+    ],
+    "rejected": true
+  },
+  "renault-koleos-g1": {
+    "file": "/cars/renault-koleos-g1.webp",
+    "article": "Commons search: Renault Koleos I",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Navigator84",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Koleos_China_2012-04-15.JPG",
+    "verified": true
+  },
+  "renault-koleos-g2": {
+    "file": "/cars/renault-koleos-g2.webp",
+    "article": "Commons search: Renault Koleos II",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2019_Renault_Koleos_GT_Line_Front.jpg",
+    "verified": true
+  },
+  "renault-kwid-g1": {
+    "file": "/cars/renault-kwid-g1.webp",
+    "article": "Commons search: Renault Kwid 2017",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "NaBUru38",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Kwid_2017_in_Montevideo_(front).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_Kwid_1.0_Zen_(2022)_(52716009504).jpg"
+    ],
+    "verified": true
+  },
+  "renault-laguna-g1": {
+    "file": "/cars/renault-laguna-g1.webp",
+    "article": "Commons search: Renault I",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Zoppo59",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Kangoo_frontal_crash.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2000_Renault_Laguna_Alize.jpg",
+      "https://commons.wikimedia.org/wiki/File:Renault_Kangoo_frontal_crash.jpg"
+    ],
+    "rejected": true
+  },
+  "renault-laguna-g2": {
+    "file": "/cars/renault-laguna-g2.webp",
+    "article": "Commons search: Renault Laguna II",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2005_Renault_Laguna_Dynamique_DCi_120_1.9_Front.jpg",
+    "verified": true
+  },
+  "renault-laguna-g3": {
+    "file": "/cars/renault-laguna-g3.webp",
+    "article": "Commons search: Renault Laguna III",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "MoCars",
+    "source": "https://commons.wikimedia.org/wiki/File:2011_Renault_Laguna_Coupe_2.0_dCi_150_Dynamique_TomTom_(Front).jpg",
+    "verified": true
+  },
+  "renault-megane-e-tech-electric-g1": {
+    "file": "/cars/renault-megane-e-tech-electric-g1.webp",
+    "article": "Commons search: Renault Mégane E-Tech Electric 2024",
+    "matched": "search",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "Harvey Bold",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Renault_Megane_E-Tech_Launch_Edition_-_60kWh_(220PS)_Electric_-_Shadow_Grey_-_05-2024,_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_M%C3%A9gane_E-Tech_Electric_2022_(52344263718).jpg"
+    ],
+    "verified": true
+  },
+  "renault-megane-g1": {
+    "file": "/cars/renault-megane-g1.webp",
+    "article": "Commons search: Renault I",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Zoppo59",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Kangoo_frontal_crash.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1998_(R)_Renault_M%C3%A9gane_MK1.jpg",
+      "https://commons.wikimedia.org/wiki/File:Renault_Kangoo_frontal_crash.jpg"
+    ],
+    "rejected": true
+  },
+  "renault-megane-g2": {
+    "file": "/cars/renault-megane-g2.webp",
+    "article": "Commons search: Renault Mégane II",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "DieselFordMondeo",
+    "source": "https://commons.wikimedia.org/wiki/File:2003_Renault_M%C3%A9gane_Dynamique_1.9dCi_120_(Front).jpg",
+    "verified": true
+  },
+  "renault-megane-g3": {
+    "file": "/cars/renault-megane-g3.webp",
+    "article": "Commons search: Renault Mégane III",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Charles01",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_M%C3%A9gane_III_diesel_1461cc_registered_December_2016.jpg",
+    "verified": true
+  },
+  "renault-megane-g4": {
+    "file": "/cars/renault-megane-g4.webp",
+    "article": "Commons search: Renault IV",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Renault_Megane_Dynamique_S_NAV_DC_1.5_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2019_Renault_Megane_R.S._300_Trophy_1.8_Front.jpg"
+    ],
+    "verified": true
+  },
+  "renault-megane-rs-g2": {
+    "file": "/cars/renault-megane-rs-g2.webp",
+    "article": "Commons search: Renault II",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "TuRbO_J from Adelaide, Australia",
+    "source": "https://commons.wikimedia.org/wiki/File:2008_Renault_M%C3%A9gane_(X84_Phase_2)_Expression_sedan_(6013554445).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2007_Renault_M%C3%A9gane_RS_230_F1_R26.jpg",
+      "https://commons.wikimedia.org/wiki/File:2008_Renault_M%C3%A9gane_(X84_Phase_2)_Expression_sedan_(6013554445).jpg"
+    ],
+    "rejected": true
+  },
+  "renault-megane-rs-g4": {
+    "file": "/cars/renault-megane-rs-g4.webp",
+    "article": "Commons search: Renault Mégane RS IV",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2019_Renault_Megane_R.S._300_Trophy_1.8_Front.jpg",
+    "verified": true
+  },
+  "renault-modus-g1": {
+    "file": "/cars/renault-modus-g1.webp",
+    "article": "Commons search: Renault Modus 2004",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2005_Renault_Modus_Dynamique_dCi_1.5_Front.jpg",
+    "verified": true
+  },
+  "renault-rafale-g1": {
+    "file": "/cars/renault-rafale-g1.webp",
+    "article": "Commons search: Renault Rafale 2026",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Charles from Port Chester, New York",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Rafale_E-Tech_Full_Hybrid_200_(2025)_(54716823171).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2024_Renault_Rafale_front.jpg",
+      "https://commons.wikimedia.org/wiki/File:Renault_Rafale_E-Tech_Full_Hybrid_200_(2025)_(54716823171).jpg"
+    ],
+    "rejected": true
+  },
+  "renault-safrane-g1": {
+    "file": "/cars/renault-safrane-g1.webp",
+    "article": "Commons search: Renault Safrane 1994",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1994_Renault_Safrane_RT_VI_2.2_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1993_Renault_Safrane_2.0_RT_(12839503054).jpg"
+    ],
+    "verified": true
+  },
+  "renault-scenic-e-tech-g5": {
+    "file": "/cars/renault-scenic-e-tech-g5.webp",
+    "article": "Commons search: Renault Scénic E-Tech 2024",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander-93",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Sc%C3%A9nic_E-Tech_GIMS_2024_1X7A2035.jpg",
+    "verified": true
+  },
+  "renault-scenic-g1": {
+    "file": "/cars/renault-scenic-g1.webp",
+    "article": "Commons search: Renault Scénic I",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "DieselFordMondeo",
+    "source": "https://commons.wikimedia.org/wiki/File:2002_Renault_Sc%C3%A9nic_Privilege%2B_1.9DCi_(Front).jpg",
+    "verified": true
+  },
+  "renault-scenic-g2": {
+    "file": "/cars/renault-scenic-g2.webp",
+    "article": "Commons search: Renault II",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "TuRbO_J from Adelaide, Australia",
+    "source": "https://commons.wikimedia.org/wiki/File:2008_Renault_M%C3%A9gane_(X84_Phase_2)_Expression_sedan_(6013554445).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2002_Renault_Sc%C3%A9nic_Privilege%2B_1.9DCi_(Front).jpg",
+      "https://commons.wikimedia.org/wiki/File:2008_Renault_M%C3%A9gane_(X84_Phase_2)_Expression_sedan_(6013554445).jpg"
+    ],
+    "rejected": true
+  },
+  "renault-scenic-g3": {
+    "file": "/cars/renault-scenic-g3.webp",
+    "article": "Commons search: Renault Scénic III",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Sc%C3%A9nic_Dynamique_ENERGY_dCi_130_Start_%26_Stop_(III,_Facelift)_%E2%80%93_Frontansicht,_21._Juli_2012,_D%C3%BCsseldorf.jpg",
+    "verified": true
+  },
+  "renault-scenic-g4": {
+    "file": "/cars/renault-scenic-g4.webp",
+    "article": "Commons search: Renault IV",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Renault_Megane_Dynamique_S_NAV_DC_1.5_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_Sc%C3%A9nic_IV,_Police_nationale_(2022)_-_1.jpg",
+      "https://commons.wikimedia.org/wiki/File:2017_Renault_Megane_Dynamique_S_NAV_DC_1.5_Front.jpg"
+    ],
+    "rejected": true
+  },
+  "renault-super-5-g2": {
+    "file": "/cars/renault-super-5-g2.webp",
+    "article": "Commons search: Renault Super 5 1984",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Riley from Christchurch, New Zealand",
+    "source": "https://commons.wikimedia.org/wiki/File:1990_Renault_Super_5_GTS_(6759220465).jpg",
+    "verified": true
+  },
+  "renault-symbioz-g1": {
+    "file": "/cars/renault-symbioz-g1.webp",
+    "article": "Commons search: Renault Symbioz 2026",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Charles from Port Chester, New York",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Symbioz_E-Tech_Full_Hybrid_145_(2024)_(54735982794).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_Symbioz_Automesse_Ludwigsburg_2024_IMG_1699.jpg",
+      "https://commons.wikimedia.org/wiki/File:Renault_Symbioz_E-Tech_Full_Hybrid_145_(2024)_(54735982794).jpg"
+    ],
+    "rejected": true
+  },
+  "renault-talisman-g1": {
+    "file": "/cars/renault-talisman-g1.webp",
+    "article": "Commons search: Renault Talisman 2017",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "© M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Talisman_Grandtour_Intens_ENERGY_dCi_160_EDC_%E2%80%93_Frontansicht,_24._Juni_2017,_D%C3%BCsseldorf.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_Talisman_(2015)_1X7A1604.jpg",
+      "https://commons.wikimedia.org/wiki/File:Renault_Talisman_Grandtour_Intens_ENERGY_dCi_160_EDC_%E2%80%93_Frontansicht,_24._Juni_2017,_D%C3%BCsseldorf.jpg"
+    ],
+    "rejected": true
+  },
+  "renault-twingo-e-tech-g4": {
+    "file": "/cars/renault-twingo-e-tech-g4.webp",
+    "article": "Renault Twingo E-Tech",
+    "matched": "main-article",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Twingo_E-Tech_IMG_6605.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_Pro%2B,_IAA_2026,_Hanover_(20260914-P1086875).jpg"
+    ],
+    "verified": true
+  },
+  "renault-twingo-g1": {
+    "file": "/cars/renault-twingo-g1.webp",
+    "article": "Commons search: Renault I",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Zoppo59",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Kangoo_frontal_crash.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Renault_Twingo_GenI_1993-2007_special_edition_AIR_frontfenderright_2008-04-02_A.jpg",
+      "https://commons.wikimedia.org/wiki/File:Renault_Kangoo_frontal_crash.jpg"
+    ],
+    "rejected": true
+  },
+  "renault-twingo-g2": {
+    "file": "/cars/renault-twingo-g2.webp",
+    "article": "Commons search: Renault Twingo II",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Twingo_(II,_Facelift)_%E2%80%93_Frontansicht,_21._Juli_2012,_Heiligenhaus.jpg",
+    "verified": true
+  },
+  "renault-twingo-g3": {
+    "file": "/cars/renault-twingo-g3.webp",
+    "article": "Commons search: Renault Twingo III",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Twingo_Dynamique_(III)_%E2%80%93_Frontansicht,_24._Oktober_2015,_M%C3%BCnster.jpg",
+    "verified": true
+  },
+  "renault-twizy-g1": {
+    "file": "/cars/renault-twizy-g1.webp",
+    "article": "Commons search: Renault Twizy 2012",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Corvettec6r",
+    "source": "https://commons.wikimedia.org/wiki/File:2012_Renault_Twizy_front.JPG",
+    "verified": true
+  },
+  "renault-vel-satis-g1": {
+    "file": "/cars/renault-vel-satis-g1.webp",
+    "article": "Commons search: Renault Vel Satis 2002",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2002_Renault_Vel_Satis_Privilege_DCi_2.2_Front.jpg",
+    "verified": true
+  },
+  "renault-wind-g1": {
+    "file": "/cars/renault-wind-g1.webp",
+    "article": "Commons search: Renault Wind 2010",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "FaceMePLS from The Hague, The Netherlands",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Wind_(2010)_-_Flickr_-_FaceMePLS.jpg",
+    "verified": true
+  },
+  "renault-zoe-g1": {
+    "file": "/cars/renault-zoe-g1.webp",
+    "article": "Commons search: Renault Zoe 2012",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Renault_ZOE.jpg",
     "verified": true
   }
 }

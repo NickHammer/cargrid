@@ -119,3 +119,50 @@ test("new image downloads reject incomplete, restrictive or mismatched license m
 test("current published cars satisfy schema invariants", () => {
   for (const car of cars) assert.deepEqual(validateCar(car), [], car.id);
 });
+
+/**
+ * Two records must never share one Commons file.
+ *
+ * Found live, not hypothetically: the base Nissan Skyline R33 was wearing the
+ * GT-R's photo, the base Cadillac CTS the CTS-V's, and a Renault Scenic was
+ * showing a Renault Megane. The fetcher searches per record and has no idea
+ * another record already took that file, so a shared file means at least one
+ * of the two is wrong — usually the plain car showing its faster sibling,
+ * which is exactly the distinction the dataset keeps separate records for.
+ *
+ * It survived visual review three times because a silver Megane and a silver
+ * Scenic look alike at thumbnail size. The file name does not.
+ */
+test("no two published cars share the same source photo", () => {
+  const credits = JSON.parse(fs.readFileSync(new URL("../data/image-credits.json", import.meta.url), "utf8"));
+  const byFile = new Map();
+  for (const [id, credit] of Object.entries(credits)) {
+    if (!credit?.verified || !credit.source) continue;
+    byFile.set(credit.source, [...(byFile.get(credit.source) ?? []), id]);
+  }
+  const shared = [...byFile].filter(([, ids]) => ids.length > 1);
+  assert.deepEqual(shared.map(([, ids]) => ids.join(" + ")), []);
+});
+
+/** Every published image is on disk, and every file on disk is published. */
+test("cars.json image_url and public/cars are in sync", () => {
+  const dir = new URL("../public/cars/", import.meta.url);
+  const onDisk = new Set(fs.readdirSync(dir));
+  const referenced = new Set(cars.filter((c) => c.image_url).map((c) => c.image_url.replace("/cars/", "")));
+  assert.deepEqual([...referenced].filter((f) => !onDisk.has(f)), [], "referenced but missing from disk");
+  assert.deepEqual([...onDisk].filter((f) => !referenced.has(f)), [], "on disk but referenced by no car");
+});
+
+/**
+ * Attribution is a licence condition, not a nicety: most of these files are
+ * CC BY or CC BY-SA, which require naming the photographer. A published image
+ * with no credit entry is a licence breach, so this guards /credits coverage.
+ */
+test("every published image has a verified credit entry", () => {
+  const credits = JSON.parse(fs.readFileSync(new URL("../data/image-credits.json", import.meta.url), "utf8"));
+  const missing = cars
+    .filter((c) => c.image_url)
+    .filter((c) => !credits[c.id]?.verified || !credits[c.id]?.artist)
+    .map((c) => c.id);
+  assert.deepEqual(missing, []);
+});

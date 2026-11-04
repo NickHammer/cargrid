@@ -5314,7 +5314,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/cadillac-cts-g3.webp"
+    "image_url": ""
   },
   {
     "id": "cadillac-cts-v-g1",
@@ -15925,7 +15925,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/lexus-ls-g2.webp"
+    "image_url": ""
   },
   {
     "id": "lexus-ls-g3",
@@ -25677,7 +25677,7 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/nissan-skyline-g9.webp"
+    "image_url": ""
   },
   {
     "id": "nissan-skyline-gt-r-g1",
@@ -27596,6 +27596,1327 @@
     "image_url": "/cars/porsche-taycan-g1.webp"
   },
   {
+    "id": "renault-10-g1",
+    "make": "Renault",
+    "model": "10",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1965,
+    "production_end": 1971,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 43,
+    "power_output_hp_max": 52,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-12-g1",
+    "make": "Renault",
+    "model": "12",
+    "generation": 1,
+    "brands": [
+      "Renault",
+      "Dacia"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1969,
+    "production_end": 1980,
+    "decades": [
+      "1960s",
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 53,
+    "power_output_hp_max": 123,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-12-g1.webp"
+  },
+  {
+    "id": "renault-14-g1",
+    "make": "Renault",
+    "model": "14",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1976,
+    "production_end": 1983,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 56,
+    "power_output_hp_max": 69,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-15-17-g1",
+    "make": "Renault",
+    "model": "15 / 17",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1971,
+    "production_end": 1979,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 59,
+    "power_output_hp_max": 107,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-15-17-g1.webp"
+  },
+  {
+    "id": "renault-16-g1",
+    "make": "Renault",
+    "model": "16",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1965,
+    "production_end": 1980,
+    "decades": [
+      "1960s",
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 54,
+    "power_output_hp_max": 92,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-16-g1.webp"
+  },
+  {
+    "id": "renault-18-g1",
+    "make": "Renault",
+    "model": "18",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1978,
+    "production_end": 1986,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 63,
+    "power_output_hp_max": 123,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-18-g1.webp"
+  },
+  {
+    "id": "renault-19-g1",
+    "make": "Renault",
+    "model": "19",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1988,
+    "production_end": 2000,
+    "decades": [
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 54,
+    "power_output_hp_max": 135,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-20-30-g1",
+    "make": "Renault",
+    "model": "20 / 30",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1975,
+    "production_end": 1984,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 63,
+    "power_output_hp_max": 140,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-20-30-g1.webp"
+  },
+  {
+    "id": "renault-21-g1",
+    "make": "Renault",
+    "model": "21",
+    "generation": 1,
+    "brands": [
+      "Renault",
+      "Eagle"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1986,
+    "production_end": 1995,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 67,
+    "power_output_hp_max": 173,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-25-g1",
+    "make": "Renault",
+    "model": "25",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1984,
+    "production_end": 1992,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 63,
+    "power_output_hp_max": 202,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-4-e-tech-g2",
+    "make": "Renault",
+    "model": "4 E-Tech",
+    "generation": 2,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 118,
+    "power_output_hp_max": 148,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-4-g1",
+    "make": "Renault",
+    "model": "4",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1961,
+    "production_end": 1994,
+    "decades": [
+      "1960s",
+      "1970s",
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 23,
+    "power_output_hp_max": 34,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-4-g1.webp"
+  },
+  {
+    "id": "renault-4cv-g1",
+    "make": "Renault",
+    "model": "4CV",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1947,
+    "production_end": 1961,
+    "decades": [
+      "1940s",
+      "1950s",
+      "1960s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 17,
+    "power_output_hp_max": 21,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-4cv-g1.webp"
+  },
+  {
+    "id": "renault-5-e-tech-g3",
+    "make": "Renault",
+    "model": "5 E-Tech",
+    "generation": 3,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 94,
+    "power_output_hp_max": 148,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-5-g1",
+    "make": "Renault",
+    "model": "5",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1972,
+    "production_end": 1985,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 33,
+    "power_output_hp_max": 108,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-5-turbo-g1",
+    "make": "Renault",
+    "model": "5 Turbo",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1980,
+    "production_end": 1986,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 158,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-5-turbo-g1.webp"
+  },
+  {
+    "id": "renault-6-g1",
+    "make": "Renault",
+    "model": "6",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1968,
+    "production_end": 1986,
+    "decades": [
+      "1960s",
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 33,
+    "power_output_hp_max": 47,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-6-g1.webp"
+  },
+  {
+    "id": "renault-8-g1",
+    "make": "Renault",
+    "model": "8",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1962,
+    "production_end": 1976,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 43,
+    "power_output_hp_max": 94,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-8-g1.webp"
+  },
+  {
+    "id": "renault-9-11-g1",
+    "make": "Renault",
+    "model": "9 / 11",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1981,
+    "production_end": 1989,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 46,
+    "power_output_hp_max": 113,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-alliance-encore-amc-g1",
+    "make": "Renault",
+    "model": "Alliance / Encore (AMC)",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1983,
+    "production_end": 1987,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 56,
+    "power_output_hp_max": 95,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-alliance-encore-amc-g1.webp"
+  },
+  {
+    "id": "renault-arkana-g1",
+    "make": "Renault",
+    "model": "Arkana",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2019,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 112,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-austral-g1",
+    "make": "Renault",
+    "model": "Austral",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2022,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-3"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 138,
+    "power_output_hp_max": 197,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-austral-g1.webp"
+  },
+  {
+    "id": "renault-avantime-g1",
+    "make": "Renault",
+    "model": "Avantime",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2001,
+    "production_end": 2003,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 148,
+    "power_output_hp_max": 204,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-avantime-g1.webp"
+  },
+  {
+    "id": "renault-captur-g1",
+    "make": "Renault",
+    "model": "Captur",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2013,
+    "production_end": 2019,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-3",
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 148,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-captur-g1.webp"
+  },
+  {
+    "id": "renault-captur-g2",
+    "make": "Renault",
+    "model": "Captur",
+    "generation": 2,
+    "brands": [
+      "Renault",
+      "Mitsubishi"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2019,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3",
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Hybrid",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-captur-g2.webp"
+  },
+  {
+    "id": "renault-clio-g1",
+    "make": "Renault",
+    "model": "Clio",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1990,
+    "production_end": 1998,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 54,
+    "power_output_hp_max": 148,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-clio-g1.webp"
+  },
+  {
+    "id": "renault-clio-g2",
+    "make": "Renault",
+    "model": "Clio",
+    "generation": 2,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1998,
+    "production_end": 2012,
+    "decades": [
+      "1990s",
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 59,
+    "power_output_hp_max": 180,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-clio-g2.webp"
+  },
+  {
+    "id": "renault-clio-g3",
+    "make": "Renault",
+    "model": "Clio",
+    "generation": 3,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2005,
+    "production_end": 2014,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 64,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-clio-g4",
+    "make": "Renault",
+    "model": "Clio",
+    "generation": 4,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2012,
+    "production_end": 2019,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-3"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 72,
+    "power_output_hp_max": 217,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-clio-g4.webp"
+  },
+  {
+    "id": "renault-clio-g5",
+    "make": "Renault",
+    "model": "Clio",
+    "generation": 5,
+    "brands": [
+      "Renault",
+      "Mitsubishi"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2019,
+    "production_end": 2025,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3",
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 64,
+    "power_output_hp_max": 143,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-clio-g5.webp"
+  },
+  {
+    "id": "renault-clio-g6",
+    "make": "Renault",
+    "model": "Clio",
+    "generation": 6,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2025,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3",
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 113,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-clio-v6-g1",
+    "make": "Renault",
+    "model": "Clio V6",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2001,
+    "production_end": 2005,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 227,
+    "power_output_hp_max": 251,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-clio-v6-g1.webp"
+  },
+  {
     "id": "renault-clio-williams-g1",
     "make": "Renault",
     "model": "Clio Williams",
@@ -27632,6 +28953,1139 @@
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
     "image_url": "/cars/renault-clio-williams-g1.webp"
+  },
+  {
+    "id": "renault-dauphine-g1",
+    "make": "Renault",
+    "model": "Dauphine",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1956,
+    "production_end": 1967,
+    "decades": [
+      "1950s",
+      "1960s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 26,
+    "power_output_hp_max": 54,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-dauphine-g1.webp"
+  },
+  {
+    "id": "renault-espace-g1",
+    "make": "Renault",
+    "model": "Espace",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1984,
+    "production_end": 1991,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 118,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-espace-g2",
+    "make": "Renault",
+    "model": "Espace",
+    "generation": 2,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1991,
+    "production_end": 1996,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 151,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-espace-g2.webp"
+  },
+  {
+    "id": "renault-espace-g3",
+    "make": "Renault",
+    "model": "Espace",
+    "generation": 3,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1996,
+    "production_end": 2002,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 98,
+    "power_output_hp_max": 187,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-espace-g3.webp"
+  },
+  {
+    "id": "renault-espace-g4",
+    "make": "Renault",
+    "model": "Espace",
+    "generation": 4,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2002,
+    "production_end": 2014,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 118,
+    "power_output_hp_max": 241,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-espace-g4.webp"
+  },
+  {
+    "id": "renault-espace-g5",
+    "make": "Renault",
+    "model": "Espace",
+    "generation": 5,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2015,
+    "production_end": 2023,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 128,
+    "power_output_hp_max": 222,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-espace-g5.webp"
+  },
+  {
+    "id": "renault-espace-g6",
+    "make": "Renault",
+    "model": "Espace",
+    "generation": 6,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 197,
+    "power_output_hp_max": 197,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-espace-g6.webp"
+  },
+  {
+    "id": "renault-floride-caravelle-g1",
+    "make": "Renault",
+    "model": "Floride / Caravelle",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1958,
+    "production_end": 1968,
+    "decades": [
+      "1950s",
+      "1960s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 39,
+    "power_output_hp_max": 54,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-floride-caravelle-g1.webp"
+  },
+  {
+    "id": "renault-fluence-g1",
+    "make": "Renault",
+    "model": "Fluence",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2009,
+    "production_end": 2017,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Electric"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 138,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-fuego-g1",
+    "make": "Renault",
+    "model": "Fuego",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1980,
+    "production_end": 1992,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 63,
+    "power_output_hp_max": 130,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-fuego-g1.webp"
+  },
+  {
+    "id": "renault-grand-koleos-g3",
+    "make": "Renault",
+    "model": "Grand Koleos",
+    "generation": 3,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 208,
+    "power_output_hp_max": 242,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-grand-koleos-g3.webp"
+  },
+  {
+    "id": "renault-kadjar-g1",
+    "make": "Renault",
+    "model": "Kadjar",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2015,
+    "production_end": 2022,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 108,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-kadjar-g1.webp"
+  },
+  {
+    "id": "renault-kangoo-g1",
+    "make": "Renault",
+    "model": "Kangoo",
+    "generation": 1,
+    "brands": [
+      "Renault",
+      "Nissan"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1997,
+    "production_end": 2007,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD",
+      "4WD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 57,
+    "power_output_hp_max": 94,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-kangoo-g2",
+    "make": "Renault",
+    "model": "Kangoo",
+    "generation": 2,
+    "brands": [
+      "Renault",
+      "Mercedes-Benz",
+      "Nissan"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2007,
+    "production_end": 2021,
+    "decades": [
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Electric"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 74,
+    "power_output_hp_max": 113,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-kangoo-g2.webp"
+  },
+  {
+    "id": "renault-kangoo-g3",
+    "make": "Renault",
+    "model": "Kangoo",
+    "generation": 3,
+    "brands": [
+      "Renault",
+      "Mercedes-Benz",
+      "Nissan"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2021,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Electric"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 74,
+    "power_output_hp_max": 129,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-koleos-g1",
+    "make": "Renault",
+    "model": "Koleos",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2008,
+    "production_end": 2016,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 141,
+    "power_output_hp_max": 171,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-koleos-g1.webp"
+  },
+  {
+    "id": "renault-koleos-g2",
+    "make": "Renault",
+    "model": "Koleos",
+    "generation": 2,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2016,
+    "production_end": 2024,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 142,
+    "power_output_hp_max": 175,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-koleos-g2.webp"
+  },
+  {
+    "id": "renault-kwid-g1",
+    "make": "Renault",
+    "model": "Kwid",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2015,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 53,
+    "power_output_hp_max": 67,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-kwid-g1.webp"
+  },
+  {
+    "id": "renault-laguna-g1",
+    "make": "Renault",
+    "model": "Laguna",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1993,
+    "production_end": 2001,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 191,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-laguna-g2",
+    "make": "Renault",
+    "model": "Laguna",
+    "generation": 2,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2001,
+    "production_end": 2007,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 94,
+    "power_output_hp_max": 204,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-laguna-g2.webp"
+  },
+  {
+    "id": "renault-laguna-g3",
+    "make": "Renault",
+    "model": "Laguna",
+    "generation": 3,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2007,
+    "production_end": 2015,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 108,
+    "power_output_hp_max": 237,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-laguna-g3.webp"
+  },
+  {
+    "id": "renault-megane-e-tech-electric-g1",
+    "make": "Renault",
+    "model": "Mégane E-Tech Electric",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2022,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 128,
+    "power_output_hp_max": 217,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-megane-e-tech-electric-g1.webp"
+  },
+  {
+    "id": "renault-megane-g1",
+    "make": "Renault",
+    "model": "Mégane",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1995,
+    "production_end": 2002,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 74,
+    "power_output_hp_max": 148,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-megane-g2",
+    "make": "Renault",
+    "model": "Mégane",
+    "generation": 2,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2002,
+    "production_end": 2009,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 79,
+    "power_output_hp_max": 163,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-megane-g2.webp"
+  },
+  {
+    "id": "renault-megane-g3",
+    "make": "Renault",
+    "model": "Mégane",
+    "generation": 3,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2008,
+    "production_end": 2016,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 178,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-megane-g3.webp"
+  },
+  {
+    "id": "renault-megane-g4",
+    "make": "Renault",
+    "model": "Mégane",
+    "generation": 4,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2016,
+    "production_end": 2024,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 202,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-megane-g4.webp"
+  },
+  {
+    "id": "renault-megane-rs-g2",
+    "make": "Renault",
+    "model": "Mégane RS",
+    "generation": 2,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2004,
+    "production_end": 2009,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 222,
+    "power_output_hp_max": 227,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
   },
   {
     "id": "renault-megane-rs-g3",
@@ -27672,6 +30126,827 @@
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
     "image_url": "/cars/renault-megane-rs-g3.webp"
+  },
+  {
+    "id": "renault-megane-rs-g4",
+    "make": "Renault",
+    "model": "Mégane RS",
+    "generation": 4,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2018,
+    "production_end": 2023,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 276,
+    "power_output_hp_max": 296,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-megane-rs-g4.webp"
+  },
+  {
+    "id": "renault-modus-g1",
+    "make": "Renault",
+    "model": "Modus",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2004,
+    "production_end": 2012,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 74,
+    "power_output_hp_max": 110,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-modus-g1.webp"
+  },
+  {
+    "id": "renault-rafale-g1",
+    "make": "Renault",
+    "model": "Rafale",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 197,
+    "power_output_hp_max": 296,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Hybrid",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-safrane-g1",
+    "make": "Renault",
+    "model": "Safrane",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1992,
+    "production_end": 2000,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6",
+      "Inline-5"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 105,
+    "power_output_hp_max": 264,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-safrane-g1.webp"
+  },
+  {
+    "id": "renault-scenic-e-tech-g5",
+    "make": "Renault",
+    "model": "Scénic E-Tech",
+    "generation": 5,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 168,
+    "power_output_hp_max": 217,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-scenic-e-tech-g5.webp"
+  },
+  {
+    "id": "renault-scenic-g1",
+    "make": "Renault",
+    "model": "Scénic",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1996,
+    "production_end": 2003,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD",
+      "4WD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 138,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-scenic-g1.webp"
+  },
+  {
+    "id": "renault-scenic-g2",
+    "make": "Renault",
+    "model": "Scénic",
+    "generation": 2,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2003,
+    "production_end": 2009,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 79,
+    "power_output_hp_max": 161,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-scenic-g3",
+    "make": "Renault",
+    "model": "Scénic",
+    "generation": 3,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2009,
+    "production_end": 2016,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-scenic-g3.webp"
+  },
+  {
+    "id": "renault-scenic-g4",
+    "make": "Renault",
+    "model": "Scénic",
+    "generation": 4,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2016,
+    "production_end": 2022,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 113,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-super-5-g2",
+    "make": "Renault",
+    "model": "Super 5",
+    "generation": 2,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1984,
+    "production_end": 1996,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 42,
+    "power_output_hp_max": 118,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-super-5-g2.webp"
+  },
+  {
+    "id": "renault-symbioz-g1",
+    "make": "Renault",
+    "model": "Symbioz",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 138,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-talisman-g1",
+    "make": "Renault",
+    "model": "Talisman",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2015,
+    "production_end": 2022,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 108,
+    "power_output_hp_max": 222,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-twingo-e-tech-g4",
+    "make": "Renault",
+    "model": "Twingo E-Tech",
+    "generation": 4,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2026,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 81,
+    "power_output_hp_max": 81,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-twingo-e-tech-g4.webp"
+  },
+  {
+    "id": "renault-twingo-g1",
+    "make": "Renault",
+    "model": "Twingo",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1993,
+    "production_end": 2007,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 54,
+    "power_output_hp_max": 74,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-twingo-g2",
+    "make": "Renault",
+    "model": "Twingo",
+    "generation": 2,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2007,
+    "production_end": 2014,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 57,
+    "power_output_hp_max": 131,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-twingo-g2.webp"
+  },
+  {
+    "id": "renault-twingo-g3",
+    "make": "Renault",
+    "model": "Twingo",
+    "generation": 3,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2014,
+    "production_end": 2024,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3",
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 64,
+    "power_output_hp_max": 108,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-twingo-g3.webp"
+  },
+  {
+    "id": "renault-twizy-g1",
+    "make": "Renault",
+    "model": "Twizy",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2012,
+    "production_end": 2023,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 5,
+    "power_output_hp_max": 17,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-twizy-g1.webp"
+  },
+  {
+    "id": "renault-vel-satis-g1",
+    "make": "Renault",
+    "model": "Vel Satis",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2002,
+    "production_end": 2009,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 148,
+    "power_output_hp_max": 238,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-vel-satis-g1.webp"
+  },
+  {
+    "id": "renault-wind-g1",
+    "make": "Renault",
+    "model": "Wind",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2010,
+    "production_end": 2013,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 99,
+    "power_output_hp_max": 131,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-wind-g1.webp"
+  },
+  {
+    "id": "renault-zoe-g1",
+    "make": "Renault",
+    "model": "Zoe",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2012,
+    "production_end": 2024,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 79,
+    "power_output_hp_max": 133,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/renault-zoe-g1.webp"
   },
   {
     "engine_layouts": [
