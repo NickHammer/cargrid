@@ -1,6 +1,6 @@
 # Photos wanted
 
-71 cars are curated and ready but have no usable photo, so they are
+81 cars are curated and ready but have no usable photo, so they are
 **not in the game**. They wait in `data/incoming/needs-photo.json` and return
 automatically once a photo is verified:
 
@@ -13,16 +13,16 @@ node scripts/park-imageless-cars.mjs --restore
 node scripts/validate-grids.mjs --min 3
 ```
 
-**Renault** 25 · **Fiat** 10 · **Peugeot** 10 · **Citroën** 9 · **Mitsubishi** 7 · **Nissan** 5 · **Cadillac** 2 · **Lexus** 2 · **Jeep** 1
+**Renault** 25 · **Fiat** 10 · **Peugeot** 10 · **Volvo** 10 · **Citroën** 9 · **Mitsubishi** 7 · **Nissan** 5 · **Cadillac** 2 · **Lexus** 2 · **Jeep** 1
 
 ## What a usable photo looks like
 
 Tiles are 4:3 at about 300px, so: a front three-quarter view, the car filling
 the frame, a standard car with no livery, decals or roof rack, nothing and
 nobody in front of it, and above all **the right generation and the right
-body**. Body Style is a live grid category, so an estate or a cabriolet against
-a Sedan or Hatchback record makes a puzzle wrong — that has now cost 7 cars
-across four waves, and none of them looked wrong at thumbnail size.
+body**. Body Style is a live grid category, so an estate against a Sedan record
+makes a puzzle wrong — that has now cost 9 cars across five waves, and none of
+them looked wrong at thumbnail size. Check the record, not your eye.
 
 ## The list
 
@@ -99,5 +99,15 @@ across four waves, and none of them looked wrong at thumbnail size.
 | `renault-symbioz-g1` | Renault Symbioz | 2024–now | SUV / SUV | [Symbioz](https://commons.wikimedia.org/w/index.php?search=Renault%20Symbioz%202024&ns6=1) |
 | `renault-talisman-g1` | Renault Talisman | 2015–2022 | Sedan / Sedan | [Talisman](https://commons.wikimedia.org/w/index.php?search=Renault%20Talisman%202015&ns6=1) |
 | `renault-twingo-g1` | Renault Twingo | 1993–2007 | Hatchback / Hatchback | [Twingo](https://commons.wikimedia.org/w/index.php?search=Renault%20Twingo%201993&ns6=1) |
+| `volvo-260-g1` | Volvo 260 | 1975–1985 | Sedan / Sedan | [260](https://commons.wikimedia.org/w/index.php?search=Volvo%20260%201975&ns6=1) |
+| `volvo-340-360-g1` | Volvo 340 / 360 | 1976–1991 | Hatchback / Hatchback | [340](https://commons.wikimedia.org/w/index.php?search=Volvo%20340%201976&ns6=1) · [360](https://commons.wikimedia.org/w/index.php?search=Volvo%20360%201976&ns6=1) |
+| `volvo-440-460-g1` | Volvo 440 / 460 | 1988–1996 | Hatchback / Hatchback | [440](https://commons.wikimedia.org/w/index.php?search=Volvo%20440%201988&ns6=1) · [460](https://commons.wikimedia.org/w/index.php?search=Volvo%20460%201988&ns6=1) |
+| `volvo-740-g1` | Volvo 740 | 1984–1992 | Sedan / Sedan | [740](https://commons.wikimedia.org/w/index.php?search=Volvo%20740%201984&ns6=1) |
+| `volvo-c40-ec40-g1` | Volvo C40 / EC40 | 2021–now | SUV / SUV | [C40](https://commons.wikimedia.org/w/index.php?search=Volvo%20C40%202021&ns6=1) · [EC40](https://commons.wikimedia.org/w/index.php?search=Volvo%20EC40%202021&ns6=1) |
+| `volvo-pv444-g1` | Volvo PV444 | 1947–1958 | Sedan / Sedan | [PV444](https://commons.wikimedia.org/w/index.php?search=Volvo%20PV444%201947&ns6=1) |
+| `volvo-s40-v50-g2` | Volvo S40 / V50 | 2004–2012 | Sedan / Sedan | [S40](https://commons.wikimedia.org/w/index.php?search=Volvo%20S40%202004&ns6=1) · [V50](https://commons.wikimedia.org/w/index.php?search=Volvo%20V50%202004&ns6=1) |
+| `volvo-s90-v90-g1` | Volvo S90 / V90 | 1996–1998 | Sedan / Sedan | [S90](https://commons.wikimedia.org/w/index.php?search=Volvo%20S90%201996&ns6=1) · [V90](https://commons.wikimedia.org/w/index.php?search=Volvo%20V90%201996&ns6=1) |
+| `volvo-s90-v90-g2` | Volvo S90 / V90 | 2016–now | Sedan / Sedan | [S90](https://commons.wikimedia.org/w/index.php?search=Volvo%20S90%202016&ns6=1) · [V90](https://commons.wikimedia.org/w/index.php?search=Volvo%20V90%202016&ns6=1) |
+| `volvo-xc70-g2` | Volvo XC70 | 2007–2016 | Wagon / Wagon | [XC70](https://commons.wikimedia.org/w/index.php?search=Volvo%20XC70%202007&ns6=1) |
 
 Generated 2026-11-04.

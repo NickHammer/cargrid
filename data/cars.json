@@ -37572,6 +37572,1111 @@
     "image_url": "/cars/volkswagen-tiguan-g3.webp"
   },
   {
+    "id": "volvo-140-series-g1",
+    "make": "Volvo",
+    "model": "140 Series",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1966,
+    "production_end": 1974,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 74,
+    "power_output_hp_max": 122,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-140-series-g1.webp"
+  },
+  {
+    "id": "volvo-164-g1",
+    "make": "Volvo",
+    "model": "164",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1968,
+    "production_end": 1975,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 143,
+    "power_output_hp_max": 173,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-164-g1.webp"
+  },
+  {
+    "id": "volvo-240-g1",
+    "make": "Volvo",
+    "model": "240",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1974,
+    "production_end": 1993,
+    "decades": [
+      "1970s",
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 79,
+    "power_output_hp_max": 153,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-240-g1.webp"
+  },
+  {
+    "id": "volvo-480-g1",
+    "make": "Volvo",
+    "model": "480",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1986,
+    "production_end": 1995,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 108,
+    "power_output_hp_max": 118,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-480-g1.webp"
+  },
+  {
+    "id": "volvo-760-g1",
+    "make": "Volvo",
+    "model": "760",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1982,
+    "production_end": 1990,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "Inline-4",
+      "Inline-6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 128,
+    "power_output_hp_max": 201,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-760-g1.webp"
+  },
+  {
+    "id": "volvo-850-g1",
+    "make": "Volvo",
+    "model": "850",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1991,
+    "production_end": 1996,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-5"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 124,
+    "power_output_hp_max": 247,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-850-g1.webp"
+  },
+  {
+    "id": "volvo-940-960-g1",
+    "make": "Volvo",
+    "model": "940 / 960",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1990,
+    "production_end": 1998,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 109,
+    "power_output_hp_max": 201,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-940-960-g1.webp"
+  },
+  {
+    "id": "volvo-amazon-120-130-220-g1",
+    "make": "Volvo",
+    "model": "Amazon (120 / 130 / 220)",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1956,
+    "production_end": 1970,
+    "decades": [
+      "1950s",
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 59,
+    "power_output_hp_max": 113,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-amazon-120-130-220-g1.webp"
+  },
+  {
+    "id": "volvo-c30-g1",
+    "make": "Volvo",
+    "model": "C30",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2006,
+    "production_end": 2013,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-5",
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 99,
+    "power_output_hp_max": 227,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-c30-g1.webp"
+  },
+  {
+    "id": "volvo-c70-g1",
+    "make": "Volvo",
+    "model": "C70",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1996,
+    "production_end": 2005,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-5"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 161,
+    "power_output_hp_max": 247,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-c70-g1.webp"
+  },
+  {
+    "id": "volvo-c70-g2",
+    "make": "Volvo",
+    "model": "C70",
+    "generation": 2,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2006,
+    "production_end": 2013,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-5",
+      "Inline-4"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 138,
+    "power_output_hp_max": 227,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-c70-g2.webp"
+  },
+  {
+    "id": "volvo-em90-g1",
+    "make": "Volvo",
+    "model": "EM90",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 268,
+    "power_output_hp_max": 268,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-em90-g1.webp"
+  },
+  {
+    "id": "volvo-es90-g1",
+    "make": "Volvo",
+    "model": "ES90",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2025,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 328,
+    "power_output_hp_max": 670,
+    "power_output_ranges": [
+      "301-400",
+      "401-500",
+      "501-600",
+      "601-700"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-es90-g1.webp"
+  },
+  {
+    "id": "volvo-ex30-g1",
+    "make": "Volvo",
+    "model": "EX30",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 268,
+    "power_output_hp_max": 422,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-ex30-g1.webp"
+  },
+  {
+    "id": "volvo-ex90-g1",
+    "make": "Volvo",
+    "model": "EX90",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 402,
+    "power_output_hp_max": 670,
+    "power_output_ranges": [
+      "401-500",
+      "501-600",
+      "601-700"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-ex90-g1.webp"
+  },
+  {
+    "id": "volvo-p1800-g1",
+    "make": "Volvo",
+    "model": "P1800",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1961,
+    "production_end": 1973,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 99,
+    "power_output_hp_max": 128,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-p1800-g1.webp"
+  },
+  {
+    "id": "volvo-pv544-g1",
+    "make": "Volvo",
+    "model": "PV544",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1958,
+    "production_end": 1965,
+    "decades": [
+      "1950s",
+      "1960s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 59,
+    "power_output_hp_max": 94,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-pv544-g1.webp"
+  },
+  {
+    "id": "volvo-s40-v40-g1",
+    "make": "Volvo",
+    "model": "S40 / V40",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1995,
+    "production_end": 2004,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 197,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-s40-v40-g1.webp"
+  },
+  {
+    "id": "volvo-s60-g1",
+    "make": "Volvo",
+    "model": "S60",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2000,
+    "production_end": 2009,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-5"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 138,
+    "power_output_hp_max": 296,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-s60-g1.webp"
+  },
+  {
+    "id": "volvo-s60-g2",
+    "make": "Volvo",
+    "model": "S60",
+    "generation": 2,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2010,
+    "production_end": 2018,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-6",
+      "Inline-5"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 113,
+    "power_output_hp_max": 362,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-s60-g2.webp"
+  },
+  {
+    "id": "volvo-s60-g3",
+    "make": "Volvo",
+    "model": "S60",
+    "generation": 3,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2018,
+    "production_end": 2024,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 194,
+    "power_output_hp_max": 455,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-s60-g3.webp"
+  },
+  {
+    "id": "volvo-s80-g1",
+    "make": "Volvo",
+    "model": "S80",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1998,
+    "production_end": 2006,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-5",
+      "Inline-6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 138,
+    "power_output_hp_max": 268,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-s80-g1.webp"
+  },
+  {
+    "id": "volvo-s80-g2",
+    "make": "Volvo",
+    "model": "S80",
+    "generation": 2,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2006,
+    "production_end": 2016,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-5",
+      "Inline-6",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 134,
+    "power_output_hp_max": 311,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-s80-g2.webp"
+  },
+  {
+    "id": "volvo-v40-g2",
+    "make": "Volvo",
+    "model": "V40",
+    "generation": 2,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2012,
+    "production_end": 2019,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-5"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 113,
+    "power_output_hp_max": 251,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-v40-g2.webp"
+  },
+  {
+    "id": "volvo-v60-g1",
+    "make": "Volvo",
+    "model": "V60",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2010,
+    "production_end": 2018,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-6",
+      "Inline-5"
+    ],
+    "body_style": "Wagon",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Wagon",
+    "power_output_hp_min": 113,
+    "power_output_hp_max": 362,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-v60-g1.webp"
+  },
+  {
+    "id": "volvo-v60-g2",
+    "make": "Volvo",
+    "model": "V60",
+    "generation": 2,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2018,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Wagon",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Wagon",
+    "power_output_hp_min": 194,
+    "power_output_hp_max": 455,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-v60-g2.webp"
+  },
+  {
     "id": "volvo-v70-g1",
     "make": "Volvo",
     "model": "V70",
@@ -37613,5 +38718,363 @@
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
     "image_url": "/cars/volvo-v70-g1.webp"
+  },
+  {
+    "id": "volvo-v70-g2",
+    "make": "Volvo",
+    "model": "V70",
+    "generation": 2,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2000,
+    "production_end": 2007,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-5"
+    ],
+    "body_style": "Wagon",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Wagon",
+    "power_output_hp_min": 138,
+    "power_output_hp_max": 296,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-v70-g2.webp"
+  },
+  {
+    "id": "volvo-v70-g3",
+    "make": "Volvo",
+    "model": "V70",
+    "generation": 3,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2007,
+    "production_end": 2016,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-5",
+      "Inline-6"
+    ],
+    "body_style": "Wagon",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Wagon",
+    "power_output_hp_min": 108,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-v70-g3.webp"
+  },
+  {
+    "id": "volvo-xc40-ex40-g1",
+    "make": "Volvo",
+    "model": "XC40 / EX40",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2017,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3",
+      "Inline-4",
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 127,
+    "power_output_hp_max": 402,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Plug-in Hybrid",
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-xc40-ex40-g1.webp"
+  },
+  {
+    "id": "volvo-xc60-g1",
+    "make": "Volvo",
+    "model": "XC60",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2008,
+    "production_end": 2017,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-6",
+      "Inline-5"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 161,
+    "power_output_hp_max": 325,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-xc60-g1.webp"
+  },
+  {
+    "id": "volvo-xc60-g2",
+    "make": "Volvo",
+    "model": "XC60",
+    "generation": 2,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2017,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 194,
+    "power_output_hp_max": 455,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-xc60-g2.webp"
+  },
+  {
+    "id": "volvo-xc70-g1",
+    "make": "Volvo",
+    "model": "XC70",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2000,
+    "production_end": 2007,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-5"
+    ],
+    "body_style": "Wagon",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Wagon",
+    "power_output_hp_min": 161,
+    "power_output_hp_max": 207,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-xc70-g1.webp"
+  },
+  {
+    "id": "volvo-xc90-g1",
+    "make": "Volvo",
+    "model": "XC90",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2002,
+    "production_end": 2014,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-5",
+      "Inline-6",
+      "V8"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 161,
+    "power_output_hp_max": 311,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-xc90-g1.webp"
+  },
+  {
+    "id": "volvo-xc90-g2",
+    "make": "Volvo",
+    "model": "XC90",
+    "generation": 2,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2014,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 187,
+    "power_output_hp_max": 455,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/volvo-xc90-g2.webp"
   }
 ]

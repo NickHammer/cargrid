@@ -10308,5 +10308,491 @@
     "artist": "Mr.choppers",
     "source": "https://commons.wikimedia.org/wiki/File:1978_Fiat_X1.9_in_white,_front_left.jpg",
     "verified": true
+  },
+  "volvo-140-series-g1": {
+    "file": "/cars/volvo-140-series-g1.webp",
+    "article": "Commons search: Volvo 140 Series 1966",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Bene Riobó",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_142_de_1973.jpg",
+    "verified": true
+  },
+  "volvo-164-g1": {
+    "file": "/cars/volvo-164-g1.webp",
+    "article": "Commons search: Volvo 164 1970",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Charles01",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_164_UK_1970.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:The_first_Volvo_164_1968_001.jpg"
+    ],
+    "verified": true
+  },
+  "volvo-240-g1": {
+    "file": "/cars/volvo-240-g1.webp",
+    "article": "Commons search: Volvo 240 1976",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Bene Riobó",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_242_1976.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Volvo_240_GL_2.3_(1988)_(49043011263).jpg"
+    ],
+    "verified": true
+  },
+  "volvo-340-360-g1": {
+    "file": "/cars/volvo-340-360-g1.webp",
+    "article": "Commons search: Volvo 340 1976",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:1985_Volvo_360_GLS.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1985_Volvo_360_GLS.jpg"
+    ]
+  },
+  "volvo-440-460-g1": {
+    "file": "/cars/volvo-440-460-g1.webp",
+    "article": "Commons search: Volvo 440 1988",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "TuRbO_J from Adelaide, Australia",
+    "source": "https://commons.wikimedia.org/wiki/File:1995_Volvo_440_GLT_hatchback_(5847799669).jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1995_Volvo_440_GLT_hatchback_(5847799669).jpg"
+    ]
+  },
+  "volvo-480-g1": {
+    "file": "/cars/volvo-480-g1.webp",
+    "article": "Commons search: Volvo 480 1986",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Niels de Wit from Lunteren, The Netherlands",
+    "source": "https://commons.wikimedia.org/wiki/File:1986_Volvo_480_ES_(12504306495).jpg",
+    "verified": true
+  },
+  "volvo-740-g1": {
+    "file": "/cars/volvo-740-g1.webp",
+    "article": "Commons search: Volvo 740 1986",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Elise240SX",
+    "source": "https://commons.wikimedia.org/wiki/File:1986_Volvo_740_GLE_Wagon_in_Medium_Blue_Metallic,_front_left,_2024-07-15.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Volvo_740_GLE_1984_(15010429501).jpg",
+      "https://commons.wikimedia.org/wiki/File:1986_Volvo_740_GLE_Wagon_in_Medium_Blue_Metallic,_front_left,_2024-07-15.jpg"
+    ],
+    "rejected": true
+  },
+  "volvo-760-g1": {
+    "file": "/cars/volvo-760-g1.webp",
+    "article": "Commons search: Volvo 760 1984",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Jeremy from Sydney, Australia",
+    "source": "https://commons.wikimedia.org/wiki/File:1984_Volvo_760_GLE_sedan_(27858621516).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Volvo_760_GLE_lang_Nilsson_Gen1_000_1982-1987_1987_SED_Politb%C3%BCro_frontright_2010-09-03.jpg"
+    ],
+    "verified": true
+  },
+  "volvo-850-g1": {
+    "file": "/cars/volvo-850-g1.webp",
+    "article": "Commons search: Volvo 850 1993",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1993_Volvo_850_GLT_Automatic_2.0_Front.jpg",
+    "verified": true
+  },
+  "volvo-940-960-g1": {
+    "file": "/cars/volvo-940-960-g1.webp",
+    "article": "Commons search: Volvo 940 1990",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "User3204",
+    "source": "https://commons.wikimedia.org/wiki/File:1990_Volvo_940_saloon_(front).jpg",
+    "verified": true
+  },
+  "volvo-amazon-120-130-220-g1": {
+    "file": "/cars/volvo-amazon-120-130-220-g1.webp",
+    "article": "Commons search: Volvo Amazon (120 1956",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Steve Glover",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_P130_Amazon_(1970).jpg",
+    "verified": true
+  },
+  "volvo-c30-g1": {
+    "file": "/cars/volvo-c30-g1.webp",
+    "article": "Commons search: Volvo C30 2006",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "robad0b / Robin Corps",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_C30_Concept_Car_-_British_International_Motor_Show_2006.jpg",
+    "verified": true
+  },
+  "volvo-c40-ec40-g1": {
+    "file": "/cars/volvo-c40-ec40-g1.webp",
+    "article": "Commons search: Volvo C40 2023",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander-93",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_C40_Auto_Zuerich_2023_1X7A0898.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Volvo_C40_Recharge_2021_P01_front.jpg",
+      "https://commons.wikimedia.org/wiki/File:Volvo_C40_Auto_Zuerich_2023_1X7A0898.jpg"
+    ],
+    "rejected": true
+  },
+  "volvo-c70-g1": {
+    "file": "/cars/volvo-c70-g1.webp",
+    "article": "Commons search: Volvo C70 1998",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Scirocco Scala",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_C70_T5_Coup%C3%A9_(Bj_1998).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1996-2002_Volvo_C70_(52746233495).jpg"
+    ],
+    "verified": true
+  },
+  "volvo-c70-g2": {
+    "file": "/cars/volvo-c70-g2.webp",
+    "article": "Commons search: Volvo C70 2006",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2006_Volvo_C70_SE_LUX_T5_Automatic_2.5_Front.jpg",
+    "verified": true
+  },
+  "volvo-em90-g1": {
+    "file": "/cars/volvo-em90-g1.webp",
+    "article": "Commons search: Volvo EM90 2026",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Poprace",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_EM90_MY2025_IMG01.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Volvo_EM90_03_China_2024-03-19.jpg"
+    ],
+    "verified": true
+  },
+  "volvo-es90-g1": {
+    "file": "/cars/volvo-es90-g1.webp",
+    "article": "Commons search: Volvo ES90 2025",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander-93",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_ES90_IAA_2025_DSC_1357.jpg",
+    "verified": true
+  },
+  "volvo-ex30-g1": {
+    "file": "/cars/volvo-ex30-g1.webp",
+    "article": "Commons search: Volvo EX30 2023",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander-93",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_EX30_Auto_Zuerich_2023_1X7A0949.jpg",
+    "verified": true
+  },
+  "volvo-ex90-g1": {
+    "file": "/cars/volvo-ex90-g1.webp",
+    "article": "Commons search: Volvo EX90 2024",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander-93",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_EX90_Auto_Zuerich_2024_DSC_6147.jpg",
+    "verified": true
+  },
+  "volvo-p1800-g1": {
+    "file": "/cars/volvo-p1800-g1.webp",
+    "article": "Commons search: Volvo P1800 1961",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Staffan Andersson",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_P1800_1961_Ulva_Uppsala.jpg",
+    "verified": true
+  },
+  "volvo-pv444-g1": {
+    "file": "/cars/volvo-pv444-g1.webp",
+    "article": "Commons search: Volvo PV444 1947",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Lars-Göran Lindgren Sweden",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_PV444_1947.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Volvo_PV444_1947.jpg"
+    ]
+  },
+  "volvo-pv544-g1": {
+    "file": "/cars/volvo-pv544-g1.webp",
+    "article": "Commons search: Volvo PV544 1958",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "granada_turnier",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_PV544,_1958_(6980185738).jpg",
+    "verified": true
+  },
+  "volvo-s40-v40-g1": {
+    "file": "/cars/volvo-s40-v40-g1.webp",
+    "article": "Commons search: Volvo S40 1995",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:2000-04_Volvo_S40.jpg",
+    "verified": true
+  },
+  "volvo-s40-v50-g2": {
+    "file": "/cars/volvo-s40-v50-g2.webp",
+    "article": "Commons search: Volvo V50 2004",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2005_Volvo_V50_SE_1.8_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Volvo_S40_2004_US_version.jpg",
+      "https://commons.wikimedia.org/wiki/File:2005_Volvo_V50_SE_1.8_Front.jpg"
+    ],
+    "rejected": true
+  },
+  "volvo-s60-g1": {
+    "file": "/cars/volvo-s60-g1.webp",
+    "article": "Commons search: Volvo S60 2002",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2002_Volvo_S60_S_T_2.0_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2000-2009_Volvo_S60_(53806827765).jpg"
+    ],
+    "verified": true
+  },
+  "volvo-s60-g2": {
+    "file": "/cars/volvo-s60-g2.webp",
+    "article": "Commons search: Volvo S60 2012",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_S60_D5_R-Design_(II)_%E2%80%93_Frontansicht,_25._M%C3%A4rz_2012,_Hilden.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Volvo_s60_2010_camera_front_4831424025_5696cdbb0f_z.jpg"
+    ],
+    "verified": true
+  },
+  "volvo-s60-g3": {
+    "file": "/cars/volvo-s60-g3.webp",
+    "article": "Commons search: Volvo S60 2018",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Elise240SX",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Volvo_S60_T5_Dynamic_AWD_in_Ice_White,_front_left,_2023-06-16.jpg",
+    "verified": true
+  },
+  "volvo-s80-g1": {
+    "file": "/cars/volvo-s80-g1.webp",
+    "article": "Commons search: Volvo S80 1998",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:1998_Volvo_S80_2.9_sedan_(2015-11-11)_01.jpg",
+    "verified": true
+  },
+  "volvo-s80-g2": {
+    "file": "/cars/volvo-s80-g2.webp",
+    "article": "Commons search: Volvo S80 2006",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:2004-2006_Volvo_S80.jpg",
+    "verified": true
+  },
+  "volvo-s90-v90-g1": {
+    "file": "/cars/volvo-s90-v90-g1.webp",
+    "article": "Commons search: Volvo S90 1998",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Volvo S90",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_V90_3.0_1998.JPG",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Volvo_V90_3.0_1998.JPG"
+    ]
+  },
+  "volvo-s90-v90-g2": {
+    "file": "/cars/volvo-s90-v90-g2.webp",
+    "article": "Commons search: Volvo V90 2016",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Herranderssvensson",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Volvo_V90_Inscription_front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2016_Volvo_S90_Inscription_front.jpg",
+      "https://commons.wikimedia.org/wiki/File:2016_Volvo_V90_Inscription_front.jpg"
+    ],
+    "rejected": true
+  },
+  "volvo-v40-g2": {
+    "file": "/cars/volvo-v40-g2.webp",
+    "article": "Commons search: Volvo V40 2012",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Herranderssvensson",
+    "source": "https://commons.wikimedia.org/wiki/File:2012_Volvo_V40_front.jpg",
+    "verified": true
+  },
+  "volvo-v60-g1": {
+    "file": "/cars/volvo-v60-g1.webp",
+    "article": "Commons search: Volvo V60 2010",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_V60_Genf_2018.jpg",
+    "verified": true
+  },
+  "volvo-v60-g2": {
+    "file": "/cars/volvo-v60-g2.webp",
+    "article": "Commons search: Volvo V60 2018",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Project Kei",
+    "source": "https://commons.wikimedia.org/wiki/File:VOLVO_V60_T5_INSCRIPTION_FRONT_2018_(JPN).jpg",
+    "verified": true
+  },
+  "volvo-v70-g2": {
+    "file": "/cars/volvo-v70-g2.webp",
+    "article": "Commons search: Volvo V70 P2",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "DieselFordMondeo",
+    "source": "https://commons.wikimedia.org/wiki/File:2002_Volvo_V70_D5_SE_Auto_-_Front.png",
+    "verified": true
+  },
+  "volvo-v70-g3": {
+    "file": "/cars/volvo-v70-g3.webp",
+    "article": "Commons search: Volvo V70 2007",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2007_Volvo_V70_SE_Sport_Diesel_2.4_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Volvo_XC90_D5_AWD_P3_FL_Silver_Metallic_(12).jpg"
+    ],
+    "verified": true
+  },
+  "volvo-xc40-ex40-g1": {
+    "file": "/cars/volvo-xc40-ex40-g1.webp",
+    "article": "Commons search: Volvo XC40 2017",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Volvo_XC40_First_Edition_T5_AWD_Automatic_2.0_Front.jpg",
+    "verified": true
+  },
+  "volvo-xc60-g1": {
+    "file": "/cars/volvo-xc60-g1.webp",
+    "article": "Commons search: Volvo XC60 2008",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Harvey Bold",
+    "source": "https://commons.wikimedia.org/wiki/File:2009_Volvo_XC60_SE_Lux_D5_AWD_-_2400cc_2.4_(205PS)_Diesel_-_Black_-_11-2024,_Front.jpg",
+    "verified": true
+  },
+  "volvo-xc60-g2": {
+    "file": "/cars/volvo-xc60-g2.webp",
+    "article": "Commons search: Volvo XC60 2017",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Volvo_XC60_Momentum_T5_AWD_Automatic_2.0_Front.jpg",
+    "verified": true
+  },
+  "volvo-xc70-g1": {
+    "file": "/cars/volvo-xc70-g1.webp",
+    "article": "Commons search: Volvo XC70 2000",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2000_Volvo_XC70_2.4.jpg",
+    "verified": true
+  },
+  "volvo-xc70-g2": {
+    "file": "/cars/volvo-xc70-g2.webp",
+    "article": "Commons search: Volvo XC70 2009",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "IFCAR",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_XC70_--_07-20-2009.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Volvo_XC70_D5_AWD_(2007)_(54723798835).jpg",
+      "https://commons.wikimedia.org/wiki/File:Volvo_XC70_--_07-20-2009.jpg"
+    ],
+    "rejected": true
+  },
+  "volvo-xc90-g1": {
+    "file": "/cars/volvo-xc90-g1.webp",
+    "article": "Commons search: Volvo XC90 2002",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Dinkun Chen",
+    "source": "https://commons.wikimedia.org/wiki/File:VOLVO_XC90_II_HONG_KONG.jpg",
+    "verified": true
+  },
+  "volvo-xc90-g2": {
+    "file": "/cars/volvo-xc90-g2.webp",
+    "article": "Commons search: Volvo XC90 2014",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Albin Olsson",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_XC90_II,_August_2014,_09.jpg",
+    "verified": true
   }
 }
