@@ -11,7 +11,8 @@
     "data:validate": "npm run data:validate:cars && npm run data:validate:grids",
     "data:validate:cars": "node scripts/validate-cars.mjs",
     "data:validate:grids": "node scripts/validate-grids.mjs --min 3 --min-days 90",
-    "data:test": "node --test scripts/curation.test.mjs"
+    "data:test": "node --test scripts/curation.test.mjs",
+    "docs:refresh": "node scripts/make-catalog.mjs && node scripts/make-photo-check.mjs"
   },
   "dependencies": {
     "next": "16.2.4",

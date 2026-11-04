@@ -180,3 +180,49 @@ test("every car in the catalog has a photo", () => {
   const missing = cars.filter((car) => !car.image_url).map((car) => car.id);
   assert.deepEqual(missing, []);
 });
+
+/**
+ * The two generated reports must list exactly the cars that are in the game.
+ *
+ * Both are reports, not sources of truth, which is precisely why they rot:
+ * nothing breaks when they fall behind, so nobody notices. CATALOG.md sat at
+ * 730 cars while the catalog reached 1,000, still advertising a "73 awaiting
+ * an image" section that the no-car-without-a-photo rule had already emptied.
+ *
+ * docs/PHOTO-CHECK.md is the one that matters most, because its whole purpose
+ * is a visual pass over the catalog — a stale one quietly omits the newest
+ * cars, which are exactly the ones least looked at. Refresh both with:
+ *
+ *   npm run docs:refresh
+ *
+ * The check is deliberately on car ids and counts rather than byte equality,
+ * so editing the generator's wording does not fail the suite.
+ */
+test("CATALOG.md and docs/PHOTO-CHECK.md cover exactly the cars in the game", () => {
+  const read = (p) => fs.readFileSync(new URL(`../${p}`, import.meta.url), "utf8");
+  const inGame = cars.map((c) => c.id).sort();
+
+  const photoCheck = read("docs/PHOTO-CHECK.md");
+  const pictured = [...photoCheck.matchAll(/<img src="\.\.\/public\/cars\/([^"]+)\.webp"/g)]
+    .map((m) => m[1])
+    .sort();
+  assert.deepEqual(
+    pictured.filter((id) => !inGame.includes(id)), [],
+    "PHOTO-CHECK.md shows a car that is no longer in the game — run npm run docs:refresh",
+  );
+  assert.deepEqual(
+    inGame.filter((id) => !pictured.includes(id)), [],
+    "PHOTO-CHECK.md is missing a car that is in the game — run npm run docs:refresh",
+  );
+
+  // CATALOG.md carries no ids, so hold it to the totals it advertises.
+  const catalog = read("CATALOG.md");
+  const declared = /\*\*(\d+)\*\* cars across \*\*(\d+)\*\* makes/.exec(catalog);
+  assert.ok(declared, "CATALOG.md has no car/make count line");
+  assert.equal(Number(declared[1]), cars.length, "CATALOG.md car count is stale");
+  assert.equal(
+    Number(declared[2]),
+    new Set(cars.map((c) => c.make)).size,
+    "CATALOG.md make count is stale",
+  );
+});

@@ -249,6 +249,55 @@ of itself. That one exists because when a car fills the width of a 2.6:1 frame,
 would cut off what defines the class, like a pickup's bed or an estate's tail.
 The crops are stored at exactly 4:3, so the tile no longer crops at all.
 
+### Adding a brand — the import wave loop
+
+~2,600 curated records wait in `data/incoming/cargrid-import.json` and cross
+over **one brand at a time**, each wave finishing its photos before the next
+starts. Run it in this order; the order matters at two points, noted below.
+
+```bash
+node scripts/move-import-wave.mjs --list          # what is still staged
+node scripts/move-import-wave.mjs <Brand>         # move one brand in
+node scripts/derive-fields.mjs
+node scripts/normalize-makes.mjs
+
+node scripts/fetch-car-images.mjs                 # round 1
+node scripts/make-contact-sheets.mjs --unverified --out <dir>
+#   -> LOOK at every sheet, then:
+node scripts/mark-image-verified.mjs <ids>
+node scripts/mark-image-verified.mjs --reject <ids>
+
+node scripts/fetch-car-images.mjs --unverified    # round 2, then review again
+#   -> two rounds is the budget. What is still wrong gets parked, not shipped.
+
+node scripts/optimize-car-images.mjs              # also lists anything over 2:1
+node scripts/recrop-wide-images.mjs --fetch --candidates   # if it listed any
+node scripts/apply-image-urls.mjs
+node scripts/park-imageless-cars.mjs              # AFTER the image rounds
+#   -> then delete any file in public/cars that no car points at
+
+npm run docs:refresh                              # CATALOG.md + PHOTO-CHECK.md
+npm run lint && npm run data:test && npm run data:validate:grids && npm run build
+```
+
+**`npm run docs:refresh` is not optional.** Every car that passes verification
+and has a photo must appear in `docs/PHOTO-CHECK.md` — that file is the visual
+pass over the whole catalog, and a stale one silently omits the newest cars,
+which are precisely the ones that have been looked at least. `curation.test.mjs`
+fails if either report drifts from `cars.json`, so CI catches a forgotten
+refresh rather than trusting anyone to remember.
+
+**Park after the image rounds, never before**, and **re-validate the grids after
+parking**: the fetcher reads `cars.json` to know what to look for, and removing
+cars can drop a square below three answers.
+
+Two measured expectations, so a bad wave is recognisable as normal:
+roughly **70–90%** of records survive both image rounds (Škoda 32/35 at best,
+Holden 31/43 at worst), and a brand's hit rate tracks **how well its cars are
+photographed versus how well its history is** — Volvo's archive is full of
+factory line-ups and racing liveries, and Australian photographers strongly
+favour the rear three-quarter.
+
 **A car without a photo does not ship.** An empty `image_url` used to render as
 a plain text tile, which made the record a correct answer that showed the player
 nothing. Records without a verified photo now wait in
