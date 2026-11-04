@@ -184,45 +184,58 @@ test("every car in the catalog has a photo", () => {
 /**
  * The two generated reports must list exactly the cars that are in the game.
  *
- * Both are reports, not sources of truth, which is precisely why they rot:
- * nothing breaks when they fall behind, so nobody notices. CATALOG.md sat at
- * 730 cars while the catalog reached 1,000, still advertising a "73 awaiting
- * an image" section that the no-car-without-a-photo rule had already emptied.
+ * Both are local-only tracking aids and are gitignored, so this is a guard for
+ * the machine that generates them, not for CI — on a fresh checkout the files
+ * are absent and the test skips. That is the right place for it anyway: the
+ * reports are regenerated and read locally, so local is where staleness bites.
  *
- * docs/PHOTO-CHECK.md is the one that matters most, because its whole purpose
- * is a visual pass over the catalog — a stale one quietly omits the newest
- * cars, which are exactly the ones least looked at. Refresh both with:
+ * It earns its keep because these are reports, not sources of truth, which is
+ * exactly why they rot — nothing breaks when they fall behind, so nobody
+ * notices. CATALOG.md sat at 730 cars while the catalog reached 1,000, still
+ * advertising a "73 awaiting an image" section that the no-photo-no-ship rule
+ * had already emptied. A stale PHOTO-CHECK.md is worse: it silently omits the
+ * newest cars, which are the ones that have had the least scrutiny.
  *
  *   npm run docs:refresh
  *
- * The check is deliberately on car ids and counts rather than byte equality,
- * so editing the generator's wording does not fail the suite.
+ * Checked on car ids and counts rather than byte equality, so editing the
+ * generators' wording does not fail the suite.
  */
-test("CATALOG.md and docs/PHOTO-CHECK.md cover exactly the cars in the game", () => {
-  const read = (p) => fs.readFileSync(new URL(`../${p}`, import.meta.url), "utf8");
+test("CATALOG.md and docs/PHOTO-CHECK.md cover exactly the cars in the game", (t) => {
+  const path = (p) => new URL(`../${p}`, import.meta.url);
+  const photoPath = path("docs/PHOTO-CHECK.md");
+  const catalogPath = path("CATALOG.md");
+  if (!fs.existsSync(photoPath) && !fs.existsSync(catalogPath)) {
+    return t.skip("generated reports not present (gitignored) — nothing to check");
+  }
   const inGame = cars.map((c) => c.id).sort();
 
-  const photoCheck = read("docs/PHOTO-CHECK.md");
-  const pictured = [...photoCheck.matchAll(/<img src="\.\.\/public\/cars\/([^"]+)\.webp"/g)]
-    .map((m) => m[1])
-    .sort();
-  assert.deepEqual(
-    pictured.filter((id) => !inGame.includes(id)), [],
-    "PHOTO-CHECK.md shows a car that is no longer in the game — run npm run docs:refresh",
-  );
-  assert.deepEqual(
-    inGame.filter((id) => !pictured.includes(id)), [],
-    "PHOTO-CHECK.md is missing a car that is in the game — run npm run docs:refresh",
-  );
+  if (fs.existsSync(photoPath)) {
+    const pictured = [
+      ...fs.readFileSync(photoPath, "utf8")
+        .matchAll(/<img src="\.\.\/public\/cars\/([^"]+)\.webp"/g),
+    ].map((m) => m[1]).sort();
+    assert.deepEqual(
+      pictured.filter((id) => !inGame.includes(id)), [],
+      "PHOTO-CHECK.md shows a car no longer in the game — run npm run docs:refresh",
+    );
+    assert.deepEqual(
+      inGame.filter((id) => !pictured.includes(id)), [],
+      "PHOTO-CHECK.md is missing a car in the game — run npm run docs:refresh",
+    );
+  }
 
-  // CATALOG.md carries no ids, so hold it to the totals it advertises.
-  const catalog = read("CATALOG.md");
-  const declared = /\*\*(\d+)\*\* cars across \*\*(\d+)\*\* makes/.exec(catalog);
-  assert.ok(declared, "CATALOG.md has no car/make count line");
-  assert.equal(Number(declared[1]), cars.length, "CATALOG.md car count is stale");
-  assert.equal(
-    Number(declared[2]),
-    new Set(cars.map((c) => c.make)).size,
-    "CATALOG.md make count is stale",
-  );
+  if (fs.existsSync(catalogPath)) {
+    // CATALOG.md carries no ids, so hold it to the totals it advertises.
+    const declared = /\*\*(\d+)\*\* cars across \*\*(\d+)\*\* makes/.exec(
+      fs.readFileSync(catalogPath, "utf8"),
+    );
+    assert.ok(declared, "CATALOG.md has no car/make count line");
+    assert.equal(Number(declared[1]), cars.length, "CATALOG.md car count is stale");
+    assert.equal(
+      Number(declared[2]),
+      new Set(cars.map((c) => c.make)).size,
+      "CATALOG.md make count is stale",
+    );
+  }
 });

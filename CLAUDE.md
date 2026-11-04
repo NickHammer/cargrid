@@ -283,9 +283,20 @@ npm run lint && npm run data:test && npm run data:validate:grids && npm run buil
 **`npm run docs:refresh` is not optional.** Every car that passes verification
 and has a photo must appear in `docs/PHOTO-CHECK.md` — that file is the visual
 pass over the whole catalog, and a stale one silently omits the newest cars,
-which are precisely the ones that have been looked at least. `curation.test.mjs`
-fails if either report drifts from `cars.json`, so CI catches a forgotten
-refresh rather than trusting anyone to remember.
+which are precisely the ones that have been looked at least.
+
+`CATALOG.md`, `docs/PHOTO-CHECK.md` and `docs/IMAGES-WANTED.md` are **generated
+and gitignored**: they are derived from `cars.json`, so tracking them would
+churn the diff on every wave and conflict on every merge, and they are read in a
+local markdown preview rather than on GitHub. Regenerate them rather than
+looking for them in a fresh clone. The other `docs/` files are hand-written
+decision records and stay tracked — CLAUDE.md links to `BRAND-PASS.md` and
+`move-import-wave.mjs` to `IMPORT-REVIEW.md`.
+
+`curation.test.mjs` still checks both reports against `cars.json`, but **only
+when they exist**, so it guards the machine that generates them and skips on a
+fresh checkout. That is the right place for it: the reports are written and read
+locally, so local is where staleness actually bites.
 
 **Park after the image rounds, never before**, and **re-validate the grids after
 parking**: the fetcher reads `cars.json` to know what to look for, and removing

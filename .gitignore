@@ -36,3 +36,12 @@ next-env.d.ts
 
 # curation review artifacts (regenerated each image wave)
 /contact-sheets/
+
+# generated tracking reports — regenerate locally with `npm run docs:refresh`.
+# Not in git because they are derived from data/cars.json (so they would churn
+# on every wave and conflict on every merge) and they are read in a local
+# markdown preview, not on GitHub. The hand-written docs/ files stay tracked:
+# they record decisions, and CLAUDE.md links to them.
+/CATALOG.md
+/docs/PHOTO-CHECK.md
+/docs/IMAGES-WANTED.md
