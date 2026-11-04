@@ -456,6 +456,421 @@
     "image_url": ""
   },
   {
+    "id": "fiat-124-g1",
+    "make": "Fiat",
+    "model": "124",
+    "generation": 1,
+    "brands": [
+      "Fiat",
+      "Lada",
+      "SEAT"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1966,
+    "production_end": 1974,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 59,
+    "power_output_hp_max": 108,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-125-g1",
+    "make": "Fiat",
+    "model": "125",
+    "generation": 1,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1967,
+    "production_end": 1972,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 99,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-130-g1",
+    "make": "Fiat",
+    "model": "130",
+    "generation": 1,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1969,
+    "production_end": 1977,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 138,
+    "power_output_hp_max": 163,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-600-g2",
+    "make": "Fiat",
+    "model": "600",
+    "generation": 2,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3",
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 99,
+    "power_output_hp_max": 154,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Hybrid",
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-marea-g1",
+    "make": "Fiat",
+    "model": "Marea",
+    "generation": 1,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1996,
+    "production_end": 2002,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-5"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 79,
+    "power_output_hp_max": 145,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-mobi-g1",
+    "make": "Fiat",
+    "model": "Mobi",
+    "generation": 1,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2016,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-3"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 73,
+    "power_output_hp_max": 77,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-panda-g3",
+    "make": "Fiat",
+    "model": "Panda",
+    "generation": 3,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2011,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-2",
+      "Inline-3"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 59,
+    "power_output_hp_max": 89,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-punto-g1",
+    "make": "Fiat",
+    "model": "Punto",
+    "generation": 1,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1993,
+    "production_end": 1999,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 54,
+    "power_output_hp_max": 131,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-regata-g1",
+    "make": "Fiat",
+    "model": "Regata",
+    "generation": 1,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1983,
+    "production_end": 1990,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 55,
+    "power_output_hp_max": 100,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-strada-g1",
+    "make": "Fiat",
+    "model": "Strada",
+    "generation": 1,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1996,
+    "production_end": 2020,
+    "decades": [
+      "1990s",
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 63,
+    "power_output_hp_max": 130,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
     "id": "jeep-cj-6-g1",
     "make": "Jeep",
     "model": "CJ-6",

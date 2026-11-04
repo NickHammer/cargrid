@@ -1,6 +1,6 @@
 # Photos wanted
 
-61 cars are curated and ready but have no usable photo, so they are
+71 cars are curated and ready but have no usable photo, so they are
 **not in the game**. They wait in `data/incoming/needs-photo.json` and return
 automatically once a photo is verified:
 
@@ -13,16 +13,16 @@ node scripts/park-imageless-cars.mjs --restore
 node scripts/validate-grids.mjs --min 3
 ```
 
-**Renault** 25 · **Peugeot** 10 · **Citroën** 9 · **Mitsubishi** 7 · **Nissan** 5 · **Cadillac** 2 · **Lexus** 2 · **Jeep** 1
+**Renault** 25 · **Fiat** 10 · **Peugeot** 10 · **Citroën** 9 · **Mitsubishi** 7 · **Nissan** 5 · **Cadillac** 2 · **Lexus** 2 · **Jeep** 1
 
 ## What a usable photo looks like
 
 Tiles are 4:3 at about 300px, so: a front three-quarter view, the car filling
-the frame, a standard car with no livery or decals, nothing and nobody in front
-of it, and above all **the right generation and the right body**. Body Style is
-a live grid category, so an estate or a cabriolet against a Sedan or Hatchback
-record makes a puzzle wrong — that alone accounted for 6 rejects across the
-Peugeot and Citroen waves, and none of them were obvious by eye.
+the frame, a standard car with no livery, decals or roof rack, nothing and
+nobody in front of it, and above all **the right generation and the right
+body**. Body Style is a live grid category, so an estate or a cabriolet against
+a Sedan or Hatchback record makes a puzzle wrong — that has now cost 7 cars
+across four waves, and none of them looked wrong at thumbnail size.
 
 ## The list
 
@@ -39,6 +39,16 @@ Peugeot and Citroen waves, and none of them were obvious by eye.
 | `citroen-dyane-g1` | Citroën Dyane | 1967–1983 | Hatchback / Hatchback | [Dyane](https://commons.wikimedia.org/w/index.php?search=Citro%C3%ABn%20Dyane%201967&ns6=1) |
 | `citroen-mehari-g1` | Citroën Méhari | 1968–1988 | Convertible / Off-Road | [Méhari](https://commons.wikimedia.org/w/index.php?search=Citro%C3%ABn%20M%C3%A9hari%201968&ns6=1) |
 | `citroen-xsara-g1` | Citroën Xsara | 1997–2006 | Hatchback / Hatchback | [Xsara](https://commons.wikimedia.org/w/index.php?search=Citro%C3%ABn%20Xsara%201997&ns6=1) |
+| `fiat-124-g1` | Fiat 124 | 1966–1974 | Sedan / Sedan | [124](https://commons.wikimedia.org/w/index.php?search=Fiat%20124%201966&ns6=1) |
+| `fiat-125-g1` | Fiat 125 | 1967–1972 | Sedan / Sedan | [125](https://commons.wikimedia.org/w/index.php?search=Fiat%20125%201967&ns6=1) |
+| `fiat-130-g1` | Fiat 130 | 1969–1977 | Sedan / Sedan | [130](https://commons.wikimedia.org/w/index.php?search=Fiat%20130%201969&ns6=1) |
+| `fiat-600-g2` | Fiat 600 | 2023–now | SUV / SUV | [600](https://commons.wikimedia.org/w/index.php?search=Fiat%20600%202023&ns6=1) |
+| `fiat-marea-g1` | Fiat Marea | 1996–2002 | Sedan / Sedan | [Marea](https://commons.wikimedia.org/w/index.php?search=Fiat%20Marea%201996&ns6=1) |
+| `fiat-mobi-g1` | Fiat Mobi | 2016–now | Hatchback / Hatchback | [Mobi](https://commons.wikimedia.org/w/index.php?search=Fiat%20Mobi%202016&ns6=1) |
+| `fiat-panda-g3` | Fiat Panda | 2011–now | Hatchback / Hatchback | [Panda](https://commons.wikimedia.org/w/index.php?search=Fiat%20Panda%202011&ns6=1) |
+| `fiat-punto-g1` | Fiat Punto | 1993–1999 | Hatchback / Hatchback | [Punto](https://commons.wikimedia.org/w/index.php?search=Fiat%20Punto%201993&ns6=1) |
+| `fiat-regata-g1` | Fiat Regata | 1983–1990 | Sedan / Sedan | [Regata](https://commons.wikimedia.org/w/index.php?search=Fiat%20Regata%201983&ns6=1) |
+| `fiat-strada-g1` | Fiat Strada | 1996–2020 | Pickup Truck / Pickup Truck | [Strada](https://commons.wikimedia.org/w/index.php?search=Fiat%20Strada%201996&ns6=1) |
 | `jeep-cj-6-g1` | Jeep CJ-6 | 1955–1975 | SUV / Off-Road | [CJ-6](https://commons.wikimedia.org/w/index.php?search=Jeep%20CJ-6%201955&ns6=1) |
 | `lexus-es-g2` | Lexus ES | 1991–1996 | Sedan / Sedan | [ES](https://commons.wikimedia.org/w/index.php?search=Lexus%20ES%201991&ns6=1) |
 | `lexus-ls-g2` | Lexus LS | 1994–2000 | Sedan / Sedan | [LS](https://commons.wikimedia.org/w/index.php?search=Lexus%20LS%201994&ns6=1) |

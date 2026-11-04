@@ -9602,5 +9602,711 @@
     "artist": "Calreyn88",
     "source": "https://commons.wikimedia.org/wiki/File:1998_Citro%C3%ABn_ZX_1.4i_Temptation.jpg",
     "verified": true
+  },
+  "fiat-124-g1": {
+    "file": "/cars/fiat-124-g1.webp",
+    "article": "Commons search: Fiat 124 1968",
+    "matched": "search",
+    "license": "CC BY-SA 2.0 fr",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+    "artist": "Akela NDE",
+    "source": "https://commons.wikimedia.org/wiki/File:1968_Fiat_124_Sport_AC_-_Front_three-quarters_2.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Fiat-124-Sport-Spider-1966-1985-profil-byRundvald.jpg",
+      "https://commons.wikimedia.org/wiki/File:1968_Fiat_124_Sport_AC_-_Front_three-quarters_2.jpg"
+    ],
+    "rejected": true
+  },
+  "fiat-124-spider-g1": {
+    "file": "/cars/fiat-124-spider-g1.webp",
+    "article": "Commons search: Fiat 124 Spider 2016",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Fiat_124_Spider_Lusso%2B_1.4_Front.jpg",
+    "verified": true
+  },
+  "fiat-124-sport-spider-g1": {
+    "file": "/cars/fiat-124-sport-spider-g1.webp",
+    "article": "Commons search: Fiat 124 Sport Spider 1966",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Rundvald",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat-124-Sport-Spider-1966-1985-avg-byRundvald.jpg",
+    "verified": true
+  },
+  "fiat-125-g1": {
+    "file": "/cars/fiat-125-g1.webp",
+    "article": "Commons search: Fiat 125 1969",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Jiří Sedláček",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_125_Special_1969_at_Legendy_2019_in_Prague.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1967_Fiat_125_GTZ_frontal.jpg",
+      "https://commons.wikimedia.org/wiki/File:Fiat_125_Special_1969_at_Legendy_2019_in_Prague.jpg"
+    ],
+    "rejected": true
+  },
+  "fiat-126-g1": {
+    "file": "/cars/fiat-126-g1.webp",
+    "article": "Commons search: Fiat 126 1972",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Tony Harrison",
+    "source": "https://commons.wikimedia.org/wiki/File:1973_Fiat_126_IMG_7855.jpg",
+    "verified": true
+  },
+  "fiat-127-g1": {
+    "file": "/cars/fiat-127-g1.webp",
+    "article": "Commons search: Fiat 127 1973",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Rutger van der Maar",
+    "source": "https://commons.wikimedia.org/wiki/File:1973_Fiat_127_900_front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1971_Fiat_Dino_2400_Spider_Red_(1).jpg"
+    ],
+    "verified": true
+  },
+  "fiat-128-g1": {
+    "file": "/cars/fiat-128-g1.webp",
+    "article": "Commons search: Fiat 128 1969",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "No machine-readable author provided. Luc106 assumed (based on copyright claims).",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_128-Sedan-4dr_(1969)_Front-view.JPG",
+    "verified": true
+  },
+  "fiat-131-g1": {
+    "file": "/cars/fiat-131-g1.webp",
+    "article": "Commons search: Fiat 131 1974",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:1984_Fiat_131_SuperBrava_2000_TC_sedan_(2012-06-24)_01.jpg",
+    "verified": true
+  },
+  "fiat-132-g1": {
+    "file": "/cars/fiat-132-g1.webp",
+    "article": "Commons search: Fiat 132 1972",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Riley from Christchurch, New Zealand",
+    "source": "https://commons.wikimedia.org/wiki/File:1975_Fiat_132_GL_Saloon_(7007918655).jpg",
+    "verified": true
+  },
+  "fiat-500-g1": {
+    "file": "/cars/fiat-500-g1.webp",
+    "article": "Commons search: Fiat 500 2007",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_500_1.4_16V_Rosso_Corsa_%E2%80%93_Frontansicht,_7._Mai_2011,_D%C3%BCsseldorf.jpg",
+    "verified": true
+  },
+  "fiat-500-topolino-g1": {
+    "file": "/cars/fiat-500-topolino-g1.webp",
+    "article": "Commons search: Fiat 500 Topolino 1936",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "TTTNIS",
+    "source": "https://commons.wikimedia.org/wiki/File:1936_Fiat_500_Topolino_Saloon.jpg",
+    "verified": true
+  },
+  "fiat-500e-g1": {
+    "file": "/cars/fiat-500e-g1.webp",
+    "article": "Commons search: Fiat 500e 2020",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_500e_Cabrio_(2020)_IMG_0011.jpg",
+    "verified": true
+  },
+  "fiat-500l-g1": {
+    "file": "/cars/fiat-500l-g1.webp",
+    "article": "Commons search: Fiat 500L 2012",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_500L_Living_1.3_16V_Multijet_Lounge_%E2%80%93_Frontansicht,_14._November_2015,_D%C3%BCsseldorf.jpg",
+    "verified": true
+  },
+  "fiat-500x-g1": {
+    "file": "/cars/fiat-500x-g1.webp",
+    "article": "Commons search: Fiat 500X 2014",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Carluver23",
+    "source": "https://commons.wikimedia.org/wiki/File:2014_Fiat_500X.jpg",
+    "verified": true
+  },
+  "fiat-600-g1": {
+    "file": "/cars/fiat-600-g1.webp",
+    "article": "Commons search: Fiat 600 1957",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "TTTNIS",
+    "source": "https://commons.wikimedia.org/wiki/File:1957_Fiat_600_Cisitalia.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1955-04-20_Salone_Torino_Fiat_600_Einaudi_Agnelli.jpg"
+    ],
+    "verified": true
+  },
+  "fiat-600-g2": {
+    "file": "/cars/fiat-600-g2.webp",
+    "article": "Commons search: Fiat 600 2025",
+    "matched": "search",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "Just a Man",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_600_S._Expo_Warnes_2025_-_(vista_frontal).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Fiat_600_(2023)_Automesse_Ludwigsburg_2024_IMG_1584.jpg",
+      "https://commons.wikimedia.org/wiki/File:Fiat_600_S._Expo_Warnes_2025_-_(vista_frontal).jpg"
+    ],
+    "rejected": true
+  },
+  "fiat-argenta-g1": {
+    "file": "/cars/fiat-argenta-g1.webp",
+    "article": "Commons search: Fiat Argenta 1983",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:1983_Fiat_Argenta_2000_TC.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Fiat_Argenta_120ie_1985.jpg"
+    ],
+    "verified": true
+  },
+  "fiat-argo-g1": {
+    "file": "/cars/fiat-argo-g1.webp",
+    "article": "Commons search: Fiat Argo 2017",
+    "matched": "search",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "Just a Man",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Fiat_Argo_1.3_GSE_Drive.jpg",
+    "verified": true
+  },
+  "fiat-barchetta-g1": {
+    "file": "/cars/fiat-barchetta-g1.webp",
+    "article": "Commons search: Fiat Barchetta 1995",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Gunnar Creutz",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_Fiat_Barchetta_1995_-_4255.jpg",
+    "verified": true
+  },
+  "fiat-bravo-brava-g1": {
+    "file": "/cars/fiat-bravo-brava-g1.webp",
+    "article": "Commons search: Fiat Bravo 1995",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Rudolf Stricker",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Brava_1996_Front.jpg",
+    "verified": true
+  },
+  "fiat-bravo-g2": {
+    "file": "/cars/fiat-bravo-g2.webp",
+    "article": "Commons search: Fiat Bravo 2009",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Corvettec6r",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Bravo_2009.JPG",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Fiat_Bravo_(2007)_front.jpg"
+    ],
+    "verified": true
+  },
+  "fiat-cinquecento-g1": {
+    "file": "/cars/fiat-cinquecento-g1.webp",
+    "article": "Commons search: Fiat Cinquecento 1991",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:1994_Fiat_Cinquecento_with_UK_plates,_front_6.1.19.jpg",
+    "verified": true
+  },
+  "fiat-coupe-g1": {
+    "file": "/cars/fiat-coupe-g1.webp",
+    "article": "Commons search: Fiat Coupé 1995",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Txemari. (Navarra). from Navarra, España",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Coup%C3%A9._(1995)._(54995234806).jpg",
+    "verified": true
+  },
+  "fiat-croma-g1": {
+    "file": "/cars/fiat-croma-g1.webp",
+    "article": "Commons search: Fiat Croma 1985",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Tony Harrison from Farnborough, UK;cropped and plates blanked by uploader Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1987_Fiat_Croma_CHT.jpg",
+    "verified": true
+  },
+  "fiat-croma-g2": {
+    "file": "/cars/fiat-croma-g2.webp",
+    "article": "Commons search: Fiat Croma 2005",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2005_Fiat_Croma_P-Gio_Multijet_JTD200_Automatic_2.4_Front.jpg",
+    "verified": true
+  },
+  "fiat-cronos-g1": {
+    "file": "/cars/fiat-cronos-g1.webp",
+    "article": "Fiat Cronos",
+    "matched": "main-article",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Heduardo55",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Cronos_1.8_16V_E.Torq_Precision.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2024_Fiat_Cronos_1.3_GSE_S-Design_(front).jpg"
+    ],
+    "verified": true
+  },
+  "fiat-dino-g1": {
+    "file": "/cars/fiat-dino-g1.webp",
+    "article": "Commons search: Fiat Dino 1966",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Charles from Port Chester, New York",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Dino_2400_Spider_(1970)_(52865213444).jpg",
+    "verified": true
+  },
+  "fiat-doblo-g1": {
+    "file": "/cars/fiat-doblo-g1.webp",
+    "article": "Commons search: Fiat Doblò 2000",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "order_242 from Chile",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Doblo_ELX_1.9_JTD_Limited_2003_(9063305542).jpg",
+    "verified": true
+  },
+  "fiat-doblo-g2": {
+    "file": "/cars/fiat-doblo-g2.webp",
+    "article": "Commons search: Fiat Doblò 2010",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Fiat500multijet",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Dobl%C3%B2_second_generation_2010.jpg",
+    "verified": true
+  },
+  "fiat-doblo-g3": {
+    "file": "/cars/fiat-doblo-g3.webp",
+    "article": "Commons search: Fiat Doblò 2024",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander-93",
+    "source": "https://commons.wikimedia.org/wiki/File:2024_Fiat_Dobl%C3%B2_Mk3_IMG_2399.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Fiat_Dobl%C3%B2_1.5_BlueHDi_(2023)_(53513723849).jpg"
+    ],
+    "verified": true
+  },
+  "fiat-fastback-g1": {
+    "file": "/cars/fiat-fastback-g1.webp",
+    "article": "Commons search: Fiat Fastback 2022",
+    "matched": "search",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "Autosdeprimera",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_Fiat_Fastback_(Colombia)_front_view.png",
+    "verified": true
+  },
+  "fiat-freemont-g1": {
+    "file": "/cars/fiat-freemont-g1.webp",
+    "article": "Commons search: Fiat Freemont 2013",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Freemont_2.0_16V_Multijet_%E2%80%93_Frontansicht,_10._Juli_2013,_M%C3%BCnster.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Fiat_Freemont_01_France_2011-06-17.jpg"
+    ],
+    "verified": true
+  },
+  "fiat-fullback-g1": {
+    "file": "/cars/fiat-fullback-g1.webp",
+    "article": "Commons search: Fiat Fullback 2016",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "© M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Fullback_Double_Cab_LX_Launch_Edition_2.4_Multijet_180_4WD_%E2%80%93_Frontansicht,_11._September_2016,_D%C3%BCsseldorf.jpg",
+    "verified": true
+  },
+  "fiat-grande-panda-g1": {
+    "file": "/cars/fiat-grande-panda-g1.webp",
+    "article": "Commons search: Fiat Grande Panda 2024",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Mihnea Lazăr",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Grande_Panda_Hybrid_2025_Front_1_(cropped).jpg",
+    "verified": true
+  },
+  "fiat-grande-punto-punto-g3": {
+    "file": "/cars/fiat-grande-punto-punto-g3.webp",
+    "article": "Commons search: Fiat Grande Punto 2005",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2006_Fiat_Grande_Punto_Sporting_T-J_1.4_Front.jpg",
+    "verified": true
+  },
+  "fiat-idea-g1": {
+    "file": "/cars/fiat-idea-g1.webp",
+    "article": "Commons search: Fiat Idea 2003",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2005_Fiat_Idea_Active_1.4_Front.jpg",
+    "verified": true
+  },
+  "fiat-linea-g1": {
+    "file": "/cars/fiat-linea-g1.webp",
+    "article": "Commons search: Fiat Linea 2007",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:2007_Fiat_Linea,_front_8.3.18.jpg",
+    "verified": true
+  },
+  "fiat-marea-g1": {
+    "file": "/cars/fiat-marea-g1.webp",
+    "article": "Commons search: Fiat Marea 1998",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1998_Fiat_Marea_Weekend_HLX_Nicas.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Fiat_Marea_Weekend_St._Moritz_JTD_(7.2.2002).jpg",
+      "https://commons.wikimedia.org/wiki/File:1998_Fiat_Marea_Weekend_HLX_Nicas.jpg"
+    ],
+    "rejected": true
+  },
+  "fiat-mobi-g1": {
+    "file": "/cars/fiat-mobi-g1.webp",
+    "article": "Commons search: Fiat Mobi 2018",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Globetrotter19",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_500e,_Bajcsy-Zsilinszky_street_charging_station,_2018_Karcag.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Fiat_Mobi_Trekking_1.0_2021_in_Montevideo_(front).jpg",
+      "https://commons.wikimedia.org/wiki/File:Fiat_500e,_Bajcsy-Zsilinszky_street_charging_station,_2018_Karcag.jpg"
+    ],
+    "rejected": true
+  },
+  "fiat-multipla-g1": {
+    "file": "/cars/fiat-multipla-g1.webp",
+    "article": "Commons search: Fiat Multipla 1998",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "crash71100",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Multipla_(1998-2001)_front.jpg",
+    "verified": true
+  },
+  "fiat-nuova-500-g1": {
+    "file": "/cars/fiat-nuova-500-g1.webp",
+    "article": "Commons search: Fiat Nuova 500 1959",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Rutger van der Maar from Leiden, The Netherlands",
+    "source": "https://commons.wikimedia.org/wiki/File:1959_Fiat_500_Nuova_Transformable_Normale_(14301697449).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Fiat_500_(2007)_%26_Fiat_Nuova_500_(1957).jpg"
+    ],
+    "verified": true
+  },
+  "fiat-palio-g1": {
+    "file": "/cars/fiat-palio-g1.webp",
+    "article": "Commons search: Fiat Palio 1996",
+    "matched": "search",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "Corvettec6r",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Palio_65_2000.jpg",
+    "verified": true
+  },
+  "fiat-panda-g1": {
+    "file": "/cars/fiat-panda-g1.webp",
+    "article": "Commons search: Fiat Panda 1980",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "DieselFordMondeo",
+    "source": "https://commons.wikimedia.org/wiki/File:1995_FIAT_Panda_CLX_-_999cc_Fire_1000_(45PS)_Petrol_-_14-07-2024,_Front_Right.jpg",
+    "verified": true
+  },
+  "fiat-panda-g2": {
+    "file": "/cars/fiat-panda-g2.webp",
+    "article": "Commons search: Fiat Panda 2003",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Meditberprod",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat-Panda_2003.jpg",
+    "verified": true
+  },
+  "fiat-panda-g3": {
+    "file": "/cars/fiat-panda-g3.webp",
+    "article": "Commons search: Fiat Panda 2013",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2013_Fiat_Panda_POP_Multijet_1.2_%26_2007_Fiat_Panda_Dynamic_Multijet_1.2.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Fiat_Panda_(2011)_front.jpg",
+      "https://commons.wikimedia.org/wiki/File:2013_Fiat_Panda_POP_Multijet_1.2_%26_2007_Fiat_Panda_Dynamic_Multijet_1.2.jpg"
+    ],
+    "rejected": true
+  },
+  "fiat-pulse-g1": {
+    "file": "/cars/fiat-pulse-g1.webp",
+    "article": "Commons search: Fiat Pulse 2021",
+    "matched": "search",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "Garagem do Jabulas",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Fiat_Pulse_Impetus_T200_(Brazil)_front_view.png",
+    "verified": true
+  },
+  "fiat-punto-g1": {
+    "file": "/cars/fiat-punto-g1.webp",
+    "article": "Commons search: Fiat Punto 1995",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "order_242 from Chile",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Punto_60_1995_(13274909943).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Fiat_Punto_GT_-_Modell_1993.jpg",
+      "https://commons.wikimedia.org/wiki/File:Fiat_Punto_60_1995_(13274909943).jpg"
+    ],
+    "rejected": true
+  },
+  "fiat-punto-g2": {
+    "file": "/cars/fiat-punto-g2.webp",
+    "article": "Commons search: Fiat Punto 1999",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "DieselFordMondeo",
+    "source": "https://commons.wikimedia.org/wiki/File:2003_FIAT_Punto_Active_1.2_(Front).jpg",
+    "verified": true
+  },
+  "fiat-regata-g1": {
+    "file": "/cars/fiat-regata-g1.webp",
+    "article": "Commons search: Fiat Regata 1983",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Charlie from United Kingdom",
+    "source": "https://commons.wikimedia.org/wiki/File:1983-86_Fiat_Regata_60_(10494583963).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1983-86_Fiat_Regata_60_(10494605613).jpg",
+      "https://commons.wikimedia.org/wiki/File:1983-86_Fiat_Regata_60_(10494583963).jpg"
+    ],
+    "rejected": true
+  },
+  "fiat-ritmo-strada-g1": {
+    "file": "/cars/fiat-ritmo-strada-g1.webp",
+    "article": "Commons search: Fiat Ritmo 1978",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Chamelfo Ropatras;Cropped and levels adjusted by uploader Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Ritmo_65_CL_(1982).jpg",
+    "verified": true
+  },
+  "fiat-sedici-g1": {
+    "file": "/cars/fiat-sedici-g1.webp",
+    "article": "Commons search: Fiat Sedici 2005",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Sedici_1.6_16V_Easy_(2._Facelift)_%E2%80%93_Frontansicht,_17._Mai_2013,_M%C3%BCnster.jpg",
+    "verified": true
+  },
+  "fiat-seicento-g1": {
+    "file": "/cars/fiat-seicento-g1.webp",
+    "article": "Commons search: Fiat Seicento 1998",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Monettt",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat-seicento-50th-anniversary-2007-front_01.jpg",
+    "verified": true
+  },
+  "fiat-stilo-g1": {
+    "file": "/cars/fiat-stilo-g1.webp",
+    "article": "Commons search: Fiat Stilo 2001",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2004_Fiat_Stilo_Active_16V_1.4_Front.jpg",
+    "verified": true
+  },
+  "fiat-strada-g1": {
+    "file": "/cars/fiat-strada-g1.webp",
+    "article": "Commons search: Fiat Strada 1998",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Jakubtr",
+    "source": "https://commons.wikimedia.org/wiki/File:1998_05_13_Rondo_Rataje_66_277_278_(2).JPG",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2001_Fiat_Palio_1.2.jpg",
+      "https://commons.wikimedia.org/wiki/File:1998_05_13_Rondo_Rataje_66_277_278_(2).JPG"
+    ],
+    "rejected": true
+  },
+  "fiat-strada-g2": {
+    "file": "/cars/fiat-strada-g2.webp",
+    "article": "Commons search: Fiat Strada 2020",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "NaBUru38",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Strada_2020_Volcano_in_Montevideo_(front).jpg",
+    "verified": true
+  },
+  "fiat-tempra-g1": {
+    "file": "/cars/fiat-tempra-g1.webp",
+    "article": "Commons search: Fiat Tempra 1990",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1991_Fiat_Tempra_1.4_SX,_front_right_(Portugal).jpg",
+    "verified": true
+  },
+  "fiat-tipo-g1": {
+    "file": "/cars/fiat-tipo-g1.webp",
+    "article": "Commons search: Fiat Tipo 1988",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1994_Fiat_Tipo_S_IE_1.4_Front.jpg",
+    "verified": true
+  },
+  "fiat-tipo-g2": {
+    "file": "/cars/fiat-tipo-g2.webp",
+    "article": "Commons search: Fiat Tipo 2017",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Fiat_Tipo_Lounge_1.4_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2019_Fiat_Tipo_1.6_Easy.jpg"
+    ],
+    "verified": true
+  },
+  "fiat-topolino-g1": {
+    "file": "/cars/fiat-topolino-g1.webp",
+    "article": "Commons search: Fiat Topolino 2023",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander-93",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Topolino_(2023)_IMG_0749.jpg",
+    "verified": true
+  },
+  "fiat-toro-g1": {
+    "file": "/cars/fiat-toro-g1.webp",
+    "article": "Commons search: Fiat Toro 2016",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "NaBUru38",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Toro_2018_in_Punta_del_Este_(front)_01.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Fiat_Toro_2018_in_Punta_del_Este_(front)_01.jpg"
+    ],
+    "verified": true
+  },
+  "fiat-ulysse-g1": {
+    "file": "/cars/fiat-ulysse-g1.webp",
+    "article": "Commons search: Fiat Ulysse 1994",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Corvettec6r",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Ulysse_1997.jpg",
+    "verified": true
+  },
+  "fiat-uno-g1": {
+    "file": "/cars/fiat-uno-g1.webp",
+    "article": "Commons search: Fiat Uno 1983",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1986_Fiat_Uno_70_SL_1.3.jpg",
+    "verified": true
+  },
+  "fiat-uno-g2": {
+    "file": "/cars/fiat-uno-g2.webp",
+    "article": "Commons search: Fiat Uno 2010",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Pdamico2009",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_Uno_Way_2013_En_Argentina.jpg",
+    "verified": true
+  },
+  "fiat-x1-9-g1": {
+    "file": "/cars/fiat-x1-9-g1.webp",
+    "article": "Commons search: Fiat X1 1972",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1978_Fiat_X1.9_in_white,_front_left.jpg",
+    "verified": true
   }
 }
