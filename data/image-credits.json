@@ -8474,5 +8474,571 @@
     "artist": "Vauxford",
     "source": "https://commons.wikimedia.org/wiki/File:2018_Renault_ZOE.jpg",
     "verified": true
+  },
+  "peugeot-1007-g1": {
+    "file": "/cars/peugeot-1007-g1.webp",
+    "article": "Commons search: Peugeot 1007 2006",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Dogs.barking.duster.rolling",
+    "source": "https://commons.wikimedia.org/wiki/File:2006_Peugeot_1007_(2).jpg",
+    "verified": true
+  },
+  "peugeot-104-g1": {
+    "file": "/cars/peugeot-104-g1.webp",
+    "article": "Commons search: Peugeot 104 1972",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Alf van Beem",
+    "source": "https://commons.wikimedia.org/wiki/File:1972_Peugeot_104.jpg",
+    "verified": true
+  },
+  "peugeot-106-g1": {
+    "file": "/cars/peugeot-106-g1.webp",
+    "article": "Commons search: Peugeot 106 1993",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Detectandpreserve",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_106_Gen1_S1_1991-1995_special_edition_KID_1993_frontfenderright_2008-04-17_A.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Peugeot_106_Gen1_S1_1991-1995_special_edition_CRYSTAL_frontdoorright_2008-03-29_A.jpg",
+      "https://commons.wikimedia.org/wiki/File:Peugeot_106_Gen1_S1_1991-1995_special_edition_KID_1993_frontfenderright_2008-04-17_A.jpg"
+    ],
+    "rejected": true
+  },
+  "peugeot-108-g1": {
+    "file": "/cars/peugeot-108-g1.webp",
+    "article": "Commons search: Peugeot 108 2016",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Cutlass",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Peugeot_108_3-door_in_Laser_Red,_front_left,_06-10-2025.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Peugeot_108_PureTech_82_TOP!_Allure_%E2%80%93_Frontansicht,_6._September_2014.jpg"
+    ],
+    "verified": true
+  },
+  "peugeot-2008-g1": {
+    "file": "/cars/peugeot-2008-g1.webp",
+    "article": "Commons search: Peugeot 2008 2013",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_2008_82_VTi_Allure_%E2%80%93_Frontansicht,_18._Mai_2013,_M%C3%BCnster.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2014_Peugeot_2008_(A94)_Allure_wagon_(2015-06-03)_02.jpg"
+    ],
+    "verified": true
+  },
+  "peugeot-2008-g2": {
+    "file": "/cars/peugeot-2008-g2.webp",
+    "article": "Commons search: Peugeot 2008 2019",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2020_Peugeot_2008_Allure_Front.jpg",
+    "verified": true
+  },
+  "peugeot-201-g1": {
+    "file": "/cars/peugeot-201-g1.webp",
+    "article": "Commons search: Peugeot 201 1929",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_201_Saloon_(1930)_Classic-Gala_2022_1X7A0267.jpg",
+    "verified": true
+  },
+  "peugeot-203-g1": {
+    "file": "/cars/peugeot-203-g1.webp",
+    "article": "Commons search: Peugeot 203 1950",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "calflier001",
+    "source": "https://commons.wikimedia.org/wiki/File:PEUGEOT_203_(1950_TYPE)_RALLY_CAR_AT_TANGER_BEACH_FRONT_MOROCCO_APRIL_2013_(8695870423).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1950_Ponte_San_Luigi_Peugeot_203.jpg"
+    ],
+    "verified": true
+  },
+  "peugeot-204-g1": {
+    "file": "/cars/peugeot-204-g1.webp",
+    "article": "Commons search: Peugeot 204 1965",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Charles01",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_204_Coup%C3%A9_ca_1965_at_Peugeot_Museum.JPG",
+    "verified": true
+  },
+  "peugeot-205-g1": {
+    "file": "/cars/peugeot-205-g1.webp",
+    "article": "Commons search: Peugeot 205 1983",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Niels",
+    "source": "https://commons.wikimedia.org/wiki/File:1983_Peugeot_205_GL.jpg",
+    "verified": true
+  },
+  "peugeot-206-g1": {
+    "file": "/cars/peugeot-206-g1.webp",
+    "article": "Commons search: Peugeot 206 2000",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2000_Peugeot_206_L_1.1_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Peugeot_206_from_1998_special_edition_QUIKSILVER_1998_frontdoorleft_2008-03-22_A.JPG"
+    ],
+    "verified": true
+  },
+  "peugeot-207-g1": {
+    "file": "/cars/peugeot-207-g1.webp",
+    "article": "Commons search: Peugeot 207 2006",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "DieselFordMondeo",
+    "source": "https://commons.wikimedia.org/wiki/File:2006_Peugeot_207_GT_-_1.6_HDi_(110PS)_diesel_manual_-_2025-29-07,_front_left.jpg",
+    "verified": true
+  },
+  "peugeot-208-g1": {
+    "file": "/cars/peugeot-208-g1.webp",
+    "article": "Commons search: Peugeot 208 A9",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:2014_Peugeot_208_(A9)_Allure_5-door_hatchback_(2015-05-29)_01.jpg",
+    "verified": true
+  },
+  "peugeot-208-g2": {
+    "file": "/cars/peugeot-208-g2.webp",
+    "article": "Commons search: Peugeot 208 P21",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Damian B Oh",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_208_GT_P21_Vertigo_Blue_(9).jpg",
+    "verified": true
+  },
+  "peugeot-3008-g1": {
+    "file": "/cars/peugeot-3008-g1.webp",
+    "article": "Commons search: Peugeot 3008 T84",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Dinkun Chen",
+    "source": "https://commons.wikimedia.org/wiki/File:PEUGEOT_3008_(T84)_China.jpg",
+    "verified": true
+  },
+  "peugeot-3008-g2": {
+    "file": "/cars/peugeot-3008-g2.webp",
+    "article": "Commons search: Peugeot 3008 P84",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "EurovisionNim",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Peugeot_3008_(P84_MY18)_Active_wagon_(2018-03-13)_01.jpg",
+    "verified": true
+  },
+  "peugeot-3008-g3": {
+    "file": "/cars/peugeot-3008-g3.webp",
+    "article": "Commons search: Peugeot 3008 2023",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander-93",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_e-3008_Auto_Zuerich_2023_1X7A1012.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Peugeot_e-3008_Auto_Zuerich_2023_1X7A1014.jpg"
+    ],
+    "verified": true
+  },
+  "peugeot-301-g1": {
+    "file": "/cars/peugeot-301-g1.webp",
+    "article": "Commons search: Peugeot 301 2012",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "User3204",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Peugeot_301_(facelift,_front).jpg",
+    "verified": true
+  },
+  "peugeot-304-g1": {
+    "file": "/cars/peugeot-304-g1.webp",
+    "article": "Commons search: Peugeot 304 1971",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Niels de Wit from Lunteren, The Netherlands",
+    "source": "https://commons.wikimedia.org/wiki/File:1971_Peugeot_304_Coup%C3%A9_(15709233620).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Abandoned_Peugeot_304_saloon_1969-79_(10312556763).jpg",
+      "https://commons.wikimedia.org/wiki/File:1971_Peugeot_304_Coup%C3%A9_(15709233620).jpg"
+    ],
+    "rejected": true
+  },
+  "peugeot-305-g1": {
+    "file": "/cars/peugeot-305-g1.webp",
+    "article": "Commons search: Peugeot 305 1977",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Charles01 --41.152.78.39 21:07, 9 June 2013 (UTC)",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_305_with_graves_1977.jpg",
+    "verified": true
+  },
+  "peugeot-306-g1": {
+    "file": "/cars/peugeot-306-g1.webp",
+    "article": "Commons search: Peugeot 306 1995",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1995_Peugeot_306_XN_1.4_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Peugeot_306_Cabrio_1993-2001_special_edition_SAINT-TROPEZ_frontright_2008-03-23_U.jpg"
+    ],
+    "verified": true
+  },
+  "peugeot-307-g1": {
+    "file": "/cars/peugeot-307-g1.webp",
+    "article": "Commons search: Peugeot 307 2001",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2002_Peugeot_307_Rapier_16V_1.6_Front.jpg",
+    "verified": true
+  },
+  "peugeot-308-g1": {
+    "file": "/cars/peugeot-308-g1.webp",
+    "article": "Commons search: Peugeot 308 2007",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Francesco Gasparetti from Senigallia, Italy",
+    "source": "https://commons.wikimedia.org/wiki/File:Motor_Show_2007,_Peugeot_308_-_Flickr_-_Gaspa.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2009_Peugeot_308_(T7)_XSE_Touring_station_wagon_(2010-07-13).jpg",
+      "https://commons.wikimedia.org/wiki/File:Motor_Show_2007,_Peugeot_308_-_Flickr_-_Gaspa.jpg"
+    ],
+    "rejected": true
+  },
+  "peugeot-308-g2": {
+    "file": "/cars/peugeot-308-g2.webp",
+    "article": "Commons search: Peugeot 308 2013",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_308_155_THP_Allure_(II)_%E2%80%93_Frontansicht,_14._September_2013,_Frankfurt.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2015_Peugeot_308_(T9)_Active_hatchback_(17780239946).jpg"
+    ],
+    "verified": true
+  },
+  "peugeot-308-g3": {
+    "file": "/cars/peugeot-308-g3.webp",
+    "article": "Commons search: Peugeot 308 2021",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "A.BourgeoisP",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_-_Peugeot_308_III_(C)_-_196.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Peugeot_308_P5_Nera_Black_(6).jpg"
+    ],
+    "verified": true
+  },
+  "peugeot-309-g1": {
+    "file": "/cars/peugeot-309-g1.webp",
+    "article": "Commons search: Peugeot 309 1987",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Niels de Wit from Lunteren, The Netherlands",
+    "source": "https://commons.wikimedia.org/wiki/File:1987_Peugeot_309_(10041003453).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Peugeot_309_GLD_(1991).jpg",
+      "https://commons.wikimedia.org/wiki/File:1987_Peugeot_309_(10041003453).jpg"
+    ],
+    "rejected": true
+  },
+  "peugeot-4007-g1": {
+    "file": "/cars/peugeot-4007-g1.webp",
+    "article": "Commons search: Peugeot 4007 2007",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_4007_HDi_FAP_155_Platinum_%E2%80%93_Frontansicht,_15._Juni_2011,_W%C3%BClfrath.jpg",
+    "verified": true
+  },
+  "peugeot-4008-g1": {
+    "file": "/cars/peugeot-4008-g1.webp",
+    "article": "Commons search: Peugeot 4008 2012",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_4008_HDi_FAP_150_Stop_%26_Start_Allure_%E2%80%93_Frontansicht,_8._Juli_2012,_D%C3%BCsseldorf.jpg",
+    "verified": true
+  },
+  "peugeot-403-g1": {
+    "file": "/cars/peugeot-403-g1.webp",
+    "article": "Commons search: Peugeot 403 1955",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1959_Peugeot_403_1.5_Front.jpg",
+    "verified": true
+  },
+  "peugeot-404-g1": {
+    "file": "/cars/peugeot-404-g1.webp",
+    "article": "Commons search: Peugeot 404 1962",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "BuickCentury04",
+    "source": "https://commons.wikimedia.org/wiki/File:1962-1975_Peugeot_404_Wagon,_07-23-2022.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Peugeot_404_ann%C3%A9e_1960_(Godomey).jpg",
+      "https://commons.wikimedia.org/wiki/File:1962-1975_Peugeot_404_Wagon,_07-23-2022.jpg"
+    ],
+    "rejected": true
+  },
+  "peugeot-405-g1": {
+    "file": "/cars/peugeot-405-g1.webp",
+    "article": "Commons search: Peugeot 405 1987",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Nrike darklighter",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_405_SRI_1992.jpg",
+    "verified": true
+  },
+  "peugeot-406-g1": {
+    "file": "/cars/peugeot-406-g1.webp",
+    "article": "Commons search: Peugeot 406 1997",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Franck49 (coupe406.com)",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_coup%C3%A9_406_gris_Hades_2002.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Peugeot_406_Coup%C3%A9_(1998)_(52203235346).jpg",
+      "https://commons.wikimedia.org/wiki/File:Peugeot_coup%C3%A9_406_gris_Hades_2002.jpg"
+    ],
+    "rejected": true
+  },
+  "peugeot-407-g1": {
+    "file": "/cars/peugeot-407-g1.webp",
+    "article": "Commons search: Peugeot 407 2004",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2008_Peugeot_407_Sport_HDi_2.0_Front.jpg",
+    "verified": true
+  },
+  "peugeot-408-g1": {
+    "file": "/cars/peugeot-408-g1.webp",
+    "article": "Commons search: Peugeot 408 2022",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "User3204",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Dongfeng-Peugeot_408_(facelift,_front).jpg",
+    "verified": true
+  },
+  "peugeot-5008-g1": {
+    "file": "/cars/peugeot-5008-g1.webp",
+    "article": "Commons search: Peugeot 5008 T87",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Damian B Oh",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_5008_GT_Line_T87_Bianca_White_(1).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Peugeot_5008_GT_Line_T87_Bianca_White_(2).jpg",
+      "https://commons.wikimedia.org/wiki/File:Peugeot_5008_GT_Line_T87_Bianca_White_(1).jpg"
+    ],
+    "rejected": true
+  },
+  "peugeot-5008-g2": {
+    "file": "/cars/peugeot-5008-g2.webp",
+    "article": "Commons search: Peugeot 5008 2017",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Peugeot_5008_GT_Line_1.2_Front.jpg",
+    "verified": true
+  },
+  "peugeot-5008-g3": {
+    "file": "/cars/peugeot-5008-g3.webp",
+    "article": "Commons search: Peugeot 5008 2024",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "メイド理世",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_5008_(front),_10_June_2024.jpg",
+    "verified": true
+  },
+  "peugeot-504-g1": {
+    "file": "/cars/peugeot-504-g1.webp",
+    "article": "Commons search: Peugeot 504 1968",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1978_Peugeot_504_Ti_Automatic_2.0_Front.jpg",
+    "verified": true
+  },
+  "peugeot-505-g1": {
+    "file": "/cars/peugeot-505-g1.webp",
+    "article": "Commons search: Peugeot 505 1979",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1987_Peugeot_505_Turbo_S,_left_front_(US).jpg",
+    "verified": true
+  },
+  "peugeot-508-g1": {
+    "file": "/cars/peugeot-508-g1.webp",
+    "article": "Commons search: Peugeot 508 2012",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2012_Peugeot_508_Allure_SW_HDi_2.0_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Peugeot_508_1_2010.JPG",
+      "https://commons.wikimedia.org/wiki/File:2012_Peugeot_508_Allure_SW_HDi_2.0_Front.jpg"
+    ],
+    "rejected": true
+  },
+  "peugeot-508-g2": {
+    "file": "/cars/peugeot-508-g2.webp",
+    "article": "Commons search: Peugeot 508 2018",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "DieselFordMondeo",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Peugeot_508_Allure_-_2.0_BlueHDi_Diesel_(150PS)_Manual_-_2025-04-05,_Front_Left.png",
+    "verified": true
+  },
+  "peugeot-604-g1": {
+    "file": "/cars/peugeot-604-g1.webp",
+    "article": "Commons search: Peugeot 604 1975",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1985_Peugeot_604_GTI,_front_left_(Lime_Rock).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Peugeot_604_SL_1977.jpg"
+    ],
+    "verified": true
+  },
+  "peugeot-605-g1": {
+    "file": "/cars/peugeot-605-g1.webp",
+    "article": "Commons search: Peugeot 605 1989",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1994_Peugeot_605_SLi_2.0_Front.jpg",
+    "verified": true
+  },
+  "peugeot-607-g1": {
+    "file": "/cars/peugeot-607-g1.webp",
+    "article": "Commons search: Peugeot 607 1999",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2008_Peugeot_607_Executive_2.2_Front.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2008_Peugeot_607_Executive_2.2_Front.jpg"
+    ]
+  },
+  "peugeot-806-g1": {
+    "file": "/cars/peugeot-806-g1.webp",
+    "article": "Commons search: Peugeot 806 1994",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Corvettec6r",
+    "source": "https://commons.wikimedia.org/wiki/File:1995_Peugeot_806_front.JPG",
+    "verified": true
+  },
+  "peugeot-807-g1": {
+    "file": "/cars/peugeot-807-g1.webp",
+    "article": "Commons search: Peugeot 807 2002",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_807_HDi_FAP_135_Family_(Facelift)_%E2%80%93_Frontansicht,_17._M%C3%A4rz_2012,_D%C3%BCsseldorf.jpg",
+    "verified": true
+  },
+  "peugeot-ion-g1": {
+    "file": "/cars/peugeot-ion-g1.webp",
+    "article": "Commons search: Peugeot iOn 2013",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Loadbeta",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_2008_front_-_Tokyo_Motor_Show_2013.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2014_Peugeot_508_Allure_HDi_Automatic_2.0_Front.jpg",
+      "https://commons.wikimedia.org/wiki/File:Peugeot_2008_front_-_Tokyo_Motor_Show_2013.jpg"
+    ],
+    "rejected": true
+  },
+  "peugeot-landtrek-g1": {
+    "file": "/cars/peugeot-landtrek-g1.webp",
+    "article": "Commons search: Peugeot Landtrek 2022",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "RL GNZLZ",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Peugeot_Landtrek_1.9_HDi_Active_(Chile)_front_view.jpg",
+    "verified": true
+  },
+  "peugeot-rcz-g1": {
+    "file": "/cars/peugeot-rcz-g1.webp",
+    "article": "Commons search: Peugeot RCZ 2010",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "raul",
+    "source": "https://commons.wikimedia.org/wiki/File:Peugeot_RCZ_1.6_THP_2010.jpg",
+    "verified": true
+  },
+  "peugeot-rifter-g1": {
+    "file": "/cars/peugeot-rifter-g1.webp",
+    "article": "Commons search: Peugeot Rifter 2018",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Peugeot_Rifter_Allure_BlueHDi_1.6_Front.jpg",
+    "verified": true
   }
 }

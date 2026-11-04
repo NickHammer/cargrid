@@ -1,6 +1,6 @@
 # Photos wanted
 
-42 cars are curated and ready but have no usable photo, so they are
+52 cars are curated and ready but have no usable photo, so they are
 **not in the game**. They wait in `data/incoming/needs-photo.json` and return
 automatically once a photo is verified:
 
@@ -13,14 +13,15 @@ node scripts/park-imageless-cars.mjs --restore
 node scripts/validate-grids.mjs --min 3
 ```
 
-**Renault** 25 · **Mitsubishi** 7 · **Nissan** 5 · **Cadillac** 2 · **Lexus** 2 · **Jeep** 1
+**Renault** 25 · **Peugeot** 10 · **Mitsubishi** 7 · **Nissan** 5 · **Cadillac** 2 · **Lexus** 2 · **Jeep** 1
 
 ## What a usable photo looks like
 
 Tiles are 4:3 at about 300px, so: a front three-quarter view, the car filling
-the frame, a standard car with no livery or body kit, nothing and nobody in
-front of it, and above all **the right generation** — a nameplate runs for
-decades and every version carries the same name.
+the frame, a standard car with no livery or decals, nothing and nobody in front
+of it, and above all **the right generation and the right body**. Body Style is
+a live grid category, so an estate or a cabriolet against a Sedan record makes
+a puzzle wrong — that alone accounted for 4 rejects in the Peugeot wave.
 
 ## The list
 
@@ -43,6 +44,16 @@ decades and every version carries the same name.
 | `nissan-pulsar-nx-nx-g1` | Nissan Pulsar NX / NX | 1983–1993 | Coupe / Coupe | [Pulsar NX](https://commons.wikimedia.org/w/index.php?search=Nissan%20Pulsar%20NX%201983&ns6=1) · [NX](https://commons.wikimedia.org/w/index.php?search=Nissan%20NX%201983&ns6=1) |
 | `nissan-skyline-g9` | Nissan Skyline | 1993–1998 | Sedan / Sedan | [Skyline](https://commons.wikimedia.org/w/index.php?search=Nissan%20Skyline%201993&ns6=1) |
 | `nissan-skyline-gt-r-g2` | Nissan Skyline GT-R | 1973–1973 | Coupe / Sports Car | [Skyline GT-R](https://commons.wikimedia.org/w/index.php?search=Nissan%20Skyline%20GT-R%201973&ns6=1) |
+| `peugeot-106-g1` | Peugeot 106 | 1991–2003 | Hatchback / Hatchback | [106](https://commons.wikimedia.org/w/index.php?search=Peugeot%20106%201991&ns6=1) |
+| `peugeot-304-g1` | Peugeot 304 | 1969–1980 | Sedan / Sedan | [304](https://commons.wikimedia.org/w/index.php?search=Peugeot%20304%201969&ns6=1) |
+| `peugeot-308-g1` | Peugeot 308 | 2007–2013 | Hatchback / Hatchback | [308](https://commons.wikimedia.org/w/index.php?search=Peugeot%20308%202007&ns6=1) |
+| `peugeot-309-g1` | Peugeot 309 | 1985–1993 | Hatchback / Hatchback | [309](https://commons.wikimedia.org/w/index.php?search=Peugeot%20309%201985&ns6=1) |
+| `peugeot-404-g1` | Peugeot 404 | 1960–1975 | Sedan / Sedan | [404](https://commons.wikimedia.org/w/index.php?search=Peugeot%20404%201960&ns6=1) |
+| `peugeot-406-g1` | Peugeot 406 | 1995–2004 | Sedan / Sedan | [406](https://commons.wikimedia.org/w/index.php?search=Peugeot%20406%201995&ns6=1) |
+| `peugeot-5008-g1` | Peugeot 5008 | 2009–2016 | Minivan / Minivan | [5008](https://commons.wikimedia.org/w/index.php?search=Peugeot%205008%202009&ns6=1) |
+| `peugeot-508-g1` | Peugeot 508 | 2010–2018 | Sedan / Sedan | [508](https://commons.wikimedia.org/w/index.php?search=Peugeot%20508%202010&ns6=1) |
+| `peugeot-607-g1` | Peugeot 607 | 1999–2010 | Sedan / Sedan | [607](https://commons.wikimedia.org/w/index.php?search=Peugeot%20607%201999&ns6=1) |
+| `peugeot-ion-g1` | Peugeot iOn | 2011–2020 | Hatchback / Hatchback | [iOn](https://commons.wikimedia.org/w/index.php?search=Peugeot%20iOn%202011&ns6=1) |
 | `renault-10-g1` | Renault 10 | 1965–1971 | Sedan / Sedan | [10](https://commons.wikimedia.org/w/index.php?search=Renault%2010%201965&ns6=1) |
 | `renault-14-g1` | Renault 14 | 1976–1983 | Hatchback / Hatchback | [14](https://commons.wikimedia.org/w/index.php?search=Renault%2014%201976&ns6=1) |
 | `renault-19-g1` | Renault 19 | 1988–2000 | Hatchback / Hatchback | [19](https://commons.wikimedia.org/w/index.php?search=Renault%2019%201988&ns6=1) |

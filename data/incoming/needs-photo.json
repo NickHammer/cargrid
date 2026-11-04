@@ -691,6 +691,430 @@
     "image_url": ""
   },
   {
+    "id": "peugeot-106-g1",
+    "make": "Peugeot",
+    "model": "106",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1991,
+    "production_end": 2003,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 44,
+    "power_output_hp_max": 118,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-304-g1",
+    "make": "Peugeot",
+    "model": "304",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1969,
+    "production_end": 1980,
+    "decades": [
+      "1960s",
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 44,
+    "power_output_hp_max": 74,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-308-g1",
+    "make": "Peugeot",
+    "model": "308",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2007,
+    "production_end": 2013,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 94,
+    "power_output_hp_max": 197,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-309-g1",
+    "make": "Peugeot",
+    "model": "309",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1985,
+    "production_end": 1993,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 54,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-404-g1",
+    "make": "Peugeot",
+    "model": "404",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1960,
+    "production_end": 1975,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 54,
+    "power_output_hp_max": 95,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-406-g1",
+    "make": "Peugeot",
+    "model": "406",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1995,
+    "production_end": 2004,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 207,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-5008-g1",
+    "make": "Peugeot",
+    "model": "5008",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2009,
+    "production_end": 2016,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 118,
+    "power_output_hp_max": 197,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-508-g1",
+    "make": "Peugeot",
+    "model": "508",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2010,
+    "production_end": 2018,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 118,
+    "power_output_hp_max": 201,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-607-g1",
+    "make": "Peugeot",
+    "model": "607",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1999,
+    "production_end": 2010,
+    "decades": [
+      "1990s",
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 134,
+    "power_output_hp_max": 207,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-ion-g1",
+    "make": "Peugeot",
+    "model": "iOn",
+    "generation": 1,
+    "brands": [
+      "Peugeot",
+      "Mitsubishi",
+      "Citroën"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2011,
+    "production_end": 2020,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 63,
+    "power_output_hp_max": 66,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
     "id": "renault-10-g1",
     "make": "Renault",
     "model": "10",
