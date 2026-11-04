@@ -1,6 +1,6 @@
 # Photos wanted
 
-81 cars are curated and ready but have no usable photo, so they are
+84 cars are curated and ready but have no usable photo, so they are
 **not in the game**. They wait in `data/incoming/needs-photo.json` and return
 automatically once a photo is verified:
 
@@ -13,7 +13,7 @@ node scripts/park-imageless-cars.mjs --restore
 node scripts/validate-grids.mjs --min 3
 ```
 
-**Renault** 25 · **Fiat** 10 · **Peugeot** 10 · **Volvo** 10 · **Citroën** 9 · **Mitsubishi** 7 · **Nissan** 5 · **Cadillac** 2 · **Lexus** 2 · **Jeep** 1
+**Renault** 25 · **Fiat** 10 · **Peugeot** 10 · **Volvo** 10 · **Citroën** 9 · **Mitsubishi** 7 · **Nissan** 5 · **Skoda** 3 · **Cadillac** 2 · **Lexus** 2 · **Jeep** 1
 
 ## What a usable photo looks like
 
@@ -21,7 +21,7 @@ Tiles are 4:3 at about 300px, so: a front three-quarter view, the car filling
 the frame, a standard car with no livery, decals or roof rack, nothing and
 nobody in front of it, and above all **the right generation and the right
 body**. Body Style is a live grid category, so an estate against a Sedan record
-makes a puzzle wrong — that has now cost 9 cars across five waves, and none of
+makes a puzzle wrong — that has now cost 9 cars across six waves, and none of
 them looked wrong at thumbnail size. Check the record, not your eye.
 
 ## The list
@@ -99,6 +99,9 @@ them looked wrong at thumbnail size. Check the record, not your eye.
 | `renault-symbioz-g1` | Renault Symbioz | 2024–now | SUV / SUV | [Symbioz](https://commons.wikimedia.org/w/index.php?search=Renault%20Symbioz%202024&ns6=1) |
 | `renault-talisman-g1` | Renault Talisman | 2015–2022 | Sedan / Sedan | [Talisman](https://commons.wikimedia.org/w/index.php?search=Renault%20Talisman%202015&ns6=1) |
 | `renault-twingo-g1` | Renault Twingo | 1993–2007 | Hatchback / Hatchback | [Twingo](https://commons.wikimedia.org/w/index.php?search=Renault%20Twingo%201993&ns6=1) |
+| `skoda-octavia-g2` | Skoda Octavia | 2004–2013 | Hatchback / Sedan | [Octavia](https://commons.wikimedia.org/w/index.php?search=Skoda%20Octavia%202004&ns6=1) |
+| `skoda-octavia-g4` | Skoda Octavia | 2019–now | Hatchback / Sedan | [Octavia](https://commons.wikimedia.org/w/index.php?search=Skoda%20Octavia%202019&ns6=1) |
+| `skoda-popular-g1` | Skoda Popular | 1934–1946 | Sedan / Sedan | [Popular](https://commons.wikimedia.org/w/index.php?search=Skoda%20Popular%201934&ns6=1) |
 | `volvo-260-g1` | Volvo 260 | 1975–1985 | Sedan / Sedan | [260](https://commons.wikimedia.org/w/index.php?search=Volvo%20260%201975&ns6=1) |
 | `volvo-340-360-g1` | Volvo 340 / 360 | 1976–1991 | Hatchback / Hatchback | [340](https://commons.wikimedia.org/w/index.php?search=Volvo%20340%201976&ns6=1) · [360](https://commons.wikimedia.org/w/index.php?search=Volvo%20360%201976&ns6=1) |
 | `volvo-440-460-g1` | Volvo 440 / 460 | 1988–1996 | Hatchback / Hatchback | [440](https://commons.wikimedia.org/w/index.php?search=Volvo%20440%201988&ns6=1) · [460](https://commons.wikimedia.org/w/index.php?search=Volvo%20460%201988&ns6=1) |

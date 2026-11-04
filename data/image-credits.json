@@ -10794,5 +10794,380 @@
     "artist": "Albin Olsson",
     "source": "https://commons.wikimedia.org/wiki/File:Volvo_XC90_II,_August_2014,_09.jpg",
     "verified": true
+  },
+  "skoda-100-110-g1": {
+    "file": "/cars/skoda-100-110-g1.webp",
+    "article": "Commons search: Skoda 100 1969",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Tobias Nordhausen from Sondershausen, Deutschland",
+    "source": "https://commons.wikimedia.org/wiki/File:Skoda_100_(7522167152).jpg",
+    "verified": true
+  },
+  "skoda-1000-mb-g1": {
+    "file": "/cars/skoda-1000-mb-g1.webp",
+    "article": "Commons search: Skoda 1000 MB 1966",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Cherubino",
+    "source": "https://commons.wikimedia.org/wiki/File:2014_%C5%A0koda_Museum,_%C5%A0koda_1000_MB_typ_990_1966_01.JPG",
+    "verified": true
+  },
+  "skoda-105-120-estelle-g1": {
+    "file": "/cars/skoda-105-120-estelle-g1.webp",
+    "article": "Commons search: Skoda 105 1978",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Hilarmont",
+    "source": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_105_BJ_1978_(Foto_Hilarmont)_(8).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:%C5%A0koda-120GLS-1979_Jilemnice-DSC4464.jpg"
+    ],
+    "verified": true
+  },
+  "skoda-110-r-coupe-g1": {
+    "file": "/cars/skoda-110-r-coupe-g1.webp",
+    "article": "Commons search: Skoda 110 R Coupé 1970",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Tobias Nordhausen from Sondershausen, Deutschland",
+    "source": "https://commons.wikimedia.org/wiki/File:Skoda_110_R_(7522169454).jpg",
+    "verified": true
+  },
+  "skoda-citigo-g1": {
+    "file": "/cars/skoda-citigo-g1.webp",
+    "article": "Commons search: Skoda Citigo 2013",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2013_Skoda_Citigo_Elegance_Automatic_1.0_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Citigo_1.0_MPI_(2015)_(53047615619).jpg"
+    ],
+    "verified": true
+  },
+  "skoda-elroq-g1": {
+    "file": "/cars/skoda-elroq-g1.webp",
+    "article": "Commons search: Skoda Elroq 2024",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+    "artist": "Matti Blume",
+    "source": "https://commons.wikimedia.org/wiki/File:Skoda_Elroq,_Auto_2024,_Zurich_(PANA0239).jpg",
+    "verified": true
+  },
+  "skoda-enyaq-g1": {
+    "file": "/cars/skoda-enyaq-g1.webp",
+    "article": "Commons search: Skoda Enyaq 2022",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_Skoda_Enyaq_IV_80_Loft_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Enyaq_iV_80_(2020_-_2022)_(52060590119).jpg"
+    ],
+    "verified": true
+  },
+  "skoda-fabia-g1": {
+    "file": "/cars/skoda-fabia-g1.webp",
+    "article": "Commons search: Skoda Fabia 2001",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2001_Skoda_Fabia_Comfort_8V_1.4_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Skoda_Fabia,_40._ADAC_Stormarn_Rallye,_Luetjensee_(20250405-20250405-TR256981).jpg"
+    ],
+    "verified": true
+  },
+  "skoda-fabia-g2": {
+    "file": "/cars/skoda-fabia-g2.webp",
+    "article": "Commons search: Skoda Fabia 2007",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "JaayJay",
+    "source": "https://commons.wikimedia.org/wiki/File:Skoda_Fabia_2007.jpg",
+    "verified": true
+  },
+  "skoda-fabia-g3": {
+    "file": "/cars/skoda-fabia-g3.webp",
+    "article": "Commons search: Skoda Fabia 2014",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Skoda_Fabia_facelift_1.0_Front.jpg",
+    "verified": true
+  },
+  "skoda-fabia-g4": {
+    "file": "/cars/skoda-fabia-g4.webp",
+    "article": "Commons search: Skoda Fabia 2021",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Cutlass",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_%C5%A0koda_Fabia_in_Black_Magic_Pearlescent,_front_right,_06-05-2025.jpg",
+    "verified": true
+  },
+  "skoda-favorit-g1": {
+    "file": "/cars/skoda-favorit-g1.webp",
+    "article": "Commons search: Skoda Favorit 1987",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Charles01",
+    "source": "https://commons.wikimedia.org/wiki/File:Skoda_Favorit_Utrecht_1989.jpg",
+    "verified": true
+  },
+  "skoda-felicia-g1": {
+    "file": "/cars/skoda-felicia-g1.webp",
+    "article": "Commons search: Skoda Felicia 1994",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "RL GNZLZ from Chile",
+    "source": "https://commons.wikimedia.org/wiki/File:Skoda_Felicia_1.3_LX_1997_(41961398052).jpg",
+    "verified": true
+  },
+  "skoda-kamiq-g1": {
+    "file": "/cars/skoda-kamiq-g1.webp",
+    "article": "Commons search: Skoda Kamiq 2021",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_Skoda_Kamiq_SE_Drive_TSi.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2019_Skoda_Kamiq_SE_1.0_Front.jpg"
+    ],
+    "verified": true
+  },
+  "skoda-karoq-g1": {
+    "file": "/cars/skoda-karoq-g1.webp",
+    "article": "Commons search: Skoda Karoq 2017",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Skoda_Karoq_SE_L_TDi_S-A_1.6_Front.jpg",
+    "verified": true
+  },
+  "skoda-kodiaq-g1": {
+    "file": "/cars/skoda-kodiaq-g1.webp",
+    "article": "Commons search: Skoda Kodiaq 2016",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "AbriPix",
+    "source": "https://commons.wikimedia.org/wiki/File:2016-2016-skoda-kodiaq-20170706bb_1216_102_3_4-mk-a-ur.jpg",
+    "verified": true
+  },
+  "skoda-kodiaq-g2": {
+    "file": "/cars/skoda-kodiaq-g2.webp",
+    "article": "Commons search: Skoda Kodiaq 2024",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_Skoda_Kodiaq_Sportline_TDi_SCR_4x4.jpg",
+    "verified": true
+  },
+  "skoda-kushaq-g1": {
+    "file": "/cars/skoda-kushaq-g1.webp",
+    "article": "Commons search: Skoda Kushaq 2021",
+    "matched": "search",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "DriveSpark",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_%C5%A0koda_Kushaq_(India)_front_view.png",
+    "verified": true
+  },
+  "skoda-kylaq-g1": {
+    "file": "/cars/skoda-kylaq-g1.webp",
+    "article": "Škoda Kylaq",
+    "matched": "main-article",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "Faisal Khan",
+    "source": "https://commons.wikimedia.org/wiki/File:2025_Skoda_Kylaq.png",
+    "verified": true
+  },
+  "skoda-octavia-1959-g1": {
+    "file": "/cars/skoda-octavia-1959-g1.webp",
+    "article": "Commons search: Skoda Octavia (1959) 1959",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_(1959)_at_IAA_2019_IMG_0271.jpg",
+    "verified": true
+  },
+  "skoda-octavia-g1": {
+    "file": "/cars/skoda-octavia-g1.webp",
+    "article": "Commons search: Skoda Octavia 1996",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artist": "Rudolf Stricker",
+    "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_I_front_20080213.jpg",
+    "verified": true
+  },
+  "skoda-octavia-g3": {
+    "file": "/cars/skoda-octavia-g3.webp",
+    "article": "Commons search: Skoda Octavia 2012",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Skoda_Octavia_SE_TDi_S-A_1.6_Front.jpg",
+    "verified": true
+  },
+  "skoda-octavia-g4": {
+    "file": "/cars/skoda-octavia-g4.webp",
+    "article": "Commons search: Skoda Octavia 2021",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Ssu",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_Skoda_Octavia_-_silver_grey.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Octavia_IV_Combi_Facelift_Automesse_Ludwigsburg_2024_IMG_1649.jpg",
+      "https://commons.wikimedia.org/wiki/File:2021_Skoda_Octavia_-_silver_grey.jpg"
+    ],
+    "rejected": true
+  },
+  "skoda-popular-g1": {
+    "file": "/cars/skoda-popular-g1.webp",
+    "article": "Commons search: Skoda Popular 1936",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Cherubino",
+    "source": "https://commons.wikimedia.org/wiki/File:2014_%C5%A0koda_Museum,_%C5%A0koda_Popular_typ_906_1936_02.JPG",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1934_Skoda_Popular_420_pic3.JPG",
+      "https://commons.wikimedia.org/wiki/File:2014_%C5%A0koda_Museum,_%C5%A0koda_Popular_typ_906_1936_02.JPG"
+    ],
+    "rejected": true
+  },
+  "skoda-rapid-g1": {
+    "file": "/cars/skoda-rapid-g1.webp",
+    "article": "Commons search: Skoda Rapid 2012",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2014_Skoda_Rapid_SE_Connect_TSi_1.2_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2017_Skoda_Rapid_(NH_MY17)_Spaceback_hatchback_(2018-10-01)_02.jpg"
+    ],
+    "verified": true
+  },
+  "skoda-rapid-garde-g1": {
+    "file": "/cars/skoda-rapid-garde-g1.webp",
+    "article": "Commons search: Skoda Rapid (Garde) 1981",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Akosone",
+    "source": "https://commons.wikimedia.org/wiki/File:Skoda_130_Rapid.jpg",
+    "verified": true
+  },
+  "skoda-roomster-g1": {
+    "file": "/cars/skoda-roomster-g1.webp",
+    "article": "Commons search: Skoda Roomster 2006",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2014_Skoda_Roomster_SE_TDi_CR_1.6_Front.jpg",
+    "verified": true
+  },
+  "skoda-scala-g1": {
+    "file": "/cars/skoda-scala-g1.webp",
+    "article": "Commons search: Skoda Scala 2019",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2019_Skoda_Scala_SE_TDi_1.6_Front.jpg",
+    "verified": true
+  },
+  "skoda-slavia-g1": {
+    "file": "/cars/skoda-slavia-g1.webp",
+    "article": "Škoda Slavia",
+    "matched": "main-article",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "Athira Murali",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_%C5%A0koda_Slavia_1.5_TSI_Style_(India)_front_view.png",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Skoda_Slavia_Side_view.jpg"
+    ],
+    "verified": true
+  },
+  "skoda-superb-g1": {
+    "file": "/cars/skoda-superb-g1.webp",
+    "article": "Commons search: Skoda Superb 2001",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2005_Skoda_Superb_Elegance_TDi_1.9_Front.jpg",
+    "verified": true
+  },
+  "skoda-superb-g2": {
+    "file": "/cars/skoda-superb-g2.webp",
+    "article": "Commons search: Skoda Superb 2008",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2009_Skoda_Superb_Elegance_CRTDi_Automatic_2.0_Front.jpg",
+    "verified": true
+  },
+  "skoda-superb-g3": {
+    "file": "/cars/skoda-superb-g3.webp",
+    "article": "Commons search: Skoda Superb 2017",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Skoda_Superb_Sportline.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:DSC06230_%C5%A0koda_Superb_III,_Bundesheer,_Front,_2023-10.jpg"
+    ],
+    "verified": true
+  },
+  "skoda-superb-g4": {
+    "file": "/cars/skoda-superb-g4.webp",
+    "article": "Commons search: Skoda Superb 2026",
+    "matched": "search",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "Aciarium",
+    "source": "https://commons.wikimedia.org/wiki/File:DSC05636_%C5%A0koda_Superb,_Bundesheer,_Front_Left,_2023-10.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2024_Skoda_Superb_stasjonsvogn.jpg"
+    ],
+    "verified": true
+  },
+  "skoda-yeti-g1": {
+    "file": "/cars/skoda-yeti-g1.webp",
+    "article": "Commons search: Skoda Yeti 2009",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Detectandpreserve",
+    "source": "https://commons.wikimedia.org/wiki/File:Skoda_Yeti_000_since_2009_frontright_2010-02-21_A.jpg",
+    "verified": true
   }
 }

@@ -2941,6 +2941,133 @@
     "image_url": ""
   },
   {
+    "id": "skoda-octavia-g2",
+    "make": "Skoda",
+    "model": "Octavia",
+    "generation": 2,
+    "brands": [
+      "Skoda"
+    ],
+    "country_of_origin": "Czech",
+    "production_start": 2004,
+    "production_end": 2013,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 74,
+    "power_output_hp_max": 197,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "skoda-octavia-g4",
+    "make": "Skoda",
+    "model": "Octavia",
+    "generation": 4,
+    "brands": [
+      "Skoda"
+    ],
+    "country_of_origin": "Czech",
+    "production_start": 2019,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3",
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 108,
+    "power_output_hp_max": 261,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "skoda-popular-g1",
+    "make": "Skoda",
+    "model": "Popular",
+    "generation": 1,
+    "brands": [
+      "Skoda"
+    ],
+    "country_of_origin": "Czech",
+    "production_start": 1934,
+    "production_end": 1946,
+    "decades": [
+      "1930s",
+      "1940s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 18,
+    "power_output_hp_max": 31,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
     "id": "volvo-260-g1",
     "make": "Volvo",
     "model": "260",
