@@ -871,6 +871,500 @@
     "image_url": ""
   },
   {
+    "id": "holden-astra-g1",
+    "make": "Holden",
+    "model": "Astra",
+    "generation": 1,
+    "brands": [
+      "Holden",
+      "Nissan"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1984,
+    "production_end": 1987,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 74,
+    "power_output_hp_max": 85,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-astra-g3",
+    "make": "Holden",
+    "model": "Astra",
+    "generation": 3,
+    "brands": [
+      "Holden",
+      "Opel",
+      "Vauxhall"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1996,
+    "production_end": 1998,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 99,
+    "power_output_hp_max": 126,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-camira-g1",
+    "make": "Holden",
+    "model": "Camira",
+    "generation": 1,
+    "brands": [
+      "Holden"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1982,
+    "production_end": 1989,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 70,
+    "power_output_hp_max": 90,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-commodore-g1",
+    "make": "Holden",
+    "model": "Commodore",
+    "generation": 1,
+    "brands": [
+      "Holden"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1978,
+    "production_end": 1988,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-6",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 87,
+    "power_output_hp_max": 201,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-ej-eh-g1",
+    "make": "Holden",
+    "model": "EJ / EH",
+    "generation": 1,
+    "brands": [
+      "Holden"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1962,
+    "production_end": 1965,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 75,
+    "power_output_hp_max": 115,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-fb-ek-g1",
+    "make": "Holden",
+    "model": "FB / EK",
+    "generation": 1,
+    "brands": [
+      "Holden"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1960,
+    "production_end": 1962,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 75,
+    "power_output_hp_max": 75,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-gemini-g2",
+    "make": "Holden",
+    "model": "Gemini",
+    "generation": 2,
+    "brands": [
+      "Holden",
+      "Isuzu"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1985,
+    "production_end": 1987,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 70,
+    "power_output_hp_max": 75,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-jackaroo-g2",
+    "make": "Holden",
+    "model": "Jackaroo",
+    "generation": 2,
+    "brands": [
+      "Holden",
+      "Isuzu"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1991,
+    "production_end": 2003,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 113,
+    "power_output_hp_max": 215,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-kingswood-premier-g2",
+    "make": "Holden",
+    "model": "Kingswood / Premier",
+    "generation": 2,
+    "brands": [
+      "Holden"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1971,
+    "production_end": 1980,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-6",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 118,
+    "power_output_hp_max": 240,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-torana-g1",
+    "make": "Holden",
+    "model": "Torana",
+    "generation": 1,
+    "brands": [
+      "Holden",
+      "Vauxhall"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1967,
+    "production_end": 1969,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 60,
+    "power_output_hp_max": 80,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-ute-g1",
+    "make": "Holden",
+    "model": "Ute",
+    "generation": 1,
+    "brands": [
+      "Holden"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 2000,
+    "production_end": 2007,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 197,
+    "power_output_hp_max": 349,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-ute-g2",
+    "make": "Holden",
+    "model": "Ute",
+    "generation": 2,
+    "brands": [
+      "Holden",
+      "Chevrolet"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 2007,
+    "production_end": 2017,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 241,
+    "power_output_hp_max": 408,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
     "id": "jeep-cj-6-g1",
     "make": "Jeep",
     "model": "CJ-6",

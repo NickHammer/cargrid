@@ -11169,5 +11169,516 @@
     "artist": "Detectandpreserve",
     "source": "https://commons.wikimedia.org/wiki/File:Skoda_Yeti_000_since_2009_frontright_2010-02-21_A.jpg",
     "verified": true
+  },
+  "holden-48-215-fj-g1": {
+    "file": "/cars/holden-48-215-fj-g1.webp",
+    "article": "Commons search: Holden FJ 1948",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Sicnag",
+    "source": "https://commons.wikimedia.org/wiki/File:1948_Holden_FX_Sedan.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Holden_48-215_1948_02.jpg"
+    ],
+    "verified": true
+  },
+  "holden-astra-g1": {
+    "file": "/cars/holden-astra-g1.webp",
+    "article": "Commons search: Holden Astra 1986",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "TuRbO_J from Adelaide, Australia",
+    "source": "https://commons.wikimedia.org/wiki/File:1986_Holden_Astra_SL-X.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1984-1986_Holden_LB_Astra_SLX_hatchback_02.jpg",
+      "https://commons.wikimedia.org/wiki/File:1986_Holden_Astra_SL-X.jpg"
+    ],
+    "rejected": true
+  },
+  "holden-astra-g2": {
+    "file": "/cars/holden-astra-g2.webp",
+    "article": "Commons search: Holden Astra LD",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Jeremy from Sydney, Australia",
+    "source": "https://commons.wikimedia.org/wiki/File:1988_Holden_Astra_(LD)_SLX_hatchback_(16332453165).jpg",
+    "verified": true
+  },
+  "holden-astra-g3": {
+    "file": "/cars/holden-astra-g3.webp",
+    "article": "Commons search: Holden TR",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:1996-1998_Holden_TR_Astra_GL_5-door_hatchback_01.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1998_Holden_Astra_(TR)_City_5-door_hatchback_(18237197803).jpg",
+      "https://commons.wikimedia.org/wiki/File:1996-1998_Holden_TR_Astra_GL_5-door_hatchback_01.jpg"
+    ],
+    "rejected": true
+  },
+  "holden-astra-g4": {
+    "file": "/cars/holden-astra-g4.webp",
+    "article": "Commons search: Holden Astra TS",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Jeremy from Sydney, Australia",
+    "source": "https://commons.wikimedia.org/wiki/File:2005_Holden_Astra_(TS)_Classic_Equipe_sedan_(16047146741).jpg",
+    "verified": true
+  },
+  "holden-astra-g5": {
+    "file": "/cars/holden-astra-g5.webp",
+    "article": "Commons search: Holden AH",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:2006-2007_Holden_Astra_(AH)_CDX_hatchback_(2009-07-15).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2008_Holden_Astra_AH_CDX_MY09_5dr_Hatchback,_Marananga_20230814.jpg"
+    ],
+    "verified": true
+  },
+  "holden-astra-g6": {
+    "file": "/cars/holden-astra-g6.webp",
+    "article": "Commons search: Holden Astra 2017",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "TuRbO_J from Adelaide, Australia",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Holden_Astra_LS.jpg",
+    "verified": true
+  },
+  "holden-barina-g1": {
+    "file": "/cars/holden-barina-g1.webp",
+    "article": "Commons search: Holden Barina 1987",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:1986-1988_Holden_Barina_(ML)_hatchback_(2009-08-21).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1985_Holden_MB_Barina_Hatchback.jpg"
+    ],
+    "verified": true
+  },
+  "holden-camira-g1": {
+    "file": "/cars/holden-camira-g1.webp",
+    "article": "Commons search: Holden Camira 1984",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Riley from Christchurch, New Zealand",
+    "source": "https://commons.wikimedia.org/wiki/File:1984_Holden_Camira_SL-X_Wagon_(7400175832).jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1984_Holden_Camira_SL-X_Wagon_(7400175832).jpg"
+    ]
+  },
+  "holden-captiva-g1": {
+    "file": "/cars/holden-captiva-g1.webp",
+    "article": "Commons search: Holden Captiva 2006",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:2006-2007_Holden_Captiva_(CG_MY07)_SX_AWD_wagon_(2007-09-29).jpg",
+    "verified": true
+  },
+  "holden-colorado-g1": {
+    "file": "/cars/holden-colorado-g1.webp",
+    "article": "Commons search: Holden Colorado RC",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:2011_Holden_Colorado_(RC_MY11)_LX-R_4WD_Crew_Cab_4-door_utility_(2015-07-14)_01.jpg",
+    "verified": true
+  },
+  "holden-colorado-g2": {
+    "file": "/cars/holden-colorado-g2.webp",
+    "article": "Commons search: Holden Colorado 2012",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Tom Reynolds",
+    "source": "https://commons.wikimedia.org/wiki/File:Holden_Colorado_7.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2015_Holden_Colorado_(RG_MY15)_LTZ_4-door_utility_(2016-05-14).jpg"
+    ],
+    "verified": true
+  },
+  "holden-commodore-g1": {
+    "file": "/cars/holden-commodore-g1.webp",
+    "article": "Commons search: Holden Commodore 1980",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Thomas Rosenzweig from Gunnedah, New South Wales, Australia",
+    "source": "https://commons.wikimedia.org/wiki/File:1980_Holden_Commodore_(VC)_L_station_wagon_(419871506).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1978-1980_Holden_VB_Commodore_02.jpg",
+      "https://commons.wikimedia.org/wiki/File:1980_Holden_Commodore_(VC)_L_station_wagon_(419871506).jpg"
+    ],
+    "rejected": true
+  },
+  "holden-commodore-g2": {
+    "file": "/cars/holden-commodore-g2.webp",
+    "article": "Commons search: Holden Commodore 1988",
+    "matched": "search",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "Richard Lewis",
+    "source": "https://commons.wikimedia.org/wiki/File:Holden_Commodore_Executive_(1988-1990_VN_series,_New_Zealand).jpg",
+    "verified": true
+  },
+  "holden-commodore-g3": {
+    "file": "/cars/holden-commodore-g3.webp",
+    "article": "Commons search: Holden Commodore 1997",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:1996-1997_Holden_Commodore_(VS_II)_Acclaim_sedan_(2008-10-09).jpg",
+    "verified": true
+  },
+  "holden-commodore-g4": {
+    "file": "/cars/holden-commodore-g4.webp",
+    "article": "Commons search: Holden Commodore 2006",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "R Walker from Seven Hills, New South Wales, Australia",
+    "source": "https://commons.wikimedia.org/wiki/File:2006_Holden_Commodore_(VE_MY07)_Omega_sedan_(2006-08-17).jpg",
+    "verified": true
+  },
+  "holden-commodore-g5": {
+    "file": "/cars/holden-commodore-g5.webp",
+    "article": "Commons search: Holden Commodore ZB",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "EurovisionNim",
+    "source": "https://commons.wikimedia.org/wiki/File:Holden_Commodore_RS,_2019_front.jpg",
+    "verified": true
+  },
+  "holden-cruze-g1": {
+    "file": "/cars/holden-cruze-g1.webp",
+    "article": "Commons search: Holden Cruze 2011",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Aaron Dominguez",
+    "source": "https://commons.wikimedia.org/wiki/File:2011_Holden_Cruze_Hatch,_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2003_Holden_Cruze_(YG)_wagon_(2009-10-23).jpg"
+    ],
+    "verified": true
+  },
+  "holden-ej-eh-g1": {
+    "file": "/cars/holden-ej-eh-g1.webp",
+    "article": "Commons search: Holden EH 1962",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Sicnag",
+    "source": "https://commons.wikimedia.org/wiki/File:1963_Ford_Cortina_GT_sedan,_Bathurst_winner_(17857821434).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Holden_EJ_1962_02.jpg",
+      "https://commons.wikimedia.org/wiki/File:1963_Ford_Cortina_GT_sedan,_Bathurst_winner_(17857821434).jpg"
+    ],
+    "rejected": true
+  },
+  "holden-fb-ek-g1": {
+    "file": "/cars/holden-fb-ek-g1.webp",
+    "article": "Commons search: Holden EK 1960",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "The original uploader was Steve Jackson JRG at English Wikipedia.",
+    "source": "https://commons.wikimedia.org/wiki/File:Holden_EK_1961_225_Sedan_Cameo_Beige.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Holden_FB_Sedan_1960_Moora_Park_Shorncliffe_P1070907.jpg",
+      "https://commons.wikimedia.org/wiki/File:Holden_EK_1961_225_Sedan_Cameo_Beige.jpg"
+    ],
+    "rejected": true
+  },
+  "holden-fe-fc-g1": {
+    "file": "/cars/holden-fe-fc-g1.webp",
+    "article": "Commons search: Holden FE 1956",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Museumsfotografierer",
+    "source": "https://commons.wikimedia.org/wiki/File:Holden_FE_1956_01.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Holden_FE_1956_02.jpg"
+    ],
+    "verified": true
+  },
+  "holden-gemini-g1": {
+    "file": "/cars/holden-gemini-g1.webp",
+    "article": "Commons search: Holden Gemini 1977",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "GeminiGreg",
+    "source": "https://commons.wikimedia.org/wiki/File:1977_Holden_Gemini_TC_SL_coupe.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Holden_Gemini_rallye_car,_1975_(3026341921).jpg"
+    ],
+    "verified": true
+  },
+  "holden-gemini-g2": {
+    "file": "/cars/holden-gemini-g2.webp",
+    "article": "Commons search: Holden Gemini RB",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:1985_Holden_Gemini_(RB)_SLX_sedan_(2008-05-07).jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1985_Holden_Gemini_(RB)_SLX_sedan_(2008-05-07).jpg"
+    ]
+  },
+  "holden-hd-hr-g1": {
+    "file": "/cars/holden-hd-hr-g1.webp",
+    "article": "Commons search: Holden HD 1965",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Museumsfotografierer",
+    "source": "https://commons.wikimedia.org/wiki/File:Holden_HD_X2_1965_01.jpg",
+    "verified": true
+  },
+  "holden-jackaroo-g1": {
+    "file": "/cars/holden-jackaroo-g1.webp",
+    "article": "Commons search: Holden Jackaroo 1981",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Isuzu_Trooper_front.jpg",
+    "verified": true
+  },
+  "holden-jackaroo-g2": {
+    "file": "/cars/holden-jackaroo-g2.webp",
+    "article": "Commons search: Holden Jackaroo 1993",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Bidgee",
+    "source": "https://commons.wikimedia.org/wiki/File:1992-1993_Holden_Jackaroo_(UBS)_XS_LWB.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1992-1993_Holden_Jackaroo_(UBS)_XS_LWB.jpg"
+    ]
+  },
+  "holden-kingswood-premier-g1": {
+    "file": "/cars/holden-kingswood-premier-g1.webp",
+    "article": "Commons search: Holden Premier 1968",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Riley from Christchurch, New Zealand",
+    "source": "https://commons.wikimedia.org/wiki/File:1968_Holden_Premier_(HK)_(38393369266).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1968_Holden_Kingswood_(HK)_(32098495021).jpg"
+    ],
+    "verified": true
+  },
+  "holden-kingswood-premier-g2": {
+    "file": "/cars/holden-kingswood-premier-g2.webp",
+    "article": "Commons search: Holden Premier 1971",
+    "matched": "search",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "Richard Lewis",
+    "source": "https://commons.wikimedia.org/wiki/File:Holden_Premier_(1971-1974_HQ_series)_02.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Holden_HG_Kingswood_station_wagon_1971_Loftus_Pde_Deagon_P1020198.jpg",
+      "https://commons.wikimedia.org/wiki/File:Holden_Premier_(1971-1974_HQ_series)_02.jpg"
+    ],
+    "rejected": true
+  },
+  "holden-monaro-g1": {
+    "file": "/cars/holden-monaro-g1.webp",
+    "article": "Commons search: Holden Monaro 1968",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Museumsfotografierer",
+    "source": "https://commons.wikimedia.org/wiki/File:Holden_HK_Monaro_1968_01.jpg",
+    "verified": true
+  },
+  "holden-monaro-g2": {
+    "file": "/cars/holden-monaro-g2.webp",
+    "article": "Commons search: Holden Monaro 1973",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Museumsfotografierer",
+    "source": "https://commons.wikimedia.org/wiki/File:Holden_HQ_Monaro_GTS-350_1973_01.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1970-1971_Holden_HG_Monaro_GTS_350_coupe_02.jpg"
+    ],
+    "verified": true
+  },
+  "holden-monaro-g3": {
+    "file": "/cars/holden-monaro-g3.webp",
+    "article": "Commons search: Holden V2",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Jeremy from Sydney, Australia",
+    "source": "https://commons.wikimedia.org/wiki/File:2003_Holden_Monaro_(V2_III)_CV8_coupe_(15987304131).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2002_Holden_Monaro_(V2)_CV8_coupe_(14905650168).jpg"
+    ],
+    "verified": true
+  },
+  "holden-rodeo-g1": {
+    "file": "/cars/holden-rodeo-g1.webp",
+    "article": "Commons search: Holden Rodeo TF",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Bobby1011",
+    "source": "https://commons.wikimedia.org/wiki/File:1997_Holden_Rodeo_(TF)_LT_Crew_Cab_4-door_utility_(2006-01-20).jpg",
+    "verified": true
+  },
+  "holden-rodeo-g2": {
+    "file": "/cars/holden-rodeo-g2.webp",
+    "article": "Commons search: Holden Rodeo RA",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:2007-2008_Holden_RA_Rodeo_LX_Crew_Cab_4-door_utility_01.jpg",
+    "verified": true
+  },
+  "holden-sandman-g1": {
+    "file": "/cars/holden-sandman-g1.webp",
+    "article": "Commons search: Holden Sandman 1974",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Jeremy from Sydney, Australia",
+    "source": "https://commons.wikimedia.org/wiki/File:1974_Holden_Belmont_(HQ)_Sandman_panel_van_(20748113122).jpg",
+    "verified": true
+  },
+  "holden-statesman-caprice-g1": {
+    "file": "/cars/holden-statesman-caprice-g1.webp",
+    "article": "Commons search: Holden Caprice 1990",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "RegionVisitor90",
+    "source": "https://commons.wikimedia.org/wiki/File:1991_Holden_Caprice_Armoured_Vehicle_@_National_Motor_Museum,_Birdwood_20250109-120230.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1990-1991_Holden_VQ_Statesman_sedan_01.jpg"
+    ],
+    "verified": true
+  },
+  "holden-statesman-caprice-g2": {
+    "file": "/cars/holden-statesman-caprice-g2.webp",
+    "article": "Commons search: Holden Statesman 1999",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Mohammed Hamad",
+    "source": "https://commons.wikimedia.org/wiki/File:Chevrolet_Caprice_WH_Bahrain_2000-2003_Front.jpg",
+    "verified": true
+  },
+  "holden-statesman-caprice-g3": {
+    "file": "/cars/holden-statesman-caprice-g3.webp",
+    "article": "Commons search: Holden Caprice 2006",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Mohammed Hamad",
+    "source": "https://commons.wikimedia.org/wiki/File:Chevrolet_Caprice_SS_(WL)_2006_(Front,_Saudi_Arabia).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2006-2007_Holden_Statesman_(WM_MY07)_sedan_(2007-03-20).jpg"
+    ],
+    "verified": true
+  },
+  "holden-statesman-g1": {
+    "file": "/cars/holden-statesman-g1.webp",
+    "article": "Commons search: Holden Statesman 1971",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Sicnag",
+    "source": "https://commons.wikimedia.org/wiki/File:1973_Holden_HQ_Statesman_DeVille_(25040553861).jpg",
+    "verified": true
+  },
+  "holden-torana-g1": {
+    "file": "/cars/holden-torana-g1.webp",
+    "article": "Commons search: Holden HB",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Jeremy from Sydney, Australia",
+    "source": "https://commons.wikimedia.org/wiki/File:1968_Holden_Torana_(HB)_2-door_sedan_(20830919242).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1968_Holden_Torana_(HB)_2-door_sedan_(20652425868).jpg",
+      "https://commons.wikimedia.org/wiki/File:1968_Holden_Torana_(HB)_2-door_sedan_(20830919242).jpg"
+    ],
+    "rejected": true
+  },
+  "holden-torana-g2": {
+    "file": "/cars/holden-torana-g2.webp",
+    "article": "Commons search: Holden Torana 1969",
+    "matched": "search",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "Richard Lewis",
+    "source": "https://commons.wikimedia.org/wiki/File:1969-1972_Holden_LC_Torana_4_sedan_01.jpg",
+    "verified": true
+  },
+  "holden-torana-g3": {
+    "file": "/cars/holden-torana-g3.webp",
+    "article": "Commons search: Holden Torana 1974",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Museumsfotografierer",
+    "source": "https://commons.wikimedia.org/wiki/File:1974-1976_Holden_Torana_(LH)_SLR_sedan_(2008-09-02)_01.jpg",
+    "verified": true
+  },
+  "holden-ute-g1": {
+    "file": "/cars/holden-ute-g1.webp",
+    "article": "Commons search: Holden Ute 2002",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:2001-2002_Holden_VU_II_Ute_S_01.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2000-2002_Holden_VU_Ute_(New_Zealand_Police)_01.jpg",
+      "https://commons.wikimedia.org/wiki/File:2001-2002_Holden_VU_II_Ute_S_01.jpg"
+    ],
+    "rejected": true
+  },
+  "holden-ute-g2": {
+    "file": "/cars/holden-ute-g2.webp",
+    "article": "Commons search: Holden Ute 2009",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "OSX",
+    "source": "https://commons.wikimedia.org/wiki/File:2007_Holden_Ute_(VE_MY08.5)_Omega_utility_(2009-05-02).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2007_Holden_Ute_(VE_MY08.5)_SS_V_utility_(2007-10-12).jpg",
+      "https://commons.wikimedia.org/wiki/File:2007_Holden_Ute_(VE_MY08.5)_Omega_utility_(2009-05-02).jpg"
+    ],
+    "rejected": true
   }
 }

@@ -1,6 +1,6 @@
 # Photos wanted
 
-84 cars are curated and ready but have no usable photo, so they are
+96 cars are curated and ready but have no usable photo, so they are
 **not in the game**. They wait in `data/incoming/needs-photo.json` and return
 automatically once a photo is verified:
 
@@ -13,16 +13,17 @@ node scripts/park-imageless-cars.mjs --restore
 node scripts/validate-grids.mjs --min 3
 ```
 
-**Renault** 25 · **Fiat** 10 · **Peugeot** 10 · **Volvo** 10 · **Citroën** 9 · **Mitsubishi** 7 · **Nissan** 5 · **Skoda** 3 · **Cadillac** 2 · **Lexus** 2 · **Jeep** 1
+**Renault** 25 · **Holden** 12 · **Fiat** 10 · **Peugeot** 10 · **Volvo** 10 · **Citroën** 9 · **Mitsubishi** 7 · **Nissan** 5 · **Skoda** 3 · **Cadillac** 2 · **Lexus** 2 · **Jeep** 1
 
 ## What a usable photo looks like
 
 Tiles are 4:3 at about 300px, so: a front three-quarter view, the car filling
-the frame, a standard car with no livery, decals or roof rack, nothing and
-nobody in front of it, and above all **the right generation and the right
-body**. Body Style is a live grid category, so an estate against a Sedan record
-makes a puzzle wrong — that has now cost 9 cars across six waves, and none of
-them looked wrong at thumbnail size. Check the record, not your eye.
+the frame, a standard car with no livery, decals, roof rack or bull bar,
+nothing and nobody in front of it, and above all **the right generation and
+the right body**. Body Style is a live grid category, so an estate against a
+Sedan record makes a puzzle wrong — 10 cars across seven waves, none obvious
+at thumbnail size. Check the record, not your eye. Check `brands` too: a
+Chevrolet-badged Holden Caprice is correct, because that record lists both.
 
 ## The list
 
@@ -49,6 +50,18 @@ them looked wrong at thumbnail size. Check the record, not your eye.
 | `fiat-punto-g1` | Fiat Punto | 1993–1999 | Hatchback / Hatchback | [Punto](https://commons.wikimedia.org/w/index.php?search=Fiat%20Punto%201993&ns6=1) |
 | `fiat-regata-g1` | Fiat Regata | 1983–1990 | Sedan / Sedan | [Regata](https://commons.wikimedia.org/w/index.php?search=Fiat%20Regata%201983&ns6=1) |
 | `fiat-strada-g1` | Fiat Strada | 1996–2020 | Pickup Truck / Pickup Truck | [Strada](https://commons.wikimedia.org/w/index.php?search=Fiat%20Strada%201996&ns6=1) |
+| `holden-astra-g1` | Holden Astra | 1984–1987 | Hatchback / Hatchback | [Astra](https://commons.wikimedia.org/w/index.php?search=Holden%20Astra%201984&ns6=1) |
+| `holden-astra-g3` | Holden Astra | 1996–1998 | Hatchback / Hatchback | [Astra](https://commons.wikimedia.org/w/index.php?search=Holden%20Astra%201996&ns6=1) |
+| `holden-camira-g1` | Holden Camira | 1982–1989 | Sedan / Sedan | [Camira](https://commons.wikimedia.org/w/index.php?search=Holden%20Camira%201982&ns6=1) |
+| `holden-commodore-g1` | Holden Commodore | 1978–1988 | Sedan / Sedan | [Commodore](https://commons.wikimedia.org/w/index.php?search=Holden%20Commodore%201978&ns6=1) |
+| `holden-ej-eh-g1` | Holden EJ / EH | 1962–1965 | Sedan / Sedan | [EJ](https://commons.wikimedia.org/w/index.php?search=Holden%20EJ%201962&ns6=1) · [EH](https://commons.wikimedia.org/w/index.php?search=Holden%20EH%201962&ns6=1) |
+| `holden-fb-ek-g1` | Holden FB / EK | 1960–1962 | Sedan / Sedan | [FB](https://commons.wikimedia.org/w/index.php?search=Holden%20FB%201960&ns6=1) · [EK](https://commons.wikimedia.org/w/index.php?search=Holden%20EK%201960&ns6=1) |
+| `holden-gemini-g2` | Holden Gemini | 1985–1987 | Sedan / Sedan | [Gemini](https://commons.wikimedia.org/w/index.php?search=Holden%20Gemini%201985&ns6=1) |
+| `holden-jackaroo-g2` | Holden Jackaroo | 1991–2003 | SUV / Off-Road | [Jackaroo](https://commons.wikimedia.org/w/index.php?search=Holden%20Jackaroo%201991&ns6=1) |
+| `holden-kingswood-premier-g2` | Holden Kingswood / Premier | 1971–1980 | Sedan / Sedan | [Kingswood](https://commons.wikimedia.org/w/index.php?search=Holden%20Kingswood%201971&ns6=1) · [Premier](https://commons.wikimedia.org/w/index.php?search=Holden%20Premier%201971&ns6=1) |
+| `holden-torana-g1` | Holden Torana | 1967–1969 | Sedan / Sedan | [Torana](https://commons.wikimedia.org/w/index.php?search=Holden%20Torana%201967&ns6=1) |
+| `holden-ute-g1` | Holden Ute | 2000–2007 | Pickup Truck / Pickup Truck | [Ute](https://commons.wikimedia.org/w/index.php?search=Holden%20Ute%202000&ns6=1) |
+| `holden-ute-g2` | Holden Ute | 2007–2017 | Pickup Truck / Pickup Truck | [Ute](https://commons.wikimedia.org/w/index.php?search=Holden%20Ute%202007&ns6=1) |
 | `jeep-cj-6-g1` | Jeep CJ-6 | 1955–1975 | SUV / Off-Road | [CJ-6](https://commons.wikimedia.org/w/index.php?search=Jeep%20CJ-6%201955&ns6=1) |
 | `lexus-es-g2` | Lexus ES | 1991–1996 | Sedan / Sedan | [ES](https://commons.wikimedia.org/w/index.php?search=Lexus%20ES%201991&ns6=1) |
 | `lexus-ls-g2` | Lexus LS | 1994–2000 | Sedan / Sedan | [LS](https://commons.wikimedia.org/w/index.php?search=Lexus%20LS%201994&ns6=1) |
