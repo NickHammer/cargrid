@@ -9040,5 +9040,567 @@
     "artist": "Vauxford",
     "source": "https://commons.wikimedia.org/wiki/File:2018_Peugeot_Rifter_Allure_BlueHDi_1.6_Front.jpg",
     "verified": true
+  },
+  "citroen-2cv-g1": {
+    "file": "/cars/citroen-2cv-g1.webp",
+    "article": "Commons search: Citroën 2CV 1948",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "skinnylawyer from Los Angeles, California, USA",
+    "source": "https://commons.wikimedia.org/wiki/File:1956_Citro%C3%ABn_2CV_-_Flickr_-_skinnylawyer.jpg",
+    "verified": true
+  },
+  "citroen-ami-g1": {
+    "file": "/cars/citroen-ami-g1.webp",
+    "article": "Commons search: Citroën Ami 1963",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Lebubu93",
+    "source": "https://commons.wikimedia.org/wiki/File:Citroen_Ami_6_1963_Essen.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1962_Citro%C3%ABn_Ami_6.jpg",
+      "https://commons.wikimedia.org/wiki/File:Citroen_Ami_6_1963_Essen.jpg"
+    ],
+    "rejected": true
+  },
+  "citroen-ami-g2": {
+    "file": "/cars/citroen-ami-g2.webp",
+    "article": "Commons search: Citroën Ami 2020",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Diego Delso",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_Ami,_Par%C3%ADs,_Francia,_2022-10-30,_DD_03.jpg",
+    "verified": true
+  },
+  "citroen-ax-g1": {
+    "file": "/cars/citroen-ax-g1.webp",
+    "article": "Commons search: Citroën AX 1986",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Charles from Port Chester, New York",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_AX_1.5_D_(1996)_(52207483256).jpg",
+    "verified": true
+  },
+  "citroen-berlingo-g1": {
+    "file": "/cars/citroen-berlingo-g1.webp",
+    "article": "Commons search: Citroën Berlingo 1998",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artist": "Arsharpe at English Wikibooks",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_Berlingo_Electrique_Brush.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1996-2002_(white)_%26_2003-2008_(green)_Citro%C3%ABn_Berlingo_-_Front.jpg",
+      "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_Berlingo_Electrique_Brush.jpg"
+    ],
+    "rejected": true
+  },
+  "citroen-berlingo-g2": {
+    "file": "/cars/citroen-berlingo-g2.webp",
+    "article": "Commons search: Citroën Berlingo 2010",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Charles from Port Chester, New York",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_Berlingo_1.6_HDi_90_(2010)_(54818204696).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1996-2002_(white)_%26_2003-2008_(green)_Citro%C3%ABn_Berlingo_-_Front.jpg",
+      "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_Berlingo_1.6_HDi_90_(2010)_(54818204696).jpg"
+    ],
+    "rejected": true
+  },
+  "citroen-berlingo-g3": {
+    "file": "/cars/citroen-berlingo-g3.webp",
+    "article": "Commons search: Citroën Berlingo 2020",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "User3204",
+    "source": "https://commons.wikimedia.org/wiki/File:2019_Citro%C3%ABn_Berlingo_XL_(front).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_Berlingo_at_Paris_Motor_Show_2018,_Paris_(1Y7A0458).jpg"
+    ],
+    "verified": true
+  },
+  "citroen-bx-g1": {
+    "file": "/cars/citroen-bx-g1.webp",
+    "article": "Commons search: Citroën BX 1982",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:1989_Citro%C3%ABn_BX_GTi_16v.jpg",
+    "verified": true
+  },
+  "citroen-c-zero-g1": {
+    "file": "/cars/citroen-c-zero-g1.webp",
+    "article": "Commons search: Citroën C-Zero 2012",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "HombreDHojalata",
+    "source": "https://commons.wikimedia.org/wiki/File:CITRO%C3%8BN_C-ZERO,_2012,_IFEVI.JPG",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C-Zero_(2010).jpg",
+      "https://commons.wikimedia.org/wiki/File:CITRO%C3%8BN_C-ZERO,_2012,_IFEVI.JPG"
+    ],
+    "rejected": true
+  },
+  "citroen-c1-g2": {
+    "file": "/cars/citroen-c1-g2.webp",
+    "article": "Commons search: Citroën C1 2014",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "BarnCas",
+    "source": "https://commons.wikimedia.org/wiki/File:2014_Citro%C3%ABn_C1_-_Front.jpg",
+    "verified": true
+  },
+  "citroen-c2-g1": {
+    "file": "/cars/citroen-c2-g1.webp",
+    "article": "Commons search: Citroën C2 2003",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "DieselFordMondeo",
+    "source": "https://commons.wikimedia.org/wiki/File:2006_Citro%C3%ABn_C2_1.1_Design_(Front).jpg",
+    "verified": true
+  },
+  "citroen-c3-aircross-g1": {
+    "file": "/cars/citroen-c3-aircross-g1.webp",
+    "article": "Commons search: Citroën C3 Aircross 2017",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "© M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C3_Aircross_PureTech_130_Shine_%E2%80%93_Frontansicht,_23._September_2017,_Frankfurt.jpg",
+    "verified": true
+  },
+  "citroen-c3-aircross-g2": {
+    "file": "/cars/citroen-c3-aircross-g2.webp",
+    "article": "Commons search: Citroën C3 Aircross 2024",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "NaBUru38",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C3_Aircross_2024_Shine_1.0_Turbo_200_in_Montevideo_(front).jpg",
+    "verified": true
+  },
+  "citroen-c3-g1": {
+    "file": "/cars/citroen-c3-g1.webp",
+    "article": "Commons search: Citroën C3 2002",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2004_Citroen_C3_Exclusive_1.6_Front.jpg",
+    "verified": true
+  },
+  "citroen-c3-g2": {
+    "file": "/cars/citroen-c3-g2.webp",
+    "article": "Commons search: Citroën C3 2009",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C3_(II)_%E2%80%93_Frontansicht,_4._Mai_2011,_Mettmann.jpg",
+    "verified": true
+  },
+  "citroen-c3-g3": {
+    "file": "/cars/citroen-c3-g3.webp",
+    "article": "Commons search: Citroën C3 2016",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "DieselFordMondeo",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Citro%C3%ABn_C3_VT_-_1560cc_75PS_BlueHDi_Diesel_-_Polar_White_-_05-07-2023,_Front_Right.jpg",
+    "verified": true
+  },
+  "citroen-c3-g4": {
+    "file": "/cars/citroen-c3-g4.webp",
+    "article": "Commons search: Citroën C3 2026",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Retired electrician",
+    "source": "https://commons.wikimedia.org/wiki/File:Moscow,_Citro%C3%ABn_C3_Picasso_(2012)_white,_June_2026_01.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C3_Aircross_2024_Shine_1.0_Turbo_200_in_Montevideo_(front).jpg",
+      "https://commons.wikimedia.org/wiki/File:Moscow,_Citro%C3%ABn_C3_Picasso_(2012)_white,_June_2026_01.jpg"
+    ],
+    "rejected": true
+  },
+  "citroen-c4-cactus-g1": {
+    "file": "/cars/citroen-c4-cactus-g1.webp",
+    "article": "Commons search: Citroën C4 Cactus 2014",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C4_Cactus_BlueHDi_100_Shine_Edition_%E2%80%93_Frontansicht_(1),_2._November_2014,_M%C3%BCnster.jpg",
+    "verified": true
+  },
+  "citroen-c4-g1": {
+    "file": "/cars/citroen-c4-g1.webp",
+    "article": "Commons search: Citroën C4 2004",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Nicholas Gemini",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C4_Picasso_(2008).png",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C4_Picasso_(2008).png"
+    ]
+  },
+  "citroen-c4-g2": {
+    "file": "/cars/citroen-c4-g2.webp",
+    "article": "Commons search: Citroën C4 2010",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C4_Exclusive_(II)_%E2%80%93_Frontansicht,_11._November_2015,_D%C3%BCsseldorf.jpg",
+    "verified": true
+  },
+  "citroen-c4-g3": {
+    "file": "/cars/citroen-c4-g3.webp",
+    "article": "Commons search: Citroën C4 2020",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:2025_Citro%C3%ABn_C4_DSC_9296.jpg",
+    "verified": true
+  },
+  "citroen-c4-picasso-g1": {
+    "file": "/cars/citroen-c4-picasso-g1.webp",
+    "article": "Commons search: Citroën C4 Picasso 2008",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2008_Citroen_C4_Grand_Picasso_7_VTR%2B_1.8_Front.jpg",
+    "verified": true
+  },
+  "citroen-c4-picasso-spacetourer-g2": {
+    "file": "/cars/citroen-c4-picasso-spacetourer-g2.webp",
+    "article": "Commons search: Citroën C4 Picasso 2013",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Loadbeta",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C4_Picasso_front_-_Tokyo_Motor_Show_2013.jpg",
+    "verified": true
+  },
+  "citroen-c5-aircross-g1": {
+    "file": "/cars/citroen-c5-aircross-g1.webp",
+    "article": "Commons search: Citroën C5 Aircross 2018",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Kevauto",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Dongfeng-Citro%C3%ABn_C5_Aircross,_front_8.9.18.jpg",
+    "verified": true
+  },
+  "citroen-c5-aircross-g2": {
+    "file": "/cars/citroen-c5-aircross-g2.webp",
+    "article": "Commons search: Citroën C5 Aircross 2025",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Harvey Bold",
+    "source": "https://commons.wikimedia.org/wiki/File:2024_Citroen_C5_Aircross_E-Series_PureTech_-_1199cc_1.2_(136PS)_Petrol_-_Platinum_Grey_-_02-2025,_Front.jpg",
+    "verified": true
+  },
+  "citroen-c5-g1": {
+    "file": "/cars/citroen-c5-g1.webp",
+    "article": "Commons search: Citroën C5 2003",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2003_Citroen_C5_VTR_HDi_110_Estate_2.0_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C5_Break_Diesel_registered_GB_November_2001_2179cc.jpg"
+    ],
+    "verified": true
+  },
+  "citroen-c5-g2": {
+    "file": "/cars/citroen-c5-g2.webp",
+    "article": "Commons search: Citroën C5 2008",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Maarten",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C5_2008_Front.jpg",
+    "verified": true
+  },
+  "citroen-c5-x-g1": {
+    "file": "/cars/citroen-c5-x-g1.webp",
+    "article": "Commons search: Citroën C5 X 2021",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:Citroen_C5_X_Auto_Zuerich_2021_IMG_0102.jpg",
+    "verified": true
+  },
+  "citroen-c6-g1": {
+    "file": "/cars/citroen-c6-g1.webp",
+    "article": "Commons search: Citroën C6 2005",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:2010_Citro%C3%ABn_C6_Exclusive_HDi_Auto.jpg",
+    "verified": true
+  },
+  "citroen-c8-g1": {
+    "file": "/cars/citroen-c8-g1.webp",
+    "article": "Commons search: Citroën C8 2002",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2007_Citroen_C8_LX_HDi_120_2.0_Front.jpg",
+    "verified": true
+  },
+  "citroen-cx-g1": {
+    "file": "/cars/citroen-cx-g1.webp",
+    "article": "Commons search: Citroën CX 1974",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1988_Citroen_CX_Croisette_2.2_Front.jpg",
+    "verified": true
+  },
+  "citroen-ds-g1": {
+    "file": "/cars/citroen-ds-g1.webp",
+    "article": "Commons search: Citroën DS 1957",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Niels de Wit from Lunteren, The Netherlands",
+    "source": "https://commons.wikimedia.org/wiki/File:1957_Citro%C3%ABn_DS_(15754838255).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1955_Citro%C3%ABn_DS_19_Museo_Nazionale_dell%27automobile_Torino.jpg"
+    ],
+    "verified": true
+  },
+  "citroen-ds3-g1": {
+    "file": "/cars/citroen-ds3-g1.webp",
+    "article": "Commons search: Citroën DS3 2011",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_DS3_HDi_110_SportChic_%E2%80%93_Frontansicht,_19._April_2011,_D%C3%BCsseldorf.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_DS3_IAA_2009.JPG"
+    ],
+    "verified": true
+  },
+  "citroen-ds4-g1": {
+    "file": "/cars/citroen-ds4-g1.webp",
+    "article": "Commons search: Citroën DS4 2011",
+    "matched": "search",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "M 93",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_DS4_SportChic_%E2%80%93_Frontansicht,_14._Juli_2011,_Paris.jpg",
+    "verified": true
+  },
+  "citroen-ds5-g1": {
+    "file": "/cars/citroen-ds5-g1.webp",
+    "article": "Commons search: Citroën DS5 2013",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Makizox",
+    "source": "https://commons.wikimedia.org/wiki/File:2013_Citroen_DS5_DSport_HYbrid4_2.0_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_DS5_at_the_Frankfurt_Motor_Show_IAA_2011_(6143753505).jpg"
+    ],
+    "verified": true
+  },
+  "citroen-dyane-g1": {
+    "file": "/cars/citroen-dyane-g1.webp",
+    "article": "Commons search: Citroën Dyane 1969",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "andreboeni",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_Dyane_(1969-70)_-_53181292078.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1967_Citro%C3%ABn_Dyane_(15996450356).jpg",
+      "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_Dyane_(1969-70)_-_53181292078.jpg"
+    ],
+    "rejected": true
+  },
+  "citroen-gs-gsa-g1": {
+    "file": "/cars/citroen-gs-gsa-g1.webp",
+    "article": "Commons search: Citroën GS 1970",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Niels de Wit from Lunteren, The Netherlands",
+    "source": "https://commons.wikimedia.org/wiki/File:1983_Citro%C3%ABn_GSA_(8801970742).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:My_1981_Citro%C3%ABn_GSA_Special_(16882605221).jpg"
+    ],
+    "verified": true
+  },
+  "citroen-h-van-g1": {
+    "file": "/cars/citroen-h-van-g1.webp",
+    "article": "Commons search: Citroën H Van 1947",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Charlie from United Kingdom",
+    "source": "https://commons.wikimedia.org/wiki/File:1955_Citroen_Traction_Avant_%2B_1979_Citroen_H_Van_(13452473953).jpg",
+    "verified": true
+  },
+  "citroen-id-g1": {
+    "file": "/cars/citroen-id-g1.webp",
+    "article": "Commons search: Citroën ID 1957",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Andrew Bone from Weymouth, England",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_ID19_(1967-69)_(49541708181).jpg",
+    "verified": true
+  },
+  "citroen-ln-lna-g1": {
+    "file": "/cars/citroen-ln-lna-g1.webp",
+    "article": "Commons search: Citroën LN 1976",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Rutger van der Maar",
+    "source": "https://commons.wikimedia.org/wiki/File:1978_Citro%C3%ABn_LN_0.6_-_52839792232.jpg",
+    "verified": true
+  },
+  "citroen-mehari-g1": {
+    "file": "/cars/citroen-mehari-g1.webp",
+    "article": "Commons search: Citroën Méhari 1970",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "PLawrence99cx",
+    "source": "https://commons.wikimedia.org/wiki/File:1970_Citro%C3%ABn_M%C3%A9hari_U.S._Model.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_M%C3%A9hari-1968%E2%80%931987.jpg",
+      "https://commons.wikimedia.org/wiki/File:1970_Citro%C3%ABn_M%C3%A9hari_U.S._Model.jpg"
+    ],
+    "rejected": true
+  },
+  "citroen-saxo-g1": {
+    "file": "/cars/citroen-saxo-g1.webp",
+    "article": "Commons search: Citroën Saxo 1996",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2003_Citroen_Saxo_Desire_1.1_facelift_Front.jpg",
+    "verified": true
+  },
+  "citroen-sm-g1": {
+    "file": "/cars/citroen-sm-g1.webp",
+    "article": "Commons search: Citroën SM 1970",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Croquant",
+    "source": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_-_SM_-_1970_(M.A.R.C.).jpg",
+    "verified": true
+  },
+  "citroen-traction-avant-g1": {
+    "file": "/cars/citroen-traction-avant-g1.webp",
+    "article": "Commons search: Citroën Traction Avant 1936",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Charles01",
+    "source": "https://commons.wikimedia.org/wiki/File:Citroen_Traction_Avant_Model_1936_authorised_for_road_use_January_1937_1911cc_01.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Diverse_Traction_Avants_van_Citro%C3%ABn,_geproduceerd_vanaf_1934,_eerste_auto_met_vo,_Bestanddeelnr_255-8648.jpg"
+    ],
+    "verified": true
+  },
+  "citroen-visa-g1": {
+    "file": "/cars/citroen-visa-g1.webp",
+    "article": "Commons search: Citroën Visa 1980",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:1980_Citro%C3%ABn_Visa_Club.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1987_Citro%C3%ABn_Visa_Club_front.jpg"
+    ],
+    "verified": true
+  },
+  "citroen-xantia-g1": {
+    "file": "/cars/citroen-xantia-g1.webp",
+    "article": "Commons search: Citroën Xantia 1993",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1993_Citroen_Xantia_LX_2.0_Front.jpg",
+    "verified": true
+  },
+  "citroen-xm-g1": {
+    "file": "/cars/citroen-xm-g1.webp",
+    "article": "Commons search: Citroën XM 1991",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1991_Citroen_XM_SI_Automatic_2.0_Front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1999_Citro%C3%ABn_XM_Break_2.1D_Turbo_(15163381210).jpg"
+    ],
+    "verified": true
+  },
+  "citroen-xsara-g1": {
+    "file": "/cars/citroen-xsara-g1.webp",
+    "article": "Commons search: Citroën Xsara 1999",
+    "matched": "search",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Manoj Prasad from Kuala Lumpur, Malaysia",
+    "source": "https://commons.wikimedia.org/wiki/File:2005_Citro%C3%ABn_Xsara_Picasso_5-door_MPV_(01)_(33994856695).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_Xsara_1.8i_8V_(1997)_(54838034060).jpg",
+      "https://commons.wikimedia.org/wiki/File:2005_Citro%C3%ABn_Xsara_Picasso_5-door_MPV_(01)_(33994856695).jpg"
+    ],
+    "rejected": true
+  },
+  "citroen-xsara-picasso-g1": {
+    "file": "/cars/citroen-xsara-picasso-g1.webp",
+    "article": "Commons search: Citroën Xsara Picasso 1999",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2002_Citroen_Xsara_Picasso_HDi_Exclusive_2.0_Front.jpg",
+    "verified": true
+  },
+  "citroen-zx-g1": {
+    "file": "/cars/citroen-zx-g1.webp",
+    "article": "Commons search: Citroën ZX 1991",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:1998_Citro%C3%ABn_ZX_1.4i_Temptation.jpg",
+    "verified": true
   }
 }

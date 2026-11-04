@@ -80,6 +80,382 @@
     "image_url": ""
   },
   {
+    "id": "citroen-ami-g1",
+    "make": "Citroën",
+    "model": "Ami",
+    "generation": 1,
+    "brands": [
+      "Citroën"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1961,
+    "production_end": 1978,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Flat-2",
+      "Flat-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 22,
+    "power_output_hp_max": 35,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-berlingo-g1",
+    "make": "Citroën",
+    "model": "Berlingo",
+    "generation": 1,
+    "brands": [
+      "Citroën",
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1996,
+    "production_end": 2008,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 59,
+    "power_output_hp_max": 108,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-berlingo-g2",
+    "make": "Citroën",
+    "model": "Berlingo",
+    "generation": 2,
+    "brands": [
+      "Citroën",
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2008,
+    "production_end": 2018,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Electric"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 74,
+    "power_output_hp_max": 118,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-c-zero-g1",
+    "make": "Citroën",
+    "model": "C-Zero",
+    "generation": 1,
+    "brands": [
+      "Citroën",
+      "Mitsubishi",
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2010,
+    "production_end": 2020,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 66,
+    "power_output_hp_max": 66,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-c3-g4",
+    "make": "Citroën",
+    "model": "C3",
+    "generation": 4,
+    "brands": [
+      "Citroën"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3",
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 99,
+    "power_output_hp_max": 111,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid",
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-c4-g1",
+    "make": "Citroën",
+    "model": "C4",
+    "generation": 1,
+    "brands": [
+      "Citroën"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2004,
+    "production_end": 2010,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 88,
+    "power_output_hp_max": 178,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-dyane-g1",
+    "make": "Citroën",
+    "model": "Dyane",
+    "generation": 1,
+    "brands": [
+      "Citroën"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1967,
+    "production_end": 1983,
+    "decades": [
+      "1960s",
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Flat-2"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 18,
+    "power_output_hp_max": 31,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-mehari-g1",
+    "make": "Citroën",
+    "model": "Méhari",
+    "generation": 1,
+    "brands": [
+      "Citroën"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1968,
+    "production_end": 1988,
+    "decades": [
+      "1960s",
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Flat-2"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "FWD",
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 26,
+    "power_output_hp_max": 31,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-xsara-g1",
+    "make": "Citroën",
+    "model": "Xsara",
+    "generation": 1,
+    "brands": [
+      "Citroën"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1997,
+    "production_end": 2006,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 69,
+    "power_output_hp_max": 165,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
     "id": "jeep-cj-6-g1",
     "make": "Jeep",
     "model": "CJ-6",

@@ -1,6 +1,6 @@
 # Photos wanted
 
-52 cars are curated and ready but have no usable photo, so they are
+61 cars are curated and ready but have no usable photo, so they are
 **not in the game**. They wait in `data/incoming/needs-photo.json` and return
 automatically once a photo is verified:
 
@@ -13,15 +13,16 @@ node scripts/park-imageless-cars.mjs --restore
 node scripts/validate-grids.mjs --min 3
 ```
 
-**Renault** 25 · **Peugeot** 10 · **Mitsubishi** 7 · **Nissan** 5 · **Cadillac** 2 · **Lexus** 2 · **Jeep** 1
+**Renault** 25 · **Peugeot** 10 · **Citroën** 9 · **Mitsubishi** 7 · **Nissan** 5 · **Cadillac** 2 · **Lexus** 2 · **Jeep** 1
 
 ## What a usable photo looks like
 
 Tiles are 4:3 at about 300px, so: a front three-quarter view, the car filling
 the frame, a standard car with no livery or decals, nothing and nobody in front
 of it, and above all **the right generation and the right body**. Body Style is
-a live grid category, so an estate or a cabriolet against a Sedan record makes
-a puzzle wrong — that alone accounted for 4 rejects in the Peugeot wave.
+a live grid category, so an estate or a cabriolet against a Sedan or Hatchback
+record makes a puzzle wrong — that alone accounted for 6 rejects across the
+Peugeot and Citroen waves, and none of them were obvious by eye.
 
 ## The list
 
@@ -29,6 +30,15 @@ a puzzle wrong — that alone accounted for 4 rejects in the Peugeot wave.
 |---|---|---|---|---|
 | `cadillac-cts-g3` | Cadillac CTS | 2014–2019 | Sedan / Sedan | [CTS](https://commons.wikimedia.org/w/index.php?search=Cadillac%20CTS%202014&ns6=1) |
 | `cadillac-eldorado-g1` | Cadillac Eldorado | 1953–1953 | Convertible / Coupe | [Eldorado](https://commons.wikimedia.org/w/index.php?search=Cadillac%20Eldorado%201953&ns6=1) |
+| `citroen-ami-g1` | Citroën Ami | 1961–1978 | Sedan / Sedan | [Ami](https://commons.wikimedia.org/w/index.php?search=Citro%C3%ABn%20Ami%201961&ns6=1) |
+| `citroen-berlingo-g1` | Citroën Berlingo | 1996–2008 | Minivan / Minivan | [Berlingo](https://commons.wikimedia.org/w/index.php?search=Citro%C3%ABn%20Berlingo%201996&ns6=1) |
+| `citroen-berlingo-g2` | Citroën Berlingo | 2008–2018 | Minivan / Minivan | [Berlingo](https://commons.wikimedia.org/w/index.php?search=Citro%C3%ABn%20Berlingo%202008&ns6=1) |
+| `citroen-c-zero-g1` | Citroën C-Zero | 2010–2020 | Hatchback / Hatchback | [C-Zero](https://commons.wikimedia.org/w/index.php?search=Citro%C3%ABn%20C-Zero%202010&ns6=1) |
+| `citroen-c3-g4` | Citroën C3 | 2024–now | Hatchback / Hatchback | [C3](https://commons.wikimedia.org/w/index.php?search=Citro%C3%ABn%20C3%202024&ns6=1) |
+| `citroen-c4-g1` | Citroën C4 | 2004–2010 | Hatchback / Hatchback | [C4](https://commons.wikimedia.org/w/index.php?search=Citro%C3%ABn%20C4%202004&ns6=1) |
+| `citroen-dyane-g1` | Citroën Dyane | 1967–1983 | Hatchback / Hatchback | [Dyane](https://commons.wikimedia.org/w/index.php?search=Citro%C3%ABn%20Dyane%201967&ns6=1) |
+| `citroen-mehari-g1` | Citroën Méhari | 1968–1988 | Convertible / Off-Road | [Méhari](https://commons.wikimedia.org/w/index.php?search=Citro%C3%ABn%20M%C3%A9hari%201968&ns6=1) |
+| `citroen-xsara-g1` | Citroën Xsara | 1997–2006 | Hatchback / Hatchback | [Xsara](https://commons.wikimedia.org/w/index.php?search=Citro%C3%ABn%20Xsara%201997&ns6=1) |
 | `jeep-cj-6-g1` | Jeep CJ-6 | 1955–1975 | SUV / Off-Road | [CJ-6](https://commons.wikimedia.org/w/index.php?search=Jeep%20CJ-6%201955&ns6=1) |
 | `lexus-es-g2` | Lexus ES | 1991–1996 | Sedan / Sedan | [ES](https://commons.wikimedia.org/w/index.php?search=Lexus%20ES%201991&ns6=1) |
 | `lexus-ls-g2` | Lexus LS | 1994–2000 | Sedan / Sedan | [LS](https://commons.wikimedia.org/w/index.php?search=Lexus%20LS%201994&ns6=1) |
