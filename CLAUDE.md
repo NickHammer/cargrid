@@ -259,12 +259,27 @@ npm run build      # writes out/ (~736 pages, ~27 MB incl. images)
   growing its archive.
 - **A redeploy is only needed** to change the dataset, the code, or to extend
   the schedule.
-- **The schedule runs out on 2028-10-20.** `validate-grids.mjs --min-days 90`
-  exits non-zero once fewer than 90 days remain, so wire it into CI rather than
-  relying on memory:
-  ```bash
-  node scripts/validate-grids.mjs --min 3 --min-days 90
-  ```
+- **The schedule runs out on 2028-11-01.** `validate-grids.mjs --min-days 90`
+  exits non-zero once fewer than 90 days remain. This is now wired into
+  `.github/workflows/checks.yml` rather than left to memory.
+
+### Checks run automatically
+
+`.github/workflows/checks.yml` runs lint, the curation tests, the grid schedule
+check and the build on every push and pull request to `main` and `dev`.
+
+It exists because **Netlify only runs `npm run build`, which is `next build`**.
+That typechecks and lints, so a code mistake already fails the deploy — but
+nothing looks at the data. Measured, not assumed: deleting `honda-cr-v-g1`
+drops the `SUV x Honda` square on 2026-10-23 from 3 answers to 2, and
+`npm run build` still succeeds and would deploy an unsolvable grid.
+`data:validate:grids` catches it and exits 1. 45 squares in the schedule sit at
+exactly the 3-answer minimum, so this is one careless edit away at all times.
+
+`validate-cars.mjs` is deliberately **not** in the workflow yet — it exits
+non-zero on 57 pre-existing provenance warnings, and a check that is always red
+is a check everyone ignores. It runs locally as `npm run data:validate:cars`,
+and joins the workflow once those are triaged.
 - `trailingSlash` matters: without it the export emits both `archive/<date>.html`
   and a directory `archive/<date>/` holding RSC payloads, and static hosts
   disagree about which wins. Every route is `<path>/index.html` instead.

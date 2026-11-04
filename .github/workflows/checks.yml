@@ -1,0 +1,61 @@
+# Runs the project's own checks on every push, so a mistake is caught here
+# rather than on the live site.
+#
+# Why this exists: Netlify deploys by running `npm run build`, which is just
+# `next build`. That typechecks and lints, so a code mistake already fails the
+# deploy. It does NOT look at the data — so an edit to data/cars.json that
+# leaves a scheduled grid unsolvable builds clean and deploys clean, and the
+# first sign of trouble is a player two years out meeting a square with no
+# answer. 45 squares in the current schedule sit at exactly the 3-answer
+# minimum, which is one careless edit away from broken.
+#
+# validate-cars.mjs is deliberately NOT here yet: it exits non-zero on 57
+# pre-existing provenance warnings, so adding it today would mean a permanent
+# red X that everyone learns to ignore. `npm run data:validate:cars` runs it
+# locally; it joins this list once those are triaged.
+
+name: checks
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main, dev]
+
+# A new push supersedes the one before it; no point finishing the old run.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Node 22 matches netlify.toml, so the build step here is a real
+      # rehearsal of the deploy rather than an approximation.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
+
+      # Cheapest first, so an obvious failure reports in seconds.
+      - name: Lint
+        run: npm run lint
+
+      - name: Curation tests
+        run: npm run data:test
+
+      # The point of the whole file: every scheduled grid still solvable, and
+      # at least 90 days of schedule left to deploy.
+      - name: Grid schedule
+        run: npm run data:validate:grids
+
+      - name: Build
+        run: npm run build
