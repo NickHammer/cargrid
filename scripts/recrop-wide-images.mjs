@@ -22,6 +22,15 @@ import fs from "fs";
 import path from "path";
 import sharp from "sharp";
 
+// `--apply` overwrites the very files this script has just measured, and on
+// Windows that failed with `UNKNOWN: errno -4094` every time: libvips keeps the
+// images it has opened in its cache, memory-mapped, so the handle is still live
+// when the overwrite comes. The same write succeeds from a fresh process, which
+// is what made this look like a copyFileSync bug and sent the last two attempts
+// after the wrong fix. The cache only saves re-decoding a file within one run,
+// which this script never does.
+sharp.cache(false);
+
 const CREDITS_PATH = process.env.CREDITS_PATH || "data/image-credits.json";
 const DIR = "public/cars";
 const WORK = process.env.RECROP_WORK || "recrop-work";
@@ -246,7 +255,11 @@ async function apply(picksPath) {
     }
     const src = path.join(CROPS, id + "__" + choice + ".webp");
     if (!fs.existsSync(src)) throw new Error("no crop " + src);
-    fs.copyFileSync(src, path.join(DIR, id + ".webp"));
+    // Read-then-write rather than copyFileSync: on Windows the latter fails
+    // here with UNKNOWN errno -4094 overwriting a published image, which has
+    // bitten this repo more than once. These files are a few hundred KB, so
+    // buffering one costs nothing.
+    fs.writeFileSync(path.join(DIR, id + ".webp"), fs.readFileSync(src));
     applied++;
   }
   console.log(applied + " re-cropped, " + kept + " left as they were");

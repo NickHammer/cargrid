@@ -36,6 +36,10 @@ next-env.d.ts
 
 # curation review artifacts (regenerated each image wave)
 /contact-sheets/
+# recrop-wide-images.mjs working directory: 2400px originals re-downloaded
+# from Commons plus the crop candidates and review sheets. ~13 MB a wave,
+# and every byte of it is reproducible with --fetch --candidates.
+/recrop-work/
 
 # generated tracking reports — regenerate locally with `npm run docs:refresh`.
 # Not in git because they are derived from data/cars.json (so they would churn

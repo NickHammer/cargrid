@@ -15667,6 +15667,374 @@
     "image_url": "/cars/honda-accord-g1.webp"
   },
   {
+    "id": "honda-accord-g10",
+    "make": "Honda",
+    "model": "Accord",
+    "generation": 10,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2018,
+    "production_end": 2022,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 192,
+    "power_output_hp_max": 252,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-accord-g10.webp"
+  },
+  {
+    "id": "honda-accord-g11",
+    "make": "Honda",
+    "model": "Accord",
+    "generation": 11,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 192,
+    "power_output_hp_max": 204,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-accord-g11.webp"
+  },
+  {
+    "id": "honda-accord-g3",
+    "make": "Honda",
+    "model": "Accord",
+    "generation": 3,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1986,
+    "production_end": 1989,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 98,
+    "power_output_hp_max": 120,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-accord-g3.webp"
+  },
+  {
+    "id": "honda-accord-g4",
+    "make": "Honda",
+    "model": "Accord",
+    "generation": 4,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1990,
+    "production_end": 1993,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 125,
+    "power_output_hp_max": 140,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-accord-g4.webp"
+  },
+  {
+    "id": "honda-accord-g5",
+    "make": "Honda",
+    "model": "Accord",
+    "generation": 5,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1994,
+    "production_end": 1997,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 113,
+    "power_output_hp_max": 170,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-accord-g5.webp"
+  },
+  {
+    "id": "honda-accord-g6",
+    "make": "Honda",
+    "model": "Accord",
+    "generation": 6,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1998,
+    "production_end": 2002,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 135,
+    "power_output_hp_max": 209,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-accord-g6.webp"
+  },
+  {
+    "id": "honda-accord-g7",
+    "make": "Honda",
+    "model": "Accord",
+    "generation": 7,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2003,
+    "production_end": 2007,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 138,
+    "power_output_hp_max": 255,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-accord-g7.webp"
+  },
+  {
+    "id": "honda-accord-g8",
+    "make": "Honda",
+    "model": "Accord",
+    "generation": 8,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2008,
+    "production_end": 2012,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 148,
+    "power_output_hp_max": 271,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-accord-g8.webp"
+  },
+  {
+    "id": "honda-beat-g1",
+    "make": "Honda",
+    "model": "Beat",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1991,
+    "production_end": 1996,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-3"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 63,
+    "power_output_hp_max": 63,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-beat-g1.webp"
+  },
+  {
     "id": "honda-civic-g1",
     "make": "Honda",
     "model": "Civic",
@@ -16170,6 +16538,123 @@
     "image_url": "/cars/honda-civic-type-r-g1.webp"
   },
   {
+    "id": "honda-civic-type-r-g2",
+    "make": "Honda",
+    "model": "Civic Type R",
+    "generation": 2,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2001,
+    "production_end": 2005,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 197,
+    "power_output_hp_max": 212,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-civic-type-r-g2.webp"
+  },
+  {
+    "id": "honda-civic-type-r-g3",
+    "make": "Honda",
+    "model": "Civic Type R",
+    "generation": 3,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2007,
+    "production_end": 2011,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 198,
+    "power_output_hp_max": 222,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-civic-type-r-g3.webp"
+  },
+  {
+    "id": "honda-civic-type-r-g4",
+    "make": "Honda",
+    "model": "Civic Type R",
+    "generation": 4,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2015,
+    "production_end": 2017,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 306,
+    "power_output_hp_max": 306,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-civic-type-r-g4.webp"
+  },
+  {
     "id": "honda-civic-type-r-g5",
     "make": "Honda",
     "model": "Civic Type R",
@@ -16207,6 +16692,87 @@
     "price_at_launch_usd": 34775,
     "manufacturer_still_active": true,
     "image_url": "/cars/honda-civic-type-r-g5.webp"
+  },
+  {
+    "id": "honda-civic-type-r-g6",
+    "make": "Honda",
+    "model": "Civic Type R",
+    "generation": 6,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2022,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 315,
+    "power_output_hp_max": 325,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-civic-type-r-g6.webp"
+  },
+  {
+    "id": "honda-clarity-g1",
+    "make": "Honda",
+    "model": "Clarity",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2017,
+    "production_end": 2021,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Electric"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 161,
+    "power_output_hp_max": 212,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric",
+      "Plug-in Hybrid",
+      "Hydrogen"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-clarity-g1.webp"
   },
   {
     "id": "honda-cr-v-g1",
@@ -16249,6 +16815,455 @@
     "image_url": "/cars/honda-cr-v-g1.webp"
   },
   {
+    "id": "honda-cr-v-g2",
+    "make": "Honda",
+    "model": "CR-V",
+    "generation": 2,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2002,
+    "production_end": 2006,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 140,
+    "power_output_hp_max": 160,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-cr-v-g2.webp"
+  },
+  {
+    "id": "honda-cr-v-g3",
+    "make": "Honda",
+    "model": "CR-V",
+    "generation": 3,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2007,
+    "production_end": 2011,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 148,
+    "power_output_hp_max": 180,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-cr-v-g3.webp"
+  },
+  {
+    "id": "honda-cr-v-g5",
+    "make": "Honda",
+    "model": "CR-V",
+    "generation": 5,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2017,
+    "production_end": 2022,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 118,
+    "power_output_hp_max": 212,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-cr-v-g5.webp"
+  },
+  {
+    "id": "honda-cr-v-g6",
+    "make": "Honda",
+    "model": "CR-V",
+    "generation": 6,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 181,
+    "power_output_hp_max": 204,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid",
+      "Plug-in Hybrid",
+      "Hydrogen"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-cr-v-g6.webp"
+  },
+  {
+    "id": "honda-cr-x-del-sol-g1",
+    "make": "Honda",
+    "model": "CR-X del Sol",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1992,
+    "production_end": 1998,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 102,
+    "power_output_hp_max": 160,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-cr-x-del-sol-g1.webp"
+  },
+  {
+    "id": "honda-cr-x-g1",
+    "make": "Honda",
+    "model": "CR-X",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1983,
+    "production_end": 1987,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 58,
+    "power_output_hp_max": 91,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-cr-x-g1.webp"
+  },
+  {
+    "id": "honda-cr-x-g2",
+    "make": "Honda",
+    "model": "CR-X",
+    "generation": 2,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1988,
+    "production_end": 1991,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 62,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-cr-x-g2.webp"
+  },
+  {
+    "id": "honda-cr-z-g1",
+    "make": "Honda",
+    "model": "CR-Z",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2010,
+    "production_end": 2016,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 122,
+    "power_output_hp_max": 135,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-cr-z-g1.webp"
+  },
+  {
+    "id": "honda-crosstour-g1",
+    "make": "Honda",
+    "model": "Crosstour",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2010,
+    "production_end": 2015,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 192,
+    "power_output_hp_max": 278,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-crosstour-g1.webp"
+  },
+  {
+    "id": "honda-e-g1",
+    "make": "Honda",
+    "model": "e",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2020,
+    "production_end": 2024,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 134,
+    "power_output_hp_max": 152,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-e-g1.webp"
+  },
+  {
+    "id": "honda-element-g1",
+    "make": "Honda",
+    "model": "Element",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2003,
+    "production_end": 2011,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 156,
+    "power_output_hp_max": 166,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-element-g1.webp"
+  },
+  {
     "id": "honda-fit-g1",
     "make": "Honda",
     "model": "Fit",
@@ -16289,6 +17304,869 @@
     "image_url": "/cars/honda-fit-g1.webp"
   },
   {
+    "id": "honda-fit-jazz-g2",
+    "make": "Honda",
+    "model": "Fit",
+    "generation": 2,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2007,
+    "production_end": 2014,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 87,
+    "power_output_hp_max": 117,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-fit-jazz-g2.webp",
+    "aliases": [
+      "Jazz",
+      "Honda Jazz"
+    ]
+  },
+  {
+    "id": "honda-fit-jazz-g3",
+    "make": "Honda",
+    "model": "Fit",
+    "generation": 3,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2013,
+    "production_end": 2020,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 99,
+    "power_output_hp_max": 130,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-fit-jazz-g3.webp",
+    "aliases": [
+      "Jazz",
+      "Honda Jazz"
+    ]
+  },
+  {
+    "id": "honda-fit-jazz-g4",
+    "make": "Honda",
+    "model": "Fit",
+    "generation": 4,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2020,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 97,
+    "power_output_hp_max": 120,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-fit-jazz-g4.webp",
+    "aliases": [
+      "Jazz",
+      "Honda Jazz"
+    ]
+  },
+  {
+    "id": "honda-hr-v-g1",
+    "make": "Honda",
+    "model": "HR-V",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1999,
+    "production_end": 2006,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 104,
+    "power_output_hp_max": 123,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-hr-v-g1.webp"
+  },
+  {
+    "id": "honda-hr-v-g2",
+    "make": "Honda",
+    "model": "HR-V",
+    "generation": 2,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2015,
+    "production_end": 2022,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 118,
+    "power_output_hp_max": 180,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-hr-v-g2.webp"
+  },
+  {
+    "id": "honda-hr-v-g3",
+    "make": "Honda",
+    "model": "HR-V",
+    "generation": 3,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2022,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 129,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-hr-v-g3.webp"
+  },
+  {
+    "id": "honda-insight-g1",
+    "make": "Honda",
+    "model": "Insight",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1999,
+    "production_end": 2006,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-3"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 67,
+    "power_output_hp_max": 73,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-insight-g1.webp"
+  },
+  {
+    "id": "honda-insight-g2",
+    "make": "Honda",
+    "model": "Insight",
+    "generation": 2,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2009,
+    "production_end": 2014,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 98,
+    "power_output_hp_max": 98,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "CVT"
+    ],
+    "fuel_type": [
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-insight-g2.webp"
+  },
+  {
+    "id": "honda-insight-g3",
+    "make": "Honda",
+    "model": "Insight",
+    "generation": 3,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2018,
+    "production_end": 2022,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 151,
+    "power_output_hp_max": 151,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "CVT"
+    ],
+    "fuel_type": [
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-insight-g3.webp"
+  },
+  {
+    "id": "honda-integra-g1",
+    "make": "Honda",
+    "model": "Integra",
+    "generation": 1,
+    "brands": [
+      "Honda",
+      "Acura"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1985,
+    "production_end": 1989,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 113,
+    "power_output_hp_max": 118,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-integra-g1.webp"
+  },
+  {
+    "id": "honda-integra-g2",
+    "make": "Honda",
+    "model": "Integra",
+    "generation": 2,
+    "brands": [
+      "Honda",
+      "Acura"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1989,
+    "production_end": 1993,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 130,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-integra-g2.webp"
+  },
+  {
+    "id": "honda-integra-g3",
+    "make": "Honda",
+    "model": "Integra",
+    "generation": 3,
+    "brands": [
+      "Honda",
+      "Acura"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1993,
+    "production_end": 2001,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 140,
+    "power_output_hp_max": 197,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-integra-g3.webp"
+  },
+  {
+    "id": "honda-integra-g4",
+    "make": "Honda",
+    "model": "Integra",
+    "generation": 4,
+    "brands": [
+      "Honda",
+      "Acura"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2001,
+    "production_end": 2006,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 158,
+    "power_output_hp_max": 217,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-integra-g4.webp"
+  },
+  {
+    "id": "honda-legend-g1",
+    "make": "Honda",
+    "model": "Legend",
+    "generation": 1,
+    "brands": [
+      "Honda",
+      "Acura"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1985,
+    "production_end": 1990,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 151,
+    "power_output_hp_max": 161,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-legend-g1.webp"
+  },
+  {
+    "id": "honda-legend-g2",
+    "make": "Honda",
+    "model": "Legend",
+    "generation": 2,
+    "brands": [
+      "Honda",
+      "Acura",
+      "Daewoo"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1990,
+    "production_end": 1995,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 200,
+    "power_output_hp_max": 230,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-legend-g2.webp"
+  },
+  {
+    "id": "honda-legend-g3",
+    "make": "Honda",
+    "model": "Legend",
+    "generation": 3,
+    "brands": [
+      "Honda",
+      "Acura"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1996,
+    "production_end": 2004,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 210,
+    "power_output_hp_max": 225,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-legend-g3.webp"
+  },
+  {
+    "id": "honda-legend-g4",
+    "make": "Honda",
+    "model": "Legend",
+    "generation": 4,
+    "brands": [
+      "Honda",
+      "Acura"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2004,
+    "production_end": 2012,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 290,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-legend-g4.webp"
+  },
+  {
+    "id": "honda-n-box-g1",
+    "make": "Honda",
+    "model": "N-Box",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2011,
+    "production_end": 2017,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-3"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 57,
+    "power_output_hp_max": 63,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-n-box-g1.webp"
+  },
+  {
+    "id": "honda-n360-n600-g1",
+    "make": "Honda",
+    "model": "N360 / N600",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1967,
+    "production_end": 1972,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-2"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 31,
+    "power_output_hp_max": 45,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-n360-n600-g1.webp"
+  },
+  {
+    "id": "honda-nsx-g1",
+    "make": "Honda",
+    "model": "NSX",
+    "generation": 1,
+    "brands": [
+      "Honda",
+      "Acura"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1990,
+    "production_end": 2005,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 252,
+    "power_output_hp_max": 290,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-nsx-g1.webp"
+  },
+  {
+    "id": "honda-nsx-g2",
+    "make": "Honda",
+    "model": "NSX",
+    "generation": 2,
+    "brands": [
+      "Honda",
+      "Acura"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2016,
+    "production_end": 2022,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 573,
+    "power_output_hp_max": 600,
+    "power_output_ranges": [
+      "501-600"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-nsx-g2.webp"
+  },
+  {
     "id": "honda-odyssey-g1",
     "make": "Honda",
     "model": "Odyssey",
@@ -16325,6 +18203,161 @@
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
     "image_url": "/cars/honda-odyssey-g1.webp"
+  },
+  {
+    "id": "honda-odyssey-g2",
+    "make": "Honda",
+    "model": "Odyssey",
+    "generation": 2,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1999,
+    "production_end": 2004,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 210,
+    "power_output_hp_max": 240,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-odyssey-g2.webp"
+  },
+  {
+    "id": "honda-odyssey-g3",
+    "make": "Honda",
+    "model": "Odyssey",
+    "generation": 3,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2005,
+    "production_end": 2010,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 244,
+    "power_output_hp_max": 255,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-odyssey-g3.webp"
+  },
+  {
+    "id": "honda-odyssey-g4",
+    "make": "Honda",
+    "model": "Odyssey",
+    "generation": 4,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2011,
+    "production_end": 2017,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 248,
+    "power_output_hp_max": 248,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-odyssey-g4.webp"
+  },
+  {
+    "id": "honda-odyssey-g5",
+    "make": "Honda",
+    "model": "Odyssey",
+    "generation": 5,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2018,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 280,
+    "power_output_hp_max": 280,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-odyssey-g5.webp"
   },
   {
     "id": "honda-passport-g1",
@@ -16369,6 +18402,126 @@
     "image_url": "/cars/honda-passport-g1.webp"
   },
   {
+    "id": "honda-passport-g2",
+    "make": "Honda",
+    "model": "Passport",
+    "generation": 2,
+    "brands": [
+      "Honda",
+      "Isuzu"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1998,
+    "production_end": 2002,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 205,
+    "power_output_hp_max": 205,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-passport-g2.webp"
+  },
+  {
+    "id": "honda-passport-g3",
+    "make": "Honda",
+    "model": "Passport",
+    "generation": 3,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2019,
+    "production_end": 2025,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 280,
+    "power_output_hp_max": 280,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-passport-g3.webp"
+  },
+  {
+    "id": "honda-passport-g4",
+    "make": "Honda",
+    "model": "Passport",
+    "generation": 4,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2026,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 285,
+    "power_output_hp_max": 285,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-passport-g4.webp"
+  },
+  {
     "id": "honda-pilot-g1",
     "make": "Honda",
     "model": "Pilot",
@@ -16405,6 +18558,364 @@
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
     "image_url": "/cars/honda-pilot-g1.webp"
+  },
+  {
+    "id": "honda-pilot-g2",
+    "make": "Honda",
+    "model": "Pilot",
+    "generation": 2,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2009,
+    "production_end": 2015,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 250,
+    "power_output_hp_max": 250,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-pilot-g2.webp"
+  },
+  {
+    "id": "honda-pilot-g3",
+    "make": "Honda",
+    "model": "Pilot",
+    "generation": 3,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2016,
+    "production_end": 2022,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 280,
+    "power_output_hp_max": 280,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-pilot-g3.webp"
+  },
+  {
+    "id": "honda-pilot-g4",
+    "make": "Honda",
+    "model": "Pilot",
+    "generation": 4,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 285,
+    "power_output_hp_max": 285,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-pilot-g4.webp"
+  },
+  {
+    "id": "honda-prelude-g1",
+    "make": "Honda",
+    "model": "Prelude",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1978,
+    "production_end": 1982,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 72,
+    "power_output_hp_max": 80,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-prelude-g1.webp"
+  },
+  {
+    "id": "honda-prelude-g2",
+    "make": "Honda",
+    "model": "Prelude",
+    "generation": 2,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1983,
+    "production_end": 1987,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 100,
+    "power_output_hp_max": 110,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-prelude-g2.webp"
+  },
+  {
+    "id": "honda-prelude-g3",
+    "make": "Honda",
+    "model": "Prelude",
+    "generation": 3,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1988,
+    "production_end": 1991,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 104,
+    "power_output_hp_max": 140,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-prelude-g3.webp"
+  },
+  {
+    "id": "honda-prelude-g4",
+    "make": "Honda",
+    "model": "Prelude",
+    "generation": 4,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1992,
+    "production_end": 1996,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 135,
+    "power_output_hp_max": 197,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-prelude-g4.webp"
+  },
+  {
+    "id": "honda-prelude-g5",
+    "make": "Honda",
+    "model": "Prelude",
+    "generation": 5,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1997,
+    "production_end": 2001,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 195,
+    "power_output_hp_max": 217,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-prelude-g5.webp"
+  },
+  {
+    "id": "honda-prologue-g1",
+    "make": "Honda",
+    "model": "Prologue",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 212,
+    "power_output_hp_max": 288,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-prologue-g1.webp"
   },
   {
     "id": "honda-ridgeline-g1",
@@ -16444,6 +18955,356 @@
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
     "image_url": "/cars/honda-ridgeline-g1.webp"
+  },
+  {
+    "id": "honda-ridgeline-g2",
+    "make": "Honda",
+    "model": "Ridgeline",
+    "generation": 2,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2017,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 280,
+    "power_output_hp_max": 280,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-ridgeline-g2.webp"
+  },
+  {
+    "id": "honda-s2000-g1",
+    "make": "Honda",
+    "model": "S2000",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1999,
+    "production_end": 2003,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 237,
+    "power_output_hp_max": 247,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-s2000-g1.webp"
+  },
+  {
+    "id": "honda-s2000-g2",
+    "make": "Honda",
+    "model": "S2000",
+    "generation": 2,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2004,
+    "production_end": 2009,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 237,
+    "power_output_hp_max": 247,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-s2000-g2.webp"
+  },
+  {
+    "id": "honda-s500-g1",
+    "make": "Honda",
+    "model": "S500",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1963,
+    "production_end": 1964,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 44,
+    "power_output_hp_max": 44,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-s500-g1.webp"
+  },
+  {
+    "id": "honda-s600-g1",
+    "make": "Honda",
+    "model": "S600",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1964,
+    "production_end": 1966,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 57,
+    "power_output_hp_max": 57,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-s600-g1.webp"
+  },
+  {
+    "id": "honda-s660-g1",
+    "make": "Honda",
+    "model": "S660",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2015,
+    "production_end": 2022,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 63,
+    "power_output_hp_max": 63,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-s660-g1.webp"
+  },
+  {
+    "id": "honda-s800-g1",
+    "make": "Honda",
+    "model": "S800",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1966,
+    "production_end": 1970,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 70,
+    "power_output_hp_max": 70,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-s800-g1.webp"
+  },
+  {
+    "id": "honda-t360-g1",
+    "make": "Honda",
+    "model": "T360",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1963,
+    "production_end": 1967,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 30,
+    "power_output_hp_max": 30,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-t360-g1.webp"
+  },
+  {
+    "id": "honda-zr-v-g1",
+    "make": "Honda",
+    "model": "ZR-V",
+    "generation": 1,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 158,
+    "power_output_hp_max": 190,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/honda-zr-v-g1.webp"
   },
   {
     "id": "hyundai-elantra-g7",

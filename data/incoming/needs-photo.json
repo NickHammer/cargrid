@@ -1365,6 +1365,289 @@
     "image_url": ""
   },
   {
+    "id": "honda-accord-g2",
+    "make": "Honda",
+    "model": "Accord",
+    "generation": 2,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1982,
+    "production_end": 1985,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 75,
+    "power_output_hp_max": 110,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "honda-accord-g9",
+    "make": "Honda",
+    "model": "Accord",
+    "generation": 9,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2013,
+    "production_end": 2017,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 185,
+    "power_output_hp_max": 278,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "honda-cr-v-g4",
+    "make": "Honda",
+    "model": "CR-V",
+    "generation": 4,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2012,
+    "production_end": 2016,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 118,
+    "power_output_hp_max": 185,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "honda-legend-g5",
+    "make": "Honda",
+    "model": "Legend",
+    "generation": 5,
+    "brands": [
+      "Honda",
+      "Acura"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2015,
+    "production_end": 2022,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 377,
+    "power_output_hp_max": 377,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "honda-n-box-g2",
+    "make": "Honda",
+    "model": "N-Box",
+    "generation": 2,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2017,
+    "production_end": 2023,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 57,
+    "power_output_hp_max": 63,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "honda-n-box-g3",
+    "make": "Honda",
+    "model": "N-Box",
+    "generation": 3,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 57,
+    "power_output_hp_max": 63,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "honda-prelude-g6",
+    "make": "Honda",
+    "model": "Prelude",
+    "generation": 6,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2025,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 200,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
     "id": "jeep-cj-6-g1",
     "make": "Jeep",
     "model": "CJ-6",
