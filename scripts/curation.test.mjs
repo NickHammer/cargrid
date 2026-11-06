@@ -368,3 +368,70 @@ test("category support counts nameplates, not records", () => {
   assert.equal(brandRow.nameplates, 1, "but one nameplate");
   assert.equal(brandRow.eligible, false, "so it does not clear a floor of 2");
 });
+
+/**
+ * One car must be one row in the dropdown.
+ *
+ * A guess is make + model, so two spellings of one model are two rows for the
+ * same car with nothing to choose between them. Found live once the dropdown
+ * collapsed to nameplates: Nissan "Silvia", "Silvia / 200SX" and
+ * "Silvia / 240SX" were three rows for one car, and Cadillac "De Ville" and
+ * "DeVille" differed only in a space. 16 clusters in all, none of them visible
+ * while the dropdown listed one row per generation.
+ *
+ * The slash form is the usual culprit, because it is how a car with two market
+ * names gets recorded ("Micra / March"). That is fine on its own — plenty of
+ * records keep it, like "Holden 48-215 / FJ" — and it is only a split when a
+ * sibling record of the same make uses one of those names by itself. Market
+ * names belong in `aliases`, which searchNameplates folds across a nameplate's
+ * generations, so "march" still finds the Micra.
+ *
+ * When the two really are different cars that collided on a name — the Fiat
+ * Ritmo hatchback against the Strada pickup, the 1963 Jeep Gladiator against
+ * the 2020 one — the fix is to rename one, not to merge them.
+ */
+test("one car is one nameplate: no make has two names for the same model", () => {
+  const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const parts = (n) => n.split("/").map((x) => norm(x.trim()));
+  const byMake = new Map();
+  for (const car of cars) {
+    if (!byMake.has(car.make)) byMake.set(car.make, new Set());
+    byMake.get(car.make).add(car.model);
+  }
+  const splits = [];
+  for (const [make, models] of byMake) {
+    const names = [...models];
+    for (let i = 0; i < names.length; i++) {
+      for (let j = i + 1; j < names.length; j++) {
+        const [a, b] = [names[i], names[j]];
+        if (norm(a) === norm(b)) {
+          splits.push(`${make}: "${a}" and "${b}" differ only in punctuation`);
+        } else if (parts(a).includes(norm(b)) || parts(b).includes(norm(a))) {
+          splits.push(`${make}: "${a}" and "${b}" — one is a slash variant of the other`);
+        }
+      }
+    }
+  }
+  assert.deepEqual(splits, [], "same car, two dropdown rows — unify the model name and move the other into aliases");
+});
+
+/**
+ * Generation numbers have to be unique inside a nameplate, or "Gen 1" names two
+ * different cars and `firstAnswering` picks between them on insertion order.
+ *
+ * This is the check that decided three of the renames above. Holden's
+ * 1971-1980 Statesman and its 1990-1999 Statesman/Caprice are both `g1`, and
+ * the 1963 and 2020 Jeep Gladiators are both `g1`, so merging those names —
+ * the obvious fix for a split — would have produced exactly this fault.
+ * They were renamed apart instead.
+ */
+test("generations are unique within a nameplate", () => {
+  const dupes = [];
+  for (const [key, list] of groupByNameplate(cars)) {
+    const gens = list.map((c) => c.generation);
+    if (new Set(gens).size !== gens.length) {
+      dupes.push(`${key}: ${[...gens].sort((a, b) => a - b).join(", ")}`);
+    }
+  }
+  assert.deepEqual(dupes, []);
+});

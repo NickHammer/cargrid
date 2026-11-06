@@ -5393,7 +5393,7 @@
   {
     "id": "cadillac-de-ville-g1",
     "make": "Cadillac",
-    "model": "De Ville",
+    "model": "DeVille",
     "generation": 1,
     "brands": [
       "Cadillac"
@@ -5427,12 +5427,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/cadillac-de-ville-g1.webp"
+    "image_url": "/cars/cadillac-de-ville-g1.webp",
+    "aliases": [
+      "De Ville"
+    ]
   },
   {
     "id": "cadillac-de-ville-g2",
     "make": "Cadillac",
-    "model": "De Ville",
+    "model": "DeVille",
     "generation": 2,
     "brands": [
       "Cadillac"
@@ -5466,12 +5469,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/cadillac-de-ville-g2.webp"
+    "image_url": "/cars/cadillac-de-ville-g2.webp",
+    "aliases": [
+      "De Ville"
+    ]
   },
   {
     "id": "cadillac-de-ville-g3",
     "make": "Cadillac",
-    "model": "De Ville",
+    "model": "DeVille",
     "generation": 3,
     "brands": [
       "Cadillac"
@@ -5506,12 +5512,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/cadillac-de-ville-g3.webp"
+    "image_url": "/cars/cadillac-de-ville-g3.webp",
+    "aliases": [
+      "De Ville"
+    ]
   },
   {
     "id": "cadillac-de-ville-g4",
     "make": "Cadillac",
-    "model": "De Ville",
+    "model": "DeVille",
     "generation": 4,
     "brands": [
       "Cadillac"
@@ -5546,12 +5555,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/cadillac-de-ville-g4.webp"
+    "image_url": "/cars/cadillac-de-ville-g4.webp",
+    "aliases": [
+      "De Ville"
+    ]
   },
   {
     "id": "cadillac-de-ville-g5",
     "make": "Cadillac",
-    "model": "De Ville",
+    "model": "DeVille",
     "generation": 5,
     "brands": [
       "Cadillac"
@@ -5585,7 +5597,10 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/cadillac-de-ville-g5.webp"
+    "image_url": "/cars/cadillac-de-ville-g5.webp",
+    "aliases": [
+      "De Ville"
+    ]
   },
   {
     "id": "cadillac-deville-g6",
@@ -5624,7 +5639,10 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/cadillac-deville-g6.webp"
+    "image_url": "/cars/cadillac-deville-g6.webp",
+    "aliases": [
+      "De Ville"
+    ]
   },
   {
     "id": "cadillac-deville-g7",
@@ -5662,7 +5680,10 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/cadillac-deville-g7.webp"
+    "image_url": "/cars/cadillac-deville-g7.webp",
+    "aliases": [
+      "De Ville"
+    ]
   },
   {
     "id": "cadillac-dts-g1",
@@ -8813,12 +8834,16 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/citroen-c4-picasso-g1.webp"
+    "image_url": "/cars/citroen-c4-picasso-g1.webp",
+    "aliases": [
+      "C4 SpaceTourer",
+      "SpaceTourer"
+    ]
   },
   {
     "id": "citroen-c4-picasso-spacetourer-g2",
     "make": "Citroën",
-    "model": "C4 Picasso / SpaceTourer",
+    "model": "C4 Picasso",
     "generation": 2,
     "brands": [
       "Citroën"
@@ -8856,7 +8881,11 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/citroen-c4-picasso-spacetourer-g2.webp"
+    "image_url": "/cars/citroen-c4-picasso-spacetourer-g2.webp",
+    "aliases": [
+      "C4 SpaceTourer",
+      "SpaceTourer"
+    ]
   },
   {
     "id": "citroen-c5-aircross-g1",
@@ -11640,7 +11669,7 @@
   {
     "id": "fiat-bravo-brava-g1",
     "make": "Fiat",
-    "model": "Bravo / Brava",
+    "model": "Bravo",
     "generation": 1,
     "brands": [
       "Fiat"
@@ -11677,7 +11706,10 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/fiat-bravo-brava-g1.webp"
+    "image_url": "/cars/fiat-bravo-brava-g1.webp",
+    "aliases": [
+      "Brava"
+    ]
   },
   {
     "id": "fiat-bravo-g2",
@@ -11719,7 +11751,10 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/fiat-bravo-g2.webp"
+    "image_url": "/cars/fiat-bravo-g2.webp",
+    "aliases": [
+      "Brava"
+    ]
   },
   {
     "id": "fiat-cinquecento-g1",
@@ -12274,7 +12309,7 @@
   {
     "id": "fiat-grande-punto-punto-g3",
     "make": "Fiat",
-    "model": "Grande Punto / Punto",
+    "model": "Punto",
     "generation": 3,
     "brands": [
       "Fiat"
@@ -12311,7 +12346,10 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/fiat-grande-punto-punto-g3.webp"
+    "image_url": "/cars/fiat-grande-punto-punto-g3.webp",
+    "aliases": [
+      "Grande Punto"
+    ]
   },
   {
     "id": "fiat-idea-g1",
@@ -12687,12 +12725,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/fiat-punto-g2.webp"
+    "image_url": "/cars/fiat-punto-g2.webp",
+    "aliases": [
+      "Grande Punto"
+    ]
   },
   {
     "id": "fiat-ritmo-strada-g1",
     "make": "Fiat",
-    "model": "Ritmo / Strada",
+    "model": "Ritmo",
     "generation": 1,
     "brands": [
       "Fiat"
@@ -12729,7 +12770,10 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/fiat-ritmo-strada-g1.webp"
+    "image_url": "/cars/fiat-ritmo-strada-g1.webp",
+    "aliases": [
+      "Strada"
+    ]
   },
   {
     "id": "fiat-sedici-g1",
@@ -15378,7 +15422,7 @@
   {
     "id": "holden-statesman-caprice-g1",
     "make": "Holden",
-    "model": "Statesman / Caprice",
+    "model": "Caprice",
     "generation": 1,
     "brands": [
       "Holden"
@@ -15413,12 +15457,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": false,
-    "image_url": "/cars/holden-statesman-caprice-g1.webp"
+    "image_url": "/cars/holden-statesman-caprice-g1.webp",
+    "aliases": [
+      "Statesman"
+    ]
   },
   {
     "id": "holden-statesman-caprice-g2",
     "make": "Holden",
-    "model": "Statesman / Caprice",
+    "model": "Caprice",
     "generation": 2,
     "brands": [
       "Holden"
@@ -15455,12 +15502,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": false,
-    "image_url": "/cars/holden-statesman-caprice-g2.webp"
+    "image_url": "/cars/holden-statesman-caprice-g2.webp",
+    "aliases": [
+      "Statesman"
+    ]
   },
   {
     "id": "holden-statesman-caprice-g3",
     "make": "Holden",
-    "model": "Statesman / Caprice",
+    "model": "Caprice",
     "generation": 3,
     "brands": [
       "Holden",
@@ -15497,7 +15547,10 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": false,
-    "image_url": "/cars/holden-statesman-caprice-g3.webp"
+    "image_url": "/cars/holden-statesman-caprice-g3.webp",
+    "aliases": [
+      "Statesman"
+    ]
   },
   {
     "id": "holden-statesman-g1",
@@ -20915,7 +20968,7 @@
   {
     "id": "jeep-gladiator-j-series-g1",
     "make": "Jeep",
-    "model": "Gladiator / J-Series",
+    "model": "J-Series",
     "generation": 1,
     "brands": [
       "Jeep"
@@ -20954,7 +21007,10 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/jeep-gladiator-j-series-g1.webp"
+    "image_url": "/cars/jeep-gladiator-j-series-g1.webp",
+    "aliases": [
+      "Gladiator"
+    ]
   },
   {
     "id": "jeep-grand-cherokee-g1",
@@ -26113,7 +26169,11 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/mitsubishi-asx-g2.webp"
+    "image_url": "/cars/mitsubishi-asx-g2.webp",
+    "aliases": [
+      "Outlander Sport",
+      "RVR"
+    ]
   },
   {
     "id": "mitsubishi-colt-g1",
@@ -26205,7 +26265,7 @@
   {
     "id": "mitsubishi-colt-galant-galant-g1",
     "make": "Mitsubishi",
-    "model": "Colt Galant / Galant",
+    "model": "Galant",
     "generation": 1,
     "brands": [
       "Mitsubishi"
@@ -27612,7 +27672,7 @@
   {
     "id": "mitsubishi-lancer-mirage-g4",
     "make": "Mitsubishi",
-    "model": "Lancer / Mirage",
+    "model": "Lancer",
     "generation": 4,
     "brands": [
       "Mitsubishi",
@@ -27658,7 +27718,7 @@
   {
     "id": "mitsubishi-lancer-mirage-g5",
     "make": "Mitsubishi",
-    "model": "Lancer / Mirage",
+    "model": "Lancer",
     "generation": 5,
     "brands": [
       "Mitsubishi",
@@ -27704,7 +27764,7 @@
   {
     "id": "mitsubishi-lancer-mirage-g6",
     "make": "Mitsubishi",
-    "model": "Lancer / Mirage",
+    "model": "Lancer",
     "generation": 6,
     "brands": [
       "Mitsubishi"
@@ -28008,7 +28068,7 @@
   {
     "id": "mitsubishi-outlander-sport-asx-rvr-g1",
     "make": "Mitsubishi",
-    "model": "Outlander Sport / ASX / RVR",
+    "model": "ASX",
     "generation": 1,
     "brands": [
       "Mitsubishi",
@@ -28048,7 +28108,11 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/mitsubishi-outlander-sport-asx-rvr-g1.webp"
+    "image_url": "/cars/mitsubishi-outlander-sport-asx-rvr-g1.webp",
+    "aliases": [
+      "Outlander Sport",
+      "RVR"
+    ]
   },
   {
     "id": "mitsubishi-pajero-g2",
@@ -28091,7 +28155,11 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/mitsubishi-pajero-g2.webp"
+    "image_url": "/cars/mitsubishi-pajero-g2.webp",
+    "aliases": [
+      "Montero",
+      "Shogun"
+    ]
   },
   {
     "id": "mitsubishi-pajero-io-pinin-g1",
@@ -28137,7 +28205,7 @@
   {
     "id": "mitsubishi-pajero-montero-g1",
     "make": "Mitsubishi",
-    "model": "Pajero / Montero",
+    "model": "Pajero",
     "generation": 1,
     "brands": [
       "Mitsubishi",
@@ -28176,12 +28244,16 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/mitsubishi-pajero-montero-g1.webp"
+    "image_url": "/cars/mitsubishi-pajero-montero-g1.webp",
+    "aliases": [
+      "Montero",
+      "Shogun"
+    ]
   },
   {
     "id": "mitsubishi-pajero-montero-g3",
     "make": "Mitsubishi",
-    "model": "Pajero / Montero",
+    "model": "Pajero",
     "generation": 3,
     "brands": [
       "Mitsubishi"
@@ -28219,12 +28291,16 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/mitsubishi-pajero-montero-g3.webp"
+    "image_url": "/cars/mitsubishi-pajero-montero-g3.webp",
+    "aliases": [
+      "Montero",
+      "Shogun"
+    ]
   },
   {
     "id": "mitsubishi-pajero-montero-g4",
     "make": "Mitsubishi",
-    "model": "Pajero / Montero",
+    "model": "Pajero",
     "generation": 4,
     "brands": [
       "Mitsubishi"
@@ -28263,7 +28339,11 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/mitsubishi-pajero-montero-g4.webp"
+    "image_url": "/cars/mitsubishi-pajero-montero-g4.webp",
+    "aliases": [
+      "Montero",
+      "Shogun"
+    ]
   },
   {
     "id": "mitsubishi-pajero-sport-montero-sport-g1",
@@ -30512,12 +30592,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/nissan-micra-g5.webp"
+    "image_url": "/cars/nissan-micra-g5.webp",
+    "aliases": [
+      "March"
+    ]
   },
   {
     "id": "nissan-micra-march-g1",
     "make": "Nissan",
-    "model": "Micra / March",
+    "model": "Micra",
     "generation": 1,
     "brands": [
       "Nissan"
@@ -30554,12 +30637,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/nissan-micra-march-g1.webp"
+    "image_url": "/cars/nissan-micra-march-g1.webp",
+    "aliases": [
+      "March"
+    ]
   },
   {
     "id": "nissan-micra-march-g2",
     "make": "Nissan",
-    "model": "Micra / March",
+    "model": "Micra",
     "generation": 2,
     "brands": [
       "Nissan"
@@ -30596,12 +30682,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/nissan-micra-march-g2.webp"
+    "image_url": "/cars/nissan-micra-march-g2.webp",
+    "aliases": [
+      "March"
+    ]
   },
   {
     "id": "nissan-micra-march-g3",
     "make": "Nissan",
-    "model": "Micra / March",
+    "model": "Micra",
     "generation": 3,
     "brands": [
       "Nissan"
@@ -30638,12 +30727,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/nissan-micra-march-g3.webp"
+    "image_url": "/cars/nissan-micra-march-g3.webp",
+    "aliases": [
+      "March"
+    ]
   },
   {
     "id": "nissan-micra-march-g4",
     "make": "Nissan",
-    "model": "Micra / March",
+    "model": "Micra",
     "generation": 4,
     "brands": [
       "Nissan"
@@ -30680,7 +30772,10 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/nissan-micra-march-g4.webp"
+    "image_url": "/cars/nissan-micra-march-g4.webp",
+    "aliases": [
+      "March"
+    ]
   },
   {
     "id": "nissan-murano-g1",
@@ -31817,12 +31912,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/nissan-qashqai-g3.webp"
+    "image_url": "/cars/nissan-qashqai-g3.webp",
+    "aliases": [
+      "Rogue Sport"
+    ]
   },
   {
     "id": "nissan-qashqai-rogue-sport-g1",
     "make": "Nissan",
-    "model": "Qashqai / Rogue Sport",
+    "model": "Qashqai",
     "generation": 1,
     "brands": [
       "Nissan"
@@ -31860,12 +31958,15 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/nissan-qashqai-rogue-sport-g1.webp"
+    "image_url": "/cars/nissan-qashqai-rogue-sport-g1.webp",
+    "aliases": [
+      "Rogue Sport"
+    ]
   },
   {
     "id": "nissan-qashqai-rogue-sport-g2",
     "make": "Nissan",
-    "model": "Qashqai / Rogue Sport",
+    "model": "Qashqai",
     "generation": 2,
     "brands": [
       "Nissan"
@@ -31903,7 +32004,10 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/nissan-qashqai-rogue-sport-g2.webp"
+    "image_url": "/cars/nissan-qashqai-rogue-sport-g2.webp",
+    "aliases": [
+      "Rogue Sport"
+    ]
   },
   {
     "id": "nissan-quest-g1",
@@ -32582,7 +32686,7 @@
   {
     "id": "nissan-silvia-200sx-g4",
     "make": "Nissan",
-    "model": "Silvia / 200SX",
+    "model": "Silvia",
     "generation": 4,
     "brands": [
       "Nissan"
@@ -32618,12 +32722,16 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/nissan-silvia-200sx-g4.webp"
+    "image_url": "/cars/nissan-silvia-200sx-g4.webp",
+    "aliases": [
+      "200SX",
+      "240SX"
+    ]
   },
   {
     "id": "nissan-silvia-240sx-g5",
     "make": "Nissan",
-    "model": "Silvia / 240SX",
+    "model": "Silvia",
     "generation": 5,
     "brands": [
       "Nissan"
@@ -32659,12 +32767,16 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/nissan-silvia-240sx-g5.webp"
+    "image_url": "/cars/nissan-silvia-240sx-g5.webp",
+    "aliases": [
+      "240SX",
+      "200SX"
+    ]
   },
   {
     "id": "nissan-silvia-240sx-g6",
     "make": "Nissan",
-    "model": "Silvia / 240SX",
+    "model": "Silvia",
     "generation": 6,
     "brands": [
       "Nissan"
@@ -32699,7 +32811,11 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/nissan-silvia-240sx-g6.webp"
+    "image_url": "/cars/nissan-silvia-240sx-g6.webp",
+    "aliases": [
+      "240SX",
+      "200SX"
+    ]
   },
   {
     "id": "nissan-silvia-g7",
@@ -32740,7 +32856,11 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/nissan-silvia-g7.webp"
+    "image_url": "/cars/nissan-silvia-g7.webp",
+    "aliases": [
+      "200SX",
+      "240SX"
+    ]
   },
   {
     "id": "nissan-skyline-g1",
@@ -43791,7 +43911,7 @@
   {
     "id": "volvo-s40-v40-g1",
     "make": "Volvo",
-    "model": "S40 / V40",
+    "model": "S40",
     "generation": 1,
     "brands": [
       "Volvo"
@@ -43828,7 +43948,10 @@
     "pop_culture": null,
     "price_at_launch_usd": null,
     "manufacturer_still_active": true,
-    "image_url": "/cars/volvo-s40-v40-g1.webp"
+    "image_url": "/cars/volvo-s40-v40-g1.webp",
+    "aliases": [
+      "V40"
+    ]
   },
   {
     "id": "volvo-s60-g1",
