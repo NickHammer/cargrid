@@ -127,6 +127,34 @@ export function firstAnswering(cars, rowParam, colParam) {
 }
 
 /**
+ * How well a nameplate matches a query, highest first.
+ *
+ * Ranking is needed because the result list is capped, and taking matches in
+ * catalog order buried cars under their own variants: typing the exact words
+ * "Mitsubishi Lancer" put the Lancer ninth, below seven Lancer Evolutions and
+ * a Lancer EX, because every one of those contains "lancer". Short names had
+ * it worse — "ES", "CT" and "RX" are substrings of dozens of unrelated names.
+ *
+ * 4 the car actually called this · 3 a name starting with it · 2 a whole-word
+ * match, which is what makes an alias like "march" beat an incidental
+ * substring · 1 anything else containing it.
+ *
+ * @param {string} key   `${make} ${model}`
+ * @param {string} model
+ * @param {string} text  the full searchable text, aliases folded in
+ * @param {string} q     the query, already lowercased and trimmed
+ * @returns {number}
+ */
+export function matchRank(key, model, text, q) {
+  const k = key.toLowerCase();
+  const m = model.toLowerCase();
+  if (k === q || m === q) return 4;
+  if (k.startsWith(q) || m.startsWith(q)) return 3;
+  if (text.includes(` ${q}`)) return 2;
+  return 1;
+}
+
+/**
  * Distinct nameplates among a set of records — how many different answers a
  * player could type for a square.
  *

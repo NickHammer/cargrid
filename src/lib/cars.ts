@@ -1,5 +1,5 @@
 import type { Car, Nameplate } from "./types";
-import { groupByNameplate } from "./nameplates.mjs";
+import { groupByNameplate, matchRank } from "./nameplates.mjs";
 // The import attribute is required by Node, which the Next build also accepts.
 // Without it this module can only be loaded by the bundler, and the search the
 // whole dropdown depends on cannot be exercised by a test.
@@ -49,18 +49,30 @@ const MAX_RESULTS = 10;
  * `exclude` holds the nameplates already on the board, and is applied *before*
  * the cap for the same reason: filtering afterwards would let up to nine used
  * answers eat nine of the ten slots.
+ *
+ * Results are ranked rather than taken in catalog order, because a nameplate
+ * could otherwise be buried under its own variants: typing the exact words
+ * "Mitsubishi Lancer" put the Lancer ninth, below seven Lancer Evolutions and
+ * a Lancer EX. Short model names had it worse — "ES", "CT", "Z" and "3" are
+ * substrings of dozens of other names, so the car actually called that did not
+ * make the ten at all.
  */
 export function searchNameplates(query: string, exclude?: ReadonlySet<string>): Nameplate[] {
   const q = query.toLowerCase().trim();
   if (q.length < 2) return [];
-  const out: Nameplate[] = [];
-  for (const entry of searchIndex) {
-    if (!entry.text.includes(q)) continue;
-    if (exclude?.has(entry.np.key)) continue;
-    out.push(entry.np);
-    if (out.length === MAX_RESULTS) break;
-  }
-  return out;
+  const hits: { np: Nameplate; rank: number; order: number }[] = [];
+  searchIndex.forEach((entry, order) => {
+    if (!entry.text.includes(q)) return;
+    if (exclude?.has(entry.np.key)) return;
+    hits.push({
+      np: entry.np,
+      rank: matchRank(entry.np.key, entry.np.model, entry.text, q),
+      order,
+    });
+  });
+  // Ties keep catalog order, so the list is stable between keystrokes.
+  hits.sort((a, b) => b.rank - a.rank || a.order - b.order);
+  return hits.slice(0, MAX_RESULTS).map((hit) => hit.np);
 }
 
 export function getCarById(id: string): Car | undefined {

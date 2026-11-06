@@ -10,6 +10,7 @@ import {
   firstAnswering,
   hasDistinctSolution,
   countNameplates,
+  matchRank,
 } from "./grid-params.mjs";
 import { prepareBatch, validateCar, coverage, validateSchedule } from "./lib/curation.mjs";
 import { reviewImageLicense } from "./lib/image-license.mjs";
@@ -434,4 +435,40 @@ test("generations are unique within a nameplate", () => {
     }
   }
   assert.deepEqual(dupes, []);
+});
+
+/**
+ * The autocomplete caps its list, so an exact name has to outrank an
+ * incidental substring or the cap hides the car the player asked for.
+ *
+ * Measured before this existed: typing the exact words "Mitsubishi Lancer"
+ * ranked the Lancer **ninth**, under seven Lancer Evolutions and a Lancer EX,
+ * because matches were taken in catalog order. Twelve nameplates were below
+ * rank 3 for their own name; now none are.
+ */
+test("an exact nameplate name outranks a name that merely contains it", () => {
+  const text = (key, aliases = []) =>
+    [key, ...aliases].flatMap((n) => [n, n.replace(/\s+/g, "")]).join(" ").toLowerCase();
+
+  const lancer = matchRank("Mitsubishi Lancer", "Lancer", text("Mitsubishi Lancer"), "lancer");
+  const evo = matchRank(
+    "Mitsubishi Lancer Evolution X",
+    "Lancer Evolution X",
+    text("Mitsubishi Lancer Evolution X"),
+    "lancer",
+  );
+  assert.ok(lancer > evo, `exact "Lancer" (${lancer}) must beat "Lancer Evolution X" (${evo})`);
+
+  // A short model name is a substring of plenty of unrelated ones; the car
+  // actually called ES still has to come first.
+  const es = matchRank("Lexus ES", "ES", text("Lexus ES"), "es");
+  const other = matchRank("Mercedes-Benz E-Class", "E-Class", text("Mercedes-Benz E-Class"), "es");
+  assert.ok(es > other, `exact "ES" (${es}) must beat an incidental match (${other})`);
+
+  // An alias is a whole word in the search text, so it beats a stray substring
+  // but does not beat the car genuinely named that.
+  const qashqai = matchRank("Nissan Qashqai", "Qashqai", text("Nissan Qashqai", ["Rogue Sport"]), "rogue");
+  const rogue = matchRank("Nissan Rogue", "Rogue", text("Nissan Rogue"), "rogue");
+  assert.ok(rogue > qashqai, "the car called Rogue outranks the one aliased Rogue Sport");
+  assert.ok(qashqai > 1, "an alias match still beats a bare substring");
 });
