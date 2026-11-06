@@ -52,7 +52,15 @@
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { fileURLToPath, pathToFileURL } from "url";
 import { dirname, join } from "path";
-import { MATCH, VALUES, TIER, IDENTITY_TYPES, labelFor } from "./grid-params.mjs";
+import {
+  MATCH,
+  VALUES,
+  TIER,
+  IDENTITY_TYPES,
+  labelFor,
+  nameplateKey,
+  hasDistinctSolution,
+} from "./grid-params.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const carsPath = join(__dirname, "../data/cars.json");
@@ -64,8 +72,8 @@ const gridsPath = join(__dirname, "../data/grids.json");
 // ---------------------------------------------------------------------------
 
 const CONFIG = {
-  minSupport: 8,     // a category needs this many cars to be eligible
-  minCell: 3,        // every square needs this many valid answers
+  minSupport: 8,     // distinct nameplates a category needs to be eligible
+  minCell: 3,        // distinct nameplates every square needs as answers
   maxSameType: 2,    // same category type per axis
   maxTier3: 1,       // "use sparingly" categories per grid
   maxTwinOverlap: 0.8, // two categories on one axis may share at most this much
@@ -184,17 +192,27 @@ const toParam = (p) => ({ type: p.type, value: p.value, label: labelFor(p.type, 
 function buildPool(cars, minSupport) {
   const pool = [];
   for (const type of Object.keys(VALUES)) {
-    const counts = new Map();
+    // Support is counted in distinct NAMEPLATES, not records, because a guess
+    // is Make + Model: a category backed by eight generations of two
+    // nameplates offers a player two answers, not eight. Exactly one category
+    // changes hands under this rule — brand:Infiniti, 13 records but 7
+    // nameplates, because every Infiniti here is a rebadged Nissan sharing its
+    // nameplate — and it drops out, which is right for a brand with seven
+    // possible answers in total.
+    const plates = new Map();
     for (const car of cars) {
-      for (const value of VALUES[type](car)) {
-        counts.set(value, (counts.get(value) ?? 0) + 1);
+      const plate = nameplateKey(car);
+      for (const value of new Set(VALUES[type](car))) {
+        let set = plates.get(value);
+        if (!set) plates.set(value, (set = new Set()));
+        set.add(plate);
       }
     }
     // A type with fewer than two eligible values cannot discriminate between
     // cars (e.g. "Brand still active" when almost everything qualifies).
-    const eligible = [...counts].filter(([, n]) => n >= minSupport);
+    const eligible = [...plates].filter(([, set]) => set.size >= minSupport);
     if (eligible.length < 2) continue;
-    for (const [value, support] of eligible) pool.push({ type, value, support });
+    for (const [value, set] of eligible) pool.push({ type, value, support: set.size });
   }
   return pool;
 }
@@ -252,11 +270,63 @@ function buildWorld(cars, config) {
     for (let w = 0; w < words; w++) n += popcount(bits[a][w] & bits[b][w]);
     return n;
   };
-  // A square is workable when it has enough answers AND neither category
+  // Which nameplate each car belongs to, as an index, so a square's distinct
+  // answers can be counted without building a Set of strings for every pair.
+  const plateIx = new Map();
+  const plateOf = cars.map((car) => {
+    const key = nameplateKey(car);
+    let ix = plateIx.get(key);
+    if (ix === undefined) plateIx.set(key, (ix = plateIx.size));
+    return ix;
+  });
+  // Shared scratch, stamped with a counter instead of being cleared — clearing
+  // would cost O(nameplates) on every one of the ~4,700 pair comparisons.
+  const stamp = new Int32Array(plateIx.size);
+  let stampGen = 0;
+
+  /**
+   * Walks the car bitmask intersection and visits each distinct nameplate in it
+   * once. The intersection itself is unchanged and still a few AND operations;
+   * only the set bits are then mapped to nameplates.
+   */
+  const eachPlate = (a, b, visit) => {
+    stampGen++;
+    for (let w = 0; w < words; w++) {
+      let word = bits[a][w] & bits[b][w];
+      while (word) {
+        const lsb = word & -word;
+        const plate = plateOf[(w << 5) + (31 - Math.clz32(lsb))];
+        if (stamp[plate] !== stampGen) {
+          stamp[plate] = stampGen;
+          visit(plate);
+        }
+        word ^= lsb;
+      }
+    }
+  };
+
+  /** Distinct nameplates answering the square where a and b cross. */
+  const cellPlates = (a, b) => {
+    let n = 0;
+    eachPlate(a, b, () => n++);
+    return n;
+  };
+
+  // A square is workable when it offers enough answers AND neither category
   // implies the other — "every Audi is German" is a freebie, not a puzzle.
+  //
+  // "Enough answers" counts distinct NAMEPLATES, because a guess is Make +
+  // Model and that is what a player can type. Seven squares in the schedule
+  // held three or more records that collapsed to fewer than three nameplates,
+  // and 2026-11-22's Diesel x Honda Motor held five records that were all
+  // Honda Civic — a square whose only answer was "Honda Civic".
+  //
+  // The implication test stays on record counts on purpose: it asks whether
+  // every car in one category also sits in the other, which is a fact about
+  // records and still true however answers are counted.
   const works = (a, b) => {
     const s = cellSize(a, b);
-    return s >= config.minCell && s !== size[a] && s !== size[b];
+    return cellPlates(a, b) >= config.minCell && s !== size[a] && s !== size[b];
   };
 
   const identityIx = [];
@@ -278,16 +348,22 @@ function buildWorld(cars, config) {
     cars, config, pool, bits, size, words, compat, identityIx, attributeIx,
     comparisons, cellSize,
     widest: Math.max(...pool.map((p) => p.support), 1),
-    /** Car indices in the square where categories a and b cross. */
+    /**
+     * The distinct nameplates answering the square where categories a and b
+     * cross, as nameplate indices.
+     *
+     * Nameplates rather than cars, which is what makes both the
+     * perfect-matching check and the fairness score in `scoreOf` count what a
+     * player can actually type. A nameplate is used up whole when it is
+     * guessed, so two generations of one car cannot fill two cells, and a
+     * square offering five Civics offers one answer.
+     */
     members(a, b) {
       const out = [];
-      for (let w = 0; w < words; w++) {
-        const m = bits[a][w] & bits[b][w];
-        if (!m) continue;
-        for (let bit = 0; bit < 32; bit++) if (m & (1 << bit)) out.push(w * 32 + bit);
-      }
+      eachPlate(a, b, (plate) => out.push(plate));
       return out;
     },
+    cellPlates,
     /** Does every car in a also sit in b? Used to penalise flat axes. */
     contains(a, b) {
       for (let w = 0; w < words; w++) if (bits[a][w] & ~bits[b][w]) return false;
@@ -326,32 +402,12 @@ function buildWorld(cars, config) {
   return world;
 }
 
-/**
- * Can 9 *distinct* cars fill the 9 squares? Per-square counts are not enough on
- * their own — the autocomplete bars reusing a car, so a grid where every square
- * is individually fillable can still be impossible to complete. Kuhn's
- * augmenting-path matching over the bipartite square/car graph.
- *
- * This is the only validity check left: the compatibility table already
- * guarantees every square has enough answers.
- */
-function hasPerfectMatching(cells) {
-  const assignedTo = new Map(); // car index -> cell index
-  const augment = (cell, seen) => {
-    for (const carIx of cells[cell]) {
-      if (seen.has(carIx)) continue;
-      seen.add(carIx);
-      const holder = assignedTo.get(carIx);
-      if (holder === undefined || augment(holder, seen)) {
-        assignedTo.set(carIx, cell);
-        return true;
-      }
-    }
-    return false;
-  };
-  for (let i = 0; i < cells.length; i++) if (!augment(i, new Set())) return false;
-  return true;
-}
+// Can 9 *distinct* nameplates fill the 9 squares? `hasDistinctSolution` lives in
+// src/lib/nameplates.mjs, shared with both validators — three copies of this
+// matching used to exist, and a generator that disagrees with its validator
+// builds schedules that fail their own check. It is the only validity check
+// left here: the compatibility table already guarantees every square has enough
+// answers, and `world.members` hands it nameplates rather than cars.
 
 // ---------------------------------------------------------------------------
 // Building grids around a featured category
@@ -462,7 +518,7 @@ function build(world, featured, rng, want) {
           for (const r of identityTrio) {
             for (const c of attributeTrio) cells.push(world.members(r, c));
           }
-          if (!hasPerfectMatching(cells)) continue;
+          if (!hasDistinctSolution(cells)) continue;
 
           found.push({ identityTrio, attributeTrio, cells });
           takenHere++;
@@ -629,7 +685,8 @@ function printGapReport(cars) {
     reachable: world.reachable.includes(i),
   }));
   console.log(
-    `${cars.length} cars, ${world.pool.length} eligible categories, ` +
+    `${cars.length} cars (${new Set(cars.map(nameplateKey)).size} nameplates), ` +
+      `${world.pool.length} eligible categories, ` +
       `${world.comparisons} pair comparisons.`
   );
   console.log(`Reachable: ${world.reachable.length}/${world.pool.length}\n`);
@@ -639,7 +696,7 @@ function printGapReport(cars) {
     console.log("UNREACHABLE — cannot appear in any grid (needs 3 workable partners):");
     for (const r of dead) {
       console.log(
-        `  ${r.value.padEnd(34)} ${String(r.support).padStart(4)} cars  ` +
+        `  ${r.value.padEnd(34)} ${String(r.support).padStart(4)} plates  ` +
           `${r.partners} partner(s) — short by ${Math.max(0, 3 - r.partners)}`
       );
     }
@@ -652,7 +709,7 @@ function printGapReport(cars) {
     console.log("THIN — reachable but fragile; losing a partner would kill these:");
     for (const r of thin) {
       console.log(
-        `  ${r.value.padEnd(34)} ${String(r.support).padStart(4)} cars  ${r.partners} partners`
+        `  ${r.value.padEnd(34)} ${String(r.support).padStart(4)} plates ${r.partners} partners`
       );
     }
   }

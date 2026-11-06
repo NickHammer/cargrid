@@ -1,48 +1,82 @@
-import type { Car } from "./types";
-import carsData from "../../data/cars.json";
+import type { Car, Nameplate } from "./types";
+import { groupByNameplate } from "./nameplates.mjs";
+// The import attribute is required by Node, which the Next build also accepts.
+// Without it this module can only be loaded by the bundler, and the search the
+// whole dropdown depends on cannot be exercised by a test.
+import carsData from "../../data/cars.json" with { type: "json" };
 
 export const allCars: Car[] = carsData as Car[];
 
-export function searchCars(query: string): Car[] {
-  const q = query.toLowerCase().trim();
-  if (q.length < 2) return [];
-  return allCars
-    .filter((car) => searchText(car).includes(q))
-    .slice(0, 10);
-}
+/**
+ * Every nameplate in the game, ordered as cars.json is and each one's
+ * generations ordered within it. Built once at module load: the old
+ * per-keystroke search rebuilt a match string for all 1,000 records on every
+ * character typed.
+ */
+export const allNameplates: Nameplate[] = [...groupByNameplate(allCars)].map(
+  ([key, cars]) => ({ key, make: cars[0].make, model: cars[0].model, cars }),
+);
 
 /**
- * Everything a query may match against. Aliases are folded in so common names
- * ("Miata", "Mazda3", "Bug") find the car, and a space-stripped copy is
+ * Everything a query may match against, folded across the whole nameplate.
+ * Aliases are included so common names ("Miata", "Mazda3", "Bug") find the car
+ * even when only one generation carries the alias, and a space-stripped copy is
  * appended so "mazda3" matches a model stored as "3".
  */
-function searchText(car: Car): string {
-  const names = [`${car.make} ${car.model}`, ...(car.aliases ?? [])];
+function searchText(np: Nameplate): string {
+  const names = [np.key, ...np.cars.flatMap((car) => car.aliases ?? [])];
   return [...names, ...names.map((n) => n.replace(/\s+/g, ""))].join(" ").toLowerCase();
+}
+
+const searchIndex: { np: Nameplate; text: string }[] = allNameplates.map((np) => ({
+  np,
+  text: searchText(np),
+}));
+
+const MAX_RESULTS = 10;
+
+/**
+ * Up to ten nameplates matching the query — one row per make+model, never one
+ * per generation.
+ *
+ * The de-duplication is the point, not a tidy-up. While results were records,
+ * the cap was applied *after* filtering, so a nameplate with more generations
+ * than the cap swallowed the whole list: typing "civic" returned ten Honda
+ * Civics and typing "skyline" ten Nissan Skylines, pushing every other match
+ * out of the dropdown. That got worse with every generation added, and 2,664
+ * records are still staged.
+ *
+ * `exclude` holds the nameplates already on the board, and is applied *before*
+ * the cap for the same reason: filtering afterwards would let up to nine used
+ * answers eat nine of the ten slots.
+ */
+export function searchNameplates(query: string, exclude?: ReadonlySet<string>): Nameplate[] {
+  const q = query.toLowerCase().trim();
+  if (q.length < 2) return [];
+  const out: Nameplate[] = [];
+  for (const entry of searchIndex) {
+    if (!entry.text.includes(q)) continue;
+    if (exclude?.has(entry.np.key)) continue;
+    out.push(entry.np);
+    if (out.length === MAX_RESULTS) break;
+  }
+  return out;
 }
 
 export function getCarById(id: string): Car | undefined {
   return allCars.find((car) => car.id === id);
 }
 
-// Nameplates with more than one generation in the dataset — computed once so
-// carDisplayLabel doesn't re-scan allCars on every keystroke/render.
-const multiGenNameplates = new Set<string>(
-  (() => {
-    const counts = new Map<string, number>();
-    for (const car of allCars) {
-      const key = `${car.make} ${car.model}`;
-      counts.set(key, (counts.get(key) ?? 0) + 1);
-    }
-    return [...counts.entries()].filter(([, count]) => count > 1).map(([key]) => key);
-  })()
-);
-
-// Deliberately excludes production years — Decade is a live grid parameter,
-// and showing the year span would let a player read the answer off the
-// dropdown instead of knowing the car. Only disambiguate generation when the
-// nameplate actually needs it (e.g. Toyota Supra has five).
-export function carDisplayLabel(car: Car): string {
-  const base = `${car.make} ${car.model}`;
-  return multiGenNameplates.has(base) ? `${base} (Gen ${car.generation})` : base;
+/**
+ * What the player sees in the dropdown: make and model, nothing else.
+ *
+ * No production years, because Decade is a live grid parameter and printing the
+ * span would hand over the answer. No generation number either — that was the
+ * previous compromise and it was worse than both alternatives, because it asked
+ * the player to choose between eleven identical-looking Civics with nothing to
+ * choose on. A guess is Make + Model, so the label is Make + Model, and
+ * `resolveAnswer` works out which generation was meant.
+ */
+export function nameplateLabel(np: Nameplate): string {
+  return np.key;
 }

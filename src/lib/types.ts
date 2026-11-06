@@ -4,7 +4,7 @@ export interface Car {
   model: string;
   /**
    * Other names players genuinely type for this car — a US player searches
-   * "Miata", not "MX-5". Matched by searchCars but never displayed, so the
+   * "Miata", not "MX-5". Matched by searchNameplates but never displayed, so the
    * answer label stays canonical.
    */
   aliases?: string[];
@@ -30,6 +30,19 @@ export interface Car {
   /** Reviewed launch variants only; unknown facts stay absent. */
   engine_position?: "Front-engine" | "Mid-engine" | "Rear-engine";
   powertrains?: Powertrain[];
+}
+
+/**
+ * A make + model and every generation of it in the catalog — what a player
+ * guesses, and what the autocomplete lists. Built by `groupByNameplate`;
+ * `cars` is ordered by generation.
+ */
+export interface Nameplate {
+  /** `${make} ${model}` — also the display label and the reuse key. */
+  key: string;
+  make: string;
+  model: string;
+  cars: Car[];
 }
 
 export interface Powertrain {

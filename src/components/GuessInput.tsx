@@ -1,21 +1,22 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { searchCars, carDisplayLabel } from "@/lib/cars";
-import type { Car } from "@/lib/types";
+import { searchNameplates, nameplateLabel } from "@/lib/cars";
+import type { Nameplate } from "@/lib/types";
 
 interface Props {
-  onSelect: (car: Car) => void;
-  usedCarIds: Set<string>;
+  onSelect: (nameplate: Nameplate) => void;
+  /** Nameplate keys already on the board — a nameplate is used up whole. */
+  usedNameplates: ReadonlySet<string>;
 }
 
-export default function GuessInput({ onSelect, usedCarIds }: Props) {
+export default function GuessInput({ onSelect, usedNameplates }: Props) {
   const [query, setQuery] = useState("");
   const [highlighted, setHighlighted] = useState(0);
 
   const results = useMemo(
-    () => searchCars(query).filter((c) => !usedCarIds.has(c.id)),
-    [query, usedCarIds]
+    () => searchNameplates(query, usedNameplates),
+    [query, usedNameplates]
   );
 
   // A stale index can outlive the list it pointed into — clamp at use.
@@ -49,17 +50,17 @@ export default function GuessInput({ onSelect, usedCarIds }: Props) {
       />
       {results.length > 0 && (
         <ul className="absolute z-10 mt-1 w-full overflow-hidden rounded-lg border border-gray-600 bg-gray-900 shadow-xl">
-          {results.map((car, i) => (
+          {results.map((np, i) => (
             <li
-              key={car.id}
-              onClick={() => onSelect(car)}
+              key={np.key}
+              onClick={() => onSelect(np)}
               className={`cursor-pointer px-4 py-2.5 text-sm transition-colors ${
                 i === activeIndex
                   ? "bg-amber-500 text-gray-950"
                   : "text-gray-200 hover:bg-gray-700"
               }`}
             >
-              {carDisplayLabel(car)}
+              {nameplateLabel(np)}
             </li>
           ))}
         </ul>

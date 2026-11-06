@@ -12,7 +12,8 @@ import { track } from "@/lib/analytics";
  * real logic rather than written from memory — the guess budget comes from
  * MAX_GUESSES, "a wrong guess still costs one" is true because `handleGuess`
  * increments `guessesUsed` either way, and "one car per grid" is enforced by
- * `isCarAlreadyUsed`.
+ * `usedNameplateKeys`, which keys on make + model so every generation of a car
+ * leaves the board together.
  */
 
 const RULES: { title: string; body: string }[] = [
@@ -26,15 +27,20 @@ const RULES: { title: string; body: string }[] = [
   },
   {
     title: "Each car can only be used once",
-    body: "Cars already on the board drop out of the list.",
+    body: "Cars already on the board drop out of the list — including their other generations.",
   },
   {
     // Deliberately does NOT promise nicknames. Only 8 of 528 cars carry an
     // alias and most are spelling variants ("Mazda3", "CX5", "VW Golf"), so
     // advertising them would send players hunting for "Vette" and finding
     // nothing.
+    // This used to end "where a nameplate has several generations, pick the
+    // one you mean", which was the opposite of enough: with years withheld the
+    // list offered eleven identical "Honda Civic (Gen N)" rows and marked
+    // eight of them wrong. A guess now names the car, and the game works out
+    // which generation answers the square.
     title: "Make and model is enough",
-    body: "No year or trim. Where a nameplate has several generations, pick the one you mean.",
+    body: "No year, trim or generation. Any version of the car that fits both categories counts.",
   },
   {
     title: "A new grid every day",

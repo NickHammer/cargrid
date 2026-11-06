@@ -1,6 +1,6 @@
 import { isDeepStrictEqual } from "node:util";
 import { deriveDecades, derivePowerRanges } from "../derive-fields.mjs";
-import { MATCH, VALUES, IDENTITY_TYPES } from "../grid-params.mjs";
+import { MATCH, VALUES, IDENTITY_TYPES, nameplateKey, hasDistinctSolution } from "../grid-params.mjs";
 import { canonicalMakeName } from "../make-names.mjs";
 
 export const CAR_CLASSES = ["Muscle Car", "Sports Car", "Supercar", "Hypercar", "Hot Hatch", "SUV", "Off-Road", "Pickup Truck", "Sedan", "Coupe", "Hatchback", "Wagon", "Minivan", "Van"];
@@ -117,12 +117,27 @@ export function prepareBatch(cars, batch, history = []) {
   return { cars: updated, provenance, added, enriched, skipped: batch.records.length - approved.length };
 }
 
+/**
+ * Eligibility and square size are measured in distinct NAMEPLATES, mirroring
+ * the generator: a guess is Make + Model, so eight generations of two
+ * nameplates offer a player two answers, not eight. `count` is kept as the
+ * record count because the "is one category wholly inside the other" test is a
+ * fact about records and stays true however answers are counted.
+ */
 export function coverage(cars, minSupport = 8, minCell = 3) {
   const parameters = [];
   for (const [type, values] of Object.entries(VALUES)) {
     const counts = new Map();
-    for (const car of cars) for (const value of new Set(values(car))) counts.set(value, (counts.get(value) ?? 0) + 1);
-    for (const [value, count] of counts) parameters.push({ type, value, count, eligible: count >= minSupport, needed: Math.max(0, minSupport - count) });
+    const plates = new Map();
+    for (const car of cars) for (const value of new Set(values(car))) {
+      counts.set(value, (counts.get(value) ?? 0) + 1);
+      if (!plates.has(value)) plates.set(value, new Set());
+      plates.get(value).add(nameplateKey(car));
+    }
+    for (const [value, count] of counts) {
+      const nameplates = plates.get(value).size;
+      parameters.push({ type, value, count, nameplates, eligible: nameplates >= minSupport, needed: Math.max(0, minSupport - nameplates) });
+    }
   }
   const eligibleTypeCounts = new Map();
   for (const p of parameters.filter((p) => p.eligible)) eligibleTypeCounts.set(p.type, (eligibleTypeCounts.get(p.type) ?? 0) + 1);
@@ -131,8 +146,10 @@ export function coverage(cars, minSupport = 8, minCell = 3) {
   const intersections = [];
   for (const a of eligible.filter((p) => IDENTITY_TYPES.has(p.type))) {
     for (const b of eligible.filter((p) => !IDENTITY_TYPES.has(p.type))) {
-      const count = cars.filter((c) => MATCH[a.type](c, a.value) && MATCH[b.type](c, b.value)).length;
-      intersections.push({ identity: `${a.type}:${a.value}`, attribute: `${b.type}:${b.value}`, count, playable: count >= minCell && count < a.count && count < b.count });
+      const members = cars.filter((c) => MATCH[a.type](c, a.value) && MATCH[b.type](c, b.value));
+      const count = members.length;
+      const nameplates = new Set(members.map(nameplateKey)).size;
+      intersections.push({ identity: `${a.type}:${a.value}`, attribute: `${b.type}:${b.value}`, count, nameplates, playable: nameplates >= minCell && count < a.count && count < b.count });
     }
   }
   return { carCount: cars.length, minSupport, minCell, parameters, eligibleValues: eligible.length, playableIntersections: intersections.filter((i) => i.playable).length, intersections };
@@ -143,18 +160,12 @@ export function validateSchedule(cars, grids, minCell = 3) {
   for (const grid of grids) {
     if (grid.rows?.length !== 3 || grid.columns?.length !== 3) { errors.push(`${grid.date}: invalid axes`); continue; }
     if ([...grid.rows, ...grid.columns].some((p) => !MATCH[p.type])) { errors.push(`${grid.date}: unknown parameter`); continue; }
-    const cells = grid.rows.flatMap((r) => grid.columns.map((col) => cars.filter((c) => MATCH[r.type](c, r.value) && MATCH[col.type](c, col.value)).map((c) => c.id)));
+    // Answers are nameplates: a guess is Make + Model, so five generations of
+    // Honda Civic in one square are one answer, and using a nameplate consumes
+    // all of them.
+    const cells = grid.rows.flatMap((r) => grid.columns.map((col) => [...new Set(cars.filter((c) => MATCH[r.type](c, r.value) && MATCH[col.type](c, col.value)).map(nameplateKey))]));
     if (cells.some((c) => c.length < minCell)) errors.push(`${grid.date}: cell below ${minCell} answers`);
-    const assigned = new Map();
-    function augment(i, visited) {
-      for (const id of cells[i]) {
-        if (visited.has(id)) continue;
-        visited.add(id);
-        if (!assigned.has(id) || augment(assigned.get(id), visited)) { assigned.set(id, i); return true; }
-      }
-      return false;
-    }
-    if (!cells.every((_, i) => augment(i, new Set()))) errors.push(`${grid.date}: no distinct-car solution`);
+    if (!hasDistinctSolution(cells)) errors.push(`${grid.date}: no distinct-nameplate solution`);
   }
   return errors;
 }

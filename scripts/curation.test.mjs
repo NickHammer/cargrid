@@ -1,7 +1,16 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
-import { MATCH, VALUES, labelFor } from "./grid-params.mjs";
+import {
+  MATCH,
+  VALUES,
+  labelFor,
+  nameplateKey,
+  groupByNameplate,
+  firstAnswering,
+  hasDistinctSolution,
+  countNameplates,
+} from "./grid-params.mjs";
 import { prepareBatch, validateCar, coverage, validateSchedule } from "./lib/curation.mjs";
 import { reviewImageLicense } from "./lib/image-license.mjs";
 
@@ -95,14 +104,17 @@ test("all enumerated values match the same cars in generator and runtime rules",
 });
 
 test("coverage excludes single-value types, thin and implied intersections", () => {
-  const small = Array.from({ length: 8 }, (_, i) => ({ ...base, id: `fixture-${i}`, brands: ["OnlyBrand"], country_of_origin: "OnlyCountry", engine_layouts: ["V8"] }));
+  // Distinct models on purpose. Support is counted in nameplates now, so
+  // eight copies of one nameplate would make this pass for the wrong reason —
+  // nothing eligible at all, rather than the single-value-type rule under test.
+  const small = Array.from({ length: 8 }, (_, i) => ({ ...base, id: `fixture-${i}`, model: `Fixture ${i}`, brands: ["OnlyBrand"], country_of_origin: "OnlyCountry", engine_layouts: ["V8"] }));
   const report = coverage(small);
   assert.equal(report.playableIntersections, 0);
 });
 
-test("schedule validation catches impossible distinct-car assignment despite individual answers", () => {
+test("schedule validation catches impossible distinct-nameplate assignment despite individual answers", () => {
   const grid = { date: "fixture", rows: Array(3).fill({ type: "brand", value: base.make }), columns: Array(3).fill({ type: "country_of_origin", value: base.country_of_origin }) };
-  assert.match(validateSchedule([base], [grid], 1).join(" "), /no distinct-car solution/);
+  assert.match(validateSchedule([base], [grid], 1).join(" "), /no distinct-nameplate solution/);
 });
 
 test("new image downloads reject incomplete, restrictive or mismatched license metadata", () => {
@@ -238,4 +250,121 @@ test("CATALOG.md and docs/PHOTO-CHECK.md cover exactly the cars in the game", (t
       "CATALOG.md make count is stale",
     );
   }
+});
+
+// ---------------------------------------------------------------------------
+// Nameplates
+//
+// A guess is Make + Model. The autocomplete used to list one row per
+// generation, labelled "(Gen N)" with no years — years are withheld because
+// Decade is a live axis — so eleven unlabelled Honda Civics went into the list
+// and eight of them were marked wrong. Measured over the schedule at the time:
+// 80% of squares held a nameplate where some generations answered and some did
+// not, and a player who knew the right car had a 44.5% chance of picking the
+// right generation. These tests hold the collapsed rule in place.
+// ---------------------------------------------------------------------------
+
+const schedule = JSON.parse(
+  fs.readFileSync(new URL("../data/grids.json", import.meta.url), "utf8"),
+).grids;
+
+const answersTo = (row, col) =>
+  cars.filter((c) => MATCH[row.type](c, row.value) && MATCH[col.type](c, col.value));
+
+const eachSquare = (visit) => {
+  for (const grid of schedule) {
+    for (const row of grid.rows) for (const col of grid.columns) visit(grid, row, col);
+  }
+};
+
+/**
+ * The rule that keeps the collapse honest.
+ *
+ * Accepting a nameplate because *some* generation matches the row and *some
+ * other* generation matches the column would make "Honda Civic" a correct
+ * answer to squares no Civic ever satisfied — a 1983 hatchback and a 2006
+ * front-driver are not one car. One record has to carry both facts.
+ */
+test("a nameplate answers a square only when one record satisfies both axes", () => {
+  const row = { type: "body_style", value: "Hatchback", label: "Hatchback" };
+  const col = { type: "drivetrain", value: "AWD", label: "AWD" };
+  const g1 = { ...base, id: "fix-g1", generation: 1, body_style: "Hatchback", drivetrain: ["FWD"] };
+  const g2 = { ...base, id: "fix-g2", generation: 2, body_style: "Sedan", drivetrain: ["AWD"] };
+  assert.equal(firstAnswering([g1, g2], row, col), null, "split across two generations is not an answer");
+
+  const g3 = { ...base, id: "fix-g3", generation: 3, body_style: "Hatchback", drivetrain: ["AWD"] };
+  assert.equal(firstAnswering([g1, g2, g3], row, col)?.id, "fix-g3");
+
+  // Lowest qualifying generation wins, so replaying an archived board shows the
+  // same photo it showed the first time.
+  const g0 = { ...base, id: "fix-g0", generation: 0, body_style: "Hatchback", drivetrain: ["AWD"] };
+  assert.equal(firstAnswering([g0, g3], row, col)?.id, "fix-g0");
+});
+
+test("nameplates group every record exactly once, in generation order", () => {
+  const groups = groupByNameplate(cars);
+  assert.equal([...groups.values()].reduce((n, list) => n + list.length, 0), cars.length);
+  assert.equal(groups.size, new Set(cars.map(nameplateKey)).size);
+  for (const [key, list] of groups) {
+    const gens = list.map((c) => c.generation);
+    assert.deepEqual(gens, [...gens].sort((a, b) => a - b), `${key} is out of generation order`);
+    assert.equal(new Set(list.map(nameplateKey)).size, 1, key);
+  }
+});
+
+/**
+ * The difficulty floor counts what a player can type.
+ *
+ * `minCell: 3` has always meant "three answers", and while the judge compared
+ * records that was the same number. It is not any more: seven squares in the
+ * schedule held three or more records that collapsed to fewer than three
+ * nameplates, and 2026-11-22's `Diesel x Honda Motor` held five records that
+ * were all Honda Civic — a square with exactly one answer.
+ */
+test("every scheduled square offers at least three distinct nameplates", () => {
+  const thin = [];
+  eachSquare((grid, row, col) => {
+    const n = countNameplates(answersTo(row, col));
+    if (n < 3) thin.push(`${grid.date} ${row.label} x ${col.label}: ${n}`);
+  });
+  assert.deepEqual(thin, []);
+});
+
+/**
+ * Per-square counts are not enough: a nameplate is used up whole, so a grid
+ * whose squares are each fillable can still be impossible to finish 9/9. This
+ * is the check that had to be re-proved at nameplate level before the collapse
+ * could ship — it passed on all 743 grids then scheduled, which is why no
+ * regeneration was needed for solvability.
+ */
+test("every scheduled grid can be filled with nine distinct nameplates", () => {
+  const broken = schedule
+    .filter(
+      (grid) =>
+        !hasDistinctSolution(
+          grid.rows.flatMap((row) =>
+            grid.columns.map((col) => [...new Set(answersTo(row, col).map(nameplateKey))]),
+          ),
+        ),
+    )
+    .map((g) => g.date);
+  assert.deepEqual(broken, []);
+});
+
+/**
+ * Eligibility counts nameplates too, or a category can look well supported
+ * while offering almost nothing to type. `brand:Infiniti` was the live case: 13
+ * records but 7 nameplates, because every Infiniti in the catalog is a rebadged
+ * Nissan sharing its nameplate. It was in 8 scheduled grids and produced the
+ * worst squares in the whole schedule.
+ */
+test("category support counts nameplates, not records", () => {
+  const twins = [
+    { ...base, id: "twin-g1", generation: 1, model: "Twin", brands: ["Thin"] },
+    { ...base, id: "twin-g2", generation: 2, model: "Twin", brands: ["Thin"] },
+  ];
+  const brandRow = coverage(twins, 2).parameters.find((p) => p.type === "brand" && p.value === "Thin");
+  assert.equal(brandRow.count, 2, "two records");
+  assert.equal(brandRow.nameplates, 1, "but one nameplate");
+  assert.equal(brandRow.eligible, false, "so it does not clear a floor of 2");
 });

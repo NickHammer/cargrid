@@ -88,15 +88,68 @@ genuine multi-marque owners and is a point-in-time fact — Subaru and Mazda are
 - Brand CAN appear on both row and column axes — rebadged cars can satisfy two brand parameters simultaneously; a car record supports multiple brands.
 - Car Class definitions are kept as strict as possible; each car has an explicit, curated class tag — not inferred.
 - One axis should generally favor identity-based parameters (Brand, Country, Decade) and the other attribute-based (Engine, Body Style, Class), but this is a soft guideline.
-- A grid entry is **Make + Model** (e.g., "Ford Mustang") — no year, trim, or edition required when guessing. When multiple generations exist in the dataset, autocomplete disambiguates: "Subaru Crosstrek (Gen 2 · 2018–2023)".
+- A grid entry is **Make + Model** (e.g., "Ford Mustang") — no year, trim, edition or **generation** required when guessing. The autocomplete lists one row per nameplate, and a guess is correct when **any** generation of it answers the square. See "Guessing is Make + Model" below — this rule is load-bearing and was violated by the UI for a long time.
 - Each generation is a **separate entry** with its own ID (`subaru-crosstrek-g2`) and specs scoped to that generation, recorded as the **span of that generation's factory line-up\***.
 - \* **A performance version gets its own record. Fold it into its parent only when it adds nothing** — same `car_class`, same `body_style`, same `drivetrain`, and its power sits inside a 100 hp bucket the base line-up already covers. A badge-and-wheels trim 15 hp up folds in; a different machine gets its own entry. So Challenger SRT Demon, Charger Hellcat, Mustang GT500, Camaro ZL1, Golf GTI and EV6 GT are all **separate records**, alongside M3, WRX STI, Civic Type R and Focus RS.
 - \* **Do not decide this by counting differing fields.** `power_output_hp_min`, `power_output_hp_max` and `power_output_ranges` always move together, so any faster version differs in three fields before anything else is compared — measured at 7–9 of 13 fields across six real parent/variant pairs. A threshold that never returns "fold" is not a test.
-- \* **Why separate, despite Make + Model guessing:** folding makes a record claim capability no ordinary example of that car had. While the Demon was folded in, `dodge-challenger-g3` spanned 250–1025 hp, so "Dodge Challenger" was accepted as a correct answer to a **1000+ hp** square. Separating makes the Demon right and the base car wrong, which is the better puzzle, and the autocomplete disambiguates by name exactly as it already does for generations. Engine *options* on one model are not variants and stay folded — a 1970 Challenger could be ordered with a straight-six or a 426 Hemi, which is why `dodge-challenger-g1` legitimately reads 145–425 hp.
+- \* **Why separate, despite Make + Model guessing:** folding makes a record claim capability no ordinary example of that car had. While the Demon was folded in, `dodge-challenger-g3` spanned 250–1025 hp, so "Dodge Challenger" was accepted as a correct answer to a **1000+ hp** square. Separating makes the Demon right and the base car wrong, which is the better puzzle, and the autocomplete disambiguates by name, because a performance variant is curated as its own *model* and so is its own nameplate. Engine *options* on one model are not variants and stay folded — a 1970 Challenger could be ordered with a straight-six or a 426 Hemi, which is why `dodge-challenger-g1` legitimately reads 145–425 hp.
 - This says *span*, not *launch day*. An engine added mid-generation counts; an engine from the next generation does not. The dataset has always worked this way — `subaru-impreza-g1` reads 110–240 hp for 1992–2000, a range no 1992 car could reach — and the earlier "launch specs only" wording contradicted it.
 - IDs always include the generation suffix (`-g1`, `-g2`, etc.) even if only one generation exists in the dataset.
 - Decades, Engine Layout, Drivetrain, Transmission, and Fuel Type are **multi-value** — a car qualifies for all options it was offered with at release.
 - Power Output uses **100hp buckets**: `0-100`, `101-200`, `201-300`, `301-400`, `401-500`, `501-600`, `601-700`, `701-800`, `801-900`, `901-1000`, `1000+`. A car with multiple engine options spans multiple buckets.
+
+### Guessing is Make + Model — the nameplate rule
+
+A **record** is one generation (`honda-civic-g7`). A **nameplate** is a make plus
+model ("Honda Civic"). The player guesses *nameplates*; everything the game
+counts as an "answer" is a nameplate. `src/lib/nameplates.mjs` is the source of
+truth, shared by the browser, the generator and both validators via
+`scripts/grid-params.mjs`.
+
+Three rules, which only make sense together:
+
+1. **A nameplate answers a square when one of its records matches both axes.**
+   One record has to carry both facts — `firstAnswering` resolves per record on
+   purpose. Accepting a nameplate because Gen 1 matched the row and Gen 9 the
+   column would make "Honda Civic" correct for squares no Civic ever satisfied.
+2. **Guessing a nameplate consumes all of its generations.** Without this,
+   "Honda Civic" could fill two cells using two generations.
+3. **`minCell` and `minSupport` count distinct nameplates.** Three records that
+   are three generations of one car are one answer, not three.
+
+**Why it was changed (2026-11-05).** The autocomplete used to list one row per
+record, labelled `(Gen N)`. Years are withheld because `Decade` is a live axis,
+so the list offered eleven unlabelled Honda Civics and marked eight of them
+wrong. Measured over the then-743-day schedule: **80% of squares** (5,352 of
+6,687) held a nameplate where some generations answered and some did not, and a
+player who knew the right car had a **44.5%** chance of picking the right
+generation — worse than a coin flip. `2027-06-18 Muscle Car × 2010s` was every
+answer a gamble: Camaro 2/4, Challenger 1/2, Charger 1/3, Mustang 2/4. It also
+got worse with every record added: because the 10-result cap was applied *after*
+filtering, "civic" and "skyline" filled all ten dropdown slots with one car and
+pushed every other match out.
+
+**Do not re-add generation or year disambiguation to the dropdown.** Years hand
+over `Decade`. Generation numbers are the compromise that was tried and was
+worse than both alternatives, because they ask the player to choose with nothing
+to choose on. The asymmetry is deliberate: years *are* shown in
+`docs/PHOTO-CHECK.md`, which is a maintainer's checklist where checking the year
+against the bodywork is the whole point.
+
+**What this cost, measured before shipping.** Nameplate-level perfect matching
+passed on all 743 then-scheduled grids, so **no grid became unsolvable** and
+nothing had to be regenerated for solvability. Two floors did move: 7 squares of
+6,687 fell below 3 distinct nameplates (worst: `2026-11-22 Diesel × Honda Motor`,
+5 records all Honda Civic — one answer), and one category of 137 fell below
+`minSupport` — `brand:Infiniti`, 13 records but 7 nameplates, because every
+Infiniti here is a rebadged Nissan sharing its nameplate. Infiniti left the pool
+and the schedule was regenerated from the following day; dates through
+2026-11-05 were verified byte-identical. Counting support in nameplates also
+*widened* the schedule, from 110 to 128 distinct categories used.
+
+`GameState` and `localStorage` were deliberately left alone — a cell still stores
+the id of the generation that filled it, and used nameplates are derived from it
+by `usedNameplateKeys`, so boards saved before the change still load.
 
 ## Car Data Schema
 
@@ -387,7 +440,7 @@ The app is intentionally lightweight and mostly client-side:
 
 - **Grid logic** — a 3x3 grid with a row parameter and column parameter per axis; players guess which car satisfies both parameters for a cell. Gameplay and generation now share `src/lib/parameters.mjs`, re-exported by `scripts/grid-params.mjs`. Add parameter types to `src/lib/types.ts` and shared matching/value/label/tier rules together.
 - **Daily rotation** — the schedule is **pre-generated and committed** to `data/grids.json` by `scripts/generate-grids.mjs`, not derived at runtime, so an archived grid cannot change when the car dataset does. Dates roll over at the player's *local* midnight (`src/lib/date.ts`) — never `toISOString()`, which would flip the grid at 8pm ET.
-- **Grid solvability** — a grid is only valid if every cell has at least 3 answers *and* 9 **distinct** cars can fill the 9 cells. Per-cell counts alone are not enough, because the autocomplete bars reusing a car; the generator proves it with a bipartite perfect matching. `scripts/validate-grids.mjs` re-checks the whole schedule and must be run after any `cars.json` edit.
+- **Grid solvability** — a grid is only valid if every cell has at least 3 answers *and* 9 **distinct** answers can fill the 9 cells. An "answer" is a **nameplate**, not a record: a square holding five generations of Honda Civic offers one answer, and guessing a nameplate consumes all of its generations. Per-cell counts alone are not enough, because the autocomplete bars reusing an answer; the generator proves it with a bipartite perfect matching. `hasDistinctSolution` in `src/lib/nameplates.mjs` is the single implementation — the generator, `validate-grids.mjs` and `lib/curation.mjs` each had their own copy, which is three chances for a generator to disagree with its own validator. `scripts/validate-grids.mjs` re-checks the whole schedule and must be run after any `cars.json` edit.
 - **Grids are built, not guessed.** The generator pairs every two categories once into a compatibility table (does their square hold `minCell` cars without being a giveaway?), then assembles grids by only ever picking partners that table approves — so all nine cells are valid by construction and the per-cell check is redundant. Each date also gets a **featured category** from an even rotation, which is what guarantees breadth: an under-used category appears because its turn came up, not because a random draw got lucky. The long comment at the top of `generate-grids.mjs` has the measurements, including why the previous random-draw search got *worse* as the catalog grew and left a third of the categories permanently unreachable. **Do not replace this with a random search, and do not try to fix category coverage by adjusting the score** — that was tried and provably cannot work, because a losing category never reaches the scorer at all.
 - **Two categories on one axis must not be interchangeable.** `maxSameType` only counts *types*, so it misses cross-type clashes: "SUV" is both a `body_style` and a `car_class`, "Electric" both an `engine_layout` and a `fuel_type`. Without a check, an axis renders as `SUV | Inline-4 | SUV` — two columns a player cannot tell apart; 11 of 736 scheduled grids had one. `trioDistinct` in the generator rejects a trio with a repeated label, or with two categories that are **nearly** the same set — shared cars over combined cars above `maxTwinOverlap` (0.8). It used to demand the sets be *exactly* equal, which was too strict to catch anything useful: "Ford" (24 cars) and "Ford Motor Company" (25) differ by one Lincoln, so 2026-11-02 went live with both as columns. The exact test missed 65 of 742 days, all from four pairs that are two names for one idea — Asian/Japanese, 4 cylinders/Inline-4, Ford/Ford Motor Company, Jaguar/Tata Motors. The measure is deliberately two-way: a one-way "is a inside b" test also flags V6 inside 6 cylinders and V8 inside Automatic, which are real distinctions. 0.8 sits in a wide gap — the four bad pairs score 0.90–0.96, the next pair down (6 cylinders/V6) scores 0.71. Cross-*axis* duplicates need no check, because that square would be the whole of both categories and the compatibility table already rejects it as a giveaway.
 - **A category needs three workable partners to appear at all.** With `minCell: 3`, a category crossing a 3-category axis needs three partners that each yield a 3-answer square, so a narrow category (Plug-in Hybrid, 8 cars, 2 partners) is unusable no matter how interesting it is. `generate-grids.mjs --report` lists what is unreachable and what is one partner away, which makes it the data-collection to-do list: prefer a new category that crosses many existing ones over one that is merely novel.
@@ -404,7 +457,7 @@ Both `cars.json` and `grids.json` are inlined into a single client chunk (measur
 
 Two **friction** measures ship anyway, because they cost nothing and fix the cases a normal player would stumble into:
 
-- The guess autocomplete shows no production years (`carDisplayLabel`, `src/lib/cars.ts`). `Decade` is a live parameter, so printing the year span handed over the answer in the UI itself. Generations are disambiguated with `(Gen N)` only where a nameplate has more than one.
+- The guess autocomplete shows no production years (`nameplateLabel`, `src/lib/cars.ts`). `Decade` is a live parameter, so printing the year span handed over the answer in the UI itself. It shows no generation number either — see "Guessing is Make + Model" below for why that compromise was worse than either alternative.
 - `/credits` is sorted by photographer and omits production years, so it reads as the licence-compliance list it is rather than a browsable car index. It still covers **every** published image — that part is a licence obligation and must not be narrowed.
 
 If the exposure ever does matter, the cheapest real improvement is shipping only past-and-present grids and rebuilding daily (a scheduled Netlify build), which removes the two-year preview without touching the architecture.

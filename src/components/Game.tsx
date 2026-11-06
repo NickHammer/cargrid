@@ -7,16 +7,18 @@ import ShareResult from "@/components/ShareResult";
 import HowToPlay from "@/components/HowToPlay";
 import Grid from "./Grid";
 import GuessInput from "./GuessInput";
-import type { Car, GameState } from "@/lib/types";
+import type { GameState, Nameplate } from "@/lib/types";
 import {
   isValidAnswer,
   isGameOver,
-  isCarAlreadyUsed,
+  resolveAnswer,
+  usedNameplateKeys,
   solvedCount,
   accuracyPercent,
   MAX_GUESSES,
 } from "@/lib/game";
-import { allCars } from "@/lib/cars";
+import { allCars, getCarById } from "@/lib/cars";
+import { nameplateKey } from "@/lib/nameplates.mjs";
 import { getGridForDate } from "@/lib/grids";
 import { loadGameState, saveGameState } from "@/lib/storage";
 import { loadStats } from "@/lib/stats";
@@ -45,8 +47,11 @@ export default function Game({ date: dateProp, isArchive = false }: Props) {
   const [selectedCell, setSelectedCell] = useState<{ row: number; col: number } | null>(null);
   const [lastResult, setLastResult] = useState<"correct" | "incorrect" | null>(null);
 
-  const usedCarIds = useMemo(
-    () => new Set((state?.cells ?? []).map((c) => c.carId).filter((id): id is string => !!id)),
+  // Nameplate keys, not car ids: a nameplate is used up whole, so guessing
+  // "Honda Civic" takes all eleven Civics off the board rather than leaving ten
+  // of them to fill a second cell.
+  const usedNameplates = useMemo(
+    () => (state ? usedNameplateKeys(state, getCarById) : new Set<string>()),
     [state]
   );
 
@@ -56,17 +61,20 @@ export default function Game({ date: dateProp, isArchive = false }: Props) {
   // so a 6/9 tells you what you missed.
   const reveals = useMemo(() => {
     if (!grid || !gameOver) return undefined;
-    const taken = new Set(usedCarIds);
+    // Tracked by nameplate so the reveal cannot name one car twice — the board
+    // it is describing could not have been filled that way either.
+    const taken = new Set(usedNameplates);
     return grid.rows.flatMap((row) =>
       grid.columns.map((colParam) => {
         const hit = allCars.find(
-          (car) => !taken.has(car.id) && isValidAnswer(car, row, colParam)
+          (car) => !taken.has(nameplateKey(car)) && isValidAnswer(car, row, colParam)
         );
-        if (hit) taken.add(hit.id);
-        return hit ? `${hit.make} ${hit.model}` : null;
+        if (!hit) return null;
+        taken.add(nameplateKey(hit));
+        return nameplateKey(hit);
       })
     );
-  }, [grid, gameOver, usedCarIds]);
+  }, [grid, gameOver, usedNameplates]);
 
   /** Move the board to another date, loading whatever is saved for it. */
   const switchToDate = useCallback((next: string) => {
@@ -125,19 +133,23 @@ export default function Game({ date: dateProp, isArchive = false }: Props) {
   }, []);
 
   const handleGuess = useCallback(
-    (car: Car) => {
+    (nameplate: Nameplate) => {
       if (!grid || !state || !selectedCell) return;
-      // The autocomplete already hides used cars; this guards the state update
-      // itself so a car can never occupy two cells.
-      if (isCarAlreadyUsed(state, car.id)) return;
+      // The autocomplete already hides used nameplates; this guards the state
+      // update itself so one nameplate can never occupy two cells.
+      if (usedNameplates.has(nameplate.key)) return;
 
       const { row, col } = selectedCell;
-      const correct = isValidAnswer(car, grid.rows[row], grid.columns[col]);
+      // A guess is Make + Model, so it is right if ANY generation of that
+      // nameplate answers the square. The cell still stores the id of the
+      // generation that filled it, which is what keeps saved boards readable.
+      const answer = resolveAnswer(nameplate, grid.rows[row], grid.columns[col]);
+      const correct = answer !== null;
 
       const newState: GameState = {
         ...state,
         cells: state.cells.map((cell, i) =>
-          i === row * 3 + col && correct ? { solved: true, carId: car.id } : cell
+          i === row * 3 + col && answer ? { solved: true, carId: answer.id } : cell
         ),
         guessesUsed: state.guessesUsed + 1,
       };
@@ -170,7 +182,7 @@ export default function Game({ date: dateProp, isArchive = false }: Props) {
         });
       }
     },
-    [grid, state, selectedCell, date, isArchive]
+    [grid, state, selectedCell, usedNameplates, date, isArchive]
   );
 
   const handleCloseModal = useCallback(() => {
@@ -355,7 +367,7 @@ export default function Game({ date: dateProp, isArchive = false }: Props) {
               </div>
             )}
 
-            <GuessInput onSelect={handleGuess} usedCarIds={usedCarIds} />
+            <GuessInput onSelect={handleGuess} usedNameplates={usedNameplates} />
 
             <p className="mt-4 text-center text-xs text-ink-faint">
               {guessesLeft} guess{guessesLeft !== 1 ? "es" : ""} remaining
