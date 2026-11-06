@@ -12530,5 +12530,586 @@
     "artist": "Alexander-93",
     "source": "https://commons.wikimedia.org/wiki/File:Honda_ZR-V_e-HEV_Auto_Zuerich_2023_1X7A1060.jpg",
     "verified": true
+  },
+  "ferrari-12cilindri-g1": {
+    "file": "/cars/ferrari-12cilindri-g1.webp",
+    "article": "Commons search: Ferrari 12Cilindri 2026",
+    "matched": "search",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "Just a Man",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_12Cilindri_2026.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Ferrari_12Cilindri_Spider_Auto_Zuerich_2024_DSC_6809.jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-166-inter-mm-g1": {
+    "file": "/cars/ferrari-166-inter-mm-g1.webp",
+    "article": "Commons search: Ferrari 166 Inter 1948",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Unknown photographer",
+    "source": "https://commons.wikimedia.org/wiki/File:1948-03-15_Ferrari_166_Inter_007S_frontale.jpg",
+    "verified": true
+  },
+  "ferrari-212-g1": {
+    "file": "/cars/ferrari-212-g1.webp",
+    "article": "Commons search: Ferrari 212 1952",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Corrado Millanta",
+    "source": "https://commons.wikimedia.org/wiki/File:1952_Ferrari_212_0211EL.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1951_Ferrari_212_0110E.jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-250-gt-california-spyder-g1": {
+    "file": "/cars/ferrari-250-gt-california-spyder-g1.webp",
+    "article": "Commons search: Ferrari 250 GT California Spyder 1959",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Valder137",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_250GT_1962_California_Spyder_LFront_CECF_9April2011_(14414301108).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Ferrari_250_GT_California_Spyder_LWB_(1958)_(55079911635).jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-250-gt-europa-boano-ellena-g1": {
+    "file": "/cars/ferrari-250-gt-europa-boano-ellena-g1.webp",
+    "article": "Commons search: Ferrari 250 GT (Europa 1954",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MrWalkr",
+    "source": "https://commons.wikimedia.org/wiki/File:1954_Ferrari_250_GT_Europa_Pininfarina_HCC21.jpg",
+    "verified": true
+  },
+  "ferrari-250-gt-lusso-g1": {
+    "file": "/cars/ferrari-250-gt-lusso-g1.webp",
+    "article": "Commons search: Ferrari 250 GT Lusso 1964",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MrWalkr",
+    "source": "https://commons.wikimedia.org/wiki/File:1964_Ferrari_250_GT_Lusso_HCC24.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1962_Ferrari_250_GT_Lusso_prototype.jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-250-gt-swb-g1": {
+    "file": "/cars/ferrari-250-gt-swb-g1.webp",
+    "article": "Commons search: Ferrari 250 GT SWB 1959",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "This picture has been taken by Oleg Yunakov. Contact e-mail: yunakovgmail.com. Image can be used in accordance with the terms of the СС-BY-SA license. Other photos can be seen here.",
+    "source": "https://commons.wikimedia.org/wiki/File:1959_Ferrari_250_GT_Berlinetta_SWB_-_01.jpg",
+    "verified": true
+  },
+  "ferrari-250-gto-g1": {
+    "file": "/cars/ferrari-250-gto-g1.webp",
+    "article": "Commons search: Ferrari 250 GTO 1964",
+    "matched": "search",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "artist": "Franco Lutman and Roberto Giovannini (according to the source [2])",
+    "source": "https://commons.wikimedia.org/wiki/File:1964-07-19_Trieste-Opicina_Ferrari_250_GTO_4675GT_Sigala.jpg",
+    "rejected": true,
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1964-07-19_Trieste-Opicina_Ferrari_250_GTO_4675GT_Sigala.jpg"
+    ]
+  },
+  "ferrari-250-lm-g1": {
+    "file": "/cars/ferrari-250-lm-g1.webp",
+    "article": "Commons search: Ferrari 250 LM 1965",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Rutger van der Maar from Leiden, The Netherlands",
+    "source": "https://commons.wikimedia.org/wiki/File:1965_Ferrari_250_LM_(46199677145).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1963_Ferrari_250_LM_front.jpg",
+      "https://commons.wikimedia.org/wiki/File:1965_Ferrari_250_LM_(46199677145).jpg"
+    ],
+    "rejected": true
+  },
+  "ferrari-275-gtb-g1": {
+    "file": "/cars/ferrari-275-gtb-g1.webp",
+    "article": "Commons search: Ferrari 275 GTB 1966",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1966_Ferrari_275_GTB_sn_08549,_front_left_(Greenwich_2019).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Ferrari_275_GTB_(1964)_(54091953715).jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-288-gto-g1": {
+    "file": "/cars/ferrari-288-gto-g1.webp",
+    "article": "Commons search: Ferrari 288 GTO 1984",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "TTTNIS",
+    "source": "https://commons.wikimedia.org/wiki/File:1984_Ferrari_288_GTO_front.jpg",
+    "verified": true
+  },
+  "ferrari-296-gtb-g1": {
+    "file": "/cars/ferrari-296-gtb-g1.webp",
+    "article": "Commons search: Ferrari 296 GTB 2022",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Ferrari_296_GTB_(69705).jpg",
+    "verified": true
+  },
+  "ferrari-308-gtb-gts-g1": {
+    "file": "/cars/ferrari-308-gtb-gts-g1.webp",
+    "article": "Commons search: Ferrari 308 GTB 1975",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "TTTNIS",
+    "source": "https://commons.wikimedia.org/wiki/File:1975_Ferrari_308_GTB.jpg",
+    "verified": true
+  },
+  "ferrari-328-gtb-gts-g1": {
+    "file": "/cars/ferrari-328-gtb-gts-g1.webp",
+    "article": "Commons search: Ferrari 328 GTB 1985",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Martin308GTB",
+    "source": "https://commons.wikimedia.org/wiki/File:01_Ferrari_328_GTB_Pr%C3%A4sentation_IAA_Frankfurt_Main_1985.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:03_Ferrari_328_GTB_Pr%C3%A4sentation_IAA_Frankfurt_Main_1985.jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-330-gt-2-plus-2-g1": {
+    "file": "/cars/ferrari-330-gt-2-plus-2-g1.webp",
+    "article": "Commons search: Ferrari 330 GT 2+2 1964",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1964_Ferrari_330GT_2%2B2_Series_I_at_Lime_Rock,_front_left.jpg",
+    "verified": true
+  },
+  "ferrari-330-gtc-g1": {
+    "file": "/cars/ferrari-330-gtc-g1.webp",
+    "article": "Commons search: Ferrari 330 GTC 1966",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "MrWalkr",
+    "source": "https://commons.wikimedia.org/wiki/File:1966_Ferrari_330_GTC_HCC25.jpg",
+    "verified": true
+  },
+  "ferrari-348-g1": {
+    "file": "/cars/ferrari-348-g1.webp",
+    "article": "Commons search: Ferrari 348 1989",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Niels de Wit from Lunteren, The Netherlands",
+    "source": "https://commons.wikimedia.org/wiki/File:1992_Ferrari_348_TS_(15896544265).jpg",
+    "verified": true
+  },
+  "ferrari-360-modena-g1": {
+    "file": "/cars/ferrari-360-modena-g1.webp",
+    "article": "Commons search: Ferrari 360 Modena 1999",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Rutger van der Maar",
+    "source": "https://commons.wikimedia.org/wiki/File:1999_Ferrari_360_Modena_3.6_V8_(52143275289).jpg",
+    "verified": true
+  },
+  "ferrari-365-gt-2-plus-2-g1": {
+    "file": "/cars/ferrari-365-gt-2-plus-2-g1.webp",
+    "article": "Commons search: Ferrari 365 GT 2+2 1967",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Robotriot",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_365_GT_2%2B2_(1967-1971)_I.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Ferrari_365_GT_2%2B2_(1967-1971)_II.jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-365-gt4-bb-g1": {
+    "file": "/cars/ferrari-365-gt4-bb-g1.webp",
+    "article": "Commons search: Ferrari 365 GT4 BB 1973",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "TTTNIS",
+    "source": "https://commons.wikimedia.org/wiki/File:1973_Ferrari_365_GT4_BB.jpg",
+    "verified": true
+  },
+  "ferrari-365-gtb-4-daytona-g1": {
+    "file": "/cars/ferrari-365-gtb-4-daytona-g1.webp",
+    "article": "Commons search: Ferrari 4 Daytona 1968",
+    "matched": "search",
+    "license": "CC BY-SA 2.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "artist": "Spurzem - Lothar Spurzem",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_365_GTB_4_Daytona,_Bj._1970_(2007-07-22).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1968_Ferrari_365_GTB4_Prototype_front.jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-400-412-g1": {
+    "file": "/cars/ferrari-400-412-g1.webp",
+    "article": "Commons search: Ferrari 400 1976",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander-93",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_400_(1979)_1X7A6536.jpg",
+    "verified": true
+  },
+  "ferrari-456-456m-g1": {
+    "file": "/cars/ferrari-456-456m-g1.webp",
+    "article": "Commons search: Ferrari 456M 1992",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1996_Ferrari_456_5.5.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Ferrari_456_GT_(1996)_(53801165698).jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-512-bb-g1": {
+    "file": "/cars/ferrari-512-bb-g1.webp",
+    "article": "Commons search: Ferrari 512 BB 1976",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Charles from Port Chester, New York",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_512_BB_(1979)_(54561518591).jpg",
+    "verified": true
+  },
+  "ferrari-512-tr-g1": {
+    "file": "/cars/ferrari-512-tr-g1.webp",
+    "article": "Commons search: Ferrari 512 TR 1991",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Valder137",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_512TR_1991_LFront_CECF_9April2011_(14414265200).jpg",
+    "verified": true
+  },
+  "ferrari-550-maranello-g1": {
+    "file": "/cars/ferrari-550-maranello-g1.webp",
+    "article": "Commons search: Ferrari 550 Maranello 1996",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Charles from Port Chester, New York",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_550_Maranello_(1996)_(55080753804).jpg",
+    "verified": true
+  },
+  "ferrari-575m-maranello-g1": {
+    "file": "/cars/ferrari-575m-maranello-g1.webp",
+    "article": "Commons search: Ferrari 575M Maranello 2002",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:2002_Ferrari_575M_Maranello.jpg",
+    "verified": true
+  },
+  "ferrari-599-gtb-fiorano-g1": {
+    "file": "/cars/ferrari-599-gtb-fiorano-g1.webp",
+    "article": "Commons search: Ferrari 599 GTB Fiorano 2008",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Makizox",
+    "source": "https://commons.wikimedia.org/wiki/File:2008_Ferrari_599_GTB_Fiorano_F1_6.0.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Ferrari_599_GTB_Fiorano_(2009)_(52863658790).jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-612-scaglietti-g1": {
+    "file": "/cars/ferrari-612-scaglietti-g1.webp",
+    "article": "Commons search: Ferrari 612 Scaglietti 2006",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:2006_Ferrari_612_Scaglietti_(99148).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Ferrari_612_Scaglietti_(2005)_(53323022469).jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-812-superfast-g1": {
+    "file": "/cars/ferrari-812-superfast-g1.webp",
+    "article": "Commons search: Ferrari 812 Superfast 2017",
+    "matched": "search",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "WKilyann Le Hen",
+    "source": "https://commons.wikimedia.org/wiki/File:R%C3%A9trosport_2024_-_Ferrari_812_Superfast.jpg",
+    "verified": true
+  },
+  "ferrari-849-testarossa-g1": {
+    "file": "/cars/ferrari-849-testarossa-g1.webp",
+    "article": "Commons search: Ferrari 849 Testarossa 2026",
+    "matched": "search",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "Andrew Bone from Weymouth, England, UK.",
+    "source": "https://commons.wikimedia.org/wiki/File:2026_Ferrari_849_Testarossa_Assetto_Fiorano_in_Blu_Corsa.jpg",
+    "verified": true
+  },
+  "ferrari-amalfi-g1": {
+    "file": "/cars/ferrari-amalfi-g1.webp",
+    "article": "Commons search: Ferrari Amalfi 2025",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Loco Steve",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_Amalfi,_Berkeley_Square_2025-12-23.jpg",
+    "verified": true
+  },
+  "ferrari-california-t-g1": {
+    "file": "/cars/ferrari-california-t-g1.webp",
+    "article": "Commons search: Ferrari California T 2016",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Ethan Llamas",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Ferrari_California_T_in_Blu_Tour_De_France_Metallic,_front_right,_08-04-2024.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Ferrari_California_T,_GIMS_2014_(Ank_Kumar,_Infosys)_06.jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-daytona-sp3-g1": {
+    "file": "/cars/ferrari-daytona-sp3-g1.webp",
+    "article": "Commons search: Ferrari Daytona SP3 2022",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Prova MO",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_Daytona_SP3_front_at_CF_2022.jpg",
+    "verified": true
+  },
+  "ferrari-dino-206-246-gt-g1": {
+    "file": "/cars/ferrari-dino-206-246-gt-g1.webp",
+    "article": "Commons search: Ferrari 246 GT 1967",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Maurizio Cefariello",
+    "source": "https://commons.wikimedia.org/wiki/File:Dino_206_GT_(16034211712).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1967_Dino_206_S_026_front.jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-dino-308-gt4-g1": {
+    "file": "/cars/ferrari-dino-308-gt4-g1.webp",
+    "article": "Commons search: Ferrari Dino 308 GT4 1973",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_Dino_308_GT4_(1978)_Solitude_Revival_2022_1X7A0131.jpg",
+    "verified": true
+  },
+  "ferrari-f12berlinetta-g1": {
+    "file": "/cars/ferrari-f12berlinetta-g1.webp",
+    "article": "Commons search: Ferrari F12berlinetta 2012",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Thesupermat",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_F12_Berlinetta_-_Mondial_de_l%27Automobile_de_Paris_2012_-_001.jpg",
+    "verified": true
+  },
+  "ferrari-f355-g1": {
+    "file": "/cars/ferrari-f355-g1.webp",
+    "article": "Commons search: Ferrari F355 1996",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:1996_Ferrari_F355_GTS_3.5.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:1994_Ferrari_F355_Spider.jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-f50-g1": {
+    "file": "/cars/ferrari-f50-g1.webp",
+    "article": "Commons search: Ferrari F50 1997",
+    "matched": "search",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "TTTNIS",
+    "source": "https://commons.wikimedia.org/wiki/File:1997_Ferrari_F50_front.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:SC06_1995_Ferrari_F50_front.jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-f512-m-g1": {
+    "file": "/cars/ferrari-f512-m-g1.webp",
+    "article": "Commons search: Ferrari F512 M 1996",
+    "matched": "search",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Mr.choppers",
+    "source": "https://commons.wikimedia.org/wiki/File:1996_Ferrari_F512_M_in_Rosso_Corsa,_front_right.jpg",
+    "verified": true
+  },
+  "ferrari-f8-tributo-g1": {
+    "file": "/cars/ferrari-f8-tributo-g1.webp",
+    "article": "Commons search: Ferrari F8 Tributo 2019",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Matti Blume",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_F8_Tributo,_GIMS_2019,_Le_Grand-Saconnex_(GIMS1319).jpg",
+    "verified": true
+  },
+  "ferrari-f80-g1": {
+    "file": "/cars/ferrari-f80-g1.webp",
+    "article": "Commons search: Ferrari F80 2025",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:2025_Ferrari_F80.jpg",
+    "verified": true
+  },
+  "ferrari-ff-g1": {
+    "file": "/cars/ferrari-ff-g1.webp",
+    "article": "Commons search: Ferrari FF 2011",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Alexander Migl",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_FF_DSC_7000.jpg",
+    "verified": true
+  },
+  "ferrari-gtc4lusso-g1": {
+    "file": "/cars/ferrari-gtc4lusso-g1.webp",
+    "article": "Commons search: Ferrari GTC4Lusso 2016",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Charles from Port Chester, New York",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_GTC4Lusso_(2017)_(53323037399).jpg",
+    "verified": true
+  },
+  "ferrari-laferrari-g1": {
+    "file": "/cars/ferrari-laferrari-g1.webp",
+    "article": "Commons search: Ferrari LaFerrari 2015",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Charles from Port Chester, New York",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_LaFerrari_(2015)_(53322692116).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Geneva_MotorShow_2013_-_Ferrari_LaFerrari_front_light.jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-mondial-g1": {
+    "file": "/cars/ferrari-mondial-g1.webp",
+    "article": "Commons search: Ferrari Mondial 1982",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "DanielPenfield",
+    "source": "https://commons.wikimedia.org/wiki/File:1982FerrariMondial8AtLedgedaleAirpark50thAnniversary.jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:2022_Downtown_West_Allis_Classic_Car_Show_016_(1987_Ferrari_Mondial).jpg"
+    ],
+    "verified": true
+  },
+  "ferrari-monza-sp1-sp2-g1": {
+    "file": "/cars/ferrari-monza-sp1-sp2-g1.webp",
+    "article": "Commons search: Ferrari Monza SP1 2019",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Kgbo",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_Monza_SP1_at_the_Museo_Enzo_Ferrari,_Modena,_Italy,_2019,_02.jpg",
+    "verified": true
+  },
+  "ferrari-portofino-g1": {
+    "file": "/cars/ferrari-portofino-g1.webp",
+    "article": "Commons search: Ferrari Portofino 2018",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Vauxford",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Ferrari_Portofino_S-A_3.9_Front.jpg",
+    "verified": true
+  },
+  "ferrari-portofino-m-g1": {
+    "file": "/cars/ferrari-portofino-m-g1.webp",
+    "article": "Commons search: Ferrari Portofino M 2021",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Charles from Port Chester, New York",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_Portofino_M_(2021)_(52571114995).jpg",
+    "verified": true
+  },
+  "ferrari-purosangue-g1": {
+    "file": "/cars/ferrari-purosangue-g1.webp",
+    "article": "Commons search: Ferrari Purosangue 2023",
+    "matched": "search",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Calreyn88",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_Ferrari_Purosangue_3.jpg",
+    "verified": true
+  },
+  "ferrari-sf90-stradale-g1": {
+    "file": "/cars/ferrari-sf90-stradale-g1.webp",
+    "article": "Commons search: Ferrari SF90 Stradale 2020",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Charles from Port Chester, New York",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_SF90_Stradale_(2023)_(52864606180).jpg",
+    "verified": true
+  },
+  "ferrari-testarossa-g1": {
+    "file": "/cars/ferrari-testarossa-g1.webp",
+    "article": "Commons search: Ferrari Testarossa 1986",
+    "matched": "search",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Valder137",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_Testarossa_1986_Black_LSideFront_CECF_9April2011_(14414242530)_(2).jpg",
+    "rejectedFiles": [
+      "https://commons.wikimedia.org/wiki/File:Ferrari_Testarossa_(1984)_-_Rallye_des_Princesses_2014_2.jpg"
+    ],
+    "verified": true
   }
 }

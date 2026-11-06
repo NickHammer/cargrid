@@ -10577,6 +10577,822 @@
     "image_url": "/cars/dodge-viper-g1.webp"
   },
   {
+    "id": "ferrari-12cilindri-g1",
+    "make": "Ferrari",
+    "model": "12Cilindri",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 819,
+    "power_output_hp_max": 819,
+    "power_output_ranges": [
+      "801-900"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-12cilindri-g1.webp"
+  },
+  {
+    "id": "ferrari-166-inter-mm-g1",
+    "make": "Ferrari",
+    "model": "166 Inter / MM",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1948,
+    "production_end": 1953,
+    "decades": [
+      "1940s",
+      "1950s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-166-inter-mm-g1.webp"
+  },
+  {
+    "id": "ferrari-212-g1",
+    "make": "Ferrari",
+    "model": "212",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1951,
+    "production_end": 1952,
+    "decades": [
+      "1950s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 148,
+    "power_output_hp_max": 168,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-212-g1.webp"
+  },
+  {
+    "id": "ferrari-250-gt-california-spyder-g1",
+    "make": "Ferrari",
+    "model": "250 GT California Spyder",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1957,
+    "production_end": 1963,
+    "decades": [
+      "1950s",
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 237,
+    "power_output_hp_max": 276,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-250-gt-california-spyder-g1.webp"
+  },
+  {
+    "id": "ferrari-250-gt-europa-boano-ellena-g1",
+    "make": "Ferrari",
+    "model": "250 GT (Europa / Boano / Ellena)",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1954,
+    "production_end": 1960,
+    "decades": [
+      "1950s",
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 217,
+    "power_output_hp_max": 237,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-250-gt-europa-boano-ellena-g1.webp"
+  },
+  {
+    "id": "ferrari-250-gt-lusso-g1",
+    "make": "Ferrari",
+    "model": "250 GT Lusso",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1962,
+    "production_end": 1964,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 247,
+    "power_output_hp_max": 247,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-250-gt-lusso-g1.webp"
+  },
+  {
+    "id": "ferrari-250-gt-swb-g1",
+    "make": "Ferrari",
+    "model": "250 GT SWB",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1959,
+    "production_end": 1962,
+    "decades": [
+      "1950s",
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 237,
+    "power_output_hp_max": 276,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-250-gt-swb-g1.webp"
+  },
+  {
+    "id": "ferrari-275-gtb-g1",
+    "make": "Ferrari",
+    "model": "275 GTB",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1964,
+    "production_end": 1968,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 276,
+    "power_output_hp_max": 296,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-275-gtb-g1.webp"
+  },
+  {
+    "id": "ferrari-288-gto-g1",
+    "make": "Ferrari",
+    "model": "288 GTO",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1984,
+    "production_end": 1987,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 395,
+    "power_output_hp_max": 395,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-288-gto-g1.webp"
+  },
+  {
+    "id": "ferrari-296-gtb-g1",
+    "make": "Ferrari",
+    "model": "296 GTB",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2022,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 819,
+    "power_output_hp_max": 868,
+    "power_output_ranges": [
+      "801-900"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-296-gtb-g1.webp"
+  },
+  {
+    "id": "ferrari-308-gtb-gts-g1",
+    "make": "Ferrari",
+    "model": "308 GTB / GTS",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1975,
+    "production_end": 1985,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 205,
+    "power_output_hp_max": 252,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-308-gtb-gts-g1.webp"
+  },
+  {
+    "id": "ferrari-328-gtb-gts-g1",
+    "make": "Ferrari",
+    "model": "328 GTB / GTS",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1985,
+    "production_end": 1989,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 260,
+    "power_output_hp_max": 266,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-328-gtb-gts-g1.webp"
+  },
+  {
+    "id": "ferrari-330-gt-2-plus-2-g1",
+    "make": "Ferrari",
+    "model": "330 GT 2+2",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1964,
+    "production_end": 1967,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 296,
+    "power_output_hp_max": 296,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-330-gt-2-plus-2-g1.webp"
+  },
+  {
+    "id": "ferrari-330-gtc-g1",
+    "make": "Ferrari",
+    "model": "330 GTC",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1966,
+    "production_end": 1970,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 296,
+    "power_output_hp_max": 296,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-330-gtc-g1.webp"
+  },
+  {
+    "id": "ferrari-348-g1",
+    "make": "Ferrari",
+    "model": "348",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1989,
+    "production_end": 1995,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 296,
+    "power_output_hp_max": 316,
+    "power_output_ranges": [
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-348-g1.webp"
+  },
+  {
+    "id": "ferrari-360-modena-g1",
+    "make": "Ferrari",
+    "model": "360 Modena",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1999,
+    "production_end": 2005,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 395,
+    "power_output_hp_max": 419,
+    "power_output_ranges": [
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-360-modena-g1.webp"
+  },
+  {
+    "id": "ferrari-365-gt-2-plus-2-g1",
+    "make": "Ferrari",
+    "model": "365 GT 2+2",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1967,
+    "production_end": 1971,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 316,
+    "power_output_hp_max": 316,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-365-gt-2-plus-2-g1.webp"
+  },
+  {
+    "id": "ferrari-365-gt4-bb-g1",
+    "make": "Ferrari",
+    "model": "365 GT4 BB",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1973,
+    "production_end": 1976,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Flat-12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 355,
+    "power_output_hp_max": 355,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-365-gt4-bb-g1.webp"
+  },
+  {
+    "id": "ferrari-365-gtb-4-daytona-g1",
+    "make": "Ferrari",
+    "model": "365 GTB/4 Daytona",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1968,
+    "production_end": 1973,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 347,
+    "power_output_hp_max": 347,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-365-gtb-4-daytona-g1.webp"
+  },
+  {
+    "id": "ferrari-400-412-g1",
+    "make": "Ferrari",
+    "model": "400 / 412",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1976,
+    "production_end": 1989,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 306,
+    "power_output_hp_max": 335,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-400-412-g1.webp"
+  },
+  {
+    "id": "ferrari-456-456m-g1",
+    "make": "Ferrari",
+    "model": "456 / 456M",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1992,
+    "production_end": 2003,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 436,
+    "power_output_hp_max": 436,
+    "power_output_ranges": [
+      "401-500"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-456-456m-g1.webp"
+  },
+  {
     "id": "ferrari-458-g1",
     "make": "Ferrari",
     "model": "458",
@@ -10672,6 +11488,241 @@
     ]
   },
   {
+    "id": "ferrari-512-bb-g1",
+    "make": "Ferrari",
+    "model": "512 BB",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1976,
+    "production_end": 1984,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Flat-12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 335,
+    "power_output_hp_max": 355,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-512-bb-g1.webp"
+  },
+  {
+    "id": "ferrari-512-tr-g1",
+    "make": "Ferrari",
+    "model": "512 TR",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1991,
+    "production_end": 1994,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Flat-12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 422,
+    "power_output_hp_max": 422,
+    "power_output_ranges": [
+      "401-500"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-512-tr-g1.webp"
+  },
+  {
+    "id": "ferrari-550-maranello-g1",
+    "make": "Ferrari",
+    "model": "550 Maranello",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1996,
+    "production_end": 2001,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 478,
+    "power_output_hp_max": 478,
+    "power_output_ranges": [
+      "401-500"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-550-maranello-g1.webp"
+  },
+  {
+    "id": "ferrari-575m-maranello-g1",
+    "make": "Ferrari",
+    "model": "575M Maranello",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2002,
+    "production_end": 2006,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 508,
+    "power_output_hp_max": 533,
+    "power_output_ranges": [
+      "501-600"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-575m-maranello-g1.webp"
+  },
+  {
+    "id": "ferrari-599-gtb-fiorano-g1",
+    "make": "Ferrari",
+    "model": "599 GTB Fiorano",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2006,
+    "production_end": 2012,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 611,
+    "power_output_hp_max": 661,
+    "power_output_ranges": [
+      "601-700"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-599-gtb-fiorano-g1.webp"
+  },
+  {
+    "id": "ferrari-612-scaglietti-g1",
+    "make": "Ferrari",
+    "model": "612 Scaglietti",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2004,
+    "production_end": 2011,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 533,
+    "power_output_hp_max": 533,
+    "power_output_ranges": [
+      "501-600"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-612-scaglietti-g1.webp"
+  },
+  {
     "id": "ferrari-812-gts-g1",
     "make": "Ferrari",
     "model": "812 GTS",
@@ -10718,6 +11769,122 @@
         "displacement_cc": 6496
       }
     ]
+  },
+  {
+    "id": "ferrari-812-superfast-g1",
+    "make": "Ferrari",
+    "model": "812 Superfast",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2017,
+    "production_end": 2024,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 789,
+    "power_output_hp_max": 819,
+    "power_output_ranges": [
+      "701-800",
+      "801-900"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-812-superfast-g1.webp"
+  },
+  {
+    "id": "ferrari-849-testarossa-g1",
+    "make": "Ferrari",
+    "model": "849 Testarossa",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2026,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 1036,
+    "power_output_hp_max": 1036,
+    "power_output_ranges": [
+      "1000+"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-849-testarossa-g1.webp"
+  },
+  {
+    "id": "ferrari-amalfi-g1",
+    "make": "Ferrari",
+    "model": "Amalfi",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2025,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 631,
+    "power_output_hp_max": 631,
+    "power_output_ranges": [
+      "601-700"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-amalfi-g1.webp"
   },
   {
     "id": "ferrari-california-g1",
@@ -10768,6 +11935,162 @@
     ]
   },
   {
+    "id": "ferrari-california-t-g1",
+    "make": "Ferrari",
+    "model": "California T",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2014,
+    "production_end": 2017,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 552,
+    "power_output_hp_max": 592,
+    "power_output_ranges": [
+      "501-600"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-california-t-g1.webp"
+  },
+  {
+    "id": "ferrari-daytona-sp3-g1",
+    "make": "Ferrari",
+    "model": "Daytona SP3",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2022,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 829,
+    "power_output_hp_max": 829,
+    "power_output_ranges": [
+      "801-900"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-daytona-sp3-g1.webp"
+  },
+  {
+    "id": "ferrari-dino-206-246-gt-g1",
+    "make": "Ferrari",
+    "model": "Dino 206 / 246 GT",
+    "generation": 1,
+    "brands": [
+      "Ferrari",
+      "Dino"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1967,
+    "production_end": 1974,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 178,
+    "power_output_hp_max": 192,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-dino-206-246-gt-g1.webp"
+  },
+  {
+    "id": "ferrari-dino-308-gt4-g1",
+    "make": "Ferrari",
+    "model": "Dino 308 GT4",
+    "generation": 1,
+    "brands": [
+      "Ferrari",
+      "Dino"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1973,
+    "production_end": 1980,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 205,
+    "power_output_hp_max": 252,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-dino-308-gt4-g1.webp"
+  },
+  {
     "id": "ferrari-enzo-g1",
     "make": "Ferrari",
     "model": "Enzo",
@@ -10812,6 +12135,83 @@
         "displacement_cc": 5998.8
       }
     ]
+  },
+  {
+    "id": "ferrari-f12berlinetta-g1",
+    "make": "Ferrari",
+    "model": "F12berlinetta",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2012,
+    "production_end": 2017,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 730,
+    "power_output_hp_max": 769,
+    "power_output_ranges": [
+      "701-800"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-f12berlinetta-g1.webp"
+  },
+  {
+    "id": "ferrari-f355-g1",
+    "make": "Ferrari",
+    "model": "F355",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1994,
+    "production_end": 1999,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 375,
+    "power_output_hp_max": 375,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-f355-g1.webp"
   },
   {
     "id": "ferrari-f40-g1",
@@ -10908,6 +12308,82 @@
     ]
   },
   {
+    "id": "ferrari-f50-g1",
+    "make": "Ferrari",
+    "model": "F50",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1995,
+    "production_end": 1997,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 513,
+    "power_output_hp_max": 513,
+    "power_output_ranges": [
+      "501-600"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-f50-g1.webp"
+  },
+  {
+    "id": "ferrari-f512-m-g1",
+    "make": "Ferrari",
+    "model": "F512 M",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1994,
+    "production_end": 1996,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Flat-12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 434,
+    "power_output_hp_max": 434,
+    "power_output_ranges": [
+      "401-500"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-f512-m-g1.webp"
+  },
+  {
     "id": "ferrari-f8-spider-g1",
     "make": "Ferrari",
     "model": "F8 Spider",
@@ -10956,6 +12432,394 @@
     ]
   },
   {
+    "id": "ferrari-f8-tributo-g1",
+    "make": "Ferrari",
+    "model": "F8 Tributo",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2019,
+    "production_end": 2023,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 710,
+    "power_output_hp_max": 710,
+    "power_output_ranges": [
+      "701-800"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-f8-tributo-g1.webp"
+  },
+  {
+    "id": "ferrari-f80-g1",
+    "make": "Ferrari",
+    "model": "F80",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2025,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Hypercar",
+    "power_output_hp_min": 1184,
+    "power_output_hp_max": 1184,
+    "power_output_ranges": [
+      "1000+"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-f80-g1.webp"
+  },
+  {
+    "id": "ferrari-ff-g1",
+    "make": "Ferrari",
+    "model": "FF",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2011,
+    "production_end": 2016,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Wagon",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 651,
+    "power_output_hp_max": 651,
+    "power_output_ranges": [
+      "601-700"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-ff-g1.webp"
+  },
+  {
+    "id": "ferrari-gtc4lusso-g1",
+    "make": "Ferrari",
+    "model": "GTC4Lusso",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2016,
+    "production_end": 2020,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V12",
+      "V8"
+    ],
+    "body_style": "Wagon",
+    "drivetrain": [
+      "AWD",
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 602,
+    "power_output_hp_max": 680,
+    "power_output_ranges": [
+      "601-700"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-gtc4lusso-g1.webp"
+  },
+  {
+    "id": "ferrari-laferrari-g1",
+    "make": "Ferrari",
+    "model": "LaFerrari",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2013,
+    "production_end": 2018,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Hypercar",
+    "power_output_hp_min": 950,
+    "power_output_hp_max": 950,
+    "power_output_ranges": [
+      "901-1000"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-laferrari-g1.webp"
+  },
+  {
+    "id": "ferrari-mondial-g1",
+    "make": "Ferrari",
+    "model": "Mondial",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1980,
+    "production_end": 1993,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 211,
+    "power_output_hp_max": 296,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-mondial-g1.webp"
+  },
+  {
+    "id": "ferrari-monza-sp1-sp2-g1",
+    "make": "Ferrari",
+    "model": "Monza SP1 / SP2",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2019,
+    "production_end": 2021,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 799,
+    "power_output_hp_max": 799,
+    "power_output_ranges": [
+      "701-800"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-monza-sp1-sp2-g1.webp"
+  },
+  {
+    "id": "ferrari-portofino-g1",
+    "make": "Ferrari",
+    "model": "Portofino",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2018,
+    "production_end": 2020,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 592,
+    "power_output_hp_max": 592,
+    "power_output_ranges": [
+      "501-600"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-portofino-g1.webp"
+  },
+  {
+    "id": "ferrari-portofino-m-g1",
+    "make": "Ferrari",
+    "model": "Portofino M",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2021,
+    "production_end": 2023,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 612,
+    "power_output_hp_max": 612,
+    "power_output_ranges": [
+      "601-700"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-portofino-m-g1.webp"
+  },
+  {
+    "id": "ferrari-purosangue-g1",
+    "make": "Ferrari",
+    "model": "Purosangue",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 715,
+    "power_output_hp_max": 715,
+    "power_output_ranges": [
+      "701-800"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-purosangue-g1.webp"
+  },
+  {
     "id": "ferrari-roma-g1",
     "make": "Ferrari",
     "model": "Roma",
@@ -11002,6 +12866,84 @@
         "displacement_cc": 3855
       }
     ]
+  },
+  {
+    "id": "ferrari-sf90-stradale-g1",
+    "make": "Ferrari",
+    "model": "SF90 Stradale",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2020,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 986,
+    "power_output_hp_max": 1016,
+    "power_output_ranges": [
+      "901-1000",
+      "1000+"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-sf90-stradale-g1.webp"
+  },
+  {
+    "id": "ferrari-testarossa-g1",
+    "make": "Ferrari",
+    "model": "Testarossa",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1984,
+    "production_end": 1991,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Flat-12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Supercar",
+    "power_output_hp_min": 385,
+    "power_output_hp_max": 385,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": "/cars/ferrari-testarossa-g1.webp"
   },
   {
     "id": "fiat-124-spider-g1",

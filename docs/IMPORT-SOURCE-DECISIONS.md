@@ -244,6 +244,10 @@ Each entry is a judgment call I made while building `cargrid_cars.json`. To chan
 - Dino 206/246 and 308 GT4 list `brands: ["Ferrari","Dino"]` (they wore Dino badges).
 - F1 / DCT gearboxes = "Automatic".
 - Flat-12 cars (365 GT4 BB, 512 BB, Testarossa, 512 TR, F512 M) use the new "Flat-12" layout.
+- **125 S dropped on the road-cars-only rule.** Ferrari's first car, 1947, but
+  two were built, both were works racers and neither was sold — the same
+  grounds the Nissan R390 GT1 was dropped on. Homologation specials stay,
+  because a road-legal version was sold: the 250 GTO and 250 LM are both in.
 
 ## Fiat
 

@@ -456,6 +456,82 @@
     "image_url": ""
   },
   {
+    "id": "ferrari-250-gto-g1",
+    "make": "Ferrari",
+    "model": "250 GTO",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1962,
+    "production_end": 1964,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 296,
+    "power_output_hp_max": 296,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "ferrari-250-lm-g1",
+    "make": "Ferrari",
+    "model": "250 LM",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1963,
+    "production_end": 1965,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 316,
+    "power_output_hp_max": 316,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
     "id": "fiat-124-g1",
     "make": "Fiat",
     "model": "124",
