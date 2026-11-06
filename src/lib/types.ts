@@ -4,7 +4,7 @@ export interface Car {
   model: string;
   /**
    * Other names players genuinely type for this car — a US player searches
-   * "Miata", not "MX-5". Matched by searchCars but never displayed, so the
+   * "Miata", not "MX-5". Matched by searchNameplates but never displayed, so the
    * answer label stays canonical.
    */
   aliases?: string[];
@@ -32,6 +32,19 @@ export interface Car {
   powertrains?: Powertrain[];
 }
 
+/**
+ * A make + model and every generation of it in the catalog — what a player
+ * guesses, and what the autocomplete lists. Built by `groupByNameplate`;
+ * `cars` is ordered by generation.
+ */
+export interface Nameplate {
+  /** `${make} ${model}` — also the display label and the reuse key. */
+  key: string;
+  make: string;
+  model: string;
+  cars: Car[];
+}
+
 export interface Powertrain {
   name: string;
   displacement_cc?: number;
@@ -50,8 +63,8 @@ export type ParameterType =
   | "power_output"
   | "transmission"
   | "fuel_type"
-  | "pop_culture"
-  | "price_at_launch"
+  // "pop_culture" and "price_at_launch" were retired as axes on 2026-11-03 —
+  // see the note in parameters.mjs. The Car fields above stay; the axes went.
   | "manufacturer_still_active"
   | "aspiration"
   | "engine_position"

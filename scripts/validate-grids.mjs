@@ -7,8 +7,12 @@
  *
  * Checks each grid for:
  *   - known parameter types and non-empty labels
- *   - at least MIN_CELL valid answers in every cell
- *   - a perfect matching of 9 distinct cars (a 9/9 is actually achievable)
+ *   - at least MIN_CELL distinct nameplates answering every cell
+ *   - a perfect matching of 9 distinct nameplates (a 9/9 is achievable)
+ *
+ * Answers are counted as nameplates, not records, because a guess is Make +
+ * Model: a square holding five generations of Honda Civic offers the player one
+ * answer, not five, and using a nameplate consumes all of its generations.
  *
  * Also guards the schedule runway: --min-days fails the run when fewer than N
  * days remain from today, so a schedule about to run dry breaks CI instead of
@@ -21,7 +25,7 @@
 import { readFileSync } from "fs";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
-import { MATCH, PARAMETER_TYPES } from "./grid-params.mjs";
+import { MATCH, PARAMETER_TYPES, nameplateKey, hasDistinctSolution } from "./grid-params.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const cars = JSON.parse(readFileSync(join(__dirname, "../data/cars.json"), "utf8"));
@@ -40,28 +44,15 @@ function todayLocal() {
   return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
 }
 
+/** The distinct nameplates answering a square — what a player can type. */
 function candidates(row, col) {
-  return cars
-    .filter((c) => MATCH[row.type](c, row.value) && MATCH[col.type](c, col.value))
-    .map((c) => c.id);
-}
-
-function hasPerfectMatching(cells) {
-  const assignedTo = new Map();
-  const augment = (cell, seen) => {
-    for (const carId of cells[cell]) {
-      if (seen.has(carId)) continue;
-      seen.add(carId);
-      const holder = assignedTo.get(carId);
-      if (holder === undefined || augment(holder, seen)) {
-        assignedTo.set(carId, cell);
-        return true;
-      }
+  const plates = new Set();
+  for (const c of cars) {
+    if (MATCH[row.type](c, row.value) && MATCH[col.type](c, col.value)) {
+      plates.add(nameplateKey(c));
     }
-    return false;
-  };
-  for (let i = 0; i < cells.length; i++) if (!augment(i, new Set())) return false;
-  return true;
+  }
+  return [...plates];
 }
 
 let failures = 0;
@@ -83,13 +74,13 @@ for (const grid of grids) {
       for (const [c, col] of grid.columns.entries()) {
         const ids = candidates(row, col);
         if (ids.length < MIN_CELL) {
-          problems.push(`cell [${r}][${c}] ${row.label} x ${col.label}: ${ids.length} candidate(s)`);
+          problems.push(`cell [${r}][${c}] ${row.label} x ${col.label}: ${ids.length} nameplate(s)`);
         }
         cells.push(ids);
       }
     }
-    if (cells.length === 9 && !hasPerfectMatching(cells)) {
-      problems.push("no perfect matching — 9 distinct cars cannot fill the grid");
+    if (cells.length === 9 && !hasDistinctSolution(cells)) {
+      problems.push("no perfect matching — 9 distinct nameplates cannot fill the grid");
     }
   }
 

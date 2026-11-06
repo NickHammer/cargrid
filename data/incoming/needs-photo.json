@@ -1,0 +1,4347 @@
+[
+  {
+    "id": "cadillac-cts-g3",
+    "make": "Cadillac",
+    "model": "CTS",
+    "generation": 3,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 2014,
+    "production_end": 2019,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 268,
+    "power_output_hp_max": 420,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "cadillac-eldorado-g1",
+    "make": "Cadillac",
+    "model": "Eldorado",
+    "generation": 1,
+    "brands": [
+      "Cadillac"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1953,
+    "production_end": 1953,
+    "decades": [
+      "1950s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 210,
+    "power_output_hp_max": 210,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-ami-g1",
+    "make": "Citroën",
+    "model": "Ami",
+    "generation": 1,
+    "brands": [
+      "Citroën"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1961,
+    "production_end": 1978,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Flat-2",
+      "Flat-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 22,
+    "power_output_hp_max": 35,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-berlingo-g1",
+    "make": "Citroën",
+    "model": "Berlingo",
+    "generation": 1,
+    "brands": [
+      "Citroën",
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1996,
+    "production_end": 2008,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 59,
+    "power_output_hp_max": 108,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-berlingo-g2",
+    "make": "Citroën",
+    "model": "Berlingo",
+    "generation": 2,
+    "brands": [
+      "Citroën",
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2008,
+    "production_end": 2018,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Electric"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 74,
+    "power_output_hp_max": 118,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-c-zero-g1",
+    "make": "Citroën",
+    "model": "C-Zero",
+    "generation": 1,
+    "brands": [
+      "Citroën",
+      "Mitsubishi",
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2010,
+    "production_end": 2020,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 66,
+    "power_output_hp_max": 66,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-c3-g4",
+    "make": "Citroën",
+    "model": "C3",
+    "generation": 4,
+    "brands": [
+      "Citroën"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3",
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 99,
+    "power_output_hp_max": 111,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid",
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-c4-g1",
+    "make": "Citroën",
+    "model": "C4",
+    "generation": 1,
+    "brands": [
+      "Citroën"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2004,
+    "production_end": 2010,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 88,
+    "power_output_hp_max": 178,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-dyane-g1",
+    "make": "Citroën",
+    "model": "Dyane",
+    "generation": 1,
+    "brands": [
+      "Citroën"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1967,
+    "production_end": 1983,
+    "decades": [
+      "1960s",
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Flat-2"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 18,
+    "power_output_hp_max": 31,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-mehari-g1",
+    "make": "Citroën",
+    "model": "Méhari",
+    "generation": 1,
+    "brands": [
+      "Citroën"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1968,
+    "production_end": 1988,
+    "decades": [
+      "1960s",
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Flat-2"
+    ],
+    "body_style": "Convertible",
+    "drivetrain": [
+      "FWD",
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 26,
+    "power_output_hp_max": 31,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "citroen-xsara-g1",
+    "make": "Citroën",
+    "model": "Xsara",
+    "generation": 1,
+    "brands": [
+      "Citroën"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1997,
+    "production_end": 2006,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 69,
+    "power_output_hp_max": 165,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "ferrari-250-gto-g1",
+    "make": "Ferrari",
+    "model": "250 GTO",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1962,
+    "production_end": 1964,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 296,
+    "power_output_hp_max": 296,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "ferrari-250-lm-g1",
+    "make": "Ferrari",
+    "model": "250 LM",
+    "generation": 1,
+    "brands": [
+      "Ferrari"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1963,
+    "production_end": 1965,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "V12"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 316,
+    "power_output_hp_max": 316,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-124-g1",
+    "make": "Fiat",
+    "model": "124",
+    "generation": 1,
+    "brands": [
+      "Fiat",
+      "Lada",
+      "SEAT"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1966,
+    "production_end": 1974,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 59,
+    "power_output_hp_max": 108,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-125-g1",
+    "make": "Fiat",
+    "model": "125",
+    "generation": 1,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1967,
+    "production_end": 1972,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 99,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-130-g1",
+    "make": "Fiat",
+    "model": "130",
+    "generation": 1,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1969,
+    "production_end": 1977,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 138,
+    "power_output_hp_max": 163,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-600-g2",
+    "make": "Fiat",
+    "model": "600",
+    "generation": 2,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3",
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 99,
+    "power_output_hp_max": 154,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Hybrid",
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-marea-g1",
+    "make": "Fiat",
+    "model": "Marea",
+    "generation": 1,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1996,
+    "production_end": 2002,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-5"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 79,
+    "power_output_hp_max": 145,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-mobi-g1",
+    "make": "Fiat",
+    "model": "Mobi",
+    "generation": 1,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2016,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-3"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 73,
+    "power_output_hp_max": 77,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-panda-g3",
+    "make": "Fiat",
+    "model": "Panda",
+    "generation": 3,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 2011,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-2",
+      "Inline-3"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 59,
+    "power_output_hp_max": 89,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-punto-g1",
+    "make": "Fiat",
+    "model": "Punto",
+    "generation": 1,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1993,
+    "production_end": 1999,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 54,
+    "power_output_hp_max": 131,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-regata-g1",
+    "make": "Fiat",
+    "model": "Regata",
+    "generation": 1,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1983,
+    "production_end": 1990,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 55,
+    "power_output_hp_max": 100,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "fiat-strada-g1",
+    "make": "Fiat",
+    "model": "Strada",
+    "generation": 1,
+    "brands": [
+      "Fiat"
+    ],
+    "country_of_origin": "Italian",
+    "production_start": 1996,
+    "production_end": 2020,
+    "decades": [
+      "1990s",
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 63,
+    "power_output_hp_max": 130,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "holden-astra-g1",
+    "make": "Holden",
+    "model": "Astra",
+    "generation": 1,
+    "brands": [
+      "Holden",
+      "Nissan"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1984,
+    "production_end": 1987,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 74,
+    "power_output_hp_max": 85,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-astra-g3",
+    "make": "Holden",
+    "model": "Astra",
+    "generation": 3,
+    "brands": [
+      "Holden",
+      "Opel",
+      "Vauxhall"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1996,
+    "production_end": 1998,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 99,
+    "power_output_hp_max": 126,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-camira-g1",
+    "make": "Holden",
+    "model": "Camira",
+    "generation": 1,
+    "brands": [
+      "Holden"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1982,
+    "production_end": 1989,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 70,
+    "power_output_hp_max": 90,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-commodore-g1",
+    "make": "Holden",
+    "model": "Commodore",
+    "generation": 1,
+    "brands": [
+      "Holden"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1978,
+    "production_end": 1988,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-6",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 87,
+    "power_output_hp_max": 201,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-ej-eh-g1",
+    "make": "Holden",
+    "model": "EJ / EH",
+    "generation": 1,
+    "brands": [
+      "Holden"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1962,
+    "production_end": 1965,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 75,
+    "power_output_hp_max": 115,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-fb-ek-g1",
+    "make": "Holden",
+    "model": "FB / EK",
+    "generation": 1,
+    "brands": [
+      "Holden"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1960,
+    "production_end": 1962,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 75,
+    "power_output_hp_max": 75,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-gemini-g2",
+    "make": "Holden",
+    "model": "Gemini",
+    "generation": 2,
+    "brands": [
+      "Holden",
+      "Isuzu"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1985,
+    "production_end": 1987,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 70,
+    "power_output_hp_max": 75,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-jackaroo-g2",
+    "make": "Holden",
+    "model": "Jackaroo",
+    "generation": 2,
+    "brands": [
+      "Holden",
+      "Isuzu"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1991,
+    "production_end": 2003,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 113,
+    "power_output_hp_max": 215,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-kingswood-premier-g2",
+    "make": "Holden",
+    "model": "Kingswood / Premier",
+    "generation": 2,
+    "brands": [
+      "Holden"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1971,
+    "production_end": 1980,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-6",
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 118,
+    "power_output_hp_max": 240,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-torana-g1",
+    "make": "Holden",
+    "model": "Torana",
+    "generation": 1,
+    "brands": [
+      "Holden",
+      "Vauxhall"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 1967,
+    "production_end": 1969,
+    "decades": [
+      "1960s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 60,
+    "power_output_hp_max": 80,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-ute-g1",
+    "make": "Holden",
+    "model": "Ute",
+    "generation": 1,
+    "brands": [
+      "Holden"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 2000,
+    "production_end": 2007,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 197,
+    "power_output_hp_max": 349,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "holden-ute-g2",
+    "make": "Holden",
+    "model": "Ute",
+    "generation": 2,
+    "brands": [
+      "Holden",
+      "Chevrolet"
+    ],
+    "country_of_origin": "Australian",
+    "production_start": 2007,
+    "production_end": 2017,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "V8"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 241,
+    "power_output_hp_max": 408,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": false,
+    "image_url": ""
+  },
+  {
+    "id": "honda-accord-g2",
+    "make": "Honda",
+    "model": "Accord",
+    "generation": 2,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1982,
+    "production_end": 1985,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 75,
+    "power_output_hp_max": 110,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "honda-accord-g9",
+    "make": "Honda",
+    "model": "Accord",
+    "generation": 9,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2013,
+    "production_end": 2017,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 185,
+    "power_output_hp_max": 278,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "honda-cr-v-g4",
+    "make": "Honda",
+    "model": "CR-V",
+    "generation": 4,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2012,
+    "production_end": 2016,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 118,
+    "power_output_hp_max": 185,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "honda-legend-g5",
+    "make": "Honda",
+    "model": "Legend",
+    "generation": 5,
+    "brands": [
+      "Honda",
+      "Acura"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2015,
+    "production_end": 2022,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 377,
+    "power_output_hp_max": 377,
+    "power_output_ranges": [
+      "301-400"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "honda-n-box-g2",
+    "make": "Honda",
+    "model": "N-Box",
+    "generation": 2,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2017,
+    "production_end": 2023,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 57,
+    "power_output_hp_max": 63,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "honda-n-box-g3",
+    "make": "Honda",
+    "model": "N-Box",
+    "generation": 3,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2023,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 57,
+    "power_output_hp_max": 63,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "honda-prelude-g6",
+    "make": "Honda",
+    "model": "Prelude",
+    "generation": 6,
+    "brands": [
+      "Honda"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2025,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 200,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "jeep-cj-6-g1",
+    "make": "Jeep",
+    "model": "CJ-6",
+    "generation": 1,
+    "brands": [
+      "Jeep"
+    ],
+    "country_of_origin": "American",
+    "production_start": 1955,
+    "production_end": 1975,
+    "decades": [
+      "1950s",
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6",
+      "Inline-6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 72,
+    "power_output_hp_max": 160,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "lexus-es-g2",
+    "make": "Lexus",
+    "model": "ES",
+    "generation": 2,
+    "brands": [
+      "Lexus",
+      "Toyota"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1991,
+    "production_end": 1996,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 185,
+    "power_output_hp_max": 188,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "lexus-ls-g2",
+    "make": "Lexus",
+    "model": "LS",
+    "generation": 2,
+    "brands": [
+      "Lexus",
+      "Toyota"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1994,
+    "production_end": 2000,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "V8"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 250,
+    "power_output_hp_max": 290,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mitsubishi-galant-g6",
+    "make": "Mitsubishi",
+    "model": "Galant",
+    "generation": 6,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1987,
+    "production_end": 1992,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 90,
+    "power_output_hp_max": 237,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mitsubishi-l200-triton-g1",
+    "make": "Mitsubishi",
+    "model": "L200 / Triton",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi",
+      "Dodge"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1978,
+    "production_end": 1986,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 79,
+    "power_output_hp_max": 108,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mitsubishi-l200-triton-g2",
+    "make": "Mitsubishi",
+    "model": "L200 / Triton",
+    "generation": 2,
+    "brands": [
+      "Mitsubishi",
+      "Dodge"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1986,
+    "production_end": 1996,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Pickup Truck",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "Pickup Truck",
+    "power_output_hp_min": 76,
+    "power_output_hp_max": 150,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mitsubishi-lancer-evolution-ii-g1",
+    "make": "Mitsubishi",
+    "model": "Lancer Evolution II",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1994,
+    "production_end": 1995,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 256,
+    "power_output_hp_max": 256,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mitsubishi-lancer-evolution-iii-g1",
+    "make": "Mitsubishi",
+    "model": "Lancer Evolution III",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1995,
+    "production_end": 1996,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 266,
+    "power_output_hp_max": 266,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mitsubishi-lancer-evolution-v-g1",
+    "make": "Mitsubishi",
+    "model": "Lancer Evolution V",
+    "generation": 1,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1998,
+    "production_end": 1999,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "AWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 276,
+    "power_output_hp_max": 276,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "mitsubishi-pajero-sport-montero-sport-g2",
+    "make": "Mitsubishi",
+    "model": "Pajero Sport / Montero Sport",
+    "generation": 2,
+    "brands": [
+      "Mitsubishi"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2008,
+    "production_end": 2015,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "V6",
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 134,
+    "power_output_hp_max": 217,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "nissan-micra-g6",
+    "make": "Nissan",
+    "model": "Micra",
+    "generation": 6,
+    "brands": [
+      "Nissan"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 2025,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 120,
+    "power_output_hp_max": 148,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "nissan-patrol-g2",
+    "make": "Nissan",
+    "model": "Patrol",
+    "generation": 2,
+    "brands": [
+      "Nissan"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1980,
+    "production_end": 1989,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "4WD"
+    ],
+    "car_class": "Off-Road",
+    "power_output_hp_min": 94,
+    "power_output_hp_max": 140,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "nissan-pulsar-nx-nx-g1",
+    "make": "Nissan",
+    "model": "Pulsar NX / NX",
+    "generation": 1,
+    "brands": [
+      "Nissan"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1983,
+    "production_end": 1993,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Coupe",
+    "power_output_hp_min": 67,
+    "power_output_hp_max": 140,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "nissan-skyline-g9",
+    "make": "Nissan",
+    "model": "Skyline",
+    "generation": 9,
+    "brands": [
+      "Nissan"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1993,
+    "production_end": 1998,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 123,
+    "power_output_hp_max": 247,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "nissan-skyline-gt-r-g2",
+    "make": "Nissan",
+    "model": "Skyline GT-R",
+    "generation": 2,
+    "brands": [
+      "Nissan"
+    ],
+    "country_of_origin": "Japanese",
+    "production_start": 1973,
+    "production_end": 1973,
+    "decades": [
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "Coupe",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sports Car",
+    "power_output_hp_min": 158,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-106-g1",
+    "make": "Peugeot",
+    "model": "106",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1991,
+    "production_end": 2003,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 44,
+    "power_output_hp_max": 118,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-304-g1",
+    "make": "Peugeot",
+    "model": "304",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1969,
+    "production_end": 1980,
+    "decades": [
+      "1960s",
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 44,
+    "power_output_hp_max": 74,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-308-g1",
+    "make": "Peugeot",
+    "model": "308",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2007,
+    "production_end": 2013,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 94,
+    "power_output_hp_max": 197,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-309-g1",
+    "make": "Peugeot",
+    "model": "309",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1985,
+    "production_end": 1993,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 54,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-404-g1",
+    "make": "Peugeot",
+    "model": "404",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1960,
+    "production_end": 1975,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 54,
+    "power_output_hp_max": 95,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-406-g1",
+    "make": "Peugeot",
+    "model": "406",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1995,
+    "production_end": 2004,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 207,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-5008-g1",
+    "make": "Peugeot",
+    "model": "5008",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2009,
+    "production_end": 2016,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 118,
+    "power_output_hp_max": 197,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-508-g1",
+    "make": "Peugeot",
+    "model": "508",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2010,
+    "production_end": 2018,
+    "decades": [
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 118,
+    "power_output_hp_max": 201,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-607-g1",
+    "make": "Peugeot",
+    "model": "607",
+    "generation": 1,
+    "brands": [
+      "Peugeot"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1999,
+    "production_end": 2010,
+    "decades": [
+      "1990s",
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 134,
+    "power_output_hp_max": 207,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "peugeot-ion-g1",
+    "make": "Peugeot",
+    "model": "iOn",
+    "generation": 1,
+    "brands": [
+      "Peugeot",
+      "Mitsubishi",
+      "Citroën"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2011,
+    "production_end": 2020,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 63,
+    "power_output_hp_max": 66,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-10-g1",
+    "make": "Renault",
+    "model": "10",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1965,
+    "production_end": 1971,
+    "decades": [
+      "1960s",
+      "1970s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 43,
+    "power_output_hp_max": 52,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-14-g1",
+    "make": "Renault",
+    "model": "14",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1976,
+    "production_end": 1983,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 56,
+    "power_output_hp_max": 69,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-19-g1",
+    "make": "Renault",
+    "model": "19",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1988,
+    "production_end": 2000,
+    "decades": [
+      "1980s",
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 54,
+    "power_output_hp_max": 135,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-21-g1",
+    "make": "Renault",
+    "model": "21",
+    "generation": 1,
+    "brands": [
+      "Renault",
+      "Eagle"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1986,
+    "production_end": 1995,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 67,
+    "power_output_hp_max": 173,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-25-g1",
+    "make": "Renault",
+    "model": "25",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1984,
+    "production_end": 1992,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 63,
+    "power_output_hp_max": 202,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-4-e-tech-g2",
+    "make": "Renault",
+    "model": "4 E-Tech",
+    "generation": 2,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 118,
+    "power_output_hp_max": 148,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-5-e-tech-g3",
+    "make": "Renault",
+    "model": "5 E-Tech",
+    "generation": 3,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 94,
+    "power_output_hp_max": 148,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-5-g1",
+    "make": "Renault",
+    "model": "5",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1972,
+    "production_end": 1985,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 33,
+    "power_output_hp_max": 108,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-9-11-g1",
+    "make": "Renault",
+    "model": "9 / 11",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1981,
+    "production_end": 1989,
+    "decades": [
+      "1980s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 46,
+    "power_output_hp_max": 113,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-arkana-g1",
+    "make": "Renault",
+    "model": "Arkana",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2019,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 112,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-clio-g3",
+    "make": "Renault",
+    "model": "Clio",
+    "generation": 3,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2005,
+    "production_end": 2014,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 64,
+    "power_output_hp_max": 200,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-clio-g6",
+    "make": "Renault",
+    "model": "Clio",
+    "generation": 6,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2025,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3",
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 113,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-espace-g1",
+    "make": "Renault",
+    "model": "Espace",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1984,
+    "production_end": 1991,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 118,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-fluence-g1",
+    "make": "Renault",
+    "model": "Fluence",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2009,
+    "production_end": 2017,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Electric"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 138,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-kangoo-g1",
+    "make": "Renault",
+    "model": "Kangoo",
+    "generation": 1,
+    "brands": [
+      "Renault",
+      "Nissan"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1997,
+    "production_end": 2007,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD",
+      "4WD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 57,
+    "power_output_hp_max": 94,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-kangoo-g3",
+    "make": "Renault",
+    "model": "Kangoo",
+    "generation": 3,
+    "brands": [
+      "Renault",
+      "Mercedes-Benz",
+      "Nissan"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2021,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Electric"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 74,
+    "power_output_hp_max": 129,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-laguna-g1",
+    "make": "Renault",
+    "model": "Laguna",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1993,
+    "production_end": 2001,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "V6"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 89,
+    "power_output_hp_max": 191,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-megane-g1",
+    "make": "Renault",
+    "model": "Mégane",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1995,
+    "production_end": 2002,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 74,
+    "power_output_hp_max": 148,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-megane-rs-g2",
+    "make": "Renault",
+    "model": "Mégane RS",
+    "generation": 2,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2004,
+    "production_end": 2009,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hot Hatch",
+    "power_output_hp_min": 222,
+    "power_output_hp_max": 227,
+    "power_output_ranges": [
+      "201-300"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-rafale-g1",
+    "make": "Renault",
+    "model": "Rafale",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 197,
+    "power_output_hp_max": 296,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Hybrid",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-scenic-g2",
+    "make": "Renault",
+    "model": "Scénic",
+    "generation": 2,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2003,
+    "production_end": 2009,
+    "decades": [
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 79,
+    "power_output_hp_max": 161,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-scenic-g4",
+    "make": "Renault",
+    "model": "Scénic",
+    "generation": 4,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2016,
+    "production_end": 2022,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Minivan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Minivan",
+    "power_output_hp_min": 113,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-symbioz-g1",
+    "make": "Renault",
+    "model": "Symbioz",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2024,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 138,
+    "power_output_hp_max": 158,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-talisman-g1",
+    "make": "Renault",
+    "model": "Talisman",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 2015,
+    "production_end": 2022,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 108,
+    "power_output_hp_max": 222,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "renault-twingo-g1",
+    "make": "Renault",
+    "model": "Twingo",
+    "generation": 1,
+    "brands": [
+      "Renault"
+    ],
+    "country_of_origin": "French",
+    "production_start": 1993,
+    "production_end": 2007,
+    "decades": [
+      "1990s",
+      "2000s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 54,
+    "power_output_hp_max": 74,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "skoda-octavia-g2",
+    "make": "Skoda",
+    "model": "Octavia",
+    "generation": 2,
+    "brands": [
+      "Skoda"
+    ],
+    "country_of_origin": "Czech",
+    "production_start": 2004,
+    "production_end": 2013,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 74,
+    "power_output_hp_max": 197,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "skoda-octavia-g4",
+    "make": "Skoda",
+    "model": "Octavia",
+    "generation": 4,
+    "brands": [
+      "Skoda"
+    ],
+    "country_of_origin": "Czech",
+    "production_start": 2019,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-3",
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 108,
+    "power_output_hp_max": 261,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "skoda-popular-g1",
+    "make": "Skoda",
+    "model": "Popular",
+    "generation": 1,
+    "brands": [
+      "Skoda"
+    ],
+    "country_of_origin": "Czech",
+    "production_start": 1934,
+    "production_end": 1946,
+    "decades": [
+      "1930s",
+      "1940s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 18,
+    "power_output_hp_max": 31,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volvo-260-g1",
+    "make": "Volvo",
+    "model": "260",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1975,
+    "production_end": 1985,
+    "decades": [
+      "1970s",
+      "1980s"
+    ],
+    "engine_layouts": [
+      "V6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 123,
+    "power_output_hp_max": 168,
+    "power_output_ranges": [
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volvo-340-360-g1",
+    "make": "Volvo",
+    "model": "340 / 360",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1976,
+    "production_end": 1991,
+    "decades": [
+      "1970s",
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 53,
+    "power_output_hp_max": 113,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic",
+      "CVT"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volvo-440-460-g1",
+    "make": "Volvo",
+    "model": "440 / 460",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1988,
+    "production_end": 1996,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Hatchback",
+    "drivetrain": [
+      "FWD"
+    ],
+    "car_class": "Hatchback",
+    "power_output_hp_min": 69,
+    "power_output_hp_max": 118,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volvo-740-g1",
+    "make": "Volvo",
+    "model": "740",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1984,
+    "production_end": 1992,
+    "decades": [
+      "1980s",
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 82,
+    "power_output_hp_max": 180,
+    "power_output_ranges": [
+      "0-100",
+      "101-200"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volvo-c40-ec40-g1",
+    "make": "Volvo",
+    "model": "C40 / EC40",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2021,
+    "production_end": null,
+    "decades": [
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Electric"
+    ],
+    "body_style": "SUV",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "car_class": "SUV",
+    "power_output_hp_min": 228,
+    "power_output_hp_max": 402,
+    "power_output_ranges": [
+      "201-300",
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Electric"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volvo-pv444-g1",
+    "make": "Volvo",
+    "model": "PV444",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1947,
+    "production_end": 1958,
+    "decades": [
+      "1940s",
+      "1950s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 39,
+    "power_output_hp_max": 84,
+    "power_output_ranges": [
+      "0-100"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volvo-s40-v50-g2",
+    "make": "Volvo",
+    "model": "S40 / V50",
+    "generation": 2,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2004,
+    "production_end": 2012,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-5"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 99,
+    "power_output_hp_max": 227,
+    "power_output_ranges": [
+      "0-100",
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volvo-s90-v90-g1",
+    "make": "Volvo",
+    "model": "S90 / V90",
+    "generation": 1,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 1996,
+    "production_end": 1998,
+    "decades": [
+      "1990s"
+    ],
+    "engine_layouts": [
+      "Inline-6"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "RWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 178,
+    "power_output_hp_max": 201,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volvo-s90-v90-g2",
+    "make": "Volvo",
+    "model": "S90 / V90",
+    "generation": 2,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2016,
+    "production_end": null,
+    "decades": [
+      "2010s",
+      "2020s"
+    ],
+    "engine_layouts": [
+      "Inline-4"
+    ],
+    "body_style": "Sedan",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Sedan",
+    "power_output_hp_min": 148,
+    "power_output_hp_max": 455,
+    "power_output_ranges": [
+      "101-200",
+      "201-300",
+      "301-400",
+      "401-500"
+    ],
+    "transmission": [
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel",
+      "Plug-in Hybrid"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  },
+  {
+    "id": "volvo-xc70-g2",
+    "make": "Volvo",
+    "model": "XC70",
+    "generation": 2,
+    "brands": [
+      "Volvo"
+    ],
+    "country_of_origin": "Swedish",
+    "production_start": 2007,
+    "production_end": 2016,
+    "decades": [
+      "2000s",
+      "2010s"
+    ],
+    "engine_layouts": [
+      "Inline-4",
+      "Inline-6",
+      "Inline-5"
+    ],
+    "body_style": "Wagon",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "car_class": "Wagon",
+    "power_output_hp_min": 161,
+    "power_output_hp_max": 300,
+    "power_output_ranges": [
+      "101-200",
+      "201-300"
+    ],
+    "transmission": [
+      "Manual",
+      "Automatic"
+    ],
+    "fuel_type": [
+      "Gasoline",
+      "Diesel"
+    ],
+    "pop_culture": null,
+    "price_at_launch_usd": null,
+    "manufacturer_still_active": true,
+    "image_url": ""
+  }
+]

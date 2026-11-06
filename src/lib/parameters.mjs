@@ -1,6 +1,16 @@
 /**
  * Shared by the browser, generator, coverage reports and validator.
  * No filesystem or network dependencies: facts ship as static JSON.
+ *
+ * `pop_culture` and `price_at_launch` were retired as grid axes on 2026-11-03.
+ * Both failed on data, not on idea. Pop Culture had 7 cars of the 730 filled
+ * in, so it never cleared the eligibility floor and appeared in zero of 742
+ * scheduled grids — a declared type that could not appear. Price at Launch had
+ * 50 of 730 priced, and the squares it did reach asked a player to know what a
+ * 1994 saloon cost, which is recall, not reasoning. **The car fields stay**:
+ * `pop_culture` and `price_at_launch_usd` are still real facts on the records
+ * and still schema-checked. Only the axes are gone. Re-adding either means
+ * filling in the data first — a few hundred records, not a few lines here.
  */
 
 /** @type {Record<import('./types').ParameterType, (car: import('./types').Car, value: string) => boolean>} */
@@ -15,8 +25,6 @@ export const MATCH = {
   power_output: (c, v) => c.power_output_ranges.includes(v),
   transmission: (c, v) => c.transmission.includes(v),
   fuel_type: (c, v) => c.fuel_type.includes(v),
-  pop_culture: (c, v) => c.pop_culture?.includes(v) ?? false,
-  price_at_launch: (c, v) => inPriceRange(c.price_at_launch_usd, v),
   manufacturer_still_active: (c, v) => String(c.manufacturer_still_active) === v,
   aspiration: (c, v) => powertrainValues(c).includes(v),
   engine_position: (c, v) => c.engine_position === v,
@@ -38,8 +46,6 @@ export const VALUES = {
   power_output: (c) => c.power_output_ranges,
   transmission: (c) => c.transmission,
   fuel_type: (c) => c.fuel_type,
-  pop_culture: (c) => c.pop_culture ?? [],
-  price_at_launch: (c) => PRICE_BUCKETS.filter((b) => inPriceRange(c.price_at_launch_usd, b)),
   manufacturer_still_active: (c) => [String(c.manufacturer_still_active)],
   aspiration: powertrainValues,
   engine_position: (c) => c.engine_position ? [c.engine_position] : [],
@@ -169,24 +175,13 @@ export function cylinderValues(car) {
   return [...new Set(counts)].sort((a, b) => a - b).map(String);
 }
 
-export const PRICE_BUCKETS = [
-  "0-10000", "10001-25000", "25001-50000", "50001-100000", "100000+",
-];
-
-function inPriceRange(price, range) {
-  if (price === null || price === undefined) return false;
-  if (range.endsWith("+")) return price >= parseInt(range);
-  const [min, max] = range.split("-").map(Number);
-  return price >= min && price <= max;
-}
-
 /** Tiers from CLAUDE.md — tier 3 is "use sparingly". */
 export const TIER = {
   brand: 1, country_of_origin: 1, decade: 1,
   engine_layout: 1, body_style: 1, drivetrain: 1,
   car_class: 2, power_output: 2,
   transmission: 3, fuel_type: 3,
-  pop_culture: 3, price_at_launch: 3, manufacturer_still_active: 3,
+  manufacturer_still_active: 3,
   aspiration: 2, engine_position: 1, displacement: 2, cylinder_count: 1,
   // Tier 2, not 1: both are broader than the category they generalise, so they
   // make easier puzzles than Brand or Country and should not outrank them.
@@ -209,12 +204,6 @@ export function labelFor(type, value) {
       return `${value} cylinders`;
     case "power_output":
       return value.endsWith("+") ? `${value.slice(0, -1)}+ hp` : `${value.replace("-", "–")} hp`;
-    case "price_at_launch": {
-      const usd = (n) => `$${Number(n).toLocaleString("en-US")}`;
-      if (value.endsWith("+")) return `${usd(value.slice(0, -1))}+`;
-      const [min, max] = value.split("-");
-      return `${usd(min)}–${usd(max)}`;
-    }
     case "manufacturer_still_active":
       return value === "true" ? "Brand still active" : "Brand defunct";
     case "fuel_type":

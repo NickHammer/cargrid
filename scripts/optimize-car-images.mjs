@@ -56,3 +56,29 @@ fs.writeFileSync(CREDITS_PATH, JSON.stringify(credits, null, 2) + "\n");
 
 const mb = (n) => (n / 1024 / 1024).toFixed(1) + " MB";
 console.log(`${converted} images converted: ${mb(before)} -> ${mb(after)}`);
+
+/**
+ * Flag anything the 4:3 tile will cut badly.
+ *
+ * This resize keeps the source shape, and the tile crops to 4:3 from the
+ * centre, so a 2.5:1 photo loses nearly half its width with nothing choosing
+ * which half — 70 published photos were in that state before being re-cropped
+ * by hand. Warn rather than crop automatically: which part of a wide photo
+ * holds the car is a judgment a script keeps getting wrong, which is why
+ * recrop-wide-images.mjs offers candidates for review instead of deciding.
+ */
+const wide = [];
+for (const id of Object.keys(credits)) {
+  const file = path.join(DIR, `${id}.webp`);
+  if (!fs.existsSync(file)) continue;
+  const meta = await sharp(file).metadata();
+  const aspect = meta.width / meta.height;
+  if (aspect > 2.0) wide.push([id, aspect]);
+}
+if (wide.length) {
+  console.log(`\n${wide.length} photo(s) wider than 2:1 — the tile will cut off the sides:`);
+  for (const [id, aspect] of wide.sort((a, b) => b[1] - a[1])) {
+    console.log(`  ${id} — ${aspect.toFixed(2)}:1, keeps ${Math.round((4 / 3 / aspect) * 100)}% of its width`);
+  }
+  console.log("  Fix with: node scripts/recrop-wide-images.mjs --fetch && --candidates");
+}

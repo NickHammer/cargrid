@@ -49,8 +49,7 @@ node scripts/validate-grids.mjs --min 3
 
 ## Grid Parameters
 
-19 parameter types (Racing Heritage removed), drawn from a pool to construct
-each daily grid. `src/lib/parameters.mjs` is the source of truth — this list
+17 parameter types, drawn from a pool to construct each daily grid. `src/lib/parameters.mjs` is the source of truth — this list
 has gone stale before, so check `PARAMETER_TYPES` rather than trusting it.
 
 **Tier 1 — Identity/Attribute (high value)**
@@ -60,7 +59,20 @@ has gone stale before, so check `PARAMETER_TYPES` rather than trusting it.
 - Car Class, Power Output, Aspiration, Displacement, Region, Parent Group
 
 **Tier 3 — Use sparingly**
-- Transmission, Fuel Type, Pop Culture, Price at Launch, Manufacturer Still Active
+- Transmission, Fuel Type, Manufacturer Still Active
+
+**Pop Culture and Price at Launch were retired as axes on 2026-11-03**, taking
+the list from 19 to 17. Both failed on data, not on idea. Pop Culture had 7 of
+730 cars filled in, never cleared the eligibility floor, and appeared in **zero**
+of 742 scheduled grids — a declared type that could not appear is a trap for
+whoever reads this list next. Price at Launch had 50 of 730 priced and reached
+27 grids, but a square asking which car cost $25–50k in 1994 tests recall, not
+reasoning, which is the wrong kind of hard for this game. **The `pop_culture`
+and `price_at_launch_usd` fields stay on the records** and are still
+schema-checked — only the axes are gone, so re-adding one means filling in a few
+hundred records first, not editing `parameters.mjs`. Retiring Price at Launch
+meant regenerating every future grid, since 27 of them referenced it; past dates
+and the live day were verified byte-identical across that regeneration.
 
 **Region and Parent Group are derived, not stored** — from `country_of_origin`
 and `brands` respectively, via lookup tables in `parameters.mjs`, so they cannot
@@ -76,15 +88,68 @@ genuine multi-marque owners and is a point-in-time fact — Subaru and Mazda are
 - Brand CAN appear on both row and column axes — rebadged cars can satisfy two brand parameters simultaneously; a car record supports multiple brands.
 - Car Class definitions are kept as strict as possible; each car has an explicit, curated class tag — not inferred.
 - One axis should generally favor identity-based parameters (Brand, Country, Decade) and the other attribute-based (Engine, Body Style, Class), but this is a soft guideline.
-- A grid entry is **Make + Model** (e.g., "Ford Mustang") — no year, trim, or edition required when guessing. When multiple generations exist in the dataset, autocomplete disambiguates: "Subaru Crosstrek (Gen 2 · 2018–2023)".
+- A grid entry is **Make + Model** (e.g., "Ford Mustang") — no year, trim, edition or **generation** required when guessing. The autocomplete lists one row per nameplate, and a guess is correct when **any** generation of it answers the square. See "Guessing is Make + Model" below — this rule is load-bearing and was violated by the UI for a long time.
 - Each generation is a **separate entry** with its own ID (`subaru-crosstrek-g2`) and specs scoped to that generation, recorded as the **span of that generation's factory line-up\***.
 - \* **A performance version gets its own record. Fold it into its parent only when it adds nothing** — same `car_class`, same `body_style`, same `drivetrain`, and its power sits inside a 100 hp bucket the base line-up already covers. A badge-and-wheels trim 15 hp up folds in; a different machine gets its own entry. So Challenger SRT Demon, Charger Hellcat, Mustang GT500, Camaro ZL1, Golf GTI and EV6 GT are all **separate records**, alongside M3, WRX STI, Civic Type R and Focus RS.
 - \* **Do not decide this by counting differing fields.** `power_output_hp_min`, `power_output_hp_max` and `power_output_ranges` always move together, so any faster version differs in three fields before anything else is compared — measured at 7–9 of 13 fields across six real parent/variant pairs. A threshold that never returns "fold" is not a test.
-- \* **Why separate, despite Make + Model guessing:** folding makes a record claim capability no ordinary example of that car had. While the Demon was folded in, `dodge-challenger-g3` spanned 250–1025 hp, so "Dodge Challenger" was accepted as a correct answer to a **1000+ hp** square. Separating makes the Demon right and the base car wrong, which is the better puzzle, and the autocomplete disambiguates by name exactly as it already does for generations. Engine *options* on one model are not variants and stay folded — a 1970 Challenger could be ordered with a straight-six or a 426 Hemi, which is why `dodge-challenger-g1` legitimately reads 145–425 hp.
+- \* **Why separate, despite Make + Model guessing:** folding makes a record claim capability no ordinary example of that car had. While the Demon was folded in, `dodge-challenger-g3` spanned 250–1025 hp, so "Dodge Challenger" was accepted as a correct answer to a **1000+ hp** square. Separating makes the Demon right and the base car wrong, which is the better puzzle, and the autocomplete disambiguates by name, because a performance variant is curated as its own *model* and so is its own nameplate. Engine *options* on one model are not variants and stay folded — a 1970 Challenger could be ordered with a straight-six or a 426 Hemi, which is why `dodge-challenger-g1` legitimately reads 145–425 hp.
 - This says *span*, not *launch day*. An engine added mid-generation counts; an engine from the next generation does not. The dataset has always worked this way — `subaru-impreza-g1` reads 110–240 hp for 1992–2000, a range no 1992 car could reach — and the earlier "launch specs only" wording contradicted it.
 - IDs always include the generation suffix (`-g1`, `-g2`, etc.) even if only one generation exists in the dataset.
 - Decades, Engine Layout, Drivetrain, Transmission, and Fuel Type are **multi-value** — a car qualifies for all options it was offered with at release.
 - Power Output uses **100hp buckets**: `0-100`, `101-200`, `201-300`, `301-400`, `401-500`, `501-600`, `601-700`, `701-800`, `801-900`, `901-1000`, `1000+`. A car with multiple engine options spans multiple buckets.
+
+### Guessing is Make + Model — the nameplate rule
+
+A **record** is one generation (`honda-civic-g7`). A **nameplate** is a make plus
+model ("Honda Civic"). The player guesses *nameplates*; everything the game
+counts as an "answer" is a nameplate. `src/lib/nameplates.mjs` is the source of
+truth, shared by the browser, the generator and both validators via
+`scripts/grid-params.mjs`.
+
+Three rules, which only make sense together:
+
+1. **A nameplate answers a square when one of its records matches both axes.**
+   One record has to carry both facts — `firstAnswering` resolves per record on
+   purpose. Accepting a nameplate because Gen 1 matched the row and Gen 9 the
+   column would make "Honda Civic" correct for squares no Civic ever satisfied.
+2. **Guessing a nameplate consumes all of its generations.** Without this,
+   "Honda Civic" could fill two cells using two generations.
+3. **`minCell` and `minSupport` count distinct nameplates.** Three records that
+   are three generations of one car are one answer, not three.
+
+**Why it was changed (2026-11-05).** The autocomplete used to list one row per
+record, labelled `(Gen N)`. Years are withheld because `Decade` is a live axis,
+so the list offered eleven unlabelled Honda Civics and marked eight of them
+wrong. Measured over the then-743-day schedule: **80% of squares** (5,352 of
+6,687) held a nameplate where some generations answered and some did not, and a
+player who knew the right car had a **44.5%** chance of picking the right
+generation — worse than a coin flip. `2027-06-18 Muscle Car × 2010s` was every
+answer a gamble: Camaro 2/4, Challenger 1/2, Charger 1/3, Mustang 2/4. It also
+got worse with every record added: because the 10-result cap was applied *after*
+filtering, "civic" and "skyline" filled all ten dropdown slots with one car and
+pushed every other match out.
+
+**Do not re-add generation or year disambiguation to the dropdown.** Years hand
+over `Decade`. Generation numbers are the compromise that was tried and was
+worse than both alternatives, because they ask the player to choose with nothing
+to choose on. The asymmetry is deliberate: years *are* shown in
+`docs/PHOTO-CHECK.md`, which is a maintainer's checklist where checking the year
+against the bodywork is the whole point.
+
+**What this cost, measured before shipping.** Nameplate-level perfect matching
+passed on all 743 then-scheduled grids, so **no grid became unsolvable** and
+nothing had to be regenerated for solvability. Two floors did move: 7 squares of
+6,687 fell below 3 distinct nameplates (worst: `2026-11-22 Diesel × Honda Motor`,
+5 records all Honda Civic — one answer), and one category of 137 fell below
+`minSupport` — `brand:Infiniti`, 13 records but 7 nameplates, because every
+Infiniti here is a rebadged Nissan sharing its nameplate. Infiniti left the pool
+and the schedule was regenerated from the following day; dates through
+2026-11-05 were verified byte-identical. Counting support in nameplates also
+*widened* the schedule, from 110 to 128 distinct categories used.
+
+`GameState` and `localStorage` were deliberately left alone — a cell still stores
+the id of the generation that filled it, and used nameplates are derived from it
+by `usedNameplateKeys`, so boards saved before the change still load.
 
 ## Car Data Schema
 
@@ -129,8 +194,6 @@ interface Car {
 | Power Output | `car.power_output_ranges.includes(param)` |
 | Transmission | `car.transmission.includes(param)` |
 | Fuel Type | `car.fuel_type.includes(param)` |
-| Pop Culture | `car.pop_culture?.includes(param)` |
-| Price at Launch | range check against `price_at_launch_usd` |
 | Manufacturer Still Active | boolean match |
 
 ## Car Dataset
@@ -214,6 +277,121 @@ node scripts/optimize-car-images.mjs              # re-encode to 640px WebP
 node scripts/apply-image-urls.mjs                 # verified entries -> cars.json image_url
 ```
 
+**A photo wider than 2:1 cannot just be dropped in.** The tile is 4:3 and crops
+from the centre, so a 2.66:1 photo shows only its middle 50% and nothing picked
+which 50% — the car's nose or tail ends up outside the tile. 70 of 716 published
+photos were in that state. `optimize-car-images.mjs` now lists anything over 2:1
+at the end of a run, and `recrop-wide-images.mjs` fixes them:
+
+```bash
+node scripts/recrop-wide-images.mjs --fetch        # big originals back from Commons
+node scripts/recrop-wide-images.mjs --candidates   # 4 options per car + review sheets
+node scripts/recrop-wide-images.mjs --apply picks.json
+```
+
+It re-downloads from Commons rather than re-cropping the published file, because
+a 4:3 window out of a 640x241 webp is 321px wide for a ~300px tile with nothing
+spare; the `source` URL kept for attribution is what makes the original findable
+again. Four options are offered because **no automatic rule gets this right**:
+sharp's `attention` strategy picked a background pickup truck over the Buick
+Riviera in front of it. Of the 70, `attention` won 34, `entropy` 17, plain
+centre 3 — and 16 needed the fourth option, `whole`, which fits the entire photo
+into the tile and fills the band above and below with a blurred, darkened copy
+of itself. That one exists because when a car fills the width of a 2.6:1 frame,
+*every* 4:3 crop is a door and a wheel; it is also the right answer when cropping
+would cut off what defines the class, like a pickup's bed or an estate's tail.
+The crops are stored at exactly 4:3, so the tile no longer crops at all.
+
+### Adding a brand — the import wave loop
+
+~2,600 curated records wait in `data/incoming/cargrid-import.json` and cross
+over **one brand at a time**, each wave finishing its photos before the next
+starts. Run it in this order; the order matters at two points, noted below.
+
+```bash
+node scripts/move-import-wave.mjs --list          # what is still staged
+node scripts/move-import-wave.mjs <Brand>         # move one brand in
+node scripts/derive-fields.mjs
+node scripts/normalize-makes.mjs
+
+node scripts/fetch-car-images.mjs                 # round 1
+node scripts/make-contact-sheets.mjs --unverified --out <dir>
+#   -> LOOK at every sheet, then:
+node scripts/mark-image-verified.mjs <ids>
+node scripts/mark-image-verified.mjs --reject <ids>
+
+node scripts/fetch-car-images.mjs --unverified    # round 2, then review again
+#   -> two rounds is the budget. What is still wrong gets parked, not shipped.
+
+node scripts/optimize-car-images.mjs              # also lists anything over 2:1
+node scripts/recrop-wide-images.mjs --fetch --candidates   # if it listed any
+node scripts/apply-image-urls.mjs
+node scripts/park-imageless-cars.mjs              # AFTER the image rounds
+#   -> then delete any file in public/cars that no car points at
+
+npm run docs:refresh                              # CATALOG + PHOTO-CHECK + IMAGES-WANTED
+npm run lint && npm run data:test && npm run data:validate:grids && npm run build
+```
+
+**`npm run docs:refresh` is not optional.** Every car that passes verification
+and has a photo must appear in `docs/PHOTO-CHECK.md` — that file is the visual
+pass over the whole catalog, and a stale one silently omits the newest cars,
+which are precisely the ones that have been looked at least.
+
+All three are written by `npm run docs:refresh`
+(`make-catalog.mjs`, `make-photo-check.mjs`, `make-images-wanted.mjs`).
+`IMAGES-WANTED.md` was the last one still written by hand, which is why its
+counts drifted every wave and why a heredoc once ate its backticks.
+
+`CATALOG.md`, `docs/PHOTO-CHECK.md` and `docs/IMAGES-WANTED.md` are **generated
+and gitignored**: they are derived from `cars.json`, so tracking them would
+churn the diff on every wave and conflict on every merge, and they are read in a
+local markdown preview rather than on GitHub. Regenerate them rather than
+looking for them in a fresh clone. The other `docs/` files are hand-written
+decision records and stay tracked — CLAUDE.md links to `BRAND-PASS.md` and
+`move-import-wave.mjs` to `IMPORT-REVIEW.md`.
+
+`curation.test.mjs` still checks both reports against `cars.json`, but **only
+when they exist**, so it guards the machine that generates them and skips on a
+fresh checkout. That is the right place for it: the reports are written and read
+locally, so local is where staleness actually bites.
+
+**Park after the image rounds, never before**, and **re-validate the grids after
+parking**: the fetcher reads `cars.json` to know what to look for, and removing
+cars can drop a square below three answers.
+
+Two measured expectations, so a bad wave is recognisable as normal:
+roughly **70–90%** of records survive both image rounds (Škoda 32/35 at best,
+Holden 31/43 at worst), and a brand's hit rate tracks **how well its cars are
+photographed versus how well its history is** — Volvo's archive is full of
+factory line-ups and racing liveries, and Australian photographers strongly
+favour the rear three-quarter.
+
+**A car without a photo does not ship.** An empty `image_url` used to render as
+a plain text tile, which made the record a correct answer that showed the player
+nothing. Records without a verified photo now wait in
+`data/incoming/needs-photo.json` instead of sitting in the catalog:
+
+```bash
+node scripts/park-imageless-cars.mjs --dry-run   # what has no photo
+node scripts/park-imageless-cars.mjs             # move those out of cars.json
+node scripts/park-imageless-cars.mjs --restore   # bring back the now-photographed
+node scripts/validate-grids.mjs --min 3          # removing cars CAN break a grid
+```
+
+Nothing is deleted — the full record is kept and comes back the moment a photo
+is verified. `curation.test.mjs` enforces this, so a car with no photo fails CI.
+**Park after the image rounds, never before**: the fetcher reads `cars.json` to
+know what to look for, so a car parked early is a car it will never retry.
+
+**Give up on a photo rather than lower the bar.** Two fetch rounds is the
+budget; what is still wrong after that gets parked and logged, not shipped with
+a doubtful picture. Older European models are the hard case — for the Renault
+wave, plain Commons search returned a postage stamp of a 1910 car, a line
+drawing, a toy in a display box, four crashed cars, three race liveries, a
+police car, a fire engine, two interior shots and a close-up of an indicator
+lens. 25 of 79 were parked.
+
 **Every image needs the visual check.** A nameplate's lead image on Wikipedia is almost always the *current* generation, so an unreviewed fetch will happily file a 2024 Rogue under the 2008 one. Only entries marked `"verified": true` in `data/image-credits.json` are wired into `cars.json`; anything else leaves `image_url` empty and the grid renders a text tile instead of the wrong car. When automated resolution keeps failing, pin an exact Commons filename in `PINNED_FILES` in `scripts/fetch-car-images.mjs`.
 
 ## Deployment
@@ -234,12 +412,27 @@ npm run build      # writes out/ (~736 pages, ~27 MB incl. images)
   growing its archive.
 - **A redeploy is only needed** to change the dataset, the code, or to extend
   the schedule.
-- **The schedule runs out on 2028-10-20.** `validate-grids.mjs --min-days 90`
-  exits non-zero once fewer than 90 days remain, so wire it into CI rather than
-  relying on memory:
-  ```bash
-  node scripts/validate-grids.mjs --min 3 --min-days 90
-  ```
+- **The schedule runs out on 2028-11-02.** `validate-grids.mjs --min-days 90`
+  exits non-zero once fewer than 90 days remain. This is now wired into
+  `.github/workflows/checks.yml` rather than left to memory.
+
+### Checks run automatically
+
+`.github/workflows/checks.yml` runs lint, the curation tests, the grid schedule
+check and the build on every push and pull request to `main` and `dev`.
+
+It exists because **Netlify only runs `npm run build`, which is `next build`**.
+That typechecks and lints, so a code mistake already fails the deploy — but
+nothing looks at the data. Measured, not assumed: deleting `honda-cr-v-g1`
+drops the `SUV x Honda` square on 2026-10-23 from 3 answers to 2, and
+`npm run build` still succeeds and would deploy an unsolvable grid.
+`data:validate:grids` catches it and exits 1. 45 squares in the schedule sit at
+exactly the 3-answer minimum, so this is one careless edit away at all times.
+
+`validate-cars.mjs` is deliberately **not** in the workflow yet — it exits
+non-zero on 57 pre-existing provenance warnings, and a check that is always red
+is a check everyone ignores. It runs locally as `npm run data:validate:cars`,
+and joins the workflow once those are triaged.
 - `trailingSlash` matters: without it the export emits both `archive/<date>.html`
   and a directory `archive/<date>/` holding RSC payloads, and static hosts
   disagree about which wins. Every route is `<path>/index.html` instead.
@@ -252,7 +445,7 @@ The app is intentionally lightweight and mostly client-side:
 
 - **Grid logic** — a 3x3 grid with a row parameter and column parameter per axis; players guess which car satisfies both parameters for a cell. Gameplay and generation now share `src/lib/parameters.mjs`, re-exported by `scripts/grid-params.mjs`. Add parameter types to `src/lib/types.ts` and shared matching/value/label/tier rules together.
 - **Daily rotation** — the schedule is **pre-generated and committed** to `data/grids.json` by `scripts/generate-grids.mjs`, not derived at runtime, so an archived grid cannot change when the car dataset does. Dates roll over at the player's *local* midnight (`src/lib/date.ts`) — never `toISOString()`, which would flip the grid at 8pm ET.
-- **Grid solvability** — a grid is only valid if every cell has at least 3 answers *and* 9 **distinct** cars can fill the 9 cells. Per-cell counts alone are not enough, because the autocomplete bars reusing a car; the generator proves it with a bipartite perfect matching. `scripts/validate-grids.mjs` re-checks the whole schedule and must be run after any `cars.json` edit.
+- **Grid solvability** — a grid is only valid if every cell has at least 3 answers *and* 9 **distinct** answers can fill the 9 cells. An "answer" is a **nameplate**, not a record: a square holding five generations of Honda Civic offers one answer, and guessing a nameplate consumes all of its generations. Per-cell counts alone are not enough, because the autocomplete bars reusing an answer; the generator proves it with a bipartite perfect matching. `hasDistinctSolution` in `src/lib/nameplates.mjs` is the single implementation — the generator, `validate-grids.mjs` and `lib/curation.mjs` each had their own copy, which is three chances for a generator to disagree with its own validator. `scripts/validate-grids.mjs` re-checks the whole schedule and must be run after any `cars.json` edit.
 - **Grids are built, not guessed.** The generator pairs every two categories once into a compatibility table (does their square hold `minCell` cars without being a giveaway?), then assembles grids by only ever picking partners that table approves — so all nine cells are valid by construction and the per-cell check is redundant. Each date also gets a **featured category** from an even rotation, which is what guarantees breadth: an under-used category appears because its turn came up, not because a random draw got lucky. The long comment at the top of `generate-grids.mjs` has the measurements, including why the previous random-draw search got *worse* as the catalog grew and left a third of the categories permanently unreachable. **Do not replace this with a random search, and do not try to fix category coverage by adjusting the score** — that was tried and provably cannot work, because a losing category never reaches the scorer at all.
 - **Two categories on one axis must not be interchangeable.** `maxSameType` only counts *types*, so it misses cross-type clashes: "SUV" is both a `body_style` and a `car_class`, "Electric" both an `engine_layout` and a `fuel_type`. Without a check, an axis renders as `SUV | Inline-4 | SUV` — two columns a player cannot tell apart; 11 of 736 scheduled grids had one. `trioDistinct` in the generator rejects a trio with a repeated label, or with two categories that are **nearly** the same set — shared cars over combined cars above `maxTwinOverlap` (0.8). It used to demand the sets be *exactly* equal, which was too strict to catch anything useful: "Ford" (24 cars) and "Ford Motor Company" (25) differ by one Lincoln, so 2026-11-02 went live with both as columns. The exact test missed 65 of 742 days, all from four pairs that are two names for one idea — Asian/Japanese, 4 cylinders/Inline-4, Ford/Ford Motor Company, Jaguar/Tata Motors. The measure is deliberately two-way: a one-way "is a inside b" test also flags V6 inside 6 cylinders and V8 inside Automatic, which are real distinctions. 0.8 sits in a wide gap — the four bad pairs score 0.90–0.96, the next pair down (6 cylinders/V6) scores 0.71. Cross-*axis* duplicates need no check, because that square would be the whole of both categories and the compatibility table already rejects it as a giveaway.
 - **A category needs three workable partners to appear at all.** With `minCell: 3`, a category crossing a 3-category axis needs three partners that each yield a 3-answer square, so a narrow category (Plug-in Hybrid, 8 cars, 2 partners) is unusable no matter how interesting it is. `generate-grids.mjs --report` lists what is unreachable and what is one partner away, which makes it the data-collection to-do list: prefer a new category that crosses many existing ones over one that is merely novel.
@@ -269,7 +462,7 @@ Both `cars.json` and `grids.json` are inlined into a single client chunk (measur
 
 Two **friction** measures ship anyway, because they cost nothing and fix the cases a normal player would stumble into:
 
-- The guess autocomplete shows no production years (`carDisplayLabel`, `src/lib/cars.ts`). `Decade` is a live parameter, so printing the year span handed over the answer in the UI itself. Generations are disambiguated with `(Gen N)` only where a nameplate has more than one.
+- The guess autocomplete shows no production years (`nameplateLabel`, `src/lib/cars.ts`). `Decade` is a live parameter, so printing the year span handed over the answer in the UI itself. It shows no generation number either — see "Guessing is Make + Model" below for why that compromise was worse than either alternative.
 - `/credits` is sorted by photographer and omits production years, so it reads as the licence-compliance list it is rather than a browsable car index. It still covers **every** published image — that part is a licence obligation and must not be narrowed.
 
 If the exposure ever does matter, the cheapest real improvement is shipping only past-and-present grids and rebuilding daily (a scheduled Netlify build), which removes the two-year preview without touching the architecture.
