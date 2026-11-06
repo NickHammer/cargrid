@@ -329,7 +329,7 @@ node scripts/apply-image-urls.mjs
 node scripts/park-imageless-cars.mjs              # AFTER the image rounds
 #   -> then delete any file in public/cars that no car points at
 
-npm run docs:refresh                              # CATALOG.md + PHOTO-CHECK.md
+npm run docs:refresh                              # CATALOG + PHOTO-CHECK + IMAGES-WANTED
 npm run lint && npm run data:test && npm run data:validate:grids && npm run build
 ```
 
@@ -337,6 +337,11 @@ npm run lint && npm run data:test && npm run data:validate:grids && npm run buil
 and has a photo must appear in `docs/PHOTO-CHECK.md` — that file is the visual
 pass over the whole catalog, and a stale one silently omits the newest cars,
 which are precisely the ones that have been looked at least.
+
+All three are written by `npm run docs:refresh`
+(`make-catalog.mjs`, `make-photo-check.mjs`, `make-images-wanted.mjs`).
+`IMAGES-WANTED.md` was the last one still written by hand, which is why its
+counts drifted every wave and why a heredoc once ate its backticks.
 
 `CATALOG.md`, `docs/PHOTO-CHECK.md` and `docs/IMAGES-WANTED.md` are **generated
 and gitignored**: they are derived from `cars.json`, so tracking them would
